@@ -28,7 +28,7 @@ test:
 .PHONY: release
 release:
 	# get all deploy rules and execute them
-	bazel query 'kind(nuget_deploy, ...:*)' | xargs -L1 sh -c 'bazel run $$0 || exit 255'
+	bazel run :publish_all --define version=$(VERSION_NOPREFIX)
 
 .PHONY: clean
 clean:
