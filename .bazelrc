@@ -1,0 +1,2 @@
+# rules_dotnet cannot be used with bazel sandboxing
+build --spawn_strategy=standalone

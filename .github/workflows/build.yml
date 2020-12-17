@@ -1,0 +1,35 @@
+name: "SALTO APIs build"
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: init
+        run: |
+          docker build -f Dockerfile.build -t saltoapis-dotnet .
+          docker run --env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} --env GITHUB_ACTOR=$GITHUB_ACTOR --env GITHUB_SHA=$GITHUB_SHA --rm -i -d --name saltoapis-dotnet saltoapis-dotnet
+
+      - name: prepare
+        run: docker exec -i saltoapis-dotnet make prepare
+      - name: sanity-check
+        run: docker exec -i saltoapis-dotnet make sanity-check
+      - name: build
+        run: docker exec -i saltoapis-dotnet make build
+      - name: test
+        run: docker exec -i saltoapis-dotnet make test
+      - name: release
+        if: github.ref == 'refs/heads/master'
+        run: docker exec -i saltoapis-dotnet make release
+      - name: clean
+        run: |
+          docker exec -i saltoapis-dotnet make clean
+          docker stop saltoapis-dotnet
