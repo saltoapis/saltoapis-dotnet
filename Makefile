@@ -11,7 +11,7 @@ VERSION          ?= "v$(VERSION_NOPREFIX)"
 .PHONY: prepare
 prepare:
 	# set auth
-	dotnet nuget add source https://github.com/saltoapis/saltoapis-dotnet -n github  -u $$GITHUB_ACTOR -p $$GITHUB_TOKEN  --store-password-in-clear-text
+	dotnet nuget add source https://nuget.pkg.github.com/saltoapis/index.json -n github  -u $$GITHUB_ACTOR -p $$GITHUB_TOKEN  --store-password-in-clear-text
 	# Encryption is not supported on non-Windows platforms.
 
 
