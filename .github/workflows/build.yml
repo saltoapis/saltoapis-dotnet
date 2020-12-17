@@ -16,7 +16,7 @@ jobs:
       - name: init
         run: |
           docker build -f Dockerfile.build -t saltoapis-dotnet .
-          docker run --env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} --env GITHUB_ACTOR=$GITHUB_ACTOR --env GITHUB_SHA=$GITHUB_SHA --rm -i -d --name saltoapis-dotnet saltoapis-dotnet
+          docker run --env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} --env GITHUB_ACTOR=$GITHUB_ACTOR --rm -i -d --name saltoapis-dotnet saltoapis-dotnet
 
       - name: prepare
         run: docker exec -i saltoapis-dotnet make prepare
