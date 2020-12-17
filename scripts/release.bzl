@@ -12,10 +12,6 @@ load(
 ###################################
 
 def _nuget_deploy(ctx):
-    # Create package:
-    package_args = []
-    out_files = []
-
     # required files to deploy a package:
     run_files = []
 
@@ -29,6 +25,7 @@ def _nuget_deploy(ctx):
     _create_csproj_file(csproj_file, ctx.attr.id, version, ctx)
     run_files.append(csproj_file)
     
+    package_args = []
     if len(ctx.files.sources) > 0:
         package_args.append('--include-source')
         package_args.append('--include-symbols')
@@ -53,10 +50,12 @@ def _nuget_deploy(ctx):
             cd "{project_folder}"
             dotnet restore
             dotnet pack --configuration Release {package_args}
-            dotnet nuget push "bin/Release/*.nupkg" --source "github"
+            dotnet nuget push "bin/Release/{id}.{version}.nupkg" --source "github"
         '''.format(
             project_folder = csproj_file.short_path.split(csproj_file.basename)[0],
             package_args = ' '.join(package_args),
+            id = ctx.attr.id,
+            version = version,
         ),
         is_executable = True,
     )
@@ -90,12 +89,6 @@ nuget_deploy = rule(
                 We need to treat internal and external dependencies 
                 differently.
             """,
-        ),
-        'commit': attr.string(
-            mandatory = True,
-        ),
-        'url': attr.string(
-            mandatory = True,
         ),
         '_nuget_config_tmpl': attr.label(
             allow_single_file = True,

@@ -36,6 +36,4 @@ def load_rules(lib_name, internal_dependencies, extra_info):
         sources = native.glob(['*.cs']),
         deps = third_party_deps,
         internal_deps = lib_deps,
-        commit = GITHUB_SHA,
-        url = 'https://nuget.pkg.github.com/saltoapis/index.json',
     )
