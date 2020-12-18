@@ -25,12 +25,12 @@ namespace Saltoapis.Nebula.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiRzYWx0by9uZWJ1bGEvdHlwZS9vcGVuaW5nX21vZGUucHJvdG8SEXNhbHRv",
-            "Lm5lYnVsYS50eXBlKlIKC09wZW5pbmdNb2RlEhwKGE9QRU5JTkdfTU9ERV9V",
-            "TlNQRUNJRklFRBAAEgoKBk9GRklDRRABEg0KCUFVVE9NQVRJQxACEgoKBlRP",
-            "R0dMRRADQp8BChljb20uc2FsdG9hcGlzLm5lYnVsYS50eXBlQhBPcGVuaW5n",
-            "TW9kZVByb3RvUAFaVmdpdGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0",
-            "b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS90eXBlL29wZW5pbmdtb2RlO29w",
-            "ZW5pbmdtb2RlqgIVU2FsdG9hcGlzLk5lYnVsYS5UeXBlYgZwcm90bzM="));
+            "Lm5lYnVsYS50eXBlKkMKC09wZW5pbmdNb2RlEhwKGE9QRU5JTkdfTU9ERV9V",
+            "TlNQRUNJRklFRBAAEgoKBk9GRklDRRABEgoKBlRPR0dMRRACQp8BChljb20u",
+            "c2FsdG9hcGlzLm5lYnVsYS50eXBlQhBPcGVuaW5nTW9kZVByb3RvUAFaVmdp",
+            "dGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9hcGlz",
+            "LWdvL25lYnVsYS90eXBlL29wZW5pbmdtb2RlO29wZW5pbmdtb2RlqgIVU2Fs",
+            "dG9hcGlzLk5lYnVsYS5UeXBlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Saltoapis.Nebula.Type.OpeningMode), }, null, null));
@@ -52,13 +52,9 @@ namespace Saltoapis.Nebula.Type {
     /// </summary>
     [pbr::OriginalName("OFFICE")] Office = 1,
     /// <summary>
-    /// Automatic.
-    /// </summary>
-    [pbr::OriginalName("AUTOMATIC")] Automatic = 2,
-    /// <summary>
     /// Toggle.
     /// </summary>
-    [pbr::OriginalName("TOGGLE")] Toggle = 3,
+    [pbr::OriginalName("TOGGLE")] Toggle = 2,
   }
 
   #endregion
