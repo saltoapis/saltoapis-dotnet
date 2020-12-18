@@ -26,39 +26,45 @@ namespace Saltoapis.Nebula.Device.V1 {
           string.Concat(
             "CiVzYWx0by9uZWJ1bGEvZGV2aWNlL3YxL2V4dGVuZGVyLnByb3RvEhZzYWx0",
             "by5uZWJ1bGEuZGV2aWNlLnYxGhtnb29nbGUvcHJvdG9idWYvZW1wdHkucHJv",
-            "dG8aIGdvb2dsZS9wcm90b2J1Zi9maWVsZF9tYXNrLnByb3RvInAKFUNyZWF0",
-            "ZUV4dGVuZGVyUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEwoLZXh0ZW5kZXJf",
-            "aWQYAiABKAkSMgoIZXh0ZW5kZXIYAyABKAsyIC5zYWx0by5uZWJ1bGEuZGV2",
-            "aWNlLnYxLkV4dGVuZGVyIiUKFURlbGV0ZUV4dGVuZGVyUmVxdWVzdBIMCgRu",
-            "YW1lGAEgASgJInkKCEV4dGVuZGVyEgwKBG5hbWUYASABKAkSFAoMZGlzcGxh",
-            "eV9uYW1lGAIgASgJEhEKB2dhdGV3YXkYAyABKAlIABISCghleHRlbmRlchgE",
-            "IAEoCUgAEhEKCWRldmljZV9pZBgFIAEoCUIPCg1wYXJlbnRfZGV2aWNlIiIK",
-            "EkdldEV4dGVuZGVyUmVxdWVzdBIMCgRuYW1lGAEgASgJIm8KFExpc3RFeHRl",
-            "bmRlcnNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiAB",
-            "KAUSEgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3Jk",
-            "ZXJfYnkYBSABKAkiZQoVTGlzdEV4dGVuZGVyc1Jlc3BvbnNlEjMKCWV4dGVu",
-            "ZGVycxgBIAMoCzIgLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuRXh0ZW5kZXIS",
-            "FwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJInwKFVVwZGF0ZUV4dGVuZGVyUmVx",
-            "dWVzdBIyCghleHRlbmRlchgBIAEoCzIgLnNhbHRvLm5lYnVsYS5kZXZpY2Uu",
-            "djEuRXh0ZW5kZXISLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuRmllbGRNYXNrMvsDCg9FeHRlbmRlclNlcnZpY2USYQoOQ3JlYXRl",
-            "RXh0ZW5kZXISLS5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkNyZWF0ZUV4dGVu",
-            "ZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuRXh0ZW5kZXIS",
-            "VwoORGVsZXRlRXh0ZW5kZXISLS5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkRl",
-            "bGV0ZUV4dGVuZGVyUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJb",
-            "CgtHZXRFeHRlbmRlchIqLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuR2V0RXh0",
-            "ZW5kZXJSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmRldmljZS52MS5FeHRlbmRl",
-            "chJsCg1MaXN0RXh0ZW5kZXJzEiwuc2FsdG8ubmVidWxhLmRldmljZS52MS5M",
-            "aXN0RXh0ZW5kZXJzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEu",
-            "TGlzdEV4dGVuZGVyc1Jlc3BvbnNlEmEKDlVwZGF0ZUV4dGVuZGVyEi0uc2Fs",
-            "dG8ubmVidWxhLmRldmljZS52MS5VcGRhdGVFeHRlbmRlclJlcXVlc3QaIC5z",
-            "YWx0by5uZWJ1bGEuZGV2aWNlLnYxLkV4dGVuZGVyQpoBCh5jb20uc2FsdG9h",
-            "cGlzLm5lYnVsYS5kZXZpY2UudjFCDUV4dGVuZGVyUHJvdG9QAVpKZ2l0bGFi",
-            "LnJuZC5zYWx0b3N5c3RlbXMuY29tL3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28v",
-            "bmVidWxhL2RldmljZS92MTtkZXZpY2WqAhpTYWx0b2FwaXMuTmVidWxhLkRl",
-            "dmljZS5WMWIGcHJvdG8z"));
+            "dG8aIGdvb2dsZS9wcm90b2J1Zi9maWVsZF9tYXNrLnByb3RvGiRzYWx0by9s",
+            "b25ncnVubmluZy92MS9vcGVyYXRpb24ucHJvdG8icAoVQ3JlYXRlRXh0ZW5k",
+            "ZXJSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRITCgtleHRlbmRlcl9pZBgCIAEo",
+            "CRIyCghleHRlbmRlchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEu",
+            "RXh0ZW5kZXIiJQoVRGVsZXRlRXh0ZW5kZXJSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAkieQoIRXh0ZW5kZXISDAoEbmFtZRgBIAEoCRIUCgxkaXNwbGF5X25hbWUY",
+            "AiABKAkSEQoHZ2F0ZXdheRgDIAEoCUgAEhIKCGV4dGVuZGVyGAQgASgJSAAS",
+            "EQoJZGV2aWNlX2lkGAUgASgJQg8KDXBhcmVudF9kZXZpY2UiIgoSR2V0RXh0",
+            "ZW5kZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkibwoUTGlzdEV4dGVuZGVyc1Jl",
+            "cXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpw",
+            "YWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgF",
+            "IAEoCSJlChVMaXN0RXh0ZW5kZXJzUmVzcG9uc2USMwoJZXh0ZW5kZXJzGAEg",
+            "AygLMiAuc2FsdG8ubmVidWxhLmRldmljZS52MS5FeHRlbmRlchIXCg9uZXh0",
+            "X3BhZ2VfdG9rZW4YAiABKAkiOgoeVXBkYXRlRXh0ZW5kZXJGaXJtd2FyZU1l",
+            "dGFkYXRhEhgKEHByb2dyZXNzX3BlcmNlbnQYASABKAUiMQodVXBkYXRlRXh0",
+            "ZW5kZXJGaXJtd2FyZVJlcXVlc3QSEAoIZXh0ZW5kZXIYASABKAkiIAoeVXBk",
+            "YXRlRXh0ZW5kZXJGaXJtd2FyZVJlc3BvbnNlInwKFVVwZGF0ZUV4dGVuZGVy",
+            "UmVxdWVzdBIyCghleHRlbmRlchgBIAEoCzIgLnNhbHRvLm5lYnVsYS5kZXZp",
+            "Y2UudjEuRXh0ZW5kZXISLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUu",
+            "cHJvdG9idWYuRmllbGRNYXNrMu0ECg9FeHRlbmRlclNlcnZpY2USYQoOQ3Jl",
+            "YXRlRXh0ZW5kZXISLS5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkNyZWF0ZUV4",
+            "dGVuZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuRXh0ZW5k",
+            "ZXISVwoORGVsZXRlRXh0ZW5kZXISLS5zYWx0by5uZWJ1bGEuZGV2aWNlLnYx",
+            "LkRlbGV0ZUV4dGVuZGVyUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0",
+            "eRJbCgtHZXRFeHRlbmRlchIqLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuR2V0",
+            "RXh0ZW5kZXJSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmRldmljZS52MS5FeHRl",
+            "bmRlchJsCg1MaXN0RXh0ZW5kZXJzEiwuc2FsdG8ubmVidWxhLmRldmljZS52",
+            "MS5MaXN0RXh0ZW5kZXJzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5kZXZpY2Uu",
+            "djEuTGlzdEV4dGVuZGVyc1Jlc3BvbnNlEmEKDlVwZGF0ZUV4dGVuZGVyEi0u",
+            "c2FsdG8ubmVidWxhLmRldmljZS52MS5VcGRhdGVFeHRlbmRlclJlcXVlc3Qa",
+            "IC5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkV4dGVuZGVyEnAKFlVwZGF0ZUV4",
+            "dGVuZGVyRmlybXdhcmUSNS5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLlVwZGF0",
+            "ZUV4dGVuZGVyRmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcu",
+            "djEuT3BlcmF0aW9uQpoBCh5jb20uc2FsdG9hcGlzLm5lYnVsYS5kZXZpY2Uu",
+            "djFCDUV4dGVuZGVyUHJvdG9QAVpKZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMu",
+            "Y29tL3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2RldmljZS92MTtk",
+            "ZXZpY2WqAhpTYWx0b2FwaXMuTmVidWxhLkRldmljZS5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.CreateExtenderRequest), global::Saltoapis.Nebula.Device.V1.CreateExtenderRequest.Parser, new[]{ "Parent", "ExtenderId", "Extender" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.DeleteExtenderRequest), global::Saltoapis.Nebula.Device.V1.DeleteExtenderRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -66,6 +72,9 @@ namespace Saltoapis.Nebula.Device.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetExtenderRequest), global::Saltoapis.Nebula.Device.V1.GetExtenderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListExtendersRequest), global::Saltoapis.Nebula.Device.V1.ListExtendersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListExtendersResponse), global::Saltoapis.Nebula.Device.V1.ListExtendersResponse.Parser, new[]{ "Extenders", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareMetadata), global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest), global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest.Parser, new[]{ "Extender" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareResponse), global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.UpdateExtenderRequest), global::Saltoapis.Nebula.Device.V1.UpdateExtenderRequest.Parser, new[]{ "Extender", "UpdateMask" }, null, null, null, null)
           }));
     }
@@ -1613,6 +1622,503 @@ namespace Saltoapis.Nebula.Device.V1 {
   }
 
   /// <summary>
+  /// The metadata message for [`UpdateExtenderFirmware`][salto.nebula.device.v1.ExtenderService.UpdateExtenderFirmware]
+  /// </summary>
+  public sealed partial class UpdateExtenderFirmwareMetadata : pb::IMessage<UpdateExtenderFirmwareMetadata>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateExtenderFirmwareMetadata> _parser = new pb::MessageParser<UpdateExtenderFirmwareMetadata>(() => new UpdateExtenderFirmwareMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateExtenderFirmwareMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Device.V1.ExtenderReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareMetadata(UpdateExtenderFirmwareMetadata other) : this() {
+      progressPercent_ = other.progressPercent_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareMetadata Clone() {
+      return new UpdateExtenderFirmwareMetadata(this);
+    }
+
+    /// <summary>Field number for the "progress_percent" field.</summary>
+    public const int ProgressPercentFieldNumber = 1;
+    private int progressPercent_;
+    /// <summary>
+    /// Progress of operation. Range: [0, 100].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ProgressPercent {
+      get { return progressPercent_; }
+      set {
+        progressPercent_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateExtenderFirmwareMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateExtenderFirmwareMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ProgressPercent != other.ProgressPercent) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ProgressPercent != 0) hash ^= ProgressPercent.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ProgressPercent != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProgressPercent);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ProgressPercent != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProgressPercent);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ProgressPercent != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProgressPercent);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateExtenderFirmwareMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ProgressPercent != 0) {
+        ProgressPercent = other.ProgressPercent;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ProgressPercent = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            ProgressPercent = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`UpdateExtenderFirmware`][salto.nebula.device.v1.ExtenderService.UpdateExtenderFirmware]
+  /// </summary>
+  public sealed partial class UpdateExtenderFirmwareRequest : pb::IMessage<UpdateExtenderFirmwareRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateExtenderFirmwareRequest> _parser = new pb::MessageParser<UpdateExtenderFirmwareRequest>(() => new UpdateExtenderFirmwareRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateExtenderFirmwareRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Device.V1.ExtenderReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareRequest(UpdateExtenderFirmwareRequest other) : this() {
+      extender_ = other.extender_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareRequest Clone() {
+      return new UpdateExtenderFirmwareRequest(this);
+    }
+
+    /// <summary>Field number for the "extender" field.</summary>
+    public const int ExtenderFieldNumber = 1;
+    private string extender_ = "";
+    /// <summary>
+    /// The resource name of the extender whose firmware will be updated, for
+    /// example:
+    /// `installations/surelock-homes-hq/extenders/elementary`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Extender {
+      get { return extender_; }
+      set {
+        extender_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateExtenderFirmwareRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateExtenderFirmwareRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Extender != other.Extender) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Extender.Length != 0) hash ^= Extender.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Extender.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Extender);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Extender.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Extender);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Extender.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateExtenderFirmwareRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Extender.Length != 0) {
+        Extender = other.Extender;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Extender = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Extender = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`UpdateExtenderFirmware`][salto.nebula.device.v1.ExtenderService.UpdateExtenderFirmware]
+  /// </summary>
+  public sealed partial class UpdateExtenderFirmwareResponse : pb::IMessage<UpdateExtenderFirmwareResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateExtenderFirmwareResponse> _parser = new pb::MessageParser<UpdateExtenderFirmwareResponse>(() => new UpdateExtenderFirmwareResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateExtenderFirmwareResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Device.V1.ExtenderReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareResponse(UpdateExtenderFirmwareResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateExtenderFirmwareResponse Clone() {
+      return new UpdateExtenderFirmwareResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateExtenderFirmwareResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateExtenderFirmwareResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateExtenderFirmwareResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The response message for [UpdateExtender][salto.nebula.device.v1.DeviceService.UpdateExtender]
   /// </summary>
   public sealed partial class UpdateExtenderRequest : pb::IMessage<UpdateExtenderRequest>
@@ -1627,7 +2133,7 @@ namespace Saltoapis.Nebula.Device.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Device.V1.ExtenderReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.Device.V1.ExtenderReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

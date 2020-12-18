@@ -25,6 +25,8 @@ namespace Saltoapis.Nebula.Device.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Device.V1.ListExtendersRequest> __Marshaller_salto_nebula_device_v1_ListExtendersRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Device.V1.ListExtendersRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Device.V1.ListExtendersResponse> __Marshaller_salto_nebula_device_v1_ListExtendersResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Device.V1.ListExtendersResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Device.V1.UpdateExtenderRequest> __Marshaller_salto_nebula_device_v1_UpdateExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Device.V1.UpdateExtenderRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest> __Marshaller_salto_nebula_device_v1_UpdateExtenderFirmwareRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.Operation.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Device.V1.CreateExtenderRequest, global::Saltoapis.Nebula.Device.V1.Extender> __Method_CreateExtender = new grpc::Method<global::Saltoapis.Nebula.Device.V1.CreateExtenderRequest, global::Saltoapis.Nebula.Device.V1.Extender>(
         grpc::MethodType.Unary,
@@ -60,6 +62,13 @@ namespace Saltoapis.Nebula.Device.V1 {
         "UpdateExtender",
         __Marshaller_salto_nebula_device_v1_UpdateExtenderRequest,
         __Marshaller_salto_nebula_device_v1_Extender);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_UpdateExtenderFirmware = new grpc::Method<global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateExtenderFirmware",
+        __Marshaller_salto_nebula_device_v1_UpdateExtenderFirmwareRequest,
+        __Marshaller_salto_longrunning_v1_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -349,6 +358,62 @@ namespace Saltoapis.Nebula.Device.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Device.V1.Extender> UpdateExtenderAsync(global::Saltoapis.Nebula.Device.V1.UpdateExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateExtender, null, options, request);
+      }
+      /// <summary>
+      /// Update extender firmware
+      ///
+      /// Updates an extender's firmware. SALTO provides firmware updates when
+      /// new functionality is available or when we fix a bug.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Longrunning.V1.Operation UpdateExtenderFirmware(global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateExtenderFirmware(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update extender firmware
+      ///
+      /// Updates an extender's firmware. SALTO provides firmware updates when
+      /// new functionality is available or when we fix a bug.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Longrunning.V1.Operation UpdateExtenderFirmware(global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateExtenderFirmware, null, options, request);
+      }
+      /// <summary>
+      /// Update extender firmware
+      ///
+      /// Updates an extender's firmware. SALTO provides firmware updates when
+      /// new functionality is available or when we fix a bug.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateExtenderFirmwareAsync(global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateExtenderFirmwareAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update extender firmware
+      ///
+      /// Updates an extender's firmware. SALTO provides firmware updates when
+      /// new functionality is available or when we fix a bug.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateExtenderFirmwareAsync(global::Saltoapis.Nebula.Device.V1.UpdateExtenderFirmwareRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateExtenderFirmware, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ExtenderServiceClient NewInstance(ClientBaseConfiguration configuration)
