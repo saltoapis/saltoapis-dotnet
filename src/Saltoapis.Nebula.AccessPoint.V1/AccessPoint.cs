@@ -29,85 +29,88 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             "b2J1Zi9lbXB0eS5wcm90bxogZ29vZ2xlL3Byb3RvYnVmL2ZpZWxkX21hc2su",
             "cHJvdG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlvbi5wcm90bxok",
             "c2FsdG8vbmVidWxhL3R5cGUvb3BlbmluZ19tb2RlLnByb3RvGiRzYWx0by9u",
-            "ZWJ1bGEvdHlwZXMvdjEva2V5X3R5cGUucHJvdG8iyQMKC0FjY2Vzc1BvaW50",
+            "ZWJ1bGEvdHlwZXMvdjEva2V5X3R5cGUucHJvdG8i3QQKC0FjY2Vzc1BvaW50",
             "EgwKBG5hbWUYASABKAkSEQoHZ2F0ZXdheRgCIAEoCUgAEhIKCGV4dGVuZGVy",
             "GAMgASgJSAASFAoMZGlzcGxheV9uYW1lGAQgASgJEjkKEWFsbG93ZWRfa2V5",
             "X3R5cGVzGAUgAygOMh4uc2FsdG8ubmVidWxhLnR5cGVzLnYxLktleVR5cGUS",
             "EQoJZGV2aWNlX2lkGAYgASgJEloKFGluaXRpYWxpemF0aW9uX3N0YXRlGAcg",
             "ASgOMjwuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50",
             "LkluaXRpYWxpemF0aW9uU3RhdGUSLwoFZml4ZWQYCiABKA4yHi5zYWx0by5u",
-            "ZWJ1bGEudHlwZS5PcGVuaW5nTW9kZUgBEhIKCHNjaGVkdWxlGAsgASgJSAEi",
-            "XwoTSW5pdGlhbGl6YXRpb25TdGF0ZRIkCiBJTklUSUFMSVpBVElPTl9TVEFU",
-            "RV9VTlNQRUNJRklFRBAAEhEKDVVOSU5JVElBTElaRUQQARIPCgtJTklUSUFM",
-            "SVpFRBACQg8KDXBhcmVudF9kZXZpY2VCDgoMb3BlbmluZ19tb2RlIh4KHENv",
-            "bmZpZ3VyZUFjY2Vzc1BvaW50TWV0YWRhdGEiKwobQ29uZmlndXJlQWNjZXNz",
-            "UG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkiHgocQ29uZmlndXJlQWNjZXNz",
-            "UG9pbnRSZXNwb25zZSKDAQoYQ3JlYXRlQWNjZXNzUG9pbnRSZXF1ZXN0Eg4K",
-            "BnBhcmVudBgBIAEoCRIXCg9hY2Nlc3NfcG9pbnRfaWQYAiABKAkSPgoMYWNj",
-            "ZXNzX3BvaW50GAMgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYx",
-            "LkFjY2Vzc1BvaW50IigKGERlbGV0ZUFjY2Vzc1BvaW50UmVxdWVzdBIMCgRu",
-            "YW1lGAEgASgJIiUKFUdldEFjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEg",
-            "ASgJIjkKHUluaXRpYWxpemVBY2Nlc3NQb2ludE1ldGFkYXRhEhgKEHByb2dy",
-            "ZXNzX3BlcmNlbnQYASABKAUiLAocSW5pdGlhbGl6ZUFjY2Vzc1BvaW50UmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJIh8KHUluaXRpYWxpemVBY2Nlc3NQb2ludFJl",
-            "c3BvbnNlInIKF0xpc3RBY2Nlc3NQb2ludHNSZXF1ZXN0Eg4KBnBhcmVudBgB",
-            "IAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIO",
-            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkidAoYTGlzdEFjY2Vz",
-            "c1BvaW50c1Jlc3BvbnNlEj8KDWFjY2Vzc19wb2ludHMYASADKAsyKC5zYWx0",
-            "by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSFwoPbmV4dF9w",
-            "YWdlX3Rva2VuGAIgASgJIhoKGFJlc2V0QWNjZXNzUG9pbnRNZXRhZGF0YSIn",
-            "ChdSZXNldEFjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEgASgJIhoKGFJl",
-            "c2V0QWNjZXNzUG9pbnRSZXNwb25zZSKeAwoWVGVzdEFjY2Vzc1BvaW50UmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJEkwKBGVjaG8YAiABKAsyPC5zYWx0by5uZWJ1",
-            "bGEuYWNjZXNzcG9pbnQudjEuVGVzdEFjY2Vzc1BvaW50UmVxdWVzdC5FY2hv",
-            "TW9kZUgAEl0KDXJlc3BvbnNlX29ubHkYAyABKAsyRC5zYWx0by5uZWJ1bGEu",
-            "YWNjZXNzcG9pbnQudjEuVGVzdEFjY2Vzc1BvaW50UmVxdWVzdC5SZXNwb25z",
-            "ZU9ubHlNb2RlSAASWwoMY29tbWFuZF9vbmx5GAQgASgLMkMuc2FsdG8ubmVi",
-            "dWxhLmFjY2Vzc3BvaW50LnYxLlRlc3RBY2Nlc3NQb2ludFJlcXVlc3QuQ29t",
-            "bWFuZE9ubHlNb2RlSAAaHwoPQ29tbWFuZE9ubHlNb2RlEgwKBGRhdGEYASAB",
-            "KAwaGAoIRWNob01vZGUSDAoEZGF0YRgBIAEoDBopChBSZXNwb25zZU9ubHlN",
-            "b2RlEhUKDXJlc3BvbnNlX3NpemUYASABKAVCBgoEbW9kZSI9CiFVcGRhdGVB",
-            "Y2Nlc3NQb2ludEZpcm13YXJlTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2Vu",
-            "dBgBIAEoBSI4CiBVcGRhdGVBY2Nlc3NQb2ludEZpcm13YXJlUmVxdWVzdBIU",
-            "CgxhY2Nlc3NfcG9pbnQYASABKAkiIwohVXBkYXRlQWNjZXNzUG9pbnRGaXJt",
-            "d2FyZVJlc3BvbnNlIosBChhVcGRhdGVBY2Nlc3NQb2ludFJlcXVlc3QSPgoM",
-            "YWNjZXNzX3BvaW50GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50",
-            "LnYxLkFjY2Vzc1BvaW50Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xl",
-            "LnByb3RvYnVmLkZpZWxkTWFzazKFCQoSQWNjZXNzUG9pbnRTZXJ2aWNlEnEK",
-            "FENvbmZpZ3VyZUFjY2Vzc1BvaW50Ejguc2FsdG8ubmVidWxhLmFjY2Vzc3Bv",
-            "aW50LnYxLkNvbmZpZ3VyZUFjY2Vzc1BvaW50UmVxdWVzdBofLnNhbHRvLmxv",
-            "bmdydW5uaW5nLnYxLk9wZXJhdGlvbhJ0ChFDcmVhdGVBY2Nlc3NQb2ludBI1",
-            "LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5DcmVhdGVBY2Nlc3NQb2lu",
+            "ZWJ1bGEudHlwZS5PcGVuaW5nTW9kZUgBEhIKCHNjaGVkdWxlGAsgASgJSAES",
+            "SgoMdXBkYXRlX3N0YXRlGAwgASgOMjQuc2FsdG8ubmVidWxhLmFjY2Vzc3Bv",
+            "aW50LnYxLkFjY2Vzc1BvaW50LlVwZGF0ZVN0YXRlIl8KE0luaXRpYWxpemF0",
+            "aW9uU3RhdGUSJAogSU5JVElBTElaQVRJT05fU1RBVEVfVU5TUEVDSUZJRUQQ",
+            "ABIRCg1VTklOSVRJQUxJWkVEEAESDwoLSU5JVElBTElaRUQQAiJGCgtVcGRh",
+            "dGVTdGF0ZRIcChhVUERBVEVfU1RBVEVfVU5TUEVDSUZJRUQQABIMCghPVVRE",
+            "QVRFRBABEgsKB1VQREFURUQQAkIPCg1wYXJlbnRfZGV2aWNlQg4KDG9wZW5p",
+            "bmdfbW9kZSIeChxDb25maWd1cmVBY2Nlc3NQb2ludE1ldGFkYXRhIisKG0Nv",
+            "bmZpZ3VyZUFjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEgASgJIh4KHENv",
+            "bmZpZ3VyZUFjY2Vzc1BvaW50UmVzcG9uc2UigwEKGENyZWF0ZUFjY2Vzc1Bv",
+            "aW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSFwoPYWNjZXNzX3BvaW50X2lk",
+            "GAIgASgJEj4KDGFjY2Vzc19wb2ludBgDIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
+            "Y2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCIoChhEZWxldGVBY2Nlc3NQb2lu",
+            "dFJlcXVlc3QSDAoEbmFtZRgBIAEoCSIlChVHZXRBY2Nlc3NQb2ludFJlcXVl",
+            "c3QSDAoEbmFtZRgBIAEoCSI5Ch1Jbml0aWFsaXplQWNjZXNzUG9pbnRNZXRh",
+            "ZGF0YRIYChBwcm9ncmVzc19wZXJjZW50GAEgASgFIiwKHEluaXRpYWxpemVB",
+            "Y2Nlc3NQb2ludFJlcXVlc3QSDAoEbmFtZRgBIAEoCSIfCh1Jbml0aWFsaXpl",
+            "QWNjZXNzUG9pbnRSZXNwb25zZSJyChdMaXN0QWNjZXNzUG9pbnRzUmVxdWVz",
+            "dBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2Vf",
+            "dG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJ",
+            "InQKGExpc3RBY2Nlc3NQb2ludHNSZXNwb25zZRI/Cg1hY2Nlc3NfcG9pbnRz",
+            "GAEgAygLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1Bv",
+            "aW50EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSIaChhSZXNldEFjY2Vzc1Bv",
+            "aW50TWV0YWRhdGEiJwoXUmVzZXRBY2Nlc3NQb2ludFJlcXVlc3QSDAoEbmFt",
+            "ZRgBIAEoCSIaChhSZXNldEFjY2Vzc1BvaW50UmVzcG9uc2UingMKFlRlc3RB",
+            "Y2Nlc3NQb2ludFJlcXVlc3QSDAoEbmFtZRgBIAEoCRJMCgRlY2hvGAIgASgL",
+            "Mjwuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLlRlc3RBY2Nlc3NQb2lu",
+            "dFJlcXVlc3QuRWNob01vZGVIABJdCg1yZXNwb25zZV9vbmx5GAMgASgLMkQu",
+            "c2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLlRlc3RBY2Nlc3NQb2ludFJl",
+            "cXVlc3QuUmVzcG9uc2VPbmx5TW9kZUgAElsKDGNvbW1hbmRfb25seRgEIAEo",
+            "CzJDLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5UZXN0QWNjZXNzUG9p",
+            "bnRSZXF1ZXN0LkNvbW1hbmRPbmx5TW9kZUgAGh8KD0NvbW1hbmRPbmx5TW9k",
+            "ZRIMCgRkYXRhGAEgASgMGhgKCEVjaG9Nb2RlEgwKBGRhdGEYASABKAwaKQoQ",
+            "UmVzcG9uc2VPbmx5TW9kZRIVCg1yZXNwb25zZV9zaXplGAEgASgFQgYKBG1v",
+            "ZGUiPQohVXBkYXRlQWNjZXNzUG9pbnRGaXJtd2FyZU1ldGFkYXRhEhgKEHBy",
+            "b2dyZXNzX3BlcmNlbnQYASABKAUiOAogVXBkYXRlQWNjZXNzUG9pbnRGaXJt",
+            "d2FyZVJlcXVlc3QSFAoMYWNjZXNzX3BvaW50GAEgASgJIiMKIVVwZGF0ZUFj",
+            "Y2Vzc1BvaW50RmlybXdhcmVSZXNwb25zZSKLAQoYVXBkYXRlQWNjZXNzUG9p",
+            "bnRSZXF1ZXN0Ej4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVs",
+            "YS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIvCgt1cGRhdGVfbWFzaxgC",
+            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2syhQkKEkFjY2Vzc1Bv",
+            "aW50U2VydmljZRJxChRDb25maWd1cmVBY2Nlc3NQb2ludBI4LnNhbHRvLm5l",
+            "YnVsYS5hY2Nlc3Nwb2ludC52MS5Db25maWd1cmVBY2Nlc3NQb2ludFJlcXVl",
+            "c3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SdAoRQ3JlYXRl",
+            "QWNjZXNzUG9pbnQSNS5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQ3Jl",
+            "YXRlQWNjZXNzUG9pbnRSZXF1ZXN0Giguc2FsdG8ubmVidWxhLmFjY2Vzc3Bv",
+            "aW50LnYxLkFjY2Vzc1BvaW50EmIKEURlbGV0ZUFjY2Vzc1BvaW50EjUuc2Fs",
+            "dG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkRlbGV0ZUFjY2Vzc1BvaW50UmVx",
+            "dWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJuCg5HZXRBY2Nlc3NQb2lu",
+            "dBIyLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5HZXRBY2Nlc3NQb2lu",
             "dFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNz",
-            "UG9pbnQSYgoRRGVsZXRlQWNjZXNzUG9pbnQSNS5zYWx0by5uZWJ1bGEuYWNj",
-            "ZXNzcG9pbnQudjEuRGVsZXRlQWNjZXNzUG9pbnRSZXF1ZXN0GhYuZ29vZ2xl",
-            "LnByb3RvYnVmLkVtcHR5Em4KDkdldEFjY2Vzc1BvaW50EjIuc2FsdG8ubmVi",
-            "dWxhLmFjY2Vzc3BvaW50LnYxLkdldEFjY2Vzc1BvaW50UmVxdWVzdBooLnNh",
-            "bHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBJzChVJbml0",
-            "aWFsaXplQWNjZXNzUG9pbnQSOS5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQu",
-            "djEuSW5pdGlhbGl6ZUFjY2Vzc1BvaW50UmVxdWVzdBofLnNhbHRvLmxvbmdy",
-            "dW5uaW5nLnYxLk9wZXJhdGlvbhJ/ChBMaXN0QWNjZXNzUG9pbnRzEjQuc2Fs",
-            "dG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkxpc3RBY2Nlc3NQb2ludHNSZXF1",
-            "ZXN0GjUuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkxpc3RBY2Nlc3NQ",
-            "b2ludHNSZXNwb25zZRJpChBSZXNldEFjY2Vzc1BvaW50EjQuc2FsdG8ubmVi",
-            "dWxhLmFjY2Vzc3BvaW50LnYxLlJlc2V0QWNjZXNzUG9pbnRSZXF1ZXN0Gh8u",
-            "c2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEl4KD1Rlc3RBY2Nlc3NQ",
-            "b2ludBIzLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5UZXN0QWNjZXNz",
-            "UG9pbnRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EnQKEVVwZGF0",
-            "ZUFjY2Vzc1BvaW50EjUuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLlVw",
-            "ZGF0ZUFjY2Vzc1BvaW50UmVxdWVzdBooLnNhbHRvLm5lYnVsYS5hY2Nlc3Nw",
-            "b2ludC52MS5BY2Nlc3NQb2ludBJ7ChlVcGRhdGVBY2Nlc3NQb2ludEZpcm13",
-            "YXJlEj0uc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLlVwZGF0ZUFjY2Vz",
-            "c1BvaW50RmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEu",
-            "T3BlcmF0aW9uQrEBCiNjb20uc2FsdG9hcGlzLm5lYnVsYS5hY2Nlc3Nwb2lu",
-            "dC52MUIQQWNjZXNzUG9pbnRQcm90b1ABWlRnaXRsYWIucm5kLnNhbHRvc3lz",
-            "dGVtcy5jb20vc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvYWNjZXNz",
-            "cG9pbnQvdjE7YWNjZXNzcG9pbnSqAh9TYWx0b2FwaXMuTmVidWxhLkFjY2Vz",
-            "c1BvaW50LlYxYgZwcm90bzM="));
+            "UG9pbnQScwoVSW5pdGlhbGl6ZUFjY2Vzc1BvaW50Ejkuc2FsdG8ubmVidWxh",
+            "LmFjY2Vzc3BvaW50LnYxLkluaXRpYWxpemVBY2Nlc3NQb2ludFJlcXVlc3Qa",
+            "Hy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SfwoQTGlzdEFjY2Vz",
+            "c1BvaW50cxI0LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5MaXN0QWNj",
+            "ZXNzUG9pbnRzUmVxdWVzdBo1LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
+            "MS5MaXN0QWNjZXNzUG9pbnRzUmVzcG9uc2USaQoQUmVzZXRBY2Nlc3NQb2lu",
+            "dBI0LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5SZXNldEFjY2Vzc1Bv",
+            "aW50UmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJe",
+            "Cg9UZXN0QWNjZXNzUG9pbnQSMy5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQu",
+            "djEuVGVzdEFjY2Vzc1BvaW50UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5F",
+            "bXB0eRJ0ChFVcGRhdGVBY2Nlc3NQb2ludBI1LnNhbHRvLm5lYnVsYS5hY2Nl",
+            "c3Nwb2ludC52MS5VcGRhdGVBY2Nlc3NQb2ludFJlcXVlc3QaKC5zYWx0by5u",
+            "ZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSewoZVXBkYXRlQWNj",
+            "ZXNzUG9pbnRGaXJtd2FyZRI9LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
+            "MS5VcGRhdGVBY2Nlc3NQb2ludEZpcm13YXJlUmVxdWVzdBofLnNhbHRvLmxv",
+            "bmdydW5uaW5nLnYxLk9wZXJhdGlvbkKxAQojY29tLnNhbHRvYXBpcy5uZWJ1",
+            "bGEuYWNjZXNzcG9pbnQudjFCEEFjY2Vzc1BvaW50UHJvdG9QAVpUZ2l0bGFi",
+            "LnJuZC5zYWx0b3N5c3RlbXMuY29tL3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28v",
+            "bmVidWxhL2FjY2Vzc3BvaW50L3YxO2FjY2Vzc3BvaW50qgIfU2FsdG9hcGlz",
+            "Lk5lYnVsYS5BY2Nlc3NQb2ludC5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, global::Saltoapis.Nebula.Type.OpeningModeReflection.Descriptor, global::Saltoapis.Nebula.Types.V1.KeyTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint), global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser, new[]{ "Name", "Gateway", "Extender", "DisplayName", "AllowedKeyTypes", "DeviceId", "InitializationState", "Fixed", "Schedule" }, new[]{ "ParentDevice", "OpeningMode" }, new[]{ typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint), global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser, new[]{ "Name", "Gateway", "Extender", "DisplayName", "AllowedKeyTypes", "DeviceId", "InitializationState", "Fixed", "Schedule", "UpdateState" }, new[]{ "ParentDevice", "OpeningMode" }, new[]{ typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState), typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointMetadata), global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointMetadata.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointResponse), global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointResponse.Parser, null, null, null, null, null),
@@ -172,6 +175,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       allowedKeyTypes_ = other.allowedKeyTypes_.Clone();
       deviceId_ = other.deviceId_;
       initializationState_ = other.initializationState_;
+      updateState_ = other.updateState_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -333,6 +337,24 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
     }
 
+    /// <summary>Field number for the "update_state" field.</summary>
+    public const int UpdateStateFieldNumber = 12;
+    private global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState updateState_ = global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified;
+    /// <summary>
+    /// Indicates whether this access point has pending updates or not.
+    /// This field cannot be modified using a standard
+    /// [`UpdateAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.UpdateAccessPoint]
+    /// operation. To change the value of this field, you must call
+    /// [`ConfigureAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.ConfigureAccessPoint].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState UpdateState {
+      get { return updateState_; }
+      set {
+        updateState_ = value;
+      }
+    }
+
     private object parentDevice_;
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
@@ -393,6 +415,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (InitializationState != other.InitializationState) return false;
       if (Fixed != other.Fixed) return false;
       if (Schedule != other.Schedule) return false;
+      if (UpdateState != other.UpdateState) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       if (OpeningModeCase != other.OpeningModeCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -410,6 +433,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (InitializationState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState.Unspecified) hash ^= InitializationState.GetHashCode();
       if (openingModeCase_ == OpeningModeOneofCase.Fixed) hash ^= Fixed.GetHashCode();
       if (openingModeCase_ == OpeningModeOneofCase.Schedule) hash ^= Schedule.GetHashCode();
+      if (UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) hash ^= UpdateState.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       hash ^= (int) openingModeCase_;
       if (_unknownFields != null) {
@@ -461,6 +485,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(90);
         output.WriteString(Schedule);
       }
+      if (UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) {
+        output.WriteRawTag(96);
+        output.WriteEnum((int) UpdateState);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -503,6 +531,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(90);
         output.WriteString(Schedule);
       }
+      if (UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) {
+        output.WriteRawTag(96);
+        output.WriteEnum((int) UpdateState);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -537,6 +569,9 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (openingModeCase_ == OpeningModeOneofCase.Schedule) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Schedule);
       }
+      if (UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) UpdateState);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -560,6 +595,9 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
       if (other.InitializationState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState.Unspecified) {
         InitializationState = other.InitializationState;
+      }
+      if (other.UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) {
+        UpdateState = other.UpdateState;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -631,6 +669,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             Schedule = input.ReadString();
             break;
           }
+          case 96: {
+            UpdateState = (global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState) input.ReadEnum();
+            break;
+          }
         }
       }
     #endif
@@ -683,6 +725,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             Schedule = input.ReadString();
             break;
           }
+          case 96: {
+            UpdateState = (global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState) input.ReadEnum();
+            break;
+          }
         }
       }
     }
@@ -710,6 +756,25 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         /// The access point has already been initialized.
         /// </summary>
         [pbr::OriginalName("INITIALIZED")] Initialized = 2,
+      }
+
+      /// <summary>
+      /// Update state for an access point.
+      /// </summary>
+      public enum UpdateState {
+        /// <summary>
+        /// Sentinel value used to indicate that the state is unknown, omitted,
+        /// or is not applicable.
+        /// </summary>
+        [pbr::OriginalName("UPDATE_STATE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// The access point has to be updated with a new configuration.
+        /// </summary>
+        [pbr::OriginalName("OUTDATED")] Outdated = 1,
+        /// <summary>
+        /// It has been already updated.
+        /// </summary>
+        [pbr::OriginalName("UPDATED")] Updated = 2,
       }
 
     }
