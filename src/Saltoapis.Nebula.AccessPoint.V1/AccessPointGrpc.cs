@@ -28,7 +28,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest> __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse> __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_ResetAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.TestAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_TestAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.TestAccessPointRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_UpdateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest> __Marshaller_salto_nebula_accesspoint_v1_UpdateAccessPointFirmwareRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest.Parser.ParseFrom);
 
@@ -80,13 +79,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         "ResetAccessPoint",
         __Marshaller_salto_nebula_accesspoint_v1_ResetAccessPointRequest,
         __Marshaller_salto_longrunning_v1_Operation);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.TestAccessPointRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_TestAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.TestAccessPointRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "TestAccessPoint",
-        __Marshaller_salto_nebula_accesspoint_v1_TestAccessPointRequest,
-        __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> __Method_UpdateAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint>(
         grpc::MethodType.Unary,
@@ -514,58 +506,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ResetAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Test an access point
-      ///
-      /// Tests an access point's communication.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty TestAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.TestAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return TestAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Test an access point
-      ///
-      /// Tests an access point's communication.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty TestAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.TestAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_TestAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Test an access point
-      ///
-      /// Tests an access point's communication.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> TestAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.TestAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return TestAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Test an access point
-      ///
-      /// Tests an access point's communication.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> TestAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.TestAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_TestAccessPoint, null, options, request);
       }
       /// <summary>
       /// Update an access point
