@@ -11,7 +11,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The calendar functionality defines your organization's working calendar.
   /// For example, you can define public holidays, company holidays and company
-  /// shutdowns. This service responsible for managing calendar resources.
+  /// shutdowns. This service is responsible for managing calendar resources.
   /// </summary>
   public static partial class CalendarService
   {
