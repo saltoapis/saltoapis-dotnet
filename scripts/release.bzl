@@ -22,7 +22,8 @@ def _nuget_deploy(ctx):
 
     # create spec files
     csproj_file = ctx.actions.declare_file(out_dir + "/%s.csproj" % ctx.attr.id)
-    _create_csproj_file(csproj_file, ctx.attr.id, version, ctx)
+
+    _create_csproj_file(csproj_file, version, ctx)
     run_files.append(csproj_file)
     
     package_args = []
@@ -72,6 +73,9 @@ nuget_deploy = rule(
         'id': attr.string(
             mandatory = True,
         ),
+        'description': attr.string(
+            mandatory = True,
+        ),
         'sources': attr.label_list(
             allow_files = True,
         ),
@@ -105,7 +109,8 @@ nuget_deploy = rule(
 
 
 
-def _create_csproj_file(csproj_file, id, internal_version, ctx):
+def _create_csproj_file(csproj_file, internal_version, ctx):
+    id = ctx.attr.id
     dependencies = []
     # create dependencies
     # internal
@@ -132,7 +137,7 @@ def _create_csproj_file(csproj_file, id, internal_version, ctx):
         output = csproj_file,
         substitutions = {
             '{id}': id,
-            '{apiName}': id,
+            '{description}': ctx.attr.description,
             '{version}': internal_version,
             '{dependencies}': "\n        ".join(dependencies),
         }
