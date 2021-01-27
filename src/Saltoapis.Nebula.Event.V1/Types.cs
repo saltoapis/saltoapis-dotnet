@@ -28,52 +28,55 @@ namespace Saltoapis.Nebula.Event.V1 {
             "YnVsYS5ldmVudC52MRouc2FsdG8vbmVidWxhL2FjY2Vzc3BvaW50L3YxL2Fj",
             "Y2Vzc19wb2ludC5wcm90bxouc2FsdG8vbmVidWxhL2FjY2Vzc3JpZ2h0L3Yx",
             "L2FjY2Vzc19yaWdodC5wcm90bxofc2FsdG8vbmVidWxhL3VzZXIvdjEvdXNl",
-            "ci5wcm90byJUChJBY2Nlc3NQb2ludENyZWF0ZWQSPgoMYWNjZXNzX3BvaW50",
-            "GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1Bv",
-            "aW50IlQKEkFjY2Vzc1BvaW50RGVsZXRlZBI+CgxhY2Nlc3NfcG9pbnQYASAB",
-            "KAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQi",
-            "hQEKGUFjY2Vzc1BvaW50T3BlbmVkQnlBcHBLZXkSPgoMYWNjZXNzX3BvaW50",
-            "GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1Bv",
-            "aW50EigKBHVzZXIYAiABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2Vy",
-            "IoYBChpBY2Nlc3NQb2ludE9wZW5lZEJ5Q2FyZEtleRI+CgxhY2Nlc3NfcG9p",
-            "bnQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNz",
-            "UG9pbnQSKAoEdXNlchgCIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVz",
-            "ZXIiVAoSQWNjZXNzUG9pbnRVcGRhdGVkEj4KDGFjY2Vzc19wb2ludBgBIAEo",
-            "CzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCKf",
-            "AQodQWNjZXNzUmlnaHRBY2Nlc3NQb2ludENyZWF0ZWQSPgoMYWNjZXNzX3Jp",
-            "Z2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vz",
-            "c1JpZ2h0Ej4KDGFjY2Vzc19wb2ludBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
-            "Y2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCKfAQodQWNjZXNzUmlnaHRBY2Nl",
-            "c3NQb2ludERlbGV0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8u",
-            "bmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej4KDGFjY2Vzc19w",
-            "b2ludBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nl",
-            "c3NQb2ludCJUChJBY2Nlc3NSaWdodENyZWF0ZWQSPgoMYWNjZXNzX3JpZ2h0",
+            "ci5wcm90byJ4CgxBY2Nlc3NEZW5pZWQSPgoMYWNjZXNzX3BvaW50GAEgASgL",
+            "Miguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50EigK",
+            "BHVzZXIYAiABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIlQKEkFj",
+            "Y2Vzc1BvaW50Q3JlYXRlZBI+CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0",
+            "by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQiVAoSQWNjZXNz",
+            "UG9pbnREZWxldGVkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5l",
+            "YnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCJ9ChFBY2Nlc3NQb2lu",
+            "dExvY2tlZBI+CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0by5uZWJ1bGEu",
+            "YWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSKAoEdXNlchgCIAEoCzIaLnNh",
+            "bHRvLm5lYnVsYS51c2VyLnYxLlVzZXIifwoTQWNjZXNzUG9pbnRVbmxvY2tl",
+            "ZBI+CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNz",
+            "cG9pbnQudjEuQWNjZXNzUG9pbnQSKAoEdXNlchgCIAEoCzIaLnNhbHRvLm5l",
+            "YnVsYS51c2VyLnYxLlVzZXIiVAoSQWNjZXNzUG9pbnRVcGRhdGVkEj4KDGFj",
+            "Y2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
+            "MS5BY2Nlc3NQb2ludCKfAQodQWNjZXNzUmlnaHRBY2Nlc3NQb2ludENyZWF0",
+            "ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vz",
+            "c3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej4KDGFjY2Vzc19wb2ludBgCIAEoCzIo",
+            "LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCKfAQod",
+            "QWNjZXNzUmlnaHRBY2Nlc3NQb2ludERlbGV0ZWQSPgoMYWNjZXNzX3JpZ2h0",
             "GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1Jp",
-            "Z2h0IlQKEkFjY2Vzc1JpZ2h0RGVsZXRlZBI+CgxhY2Nlc3NfcmlnaHQYASAB",
-            "KAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQi",
-            "VAoSQWNjZXNzUmlnaHRVcGRhdGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIo",
-            "LnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCKCAQoW",
-            "VXNlckFjY2Vzc1JpZ2h0Q3JlYXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuVXNlchI+CgxhY2Nlc3NfcmlnaHQYAiABKAsyKC5z",
-            "YWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQiggEKFlVz",
-            "ZXJBY2Nlc3NSaWdodERlbGV0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLlVzZXISPgoMYWNjZXNzX3JpZ2h0GAIgASgLMiguc2Fs",
-            "dG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0IjcKC1VzZXJD",
-            "cmVhdGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5V",
-            "c2VyIjcKC1VzZXJEZWxldGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5Vc2VyIjcKC1VzZXJVcGRhdGVkEigKBHVzZXIYASABKAsy",
-            "Gi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyQpMBCh1jb20uc2FsdG9hcGlz",
-            "Lm5lYnVsYS5ldmVudC52MUIKVHlwZXNQcm90b1ABWkhnaXRsYWIucm5kLnNh",
-            "bHRvc3lzdGVtcy5jb20vc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEv",
-            "ZXZlbnQvdjE7ZXZlbnSqAhlTYWx0b2FwaXMuTmVidWxhLkV2ZW50LlYxYgZw",
-            "cm90bzM="));
+            "Z2h0Ej4KDGFjY2Vzc19wb2ludBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nl",
+            "c3Nwb2ludC52MS5BY2Nlc3NQb2ludCJUChJBY2Nlc3NSaWdodENyZWF0ZWQS",
+            "PgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3Jp",
+            "Z2h0LnYxLkFjY2Vzc1JpZ2h0IlQKEkFjY2Vzc1JpZ2h0RGVsZXRlZBI+Cgxh",
+            "Y2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQu",
+            "djEuQWNjZXNzUmlnaHQiVAoSQWNjZXNzUmlnaHRVcGRhdGVkEj4KDGFjY2Vz",
+            "c19yaWdodBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5B",
+            "Y2Nlc3NSaWdodCKCAQoWVXNlckFjY2Vzc1JpZ2h0Q3JlYXRlZBIoCgR1c2Vy",
+            "GAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchI+CgxhY2Nlc3Nf",
+            "cmlnaHQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNj",
+            "ZXNzUmlnaHQiggEKFlVzZXJBY2Nlc3NSaWdodERlbGV0ZWQSKAoEdXNlchgB",
+            "IAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISPgoMYWNjZXNzX3Jp",
+            "Z2h0GAIgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vz",
+            "c1JpZ2h0IjcKC1VzZXJDcmVhdGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5Vc2VyIjcKC1VzZXJEZWxldGVkEigKBHVzZXIYASAB",
+            "KAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIjcKC1VzZXJVcGRhdGVk",
+            "EigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyQpMB",
+            "Ch1jb20uc2FsdG9hcGlzLm5lYnVsYS5ldmVudC52MUIKVHlwZXNQcm90b1AB",
+            "WkhnaXRsYWIucm5kLnNhbHRvc3lzdGVtcy5jb20vc2FsdG9hcGlzL3NhbHRv",
+            "YXBpcy1nby9uZWJ1bGEvZXZlbnQvdjE7ZXZlbnSqAhlTYWx0b2FwaXMuTmVi",
+            "dWxhLkV2ZW50LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessDenied), global::Saltoapis.Nebula.Event.V1.AccessDenied.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointCreated), global::Saltoapis.Nebula.Event.V1.AccessPointCreated.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointDeleted), global::Saltoapis.Nebula.Event.V1.AccessPointDeleted.Parser, new[]{ "AccessPoint" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointOpenedByAppKey), global::Saltoapis.Nebula.Event.V1.AccessPointOpenedByAppKey.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointOpenedByCardKey), global::Saltoapis.Nebula.Event.V1.AccessPointOpenedByCardKey.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointLocked), global::Saltoapis.Nebula.Event.V1.AccessPointLocked.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointUnlocked), global::Saltoapis.Nebula.Event.V1.AccessPointUnlocked.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointUpdated), global::Saltoapis.Nebula.Event.V1.AccessPointUpdated.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointCreated), global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointCreated.Parser, new[]{ "AccessRight", "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointDeleted), global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointDeleted.Parser, new[]{ "AccessRight", "AccessPoint" }, null, null, null, null),
@@ -92,6 +95,241 @@ namespace Saltoapis.Nebula.Event.V1 {
   }
   #region Messages
   /// <summary>
+  /// Event representing a denied access to a user by an access point.
+  /// </summary>
+  public sealed partial class AccessDenied : pb::IMessage<AccessDenied>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AccessDenied> _parser = new pb::MessageParser<AccessDenied>(() => new AccessDenied());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AccessDenied> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccessDenied() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccessDenied(AccessDenied other) : this() {
+      accessPoint_ = other.accessPoint_ != null ? other.accessPoint_.Clone() : null;
+      user_ = other.user_ != null ? other.user_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccessDenied Clone() {
+      return new AccessDenied(this);
+    }
+
+    /// <summary>Field number for the "access_point" field.</summary>
+    public const int AccessPointFieldNumber = 1;
+    private global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint accessPoint_;
+    /// <summary>
+    /// Access denied by the access point.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint AccessPoint {
+      get { return accessPoint_; }
+      set {
+        accessPoint_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "user" field.</summary>
+    public const int UserFieldNumber = 2;
+    private global::Saltoapis.Nebula.User.V1.User user_;
+    /// <summary>
+    /// The user whose access was rejected.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.User.V1.User User {
+      get { return user_; }
+      set {
+        user_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AccessDenied);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AccessDenied other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(AccessPoint, other.AccessPoint)) return false;
+      if (!object.Equals(User, other.User)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (accessPoint_ != null) hash ^= AccessPoint.GetHashCode();
+      if (user_ != null) hash ^= User.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (accessPoint_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AccessPoint);
+      }
+      if (user_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(User);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (accessPoint_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AccessPoint);
+      }
+      if (user_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(User);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (accessPoint_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessPoint);
+      }
+      if (user_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AccessDenied other) {
+      if (other == null) {
+        return;
+      }
+      if (other.accessPoint_ != null) {
+        if (accessPoint_ == null) {
+          AccessPoint = new global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint();
+        }
+        AccessPoint.MergeFrom(other.AccessPoint);
+      }
+      if (other.user_ != null) {
+        if (user_ == null) {
+          User = new global::Saltoapis.Nebula.User.V1.User();
+        }
+        User.MergeFrom(other.User);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (accessPoint_ == null) {
+              AccessPoint = new global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint();
+            }
+            input.ReadMessage(AccessPoint);
+            break;
+          }
+          case 18: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (accessPoint_ == null) {
+              AccessPoint = new global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint();
+            }
+            input.ReadMessage(AccessPoint);
+            break;
+          }
+          case 18: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// Event representing the creation of an access point.
   /// </summary>
   public sealed partial class AccessPointCreated : pb::IMessage<AccessPointCreated>
@@ -106,7 +344,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -293,7 +531,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -466,21 +704,21 @@ namespace Saltoapis.Nebula.Event.V1 {
   }
 
   /// <summary>
-  /// Event representing an access point opened by a user's app key.
+  /// Event representing the locking of an access point.
   /// </summary>
-  public sealed partial class AccessPointOpenedByAppKey : pb::IMessage<AccessPointOpenedByAppKey>
+  public sealed partial class AccessPointLocked : pb::IMessage<AccessPointLocked>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<AccessPointOpenedByAppKey> _parser = new pb::MessageParser<AccessPointOpenedByAppKey>(() => new AccessPointOpenedByAppKey());
+    private static readonly pb::MessageParser<AccessPointLocked> _parser = new pb::MessageParser<AccessPointLocked>(() => new AccessPointLocked());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<AccessPointOpenedByAppKey> Parser { get { return _parser; } }
+    public static pb::MessageParser<AccessPointLocked> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -489,29 +727,29 @@ namespace Saltoapis.Nebula.Event.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public AccessPointOpenedByAppKey() {
+    public AccessPointLocked() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public AccessPointOpenedByAppKey(AccessPointOpenedByAppKey other) : this() {
+    public AccessPointLocked(AccessPointLocked other) : this() {
       accessPoint_ = other.accessPoint_ != null ? other.accessPoint_.Clone() : null;
       user_ = other.user_ != null ? other.user_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public AccessPointOpenedByAppKey Clone() {
-      return new AccessPointOpenedByAppKey(this);
+    public AccessPointLocked Clone() {
+      return new AccessPointLocked(this);
     }
 
     /// <summary>Field number for the "access_point" field.</summary>
     public const int AccessPointFieldNumber = 1;
     private global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint accessPoint_;
     /// <summary>
-    /// Access point opened by app key.
+    /// The access point that's been locked.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint AccessPoint {
@@ -525,7 +763,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public const int UserFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.User user_;
     /// <summary>
-    /// User who opened the access point.
+    /// The user who locked the access point.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Saltoapis.Nebula.User.V1.User User {
@@ -537,11 +775,11 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as AccessPointOpenedByAppKey);
+      return Equals(other as AccessPointLocked);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(AccessPointOpenedByAppKey other) {
+    public bool Equals(AccessPointLocked other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -621,7 +859,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(AccessPointOpenedByAppKey other) {
+    public void MergeFrom(AccessPointLocked other) {
       if (other == null) {
         return;
       }
@@ -701,21 +939,21 @@ namespace Saltoapis.Nebula.Event.V1 {
   }
 
   /// <summary>
-  /// Event representing an access point opened by a user's card key.
+  /// Event representing the unlocking of an access point.
   /// </summary>
-  public sealed partial class AccessPointOpenedByCardKey : pb::IMessage<AccessPointOpenedByCardKey>
+  public sealed partial class AccessPointUnlocked : pb::IMessage<AccessPointUnlocked>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<AccessPointOpenedByCardKey> _parser = new pb::MessageParser<AccessPointOpenedByCardKey>(() => new AccessPointOpenedByCardKey());
+    private static readonly pb::MessageParser<AccessPointUnlocked> _parser = new pb::MessageParser<AccessPointUnlocked>(() => new AccessPointUnlocked());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<AccessPointOpenedByCardKey> Parser { get { return _parser; } }
+    public static pb::MessageParser<AccessPointUnlocked> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -724,29 +962,29 @@ namespace Saltoapis.Nebula.Event.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public AccessPointOpenedByCardKey() {
+    public AccessPointUnlocked() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public AccessPointOpenedByCardKey(AccessPointOpenedByCardKey other) : this() {
+    public AccessPointUnlocked(AccessPointUnlocked other) : this() {
       accessPoint_ = other.accessPoint_ != null ? other.accessPoint_.Clone() : null;
       user_ = other.user_ != null ? other.user_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public AccessPointOpenedByCardKey Clone() {
-      return new AccessPointOpenedByCardKey(this);
+    public AccessPointUnlocked Clone() {
+      return new AccessPointUnlocked(this);
     }
 
     /// <summary>Field number for the "access_point" field.</summary>
     public const int AccessPointFieldNumber = 1;
     private global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint accessPoint_;
     /// <summary>
-    /// Access point opened by card key.
+    /// The access point that's been unlocked.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint AccessPoint {
@@ -760,7 +998,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public const int UserFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.User user_;
     /// <summary>
-    /// User who opened the access point.
+    /// The user who unlocked the access point.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Saltoapis.Nebula.User.V1.User User {
@@ -772,11 +1010,11 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as AccessPointOpenedByCardKey);
+      return Equals(other as AccessPointUnlocked);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(AccessPointOpenedByCardKey other) {
+    public bool Equals(AccessPointUnlocked other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -856,7 +1094,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(AccessPointOpenedByCardKey other) {
+    public void MergeFrom(AccessPointUnlocked other) {
       if (other == null) {
         return;
       }
@@ -950,7 +1188,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1137,7 +1375,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1372,7 +1610,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1607,7 +1845,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1794,7 +2032,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1981,7 +2219,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2168,7 +2406,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2403,7 +2641,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2638,7 +2876,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2825,7 +3063,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3012,7 +3250,7 @@ namespace Saltoapis.Nebula.Event.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
