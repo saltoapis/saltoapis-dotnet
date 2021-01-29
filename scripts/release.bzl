@@ -4,7 +4,7 @@ as a nuget package.
 """
 load(
     "@io_bazel_rules_dotnet//dotnet/private:providers.bzl",
-    "DotnetLibrary",
+    "DotnetLibraryInfo",
 )
 
 ###################################
@@ -111,7 +111,7 @@ def _create_csproj_file(csproj_file, id, internal_version, ctx):
     # internal
     for dep in ctx.attr.internal_deps:
         dep_version = internal_version
-        dep_id = dep[DotnetLibrary].name.split('.dll')[0]
+        dep_id = dep[DotnetLibraryInfo].name.split('.dll')[0]
         dependency = '<PackageReference Include="{depId}" Version="{depVersion}" />'.format(
             depId = dep_id,
             depVersion = dep_version,
@@ -119,7 +119,7 @@ def _create_csproj_file(csproj_file, id, internal_version, ctx):
         dependencies.append(dependency)
     # third party
     for dep in ctx.attr.deps:
-        dep_version = _version_tuple_to_string(dep[DotnetLibrary].version)
+        dep_version = _version_tuple_to_string(dep[DotnetLibraryInfo].version)
         dep_id = dep.label.workspace_name
         dependency = '<PackageReference Include="{depId}" Version="{depVersion}" />'.format(
             depId = dep_id,
