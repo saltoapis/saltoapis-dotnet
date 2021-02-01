@@ -6,7 +6,8 @@ package(default_visibility = ['//:__subpackages__'])
 load_rules(
     lib_name = 'Saltoapis.Nebula.Calendar.V1',
     internal_dependencies = [
-        '//src/Saltoapis.Nebula.Types.V1',
+        '//src/Saltoapis.Nebula.Type',
+        '//src/Saltoapis.Type',
     ],
     extra_info = {
     },

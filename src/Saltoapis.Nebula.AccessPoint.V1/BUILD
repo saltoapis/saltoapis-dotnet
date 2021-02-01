@@ -8,7 +8,6 @@ load_rules(
     internal_dependencies = [
         '//src/Saltoapis.Longrunning.V1',
         '//src/Saltoapis.Nebula.Type',
-        '//src/Saltoapis.Nebula.Types.V1',
     ],
     extra_info = {
     },

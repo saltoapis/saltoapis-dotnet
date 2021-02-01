@@ -7,7 +7,7 @@ load_rules(
     lib_name = 'Saltoapis.Nebula.OpeningModeSchedule.V1',
     internal_dependencies = [
         '//src/Saltoapis.Nebula.Type',
-        '//src/Saltoapis.Nebula.Types.V1',
+        '//src/Saltoapis.Type',
     ],
     extra_info = {
     },

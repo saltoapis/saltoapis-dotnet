@@ -27,64 +27,63 @@ namespace Saltoapis.Nebula.Calendar.V1 {
             "CidzYWx0by9uZWJ1bGEvY2FsZW5kYXIvdjEvY2FsZW5kYXIucHJvdG8SGHNh",
             "bHRvLm5lYnVsYS5jYWxlbmRhci52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5",
             "LnByb3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxogc2Fs",
-            "dG8vbmVidWxhL3R5cGVzL3YxL2RhdGUucHJvdG8aJHNhbHRvL25lYnVsYS90",
-            "eXBlcy92MS9kYXlfdHlwZS5wcm90byIuCghDYWxlbmRhchIMCgRuYW1lGAEg",
-            "ASgJEhQKDGRpc3BsYXlfbmFtZRgCIAEoCSJyChVDcmVhdGVDYWxlbmRhclJl",
-            "cXVlc3QSDgoGcGFyZW50GAEgASgJEhMKC2NhbGVuZGFyX2lkGAIgASgJEjQK",
-            "CGNhbGVuZGFyGAMgASgLMiIuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNh",
-            "bGVuZGFyImYKEkNyZWF0ZUV2ZW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkS",
-            "EAoIZXZlbnRfaWQYAiABKAkSLgoFZXZlbnQYAyABKAsyHy5zYWx0by5uZWJ1",
-            "bGEuY2FsZW5kYXIudjEuRXZlbnQiJQoVRGVsZXRlQ2FsZW5kYXJSZXF1ZXN0",
-            "EgwKBG5hbWUYASABKAkiIgoSRGVsZXRlRXZlbnRSZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAkipwEKBUV2ZW50EgwKBG5hbWUYASABKAkSMAoIZGF5X3R5cGUYAiAB",
-            "KA4yHi5zYWx0by5uZWJ1bGEudHlwZXMudjEuRGF5VHlwZRIvCgpzdGFydF9k",
-            "YXRlGAMgASgLMhsuc2FsdG8ubmVidWxhLnR5cGVzLnYxLkRhdGUSLQoIZW5k",
-            "X2RhdGUYBCABKAsyGy5zYWx0by5uZWJ1bGEudHlwZXMudjEuRGF0ZSIiChJH",
-            "ZXRDYWxlbmRhclJlcXVlc3QSDAoEbmFtZRgBIAEoCSIfCg9HZXRFdmVudFJl",
-            "cXVlc3QSDAoEbmFtZRgBIAEoCSJvChRMaXN0Q2FsZW5kYXJzUmVxdWVzdBIO",
-            "CgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9r",
-            "ZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJImcK",
-            "FUxpc3RDYWxlbmRhcnNSZXNwb25zZRI1CgljYWxlbmRhcnMYASADKAsyIi5z",
-            "YWx0by5uZWJ1bGEuY2FsZW5kYXIudjEuQ2FsZW5kYXISFwoPbmV4dF9wYWdl",
-            "X3Rva2VuGAIgASgJImwKEUxpc3RFdmVudHNSZXF1ZXN0Eg4KBnBhcmVudBgB",
-            "IAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIO",
-            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiXgoSTGlzdEV2ZW50",
-            "c1Jlc3BvbnNlEi8KBmV2ZW50cxgBIAMoCzIfLnNhbHRvLm5lYnVsYS5jYWxl",
-            "bmRhci52MS5FdmVudBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkifgoVVXBk",
-            "YXRlQ2FsZW5kYXJSZXF1ZXN0EjQKCGNhbGVuZGFyGAEgASgLMiIuc2FsdG8u",
-            "bmVidWxhLmNhbGVuZGFyLnYxLkNhbGVuZGFyEi8KC3VwZGF0ZV9tYXNrGAIg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayJ1ChJVcGRhdGVFdmVu",
-            "dFJlcXVlc3QSLgoFZXZlbnQYASABKAsyHy5zYWx0by5uZWJ1bGEuY2FsZW5k",
-            "YXIudjEuRXZlbnQSLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuRmllbGRNYXNrMt8HCg9DYWxlbmRhclNlcnZpY2USZQoOQ3JlYXRl",
-            "Q2FsZW5kYXISLy5zYWx0by5uZWJ1bGEuY2FsZW5kYXIudjEuQ3JlYXRlQ2Fs",
-            "ZW5kYXJSZXF1ZXN0GiIuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNhbGVu",
-            "ZGFyElwKC0NyZWF0ZUV2ZW50Eiwuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYx",
-            "LkNyZWF0ZUV2ZW50UmVxdWVzdBofLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52",
-            "MS5FdmVudBJZCg5EZWxldGVDYWxlbmRhchIvLnNhbHRvLm5lYnVsYS5jYWxl",
-            "bmRhci52MS5EZWxldGVDYWxlbmRhclJlcXVlc3QaFi5nb29nbGUucHJvdG9i",
-            "dWYuRW1wdHkSUwoLRGVsZXRlRXZlbnQSLC5zYWx0by5uZWJ1bGEuY2FsZW5k",
-            "YXIudjEuRGVsZXRlRXZlbnRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVt",
-            "cHR5El8KC0dldENhbGVuZGFyEiwuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYx",
-            "LkdldENhbGVuZGFyUmVxdWVzdBoiLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52",
-            "MS5DYWxlbmRhchJWCghHZXRFdmVudBIpLnNhbHRvLm5lYnVsYS5jYWxlbmRh",
-            "ci52MS5HZXRFdmVudFJlcXVlc3QaHy5zYWx0by5uZWJ1bGEuY2FsZW5kYXIu",
-            "djEuRXZlbnQScAoNTGlzdENhbGVuZGFycxIuLnNhbHRvLm5lYnVsYS5jYWxl",
-            "bmRhci52MS5MaXN0Q2FsZW5kYXJzUmVxdWVzdBovLnNhbHRvLm5lYnVsYS5j",
-            "YWxlbmRhci52MS5MaXN0Q2FsZW5kYXJzUmVzcG9uc2USZwoKTGlzdEV2ZW50",
-            "cxIrLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5MaXN0RXZlbnRzUmVxdWVz",
-            "dBosLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5MaXN0RXZlbnRzUmVzcG9u",
-            "c2USZQoOVXBkYXRlQ2FsZW5kYXISLy5zYWx0by5uZWJ1bGEuY2FsZW5kYXIu",
-            "djEuVXBkYXRlQ2FsZW5kYXJSZXF1ZXN0GiIuc2FsdG8ubmVidWxhLmNhbGVu",
-            "ZGFyLnYxLkNhbGVuZGFyElwKC1VwZGF0ZUV2ZW50Eiwuc2FsdG8ubmVidWxh",
-            "LmNhbGVuZGFyLnYxLlVwZGF0ZUV2ZW50UmVxdWVzdBofLnNhbHRvLm5lYnVs",
-            "YS5jYWxlbmRhci52MS5FdmVudEKiAQogY29tLnNhbHRvYXBpcy5uZWJ1bGEu",
-            "Y2FsZW5kYXIudjFCDUNhbGVuZGFyUHJvdG9QAVpOZ2l0bGFiLnJuZC5zYWx0",
-            "b3N5c3RlbXMuY29tL3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2Nh",
-            "bGVuZGFyL3YxO2NhbGVuZGFyqgIcU2FsdG9hcGlzLk5lYnVsYS5DYWxlbmRh",
-            "ci5WMWIGcHJvdG8z"));
+            "dG8vbmVidWxhL3R5cGUvZGF5X3R5cGUucHJvdG8aFXNhbHRvL3R5cGUvZGF0",
+            "ZS5wcm90byIuCghDYWxlbmRhchIMCgRuYW1lGAEgASgJEhQKDGRpc3BsYXlf",
+            "bmFtZRgCIAEoCSJyChVDcmVhdGVDYWxlbmRhclJlcXVlc3QSDgoGcGFyZW50",
+            "GAEgASgJEhMKC2NhbGVuZGFyX2lkGAIgASgJEjQKCGNhbGVuZGFyGAMgASgL",
+            "MiIuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNhbGVuZGFyImYKEkNyZWF0",
+            "ZUV2ZW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEAoIZXZlbnRfaWQYAiAB",
+            "KAkSLgoFZXZlbnQYAyABKAsyHy5zYWx0by5uZWJ1bGEuY2FsZW5kYXIudjEu",
+            "RXZlbnQiJQoVRGVsZXRlQ2FsZW5kYXJSZXF1ZXN0EgwKBG5hbWUYASABKAki",
+            "IgoSRGVsZXRlRXZlbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkijQEKBUV2ZW50",
+            "EgwKBG5hbWUYASABKAkSLAoIZGF5X3R5cGUYAiABKA4yGi5zYWx0by5uZWJ1",
+            "bGEudHlwZS5EYXlUeXBlEiQKCnN0YXJ0X2RhdGUYAyABKAsyEC5zYWx0by50",
+            "eXBlLkRhdGUSIgoIZW5kX2RhdGUYBCABKAsyEC5zYWx0by50eXBlLkRhdGUi",
+            "IgoSR2V0Q2FsZW5kYXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiHwoPR2V0RXZl",
+            "bnRSZXF1ZXN0EgwKBG5hbWUYASABKAkibwoUTGlzdENhbGVuZGFyc1JlcXVl",
+            "c3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdl",
+            "X3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEo",
+            "CSJnChVMaXN0Q2FsZW5kYXJzUmVzcG9uc2USNQoJY2FsZW5kYXJzGAEgAygL",
+            "MiIuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNhbGVuZGFyEhcKD25leHRf",
+            "cGFnZV90b2tlbhgCIAEoCSJsChFMaXN0RXZlbnRzUmVxdWVzdBIOCgZwYXJl",
+            "bnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyAB",
+            "KAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIl4KEkxpc3RF",
+            "dmVudHNSZXNwb25zZRIvCgZldmVudHMYASADKAsyHy5zYWx0by5uZWJ1bGEu",
+            "Y2FsZW5kYXIudjEuRXZlbnQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIn4K",
+            "FVVwZGF0ZUNhbGVuZGFyUmVxdWVzdBI0CghjYWxlbmRhchgBIAEoCzIiLnNh",
+            "bHRvLm5lYnVsYS5jYWxlbmRhci52MS5DYWxlbmRhchIvCgt1cGRhdGVfbWFz",
+            "axgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sidQoSVXBkYXRl",
+            "RXZlbnRSZXF1ZXN0Ei4KBWV2ZW50GAEgASgLMh8uc2FsdG8ubmVidWxhLmNh",
+            "bGVuZGFyLnYxLkV2ZW50Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xl",
+            "LnByb3RvYnVmLkZpZWxkTWFzazLfBwoPQ2FsZW5kYXJTZXJ2aWNlEmUKDkNy",
+            "ZWF0ZUNhbGVuZGFyEi8uc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNyZWF0",
+            "ZUNhbGVuZGFyUmVxdWVzdBoiLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5D",
+            "YWxlbmRhchJcCgtDcmVhdGVFdmVudBIsLnNhbHRvLm5lYnVsYS5jYWxlbmRh",
+            "ci52MS5DcmVhdGVFdmVudFJlcXVlc3QaHy5zYWx0by5uZWJ1bGEuY2FsZW5k",
+            "YXIudjEuRXZlbnQSWQoORGVsZXRlQ2FsZW5kYXISLy5zYWx0by5uZWJ1bGEu",
+            "Y2FsZW5kYXIudjEuRGVsZXRlQ2FsZW5kYXJSZXF1ZXN0GhYuZ29vZ2xlLnBy",
+            "b3RvYnVmLkVtcHR5ElMKC0RlbGV0ZUV2ZW50Eiwuc2FsdG8ubmVidWxhLmNh",
+            "bGVuZGFyLnYxLkRlbGV0ZUV2ZW50UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1",
+            "Zi5FbXB0eRJfCgtHZXRDYWxlbmRhchIsLnNhbHRvLm5lYnVsYS5jYWxlbmRh",
+            "ci52MS5HZXRDYWxlbmRhclJlcXVlc3QaIi5zYWx0by5uZWJ1bGEuY2FsZW5k",
+            "YXIudjEuQ2FsZW5kYXISVgoIR2V0RXZlbnQSKS5zYWx0by5uZWJ1bGEuY2Fs",
+            "ZW5kYXIudjEuR2V0RXZlbnRSZXF1ZXN0Gh8uc2FsdG8ubmVidWxhLmNhbGVu",
+            "ZGFyLnYxLkV2ZW50EnAKDUxpc3RDYWxlbmRhcnMSLi5zYWx0by5uZWJ1bGEu",
+            "Y2FsZW5kYXIudjEuTGlzdENhbGVuZGFyc1JlcXVlc3QaLy5zYWx0by5uZWJ1",
+            "bGEuY2FsZW5kYXIudjEuTGlzdENhbGVuZGFyc1Jlc3BvbnNlEmcKCkxpc3RF",
+            "dmVudHMSKy5zYWx0by5uZWJ1bGEuY2FsZW5kYXIudjEuTGlzdEV2ZW50c1Jl",
+            "cXVlc3QaLC5zYWx0by5uZWJ1bGEuY2FsZW5kYXIudjEuTGlzdEV2ZW50c1Jl",
+            "c3BvbnNlEmUKDlVwZGF0ZUNhbGVuZGFyEi8uc2FsdG8ubmVidWxhLmNhbGVu",
+            "ZGFyLnYxLlVwZGF0ZUNhbGVuZGFyUmVxdWVzdBoiLnNhbHRvLm5lYnVsYS5j",
+            "YWxlbmRhci52MS5DYWxlbmRhchJcCgtVcGRhdGVFdmVudBIsLnNhbHRvLm5l",
+            "YnVsYS5jYWxlbmRhci52MS5VcGRhdGVFdmVudFJlcXVlc3QaHy5zYWx0by5u",
+            "ZWJ1bGEuY2FsZW5kYXIudjEuRXZlbnRCogEKIGNvbS5zYWx0b2FwaXMubmVi",
+            "dWxhLmNhbGVuZGFyLnYxQg1DYWxlbmRhclByb3RvUAFaTmdpdGxhYi5ybmQu",
+            "c2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVs",
+            "YS9jYWxlbmRhci92MTtjYWxlbmRhcqoCHFNhbHRvYXBpcy5OZWJ1bGEuQ2Fs",
+            "ZW5kYXIuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Nebula.Types.V1.DateReflection.Descriptor, global::Saltoapis.Nebula.Types.V1.DayTypeReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.Calendar), global::Saltoapis.Nebula.Calendar.V1.Calendar.Parser, new[]{ "Name", "DisplayName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest), global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest.Parser, new[]{ "Parent", "CalendarId", "Calendar" }, null, null, null, null),
@@ -1282,12 +1281,12 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
     /// <summary>Field number for the "day_type" field.</summary>
     public const int DayTypeFieldNumber = 2;
-    private global::Saltoapis.Nebula.Types.V1.DayType dayType_ = global::Saltoapis.Nebula.Types.V1.DayType.Unspecified;
+    private global::Saltoapis.Nebula.Type.DayType dayType_ = global::Saltoapis.Nebula.Type.DayType.Unspecified;
     /// <summary>
     /// Day type.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Types.V1.DayType DayType {
+    public global::Saltoapis.Nebula.Type.DayType DayType {
       get { return dayType_; }
       set {
         dayType_ = value;
@@ -1296,12 +1295,12 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
     /// <summary>Field number for the "start_date" field.</summary>
     public const int StartDateFieldNumber = 3;
-    private global::Saltoapis.Nebula.Types.V1.Date startDate_;
+    private global::Saltoapis.Type.Date startDate_;
     /// <summary>
     /// Start date.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Types.V1.Date StartDate {
+    public global::Saltoapis.Type.Date StartDate {
       get { return startDate_; }
       set {
         startDate_ = value;
@@ -1310,12 +1309,12 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
     /// <summary>Field number for the "end_date" field.</summary>
     public const int EndDateFieldNumber = 4;
-    private global::Saltoapis.Nebula.Types.V1.Date endDate_;
+    private global::Saltoapis.Type.Date endDate_;
     /// <summary>
     /// End date.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Types.V1.Date EndDate {
+    public global::Saltoapis.Type.Date EndDate {
       get { return endDate_; }
       set {
         endDate_ = value;
@@ -1346,7 +1345,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (DayType != global::Saltoapis.Nebula.Types.V1.DayType.Unspecified) hash ^= DayType.GetHashCode();
+      if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) hash ^= DayType.GetHashCode();
       if (startDate_ != null) hash ^= StartDate.GetHashCode();
       if (endDate_ != null) hash ^= EndDate.GetHashCode();
       if (_unknownFields != null) {
@@ -1369,7 +1368,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (DayType != global::Saltoapis.Nebula.Types.V1.DayType.Unspecified) {
+      if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
         output.WriteRawTag(16);
         output.WriteEnum((int) DayType);
       }
@@ -1394,7 +1393,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (DayType != global::Saltoapis.Nebula.Types.V1.DayType.Unspecified) {
+      if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
         output.WriteRawTag(16);
         output.WriteEnum((int) DayType);
       }
@@ -1418,7 +1417,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (DayType != global::Saltoapis.Nebula.Types.V1.DayType.Unspecified) {
+      if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DayType);
       }
       if (startDate_ != null) {
@@ -1441,18 +1440,18 @@ namespace Saltoapis.Nebula.Calendar.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.DayType != global::Saltoapis.Nebula.Types.V1.DayType.Unspecified) {
+      if (other.DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
         DayType = other.DayType;
       }
       if (other.startDate_ != null) {
         if (startDate_ == null) {
-          StartDate = new global::Saltoapis.Nebula.Types.V1.Date();
+          StartDate = new global::Saltoapis.Type.Date();
         }
         StartDate.MergeFrom(other.StartDate);
       }
       if (other.endDate_ != null) {
         if (endDate_ == null) {
-          EndDate = new global::Saltoapis.Nebula.Types.V1.Date();
+          EndDate = new global::Saltoapis.Type.Date();
         }
         EndDate.MergeFrom(other.EndDate);
       }
@@ -1475,19 +1474,19 @@ namespace Saltoapis.Nebula.Calendar.V1 {
             break;
           }
           case 16: {
-            DayType = (global::Saltoapis.Nebula.Types.V1.DayType) input.ReadEnum();
+            DayType = (global::Saltoapis.Nebula.Type.DayType) input.ReadEnum();
             break;
           }
           case 26: {
             if (startDate_ == null) {
-              StartDate = new global::Saltoapis.Nebula.Types.V1.Date();
+              StartDate = new global::Saltoapis.Type.Date();
             }
             input.ReadMessage(StartDate);
             break;
           }
           case 34: {
             if (endDate_ == null) {
-              EndDate = new global::Saltoapis.Nebula.Types.V1.Date();
+              EndDate = new global::Saltoapis.Type.Date();
             }
             input.ReadMessage(EndDate);
             break;
@@ -1511,19 +1510,19 @@ namespace Saltoapis.Nebula.Calendar.V1 {
             break;
           }
           case 16: {
-            DayType = (global::Saltoapis.Nebula.Types.V1.DayType) input.ReadEnum();
+            DayType = (global::Saltoapis.Nebula.Type.DayType) input.ReadEnum();
             break;
           }
           case 26: {
             if (startDate_ == null) {
-              StartDate = new global::Saltoapis.Nebula.Types.V1.Date();
+              StartDate = new global::Saltoapis.Type.Date();
             }
             input.ReadMessage(StartDate);
             break;
           }
           case 34: {
             if (endDate_ == null) {
-              EndDate = new global::Saltoapis.Nebula.Types.V1.Date();
+              EndDate = new global::Saltoapis.Type.Date();
             }
             input.ReadMessage(EndDate);
             break;
