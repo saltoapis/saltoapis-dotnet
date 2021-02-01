@@ -1124,7 +1124,7 @@ namespace Saltoapis.Nebula.Device.V1 {
     /// <summary>Field number for the "extender" field.</summary>
     public const int ExtenderFieldNumber = 4;
     /// <summary>
-    /// Parent name, when electronic lock is connected to a gateway
+    /// Parent name, when electronic lock is connected to an extender
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Extender {
