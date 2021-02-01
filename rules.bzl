@@ -1,8 +1,6 @@
 load("@io_bazel_rules_dotnet//dotnet:defs.bzl", "core_library")
 load("//scripts:release.bzl", "nuget_deploy")
 
-load("@env_publish//:secrets.bzl","GITHUB_ACTOR", "GITHUB_TOKEN", "GITHUB_SHA")
-
 def load_rules(lib_name, internal_dependencies, extra_info):
     """A macro that loads common rules for all the packages
     
@@ -25,7 +23,7 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     core_library(
         name = '%s.dll' % lib_name,
         srcs = native.glob(['*.cs']),
-        deps = lib_deps + third_party_deps + ["@io_bazel_rules_dotnet//dotnet/stdlib.core:netstandard.dll"],
+        deps = lib_deps + third_party_deps + ["@io_bazel_rules_dotnet//dotnet/stdlib.core/v3.1.100:libraryset"],
     )
 
     # package will use version from 'core_library' by default 
