@@ -37,7 +37,6 @@ all_projects = [
     '//src/Saltoapis.Nebula.Installation.V1',
     '//src/Saltoapis.Nebula.MobileKey.V1',
     '//src/Saltoapis.Nebula.Type',
-    '//src/Saltoapis.Nebula.Types.V1',
     '//src/Saltoapis.Nebula.Unit.V1',
     '//src/Saltoapis.Type',
     '//src/Saltoapis.Nebula.AccessPoint.V1',
