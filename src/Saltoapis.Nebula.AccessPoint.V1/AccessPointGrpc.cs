@@ -17,26 +17,14 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.accesspoint.v1.AccessPointService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_ConfigureAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.Operation.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_CreateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> __Marshaller_salto_nebula_accesspoint_v1_AccessPoint = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_DeleteAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_GetAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_InitializeAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest> __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse> __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_ResetAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_UpdateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest> __Marshaller_salto_nebula_accesspoint_v1_UpdateAccessPointFirmwareRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest.Parser.ParseFrom);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_ConfigureAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest, global::Saltoapis.Longrunning.V1.Operation>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "ConfigureAccessPoint",
-        __Marshaller_salto_nebula_accesspoint_v1_ConfigureAccessPointRequest,
-        __Marshaller_salto_longrunning_v1_Operation);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> __Method_CreateAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint>(
         grpc::MethodType.Unary,
@@ -59,13 +47,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         __Marshaller_salto_nebula_accesspoint_v1_GetAccessPointRequest,
         __Marshaller_salto_nebula_accesspoint_v1_AccessPoint);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_InitializeAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest, global::Saltoapis.Longrunning.V1.Operation>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "InitializeAccessPoint",
-        __Marshaller_salto_nebula_accesspoint_v1_InitializeAccessPointRequest,
-        __Marshaller_salto_longrunning_v1_Operation);
-
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest, global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse> __Method_ListAccessPoints = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest, global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -73,26 +54,12 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsRequest,
         __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsResponse);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_ResetAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest, global::Saltoapis.Longrunning.V1.Operation>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "ResetAccessPoint",
-        __Marshaller_salto_nebula_accesspoint_v1_ResetAccessPointRequest,
-        __Marshaller_salto_longrunning_v1_Operation);
-
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> __Method_UpdateAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint>(
         grpc::MethodType.Unary,
         __ServiceName,
         "UpdateAccessPoint",
         __Marshaller_salto_nebula_accesspoint_v1_UpdateAccessPointRequest,
         __Marshaller_salto_nebula_accesspoint_v1_AccessPoint);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_UpdateAccessPointFirmware = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "UpdateAccessPointFirmware",
-        __Marshaller_salto_nebula_accesspoint_v1_UpdateAccessPointFirmwareRequest,
-        __Marshaller_salto_longrunning_v1_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -123,62 +90,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       {
       }
 
-      /// <summary>
-      /// Configure an access point
-      ///
-      /// Configures an access point. Configuring an access point implies adding
-      /// some information to the access point such as setting the time zone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Longrunning.V1.Operation ConfigureAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ConfigureAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Configure an access point
-      ///
-      /// Configures an access point. Configuring an access point implies adding
-      /// some information to the access point such as setting the time zone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Longrunning.V1.Operation ConfigureAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_ConfigureAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Configure an access point
-      ///
-      /// Configures an access point. Configuring an access point implies adding
-      /// some information to the access point such as setting the time zone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ConfigureAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ConfigureAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Configure an access point
-      ///
-      /// Configures an access point. Configuring an access point implies adding
-      /// some information to the access point such as setting the time zone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ConfigureAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_ConfigureAccessPoint, null, options, request);
-      }
       /// <summary>
       /// Create an access point
       ///
@@ -336,62 +247,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_GetAccessPoint, null, options, request);
       }
       /// <summary>
-      /// Initialize an access point
-      ///
-      /// Initializes an access point. Access points need to be initialized before
-      /// you can start to use them.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Longrunning.V1.Operation InitializeAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return InitializeAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Initialize an access point
-      ///
-      /// Initializes an access point. Access points need to be initialized before
-      /// you can start to use them.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Longrunning.V1.Operation InitializeAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_InitializeAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Initialize an access point
-      ///
-      /// Initializes an access point. Access points need to be initialized before
-      /// you can start to use them.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> InitializeAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return InitializeAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Initialize an access point
-      ///
-      /// Initializes an access point. Access points need to be initialized before
-      /// you can start to use them.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> InitializeAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_InitializeAccessPoint, null, options, request);
-      }
-      /// <summary>
       /// List access points
       ///
       /// Returns a list of access points that have been previously created.
@@ -444,70 +299,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_ListAccessPoints, null, options, request);
       }
       /// <summary>
-      /// Reset an access point
-      ///
-      /// Resetting a device such as an access point means returning it to its
-      /// factory settings. Resetting is the process of removing the identity as
-      /// well as all the associated information of an already configured device.
-      /// Once a device has been reset, you need to reconfigure it.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Longrunning.V1.Operation ResetAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ResetAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Reset an access point
-      ///
-      /// Resetting a device such as an access point means returning it to its
-      /// factory settings. Resetting is the process of removing the identity as
-      /// well as all the associated information of an already configured device.
-      /// Once a device has been reset, you need to reconfigure it.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Longrunning.V1.Operation ResetAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_ResetAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Reset an access point
-      ///
-      /// Resetting a device such as an access point means returning it to its
-      /// factory settings. Resetting is the process of removing the identity as
-      /// well as all the associated information of an already configured device.
-      /// Once a device has been reset, you need to reconfigure it.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ResetAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Reset an access point
-      ///
-      /// Resetting a device such as an access point means returning it to its
-      /// factory settings. Resetting is the process of removing the identity as
-      /// well as all the associated information of an already configured device.
-      /// Once a device has been reset, you need to reconfigure it.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_ResetAccessPoint, null, options, request);
-      }
-      /// <summary>
       /// Update an access point
       ///
       /// Updates an existing access point.
@@ -558,62 +349,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> UpdateAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Update access point firmware
-      ///
-      /// Updates an access point's firmware. SALTO provides firmware updates when
-      /// new functionality is available or when we fix a bug.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Longrunning.V1.Operation UpdateAccessPointFirmware(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UpdateAccessPointFirmware(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Update access point firmware
-      ///
-      /// Updates an access point's firmware. SALTO provides firmware updates when
-      /// new functionality is available or when we fix a bug.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Longrunning.V1.Operation UpdateAccessPointFirmware(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_UpdateAccessPointFirmware, null, options, request);
-      }
-      /// <summary>
-      /// Update access point firmware
-      ///
-      /// Updates an access point's firmware. SALTO provides firmware updates when
-      /// new functionality is available or when we fix a bug.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateAccessPointFirmwareAsync(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UpdateAccessPointFirmwareAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Update access point firmware
-      ///
-      /// Updates an access point's firmware. SALTO provides firmware updates when
-      /// new functionality is available or when we fix a bug.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateAccessPointFirmwareAsync(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_UpdateAccessPointFirmware, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override AccessPointServiceClient NewInstance(ClientBaseConfiguration configuration)

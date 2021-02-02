@@ -27,96 +27,54 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             "Ci5zYWx0by9uZWJ1bGEvYWNjZXNzcG9pbnQvdjEvYWNjZXNzX3BvaW50LnBy",
             "b3RvEhtzYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEaG2dvb2dsZS9wcm90",
             "b2J1Zi9lbXB0eS5wcm90bxogZ29vZ2xlL3Byb3RvYnVmL2ZpZWxkX21hc2su",
-            "cHJvdG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlvbi5wcm90bxog",
-            "c2FsdG8vbmVidWxhL3R5cGUva2V5X3R5cGUucHJvdG8aJHNhbHRvL25lYnVs",
-            "YS90eXBlL29wZW5pbmdfbW9kZS5wcm90byLrBAoLQWNjZXNzUG9pbnQSDAoE",
-            "bmFtZRgBIAEoCRIRCgdnYXRld2F5GAIgASgJSAASEgoIZXh0ZW5kZXIYAyAB",
-            "KAlIABIUCgxkaXNwbGF5X25hbWUYBCABKAkSNQoRYWxsb3dlZF9rZXlfdHlw",
-            "ZXMYBSADKA4yGi5zYWx0by5uZWJ1bGEudHlwZS5LZXlUeXBlEhEKCWRldmlj",
-            "ZV9pZBgGIAEoCRJaChRpbml0aWFsaXphdGlvbl9zdGF0ZRgHIAEoDjI8LnNh",
-            "bHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludC5Jbml0aWFs",
-            "aXphdGlvblN0YXRlEi8KBWZpeGVkGAogASgOMh4uc2FsdG8ubmVidWxhLnR5",
-            "cGUuT3BlbmluZ01vZGVIARISCghzY2hlZHVsZRgLIAEoCUgBEkoKDHVwZGF0",
-            "ZV9zdGF0ZRgMIAEoDjI0LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5B",
-            "Y2Nlc3NQb2ludC5VcGRhdGVTdGF0ZRIQCghjYWxlbmRhchgNIAEoCSJfChNJ",
-            "bml0aWFsaXphdGlvblN0YXRlEiQKIElOSVRJQUxJWkFUSU9OX1NUQVRFX1VO",
-            "U1BFQ0lGSUVEEAASEQoNVU5JTklUSUFMSVpFRBABEg8KC0lOSVRJQUxJWkVE",
-            "EAIiRgoLVXBkYXRlU3RhdGUSHAoYVVBEQVRFX1NUQVRFX1VOU1BFQ0lGSUVE",
-            "EAASDAoIT1VUREFURUQQARILCgdVUERBVEVEEAJCDwoNcGFyZW50X2Rldmlj",
-            "ZUIOCgxvcGVuaW5nX21vZGUiHgocQ29uZmlndXJlQWNjZXNzUG9pbnRNZXRh",
-            "ZGF0YSIrChtDb25maWd1cmVBY2Nlc3NQb2ludFJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCSIeChxDb25maWd1cmVBY2Nlc3NQb2ludFJlc3BvbnNlIoMBChhDcmVh",
-            "dGVBY2Nlc3NQb2ludFJlcXVlc3QSDgoGcGFyZW50GAEgASgJEhcKD2FjY2Vz",
-            "c19wb2ludF9pZBgCIAEoCRI+CgxhY2Nlc3NfcG9pbnQYAyABKAsyKC5zYWx0",
-            "by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQiKAoYRGVsZXRl",
-            "QWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkiJQoVR2V0QWNjZXNz",
-            "UG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkiOQodSW5pdGlhbGl6ZUFjY2Vz",
-            "c1BvaW50TWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBSIsChxJ",
-            "bml0aWFsaXplQWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkiHwod",
-            "SW5pdGlhbGl6ZUFjY2Vzc1BvaW50UmVzcG9uc2UicgoXTGlzdEFjY2Vzc1Bv",
-            "aW50c1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEo",
-            "BRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRl",
-            "cl9ieRgFIAEoCSJ0ChhMaXN0QWNjZXNzUG9pbnRzUmVzcG9uc2USPwoNYWNj",
-            "ZXNzX3BvaW50cxgBIAMoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
-            "MS5BY2Nlc3NQb2ludBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiGgoYUmVz",
-            "ZXRBY2Nlc3NQb2ludE1ldGFkYXRhIicKF1Jlc2V0QWNjZXNzUG9pbnRSZXF1",
-            "ZXN0EgwKBG5hbWUYASABKAkiGgoYUmVzZXRBY2Nlc3NQb2ludFJlc3BvbnNl",
-            "Ij0KIVVwZGF0ZUFjY2Vzc1BvaW50RmlybXdhcmVNZXRhZGF0YRIYChBwcm9n",
-            "cmVzc19wZXJjZW50GAEgASgFIjgKIFVwZGF0ZUFjY2Vzc1BvaW50RmlybXdh",
-            "cmVSZXF1ZXN0EhQKDGFjY2Vzc19wb2ludBgBIAEoCSIjCiFVcGRhdGVBY2Nl",
-            "c3NQb2ludEZpcm13YXJlUmVzcG9uc2UiiwEKGFVwZGF0ZUFjY2Vzc1BvaW50",
-            "UmVxdWVzdBI+CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0by5uZWJ1bGEu",
-            "YWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSLwoLdXBkYXRlX21hc2sYAiAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrMqUIChJBY2Nlc3NQb2lu",
-            "dFNlcnZpY2UScQoUQ29uZmlndXJlQWNjZXNzUG9pbnQSOC5zYWx0by5uZWJ1",
-            "bGEuYWNjZXNzcG9pbnQudjEuQ29uZmlndXJlQWNjZXNzUG9pbnRSZXF1ZXN0",
-            "Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEnQKEUNyZWF0ZUFj",
-            "Y2Vzc1BvaW50EjUuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkNyZWF0",
-            "ZUFjY2Vzc1BvaW50UmVxdWVzdBooLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2lu",
-            "dC52MS5BY2Nlc3NQb2ludBJiChFEZWxldGVBY2Nlc3NQb2ludBI1LnNhbHRv",
-            "Lm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5EZWxldGVBY2Nlc3NQb2ludFJlcXVl",
-            "c3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSbgoOR2V0QWNjZXNzUG9pbnQS",
-            "Mi5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuR2V0QWNjZXNzUG9pbnRS",
-            "ZXF1ZXN0Giguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1Bv",
-            "aW50EnMKFUluaXRpYWxpemVBY2Nlc3NQb2ludBI5LnNhbHRvLm5lYnVsYS5h",
-            "Y2Nlc3Nwb2ludC52MS5Jbml0aWFsaXplQWNjZXNzUG9pbnRSZXF1ZXN0Gh8u",
-            "c2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEn8KEExpc3RBY2Nlc3NQ",
-            "b2ludHMSNC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuTGlzdEFjY2Vz",
-            "c1BvaW50c1JlcXVlc3QaNS5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEu",
-            "TGlzdEFjY2Vzc1BvaW50c1Jlc3BvbnNlEmkKEFJlc2V0QWNjZXNzUG9pbnQS",
-            "NC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuUmVzZXRBY2Nlc3NQb2lu",
-            "dFJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SdAoR",
-            "VXBkYXRlQWNjZXNzUG9pbnQSNS5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQu",
-            "djEuVXBkYXRlQWNjZXNzUG9pbnRSZXF1ZXN0Giguc2FsdG8ubmVidWxhLmFj",
-            "Y2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50EnsKGVVwZGF0ZUFjY2Vzc1BvaW50",
-            "RmlybXdhcmUSPS5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuVXBkYXRl",
-            "QWNjZXNzUG9pbnRGaXJtd2FyZVJlcXVlc3QaHy5zYWx0by5sb25ncnVubmlu",
-            "Zy52MS5PcGVyYXRpb25CsQEKI2NvbS5zYWx0b2FwaXMubmVidWxhLmFjY2Vz",
+            "cHJvdG8aJHNhbHRvL25lYnVsYS90eXBlL29wZW5pbmdfbW9kZS5wcm90byKz",
+            "AgoLQWNjZXNzUG9pbnQSDAoEbmFtZRgBIAEoCRIUCgxkaXNwbGF5X25hbWUY",
+            "AiABKAkSLwoFZml4ZWQYAyABKA4yHi5zYWx0by5uZWJ1bGEudHlwZS5PcGVu",
+            "aW5nTW9kZUgAEhIKCHNjaGVkdWxlGAQgASgJSAASSgoMdXBkYXRlX3N0YXRl",
+            "GAUgASgOMjQuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1Bv",
+            "aW50LlVwZGF0ZVN0YXRlEhcKD2VsZWN0cm9uaWNfbG9jaxgGIAEoCSJGCgtV",
+            "cGRhdGVTdGF0ZRIcChhVUERBVEVfU1RBVEVfVU5TUEVDSUZJRUQQABIMCghP",
+            "VVREQVRFRBABEgsKB1VQREFURUQQAkIOCgxvcGVuaW5nX21vZGUigwEKGENy",
+            "ZWF0ZUFjY2Vzc1BvaW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSFwoPYWNj",
+            "ZXNzX3BvaW50X2lkGAIgASgJEj4KDGFjY2Vzc19wb2ludBgDIAEoCzIoLnNh",
+            "bHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCIoChhEZWxl",
+            "dGVBY2Nlc3NQb2ludFJlcXVlc3QSDAoEbmFtZRgBIAEoCSIlChVHZXRBY2Nl",
+            "c3NQb2ludFJlcXVlc3QSDAoEbmFtZRgBIAEoCSJyChdMaXN0QWNjZXNzUG9p",
+            "bnRzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgF",
+            "EhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVy",
+            "X2J5GAUgASgJInQKGExpc3RBY2Nlc3NQb2ludHNSZXNwb25zZRI/Cg1hY2Nl",
+            "c3NfcG9pbnRzGAEgAygLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYx",
+            "LkFjY2Vzc1BvaW50EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKLAQoYVXBk",
+            "YXRlQWNjZXNzUG9pbnRSZXF1ZXN0Ej4KDGFjY2Vzc19wb2ludBgBIAEoCzIo",
+            "LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIvCgt1",
+            "cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sy",
+            "1QQKEkFjY2Vzc1BvaW50U2VydmljZRJ0ChFDcmVhdGVBY2Nlc3NQb2ludBI1",
+            "LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5DcmVhdGVBY2Nlc3NQb2lu",
+            "dFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNz",
+            "UG9pbnQSYgoRRGVsZXRlQWNjZXNzUG9pbnQSNS5zYWx0by5uZWJ1bGEuYWNj",
+            "ZXNzcG9pbnQudjEuRGVsZXRlQWNjZXNzUG9pbnRSZXF1ZXN0GhYuZ29vZ2xl",
+            "LnByb3RvYnVmLkVtcHR5Em4KDkdldEFjY2Vzc1BvaW50EjIuc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3BvaW50LnYxLkdldEFjY2Vzc1BvaW50UmVxdWVzdBooLnNh",
+            "bHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBJ/ChBMaXN0",
+            "QWNjZXNzUG9pbnRzEjQuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkxp",
+            "c3RBY2Nlc3NQb2ludHNSZXF1ZXN0GjUuc2FsdG8ubmVidWxhLmFjY2Vzc3Bv",
+            "aW50LnYxLkxpc3RBY2Nlc3NQb2ludHNSZXNwb25zZRJ0ChFVcGRhdGVBY2Nl",
+            "c3NQb2ludBI1LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5VcGRhdGVB",
+            "Y2Nlc3NQb2ludFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQu",
+            "djEuQWNjZXNzUG9pbnRCsQEKI2NvbS5zYWx0b2FwaXMubmVidWxhLmFjY2Vz",
             "c3BvaW50LnYxQhBBY2Nlc3NQb2ludFByb3RvUAFaVGdpdGxhYi5ybmQuc2Fs",
             "dG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9h",
             "Y2Nlc3Nwb2ludC92MTthY2Nlc3Nwb2ludKoCH1NhbHRvYXBpcy5OZWJ1bGEu",
             "QWNjZXNzUG9pbnQuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, global::Saltoapis.Nebula.Type.KeyTypeReflection.Descriptor, global::Saltoapis.Nebula.Type.OpeningModeReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Nebula.Type.OpeningModeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint), global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser, new[]{ "Name", "Gateway", "Extender", "DisplayName", "AllowedKeyTypes", "DeviceId", "InitializationState", "Fixed", "Schedule", "UpdateState", "Calendar" }, new[]{ "ParentDevice", "OpeningMode" }, new[]{ typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState), typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointMetadata), global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointMetadata.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointResponse), global::Saltoapis.Nebula.AccessPoint.V1.ConfigureAccessPointResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint), global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser, new[]{ "Name", "DisplayName", "Fixed", "Schedule", "UpdateState", "ElectronicLock" }, new[]{ "OpeningMode" }, new[]{ typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest.Parser, new[]{ "Parent", "AccessPointId", "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointMetadata), global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointResponse), global::Saltoapis.Nebula.AccessPoint.V1.InitializeAccessPointResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse.Parser, new[]{ "AccessPoints", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointMetadata), global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointMetadata.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointResponse), global::Saltoapis.Nebula.AccessPoint.V1.ResetAccessPointResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareMetadata), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareRequest.Parser, new[]{ "AccessPoint" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareResponse), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointFirmwareResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest.Parser, new[]{ "AccessPoint", "UpdateMask" }, null, null, null, null)
           }));
     }
@@ -158,20 +116,8 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     public AccessPoint(AccessPoint other) : this() {
       name_ = other.name_;
       displayName_ = other.displayName_;
-      allowedKeyTypes_ = other.allowedKeyTypes_.Clone();
-      deviceId_ = other.deviceId_;
-      initializationState_ = other.initializationState_;
       updateState_ = other.updateState_;
-      calendar_ = other.calendar_;
-      switch (other.ParentDeviceCase) {
-        case ParentDeviceOneofCase.Gateway:
-          Gateway = other.Gateway;
-          break;
-        case ParentDeviceOneofCase.Extender:
-          Extender = other.Extender;
-          break;
-      }
-
+      electronicLock_ = other.electronicLock_;
       switch (other.OpeningModeCase) {
         case OpeningModeOneofCase.Fixed:
           Fixed = other.Fixed;
@@ -205,36 +151,8 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
     }
 
-    /// <summary>Field number for the "gateway" field.</summary>
-    public const int GatewayFieldNumber = 2;
-    /// <summary>
-    /// Reference to gateway parent device
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Gateway {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway ? (string) parentDevice_ : ""; }
-      set {
-        parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-        parentDeviceCase_ = ParentDeviceOneofCase.Gateway;
-      }
-    }
-
-    /// <summary>Field number for the "extender" field.</summary>
-    public const int ExtenderFieldNumber = 3;
-    /// <summary>
-    /// Reference to extender parent device
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Extender {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender ? (string) parentDevice_ : ""; }
-      set {
-        parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-        parentDeviceCase_ = ParentDeviceOneofCase.Extender;
-      }
-    }
-
     /// <summary>Field number for the "display_name" field.</summary>
-    public const int DisplayNameFieldNumber = 4;
+    public const int DisplayNameFieldNumber = 2;
     private string displayName_ = "";
     /// <summary>
     /// Display name of the access point.
@@ -247,57 +165,8 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
     }
 
-    /// <summary>Field number for the "allowed_key_types" field.</summary>
-    public const int AllowedKeyTypesFieldNumber = 5;
-    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.Type.KeyType> _repeated_allowedKeyTypes_codec
-        = pb::FieldCodec.ForEnum(42, x => (int) x, x => (global::Saltoapis.Nebula.Type.KeyType) x);
-    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.Type.KeyType> allowedKeyTypes_ = new pbc::RepeatedField<global::Saltoapis.Nebula.Type.KeyType>();
-    /// <summary>
-    /// Allowed key types.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Saltoapis.Nebula.Type.KeyType> AllowedKeyTypes {
-      get { return allowedKeyTypes_; }
-    }
-
-    /// <summary>Field number for the "device_id" field.</summary>
-    public const int DeviceIdFieldNumber = 6;
-    private string deviceId_ = "";
-    /// <summary>
-    /// Globally unique identifier that is used across all devices manufactured
-    /// by SALTO, including gateways, extenders, encoders and so on.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string DeviceId {
-      get { return deviceId_; }
-      set {
-        deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "initialization_state" field.</summary>
-    public const int InitializationStateFieldNumber = 7;
-    private global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState initializationState_ = global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState.Unspecified;
-    /// <summary>
-    /// Indicates whether this access point has been initialized or not. This
-    /// field cannot be modified using a standard
-    /// [`UpdateAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.UpdateAccessPoint]
-    /// operation. To change the value of this field, you must call
-    /// [`InitializeAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.InitializeAccessPoint].
-    ///
-    /// If the value is `UNINITIALIZED` also applies to the case where the
-    /// initialization process has been initiated but where it has not finished.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState InitializationState {
-      get { return initializationState_; }
-      set {
-        initializationState_ = value;
-      }
-    }
-
     /// <summary>Field number for the "fixed" field.</summary>
-    public const int FixedFieldNumber = 10;
+    public const int FixedFieldNumber = 3;
     /// <summary>
     /// The opening mode to be used permanently.
     /// </summary>
@@ -311,7 +180,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     }
 
     /// <summary>Field number for the "schedule" field.</summary>
-    public const int ScheduleFieldNumber = 11;
+    public const int ScheduleFieldNumber = 4;
     /// <summary>
     /// Reference to an opening mode schedule
     /// </summary>
@@ -325,14 +194,15 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     }
 
     /// <summary>Field number for the "update_state" field.</summary>
-    public const int UpdateStateFieldNumber = 12;
+    public const int UpdateStateFieldNumber = 5;
     private global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState updateState_ = global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified;
     /// <summary>
-    /// Indicates whether this access point has pending updates or not.
-    /// This field cannot be modified using a standard
+    /// Indicates whether this access point has pending updates or not. This
+    /// field cannot be modified using a standard
     /// [`UpdateAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.UpdateAccessPoint]
     /// operation. To change the value of this field, you must call
-    /// [`ConfigureAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.ConfigureAccessPoint].
+    /// [`ConfigureElectronicLock`][salto.nebula.device.v1.ElectronicLockService.ConfigureElectronicLock]
+    /// against the electronic lock this access point is attached to.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState UpdateState {
@@ -342,45 +212,26 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
     }
 
-    /// <summary>Field number for the "calendar" field.</summary>
-    public const int CalendarFieldNumber = 13;
-    private string calendar_ = "";
+    /// <summary>Field number for the "electronic_lock" field.</summary>
+    public const int ElectronicLockFieldNumber = 6;
+    private string electronicLock_ = "";
     /// <summary>
-    /// Calendar reference assigned to this access point.
+    /// The electronic lock which is attached to the access point.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Calendar {
-      get { return calendar_; }
+    public string ElectronicLock {
+      get { return electronicLock_; }
       set {
-        calendar_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        electronicLock_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
-    }
-
-    private object parentDevice_;
-    /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
-    public enum ParentDeviceOneofCase {
-      None = 0,
-      Gateway = 2,
-      Extender = 3,
-    }
-    private ParentDeviceOneofCase parentDeviceCase_ = ParentDeviceOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ParentDeviceOneofCase ParentDeviceCase {
-      get { return parentDeviceCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void ClearParentDevice() {
-      parentDeviceCase_ = ParentDeviceOneofCase.None;
-      parentDevice_ = null;
     }
 
     private object openingMode_;
     /// <summary>Enum of possible cases for the "opening_mode" oneof.</summary>
     public enum OpeningModeOneofCase {
       None = 0,
-      Fixed = 10,
-      Schedule = 11,
+      Fixed = 3,
+      Schedule = 4,
     }
     private OpeningModeOneofCase openingModeCase_ = OpeningModeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -408,17 +259,11 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (Gateway != other.Gateway) return false;
-      if (Extender != other.Extender) return false;
       if (DisplayName != other.DisplayName) return false;
-      if(!allowedKeyTypes_.Equals(other.allowedKeyTypes_)) return false;
-      if (DeviceId != other.DeviceId) return false;
-      if (InitializationState != other.InitializationState) return false;
       if (Fixed != other.Fixed) return false;
       if (Schedule != other.Schedule) return false;
       if (UpdateState != other.UpdateState) return false;
-      if (Calendar != other.Calendar) return false;
-      if (ParentDeviceCase != other.ParentDeviceCase) return false;
+      if (ElectronicLock != other.ElectronicLock) return false;
       if (OpeningModeCase != other.OpeningModeCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -427,17 +272,11 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
-      hash ^= allowedKeyTypes_.GetHashCode();
-      if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
-      if (InitializationState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState.Unspecified) hash ^= InitializationState.GetHashCode();
       if (openingModeCase_ == OpeningModeOneofCase.Fixed) hash ^= Fixed.GetHashCode();
       if (openingModeCase_ == OpeningModeOneofCase.Schedule) hash ^= Schedule.GetHashCode();
       if (UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) hash ^= UpdateState.GetHashCode();
-      if (Calendar.Length != 0) hash ^= Calendar.GetHashCode();
-      hash ^= (int) parentDeviceCase_;
+      if (ElectronicLock.Length != 0) hash ^= ElectronicLock.GetHashCode();
       hash ^= (int) openingModeCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -459,42 +298,25 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
-        output.WriteRawTag(18);
-        output.WriteString(Gateway);
-      }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
-        output.WriteRawTag(26);
-        output.WriteString(Extender);
-      }
       if (DisplayName.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
-      allowedKeyTypes_.WriteTo(output, _repeated_allowedKeyTypes_codec);
-      if (DeviceId.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(DeviceId);
-      }
-      if (InitializationState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState.Unspecified) {
-        output.WriteRawTag(56);
-        output.WriteEnum((int) InitializationState);
-      }
       if (openingModeCase_ == OpeningModeOneofCase.Fixed) {
-        output.WriteRawTag(80);
+        output.WriteRawTag(24);
         output.WriteEnum((int) Fixed);
       }
       if (openingModeCase_ == OpeningModeOneofCase.Schedule) {
-        output.WriteRawTag(90);
+        output.WriteRawTag(34);
         output.WriteString(Schedule);
       }
       if (UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) {
-        output.WriteRawTag(96);
+        output.WriteRawTag(40);
         output.WriteEnum((int) UpdateState);
       }
-      if (Calendar.Length != 0) {
-        output.WriteRawTag(106);
-        output.WriteString(Calendar);
+      if (ElectronicLock.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(ElectronicLock);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -509,42 +331,25 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
-        output.WriteRawTag(18);
-        output.WriteString(Gateway);
-      }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
-        output.WriteRawTag(26);
-        output.WriteString(Extender);
-      }
       if (DisplayName.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
-      allowedKeyTypes_.WriteTo(ref output, _repeated_allowedKeyTypes_codec);
-      if (DeviceId.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(DeviceId);
-      }
-      if (InitializationState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState.Unspecified) {
-        output.WriteRawTag(56);
-        output.WriteEnum((int) InitializationState);
-      }
       if (openingModeCase_ == OpeningModeOneofCase.Fixed) {
-        output.WriteRawTag(80);
+        output.WriteRawTag(24);
         output.WriteEnum((int) Fixed);
       }
       if (openingModeCase_ == OpeningModeOneofCase.Schedule) {
-        output.WriteRawTag(90);
+        output.WriteRawTag(34);
         output.WriteString(Schedule);
       }
       if (UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) {
-        output.WriteRawTag(96);
+        output.WriteRawTag(40);
         output.WriteEnum((int) UpdateState);
       }
-      if (Calendar.Length != 0) {
-        output.WriteRawTag(106);
-        output.WriteString(Calendar);
+      if (ElectronicLock.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(ElectronicLock);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -558,21 +363,8 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
-      }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
-      }
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
-      }
-      size += allowedKeyTypes_.CalculateSize(_repeated_allowedKeyTypes_codec);
-      if (DeviceId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
-      }
-      if (InitializationState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) InitializationState);
       }
       if (openingModeCase_ == OpeningModeOneofCase.Fixed) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Fixed);
@@ -583,8 +375,8 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) UpdateState);
       }
-      if (Calendar.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Calendar);
+      if (ElectronicLock.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ElectronicLock);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -603,28 +395,12 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
       }
-      allowedKeyTypes_.Add(other.allowedKeyTypes_);
-      if (other.DeviceId.Length != 0) {
-        DeviceId = other.DeviceId;
-      }
-      if (other.InitializationState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState.Unspecified) {
-        InitializationState = other.InitializationState;
-      }
       if (other.UpdateState != global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState.Unspecified) {
         UpdateState = other.UpdateState;
       }
-      if (other.Calendar.Length != 0) {
-        Calendar = other.Calendar;
+      if (other.ElectronicLock.Length != 0) {
+        ElectronicLock = other.ElectronicLock;
       }
-      switch (other.ParentDeviceCase) {
-        case ParentDeviceOneofCase.Gateway:
-          Gateway = other.Gateway;
-          break;
-        case ParentDeviceOneofCase.Extender:
-          Extender = other.Extender;
-          break;
-      }
-
       switch (other.OpeningModeCase) {
         case OpeningModeOneofCase.Fixed:
           Fixed = other.Fixed;
@@ -653,45 +429,24 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             break;
           }
           case 18: {
-            Gateway = input.ReadString();
-            break;
-          }
-          case 26: {
-            Extender = input.ReadString();
-            break;
-          }
-          case 34: {
             DisplayName = input.ReadString();
             break;
           }
-          case 42:
-          case 40: {
-            allowedKeyTypes_.AddEntriesFrom(input, _repeated_allowedKeyTypes_codec);
-            break;
-          }
-          case 50: {
-            DeviceId = input.ReadString();
-            break;
-          }
-          case 56: {
-            InitializationState = (global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState) input.ReadEnum();
-            break;
-          }
-          case 80: {
+          case 24: {
             openingMode_ = input.ReadEnum();
             openingModeCase_ = OpeningModeOneofCase.Fixed;
             break;
           }
-          case 90: {
+          case 34: {
             Schedule = input.ReadString();
             break;
           }
-          case 96: {
+          case 40: {
             UpdateState = (global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState) input.ReadEnum();
             break;
           }
-          case 106: {
-            Calendar = input.ReadString();
+          case 50: {
+            ElectronicLock = input.ReadString();
             break;
           }
         }
@@ -713,45 +468,24 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             break;
           }
           case 18: {
-            Gateway = input.ReadString();
-            break;
-          }
-          case 26: {
-            Extender = input.ReadString();
-            break;
-          }
-          case 34: {
             DisplayName = input.ReadString();
             break;
           }
-          case 42:
-          case 40: {
-            allowedKeyTypes_.AddEntriesFrom(ref input, _repeated_allowedKeyTypes_codec);
-            break;
-          }
-          case 50: {
-            DeviceId = input.ReadString();
-            break;
-          }
-          case 56: {
-            InitializationState = (global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.InitializationState) input.ReadEnum();
-            break;
-          }
-          case 80: {
+          case 24: {
             openingMode_ = input.ReadEnum();
             openingModeCase_ = OpeningModeOneofCase.Fixed;
             break;
           }
-          case 90: {
+          case 34: {
             Schedule = input.ReadString();
             break;
           }
-          case 96: {
+          case 40: {
             UpdateState = (global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Types.UpdateState) input.ReadEnum();
             break;
           }
-          case 106: {
-            Calendar = input.ReadString();
+          case 50: {
+            ElectronicLock = input.ReadString();
             break;
           }
         }
@@ -763,26 +497,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     /// <summary>Container for nested types declared in the AccessPoint message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static partial class Types {
-      /// <summary>
-      /// Initialization state for an access point.
-      /// </summary>
-      public enum InitializationState {
-        /// <summary>
-        /// Sentinel value used to indicate that the state is unknown, omitted,
-        /// or is not applicable.
-        /// </summary>
-        [pbr::OriginalName("INITIALIZATION_STATE_UNSPECIFIED")] Unspecified = 0,
-        /// <summary>
-        /// The access point has yet to be initialized and requires
-        /// initialization to function.
-        /// </summary>
-        [pbr::OriginalName("UNINITIALIZED")] Uninitialized = 1,
-        /// <summary>
-        /// The access point has already been initialized.
-        /// </summary>
-        [pbr::OriginalName("INITIALIZED")] Initialized = 2,
-      }
-
       /// <summary>
       /// Update state for an access point.
       /// </summary>
@@ -808,463 +522,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   }
 
   /// <summary>
-  /// The metadata message for [`ConfigureAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.ConfigureAccessPoint]
-  /// </summary>
-  public sealed partial class ConfigureAccessPointMetadata : pb::IMessage<ConfigureAccessPointMetadata>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ConfigureAccessPointMetadata> _parser = new pb::MessageParser<ConfigureAccessPointMetadata>(() => new ConfigureAccessPointMetadata());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConfigureAccessPointMetadata> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointMetadata() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointMetadata(ConfigureAccessPointMetadata other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointMetadata Clone() {
-      return new ConfigureAccessPointMetadata(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConfigureAccessPointMetadata);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConfigureAccessPointMetadata other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConfigureAccessPointMetadata other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`ConfigureAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.ConfigureAccessPoint]
-  /// </summary>
-  public sealed partial class ConfigureAccessPointRequest : pb::IMessage<ConfigureAccessPointRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ConfigureAccessPointRequest> _parser = new pb::MessageParser<ConfigureAccessPointRequest>(() => new ConfigureAccessPointRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConfigureAccessPointRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointRequest(ConfigureAccessPointRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointRequest Clone() {
-      return new ConfigureAccessPointRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the access point to be configured. For example:
-    /// `installations/surelock-homes-hq/access-points/baker-street-entrance`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConfigureAccessPointRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConfigureAccessPointRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConfigureAccessPointRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The empty response message for [`ConfigureAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.ConfigureAccessPoint]
-  /// </summary>
-  public sealed partial class ConfigureAccessPointResponse : pb::IMessage<ConfigureAccessPointResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ConfigureAccessPointResponse> _parser = new pb::MessageParser<ConfigureAccessPointResponse>(() => new ConfigureAccessPointResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConfigureAccessPointResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointResponse(ConfigureAccessPointResponse other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureAccessPointResponse Clone() {
-      return new ConfigureAccessPointResponse(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConfigureAccessPointResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConfigureAccessPointResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConfigureAccessPointResponse other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [`CreateAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.CreateAccessPoint]
   /// </summary>
   public sealed partial class CreateAccessPointRequest : pb::IMessage<CreateAccessPointRequest>
@@ -1279,7 +536,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1547,7 +804,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1726,7 +983,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1891,503 +1148,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   }
 
   /// <summary>
-  /// TODO(g.lerchundi): Provisional spec for testing purposes, do not use in
-  /// production.
-  /// </summary>
-  public sealed partial class InitializeAccessPointMetadata : pb::IMessage<InitializeAccessPointMetadata>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<InitializeAccessPointMetadata> _parser = new pb::MessageParser<InitializeAccessPointMetadata>(() => new InitializeAccessPointMetadata());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<InitializeAccessPointMetadata> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[7]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointMetadata() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointMetadata(InitializeAccessPointMetadata other) : this() {
-      progressPercent_ = other.progressPercent_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointMetadata Clone() {
-      return new InitializeAccessPointMetadata(this);
-    }
-
-    /// <summary>Field number for the "progress_percent" field.</summary>
-    public const int ProgressPercentFieldNumber = 1;
-    private int progressPercent_;
-    /// <summary>
-    /// Progress of operation. Range: [0, 100].
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int ProgressPercent {
-      get { return progressPercent_; }
-      set {
-        progressPercent_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as InitializeAccessPointMetadata);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(InitializeAccessPointMetadata other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (ProgressPercent != other.ProgressPercent) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (ProgressPercent != 0) hash ^= ProgressPercent.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (ProgressPercent != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ProgressPercent != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (ProgressPercent != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(InitializeAccessPointMetadata other) {
-      if (other == null) {
-        return;
-      }
-      if (other.ProgressPercent != 0) {
-        ProgressPercent = other.ProgressPercent;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            ProgressPercent = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            ProgressPercent = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`InitializeAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.InitializeAccessPoint]
-  /// </summary>
-  public sealed partial class InitializeAccessPointRequest : pb::IMessage<InitializeAccessPointRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<InitializeAccessPointRequest> _parser = new pb::MessageParser<InitializeAccessPointRequest>(() => new InitializeAccessPointRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<InitializeAccessPointRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[8]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointRequest(InitializeAccessPointRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointRequest Clone() {
-      return new InitializeAccessPointRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the access point to be initialized. For example:
-    /// `installations/surelock-homes-hq/access-points/baker-street-entrance`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as InitializeAccessPointRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(InitializeAccessPointRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(InitializeAccessPointRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The empty response message for [`InitializeAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.InitializeAccessPoint]
-  /// </summary>
-  public sealed partial class InitializeAccessPointResponse : pb::IMessage<InitializeAccessPointResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<InitializeAccessPointResponse> _parser = new pb::MessageParser<InitializeAccessPointResponse>(() => new InitializeAccessPointResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<InitializeAccessPointResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[9]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointResponse(InitializeAccessPointResponse other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeAccessPointResponse Clone() {
-      return new InitializeAccessPointResponse(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as InitializeAccessPointResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(InitializeAccessPointResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(InitializeAccessPointResponse other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [`ListAccessPoints`][salto.nebula.accesspoint.v1.AccessPointService.ListAccessPoints]
   /// </summary>
   public sealed partial class ListAccessPointsRequest : pb::IMessage<ListAccessPointsRequest>
@@ -2402,7 +1162,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2737,7 +1497,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2932,960 +1692,6 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   }
 
   /// <summary>
-  /// The metadata message for [`ResetAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.ResetAccessPoint]
-  /// </summary>
-  public sealed partial class ResetAccessPointMetadata : pb::IMessage<ResetAccessPointMetadata>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ResetAccessPointMetadata> _parser = new pb::MessageParser<ResetAccessPointMetadata>(() => new ResetAccessPointMetadata());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ResetAccessPointMetadata> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[12]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointMetadata() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointMetadata(ResetAccessPointMetadata other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointMetadata Clone() {
-      return new ResetAccessPointMetadata(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ResetAccessPointMetadata);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ResetAccessPointMetadata other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ResetAccessPointMetadata other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`ResetAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.ResetAccessPoint]
-  /// </summary>
-  public sealed partial class ResetAccessPointRequest : pb::IMessage<ResetAccessPointRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ResetAccessPointRequest> _parser = new pb::MessageParser<ResetAccessPointRequest>(() => new ResetAccessPointRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ResetAccessPointRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[13]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointRequest(ResetAccessPointRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointRequest Clone() {
-      return new ResetAccessPointRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the access point to be reset. For example:
-    /// `installations/surelock-homes-hq/access-points/baker-street-entrance`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ResetAccessPointRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ResetAccessPointRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ResetAccessPointRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The empty response message for [`ResetAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.ResetAccessPoint]
-  /// </summary>
-  public sealed partial class ResetAccessPointResponse : pb::IMessage<ResetAccessPointResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ResetAccessPointResponse> _parser = new pb::MessageParser<ResetAccessPointResponse>(() => new ResetAccessPointResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ResetAccessPointResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[14]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointResponse(ResetAccessPointResponse other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetAccessPointResponse Clone() {
-      return new ResetAccessPointResponse(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ResetAccessPointResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ResetAccessPointResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ResetAccessPointResponse other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The metadata message for [`UpdateAccessPointFirmware`][salto.nebula.accesspoint.v1.AccessPointService.UpdateAccessPointFirmware]
-  /// </summary>
-  public sealed partial class UpdateAccessPointFirmwareMetadata : pb::IMessage<UpdateAccessPointFirmwareMetadata>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateAccessPointFirmwareMetadata> _parser = new pb::MessageParser<UpdateAccessPointFirmwareMetadata>(() => new UpdateAccessPointFirmwareMetadata());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateAccessPointFirmwareMetadata> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[15]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareMetadata() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareMetadata(UpdateAccessPointFirmwareMetadata other) : this() {
-      progressPercent_ = other.progressPercent_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareMetadata Clone() {
-      return new UpdateAccessPointFirmwareMetadata(this);
-    }
-
-    /// <summary>Field number for the "progress_percent" field.</summary>
-    public const int ProgressPercentFieldNumber = 1;
-    private int progressPercent_;
-    /// <summary>
-    /// Progress of operation. Range: [0, 100].
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int ProgressPercent {
-      get { return progressPercent_; }
-      set {
-        progressPercent_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateAccessPointFirmwareMetadata);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateAccessPointFirmwareMetadata other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (ProgressPercent != other.ProgressPercent) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (ProgressPercent != 0) hash ^= ProgressPercent.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (ProgressPercent != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ProgressPercent != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (ProgressPercent != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateAccessPointFirmwareMetadata other) {
-      if (other == null) {
-        return;
-      }
-      if (other.ProgressPercent != 0) {
-        ProgressPercent = other.ProgressPercent;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            ProgressPercent = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            ProgressPercent = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`UpdateAccessPointFirmware`][salto.nebula.accesspoint.v1.AccessPointService.UpdateAccessPointFirmware]
-  /// </summary>
-  public sealed partial class UpdateAccessPointFirmwareRequest : pb::IMessage<UpdateAccessPointFirmwareRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateAccessPointFirmwareRequest> _parser = new pb::MessageParser<UpdateAccessPointFirmwareRequest>(() => new UpdateAccessPointFirmwareRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateAccessPointFirmwareRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[16]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareRequest(UpdateAccessPointFirmwareRequest other) : this() {
-      accessPoint_ = other.accessPoint_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareRequest Clone() {
-      return new UpdateAccessPointFirmwareRequest(this);
-    }
-
-    /// <summary>Field number for the "access_point" field.</summary>
-    public const int AccessPointFieldNumber = 1;
-    private string accessPoint_ = "";
-    /// <summary>
-    /// The resource name of the access point whose firmware will be updated. For
-    /// example:
-    /// `installations/surelock-homes-hq/access-points/baker-street-entrance`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string AccessPoint {
-      get { return accessPoint_; }
-      set {
-        accessPoint_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateAccessPointFirmwareRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateAccessPointFirmwareRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (AccessPoint != other.AccessPoint) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (AccessPoint.Length != 0) hash ^= AccessPoint.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (AccessPoint.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(AccessPoint);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (AccessPoint.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(AccessPoint);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (AccessPoint.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessPoint);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateAccessPointFirmwareRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.AccessPoint.Length != 0) {
-        AccessPoint = other.AccessPoint;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            AccessPoint = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            AccessPoint = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The response message for [`UpdateAccessPointFirmware`][salto.nebula.accesspoint.v1.AccessPointService.UpdateAccessPointFirmware]
-  /// </summary>
-  public sealed partial class UpdateAccessPointFirmwareResponse : pb::IMessage<UpdateAccessPointFirmwareResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateAccessPointFirmwareResponse> _parser = new pb::MessageParser<UpdateAccessPointFirmwareResponse>(() => new UpdateAccessPointFirmwareResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateAccessPointFirmwareResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[17]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareResponse(UpdateAccessPointFirmwareResponse other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAccessPointFirmwareResponse Clone() {
-      return new UpdateAccessPointFirmwareResponse(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateAccessPointFirmwareResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateAccessPointFirmwareResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateAccessPointFirmwareResponse other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [`UpdateAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.UpdateAccessPoint]
   /// </summary>
   public sealed partial class UpdateAccessPointRequest : pb::IMessage<UpdateAccessPointRequest>
@@ -3900,7 +1706,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

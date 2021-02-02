@@ -6,7 +6,6 @@ package(default_visibility = ['//:__subpackages__'])
 load_rules(
     lib_name = 'Saltoapis.Nebula.AccessPoint.V1',
     internal_dependencies = [
-        '//src/Saltoapis.Longrunning.V1',
         '//src/Saltoapis.Nebula.Type',
     ],
     extra_info = {
