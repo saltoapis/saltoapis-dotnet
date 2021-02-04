@@ -36,8 +36,8 @@ namespace Saltoapis.Nebula.Iam.V1 {
             "c2USKAoFcm9sZXMYASADKAsyGS5zYWx0by5uZWJ1bGEuaWFtLnYxLlJvbGUS",
             "FwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIj8KBFJvbGUSDAoEbmFtZRgBIAEo",
             "CRIUCgxkaXNwbGF5X25hbWUYAiABKAkSEwoLcGVybWlzc2lvbnMYAyADKAki",
-            "bQoRVXBkYXRlUm9sZVJlcXVlc3QSJwoEcm9sZRgCIAEoCzIZLnNhbHRvLm5l",
-            "YnVsYS5pYW0udjEuUm9sZRIvCgt1cGRhdGVfbWFzaxgDIAEoCzIaLmdvb2ds",
+            "bQoRVXBkYXRlUm9sZVJlcXVlc3QSJwoEcm9sZRgBIAEoCzIZLnNhbHRvLm5l",
+            "YnVsYS5pYW0udjEuUm9sZRIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2ds",
             "ZS5wcm90b2J1Zi5GaWVsZE1hc2syowMKCklBTVNlcnZpY2USTwoKQ3JlYXRl",
             "Um9sZRImLnNhbHRvLm5lYnVsYS5pYW0udjEuQ3JlYXRlUm9sZVJlcXVlc3Qa",
             "GS5zYWx0by5uZWJ1bGEuaWFtLnYxLlJvbGUSTAoKRGVsZXRlUm9sZRImLnNh",
@@ -1534,7 +1534,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     }
 
     /// <summary>Field number for the "role" field.</summary>
-    public const int RoleFieldNumber = 2;
+    public const int RoleFieldNumber = 1;
     private global::Saltoapis.Nebula.Iam.V1.Role role_;
     /// <summary>
     /// The role resource which replaces the resource on the server.
@@ -1548,7 +1548,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     }
 
     /// <summary>Field number for the "update_mask" field.</summary>
-    public const int UpdateMaskFieldNumber = 3;
+    public const int UpdateMaskFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
     /// <summary>
     /// The update mask applied to the resource.
@@ -1601,11 +1601,11 @@ namespace Saltoapis.Nebula.Iam.V1 {
       output.WriteRawMessage(this);
     #else
       if (role_ != null) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteMessage(Role);
       }
       if (updateMask_ != null) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(18);
         output.WriteMessage(UpdateMask);
       }
       if (_unknownFields != null) {
@@ -1618,11 +1618,11 @@ namespace Saltoapis.Nebula.Iam.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (role_ != null) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteMessage(Role);
       }
       if (updateMask_ != null) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(18);
         output.WriteMessage(UpdateMask);
       }
       if (_unknownFields != null) {
@@ -1677,14 +1677,14 @@ namespace Saltoapis.Nebula.Iam.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 18: {
+          case 10: {
             if (role_ == null) {
               Role = new global::Saltoapis.Nebula.Iam.V1.Role();
             }
             input.ReadMessage(Role);
             break;
           }
-          case 26: {
+          case 18: {
             if (updateMask_ == null) {
               UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
             }
@@ -1705,14 +1705,14 @@ namespace Saltoapis.Nebula.Iam.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 18: {
+          case 10: {
             if (role_ == null) {
               Role = new global::Saltoapis.Nebula.Iam.V1.Role();
             }
             input.ReadMessage(Role);
             break;
           }
-          case 26: {
+          case 18: {
             if (updateMask_ == null) {
               UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
             }

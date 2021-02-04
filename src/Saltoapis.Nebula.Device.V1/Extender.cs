@@ -31,9 +31,9 @@ namespace Saltoapis.Nebula.Device.V1 {
             "ZXJSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRITCgtleHRlbmRlcl9pZBgCIAEo",
             "CRIyCghleHRlbmRlchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEu",
             "RXh0ZW5kZXIiJQoVRGVsZXRlRXh0ZW5kZXJSZXF1ZXN0EgwKBG5hbWUYASAB",
-            "KAkieQoIRXh0ZW5kZXISDAoEbmFtZRgBIAEoCRIUCgxkaXNwbGF5X25hbWUY",
-            "AiABKAkSEQoHZ2F0ZXdheRgDIAEoCUgAEhIKCGV4dGVuZGVyGAQgASgJSAAS",
-            "EQoJZGV2aWNlX2lkGAUgASgJQg8KDXBhcmVudF9kZXZpY2UiIgoSR2V0RXh0",
+            "KAkieQoIRXh0ZW5kZXISDAoEbmFtZRgBIAEoCRIRCglkZXZpY2VfaWQYAiAB",
+            "KAkSFAoMZGlzcGxheV9uYW1lGAMgASgJEhEKB2dhdGV3YXkYBCABKAlIABIS",
+            "CghleHRlbmRlchgFIAEoCUgAQg8KDXBhcmVudF9kZXZpY2UiIgoSR2V0RXh0",
             "ZW5kZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkibwoUTGlzdEV4dGVuZGVyc1Jl",
             "cXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpw",
             "YWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgF",
@@ -68,7 +68,7 @@ namespace Saltoapis.Nebula.Device.V1 {
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.CreateExtenderRequest), global::Saltoapis.Nebula.Device.V1.CreateExtenderRequest.Parser, new[]{ "Parent", "ExtenderId", "Extender" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.DeleteExtenderRequest), global::Saltoapis.Nebula.Device.V1.DeleteExtenderRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Extender), global::Saltoapis.Nebula.Device.V1.Extender.Parser, new[]{ "Name", "DisplayName", "Gateway", "Extender_", "DeviceId" }, new[]{ "ParentDevice" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Extender), global::Saltoapis.Nebula.Device.V1.Extender.Parser, new[]{ "Name", "DeviceId", "DisplayName", "Gateway", "Extender_" }, new[]{ "ParentDevice" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetExtenderRequest), global::Saltoapis.Nebula.Device.V1.GetExtenderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListExtendersRequest), global::Saltoapis.Nebula.Device.V1.ListExtendersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListExtendersResponse), global::Saltoapis.Nebula.Device.V1.ListExtendersResponse.Parser, new[]{ "Extenders", "NextPageToken" }, null, null, null, null),
@@ -562,8 +562,8 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Extender(Extender other) : this() {
       name_ = other.name_;
-      displayName_ = other.displayName_;
       deviceId_ = other.deviceId_;
+      displayName_ = other.displayName_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -597,50 +597,8 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
     }
 
-    /// <summary>Field number for the "display_name" field.</summary>
-    public const int DisplayNameFieldNumber = 2;
-    private string displayName_ = "";
-    /// <summary>
-    /// Display name of the extender.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string DisplayName {
-      get { return displayName_; }
-      set {
-        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "gateway" field.</summary>
-    public const int GatewayFieldNumber = 3;
-    /// <summary>
-    /// Parent name, when extender is connected to a gateway
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Gateway {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway ? (string) parentDevice_ : ""; }
-      set {
-        parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-        parentDeviceCase_ = ParentDeviceOneofCase.Gateway;
-      }
-    }
-
-    /// <summary>Field number for the "extender" field.</summary>
-    public const int Extender_FieldNumber = 4;
-    /// <summary>
-    /// Parent name, when extender is connected to an extender
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Extender_ {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender_ ? (string) parentDevice_ : ""; }
-      set {
-        parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-        parentDeviceCase_ = ParentDeviceOneofCase.Extender_;
-      }
-    }
-
     /// <summary>Field number for the "device_id" field.</summary>
-    public const int DeviceIdFieldNumber = 5;
+    public const int DeviceIdFieldNumber = 2;
     private string deviceId_ = "";
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -654,12 +612,54 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
     }
 
+    /// <summary>Field number for the "display_name" field.</summary>
+    public const int DisplayNameFieldNumber = 3;
+    private string displayName_ = "";
+    /// <summary>
+    /// Display name of the extender.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DisplayName {
+      get { return displayName_; }
+      set {
+        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "gateway" field.</summary>
+    public const int GatewayFieldNumber = 4;
+    /// <summary>
+    /// Parent name, when extender is connected to a gateway
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Gateway {
+      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway ? (string) parentDevice_ : ""; }
+      set {
+        parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        parentDeviceCase_ = ParentDeviceOneofCase.Gateway;
+      }
+    }
+
+    /// <summary>Field number for the "extender" field.</summary>
+    public const int Extender_FieldNumber = 5;
+    /// <summary>
+    /// Parent name, when extender is connected to an extender
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Extender_ {
+      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender_ ? (string) parentDevice_ : ""; }
+      set {
+        parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        parentDeviceCase_ = ParentDeviceOneofCase.Extender_;
+      }
+    }
+
     private object parentDevice_;
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
       None = 0,
-      Gateway = 3,
-      Extender_ = 4,
+      Gateway = 4,
+      Extender_ = 5,
     }
     private ParentDeviceOneofCase parentDeviceCase_ = ParentDeviceOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -687,10 +687,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (DeviceId != other.DeviceId) return false;
       if (DisplayName != other.DisplayName) return false;
       if (Gateway != other.Gateway) return false;
       if (Extender_ != other.Extender_) return false;
-      if (DeviceId != other.DeviceId) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -699,10 +699,10 @@ namespace Saltoapis.Nebula.Device.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender_) hash ^= Extender_.GetHashCode();
-      if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -724,21 +724,21 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (DisplayName.Length != 0) {
+      if (DeviceId.Length != 0) {
         output.WriteRawTag(18);
+        output.WriteString(DeviceId);
+      }
+      if (DisplayName.Length != 0) {
+        output.WriteRawTag(26);
         output.WriteString(DisplayName);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Gateway);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender_) {
-        output.WriteRawTag(34);
-        output.WriteString(Extender_);
-      }
-      if (DeviceId.Length != 0) {
         output.WriteRawTag(42);
-        output.WriteString(DeviceId);
+        output.WriteString(Extender_);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -753,21 +753,21 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (DisplayName.Length != 0) {
+      if (DeviceId.Length != 0) {
         output.WriteRawTag(18);
+        output.WriteString(DeviceId);
+      }
+      if (DisplayName.Length != 0) {
+        output.WriteRawTag(26);
         output.WriteString(DisplayName);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Gateway);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender_) {
-        output.WriteRawTag(34);
-        output.WriteString(Extender_);
-      }
-      if (DeviceId.Length != 0) {
         output.WriteRawTag(42);
-        output.WriteString(DeviceId);
+        output.WriteString(Extender_);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -781,6 +781,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
+      if (DeviceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
+      }
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
       }
@@ -789,9 +792,6 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender_) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender_);
-      }
-      if (DeviceId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -807,11 +807,11 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.DisplayName.Length != 0) {
-        DisplayName = other.DisplayName;
-      }
       if (other.DeviceId.Length != 0) {
         DeviceId = other.DeviceId;
+      }
+      if (other.DisplayName.Length != 0) {
+        DisplayName = other.DisplayName;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -841,19 +841,19 @@ namespace Saltoapis.Nebula.Device.V1 {
             break;
           }
           case 18: {
-            DisplayName = input.ReadString();
+            DeviceId = input.ReadString();
             break;
           }
           case 26: {
-            Gateway = input.ReadString();
+            DisplayName = input.ReadString();
             break;
           }
           case 34: {
-            Extender_ = input.ReadString();
+            Gateway = input.ReadString();
             break;
           }
           case 42: {
-            DeviceId = input.ReadString();
+            Extender_ = input.ReadString();
             break;
           }
         }
@@ -875,19 +875,19 @@ namespace Saltoapis.Nebula.Device.V1 {
             break;
           }
           case 18: {
-            DisplayName = input.ReadString();
+            DeviceId = input.ReadString();
             break;
           }
           case 26: {
-            Gateway = input.ReadString();
+            DisplayName = input.ReadString();
             break;
           }
           case 34: {
-            Extender_ = input.ReadString();
+            Gateway = input.ReadString();
             break;
           }
           case 42: {
-            DeviceId = input.ReadString();
+            Extender_ = input.ReadString();
             break;
           }
         }

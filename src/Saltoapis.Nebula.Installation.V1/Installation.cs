@@ -40,8 +40,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
             "DAoEbmFtZRgBIAEoCSImChZHZXRJbnN0YWxsYXRpb25SZXF1ZXN0EgwKBG5h",
             "bWUYASABKAkiIAoQR2V0UG9saWN5UmVxdWVzdBIMCgRuYW1lGAEgASgJIngK",
             "DEluc3RhbGxhdGlvbhIMCgRuYW1lGAEgASgJEhQKDGRpc3BsYXlfbmFtZRgC",
-            "IAEoCRIRCglwaG90b191cmkYBCABKAkSDwoHYWRkcmVzcxgFIAEoCRINCgVw",
-            "aG90bxgGIAEoCRIRCgl0aW1lX3pvbmUYByABKAkiYwoYTGlzdEluc3RhbGxh",
+            "IAEoCRINCgVwaG90bxgDIAEoCRIRCglwaG90b191cmkYBCABKAkSDwoHYWRk",
+            "cmVzcxgFIAEoCRIRCgl0aW1lX3pvbmUYBiABKAkiYwoYTGlzdEluc3RhbGxh",
             "dGlvbnNSZXF1ZXN0EhEKCXBhZ2Vfc2l6ZRgBIAEoBRISCgpwYWdlX3Rva2Vu",
             "GAIgASgJEg4KBmZpbHRlchgDIAEoCRIQCghvcmRlcl9ieRgEIAEoCSJ3ChlM",
             "aXN0SW5zdGFsbGF0aW9uc1Jlc3BvbnNlEkEKDWluc3RhbGxhdGlvbnMYASAD",
@@ -103,7 +103,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest), global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest), global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest), global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation), global::Saltoapis.Nebula.Installation.V1.Installation.Parser, new[]{ "Name", "DisplayName", "PhotoUri", "Address", "Photo", "TimeZone" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation), global::Saltoapis.Nebula.Installation.V1.Installation.Parser, new[]{ "Name", "DisplayName", "Photo", "PhotoUri", "Address", "TimeZone" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest), global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest.Parser, new[]{ "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse), global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse.Parser, new[]{ "Installations", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest), global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -1679,9 +1679,9 @@ namespace Saltoapis.Nebula.Installation.V1 {
     public Installation(Installation other) : this() {
       name_ = other.name_;
       displayName_ = other.displayName_;
+      photo_ = other.photo_;
       photoUri_ = other.photoUri_;
       address_ = other.address_;
-      photo_ = other.photo_;
       timeZone_ = other.timeZone_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1720,6 +1720,22 @@ namespace Saltoapis.Nebula.Installation.V1 {
       }
     }
 
+    /// <summary>Field number for the "photo" field.</summary>
+    public const int PhotoFieldNumber = 3;
+    private string photo_ = "";
+    /// <summary>
+    /// The file resource name for the installation photo. It must have the
+    /// format of
+    /// `installations/surelock-homes-hq/files/01DSYSJ1PR36VVC3MRFRV4DC7G`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Photo {
+      get { return photo_; }
+      set {
+        photo_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "photo_uri" field.</summary>
     public const int PhotoUriFieldNumber = 4;
     private string photoUri_ = "";
@@ -1751,24 +1767,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
       }
     }
 
-    /// <summary>Field number for the "photo" field.</summary>
-    public const int PhotoFieldNumber = 6;
-    private string photo_ = "";
-    /// <summary>
-    /// The file resource name for the installation photo. It must have the
-    /// format of
-    /// `installations/surelock-homes-hq/files/01DSYSJ1PR36VVC3MRFRV4DC7G`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Photo {
-      get { return photo_; }
-      set {
-        photo_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "time_zone" field.</summary>
-    public const int TimeZoneFieldNumber = 7;
+    public const int TimeZoneFieldNumber = 6;
     private string timeZone_ = "";
     /// <summary>
     /// Time zone where the installation is located. It must follow the IANA Time
@@ -1797,9 +1797,9 @@ namespace Saltoapis.Nebula.Installation.V1 {
       }
       if (Name != other.Name) return false;
       if (DisplayName != other.DisplayName) return false;
+      if (Photo != other.Photo) return false;
       if (PhotoUri != other.PhotoUri) return false;
       if (Address != other.Address) return false;
-      if (Photo != other.Photo) return false;
       if (TimeZone != other.TimeZone) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1809,9 +1809,9 @@ namespace Saltoapis.Nebula.Installation.V1 {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
+      if (Photo.Length != 0) hash ^= Photo.GetHashCode();
       if (PhotoUri.Length != 0) hash ^= PhotoUri.GetHashCode();
       if (Address.Length != 0) hash ^= Address.GetHashCode();
-      if (Photo.Length != 0) hash ^= Photo.GetHashCode();
       if (TimeZone.Length != 0) hash ^= TimeZone.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1837,6 +1837,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
+      if (Photo.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Photo);
+      }
       if (PhotoUri.Length != 0) {
         output.WriteRawTag(34);
         output.WriteString(PhotoUri);
@@ -1845,12 +1849,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(42);
         output.WriteString(Address);
       }
-      if (Photo.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(Photo);
-      }
       if (TimeZone.Length != 0) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(50);
         output.WriteString(TimeZone);
       }
       if (_unknownFields != null) {
@@ -1870,6 +1870,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
+      if (Photo.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Photo);
+      }
       if (PhotoUri.Length != 0) {
         output.WriteRawTag(34);
         output.WriteString(PhotoUri);
@@ -1878,12 +1882,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(42);
         output.WriteString(Address);
       }
-      if (Photo.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(Photo);
-      }
       if (TimeZone.Length != 0) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(50);
         output.WriteString(TimeZone);
       }
       if (_unknownFields != null) {
@@ -1901,14 +1901,14 @@ namespace Saltoapis.Nebula.Installation.V1 {
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
       }
+      if (Photo.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Photo);
+      }
       if (PhotoUri.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(PhotoUri);
       }
       if (Address.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
-      }
-      if (Photo.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Photo);
       }
       if (TimeZone.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(TimeZone);
@@ -1930,14 +1930,14 @@ namespace Saltoapis.Nebula.Installation.V1 {
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
       }
+      if (other.Photo.Length != 0) {
+        Photo = other.Photo;
+      }
       if (other.PhotoUri.Length != 0) {
         PhotoUri = other.PhotoUri;
       }
       if (other.Address.Length != 0) {
         Address = other.Address;
-      }
-      if (other.Photo.Length != 0) {
-        Photo = other.Photo;
       }
       if (other.TimeZone.Length != 0) {
         TimeZone = other.TimeZone;
@@ -1964,6 +1964,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
             DisplayName = input.ReadString();
             break;
           }
+          case 26: {
+            Photo = input.ReadString();
+            break;
+          }
           case 34: {
             PhotoUri = input.ReadString();
             break;
@@ -1973,10 +1977,6 @@ namespace Saltoapis.Nebula.Installation.V1 {
             break;
           }
           case 50: {
-            Photo = input.ReadString();
-            break;
-          }
-          case 58: {
             TimeZone = input.ReadString();
             break;
           }
@@ -2002,6 +2002,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
             DisplayName = input.ReadString();
             break;
           }
+          case 26: {
+            Photo = input.ReadString();
+            break;
+          }
           case 34: {
             PhotoUri = input.ReadString();
             break;
@@ -2011,10 +2015,6 @@ namespace Saltoapis.Nebula.Installation.V1 {
             break;
           }
           case 50: {
-            Photo = input.ReadString();
-            break;
-          }
-          case 58: {
             TimeZone = input.ReadString();
             break;
           }

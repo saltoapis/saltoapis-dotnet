@@ -32,12 +32,12 @@ namespace Saltoapis.Nebula.User.V1 {
             "cGUvdGltZV9vZl9kYXkucHJvdG8ieQoLQWNjZXNzUmlnaHQSDAoEbmFtZRgB",
             "IAEoCRIUCgxhY2Nlc3NfcmlnaHQYAiABKAkSFAoMZGlzcGxheV9uYW1lGAMg",
             "ASgJEjAKCHNjaGVkdWxlGAQgASgLMh4uc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "U2NoZWR1bGUiHAoGQXBwS2V5EhIKCm1vYmlsZV9rZXkYAiABKAkiIwoTQXNz",
+            "U2NoZWR1bGUiHAoGQXBwS2V5EhIKCm1vYmlsZV9rZXkYASABKAkiIwoTQXNz",
             "aWduQXBwS2V5UmVxdWVzdBIMCgR1c2VyGAEgASgJIiMKE0NhbmNlbEFwcEtl",
             "eVJlcXVlc3QSDAoEdXNlchgBIAEoCSIkChRDYW5jZWxDYXJkS2V5UmVxdWVz",
-            "dBIMCgR1c2VyGAEgASgJIqsCCgdDYXJkS2V5EgsKA3VpZBgDIAEoCRI/Cgxh",
-            "c3NpZ25fc3RhdGUYBCABKA4yKS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJk",
-            "S2V5LkFzc2lnblN0YXRlEj8KDHVwZGF0ZV9zdGF0ZRgFIAEoDjIpLnNhbHRv",
+            "dBIMCgR1c2VyGAEgASgJIqsCCgdDYXJkS2V5EgsKA3VpZBgBIAEoCRI/Cgxh",
+            "c3NpZ25fc3RhdGUYAiABKA4yKS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJk",
+            "S2V5LkFzc2lnblN0YXRlEj8KDHVwZGF0ZV9zdGF0ZRgDIAEoDjIpLnNhbHRv",
             "Lm5lYnVsYS51c2VyLnYxLkNhcmRLZXkuVXBkYXRlU3RhdGUiSQoLQXNzaWdu",
             "U3RhdGUSHAoYQVNTSUdOX1NUQVRFX1VOU1BFQ0lGSUVEEAASDgoKVU5BU1NJ",
             "R05FRBABEgwKCEFTU0lHTkVEEAIiRgoLVXBkYXRlU3RhdGUSHAoYVVBEQVRF",
@@ -494,7 +494,7 @@ namespace Saltoapis.Nebula.User.V1 {
     }
 
     /// <summary>Field number for the "mobile_key" field.</summary>
-    public const int MobileKeyFieldNumber = 2;
+    public const int MobileKeyFieldNumber = 1;
     private string mobileKey_ = "";
     /// <summary>
     /// Resource name of the global mobile key. It must have the
@@ -546,7 +546,7 @@ namespace Saltoapis.Nebula.User.V1 {
       output.WriteRawMessage(this);
     #else
       if (MobileKey.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteString(MobileKey);
       }
       if (_unknownFields != null) {
@@ -559,7 +559,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (MobileKey.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteString(MobileKey);
       }
       if (_unknownFields != null) {
@@ -602,7 +602,7 @@ namespace Saltoapis.Nebula.User.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 18: {
+          case 10: {
             MobileKey = input.ReadString();
             break;
           }
@@ -620,7 +620,7 @@ namespace Saltoapis.Nebula.User.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 18: {
+          case 10: {
             MobileKey = input.ReadString();
             break;
           }
@@ -1212,7 +1212,7 @@ namespace Saltoapis.Nebula.User.V1 {
     }
 
     /// <summary>Field number for the "uid" field.</summary>
-    public const int UidFieldNumber = 3;
+    public const int UidFieldNumber = 1;
     private string uid_ = "";
     /// <summary>
     /// Unique identifier of the physical card. Length dependent of technology.
@@ -1227,7 +1227,7 @@ namespace Saltoapis.Nebula.User.V1 {
     }
 
     /// <summary>Field number for the "assign_state" field.</summary>
-    public const int AssignStateFieldNumber = 4;
+    public const int AssignStateFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState assignState_ = global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified;
     /// <summary>
     /// Indicates whether this card key has been assigned or not.
@@ -1248,7 +1248,7 @@ namespace Saltoapis.Nebula.User.V1 {
     }
 
     /// <summary>Field number for the "update_state" field.</summary>
-    public const int UpdateStateFieldNumber = 5;
+    public const int UpdateStateFieldNumber = 3;
     private global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState updateState_ = global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified;
     /// <summary>
     /// Indicates whether this card key has pending updates or not.
@@ -1310,15 +1310,15 @@ namespace Saltoapis.Nebula.User.V1 {
       output.WriteRawMessage(this);
     #else
       if (Uid.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(10);
         output.WriteString(Uid);
       }
       if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) {
-        output.WriteRawTag(32);
+        output.WriteRawTag(16);
         output.WriteEnum((int) AssignState);
       }
       if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(24);
         output.WriteEnum((int) UpdateState);
       }
       if (_unknownFields != null) {
@@ -1331,15 +1331,15 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Uid.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(10);
         output.WriteString(Uid);
       }
       if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) {
-        output.WriteRawTag(32);
+        output.WriteRawTag(16);
         output.WriteEnum((int) AssignState);
       }
       if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(24);
         output.WriteEnum((int) UpdateState);
       }
       if (_unknownFields != null) {
@@ -1394,15 +1394,15 @@ namespace Saltoapis.Nebula.User.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 26: {
+          case 10: {
             Uid = input.ReadString();
             break;
           }
-          case 32: {
+          case 16: {
             AssignState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState) input.ReadEnum();
             break;
           }
-          case 40: {
+          case 24: {
             UpdateState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) input.ReadEnum();
             break;
           }
@@ -1420,15 +1420,15 @@ namespace Saltoapis.Nebula.User.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 26: {
+          case 10: {
             Uid = input.ReadString();
             break;
           }
-          case 32: {
+          case 16: {
             AssignState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState) input.ReadEnum();
             break;
           }
-          case 40: {
+          case 24: {
             UpdateState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) input.ReadEnum();
             break;
           }

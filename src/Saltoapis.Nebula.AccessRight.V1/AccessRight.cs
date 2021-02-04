@@ -32,11 +32,11 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             "Zl93ZWVrLnByb3RvGhxzYWx0by90eXBlL3RpbWVfb2ZfZGF5LnByb3RvIkcK",
             "C0FjY2Vzc1BvaW50EgwKBG5hbWUYASABKAkSFAoMYWNjZXNzX3BvaW50GAIg",
             "ASgJEhQKDGRpc3BsYXlfbmFtZRgDIAEoCSLPAQoLQWNjZXNzUmlnaHQSDAoE",
-            "bmFtZRgBIAEoCRIUCgxkaXNwbGF5X25hbWUYAiABKAkSOAoJc2NoZWR1bGVz",
-            "GAMgAygLMiUuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLlNjaGVkdWxl",
-            "EjEKDWFjdGl2YXRlX3RpbWUYBCABKAsyGi5nb29nbGUucHJvdG9idWYuVGlt",
-            "ZXN0YW1wEi8KC2V4cGlyZV90aW1lGAUgASgLMhouZ29vZ2xlLnByb3RvYnVm",
-            "LlRpbWVzdGFtcCJqChhDcmVhdGVBY2Nlc3NQb2ludFJlcXVlc3QSDgoGcGFy",
+            "bmFtZRgBIAEoCRIUCgxkaXNwbGF5X25hbWUYAiABKAkSMQoNYWN0aXZhdGVf",
+            "dGltZRgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLwoLZXhw",
+            "aXJlX3RpbWUYBCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEjgK",
+            "CXNjaGVkdWxlcxgFIAMoCzIlLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52",
+            "MS5TY2hlZHVsZSJqChhDcmVhdGVBY2Nlc3NQb2ludFJlcXVlc3QSDgoGcGFy",
             "ZW50GAEgASgJEj4KDGFjY2Vzc19wb2ludBgCIAEoCzIoLnNhbHRvLm5lYnVs",
             "YS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NQb2ludCKDAQoYQ3JlYXRlQWNjZXNz",
             "UmlnaHRSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIXCg9hY2Nlc3NfcmlnaHRf",
@@ -102,7 +102,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.AccessPoint), global::Saltoapis.Nebula.AccessRight.V1.AccessPoint.Parser, new[]{ "Name", "AccessPoint_", "DisplayName" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.AccessRight), global::Saltoapis.Nebula.AccessRight.V1.AccessRight.Parser, new[]{ "Name", "DisplayName", "Schedules", "ActivateTime", "ExpireTime" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.AccessRight), global::Saltoapis.Nebula.AccessRight.V1.AccessRight.Parser, new[]{ "Name", "DisplayName", "ActivateTime", "ExpireTime", "Schedules" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest.Parser, new[]{ "Parent", "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest.Parser, new[]{ "Parent", "AccessRightId", "AccessRight" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -417,9 +417,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     public AccessRight(AccessRight other) : this() {
       name_ = other.name_;
       displayName_ = other.displayName_;
-      schedules_ = other.schedules_.Clone();
       activateTime_ = other.activateTime_ != null ? other.activateTime_.Clone() : null;
       expireTime_ = other.expireTime_ != null ? other.expireTime_.Clone() : null;
+      schedules_ = other.schedules_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -458,21 +458,8 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       }
     }
 
-    /// <summary>Field number for the "schedules" field.</summary>
-    public const int SchedulesFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.AccessRight.V1.Schedule> _repeated_schedules_codec
-        = pb::FieldCodec.ForMessage(26, global::Saltoapis.Nebula.AccessRight.V1.Schedule.Parser);
-    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule> schedules_ = new pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule>();
-    /// <summary>
-    /// Schedules in which this access right is applied.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule> Schedules {
-      get { return schedules_; }
-    }
-
     /// <summary>Field number for the "activate_time" field.</summary>
-    public const int ActivateTimeFieldNumber = 4;
+    public const int ActivateTimeFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp activateTime_;
     /// <summary>
     /// Activation time independent of any time zone or calendar.
@@ -486,7 +473,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     }
 
     /// <summary>Field number for the "expire_time" field.</summary>
-    public const int ExpireTimeFieldNumber = 5;
+    public const int ExpireTimeFieldNumber = 4;
     private global::Google.Protobuf.WellKnownTypes.Timestamp expireTime_;
     /// <summary>
     /// Expiration time independent of any time zone or calendar.
@@ -497,6 +484,19 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       set {
         expireTime_ = value;
       }
+    }
+
+    /// <summary>Field number for the "schedules" field.</summary>
+    public const int SchedulesFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.AccessRight.V1.Schedule> _repeated_schedules_codec
+        = pb::FieldCodec.ForMessage(42, global::Saltoapis.Nebula.AccessRight.V1.Schedule.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule> schedules_ = new pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule>();
+    /// <summary>
+    /// Schedules in which this access right is applied.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule> Schedules {
+      get { return schedules_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -514,9 +514,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       }
       if (Name != other.Name) return false;
       if (DisplayName != other.DisplayName) return false;
-      if(!schedules_.Equals(other.schedules_)) return false;
       if (!object.Equals(ActivateTime, other.ActivateTime)) return false;
       if (!object.Equals(ExpireTime, other.ExpireTime)) return false;
+      if(!schedules_.Equals(other.schedules_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -525,9 +525,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
-      hash ^= schedules_.GetHashCode();
       if (activateTime_ != null) hash ^= ActivateTime.GetHashCode();
       if (expireTime_ != null) hash ^= ExpireTime.GetHashCode();
+      hash ^= schedules_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -552,15 +552,15 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
-      schedules_.WriteTo(output, _repeated_schedules_codec);
       if (activateTime_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(26);
         output.WriteMessage(ActivateTime);
       }
       if (expireTime_ != null) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(34);
         output.WriteMessage(ExpireTime);
       }
+      schedules_.WriteTo(output, _repeated_schedules_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -578,15 +578,15 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
-      schedules_.WriteTo(ref output, _repeated_schedules_codec);
       if (activateTime_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(26);
         output.WriteMessage(ActivateTime);
       }
       if (expireTime_ != null) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(34);
         output.WriteMessage(ExpireTime);
       }
+      schedules_.WriteTo(ref output, _repeated_schedules_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -602,13 +602,13 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
       }
-      size += schedules_.CalculateSize(_repeated_schedules_codec);
       if (activateTime_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ActivateTime);
       }
       if (expireTime_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpireTime);
       }
+      size += schedules_.CalculateSize(_repeated_schedules_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -626,7 +626,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
       }
-      schedules_.Add(other.schedules_);
       if (other.activateTime_ != null) {
         if (activateTime_ == null) {
           ActivateTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
@@ -639,6 +638,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         }
         ExpireTime.MergeFrom(other.ExpireTime);
       }
+      schedules_.Add(other.schedules_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -662,21 +662,21 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             break;
           }
           case 26: {
-            schedules_.AddEntriesFrom(input, _repeated_schedules_codec);
-            break;
-          }
-          case 34: {
             if (activateTime_ == null) {
               ActivateTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(ActivateTime);
             break;
           }
-          case 42: {
+          case 34: {
             if (expireTime_ == null) {
               ExpireTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(ExpireTime);
+            break;
+          }
+          case 42: {
+            schedules_.AddEntriesFrom(input, _repeated_schedules_codec);
             break;
           }
         }
@@ -702,21 +702,21 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             break;
           }
           case 26: {
-            schedules_.AddEntriesFrom(ref input, _repeated_schedules_codec);
-            break;
-          }
-          case 34: {
             if (activateTime_ == null) {
               ActivateTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(ActivateTime);
             break;
           }
-          case 42: {
+          case 34: {
             if (expireTime_ == null) {
               ExpireTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(ExpireTime);
+            break;
+          }
+          case 42: {
+            schedules_.AddEntriesFrom(ref input, _repeated_schedules_codec);
             break;
           }
         }

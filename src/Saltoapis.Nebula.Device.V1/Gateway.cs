@@ -38,12 +38,12 @@ namespace Saltoapis.Nebula.Device.V1 {
             "aW5ncxI7Cg1pcHY0X3NldHRpbmdzGAEgASgLMiQuc2FsdG8ubmVidWxhLmRl",
             "dmljZS52MS5JUHY0U2V0dGluZ3MSOQoMZG5zX3NldHRpbmdzGAIgASgLMiMu",
             "c2FsdG8ubmVidWxhLmRldmljZS52MS5ETlNTZXR0aW5ncyL2AgoHR2F0ZXdh",
-            "eRIMCgRuYW1lGAEgASgJEhQKDGRpc3BsYXlfbmFtZRgCIAEoCRIRCglkZXZp",
-            "Y2VfaWQYAyABKAkSUQoUaW5pdGlhbGl6YXRpb25fc3RhdGUYBCABKA4yMy5z",
+            "eRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCRIUCgxkaXNwbGF5",
+            "X25hbWUYAyABKAkSUQoUaW5pdGlhbGl6YXRpb25fc3RhdGUYBCABKA4yMy5z",
             "YWx0by5uZWJ1bGEuZGV2aWNlLnYxLkdhdGV3YXkuSW5pdGlhbGl6YXRpb25T",
             "dGF0ZRJDChFldGhlcm5ldF9zZXR0aW5ncxgFIAEoCzIoLnNhbHRvLm5lYnVs",
             "YS5kZXZpY2UudjEuRXRoZXJuZXRTZXR0aW5ncxI7Cg13aWZpX3NldHRpbmdz",
-            "GAcgASgLMiQuc2FsdG8ubmVidWxhLmRldmljZS52MS5XaWZpU2V0dGluZ3Mi",
+            "GAYgASgLMiQuc2FsdG8ubmVidWxhLmRldmljZS52MS5XaWZpU2V0dGluZ3Mi",
             "XwoTSW5pdGlhbGl6YXRpb25TdGF0ZRIkCiBJTklUSUFMSVpBVElPTl9TVEFU",
             "RV9VTlNQRUNJRklFRBAAEhEKDVVOSU5JVElBTElaRUQQARIPCgtJTklUSUFM",
             "SVpFRBACIiEKEUdldEdhdGV3YXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiogEK",
@@ -104,7 +104,7 @@ namespace Saltoapis.Nebula.Device.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.DNSSettings), global::Saltoapis.Nebula.Device.V1.DNSSettings.Parser, new[]{ "DnsAddresses" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.DeleteGatewayRequest), global::Saltoapis.Nebula.Device.V1.DeleteGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.EthernetSettings), global::Saltoapis.Nebula.Device.V1.EthernetSettings.Parser, new[]{ "Ipv4Settings", "DnsSettings" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Gateway), global::Saltoapis.Nebula.Device.V1.Gateway.Parser, new[]{ "Name", "DisplayName", "DeviceId", "InitializationState", "EthernetSettings", "WifiSettings" }, null, new[]{ typeof(global::Saltoapis.Nebula.Device.V1.Gateway.Types.InitializationState) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Gateway), global::Saltoapis.Nebula.Device.V1.Gateway.Parser, new[]{ "Name", "DeviceId", "DisplayName", "InitializationState", "EthernetSettings", "WifiSettings" }, null, new[]{ typeof(global::Saltoapis.Nebula.Device.V1.Gateway.Types.InitializationState) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetGatewayRequest), global::Saltoapis.Nebula.Device.V1.GetGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.IPv4Settings), global::Saltoapis.Nebula.Device.V1.IPv4Settings.Parser, new[]{ "IpAddress", "Mask", "RouterAddress" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.InitializeGatewayMetadata), global::Saltoapis.Nebula.Device.V1.InitializeGatewayMetadata.Parser, null, null, null, null, null),
@@ -1469,8 +1469,8 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Gateway(Gateway other) : this() {
       name_ = other.name_;
-      displayName_ = other.displayName_;
       deviceId_ = other.deviceId_;
+      displayName_ = other.displayName_;
       initializationState_ = other.initializationState_;
       ethernetSettings_ = other.ethernetSettings_ != null ? other.ethernetSettings_.Clone() : null;
       wifiSettings_ = other.wifiSettings_ != null ? other.wifiSettings_.Clone() : null;
@@ -1498,22 +1498,8 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
     }
 
-    /// <summary>Field number for the "display_name" field.</summary>
-    public const int DisplayNameFieldNumber = 2;
-    private string displayName_ = "";
-    /// <summary>
-    /// Display name of the gateway.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string DisplayName {
-      get { return displayName_; }
-      set {
-        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "device_id" field.</summary>
-    public const int DeviceIdFieldNumber = 3;
+    public const int DeviceIdFieldNumber = 2;
     private string deviceId_ = "";
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -1524,6 +1510,20 @@ namespace Saltoapis.Nebula.Device.V1 {
       get { return deviceId_; }
       set {
         deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "display_name" field.</summary>
+    public const int DisplayNameFieldNumber = 3;
+    private string displayName_ = "";
+    /// <summary>
+    /// Display name of the gateway.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DisplayName {
+      get { return displayName_; }
+      set {
+        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -1563,7 +1563,7 @@ namespace Saltoapis.Nebula.Device.V1 {
     }
 
     /// <summary>Field number for the "wifi_settings" field.</summary>
-    public const int WifiSettingsFieldNumber = 7;
+    public const int WifiSettingsFieldNumber = 6;
     private global::Saltoapis.Nebula.Device.V1.WifiSettings wifiSettings_;
     /// <summary>
     /// WiFi network settings for a gateway
@@ -1590,8 +1590,8 @@ namespace Saltoapis.Nebula.Device.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (DisplayName != other.DisplayName) return false;
       if (DeviceId != other.DeviceId) return false;
+      if (DisplayName != other.DisplayName) return false;
       if (InitializationState != other.InitializationState) return false;
       if (!object.Equals(EthernetSettings, other.EthernetSettings)) return false;
       if (!object.Equals(WifiSettings, other.WifiSettings)) return false;
@@ -1602,8 +1602,8 @@ namespace Saltoapis.Nebula.Device.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
+      if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (InitializationState != global::Saltoapis.Nebula.Device.V1.Gateway.Types.InitializationState.Unspecified) hash ^= InitializationState.GetHashCode();
       if (ethernetSettings_ != null) hash ^= EthernetSettings.GetHashCode();
       if (wifiSettings_ != null) hash ^= WifiSettings.GetHashCode();
@@ -1627,13 +1627,13 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (DisplayName.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(DisplayName);
-      }
       if (DeviceId.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(18);
         output.WriteString(DeviceId);
+      }
+      if (DisplayName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(DisplayName);
       }
       if (InitializationState != global::Saltoapis.Nebula.Device.V1.Gateway.Types.InitializationState.Unspecified) {
         output.WriteRawTag(32);
@@ -1644,7 +1644,7 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteMessage(EthernetSettings);
       }
       if (wifiSettings_ != null) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(50);
         output.WriteMessage(WifiSettings);
       }
       if (_unknownFields != null) {
@@ -1660,13 +1660,13 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (DisplayName.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(DisplayName);
-      }
       if (DeviceId.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(18);
         output.WriteString(DeviceId);
+      }
+      if (DisplayName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(DisplayName);
       }
       if (InitializationState != global::Saltoapis.Nebula.Device.V1.Gateway.Types.InitializationState.Unspecified) {
         output.WriteRawTag(32);
@@ -1677,7 +1677,7 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteMessage(EthernetSettings);
       }
       if (wifiSettings_ != null) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(50);
         output.WriteMessage(WifiSettings);
       }
       if (_unknownFields != null) {
@@ -1692,11 +1692,11 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (DisplayName.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
-      }
       if (DeviceId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
+      }
+      if (DisplayName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
       }
       if (InitializationState != global::Saltoapis.Nebula.Device.V1.Gateway.Types.InitializationState.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) InitializationState);
@@ -1721,11 +1721,11 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.DisplayName.Length != 0) {
-        DisplayName = other.DisplayName;
-      }
       if (other.DeviceId.Length != 0) {
         DeviceId = other.DeviceId;
+      }
+      if (other.DisplayName.Length != 0) {
+        DisplayName = other.DisplayName;
       }
       if (other.InitializationState != global::Saltoapis.Nebula.Device.V1.Gateway.Types.InitializationState.Unspecified) {
         InitializationState = other.InitializationState;
@@ -1761,11 +1761,11 @@ namespace Saltoapis.Nebula.Device.V1 {
             break;
           }
           case 18: {
-            DisplayName = input.ReadString();
+            DeviceId = input.ReadString();
             break;
           }
           case 26: {
-            DeviceId = input.ReadString();
+            DisplayName = input.ReadString();
             break;
           }
           case 32: {
@@ -1779,7 +1779,7 @@ namespace Saltoapis.Nebula.Device.V1 {
             input.ReadMessage(EthernetSettings);
             break;
           }
-          case 58: {
+          case 50: {
             if (wifiSettings_ == null) {
               WifiSettings = new global::Saltoapis.Nebula.Device.V1.WifiSettings();
             }
@@ -1805,11 +1805,11 @@ namespace Saltoapis.Nebula.Device.V1 {
             break;
           }
           case 18: {
-            DisplayName = input.ReadString();
+            DeviceId = input.ReadString();
             break;
           }
           case 26: {
-            DeviceId = input.ReadString();
+            DisplayName = input.ReadString();
             break;
           }
           case 32: {
@@ -1823,7 +1823,7 @@ namespace Saltoapis.Nebula.Device.V1 {
             input.ReadMessage(EthernetSettings);
             break;
           }
-          case 58: {
+          case 50: {
             if (wifiSettings_ == null) {
               WifiSettings = new global::Saltoapis.Nebula.Device.V1.WifiSettings();
             }
