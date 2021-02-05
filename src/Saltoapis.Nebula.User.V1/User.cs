@@ -72,46 +72,46 @@ namespace Saltoapis.Nebula.User.V1 {
             "Gi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIm4KEVVwZGF0ZVVzZXJSZXF1",
             "ZXN0EigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2Vy",
             "Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxk",
-            "TWFzayLGAgoEVXNlchIMCgRuYW1lGAEgASgJEhIKCmZpcnN0X25hbWUYAiAB",
-            "KAkSEQoJbGFzdF9uYW1lGAMgASgJEhQKDGRpc3BsYXlfbmFtZRgEIAEoCRIN",
-            "CgVlbWFpbBgFIAEoCRIxCg1hY3RpdmF0ZV90aW1lGAYgASgLMhouZ29vZ2xl",
-            "LnByb3RvYnVmLlRpbWVzdGFtcBIvCgtleHBpcmVfdGltZRgHIAEoCzIaLmdv",
-            "b2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDQoFcGhvdG8YCCABKAkSEQoJcGhv",
-            "dG9fdXJpGAkgASgJEi8KCGNhcmRfa2V5GAogASgLMh0uc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuQ2FyZEtleRItCgdhcHBfa2V5GAsgASgLMhwuc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuQXBwS2V5MosKCgtVc2VyU2VydmljZRJXCgxBc3NpZ25B",
-            "cHBLZXkSKS5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25BcHBLZXlSZXF1",
-            "ZXN0Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5ElcKDENhbmNlbEFw",
-            "cEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbEFwcEtleVJlcXVl",
-            "c3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSUwoNQ2FuY2VsQ2Fy",
-            "ZEtleRIqLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbENhcmRLZXlSZXF1",
-            "ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmYKEUNyZWF0ZUFjY2Vzc1Jp",
-            "Z2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlQWNjZXNzUmlnaHRS",
-            "ZXF1ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSUQoK",
-            "Q3JlYXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNyZWF0ZVVzZXJS",
-            "ZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchJbChFEZWxldGVB",
-            "Y2Nlc3NSaWdodBIuLnNhbHRvLm5lYnVsYS51c2VyLnYxLkRlbGV0ZUFjY2Vz",
-            "c1JpZ2h0UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJNCgpEZWxl",
-            "dGVVc2VyEicuc2FsdG8ubmVidWxhLnVzZXIudjEuRGVsZXRlVXNlclJlcXVl",
-            "c3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSUwoNRW5jb2RlQ2FyZEtleRIq",
-            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLkVuY29kZUNhcmRLZXlSZXF1ZXN0GhYu",
-            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5EmAKDkdldEFjY2Vzc1JpZ2h0Eisuc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuR2V0QWNjZXNzUmlnaHRSZXF1ZXN0GiEuc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSSwoHR2V0VXNlchIkLnNh",
-            "bHRvLm5lYnVsYS51c2VyLnYxLkdldFVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuVXNlchJxChBMaXN0QWNjZXNzUmlnaHRzEi0uc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuTGlzdEFjY2Vzc1JpZ2h0c1JlcXVlc3QaLi5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5MaXN0QWNjZXNzUmlnaHRzUmVzcG9uc2USXAoJ",
-            "TGlzdFVzZXJzEiYuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVzZXJzUmVx",
-            "dWVzdBonLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RVc2Vyc1Jlc3BvbnNl",
-            "EmYKEVVwZGF0ZUFjY2Vzc1JpZ2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "VXBkYXRlQWNjZXNzUmlnaHRSZXF1ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuQWNjZXNzUmlnaHQSUQoKVXBkYXRlVXNlchInLnNhbHRvLm5lYnVsYS51",
-            "c2VyLnYxLlVwZGF0ZVVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuVXNlckKOAQocY29tLnNhbHRvYXBpcy5uZWJ1bGEudXNlci52MUIJVXNl",
-            "clByb3RvUAFaRmdpdGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2Fw",
-            "aXMvc2FsdG9hcGlzLWdvL25lYnVsYS91c2VyL3YxO3VzZXKqAhhTYWx0b2Fw",
-            "aXMuTmVidWxhLlVzZXIuVjFiBnByb3RvMw=="));
+            "TWFzayLIAgoEVXNlchIMCgRuYW1lGAEgASgJEhIKCmdpdmVuX25hbWUYAiAB",
+            "KAkSEwoLZmFtaWx5X25hbWUYAyABKAkSFAoMZGlzcGxheV9uYW1lGAQgASgJ",
+            "Eg0KBWVtYWlsGAUgASgJEjEKDWFjdGl2YXRlX3RpbWUYBiABKAsyGi5nb29n",
+            "bGUucHJvdG9idWYuVGltZXN0YW1wEi8KC2V4cGlyZV90aW1lGAcgASgLMhou",
+            "Z29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBINCgVwaG90bxgIIAEoCRIRCglw",
+            "aG90b191cmkYCSABKAkSLwoIY2FyZF9rZXkYCiABKAsyHS5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5DYXJkS2V5Ei0KB2FwcF9rZXkYCyABKAsyHC5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5BcHBLZXkyiwoKC1VzZXJTZXJ2aWNlElcKDEFzc2ln",
+            "bkFwcEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2lnbkFwcEtleVJl",
+            "cXVlc3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSVwoMQ2FuY2Vs",
+            "QXBwS2V5Eikuc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2VsQXBwS2V5UmVx",
+            "dWVzdBocLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleRJTCg1DYW5jZWxD",
+            "YXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2VsQ2FyZEtleVJl",
+            "cXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSZgoRQ3JlYXRlQWNjZXNz",
+            "UmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52MS5DcmVhdGVBY2Nlc3NSaWdo",
+            "dFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdodBJR",
+            "CgpDcmVhdGVVc2VyEicuc2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlVXNl",
+            "clJlcXVlc3QaGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyElsKEURlbGV0",
+            "ZUFjY2Vzc1JpZ2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuRGVsZXRlQWNj",
+            "ZXNzUmlnaHRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5Ek0KCkRl",
+            "bGV0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNlci52MS5EZWxldGVVc2VyUmVx",
+            "dWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJTCg1FbmNvZGVDYXJkS2V5",
+            "Eiouc2FsdG8ubmVidWxhLnVzZXIudjEuRW5jb2RlQ2FyZEtleVJlcXVlc3Qa",
+            "Fi5nb29nbGUucHJvdG9idWYuRW1wdHkSYAoOR2V0QWNjZXNzUmlnaHQSKy5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5HZXRBY2Nlc3NSaWdodFJlcXVlc3QaIS5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdodBJLCgdHZXRVc2VyEiQu",
+            "c2FsdG8ubmVidWxhLnVzZXIudjEuR2V0VXNlclJlcXVlc3QaGi5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5Vc2VyEnEKEExpc3RBY2Nlc3NSaWdodHMSLS5zYWx0",
+            "by5uZWJ1bGEudXNlci52MS5MaXN0QWNjZXNzUmlnaHRzUmVxdWVzdBouLnNh",
+            "bHRvLm5lYnVsYS51c2VyLnYxLkxpc3RBY2Nlc3NSaWdodHNSZXNwb25zZRJc",
+            "CglMaXN0VXNlcnMSJi5zYWx0by5uZWJ1bGEudXNlci52MS5MaXN0VXNlcnNS",
+            "ZXF1ZXN0Gicuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVzZXJzUmVzcG9u",
+            "c2USZgoRVXBkYXRlQWNjZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5VcGRhdGVBY2Nlc3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5BY2Nlc3NSaWdodBJRCgpVcGRhdGVVc2VyEicuc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuVXBkYXRlVXNlclJlcXVlc3QaGi5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5Vc2VyQo4BChxjb20uc2FsdG9hcGlzLm5lYnVsYS51c2VyLnYxQglV",
+            "c2VyUHJvdG9QAVpGZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMuY29tL3NhbHRv",
+            "YXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL3VzZXIvdjE7dXNlcqoCGFNhbHRv",
+            "YXBpcy5OZWJ1bGEuVXNlci5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -135,7 +135,7 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.Schedule), global::Saltoapis.Nebula.User.V1.Schedule.Parser, new[]{ "Days", "StartTime", "EndTime" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.Schedule.Types.Day), global::Saltoapis.Nebula.User.V1.Schedule.Types.Day.Parser, new[]{ "DayType", "DayOfWeek" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest), global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest.Parser, new[]{ "AccessRight", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateUserRequest), global::Saltoapis.Nebula.User.V1.UpdateUserRequest.Parser, new[]{ "User", "UpdateMask" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.User), global::Saltoapis.Nebula.User.V1.User.Parser, new[]{ "Name", "FirstName", "LastName", "DisplayName", "Email", "ActivateTime", "ExpireTime", "Photo", "PhotoUri", "CardKey", "AppKey" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.User), global::Saltoapis.Nebula.User.V1.User.Parser, new[]{ "Name", "GivenName", "FamilyName", "DisplayName", "Email", "ActivateTime", "ExpireTime", "Photo", "PhotoUri", "CardKey", "AppKey" }, null, null, null, null)
           }));
     }
     #endregion
@@ -5069,8 +5069,8 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public User(User other) : this() {
       name_ = other.name_;
-      firstName_ = other.firstName_;
-      lastName_ = other.lastName_;
+      givenName_ = other.givenName_;
+      familyName_ = other.familyName_;
       displayName_ = other.displayName_;
       email_ = other.email_;
       activateTime_ = other.activateTime_ != null ? other.activateTime_.Clone() : null;
@@ -5103,34 +5103,36 @@ namespace Saltoapis.Nebula.User.V1 {
       }
     }
 
-    /// <summary>Field number for the "first_name" field.</summary>
-    public const int FirstNameFieldNumber = 2;
-    private string firstName_ = "";
+    /// <summary>Field number for the "given_name" field.</summary>
+    public const int GivenNameFieldNumber = 2;
+    private string givenName_ = "";
     /// <summary>
-    /// The personal name, forename (in Europe) or given name ("first name"). It
-    /// could also contain a middle name.
+    /// The personal name, forename or given name ("first name"). It could
+    /// also contain a middle name. First name is not used because the given
+    /// name is not placed first in some cultures.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string FirstName {
-      get { return firstName_; }
+    public string GivenName {
+      get { return givenName_; }
       set {
-        firstName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        givenName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
-    /// <summary>Field number for the "last_name" field.</summary>
-    public const int LastNameFieldNumber = 3;
-    private string lastName_ = "";
+    /// <summary>Field number for the "family_name" field.</summary>
+    public const int FamilyNameFieldNumber = 3;
+    private string familyName_ = "";
     /// <summary>
     /// The surname or family name ("last name"). It could also contain more than
     /// one surname so that both matrilineal and patrilineal surnames can be
-    /// included in one place.
+    /// included in one place. Last name is not used because the family name is
+    /// not placed last in some cultures.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string LastName {
-      get { return lastName_; }
+    public string FamilyName {
+      get { return familyName_; }
       set {
-        lastName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        familyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -5263,8 +5265,8 @@ namespace Saltoapis.Nebula.User.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (FirstName != other.FirstName) return false;
-      if (LastName != other.LastName) return false;
+      if (GivenName != other.GivenName) return false;
+      if (FamilyName != other.FamilyName) return false;
       if (DisplayName != other.DisplayName) return false;
       if (Email != other.Email) return false;
       if (!object.Equals(ActivateTime, other.ActivateTime)) return false;
@@ -5280,8 +5282,8 @@ namespace Saltoapis.Nebula.User.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (FirstName.Length != 0) hash ^= FirstName.GetHashCode();
-      if (LastName.Length != 0) hash ^= LastName.GetHashCode();
+      if (GivenName.Length != 0) hash ^= GivenName.GetHashCode();
+      if (FamilyName.Length != 0) hash ^= FamilyName.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (Email.Length != 0) hash ^= Email.GetHashCode();
       if (activateTime_ != null) hash ^= ActivateTime.GetHashCode();
@@ -5310,13 +5312,13 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (FirstName.Length != 0) {
+      if (GivenName.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(FirstName);
+        output.WriteString(GivenName);
       }
-      if (LastName.Length != 0) {
+      if (FamilyName.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteString(LastName);
+        output.WriteString(FamilyName);
       }
       if (DisplayName.Length != 0) {
         output.WriteRawTag(34);
@@ -5363,13 +5365,13 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (FirstName.Length != 0) {
+      if (GivenName.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(FirstName);
+        output.WriteString(GivenName);
       }
-      if (LastName.Length != 0) {
+      if (FamilyName.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteString(LastName);
+        output.WriteString(FamilyName);
       }
       if (DisplayName.Length != 0) {
         output.WriteRawTag(34);
@@ -5415,11 +5417,11 @@ namespace Saltoapis.Nebula.User.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (FirstName.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(FirstName);
+      if (GivenName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GivenName);
       }
-      if (LastName.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(LastName);
+      if (FamilyName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FamilyName);
       }
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
@@ -5459,11 +5461,11 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.FirstName.Length != 0) {
-        FirstName = other.FirstName;
+      if (other.GivenName.Length != 0) {
+        GivenName = other.GivenName;
       }
-      if (other.LastName.Length != 0) {
-        LastName = other.LastName;
+      if (other.FamilyName.Length != 0) {
+        FamilyName = other.FamilyName;
       }
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
@@ -5520,11 +5522,11 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 18: {
-            FirstName = input.ReadString();
+            GivenName = input.ReadString();
             break;
           }
           case 26: {
-            LastName = input.ReadString();
+            FamilyName = input.ReadString();
             break;
           }
           case 34: {
@@ -5590,11 +5592,11 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 18: {
-            FirstName = input.ReadString();
+            GivenName = input.ReadString();
             break;
           }
           case 26: {
-            LastName = input.ReadString();
+            FamilyName = input.ReadString();
             break;
           }
           case 34: {
