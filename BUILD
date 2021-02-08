@@ -1,11 +1,11 @@
-load("//:workspace_info.bzl", "all_projects")
+load("//:csharp_metadata.bzl", "csharp_projects")
 
 filegroup(
     name = 'build_all',
-    srcs = ["{}:{}.dll".format(project, project.split('/')[-1]) for project in all_projects]
+    srcs = ["{}:{}.dll".format(project, project.split('/')[-1]) for project in csharp_projects]
 )
 
-deploy_commands = ['''echo "bazel run %s:deploy" --define version=$(version)>> $@''' % project for project in all_projects]
+deploy_commands = ['''echo "bazel run %s:deploy" --define version=$(version)>> $@''' % project for project in csharp_projects]
 genrule(
     name = 'publish_all',
     outs = ['publish_all.sh'],
