@@ -1,5 +1,5 @@
 load("@io_bazel_rules_dotnet//dotnet:defs.bzl", "nuget_package")
-load("//:workspace_info.bzl", "PROTOBUF_VERSION")
+load("//:csharp_metadata.bzl", "PROTOBUF_VERSION")
 
 def saltoapis_nuget_dependencies():
     """Adds nuget dependency repositories.
