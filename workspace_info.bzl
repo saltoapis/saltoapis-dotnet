@@ -35,6 +35,7 @@ TMPL_RENDERER_SHA="e16c69c9ea4f631a1dcce6411ef4b3477d1386ea"
 
 all_projects = [
     '//src/Saltoapis.Longrunning.V1',
+    '//src/Saltoapis.Nebula.Encoder.V1',
     '//src/Saltoapis.Nebula.Iam.V1',
     '//src/Saltoapis.Nebula.Installation.V1',
     '//src/Saltoapis.Nebula.MobileKey.V1',
@@ -44,7 +45,9 @@ all_projects = [
     '//src/Saltoapis.Nebula.AccessPoint.V1',
     '//src/Saltoapis.Nebula.AccessRight.V1',
     '//src/Saltoapis.Nebula.Calendar.V1',
-    '//src/Saltoapis.Nebula.Device.V1',
+    '//src/Saltoapis.Nebula.ElectronicLock.V1',
+    '//src/Saltoapis.Nebula.Extender.V1',
+    '//src/Saltoapis.Nebula.Gateway.V1',
     '//src/Saltoapis.Nebula.OpeningModeSchedule.V1',
     '//src/Saltoapis.Nebula.User.V1',
     '//src/Saltoapis.Nebula.Event.V1',

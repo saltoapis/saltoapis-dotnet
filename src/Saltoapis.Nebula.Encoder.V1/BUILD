@@ -4,9 +4,8 @@ load("//:rules.bzl", "load_rules")
 package(default_visibility = ['//:__subpackages__'])
 
 load_rules(
-    lib_name = 'Saltoapis.Nebula.Device.V1',
+    lib_name = 'Saltoapis.Nebula.Encoder.V1',
     internal_dependencies = [
-        '//src/Saltoapis.Longrunning.V1',
     ],
     extra_info = {
         'generator': 'csharp',
