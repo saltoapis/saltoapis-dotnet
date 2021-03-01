@@ -8,7 +8,7 @@ def saltoapis_nuget_dependencies():
        By design, Bazel is not able to determine Nuget dependencies at run time.
        That's why a special tool is needed to extract those dependencies and list them directly.
        check:https://github.com/bazelbuild/rules_dotnet/blob/master/tools/nuget2bazel/README.rst
-       There commands are used to retrieve new dependencies and should be only used when changing
+       These commands are used to retrieve new dependencies and should be only used when changing
        dependencies (version upgrades should be fine though).
 
         How to update dependencies?
