@@ -19,12 +19,12 @@ namespace Saltoapis.Nebula.Extender.V1 {
 
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest> __Marshaller_salto_nebula_extender_v1_CreateExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.Extender> __Marshaller_salto_nebula_extender_v1_Extender = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.Extender.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest> __Marshaller_salto_nebula_extender_v1_DeleteExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest> __Marshaller_salto_nebula_extender_v1_GetExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest> __Marshaller_salto_nebula_extender_v1_ListExtendersRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse> __Marshaller_salto_nebula_extender_v1_ListExtendersResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest> __Marshaller_salto_nebula_extender_v1_UpdateExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest> __Marshaller_salto_nebula_extender_v1_DeleteExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest> __Marshaller_salto_nebula_extender_v1_UpdateExtenderFirmwareRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.Operation.Parser.ParseFrom);
 
@@ -34,13 +34,6 @@ namespace Saltoapis.Nebula.Extender.V1 {
         "CreateExtender",
         __Marshaller_salto_nebula_extender_v1_CreateExtenderRequest,
         __Marshaller_salto_nebula_extender_v1_Extender);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteExtender = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteExtender",
-        __Marshaller_salto_nebula_extender_v1_DeleteExtenderRequest,
-        __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender> __Method_GetExtender = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender>(
         grpc::MethodType.Unary,
@@ -62,6 +55,13 @@ namespace Saltoapis.Nebula.Extender.V1 {
         "UpdateExtender",
         __Marshaller_salto_nebula_extender_v1_UpdateExtenderRequest,
         __Marshaller_salto_nebula_extender_v1_Extender);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteExtender = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteExtender",
+        __Marshaller_salto_nebula_extender_v1_DeleteExtenderRequest,
+        __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_UpdateExtenderFirmware = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
@@ -150,58 +150,6 @@ namespace Saltoapis.Nebula.Extender.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.Extender> CreateExtenderAsync(global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateExtender, null, options, request);
-      }
-      /// <summary>
-      /// Delete an extender
-      ///
-      /// Permanently deletes an extender. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteExtender(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteExtender(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an extender
-      ///
-      /// Permanently deletes an extender. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteExtender(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteExtender, null, options, request);
-      }
-      /// <summary>
-      /// Delete an extender
-      ///
-      /// Permanently deletes an extender. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteExtenderAsync(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteExtenderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an extender
-      ///
-      /// Permanently deletes an extender. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteExtenderAsync(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteExtender, null, options, request);
       }
       /// <summary>
       /// Get an extender
@@ -358,6 +306,58 @@ namespace Saltoapis.Nebula.Extender.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.Extender> UpdateExtenderAsync(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateExtender, null, options, request);
+      }
+      /// <summary>
+      /// Delete an extender
+      ///
+      /// Permanently deletes an extender. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteExtender(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteExtender(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an extender
+      ///
+      /// Permanently deletes an extender. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteExtender(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteExtender, null, options, request);
+      }
+      /// <summary>
+      /// Delete an extender
+      ///
+      /// Permanently deletes an extender. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteExtenderAsync(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteExtenderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an extender
+      ///
+      /// Permanently deletes an extender. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteExtenderAsync(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteExtender, null, options, request);
       }
       /// <summary>
       /// Update extender firmware

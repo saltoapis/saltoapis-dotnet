@@ -30,51 +30,51 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             "b2dsZS9wcm90b2J1Zi9maWVsZF9tYXNrLnByb3RvGiBzYWx0by9uZWJ1bGEv",
             "dHlwZS9kYXlfdHlwZS5wcm90bxokc2FsdG8vbmVidWxhL3R5cGUvb3Blbmlu",
             "Z19tb2RlLnByb3RvGhxzYWx0by90eXBlL2RheV9vZl93ZWVrLnByb3RvGhxz",
-            "YWx0by90eXBlL3RpbWVfb2ZfZGF5LnByb3RvIq0BCiBDcmVhdGVPcGVuaW5n",
-            "TW9kZVNjaGVkdWxlUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSIAoYb3Blbmlu",
-            "Z19tb2RlX3NjaGVkdWxlX2lkGAIgASgJElcKFW9wZW5pbmdfbW9kZV9zY2hl",
-            "ZHVsZRgDIAEoCzI4LnNhbHRvLm5lYnVsYS5vcGVuaW5nbW9kZXNjaGVkdWxl",
-            "LnYxLk9wZW5pbmdNb2RlU2NoZWR1bGUiMAogRGVsZXRlT3BlbmluZ01vZGVT",
-            "Y2hlZHVsZVJlcXVlc3QSDAoEbmFtZRgBIAEoCSItCh1HZXRPcGVuaW5nTW9k",
-            "ZVNjaGVkdWxlUmVxdWVzdBIMCgRuYW1lGAEgASgJInoKH0xpc3RPcGVuaW5n",
-            "TW9kZVNjaGVkdWxlc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vf",
-            "c2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEo",
-            "CRIQCghvcmRlcl9ieRgFIAEoCSKVAQogTGlzdE9wZW5pbmdNb2RlU2NoZWR1",
-            "bGVzUmVzcG9uc2USWAoWb3BlbmluZ19tb2RlX3NjaGVkdWxlcxgBIAMoCzI4",
-            "LnNhbHRvLm5lYnVsYS5vcGVuaW5nbW9kZXNjaGVkdWxlLnYxLk9wZW5pbmdN",
-            "b2RlU2NoZWR1bGUSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIswDChNPcGVu",
-            "aW5nTW9kZVNjaGVkdWxlEgwKBG5hbWUYASABKAkSFAoMZGlzcGxheV9uYW1l",
-            "GAIgASgJEkoKBGRheXMYAyADKAsyPC5zYWx0by5uZWJ1bGEub3BlbmluZ21v",
-            "ZGVzY2hlZHVsZS52MS5PcGVuaW5nTW9kZVNjaGVkdWxlLkRheRrEAgoDRGF5",
-            "EiwKCGRheV90eXBlGAEgASgOMhouc2FsdG8ubmVidWxhLnR5cGUuRGF5VHlw",
-            "ZRIqCgtkYXlfb2Zfd2VlaxgCIAEoDjIVLnNhbHRvLnR5cGUuRGF5T2ZXZWVr",
-            "ElAKBXNsb3RzGAMgAygLMkEuc2FsdG8ubmVidWxhLm9wZW5pbmdtb2Rlc2No",
-            "ZWR1bGUudjEuT3BlbmluZ01vZGVTY2hlZHVsZS5EYXkuU2xvdBqQAQoEU2xv",
-            "dBI0CgxvcGVuaW5nX21vZGUYASABKA4yHi5zYWx0by5uZWJ1bGEudHlwZS5P",
-            "cGVuaW5nTW9kZRIpCgpzdGFydF90aW1lGAIgASgLMhUuc2FsdG8udHlwZS5U",
-            "aW1lT2ZEYXkSJwoIZW5kX3RpbWUYAyABKAsyFS5zYWx0by50eXBlLlRpbWVP",
-            "ZkRheSKsAQogVXBkYXRlT3BlbmluZ01vZGVTY2hlZHVsZVJlcXVlc3QSVwoV",
-            "b3BlbmluZ19tb2RlX3NjaGVkdWxlGAEgASgLMjguc2FsdG8ubmVidWxhLm9w",
-            "ZW5pbmdtb2Rlc2NoZWR1bGUudjEuT3BlbmluZ01vZGVTY2hlZHVsZRIvCgt1",
-            "cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sy",
+            "YWx0by90eXBlL3RpbWVfb2ZfZGF5LnByb3RvIswDChNPcGVuaW5nTW9kZVNj",
+            "aGVkdWxlEgwKBG5hbWUYASABKAkSFAoMZGlzcGxheV9uYW1lGAIgASgJEkoK",
+            "BGRheXMYAyADKAsyPC5zYWx0by5uZWJ1bGEub3BlbmluZ21vZGVzY2hlZHVs",
+            "ZS52MS5PcGVuaW5nTW9kZVNjaGVkdWxlLkRheRrEAgoDRGF5EiwKCGRheV90",
+            "eXBlGAEgASgOMhouc2FsdG8ubmVidWxhLnR5cGUuRGF5VHlwZRIqCgtkYXlf",
+            "b2Zfd2VlaxgCIAEoDjIVLnNhbHRvLnR5cGUuRGF5T2ZXZWVrElAKBXNsb3Rz",
+            "GAMgAygLMkEuc2FsdG8ubmVidWxhLm9wZW5pbmdtb2Rlc2NoZWR1bGUudjEu",
+            "T3BlbmluZ01vZGVTY2hlZHVsZS5EYXkuU2xvdBqQAQoEU2xvdBI0CgxvcGVu",
+            "aW5nX21vZGUYASABKA4yHi5zYWx0by5uZWJ1bGEudHlwZS5PcGVuaW5nTW9k",
+            "ZRIpCgpzdGFydF90aW1lGAIgASgLMhUuc2FsdG8udHlwZS5UaW1lT2ZEYXkS",
+            "JwoIZW5kX3RpbWUYAyABKAsyFS5zYWx0by50eXBlLlRpbWVPZkRheSKtAQog",
+            "Q3JlYXRlT3BlbmluZ01vZGVTY2hlZHVsZVJlcXVlc3QSDgoGcGFyZW50GAEg",
+            "ASgJEiAKGG9wZW5pbmdfbW9kZV9zY2hlZHVsZV9pZBgCIAEoCRJXChVvcGVu",
+            "aW5nX21vZGVfc2NoZWR1bGUYAyABKAsyOC5zYWx0by5uZWJ1bGEub3Blbmlu",
+            "Z21vZGVzY2hlZHVsZS52MS5PcGVuaW5nTW9kZVNjaGVkdWxlIi0KHUdldE9w",
+            "ZW5pbmdNb2RlU2NoZWR1bGVSZXF1ZXN0EgwKBG5hbWUYASABKAkiegofTGlz",
+            "dE9wZW5pbmdNb2RlU2NoZWR1bGVzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkS",
+            "EQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmls",
+            "dGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIpUBCiBMaXN0T3BlbmluZ01v",
+            "ZGVTY2hlZHVsZXNSZXNwb25zZRJYChZvcGVuaW5nX21vZGVfc2NoZWR1bGVz",
+            "GAEgAygLMjguc2FsdG8ubmVidWxhLm9wZW5pbmdtb2Rlc2NoZWR1bGUudjEu",
+            "T3BlbmluZ01vZGVTY2hlZHVsZRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAki",
+            "rAEKIFVwZGF0ZU9wZW5pbmdNb2RlU2NoZWR1bGVSZXF1ZXN0ElcKFW9wZW5p",
+            "bmdfbW9kZV9zY2hlZHVsZRgBIAEoCzI4LnNhbHRvLm5lYnVsYS5vcGVuaW5n",
+            "bW9kZXNjaGVkdWxlLnYxLk9wZW5pbmdNb2RlU2NoZWR1bGUSLwoLdXBkYXRl",
+            "X21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIjAKIERl",
+            "bGV0ZU9wZW5pbmdNb2RlU2NoZWR1bGVSZXF1ZXN0EgwKBG5hbWUYASABKAky",
             "mQYKGk9wZW5pbmdNb2RlU2NoZWR1bGVTZXJ2aWNlEpwBChlDcmVhdGVPcGVu",
             "aW5nTW9kZVNjaGVkdWxlEkUuc2FsdG8ubmVidWxhLm9wZW5pbmdtb2Rlc2No",
             "ZWR1bGUudjEuQ3JlYXRlT3BlbmluZ01vZGVTY2hlZHVsZVJlcXVlc3QaOC5z",
             "YWx0by5uZWJ1bGEub3BlbmluZ21vZGVzY2hlZHVsZS52MS5PcGVuaW5nTW9k",
-            "ZVNjaGVkdWxlEnoKGURlbGV0ZU9wZW5pbmdNb2RlU2NoZWR1bGUSRS5zYWx0",
-            "by5uZWJ1bGEub3BlbmluZ21vZGVzY2hlZHVsZS52MS5EZWxldGVPcGVuaW5n",
-            "TW9kZVNjaGVkdWxlUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRKW",
-            "AQoWR2V0T3BlbmluZ01vZGVTY2hlZHVsZRJCLnNhbHRvLm5lYnVsYS5vcGVu",
-            "aW5nbW9kZXNjaGVkdWxlLnYxLkdldE9wZW5pbmdNb2RlU2NoZWR1bGVSZXF1",
-            "ZXN0Gjguc2FsdG8ubmVidWxhLm9wZW5pbmdtb2Rlc2NoZWR1bGUudjEuT3Bl",
-            "bmluZ01vZGVTY2hlZHVsZRKnAQoYTGlzdE9wZW5pbmdNb2RlU2NoZWR1bGVz",
-            "EkQuc2FsdG8ubmVidWxhLm9wZW5pbmdtb2Rlc2NoZWR1bGUudjEuTGlzdE9w",
-            "ZW5pbmdNb2RlU2NoZWR1bGVzUmVxdWVzdBpFLnNhbHRvLm5lYnVsYS5vcGVu",
-            "aW5nbW9kZXNjaGVkdWxlLnYxLkxpc3RPcGVuaW5nTW9kZVNjaGVkdWxlc1Jl",
-            "c3BvbnNlEpwBChlVcGRhdGVPcGVuaW5nTW9kZVNjaGVkdWxlEkUuc2FsdG8u",
-            "bmVidWxhLm9wZW5pbmdtb2Rlc2NoZWR1bGUudjEuVXBkYXRlT3BlbmluZ01v",
-            "ZGVTY2hlZHVsZVJlcXVlc3QaOC5zYWx0by5uZWJ1bGEub3BlbmluZ21vZGVz",
-            "Y2hlZHVsZS52MS5PcGVuaW5nTW9kZVNjaGVkdWxlQtkBCitjb20uc2FsdG9h",
+            "ZVNjaGVkdWxlEpYBChZHZXRPcGVuaW5nTW9kZVNjaGVkdWxlEkIuc2FsdG8u",
+            "bmVidWxhLm9wZW5pbmdtb2Rlc2NoZWR1bGUudjEuR2V0T3BlbmluZ01vZGVT",
+            "Y2hlZHVsZVJlcXVlc3QaOC5zYWx0by5uZWJ1bGEub3BlbmluZ21vZGVzY2hl",
+            "ZHVsZS52MS5PcGVuaW5nTW9kZVNjaGVkdWxlEqcBChhMaXN0T3BlbmluZ01v",
+            "ZGVTY2hlZHVsZXMSRC5zYWx0by5uZWJ1bGEub3BlbmluZ21vZGVzY2hlZHVs",
+            "ZS52MS5MaXN0T3BlbmluZ01vZGVTY2hlZHVsZXNSZXF1ZXN0GkUuc2FsdG8u",
+            "bmVidWxhLm9wZW5pbmdtb2Rlc2NoZWR1bGUudjEuTGlzdE9wZW5pbmdNb2Rl",
+            "U2NoZWR1bGVzUmVzcG9uc2USnAEKGVVwZGF0ZU9wZW5pbmdNb2RlU2NoZWR1",
+            "bGUSRS5zYWx0by5uZWJ1bGEub3BlbmluZ21vZGVzY2hlZHVsZS52MS5VcGRh",
+            "dGVPcGVuaW5nTW9kZVNjaGVkdWxlUmVxdWVzdBo4LnNhbHRvLm5lYnVsYS5v",
+            "cGVuaW5nbW9kZXNjaGVkdWxlLnYxLk9wZW5pbmdNb2RlU2NoZWR1bGUSegoZ",
+            "RGVsZXRlT3BlbmluZ01vZGVTY2hlZHVsZRJFLnNhbHRvLm5lYnVsYS5vcGVu",
+            "aW5nbW9kZXNjaGVkdWxlLnYxLkRlbGV0ZU9wZW5pbmdNb2RlU2NoZWR1bGVS",
+            "ZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QtkBCitjb20uc2FsdG9h",
             "cGlzLm5lYnVsYS5vcGVuaW5nbW9kZXNjaGVkdWxlLnYxQhhPcGVuaW5nTW9k",
             "ZVNjaGVkdWxlUHJvdG9QAVpkZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMuY29t",
             "L3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL29wZW5pbmdtb2Rlc2No",
@@ -83,1190 +83,19 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Nebula.Type.OpeningModeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule), global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Parser, new[]{ "Name", "DisplayName", "Days" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day), global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day.Parser, new[]{ "DayType", "DayOfWeek", "Slots" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day.Types.Slot), global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day.Types.Slot.Parser, new[]{ "OpeningMode", "StartTime", "EndTime" }, null, null, null, null)})}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest), global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest.Parser, new[]{ "Parent", "OpeningModeScheduleId", "OpeningModeSchedule" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest), global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest), global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest), global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse), global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse.Parser, new[]{ "OpeningModeSchedules", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule), global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Parser, new[]{ "Name", "DisplayName", "Days" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day), global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day.Parser, new[]{ "DayType", "DayOfWeek", "Slots" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day.Types.Slot), global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day.Types.Slot.Parser, new[]{ "OpeningMode", "StartTime", "EndTime" }, null, null, null, null)})}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest), global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest.Parser, new[]{ "OpeningModeSchedule", "UpdateMask" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest), global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest.Parser, new[]{ "OpeningModeSchedule", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest), global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  /// <summary>
-  /// The request message for [`CreateOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.CreateOpeningModeSchedule]
-  /// </summary>
-  public sealed partial class CreateOpeningModeScheduleRequest : pb::IMessage<CreateOpeningModeScheduleRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<CreateOpeningModeScheduleRequest> _parser = new pb::MessageParser<CreateOpeningModeScheduleRequest>(() => new CreateOpeningModeScheduleRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<CreateOpeningModeScheduleRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateOpeningModeScheduleRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateOpeningModeScheduleRequest(CreateOpeningModeScheduleRequest other) : this() {
-      parent_ = other.parent_;
-      openingModeScheduleId_ = other.openingModeScheduleId_;
-      openingModeSchedule_ = other.openingModeSchedule_ != null ? other.openingModeSchedule_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateOpeningModeScheduleRequest Clone() {
-      return new CreateOpeningModeScheduleRequest(this);
-    }
-
-    /// <summary>Field number for the "parent" field.</summary>
-    public const int ParentFieldNumber = 1;
-    private string parent_ = "";
-    /// <summary>
-    /// Resource name of the parent resource where to create the opening mode
-    /// schedule. For example: `installations/surelock-homes-hq`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Parent {
-      get { return parent_; }
-      set {
-        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "opening_mode_schedule_id" field.</summary>
-    public const int OpeningModeScheduleIdFieldNumber = 2;
-    private string openingModeScheduleId_ = "";
-    /// <summary>
-    /// The opening mode schedule ID to use for this opening mode schedule. In
-    /// case it's empty the server will autogenerate a unique identifier.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string OpeningModeScheduleId {
-      get { return openingModeScheduleId_; }
-      set {
-        openingModeScheduleId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "opening_mode_schedule" field.</summary>
-    public const int OpeningModeScheduleFieldNumber = 3;
-    private global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule openingModeSchedule_;
-    /// <summary>
-    /// The opening mode schedule resource to be created. Client must not set the
-    /// `OpeningModeSchedule.name` field.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule OpeningModeSchedule {
-      get { return openingModeSchedule_; }
-      set {
-        openingModeSchedule_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as CreateOpeningModeScheduleRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(CreateOpeningModeScheduleRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Parent != other.Parent) return false;
-      if (OpeningModeScheduleId != other.OpeningModeScheduleId) return false;
-      if (!object.Equals(OpeningModeSchedule, other.OpeningModeSchedule)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (OpeningModeScheduleId.Length != 0) hash ^= OpeningModeScheduleId.GetHashCode();
-      if (openingModeSchedule_ != null) hash ^= OpeningModeSchedule.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (OpeningModeScheduleId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(OpeningModeScheduleId);
-      }
-      if (openingModeSchedule_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(OpeningModeSchedule);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (OpeningModeScheduleId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(OpeningModeScheduleId);
-      }
-      if (openingModeSchedule_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(OpeningModeSchedule);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Parent.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
-      }
-      if (OpeningModeScheduleId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(OpeningModeScheduleId);
-      }
-      if (openingModeSchedule_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OpeningModeSchedule);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(CreateOpeningModeScheduleRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Parent.Length != 0) {
-        Parent = other.Parent;
-      }
-      if (other.OpeningModeScheduleId.Length != 0) {
-        OpeningModeScheduleId = other.OpeningModeScheduleId;
-      }
-      if (other.openingModeSchedule_ != null) {
-        if (openingModeSchedule_ == null) {
-          OpeningModeSchedule = new global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule();
-        }
-        OpeningModeSchedule.MergeFrom(other.OpeningModeSchedule);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            OpeningModeScheduleId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (openingModeSchedule_ == null) {
-              OpeningModeSchedule = new global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule();
-            }
-            input.ReadMessage(OpeningModeSchedule);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            OpeningModeScheduleId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (openingModeSchedule_ == null) {
-              OpeningModeSchedule = new global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule();
-            }
-            input.ReadMessage(OpeningModeSchedule);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The response message for [`DeleteOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.DeleteOpeningModeSchedule]
-  /// </summary>
-  public sealed partial class DeleteOpeningModeScheduleRequest : pb::IMessage<DeleteOpeningModeScheduleRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DeleteOpeningModeScheduleRequest> _parser = new pb::MessageParser<DeleteOpeningModeScheduleRequest>(() => new DeleteOpeningModeScheduleRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DeleteOpeningModeScheduleRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteOpeningModeScheduleRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteOpeningModeScheduleRequest(DeleteOpeningModeScheduleRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteOpeningModeScheduleRequest Clone() {
-      return new DeleteOpeningModeScheduleRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the opening mode schedule to be deleted. For example:
-    /// `installations/surelock-homes-hq/opening-mode-schedules/office-24-7`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DeleteOpeningModeScheduleRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DeleteOpeningModeScheduleRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DeleteOpeningModeScheduleRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`GetOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.GetOpeningModeSchedule]
-  /// </summary>
-  public sealed partial class GetOpeningModeScheduleRequest : pb::IMessage<GetOpeningModeScheduleRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<GetOpeningModeScheduleRequest> _parser = new pb::MessageParser<GetOpeningModeScheduleRequest>(() => new GetOpeningModeScheduleRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetOpeningModeScheduleRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetOpeningModeScheduleRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetOpeningModeScheduleRequest(GetOpeningModeScheduleRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetOpeningModeScheduleRequest Clone() {
-      return new GetOpeningModeScheduleRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The name of the requested opening mode schedule resource. For example:
-    /// `installations/surelock-homes-hq/opening-mode-schedules/office-24-7`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as GetOpeningModeScheduleRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetOpeningModeScheduleRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetOpeningModeScheduleRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`ListOpeningModeSchedules`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.ListOpeningModeSchedules]
-  /// </summary>
-  public sealed partial class ListOpeningModeSchedulesRequest : pb::IMessage<ListOpeningModeSchedulesRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ListOpeningModeSchedulesRequest> _parser = new pb::MessageParser<ListOpeningModeSchedulesRequest>(() => new ListOpeningModeSchedulesRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ListOpeningModeSchedulesRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ListOpeningModeSchedulesRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ListOpeningModeSchedulesRequest(ListOpeningModeSchedulesRequest other) : this() {
-      parent_ = other.parent_;
-      pageSize_ = other.pageSize_;
-      pageToken_ = other.pageToken_;
-      filter_ = other.filter_;
-      orderBy_ = other.orderBy_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ListOpeningModeSchedulesRequest Clone() {
-      return new ListOpeningModeSchedulesRequest(this);
-    }
-
-    /// <summary>Field number for the "parent" field.</summary>
-    public const int ParentFieldNumber = 1;
-    private string parent_ = "";
-    /// <summary>
-    /// The parent resource name. For example: `installations/surelock-homes-hq`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Parent {
-      get { return parent_; }
-      set {
-        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "page_size" field.</summary>
-    public const int PageSizeFieldNumber = 2;
-    private int pageSize_;
-    /// <summary>
-    /// The maximum number of items to return.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int PageSize {
-      get { return pageSize_; }
-      set {
-        pageSize_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "page_token" field.</summary>
-    public const int PageTokenFieldNumber = 3;
-    private string pageToken_ = "";
-    /// <summary>
-    /// The `next_page_token` value returned from a previous `List` request, if
-    /// any.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string PageToken {
-      get { return pageToken_; }
-      set {
-        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "filter" field.</summary>
-    public const int FilterFieldNumber = 4;
-    private string filter_ = "";
-    /// <summary>
-    /// A filter that chooses which opening mode schedules to return. The maximum
-    /// length of the filter is 20000 characters.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Filter {
-      get { return filter_; }
-      set {
-        filter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "order_by" field.</summary>
-    public const int OrderByFieldNumber = 5;
-    private string orderBy_ = "";
-    /// <summary>
-    /// How the results should be sorted.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string OrderBy {
-      get { return orderBy_; }
-      set {
-        orderBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ListOpeningModeSchedulesRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ListOpeningModeSchedulesRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Parent != other.Parent) return false;
-      if (PageSize != other.PageSize) return false;
-      if (PageToken != other.PageToken) return false;
-      if (Filter != other.Filter) return false;
-      if (OrderBy != other.OrderBy) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (PageSize != 0) hash ^= PageSize.GetHashCode();
-      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
-      if (Filter.Length != 0) hash ^= Filter.GetHashCode();
-      if (OrderBy.Length != 0) hash ^= OrderBy.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (PageSize != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(PageSize);
-      }
-      if (PageToken.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(PageToken);
-      }
-      if (Filter.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(Filter);
-      }
-      if (OrderBy.Length != 0) {
-        output.WriteRawTag(42);
-        output.WriteString(OrderBy);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (PageSize != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(PageSize);
-      }
-      if (PageToken.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(PageToken);
-      }
-      if (Filter.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(Filter);
-      }
-      if (OrderBy.Length != 0) {
-        output.WriteRawTag(42);
-        output.WriteString(OrderBy);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Parent.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
-      }
-      if (PageSize != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
-      }
-      if (PageToken.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
-      }
-      if (Filter.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Filter);
-      }
-      if (OrderBy.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(OrderBy);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ListOpeningModeSchedulesRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Parent.Length != 0) {
-        Parent = other.Parent;
-      }
-      if (other.PageSize != 0) {
-        PageSize = other.PageSize;
-      }
-      if (other.PageToken.Length != 0) {
-        PageToken = other.PageToken;
-      }
-      if (other.Filter.Length != 0) {
-        Filter = other.Filter;
-      }
-      if (other.OrderBy.Length != 0) {
-        OrderBy = other.OrderBy;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 16: {
-            PageSize = input.ReadInt32();
-            break;
-          }
-          case 26: {
-            PageToken = input.ReadString();
-            break;
-          }
-          case 34: {
-            Filter = input.ReadString();
-            break;
-          }
-          case 42: {
-            OrderBy = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 16: {
-            PageSize = input.ReadInt32();
-            break;
-          }
-          case 26: {
-            PageToken = input.ReadString();
-            break;
-          }
-          case 34: {
-            Filter = input.ReadString();
-            break;
-          }
-          case 42: {
-            OrderBy = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The response message for [`ListOpeningModeSchedules`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.ListOpeningModeSchedules]
-  /// </summary>
-  public sealed partial class ListOpeningModeSchedulesResponse : pb::IMessage<ListOpeningModeSchedulesResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ListOpeningModeSchedulesResponse> _parser = new pb::MessageParser<ListOpeningModeSchedulesResponse>(() => new ListOpeningModeSchedulesResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ListOpeningModeSchedulesResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ListOpeningModeSchedulesResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ListOpeningModeSchedulesResponse(ListOpeningModeSchedulesResponse other) : this() {
-      openingModeSchedules_ = other.openingModeSchedules_.Clone();
-      nextPageToken_ = other.nextPageToken_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ListOpeningModeSchedulesResponse Clone() {
-      return new ListOpeningModeSchedulesResponse(this);
-    }
-
-    /// <summary>Field number for the "opening_mode_schedules" field.</summary>
-    public const int OpeningModeSchedulesFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> _repeated_openingModeSchedules_codec
-        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Parser);
-    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> openingModeSchedules_ = new pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule>();
-    /// <summary>
-    /// The field name should match the noun `opening_mode_schedules` in the method name.
-    /// There will be a maximum number of items returned based on the `page_size`
-    /// field in the request.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> OpeningModeSchedules {
-      get { return openingModeSchedules_; }
-    }
-
-    /// <summary>Field number for the "next_page_token" field.</summary>
-    public const int NextPageTokenFieldNumber = 2;
-    private string nextPageToken_ = "";
-    /// <summary>
-    /// Token to retrieve the next page of results, or empty if there are no more
-    /// results in the list.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string NextPageToken {
-      get { return nextPageToken_; }
-      set {
-        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ListOpeningModeSchedulesResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ListOpeningModeSchedulesResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!openingModeSchedules_.Equals(other.openingModeSchedules_)) return false;
-      if (NextPageToken != other.NextPageToken) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= openingModeSchedules_.GetHashCode();
-      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      openingModeSchedules_.WriteTo(output, _repeated_openingModeSchedules_codec);
-      if (NextPageToken.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(NextPageToken);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      openingModeSchedules_.WriteTo(ref output, _repeated_openingModeSchedules_codec);
-      if (NextPageToken.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(NextPageToken);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      size += openingModeSchedules_.CalculateSize(_repeated_openingModeSchedules_codec);
-      if (NextPageToken.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ListOpeningModeSchedulesResponse other) {
-      if (other == null) {
-        return;
-      }
-      openingModeSchedules_.Add(other.openingModeSchedules_);
-      if (other.NextPageToken.Length != 0) {
-        NextPageToken = other.NextPageToken;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            openingModeSchedules_.AddEntriesFrom(input, _repeated_openingModeSchedules_codec);
-            break;
-          }
-          case 18: {
-            NextPageToken = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            openingModeSchedules_.AddEntriesFrom(ref input, _repeated_openingModeSchedules_codec);
-            break;
-          }
-          case 18: {
-            NextPageToken = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   /// <summary>
   /// The opening mode schedule object
   /// </summary>
@@ -1282,7 +111,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2048,6 +877,998 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   }
 
   /// <summary>
+  /// The request message for [`CreateOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.CreateOpeningModeSchedule]
+  /// </summary>
+  public sealed partial class CreateOpeningModeScheduleRequest : pb::IMessage<CreateOpeningModeScheduleRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CreateOpeningModeScheduleRequest> _parser = new pb::MessageParser<CreateOpeningModeScheduleRequest>(() => new CreateOpeningModeScheduleRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CreateOpeningModeScheduleRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateOpeningModeScheduleRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateOpeningModeScheduleRequest(CreateOpeningModeScheduleRequest other) : this() {
+      parent_ = other.parent_;
+      openingModeScheduleId_ = other.openingModeScheduleId_;
+      openingModeSchedule_ = other.openingModeSchedule_ != null ? other.openingModeSchedule_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateOpeningModeScheduleRequest Clone() {
+      return new CreateOpeningModeScheduleRequest(this);
+    }
+
+    /// <summary>Field number for the "parent" field.</summary>
+    public const int ParentFieldNumber = 1;
+    private string parent_ = "";
+    /// <summary>
+    /// Resource name of the parent resource where to create the opening mode
+    /// schedule. For example: `installations/surelock-homes-hq`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Parent {
+      get { return parent_; }
+      set {
+        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "opening_mode_schedule_id" field.</summary>
+    public const int OpeningModeScheduleIdFieldNumber = 2;
+    private string openingModeScheduleId_ = "";
+    /// <summary>
+    /// The opening mode schedule ID to use for this opening mode schedule. In
+    /// case it's empty the server will autogenerate a unique identifier.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OpeningModeScheduleId {
+      get { return openingModeScheduleId_; }
+      set {
+        openingModeScheduleId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "opening_mode_schedule" field.</summary>
+    public const int OpeningModeScheduleFieldNumber = 3;
+    private global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule openingModeSchedule_;
+    /// <summary>
+    /// The opening mode schedule resource to be created. Client must not set the
+    /// `OpeningModeSchedule.name` field.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule OpeningModeSchedule {
+      get { return openingModeSchedule_; }
+      set {
+        openingModeSchedule_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CreateOpeningModeScheduleRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CreateOpeningModeScheduleRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Parent != other.Parent) return false;
+      if (OpeningModeScheduleId != other.OpeningModeScheduleId) return false;
+      if (!object.Equals(OpeningModeSchedule, other.OpeningModeSchedule)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
+      if (OpeningModeScheduleId.Length != 0) hash ^= OpeningModeScheduleId.GetHashCode();
+      if (openingModeSchedule_ != null) hash ^= OpeningModeSchedule.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (OpeningModeScheduleId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(OpeningModeScheduleId);
+      }
+      if (openingModeSchedule_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(OpeningModeSchedule);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (OpeningModeScheduleId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(OpeningModeScheduleId);
+      }
+      if (openingModeSchedule_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(OpeningModeSchedule);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Parent.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
+      }
+      if (OpeningModeScheduleId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OpeningModeScheduleId);
+      }
+      if (openingModeSchedule_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OpeningModeSchedule);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CreateOpeningModeScheduleRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Parent.Length != 0) {
+        Parent = other.Parent;
+      }
+      if (other.OpeningModeScheduleId.Length != 0) {
+        OpeningModeScheduleId = other.OpeningModeScheduleId;
+      }
+      if (other.openingModeSchedule_ != null) {
+        if (openingModeSchedule_ == null) {
+          OpeningModeSchedule = new global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule();
+        }
+        OpeningModeSchedule.MergeFrom(other.OpeningModeSchedule);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            OpeningModeScheduleId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (openingModeSchedule_ == null) {
+              OpeningModeSchedule = new global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule();
+            }
+            input.ReadMessage(OpeningModeSchedule);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            OpeningModeScheduleId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (openingModeSchedule_ == null) {
+              OpeningModeSchedule = new global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule();
+            }
+            input.ReadMessage(OpeningModeSchedule);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`GetOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.GetOpeningModeSchedule]
+  /// </summary>
+  public sealed partial class GetOpeningModeScheduleRequest : pb::IMessage<GetOpeningModeScheduleRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetOpeningModeScheduleRequest> _parser = new pb::MessageParser<GetOpeningModeScheduleRequest>(() => new GetOpeningModeScheduleRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetOpeningModeScheduleRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetOpeningModeScheduleRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetOpeningModeScheduleRequest(GetOpeningModeScheduleRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetOpeningModeScheduleRequest Clone() {
+      return new GetOpeningModeScheduleRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The name of the requested opening mode schedule resource. For example:
+    /// `installations/surelock-homes-hq/opening-mode-schedules/office-24-7`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetOpeningModeScheduleRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetOpeningModeScheduleRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetOpeningModeScheduleRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`ListOpeningModeSchedules`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.ListOpeningModeSchedules]
+  /// </summary>
+  public sealed partial class ListOpeningModeSchedulesRequest : pb::IMessage<ListOpeningModeSchedulesRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ListOpeningModeSchedulesRequest> _parser = new pb::MessageParser<ListOpeningModeSchedulesRequest>(() => new ListOpeningModeSchedulesRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListOpeningModeSchedulesRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListOpeningModeSchedulesRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListOpeningModeSchedulesRequest(ListOpeningModeSchedulesRequest other) : this() {
+      parent_ = other.parent_;
+      pageSize_ = other.pageSize_;
+      pageToken_ = other.pageToken_;
+      filter_ = other.filter_;
+      orderBy_ = other.orderBy_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListOpeningModeSchedulesRequest Clone() {
+      return new ListOpeningModeSchedulesRequest(this);
+    }
+
+    /// <summary>Field number for the "parent" field.</summary>
+    public const int ParentFieldNumber = 1;
+    private string parent_ = "";
+    /// <summary>
+    /// The parent resource name. For example: `installations/surelock-homes-hq`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Parent {
+      get { return parent_; }
+      set {
+        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "page_size" field.</summary>
+    public const int PageSizeFieldNumber = 2;
+    private int pageSize_;
+    /// <summary>
+    /// The maximum number of items to return.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 3;
+    private string pageToken_ = "";
+    /// <summary>
+    /// The `next_page_token` value returned from a previous `List` request, if
+    /// any.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "filter" field.</summary>
+    public const int FilterFieldNumber = 4;
+    private string filter_ = "";
+    /// <summary>
+    /// A filter that chooses which opening mode schedules to return. The maximum
+    /// length of the filter is 20000 characters.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Filter {
+      get { return filter_; }
+      set {
+        filter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "order_by" field.</summary>
+    public const int OrderByFieldNumber = 5;
+    private string orderBy_ = "";
+    /// <summary>
+    /// How the results should be sorted.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string OrderBy {
+      get { return orderBy_; }
+      set {
+        orderBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListOpeningModeSchedulesRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListOpeningModeSchedulesRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Parent != other.Parent) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PageToken != other.PageToken) return false;
+      if (Filter != other.Filter) return false;
+      if (OrderBy != other.OrderBy) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
+      if (PageSize != 0) hash ^= PageSize.GetHashCode();
+      if (PageToken.Length != 0) hash ^= PageToken.GetHashCode();
+      if (Filter.Length != 0) hash ^= Filter.GetHashCode();
+      if (OrderBy.Length != 0) hash ^= OrderBy.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PageToken);
+      }
+      if (Filter.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Filter);
+      }
+      if (OrderBy.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(OrderBy);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(PageToken);
+      }
+      if (Filter.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Filter);
+      }
+      if (OrderBy.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(OrderBy);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Parent.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
+      }
+      if (PageSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
+      }
+      if (PageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PageToken);
+      }
+      if (Filter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Filter);
+      }
+      if (OrderBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OrderBy);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListOpeningModeSchedulesRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Parent.Length != 0) {
+        Parent = other.Parent;
+      }
+      if (other.PageSize != 0) {
+        PageSize = other.PageSize;
+      }
+      if (other.PageToken.Length != 0) {
+        PageToken = other.PageToken;
+      }
+      if (other.Filter.Length != 0) {
+        Filter = other.Filter;
+      }
+      if (other.OrderBy.Length != 0) {
+        OrderBy = other.OrderBy;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 26: {
+            PageToken = input.ReadString();
+            break;
+          }
+          case 34: {
+            Filter = input.ReadString();
+            break;
+          }
+          case 42: {
+            OrderBy = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 16: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 26: {
+            PageToken = input.ReadString();
+            break;
+          }
+          case 34: {
+            Filter = input.ReadString();
+            break;
+          }
+          case 42: {
+            OrderBy = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`ListOpeningModeSchedules`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.ListOpeningModeSchedules]
+  /// </summary>
+  public sealed partial class ListOpeningModeSchedulesResponse : pb::IMessage<ListOpeningModeSchedulesResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ListOpeningModeSchedulesResponse> _parser = new pb::MessageParser<ListOpeningModeSchedulesResponse>(() => new ListOpeningModeSchedulesResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ListOpeningModeSchedulesResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListOpeningModeSchedulesResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListOpeningModeSchedulesResponse(ListOpeningModeSchedulesResponse other) : this() {
+      openingModeSchedules_ = other.openingModeSchedules_.Clone();
+      nextPageToken_ = other.nextPageToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ListOpeningModeSchedulesResponse Clone() {
+      return new ListOpeningModeSchedulesResponse(this);
+    }
+
+    /// <summary>Field number for the "opening_mode_schedules" field.</summary>
+    public const int OpeningModeSchedulesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> _repeated_openingModeSchedules_codec
+        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> openingModeSchedules_ = new pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule>();
+    /// <summary>
+    /// The field name should match the noun `opening_mode_schedules` in the method name.
+    /// There will be a maximum number of items returned based on the `page_size`
+    /// field in the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> OpeningModeSchedules {
+      get { return openingModeSchedules_; }
+    }
+
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private string nextPageToken_ = "";
+    /// <summary>
+    /// Token to retrieve the next page of results, or empty if there are no more
+    /// results in the list.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ListOpeningModeSchedulesResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ListOpeningModeSchedulesResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!openingModeSchedules_.Equals(other.openingModeSchedules_)) return false;
+      if (NextPageToken != other.NextPageToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= openingModeSchedules_.GetHashCode();
+      if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      openingModeSchedules_.WriteTo(output, _repeated_openingModeSchedules_codec);
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      openingModeSchedules_.WriteTo(ref output, _repeated_openingModeSchedules_codec);
+      if (NextPageToken.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += openingModeSchedules_.CalculateSize(_repeated_openingModeSchedules_codec);
+      if (NextPageToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ListOpeningModeSchedulesResponse other) {
+      if (other == null) {
+        return;
+      }
+      openingModeSchedules_.Add(other.openingModeSchedules_);
+      if (other.NextPageToken.Length != 0) {
+        NextPageToken = other.NextPageToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            openingModeSchedules_.AddEntriesFrom(input, _repeated_openingModeSchedules_codec);
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            openingModeSchedules_.AddEntriesFrom(ref input, _repeated_openingModeSchedules_codec);
+            break;
+          }
+          case 18: {
+            NextPageToken = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The response message for [`UpdateOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.UpdateOpeningModeSchedule]
   /// </summary>
   public sealed partial class UpdateOpeningModeScheduleRequest : pb::IMessage<UpdateOpeningModeScheduleRequest>
@@ -2062,7 +1883,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2273,6 +2094,185 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
               UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
             }
             input.ReadMessage(UpdateMask);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`DeleteOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.DeleteOpeningModeSchedule]
+  /// </summary>
+  public sealed partial class DeleteOpeningModeScheduleRequest : pb::IMessage<DeleteOpeningModeScheduleRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DeleteOpeningModeScheduleRequest> _parser = new pb::MessageParser<DeleteOpeningModeScheduleRequest>(() => new DeleteOpeningModeScheduleRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteOpeningModeScheduleRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteOpeningModeScheduleRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteOpeningModeScheduleRequest(DeleteOpeningModeScheduleRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteOpeningModeScheduleRequest Clone() {
+      return new DeleteOpeningModeScheduleRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The resource name of the opening mode schedule to be deleted. For example:
+    /// `installations/surelock-homes-hq/opening-mode-schedules/office-24-7`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteOpeningModeScheduleRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteOpeningModeScheduleRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteOpeningModeScheduleRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
             break;
           }
         }

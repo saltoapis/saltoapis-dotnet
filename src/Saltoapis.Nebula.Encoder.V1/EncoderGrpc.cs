@@ -19,12 +19,12 @@ namespace Saltoapis.Nebula.Encoder.V1 {
 
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest> __Marshaller_salto_nebula_encoder_v1_CreateEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.Encoder> __Marshaller_salto_nebula_encoder_v1_Encoder = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.Encoder.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest> __Marshaller_salto_nebula_encoder_v1_DeleteEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest> __Marshaller_salto_nebula_encoder_v1_GetEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest> __Marshaller_salto_nebula_encoder_v1_ListEncodersRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ListEncodersResponse> __Marshaller_salto_nebula_encoder_v1_ListEncodersResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.ListEncodersResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest> __Marshaller_salto_nebula_encoder_v1_UpdateEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest> __Marshaller_salto_nebula_encoder_v1_DeleteEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder> __Method_CreateEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder>(
         grpc::MethodType.Unary,
@@ -32,13 +32,6 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         "CreateEncoder",
         __Marshaller_salto_nebula_encoder_v1_CreateEncoderRequest,
         __Marshaller_salto_nebula_encoder_v1_Encoder);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteEncoder",
-        __Marshaller_salto_nebula_encoder_v1_DeleteEncoderRequest,
-        __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder> __Method_GetEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder>(
         grpc::MethodType.Unary,
@@ -60,6 +53,13 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         "UpdateEncoder",
         __Marshaller_salto_nebula_encoder_v1_UpdateEncoderRequest,
         __Marshaller_salto_nebula_encoder_v1_Encoder);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteEncoder",
+        __Marshaller_salto_nebula_encoder_v1_DeleteEncoderRequest,
+        __Marshaller_google_protobuf_Empty);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -141,58 +141,6 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Encoder.V1.Encoder> CreateEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateEncoder, null, options, request);
-      }
-      /// <summary>
-      /// Delete an encoder
-      ///
-      /// Permanently deletes an encoder. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteEncoder(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteEncoder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an encoder
-      ///
-      /// Permanently deletes an encoder. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteEncoder(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteEncoder, null, options, request);
-      }
-      /// <summary>
-      /// Delete an encoder
-      ///
-      /// Permanently deletes an encoder. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteEncoderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an encoder
-      ///
-      /// Permanently deletes an encoder. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteEncoder, null, options, request);
       }
       /// <summary>
       /// Get an encoder
@@ -349,6 +297,58 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Encoder.V1.Encoder> UpdateEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Delete an encoder
+      ///
+      /// Permanently deletes an encoder. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteEncoder(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteEncoder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an encoder
+      ///
+      /// Permanently deletes an encoder. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteEncoder(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Delete an encoder
+      ///
+      /// Permanently deletes an encoder. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteEncoderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an encoder
+      ///
+      /// Permanently deletes an encoder. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteEncoder, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override EncoderServiceClient NewInstance(ClientBaseConfiguration configuration)

@@ -23,19 +23,12 @@ namespace Saltoapis.Longrunning.V1 {
   {
     static readonly string __ServiceName = "salto.longrunning.v1.OperationService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.DeleteOperationRequest> __Marshaller_salto_longrunning_v1_DeleteOperationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.DeleteOperationRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.GetOperationRequest> __Marshaller_salto_longrunning_v1_GetOperationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.GetOperationRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.Operation.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.ListOperationsRequest> __Marshaller_salto_longrunning_v1_ListOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.ListOperationsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.ListOperationsResponse> __Marshaller_salto_longrunning_v1_ListOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.ListOperationsResponse.Parser.ParseFrom);
-
-    static readonly grpc::Method<global::Saltoapis.Longrunning.V1.DeleteOperationRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteOperation = new grpc::Method<global::Saltoapis.Longrunning.V1.DeleteOperationRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteOperation",
-        __Marshaller_salto_longrunning_v1_DeleteOperationRequest,
-        __Marshaller_google_protobuf_Empty);
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.DeleteOperationRequest> __Marshaller_salto_longrunning_v1_DeleteOperationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.DeleteOperationRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Longrunning.V1.GetOperationRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_GetOperation = new grpc::Method<global::Saltoapis.Longrunning.V1.GetOperationRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
@@ -50,6 +43,13 @@ namespace Saltoapis.Longrunning.V1 {
         "ListOperations",
         __Marshaller_salto_longrunning_v1_ListOperationsRequest,
         __Marshaller_salto_longrunning_v1_ListOperationsResponse);
+
+    static readonly grpc::Method<global::Saltoapis.Longrunning.V1.DeleteOperationRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteOperation = new grpc::Method<global::Saltoapis.Longrunning.V1.DeleteOperationRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteOperation",
+        __Marshaller_salto_longrunning_v1_DeleteOperationRequest,
+        __Marshaller_google_protobuf_Empty);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -80,58 +80,6 @@ namespace Saltoapis.Longrunning.V1 {
       {
       }
 
-      /// <summary>
-      /// Delete an operation
-      ///
-      /// Permanently deletes a long-running operation. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOperation(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteOperation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an operation
-      ///
-      /// Permanently deletes a long-running operation. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOperation(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteOperation, null, options, request);
-      }
-      /// <summary>
-      /// Delete an operation
-      ///
-      /// Permanently deletes a long-running operation. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOperationAsync(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteOperationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an operation
-      ///
-      /// Permanently deletes a long-running operation. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOperationAsync(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteOperation, null, options, request);
-      }
       /// <summary>
       /// Get a operation
       ///
@@ -235,6 +183,58 @@ namespace Saltoapis.Longrunning.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.ListOperationsResponse> ListOperationsAsync(global::Saltoapis.Longrunning.V1.ListOperationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListOperations, null, options, request);
+      }
+      /// <summary>
+      /// Delete an operation
+      ///
+      /// Permanently deletes a long-running operation. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOperation(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteOperation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an operation
+      ///
+      /// Permanently deletes a long-running operation. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOperation(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteOperation, null, options, request);
+      }
+      /// <summary>
+      /// Delete an operation
+      ///
+      /// Permanently deletes a long-running operation. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOperationAsync(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteOperationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an operation
+      ///
+      /// Permanently deletes a long-running operation. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOperationAsync(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteOperation, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override OperationServiceClient NewInstance(ClientBaseConfiguration configuration)

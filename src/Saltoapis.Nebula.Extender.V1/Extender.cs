@@ -27,37 +27,37 @@ namespace Saltoapis.Nebula.Extender.V1 {
             "CidzYWx0by9uZWJ1bGEvZXh0ZW5kZXIvdjEvZXh0ZW5kZXIucHJvdG8SGHNh",
             "bHRvLm5lYnVsYS5leHRlbmRlci52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5",
             "LnByb3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxokc2Fs",
-            "dG8vbG9uZ3J1bm5pbmcvdjEvb3BlcmF0aW9uLnByb3RvInIKFUNyZWF0ZUV4",
-            "dGVuZGVyUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEwoLZXh0ZW5kZXJfaWQY",
-            "AiABKAkSNAoIZXh0ZW5kZXIYAyABKAsyIi5zYWx0by5uZWJ1bGEuZXh0ZW5k",
-            "ZXIudjEuRXh0ZW5kZXIiJQoVRGVsZXRlRXh0ZW5kZXJSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkieQoIRXh0ZW5kZXISDAoEbmFtZRgBIAEoCRIRCglkZXZpY2Vf",
-            "aWQYAiABKAkSFAoMZGlzcGxheV9uYW1lGAMgASgJEhEKB2dhdGV3YXkYBCAB",
-            "KAlIABISCghleHRlbmRlchgFIAEoCUgAQg8KDXBhcmVudF9kZXZpY2UiIgoS",
-            "R2V0RXh0ZW5kZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkibwoUTGlzdEV4dGVu",
-            "ZGVyc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEo",
-            "BRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRl",
-            "cl9ieRgFIAEoCSJnChVMaXN0RXh0ZW5kZXJzUmVzcG9uc2USNQoJZXh0ZW5k",
-            "ZXJzGAEgAygLMiIuc2FsdG8ubmVidWxhLmV4dGVuZGVyLnYxLkV4dGVuZGVy",
-            "EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSI6Ch5VcGRhdGVFeHRlbmRlckZp",
-            "cm13YXJlTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBSIxCh1V",
-            "cGRhdGVFeHRlbmRlckZpcm13YXJlUmVxdWVzdBIQCghleHRlbmRlchgBIAEo",
-            "CSIgCh5VcGRhdGVFeHRlbmRlckZpcm13YXJlUmVzcG9uc2UifgoVVXBkYXRl",
-            "RXh0ZW5kZXJSZXF1ZXN0EjQKCGV4dGVuZGVyGAEgASgLMiIuc2FsdG8ubmVi",
-            "dWxhLmV4dGVuZGVyLnYxLkV4dGVuZGVyEi8KC3VwZGF0ZV9tYXNrGAIgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzazKBBQoPRXh0ZW5kZXJTZXJ2",
+            "dG8vbG9uZ3J1bm5pbmcvdjEvb3BlcmF0aW9uLnByb3RvInkKCEV4dGVuZGVy",
+            "EgwKBG5hbWUYASABKAkSEQoJZGV2aWNlX2lkGAIgASgJEhQKDGRpc3BsYXlf",
+            "bmFtZRgDIAEoCRIRCgdnYXRld2F5GAQgASgJSAASEgoIZXh0ZW5kZXIYBSAB",
+            "KAlIAEIPCg1wYXJlbnRfZGV2aWNlInIKFUNyZWF0ZUV4dGVuZGVyUmVxdWVz",
+            "dBIOCgZwYXJlbnQYASABKAkSEwoLZXh0ZW5kZXJfaWQYAiABKAkSNAoIZXh0",
+            "ZW5kZXIYAyABKAsyIi5zYWx0by5uZWJ1bGEuZXh0ZW5kZXIudjEuRXh0ZW5k",
+            "ZXIiIgoSR2V0RXh0ZW5kZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkibwoUTGlz",
+            "dEV4dGVuZGVyc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6",
+            "ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQ",
+            "CghvcmRlcl9ieRgFIAEoCSJnChVMaXN0RXh0ZW5kZXJzUmVzcG9uc2USNQoJ",
+            "ZXh0ZW5kZXJzGAEgAygLMiIuc2FsdG8ubmVidWxhLmV4dGVuZGVyLnYxLkV4",
+            "dGVuZGVyEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJ+ChVVcGRhdGVFeHRl",
+            "bmRlclJlcXVlc3QSNAoIZXh0ZW5kZXIYASABKAsyIi5zYWx0by5uZWJ1bGEu",
+            "ZXh0ZW5kZXIudjEuRXh0ZW5kZXISLwoLdXBkYXRlX21hc2sYAiABKAsyGi5n",
+            "b29nbGUucHJvdG9idWYuRmllbGRNYXNrIiUKFURlbGV0ZUV4dGVuZGVyUmVx",
+            "dWVzdBIMCgRuYW1lGAEgASgJIjEKHVVwZGF0ZUV4dGVuZGVyRmlybXdhcmVS",
+            "ZXF1ZXN0EhAKCGV4dGVuZGVyGAEgASgJIiAKHlVwZGF0ZUV4dGVuZGVyRmly",
+            "bXdhcmVSZXNwb25zZSI6Ch5VcGRhdGVFeHRlbmRlckZpcm13YXJlTWV0YWRh",
+            "dGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBTKBBQoPRXh0ZW5kZXJTZXJ2",
             "aWNlEmUKDkNyZWF0ZUV4dGVuZGVyEi8uc2FsdG8ubmVidWxhLmV4dGVuZGVy",
             "LnYxLkNyZWF0ZUV4dGVuZGVyUmVxdWVzdBoiLnNhbHRvLm5lYnVsYS5leHRl",
-            "bmRlci52MS5FeHRlbmRlchJZCg5EZWxldGVFeHRlbmRlchIvLnNhbHRvLm5l",
-            "YnVsYS5leHRlbmRlci52MS5EZWxldGVFeHRlbmRlclJlcXVlc3QaFi5nb29n",
-            "bGUucHJvdG9idWYuRW1wdHkSXwoLR2V0RXh0ZW5kZXISLC5zYWx0by5uZWJ1",
-            "bGEuZXh0ZW5kZXIudjEuR2V0RXh0ZW5kZXJSZXF1ZXN0GiIuc2FsdG8ubmVi",
-            "dWxhLmV4dGVuZGVyLnYxLkV4dGVuZGVyEnAKDUxpc3RFeHRlbmRlcnMSLi5z",
-            "YWx0by5uZWJ1bGEuZXh0ZW5kZXIudjEuTGlzdEV4dGVuZGVyc1JlcXVlc3Qa",
-            "Ly5zYWx0by5uZWJ1bGEuZXh0ZW5kZXIudjEuTGlzdEV4dGVuZGVyc1Jlc3Bv",
-            "bnNlEmUKDlVwZGF0ZUV4dGVuZGVyEi8uc2FsdG8ubmVidWxhLmV4dGVuZGVy",
-            "LnYxLlVwZGF0ZUV4dGVuZGVyUmVxdWVzdBoiLnNhbHRvLm5lYnVsYS5leHRl",
-            "bmRlci52MS5FeHRlbmRlchJyChZVcGRhdGVFeHRlbmRlckZpcm13YXJlEjcu",
+            "bmRlci52MS5FeHRlbmRlchJfCgtHZXRFeHRlbmRlchIsLnNhbHRvLm5lYnVs",
+            "YS5leHRlbmRlci52MS5HZXRFeHRlbmRlclJlcXVlc3QaIi5zYWx0by5uZWJ1",
+            "bGEuZXh0ZW5kZXIudjEuRXh0ZW5kZXIScAoNTGlzdEV4dGVuZGVycxIuLnNh",
+            "bHRvLm5lYnVsYS5leHRlbmRlci52MS5MaXN0RXh0ZW5kZXJzUmVxdWVzdBov",
+            "LnNhbHRvLm5lYnVsYS5leHRlbmRlci52MS5MaXN0RXh0ZW5kZXJzUmVzcG9u",
+            "c2USZQoOVXBkYXRlRXh0ZW5kZXISLy5zYWx0by5uZWJ1bGEuZXh0ZW5kZXIu",
+            "djEuVXBkYXRlRXh0ZW5kZXJSZXF1ZXN0GiIuc2FsdG8ubmVidWxhLmV4dGVu",
+            "ZGVyLnYxLkV4dGVuZGVyElkKDkRlbGV0ZUV4dGVuZGVyEi8uc2FsdG8ubmVi",
+            "dWxhLmV4dGVuZGVyLnYxLkRlbGV0ZUV4dGVuZGVyUmVxdWVzdBoWLmdvb2ds",
+            "ZS5wcm90b2J1Zi5FbXB0eRJyChZVcGRhdGVFeHRlbmRlckZpcm13YXJlEjcu",
             "c2FsdG8ubmVidWxhLmV4dGVuZGVyLnYxLlVwZGF0ZUV4dGVuZGVyRmlybXdh",
             "cmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uQqIB",
             "CiBjb20uc2FsdG9hcGlzLm5lYnVsYS5leHRlbmRlci52MUINRXh0ZW5kZXJQ",
@@ -67,469 +67,22 @@ namespace Saltoapis.Nebula.Extender.V1 {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest), global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest.Parser, new[]{ "Parent", "ExtenderId", "Extender" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest), global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.Extender), global::Saltoapis.Nebula.Extender.V1.Extender.Parser, new[]{ "Name", "DeviceId", "DisplayName", "Gateway", "Extender_" }, new[]{ "ParentDevice" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest), global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest.Parser, new[]{ "Parent", "ExtenderId", "Extender" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest), global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest), global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse), global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse.Parser, new[]{ "Extenders", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareMetadata), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest.Parser, new[]{ "Extender", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest), global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest.Parser, new[]{ "Extender" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareResponse), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest.Parser, new[]{ "Extender", "UpdateMask" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareMetadata), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  /// <summary>
-  /// The request message for [CreateExtender][salto.nebula.extender.v1.ExtenderService.CreateExtender]
-  /// </summary>
-  public sealed partial class CreateExtenderRequest : pb::IMessage<CreateExtenderRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<CreateExtenderRequest> _parser = new pb::MessageParser<CreateExtenderRequest>(() => new CreateExtenderRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<CreateExtenderRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateExtenderRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateExtenderRequest(CreateExtenderRequest other) : this() {
-      parent_ = other.parent_;
-      extenderId_ = other.extenderId_;
-      extender_ = other.extender_ != null ? other.extender_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateExtenderRequest Clone() {
-      return new CreateExtenderRequest(this);
-    }
-
-    /// <summary>Field number for the "parent" field.</summary>
-    public const int ParentFieldNumber = 1;
-    private string parent_ = "";
-    /// <summary>
-    /// Resource name of the parent resource where to create the extender. For
-    /// example, `installations/surelock-homes-hq`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Parent {
-      get { return parent_; }
-      set {
-        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "extender_id" field.</summary>
-    public const int ExtenderIdFieldNumber = 2;
-    private string extenderId_ = "";
-    /// <summary>
-    /// The extender ID to use for this extender. In case it's empty
-    /// the server will autogenerate a unique identifier.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string ExtenderId {
-      get { return extenderId_; }
-      set {
-        extenderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "extender" field.</summary>
-    public const int ExtenderFieldNumber = 3;
-    private global::Saltoapis.Nebula.Extender.V1.Extender extender_;
-    /// <summary>
-    /// The extender resource to be created. Client must not set the
-    /// `Extender.name` field.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Extender.V1.Extender Extender {
-      get { return extender_; }
-      set {
-        extender_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as CreateExtenderRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(CreateExtenderRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Parent != other.Parent) return false;
-      if (ExtenderId != other.ExtenderId) return false;
-      if (!object.Equals(Extender, other.Extender)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (ExtenderId.Length != 0) hash ^= ExtenderId.GetHashCode();
-      if (extender_ != null) hash ^= Extender.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (ExtenderId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(ExtenderId);
-      }
-      if (extender_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Extender);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (ExtenderId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(ExtenderId);
-      }
-      if (extender_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Extender);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Parent.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
-      }
-      if (ExtenderId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ExtenderId);
-      }
-      if (extender_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Extender);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(CreateExtenderRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Parent.Length != 0) {
-        Parent = other.Parent;
-      }
-      if (other.ExtenderId.Length != 0) {
-        ExtenderId = other.ExtenderId;
-      }
-      if (other.extender_ != null) {
-        if (extender_ == null) {
-          Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
-        }
-        Extender.MergeFrom(other.Extender);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            ExtenderId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (extender_ == null) {
-              Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
-            }
-            input.ReadMessage(Extender);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            ExtenderId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (extender_ == null) {
-              Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
-            }
-            input.ReadMessage(Extender);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The response message for [DeleteExtender][salto.nebula.extender.v1.ExtenderService.DeleteExtender]
-  /// </summary>
-  public sealed partial class DeleteExtenderRequest : pb::IMessage<DeleteExtenderRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DeleteExtenderRequest> _parser = new pb::MessageParser<DeleteExtenderRequest>(() => new DeleteExtenderRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DeleteExtenderRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteExtenderRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteExtenderRequest(DeleteExtenderRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteExtenderRequest Clone() {
-      return new DeleteExtenderRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the extender to be deleted. For example:
-    /// `installations/surelock-homes-hq/extenders/elementary`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DeleteExtenderRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DeleteExtenderRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DeleteExtenderRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   /// <summary>
   /// The extender object
   /// </summary>
@@ -545,7 +98,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -899,6 +452,274 @@ namespace Saltoapis.Nebula.Extender.V1 {
   }
 
   /// <summary>
+  /// The request message for [CreateExtender][salto.nebula.extender.v1.ExtenderService.CreateExtender]
+  /// </summary>
+  public sealed partial class CreateExtenderRequest : pb::IMessage<CreateExtenderRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CreateExtenderRequest> _parser = new pb::MessageParser<CreateExtenderRequest>(() => new CreateExtenderRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CreateExtenderRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateExtenderRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateExtenderRequest(CreateExtenderRequest other) : this() {
+      parent_ = other.parent_;
+      extenderId_ = other.extenderId_;
+      extender_ = other.extender_ != null ? other.extender_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateExtenderRequest Clone() {
+      return new CreateExtenderRequest(this);
+    }
+
+    /// <summary>Field number for the "parent" field.</summary>
+    public const int ParentFieldNumber = 1;
+    private string parent_ = "";
+    /// <summary>
+    /// Resource name of the parent resource where to create the extender. For
+    /// example, `installations/surelock-homes-hq`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Parent {
+      get { return parent_; }
+      set {
+        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "extender_id" field.</summary>
+    public const int ExtenderIdFieldNumber = 2;
+    private string extenderId_ = "";
+    /// <summary>
+    /// The extender ID to use for this extender. In case it's empty
+    /// the server will autogenerate a unique identifier.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ExtenderId {
+      get { return extenderId_; }
+      set {
+        extenderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "extender" field.</summary>
+    public const int ExtenderFieldNumber = 3;
+    private global::Saltoapis.Nebula.Extender.V1.Extender extender_;
+    /// <summary>
+    /// The extender resource to be created. Client must not set the
+    /// `Extender.name` field.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.Extender.V1.Extender Extender {
+      get { return extender_; }
+      set {
+        extender_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CreateExtenderRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CreateExtenderRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Parent != other.Parent) return false;
+      if (ExtenderId != other.ExtenderId) return false;
+      if (!object.Equals(Extender, other.Extender)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
+      if (ExtenderId.Length != 0) hash ^= ExtenderId.GetHashCode();
+      if (extender_ != null) hash ^= Extender.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (ExtenderId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ExtenderId);
+      }
+      if (extender_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Extender);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (ExtenderId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ExtenderId);
+      }
+      if (extender_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Extender);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Parent.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
+      }
+      if (ExtenderId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ExtenderId);
+      }
+      if (extender_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Extender);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CreateExtenderRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Parent.Length != 0) {
+        Parent = other.Parent;
+      }
+      if (other.ExtenderId.Length != 0) {
+        ExtenderId = other.ExtenderId;
+      }
+      if (other.extender_ != null) {
+        if (extender_ == null) {
+          Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
+        }
+        Extender.MergeFrom(other.Extender);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            ExtenderId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (extender_ == null) {
+              Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
+            }
+            input.ReadMessage(Extender);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            ExtenderId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (extender_ == null) {
+              Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
+            }
+            input.ReadMessage(Extender);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The request message for [GetExtender][salto.nebula.extender.v1.ExtenderService.GetExtender]
   /// </summary>
   public sealed partial class GetExtenderRequest : pb::IMessage<GetExtenderRequest>
@@ -913,7 +734,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1092,7 +913,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1428,7 +1249,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1623,21 +1444,21 @@ namespace Saltoapis.Nebula.Extender.V1 {
   }
 
   /// <summary>
-  /// The metadata message for [`UpdateExtenderFirmware`][salto.nebula.extender.v1.ExtenderService.UpdateExtenderFirmware]
+  /// The response message for [UpdateExtender][salto.nebula.extender.v1.ExtenderService.UpdateExtender]
   /// </summary>
-  public sealed partial class UpdateExtenderFirmwareMetadata : pb::IMessage<UpdateExtenderFirmwareMetadata>
+  public sealed partial class UpdateExtenderRequest : pb::IMessage<UpdateExtenderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<UpdateExtenderFirmwareMetadata> _parser = new pb::MessageParser<UpdateExtenderFirmwareMetadata>(() => new UpdateExtenderFirmwareMetadata());
+    private static readonly pb::MessageParser<UpdateExtenderRequest> _parser = new pb::MessageParser<UpdateExtenderRequest>(() => new UpdateExtenderRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateExtenderFirmwareMetadata> Parser { get { return _parser; } }
+    public static pb::MessageParser<UpdateExtenderRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1646,58 +1467,75 @@ namespace Saltoapis.Nebula.Extender.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateExtenderFirmwareMetadata() {
+    public UpdateExtenderRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateExtenderFirmwareMetadata(UpdateExtenderFirmwareMetadata other) : this() {
-      progressPercent_ = other.progressPercent_;
+    public UpdateExtenderRequest(UpdateExtenderRequest other) : this() {
+      extender_ = other.extender_ != null ? other.extender_.Clone() : null;
+      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateExtenderFirmwareMetadata Clone() {
-      return new UpdateExtenderFirmwareMetadata(this);
+    public UpdateExtenderRequest Clone() {
+      return new UpdateExtenderRequest(this);
     }
 
-    /// <summary>Field number for the "progress_percent" field.</summary>
-    public const int ProgressPercentFieldNumber = 1;
-    private int progressPercent_;
+    /// <summary>Field number for the "extender" field.</summary>
+    public const int ExtenderFieldNumber = 1;
+    private global::Saltoapis.Nebula.Extender.V1.Extender extender_;
     /// <summary>
-    /// Progress of operation. Range: [0, 100].
+    /// The extender resource which replaces the resource on the server.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int ProgressPercent {
-      get { return progressPercent_; }
+    public global::Saltoapis.Nebula.Extender.V1.Extender Extender {
+      get { return extender_; }
       set {
-        progressPercent_ = value;
+        extender_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "update_mask" field.</summary>
+    public const int UpdateMaskFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// The update mask applied to the resource.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
+      get { return updateMask_; }
+      set {
+        updateMask_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as UpdateExtenderFirmwareMetadata);
+      return Equals(other as UpdateExtenderRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateExtenderFirmwareMetadata other) {
+    public bool Equals(UpdateExtenderRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (ProgressPercent != other.ProgressPercent) return false;
+      if (!object.Equals(Extender, other.Extender)) return false;
+      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (ProgressPercent != 0) hash ^= ProgressPercent.GetHashCode();
+      if (extender_ != null) hash ^= Extender.GetHashCode();
+      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1714,9 +1552,13 @@ namespace Saltoapis.Nebula.Extender.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (ProgressPercent != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(ProgressPercent);
+      if (extender_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Extender);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(UpdateMask);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1727,9 +1569,13 @@ namespace Saltoapis.Nebula.Extender.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ProgressPercent != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(ProgressPercent);
+      if (extender_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Extender);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(UpdateMask);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1740,8 +1586,11 @@ namespace Saltoapis.Nebula.Extender.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (ProgressPercent != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProgressPercent);
+      if (extender_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Extender);
+      }
+      if (updateMask_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1750,12 +1599,21 @@ namespace Saltoapis.Nebula.Extender.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateExtenderFirmwareMetadata other) {
+    public void MergeFrom(UpdateExtenderRequest other) {
       if (other == null) {
         return;
       }
-      if (other.ProgressPercent != 0) {
-        ProgressPercent = other.ProgressPercent;
+      if (other.extender_ != null) {
+        if (extender_ == null) {
+          Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
+        }
+        Extender.MergeFrom(other.Extender);
+      }
+      if (other.updateMask_ != null) {
+        if (updateMask_ == null) {
+          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+        }
+        UpdateMask.MergeFrom(other.UpdateMask);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1771,8 +1629,18 @@ namespace Saltoapis.Nebula.Extender.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            ProgressPercent = input.ReadInt32();
+          case 10: {
+            if (extender_ == null) {
+              Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
+            }
+            input.ReadMessage(Extender);
+            break;
+          }
+          case 18: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
             break;
           }
         }
@@ -1789,8 +1657,197 @@ namespace Saltoapis.Nebula.Extender.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 8: {
-            ProgressPercent = input.ReadInt32();
+          case 10: {
+            if (extender_ == null) {
+              Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
+            }
+            input.ReadMessage(Extender);
+            break;
+          }
+          case 18: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [DeleteExtender][salto.nebula.extender.v1.ExtenderService.DeleteExtender]
+  /// </summary>
+  public sealed partial class DeleteExtenderRequest : pb::IMessage<DeleteExtenderRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DeleteExtenderRequest> _parser = new pb::MessageParser<DeleteExtenderRequest>(() => new DeleteExtenderRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteExtenderRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Extender.V1.ExtenderReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteExtenderRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteExtenderRequest(DeleteExtenderRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteExtenderRequest Clone() {
+      return new DeleteExtenderRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The resource name of the extender to be deleted. For example:
+    /// `installations/surelock-homes-hq/extenders/elementary`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteExtenderRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteExtenderRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteExtenderRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
             break;
           }
         }
@@ -2120,17 +2177,17 @@ namespace Saltoapis.Nebula.Extender.V1 {
   }
 
   /// <summary>
-  /// The response message for [UpdateExtender][salto.nebula.extender.v1.ExtenderService.UpdateExtender]
+  /// The metadata message for [`UpdateExtenderFirmware`][salto.nebula.extender.v1.ExtenderService.UpdateExtenderFirmware]
   /// </summary>
-  public sealed partial class UpdateExtenderRequest : pb::IMessage<UpdateExtenderRequest>
+  public sealed partial class UpdateExtenderFirmwareMetadata : pb::IMessage<UpdateExtenderFirmwareMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<UpdateExtenderRequest> _parser = new pb::MessageParser<UpdateExtenderRequest>(() => new UpdateExtenderRequest());
+    private static readonly pb::MessageParser<UpdateExtenderFirmwareMetadata> _parser = new pb::MessageParser<UpdateExtenderFirmwareMetadata>(() => new UpdateExtenderFirmwareMetadata());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateExtenderRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<UpdateExtenderFirmwareMetadata> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -2143,75 +2200,58 @@ namespace Saltoapis.Nebula.Extender.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateExtenderRequest() {
+    public UpdateExtenderFirmwareMetadata() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateExtenderRequest(UpdateExtenderRequest other) : this() {
-      extender_ = other.extender_ != null ? other.extender_.Clone() : null;
-      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
+    public UpdateExtenderFirmwareMetadata(UpdateExtenderFirmwareMetadata other) : this() {
+      progressPercent_ = other.progressPercent_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateExtenderRequest Clone() {
-      return new UpdateExtenderRequest(this);
+    public UpdateExtenderFirmwareMetadata Clone() {
+      return new UpdateExtenderFirmwareMetadata(this);
     }
 
-    /// <summary>Field number for the "extender" field.</summary>
-    public const int ExtenderFieldNumber = 1;
-    private global::Saltoapis.Nebula.Extender.V1.Extender extender_;
+    /// <summary>Field number for the "progress_percent" field.</summary>
+    public const int ProgressPercentFieldNumber = 1;
+    private int progressPercent_;
     /// <summary>
-    /// The extender resource which replaces the resource on the server.
+    /// Progress of operation. Range: [0, 100].
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Extender.V1.Extender Extender {
-      get { return extender_; }
+    public int ProgressPercent {
+      get { return progressPercent_; }
       set {
-        extender_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "update_mask" field.</summary>
-    public const int UpdateMaskFieldNumber = 2;
-    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
-    /// <summary>
-    /// The update mask applied to the resource.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
-      get { return updateMask_; }
-      set {
-        updateMask_ = value;
+        progressPercent_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as UpdateExtenderRequest);
+      return Equals(other as UpdateExtenderFirmwareMetadata);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateExtenderRequest other) {
+    public bool Equals(UpdateExtenderFirmwareMetadata other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Extender, other.Extender)) return false;
-      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
+      if (ProgressPercent != other.ProgressPercent) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (extender_ != null) hash ^= Extender.GetHashCode();
-      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
+      if (ProgressPercent != 0) hash ^= ProgressPercent.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2228,13 +2268,9 @@ namespace Saltoapis.Nebula.Extender.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (extender_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Extender);
-      }
-      if (updateMask_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(UpdateMask);
+      if (ProgressPercent != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProgressPercent);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2245,13 +2281,9 @@ namespace Saltoapis.Nebula.Extender.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (extender_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Extender);
-      }
-      if (updateMask_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(UpdateMask);
+      if (ProgressPercent != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProgressPercent);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -2262,11 +2294,8 @@ namespace Saltoapis.Nebula.Extender.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (extender_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Extender);
-      }
-      if (updateMask_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
+      if (ProgressPercent != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProgressPercent);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2275,21 +2304,12 @@ namespace Saltoapis.Nebula.Extender.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateExtenderRequest other) {
+    public void MergeFrom(UpdateExtenderFirmwareMetadata other) {
       if (other == null) {
         return;
       }
-      if (other.extender_ != null) {
-        if (extender_ == null) {
-          Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
-        }
-        Extender.MergeFrom(other.Extender);
-      }
-      if (other.updateMask_ != null) {
-        if (updateMask_ == null) {
-          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-        }
-        UpdateMask.MergeFrom(other.UpdateMask);
+      if (other.ProgressPercent != 0) {
+        ProgressPercent = other.ProgressPercent;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2305,18 +2325,8 @@ namespace Saltoapis.Nebula.Extender.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            if (extender_ == null) {
-              Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
-            }
-            input.ReadMessage(Extender);
-            break;
-          }
-          case 18: {
-            if (updateMask_ == null) {
-              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-            }
-            input.ReadMessage(UpdateMask);
+          case 8: {
+            ProgressPercent = input.ReadInt32();
             break;
           }
         }
@@ -2333,18 +2343,8 @@ namespace Saltoapis.Nebula.Extender.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            if (extender_ == null) {
-              Extender = new global::Saltoapis.Nebula.Extender.V1.Extender();
-            }
-            input.ReadMessage(Extender);
-            break;
-          }
-          case 18: {
-            if (updateMask_ == null) {
-              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-            }
-            input.ReadMessage(UpdateMask);
+          case 8: {
+            ProgressPercent = input.ReadInt32();
             break;
           }
         }

@@ -28,66 +28,66 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             "by5uZWJ1bGEuZ2F0ZXdheS52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnBy",
             "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxoeZ29vZ2xl",
             "L3Byb3RvYnVmL3dyYXBwZXJzLnByb3RvGiRzYWx0by9sb25ncnVubmluZy92",
-            "MS9vcGVyYXRpb24ucHJvdG8iGgoYQ29uZmlndXJlR2F0ZXdheU1ldGFkYXRh",
-            "IicKF0NvbmZpZ3VyZUdhdGV3YXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiGgoY",
-            "Q29uZmlndXJlR2F0ZXdheVJlc3BvbnNlIm0KFENyZWF0ZUdhdGV3YXlSZXF1",
-            "ZXN0Eg4KBnBhcmVudBgBIAEoCRISCgpnYXRld2F5X2lkGAIgASgJEjEKB2dh",
-            "dGV3YXkYAyABKAsyIC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5HYXRld2F5",
-            "IiQKC0ROU1NldHRpbmdzEhUKDWRuc19hZGRyZXNzZXMYASADKAkiJAoURGVs",
-            "ZXRlR2F0ZXdheVJlcXVlc3QSDAoEbmFtZRgBIAEoCSKMAQoQRXRoZXJuZXRT",
-            "ZXR0aW5ncxI8Cg1pcHY0X3NldHRpbmdzGAEgASgLMiUuc2FsdG8ubmVidWxh",
-            "LmdhdGV3YXkudjEuSVB2NFNldHRpbmdzEjoKDGRuc19zZXR0aW5ncxgCIAEo",
-            "CzIkLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkROU1NldHRpbmdzIvkCCgdH",
-            "YXRld2F5EgwKBG5hbWUYASABKAkSEQoJZGV2aWNlX2lkGAIgASgJEhQKDGRp",
-            "c3BsYXlfbmFtZRgDIAEoCRJSChRpbml0aWFsaXphdGlvbl9zdGF0ZRgEIAEo",
-            "DjI0LnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdhdGV3YXkuSW5pdGlhbGl6",
-            "YXRpb25TdGF0ZRJEChFldGhlcm5ldF9zZXR0aW5ncxgFIAEoCzIpLnNhbHRv",
-            "Lm5lYnVsYS5nYXRld2F5LnYxLkV0aGVybmV0U2V0dGluZ3MSPAoNd2lmaV9z",
-            "ZXR0aW5ncxgGIAEoCzIlLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLldpZmlT",
-            "ZXR0aW5ncyJfChNJbml0aWFsaXphdGlvblN0YXRlEiQKIElOSVRJQUxJWkFU",
-            "SU9OX1NUQVRFX1VOU1BFQ0lGSUVEEAASEQoNVU5JTklUSUFMSVpFRBABEg8K",
-            "C0lOSVRJQUxJWkVEEAIiIQoRR2V0R2F0ZXdheVJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCSKiAQoMSVB2NFNldHRpbmdzEjAKCmlwX2FkZHJlc3MYASABKAsyHC5n",
-            "b29nbGUucHJvdG9idWYuU3RyaW5nVmFsdWUSKgoEbWFzaxgCIAEoCzIcLmdv",
-            "b2dsZS5wcm90b2J1Zi5TdHJpbmdWYWx1ZRI0Cg5yb3V0ZXJfYWRkcmVzcxgD",
-            "IAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5TdHJpbmdWYWx1ZSIbChlJbml0aWFs",
-            "aXplR2F0ZXdheU1ldGFkYXRhIigKGEluaXRpYWxpemVHYXRld2F5UmVxdWVz",
-            "dBIMCgRuYW1lGAEgASgJIhsKGUluaXRpYWxpemVHYXRld2F5UmVzcG9uc2Ui",
-            "bgoTTGlzdEdhdGV3YXlzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFn",
-            "ZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQg",
-            "ASgJEhAKCG9yZGVyX2J5GAUgASgJImMKFExpc3RHYXRld2F5c1Jlc3BvbnNl",
-            "EjIKCGdhdGV3YXlzGAEgAygLMiAuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEu",
-            "R2F0ZXdheRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiFgoUUmVzZXRHYXRl",
-            "d2F5TWV0YWRhdGEiIwoTUmVzZXRHYXRld2F5UmVxdWVzdBIMCgRuYW1lGAEg",
-            "ASgJIhYKFFJlc2V0R2F0ZXdheVJlc3BvbnNlIjkKHVVwZGF0ZUdhdGV3YXlG",
-            "aXJtd2FyZU1ldGFkYXRhEhgKEHByb2dyZXNzX3BlcmNlbnQYASABKAUiLwoc",
-            "VXBkYXRlR2F0ZXdheUZpcm13YXJlUmVxdWVzdBIPCgdnYXRld2F5GAEgASgJ",
-            "Ih8KHVVwZGF0ZUdhdGV3YXlGaXJtd2FyZVJlc3BvbnNlInoKFFVwZGF0ZUdh",
-            "dGV3YXlSZXF1ZXN0EjEKB2dhdGV3YXkYASABKAsyIC5zYWx0by5uZWJ1bGEu",
-            "Z2F0ZXdheS52MS5HYXRld2F5Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLkZpZWxkTWFzayLGAQoMV2lmaVNldHRpbmdzEjwKDWlw",
-            "djRfc2V0dGluZ3MYASABKAsyJS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5J",
-            "UHY0U2V0dGluZ3MSOgoMZG5zX3NldHRpbmdzGAIgASgLMiQuc2FsdG8ubmVi",
-            "dWxhLmdhdGV3YXkudjEuRE5TU2V0dGluZ3MSDAoEc3NpZBgDIAEoCRIuCghw",
-            "YXNzd29yZBgEIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5TdHJpbmdWYWx1ZTKV",
-            "BwoOR2F0ZXdheVNlcnZpY2USZQoQQ29uZmlndXJlR2F0ZXdheRIwLnNhbHRv",
-            "Lm5lYnVsYS5nYXRld2F5LnYxLkNvbmZpZ3VyZUdhdGV3YXlSZXF1ZXN0Gh8u",
-            "c2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEmAKDUNyZWF0ZUdhdGV3",
-            "YXkSLS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5DcmVhdGVHYXRld2F5UmVx",
-            "dWVzdBogLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdhdGV3YXkSVgoNRGVs",
-            "ZXRlR2F0ZXdheRItLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkRlbGV0ZUdh",
-            "dGV3YXlSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EloKCkdldEdh",
-            "dGV3YXkSKi5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5HZXRHYXRld2F5UmVx",
-            "dWVzdBogLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdhdGV3YXkSZwoRSW5p",
-            "dGlhbGl6ZUdhdGV3YXkSMS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5Jbml0",
-            "aWFsaXplR2F0ZXdheVJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5P",
-            "cGVyYXRpb24SawoMTGlzdEdhdGV3YXlzEiwuc2FsdG8ubmVidWxhLmdhdGV3",
-            "YXkudjEuTGlzdEdhdGV3YXlzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5nYXRl",
-            "d2F5LnYxLkxpc3RHYXRld2F5c1Jlc3BvbnNlEl0KDFJlc2V0R2F0ZXdheRIs",
-            "LnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLlJlc2V0R2F0ZXdheVJlcXVlc3Qa",
-            "Hy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SYAoNVXBkYXRlR2F0",
-            "ZXdheRItLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLlVwZGF0ZUdhdGV3YXlS",
-            "ZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuR2F0ZXdheRJvChVV",
+            "MS9vcGVyYXRpb24ucHJvdG8i+QIKB0dhdGV3YXkSDAoEbmFtZRgBIAEoCRIR",
+            "CglkZXZpY2VfaWQYAiABKAkSFAoMZGlzcGxheV9uYW1lGAMgASgJElIKFGlu",
+            "aXRpYWxpemF0aW9uX3N0YXRlGAQgASgOMjQuc2FsdG8ubmVidWxhLmdhdGV3",
+            "YXkudjEuR2F0ZXdheS5Jbml0aWFsaXphdGlvblN0YXRlEkQKEWV0aGVybmV0",
+            "X3NldHRpbmdzGAUgASgLMikuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuRXRo",
+            "ZXJuZXRTZXR0aW5ncxI8Cg13aWZpX3NldHRpbmdzGAYgASgLMiUuc2FsdG8u",
+            "bmVidWxhLmdhdGV3YXkudjEuV2lmaVNldHRpbmdzIl8KE0luaXRpYWxpemF0",
+            "aW9uU3RhdGUSJAogSU5JVElBTElaQVRJT05fU1RBVEVfVU5TUEVDSUZJRUQQ",
+            "ABIRCg1VTklOSVRJQUxJWkVEEAESDwoLSU5JVElBTElaRUQQAiKMAQoQRXRo",
+            "ZXJuZXRTZXR0aW5ncxI8Cg1pcHY0X3NldHRpbmdzGAEgASgLMiUuc2FsdG8u",
+            "bmVidWxhLmdhdGV3YXkudjEuSVB2NFNldHRpbmdzEjoKDGRuc19zZXR0aW5n",
+            "cxgCIAEoCzIkLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkROU1NldHRpbmdz",
+            "IsYBCgxXaWZpU2V0dGluZ3MSPAoNaXB2NF9zZXR0aW5ncxgBIAEoCzIlLnNh",
+            "bHRvLm5lYnVsYS5nYXRld2F5LnYxLklQdjRTZXR0aW5ncxI6CgxkbnNfc2V0",
+            "dGluZ3MYAiABKAsyJC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5ETlNTZXR0",
+            "aW5ncxIMCgRzc2lkGAMgASgJEi4KCHBhc3N3b3JkGAQgASgLMhwuZ29vZ2xl",
+            "LnByb3RvYnVmLlN0cmluZ1ZhbHVlIqIBCgxJUHY0U2V0dGluZ3MSMAoKaXBf",
+            "YWRkcmVzcxgBIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5TdHJpbmdWYWx1ZRIq",
+            "CgRtYXNrGAIgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlN0cmluZ1ZhbHVlEjQK",
+            "DnJvdXRlcl9hZGRyZXNzGAMgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlN0cmlu",
+            "Z1ZhbHVlIiQKC0ROU1NldHRpbmdzEhUKDWRuc19hZGRyZXNzZXMYASADKAki",
+            "bQoUQ3JlYXRlR2F0ZXdheVJlcXVlc3QSDgoGcGFyZW50GAEgASgJEhIKCmdh",
+            "dGV3YXlfaWQYAiABKAkSMQoHZ2F0ZXdheRgDIAEoCzIgLnNhbHRvLm5lYnVs",
+            "YS5nYXRld2F5LnYxLkdhdGV3YXkiIQoRR2V0R2F0ZXdheVJlcXVlc3QSDAoE",
+            "bmFtZRgBIAEoCSJuChNMaXN0R2F0ZXdheXNSZXF1ZXN0Eg4KBnBhcmVudBgB",
+            "IAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIO",
+            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiYwoUTGlzdEdhdGV3",
+            "YXlzUmVzcG9uc2USMgoIZ2F0ZXdheXMYASADKAsyIC5zYWx0by5uZWJ1bGEu",
+            "Z2F0ZXdheS52MS5HYXRld2F5EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJ6",
+            "ChRVcGRhdGVHYXRld2F5UmVxdWVzdBIxCgdnYXRld2F5GAEgASgLMiAuc2Fs",
+            "dG8ubmVidWxhLmdhdGV3YXkudjEuR2F0ZXdheRIvCgt1cGRhdGVfbWFzaxgC",
+            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siJAoURGVsZXRlR2F0",
+            "ZXdheVJlcXVlc3QSDAoEbmFtZRgBIAEoCSIoChhJbml0aWFsaXplR2F0ZXdh",
+            "eVJlcXVlc3QSDAoEbmFtZRgBIAEoCSIbChlJbml0aWFsaXplR2F0ZXdheVJl",
+            "c3BvbnNlIhsKGUluaXRpYWxpemVHYXRld2F5TWV0YWRhdGEiJwoXQ29uZmln",
+            "dXJlR2F0ZXdheVJlcXVlc3QSDAoEbmFtZRgBIAEoCSIaChhDb25maWd1cmVH",
+            "YXRld2F5UmVzcG9uc2UiGgoYQ29uZmlndXJlR2F0ZXdheU1ldGFkYXRhIiMK",
+            "E1Jlc2V0R2F0ZXdheVJlcXVlc3QSDAoEbmFtZRgBIAEoCSIWChRSZXNldEdh",
+            "dGV3YXlSZXNwb25zZSIWChRSZXNldEdhdGV3YXlNZXRhZGF0YSIvChxVcGRh",
+            "dGVHYXRld2F5RmlybXdhcmVSZXF1ZXN0Eg8KB2dhdGV3YXkYASABKAkiHwod",
+            "VXBkYXRlR2F0ZXdheUZpcm13YXJlUmVzcG9uc2UiOQodVXBkYXRlR2F0ZXdh",
+            "eUZpcm13YXJlTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBTKV",
+            "BwoOR2F0ZXdheVNlcnZpY2USYAoNQ3JlYXRlR2F0ZXdheRItLnNhbHRvLm5l",
+            "YnVsYS5nYXRld2F5LnYxLkNyZWF0ZUdhdGV3YXlSZXF1ZXN0GiAuc2FsdG8u",
+            "bmVidWxhLmdhdGV3YXkudjEuR2F0ZXdheRJaCgpHZXRHYXRld2F5Eiouc2Fs",
+            "dG8ubmVidWxhLmdhdGV3YXkudjEuR2V0R2F0ZXdheVJlcXVlc3QaIC5zYWx0",
+            "by5uZWJ1bGEuZ2F0ZXdheS52MS5HYXRld2F5EmsKDExpc3RHYXRld2F5cxIs",
+            "LnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkxpc3RHYXRld2F5c1JlcXVlc3Qa",
+            "LS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5MaXN0R2F0ZXdheXNSZXNwb25z",
+            "ZRJgCg1VcGRhdGVHYXRld2F5Ei0uc2FsdG8ubmVidWxhLmdhdGV3YXkudjEu",
+            "VXBkYXRlR2F0ZXdheVJlcXVlc3QaIC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52",
+            "MS5HYXRld2F5ElYKDURlbGV0ZUdhdGV3YXkSLS5zYWx0by5uZWJ1bGEuZ2F0",
+            "ZXdheS52MS5EZWxldGVHYXRld2F5UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1",
+            "Zi5FbXB0eRJnChFJbml0aWFsaXplR2F0ZXdheRIxLnNhbHRvLm5lYnVsYS5n",
+            "YXRld2F5LnYxLkluaXRpYWxpemVHYXRld2F5UmVxdWVzdBofLnNhbHRvLmxv",
+            "bmdydW5uaW5nLnYxLk9wZXJhdGlvbhJlChBDb25maWd1cmVHYXRld2F5EjAu",
+            "c2FsdG8ubmVidWxhLmdhdGV3YXkudjEuQ29uZmlndXJlR2F0ZXdheVJlcXVl",
+            "c3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SXQoMUmVzZXRH",
+            "YXRld2F5Eiwuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuUmVzZXRHYXRld2F5",
+            "UmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJvChVV",
             "cGRhdGVHYXRld2F5RmlybXdhcmUSNS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52",
             "MS5VcGRhdGVHYXRld2F5RmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1",
             "bm5pbmcudjEuT3BlcmF0aW9uQp0BCh9jb20uc2FsdG9hcGlzLm5lYnVsYS5n",
@@ -98,1345 +98,35 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayMetadata), global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayMetadata.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayResponse), global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest.Parser, new[]{ "Parent", "GatewayId", "Gateway" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.DNSSettings), global::Saltoapis.Nebula.Gateway.V1.DNSSettings.Parser, new[]{ "DnsAddresses" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.EthernetSettings), global::Saltoapis.Nebula.Gateway.V1.EthernetSettings.Parser, new[]{ "Ipv4Settings", "DnsSettings" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.Gateway), global::Saltoapis.Nebula.Gateway.V1.Gateway.Parser, new[]{ "Name", "DeviceId", "DisplayName", "InitializationState", "EthernetSettings", "WifiSettings" }, null, new[]{ typeof(global::Saltoapis.Nebula.Gateway.V1.Gateway.Types.InitializationState) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.EthernetSettings), global::Saltoapis.Nebula.Gateway.V1.EthernetSettings.Parser, new[]{ "Ipv4Settings", "DnsSettings" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.WifiSettings), global::Saltoapis.Nebula.Gateway.V1.WifiSettings.Parser, new[]{ "Ipv4Settings", "DnsSettings", "Ssid", "Password" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.IPv4Settings), global::Saltoapis.Nebula.Gateway.V1.IPv4Settings.Parser, new[]{ "IpAddress", "Mask", "RouterAddress" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayMetadata), global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayMetadata.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayResponse), global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.DNSSettings), global::Saltoapis.Nebula.Gateway.V1.DNSSettings.Parser, new[]{ "DnsAddresses" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest.Parser, new[]{ "Parent", "GatewayId", "Gateway" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest), global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse), global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse.Parser, new[]{ "Gateways", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayMetadata), global::Saltoapis.Nebula.Gateway.V1.ResetGatewayMetadata.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest.Parser, new[]{ "Gateway", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayResponse), global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayMetadata), global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayMetadata.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayResponse), global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayMetadata), global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayMetadata.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayResponse), global::Saltoapis.Nebula.Gateway.V1.ResetGatewayResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareMetadata), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayMetadata), global::Saltoapis.Nebula.Gateway.V1.ResetGatewayMetadata.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest.Parser, new[]{ "Gateway" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareResponse), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest.Parser, new[]{ "Gateway", "UpdateMask" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.WifiSettings), global::Saltoapis.Nebula.Gateway.V1.WifiSettings.Parser, new[]{ "Ipv4Settings", "DnsSettings", "Ssid", "Password" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareMetadata), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  /// <summary>
-  /// The metadata message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
-  /// </summary>
-  public sealed partial class ConfigureGatewayMetadata : pb::IMessage<ConfigureGatewayMetadata>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ConfigureGatewayMetadata> _parser = new pb::MessageParser<ConfigureGatewayMetadata>(() => new ConfigureGatewayMetadata());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConfigureGatewayMetadata> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayMetadata() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayMetadata(ConfigureGatewayMetadata other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayMetadata Clone() {
-      return new ConfigureGatewayMetadata(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConfigureGatewayMetadata);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConfigureGatewayMetadata other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConfigureGatewayMetadata other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
-  /// </summary>
-  public sealed partial class ConfigureGatewayRequest : pb::IMessage<ConfigureGatewayRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ConfigureGatewayRequest> _parser = new pb::MessageParser<ConfigureGatewayRequest>(() => new ConfigureGatewayRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConfigureGatewayRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayRequest(ConfigureGatewayRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayRequest Clone() {
-      return new ConfigureGatewayRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the gateway to be configured. For example:
-    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConfigureGatewayRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConfigureGatewayRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConfigureGatewayRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The empty response message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
-  /// </summary>
-  public sealed partial class ConfigureGatewayResponse : pb::IMessage<ConfigureGatewayResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ConfigureGatewayResponse> _parser = new pb::MessageParser<ConfigureGatewayResponse>(() => new ConfigureGatewayResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConfigureGatewayResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayResponse(ConfigureGatewayResponse other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConfigureGatewayResponse Clone() {
-      return new ConfigureGatewayResponse(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConfigureGatewayResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConfigureGatewayResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConfigureGatewayResponse other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [CreateGateway][salto.nebula.gateway.v1.GatewayService.CreateGateway]
-  /// </summary>
-  public sealed partial class CreateGatewayRequest : pb::IMessage<CreateGatewayRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<CreateGatewayRequest> _parser = new pb::MessageParser<CreateGatewayRequest>(() => new CreateGatewayRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<CreateGatewayRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateGatewayRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateGatewayRequest(CreateGatewayRequest other) : this() {
-      parent_ = other.parent_;
-      gatewayId_ = other.gatewayId_;
-      gateway_ = other.gateway_ != null ? other.gateway_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateGatewayRequest Clone() {
-      return new CreateGatewayRequest(this);
-    }
-
-    /// <summary>Field number for the "parent" field.</summary>
-    public const int ParentFieldNumber = 1;
-    private string parent_ = "";
-    /// <summary>
-    /// Resource name of the parent resource where to create the gateway. For
-    /// example, `installations/surelock-homes-hq`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Parent {
-      get { return parent_; }
-      set {
-        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "gateway_id" field.</summary>
-    public const int GatewayIdFieldNumber = 2;
-    private string gatewayId_ = "";
-    /// <summary>
-    /// The gateway ID to use for this gateway. In case it's empty the
-    /// server will autogenerate a unique identifier.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string GatewayId {
-      get { return gatewayId_; }
-      set {
-        gatewayId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "gateway" field.</summary>
-    public const int GatewayFieldNumber = 3;
-    private global::Saltoapis.Nebula.Gateway.V1.Gateway gateway_;
-    /// <summary>
-    /// The gateway resource to be created. Client must not set the
-    /// `Gateway.name` field.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Gateway.V1.Gateway Gateway {
-      get { return gateway_; }
-      set {
-        gateway_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as CreateGatewayRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(CreateGatewayRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Parent != other.Parent) return false;
-      if (GatewayId != other.GatewayId) return false;
-      if (!object.Equals(Gateway, other.Gateway)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (GatewayId.Length != 0) hash ^= GatewayId.GetHashCode();
-      if (gateway_ != null) hash ^= Gateway.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (GatewayId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(GatewayId);
-      }
-      if (gateway_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Gateway);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (GatewayId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(GatewayId);
-      }
-      if (gateway_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Gateway);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Parent.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
-      }
-      if (GatewayId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(GatewayId);
-      }
-      if (gateway_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Gateway);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(CreateGatewayRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Parent.Length != 0) {
-        Parent = other.Parent;
-      }
-      if (other.GatewayId.Length != 0) {
-        GatewayId = other.GatewayId;
-      }
-      if (other.gateway_ != null) {
-        if (gateway_ == null) {
-          Gateway = new global::Saltoapis.Nebula.Gateway.V1.Gateway();
-        }
-        Gateway.MergeFrom(other.Gateway);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            GatewayId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (gateway_ == null) {
-              Gateway = new global::Saltoapis.Nebula.Gateway.V1.Gateway();
-            }
-            input.ReadMessage(Gateway);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            GatewayId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (gateway_ == null) {
-              Gateway = new global::Saltoapis.Nebula.Gateway.V1.Gateway();
-            }
-            input.ReadMessage(Gateway);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// DNS settings
-  /// </summary>
-  public sealed partial class DNSSettings : pb::IMessage<DNSSettings>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DNSSettings> _parser = new pb::MessageParser<DNSSettings>(() => new DNSSettings());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DNSSettings> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DNSSettings() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DNSSettings(DNSSettings other) : this() {
-      dnsAddresses_ = other.dnsAddresses_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DNSSettings Clone() {
-      return new DNSSettings(this);
-    }
-
-    /// <summary>Field number for the "dns_addresses" field.</summary>
-    public const int DnsAddressesFieldNumber = 1;
-    private static readonly pb::FieldCodec<string> _repeated_dnsAddresses_codec
-        = pb::FieldCodec.ForString(10);
-    private readonly pbc::RepeatedField<string> dnsAddresses_ = new pbc::RepeatedField<string>();
-    /// <summary>
-    /// DNS server IP addresses. The order of the elements in this list will mark
-    /// priorities. For example: the first element will be primary DNS and the
-    /// second element will be secondary DNS.
-    ///
-    /// If empty, an automatic DNS address given by the network will be used.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> DnsAddresses {
-      get { return dnsAddresses_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DNSSettings);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DNSSettings other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!dnsAddresses_.Equals(other.dnsAddresses_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= dnsAddresses_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      dnsAddresses_.WriteTo(output, _repeated_dnsAddresses_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      dnsAddresses_.WriteTo(ref output, _repeated_dnsAddresses_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      size += dnsAddresses_.CalculateSize(_repeated_dnsAddresses_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DNSSettings other) {
-      if (other == null) {
-        return;
-      }
-      dnsAddresses_.Add(other.dnsAddresses_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            dnsAddresses_.AddEntriesFrom(input, _repeated_dnsAddresses_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            dnsAddresses_.AddEntriesFrom(ref input, _repeated_dnsAddresses_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [DeleteGateway][salto.nebula.gateway.v1.GatewayService.DeleteGateway]
-  /// </summary>
-  public sealed partial class DeleteGatewayRequest : pb::IMessage<DeleteGatewayRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DeleteGatewayRequest> _parser = new pb::MessageParser<DeleteGatewayRequest>(() => new DeleteGatewayRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DeleteGatewayRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteGatewayRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteGatewayRequest(DeleteGatewayRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteGatewayRequest Clone() {
-      return new DeleteGatewayRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the gateway to be deleted. For example:
-    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DeleteGatewayRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DeleteGatewayRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DeleteGatewayRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// Ethernet network settings
-  /// </summary>
-  public sealed partial class EthernetSettings : pb::IMessage<EthernetSettings>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<EthernetSettings> _parser = new pb::MessageParser<EthernetSettings>(() => new EthernetSettings());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<EthernetSettings> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[6]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EthernetSettings() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EthernetSettings(EthernetSettings other) : this() {
-      ipv4Settings_ = other.ipv4Settings_ != null ? other.ipv4Settings_.Clone() : null;
-      dnsSettings_ = other.dnsSettings_ != null ? other.dnsSettings_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EthernetSettings Clone() {
-      return new EthernetSettings(this);
-    }
-
-    /// <summary>Field number for the "ipv4_settings" field.</summary>
-    public const int Ipv4SettingsFieldNumber = 1;
-    private global::Saltoapis.Nebula.Gateway.V1.IPv4Settings ipv4Settings_;
-    /// <summary>
-    /// IPv4 (Internet Protocol version 4) settings of an ethernet network.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Gateway.V1.IPv4Settings Ipv4Settings {
-      get { return ipv4Settings_; }
-      set {
-        ipv4Settings_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "dns_settings" field.</summary>
-    public const int DnsSettingsFieldNumber = 2;
-    private global::Saltoapis.Nebula.Gateway.V1.DNSSettings dnsSettings_;
-    /// <summary>
-    /// DNS settings of an ethernet network.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Gateway.V1.DNSSettings DnsSettings {
-      get { return dnsSettings_; }
-      set {
-        dnsSettings_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as EthernetSettings);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(EthernetSettings other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Ipv4Settings, other.Ipv4Settings)) return false;
-      if (!object.Equals(DnsSettings, other.DnsSettings)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (ipv4Settings_ != null) hash ^= Ipv4Settings.GetHashCode();
-      if (dnsSettings_ != null) hash ^= DnsSettings.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (ipv4Settings_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Ipv4Settings);
-      }
-      if (dnsSettings_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(DnsSettings);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ipv4Settings_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Ipv4Settings);
-      }
-      if (dnsSettings_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(DnsSettings);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (ipv4Settings_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Ipv4Settings);
-      }
-      if (dnsSettings_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DnsSettings);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(EthernetSettings other) {
-      if (other == null) {
-        return;
-      }
-      if (other.ipv4Settings_ != null) {
-        if (ipv4Settings_ == null) {
-          Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
-        }
-        Ipv4Settings.MergeFrom(other.Ipv4Settings);
-      }
-      if (other.dnsSettings_ != null) {
-        if (dnsSettings_ == null) {
-          DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
-        }
-        DnsSettings.MergeFrom(other.DnsSettings);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (ipv4Settings_ == null) {
-              Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
-            }
-            input.ReadMessage(Ipv4Settings);
-            break;
-          }
-          case 18: {
-            if (dnsSettings_ == null) {
-              DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
-            }
-            input.ReadMessage(DnsSettings);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (ipv4Settings_ == null) {
-              Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
-            }
-            input.ReadMessage(Ipv4Settings);
-            break;
-          }
-          case 18: {
-            if (dnsSettings_ == null) {
-              DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
-            }
-            input.ReadMessage(DnsSettings);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   /// <summary>
   /// The gateway object
   /// </summary>
@@ -1452,7 +142,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1866,21 +556,21 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   }
 
   /// <summary>
-  /// The request message for [GetGateway][salto.nebula.gateway.v1.GatewayService.GetGateway]
+  /// Ethernet network settings
   /// </summary>
-  public sealed partial class GetGatewayRequest : pb::IMessage<GetGatewayRequest>
+  public sealed partial class EthernetSettings : pb::IMessage<EthernetSettings>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetGatewayRequest> _parser = new pb::MessageParser<GetGatewayRequest>(() => new GetGatewayRequest());
+    private static readonly pb::MessageParser<EthernetSettings> _parser = new pb::MessageParser<EthernetSettings>(() => new EthernetSettings());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetGatewayRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<EthernetSettings> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1889,59 +579,75 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetGatewayRequest() {
+    public EthernetSettings() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetGatewayRequest(GetGatewayRequest other) : this() {
-      name_ = other.name_;
+    public EthernetSettings(EthernetSettings other) : this() {
+      ipv4Settings_ = other.ipv4Settings_ != null ? other.ipv4Settings_.Clone() : null;
+      dnsSettings_ = other.dnsSettings_ != null ? other.dnsSettings_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetGatewayRequest Clone() {
-      return new GetGatewayRequest(this);
+    public EthernetSettings Clone() {
+      return new EthernetSettings(this);
     }
 
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
+    /// <summary>Field number for the "ipv4_settings" field.</summary>
+    public const int Ipv4SettingsFieldNumber = 1;
+    private global::Saltoapis.Nebula.Gateway.V1.IPv4Settings ipv4Settings_;
     /// <summary>
-    /// The name of the requested gateway resource. For example:
-    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
+    /// IPv4 (Internet Protocol version 4) settings of an ethernet network.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
+    public global::Saltoapis.Nebula.Gateway.V1.IPv4Settings Ipv4Settings {
+      get { return ipv4Settings_; }
       set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        ipv4Settings_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "dns_settings" field.</summary>
+    public const int DnsSettingsFieldNumber = 2;
+    private global::Saltoapis.Nebula.Gateway.V1.DNSSettings dnsSettings_;
+    /// <summary>
+    /// DNS settings of an ethernet network.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.Gateway.V1.DNSSettings DnsSettings {
+      get { return dnsSettings_; }
+      set {
+        dnsSettings_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as GetGatewayRequest);
+      return Equals(other as EthernetSettings);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetGatewayRequest other) {
+    public bool Equals(EthernetSettings other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Name != other.Name) return false;
+      if (!object.Equals(Ipv4Settings, other.Ipv4Settings)) return false;
+      if (!object.Equals(DnsSettings, other.DnsSettings)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (ipv4Settings_ != null) hash ^= Ipv4Settings.GetHashCode();
+      if (dnsSettings_ != null) hash ^= DnsSettings.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1958,9 +664,13 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Name.Length != 0) {
+      if (ipv4Settings_ != null) {
         output.WriteRawTag(10);
-        output.WriteString(Name);
+        output.WriteMessage(Ipv4Settings);
+      }
+      if (dnsSettings_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(DnsSettings);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1971,9 +681,13 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
+      if (ipv4Settings_ != null) {
         output.WriteRawTag(10);
-        output.WriteString(Name);
+        output.WriteMessage(Ipv4Settings);
+      }
+      if (dnsSettings_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(DnsSettings);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1984,8 +698,11 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      if (ipv4Settings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Ipv4Settings);
+      }
+      if (dnsSettings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DnsSettings);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1994,12 +711,21 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetGatewayRequest other) {
+    public void MergeFrom(EthernetSettings other) {
       if (other == null) {
         return;
       }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
+      if (other.ipv4Settings_ != null) {
+        if (ipv4Settings_ == null) {
+          Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
+        }
+        Ipv4Settings.MergeFrom(other.Ipv4Settings);
+      }
+      if (other.dnsSettings_ != null) {
+        if (dnsSettings_ == null) {
+          DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
+        }
+        DnsSettings.MergeFrom(other.DnsSettings);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2016,7 +742,17 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            Name = input.ReadString();
+            if (ipv4Settings_ == null) {
+              Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
+            }
+            input.ReadMessage(Ipv4Settings);
+            break;
+          }
+          case 18: {
+            if (dnsSettings_ == null) {
+              DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
+            }
+            input.ReadMessage(DnsSettings);
             break;
           }
         }
@@ -2034,7 +770,341 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            Name = input.ReadString();
+            if (ipv4Settings_ == null) {
+              Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
+            }
+            input.ReadMessage(Ipv4Settings);
+            break;
+          }
+          case 18: {
+            if (dnsSettings_ == null) {
+              DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
+            }
+            input.ReadMessage(DnsSettings);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// WiFi network settings
+  /// </summary>
+  public sealed partial class WifiSettings : pb::IMessage<WifiSettings>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<WifiSettings> _parser = new pb::MessageParser<WifiSettings>(() => new WifiSettings());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<WifiSettings> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WifiSettings() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WifiSettings(WifiSettings other) : this() {
+      ipv4Settings_ = other.ipv4Settings_ != null ? other.ipv4Settings_.Clone() : null;
+      dnsSettings_ = other.dnsSettings_ != null ? other.dnsSettings_.Clone() : null;
+      ssid_ = other.ssid_;
+      Password = other.Password;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WifiSettings Clone() {
+      return new WifiSettings(this);
+    }
+
+    /// <summary>Field number for the "ipv4_settings" field.</summary>
+    public const int Ipv4SettingsFieldNumber = 1;
+    private global::Saltoapis.Nebula.Gateway.V1.IPv4Settings ipv4Settings_;
+    /// <summary>
+    /// IPv4 (Internet Protocol version 4) settings of a WiFi network.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.Gateway.V1.IPv4Settings Ipv4Settings {
+      get { return ipv4Settings_; }
+      set {
+        ipv4Settings_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "dns_settings" field.</summary>
+    public const int DnsSettingsFieldNumber = 2;
+    private global::Saltoapis.Nebula.Gateway.V1.DNSSettings dnsSettings_;
+    /// <summary>
+    /// DNS settings of a WiFi network.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.Gateway.V1.DNSSettings DnsSettings {
+      get { return dnsSettings_; }
+      set {
+        dnsSettings_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ssid" field.</summary>
+    public const int SsidFieldNumber = 3;
+    private string ssid_ = "";
+    /// <summary>
+    /// Service set identifier of a WiFi network. An SSID is a 32-character
+    /// unique identifier attached to the header of packets that are sent over a
+    /// Wireless Local Area Network. SSIDs serve as "network names" and are
+    /// typically human readable.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Ssid {
+      get { return ssid_; }
+      set {
+        ssid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "password" field.</summary>
+    public const int PasswordFieldNumber = 4;
+    private static readonly pb::FieldCodec<string> _single_password_codec = pb::FieldCodec.ForClassWrapper<string>(34);
+    private string password_;
+    /// <summary>
+    /// Password to be used to authenticate on a WiFi network.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Password {
+      get { return password_; }
+      set {
+        password_ = value;
+      }
+    }
+
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as WifiSettings);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(WifiSettings other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Ipv4Settings, other.Ipv4Settings)) return false;
+      if (!object.Equals(DnsSettings, other.DnsSettings)) return false;
+      if (Ssid != other.Ssid) return false;
+      if (Password != other.Password) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ipv4Settings_ != null) hash ^= Ipv4Settings.GetHashCode();
+      if (dnsSettings_ != null) hash ^= DnsSettings.GetHashCode();
+      if (Ssid.Length != 0) hash ^= Ssid.GetHashCode();
+      if (password_ != null) hash ^= Password.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ipv4Settings_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Ipv4Settings);
+      }
+      if (dnsSettings_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(DnsSettings);
+      }
+      if (Ssid.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Ssid);
+      }
+      if (password_ != null) {
+        _single_password_codec.WriteTagAndValue(output, Password);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ipv4Settings_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Ipv4Settings);
+      }
+      if (dnsSettings_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(DnsSettings);
+      }
+      if (Ssid.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Ssid);
+      }
+      if (password_ != null) {
+        _single_password_codec.WriteTagAndValue(ref output, Password);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ipv4Settings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Ipv4Settings);
+      }
+      if (dnsSettings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DnsSettings);
+      }
+      if (Ssid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Ssid);
+      }
+      if (password_ != null) {
+        size += _single_password_codec.CalculateSizeWithTag(Password);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(WifiSettings other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ipv4Settings_ != null) {
+        if (ipv4Settings_ == null) {
+          Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
+        }
+        Ipv4Settings.MergeFrom(other.Ipv4Settings);
+      }
+      if (other.dnsSettings_ != null) {
+        if (dnsSettings_ == null) {
+          DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
+        }
+        DnsSettings.MergeFrom(other.DnsSettings);
+      }
+      if (other.Ssid.Length != 0) {
+        Ssid = other.Ssid;
+      }
+      if (other.password_ != null) {
+        if (password_ == null || other.Password != "") {
+          Password = other.Password;
+        }
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (ipv4Settings_ == null) {
+              Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
+            }
+            input.ReadMessage(Ipv4Settings);
+            break;
+          }
+          case 18: {
+            if (dnsSettings_ == null) {
+              DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
+            }
+            input.ReadMessage(DnsSettings);
+            break;
+          }
+          case 26: {
+            Ssid = input.ReadString();
+            break;
+          }
+          case 34: {
+            string value = _single_password_codec.Read(input);
+            if (password_ == null || value != "") {
+              Password = value;
+            }
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (ipv4Settings_ == null) {
+              Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
+            }
+            input.ReadMessage(Ipv4Settings);
+            break;
+          }
+          case 18: {
+            if (dnsSettings_ == null) {
+              DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
+            }
+            input.ReadMessage(DnsSettings);
+            break;
+          }
+          case 26: {
+            Ssid = input.ReadString();
+            break;
+          }
+          case 34: {
+            string value = _single_password_codec.Read(ref input);
+            if (password_ == null || value != "") {
+              Password = value;
+            }
             break;
           }
         }
@@ -2059,7 +1129,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2333,21 +1403,21 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   }
 
   /// <summary>
-  /// The metadata message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
+  /// DNS settings
   /// </summary>
-  public sealed partial class InitializeGatewayMetadata : pb::IMessage<InitializeGatewayMetadata>
+  public sealed partial class DNSSettings : pb::IMessage<DNSSettings>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<InitializeGatewayMetadata> _parser = new pb::MessageParser<InitializeGatewayMetadata>(() => new InitializeGatewayMetadata());
+    private static readonly pb::MessageParser<DNSSettings> _parser = new pb::MessageParser<DNSSettings>(() => new DNSSettings());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<InitializeGatewayMetadata> Parser { get { return _parser; } }
+    public static pb::MessageParser<DNSSettings> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2356,41 +1426,61 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayMetadata() {
+    public DNSSettings() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayMetadata(InitializeGatewayMetadata other) : this() {
+    public DNSSettings(DNSSettings other) : this() {
+      dnsAddresses_ = other.dnsAddresses_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayMetadata Clone() {
-      return new InitializeGatewayMetadata(this);
+    public DNSSettings Clone() {
+      return new DNSSettings(this);
+    }
+
+    /// <summary>Field number for the "dns_addresses" field.</summary>
+    public const int DnsAddressesFieldNumber = 1;
+    private static readonly pb::FieldCodec<string> _repeated_dnsAddresses_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> dnsAddresses_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// DNS server IP addresses. The order of the elements in this list will mark
+    /// priorities. For example: the first element will be primary DNS and the
+    /// second element will be secondary DNS.
+    ///
+    /// If empty, an automatic DNS address given by the network will be used.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> DnsAddresses {
+      get { return dnsAddresses_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as InitializeGatewayMetadata);
+      return Equals(other as DNSSettings);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(InitializeGatewayMetadata other) {
+    public bool Equals(DNSSettings other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if(!dnsAddresses_.Equals(other.dnsAddresses_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      hash ^= dnsAddresses_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2407,6 +1497,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      dnsAddresses_.WriteTo(output, _repeated_dnsAddresses_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2416,6 +1507,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      dnsAddresses_.WriteTo(ref output, _repeated_dnsAddresses_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2425,6 +1517,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      size += dnsAddresses_.CalculateSize(_repeated_dnsAddresses_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2432,9 +1525,256 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(InitializeGatewayMetadata other) {
+    public void MergeFrom(DNSSettings other) {
       if (other == null) {
         return;
+      }
+      dnsAddresses_.Add(other.dnsAddresses_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            dnsAddresses_.AddEntriesFrom(input, _repeated_dnsAddresses_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            dnsAddresses_.AddEntriesFrom(ref input, _repeated_dnsAddresses_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [CreateGateway][salto.nebula.gateway.v1.GatewayService.CreateGateway]
+  /// </summary>
+  public sealed partial class CreateGatewayRequest : pb::IMessage<CreateGatewayRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CreateGatewayRequest> _parser = new pb::MessageParser<CreateGatewayRequest>(() => new CreateGatewayRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CreateGatewayRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateGatewayRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateGatewayRequest(CreateGatewayRequest other) : this() {
+      parent_ = other.parent_;
+      gatewayId_ = other.gatewayId_;
+      gateway_ = other.gateway_ != null ? other.gateway_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateGatewayRequest Clone() {
+      return new CreateGatewayRequest(this);
+    }
+
+    /// <summary>Field number for the "parent" field.</summary>
+    public const int ParentFieldNumber = 1;
+    private string parent_ = "";
+    /// <summary>
+    /// Resource name of the parent resource where to create the gateway. For
+    /// example, `installations/surelock-homes-hq`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Parent {
+      get { return parent_; }
+      set {
+        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "gateway_id" field.</summary>
+    public const int GatewayIdFieldNumber = 2;
+    private string gatewayId_ = "";
+    /// <summary>
+    /// The gateway ID to use for this gateway. In case it's empty the
+    /// server will autogenerate a unique identifier.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string GatewayId {
+      get { return gatewayId_; }
+      set {
+        gatewayId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "gateway" field.</summary>
+    public const int GatewayFieldNumber = 3;
+    private global::Saltoapis.Nebula.Gateway.V1.Gateway gateway_;
+    /// <summary>
+    /// The gateway resource to be created. Client must not set the
+    /// `Gateway.name` field.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.Gateway.V1.Gateway Gateway {
+      get { return gateway_; }
+      set {
+        gateway_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CreateGatewayRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CreateGatewayRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Parent != other.Parent) return false;
+      if (GatewayId != other.GatewayId) return false;
+      if (!object.Equals(Gateway, other.Gateway)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
+      if (GatewayId.Length != 0) hash ^= GatewayId.GetHashCode();
+      if (gateway_ != null) hash ^= Gateway.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (GatewayId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(GatewayId);
+      }
+      if (gateway_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Gateway);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (GatewayId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(GatewayId);
+      }
+      if (gateway_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Gateway);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Parent.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
+      }
+      if (GatewayId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GatewayId);
+      }
+      if (gateway_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Gateway);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CreateGatewayRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Parent.Length != 0) {
+        Parent = other.Parent;
+      }
+      if (other.GatewayId.Length != 0) {
+        GatewayId = other.GatewayId;
+      }
+      if (other.gateway_ != null) {
+        if (gateway_ == null) {
+          Gateway = new global::Saltoapis.Nebula.Gateway.V1.Gateway();
+        }
+        Gateway.MergeFrom(other.Gateway);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2450,6 +1790,21 @@ namespace Saltoapis.Nebula.Gateway.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            GatewayId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (gateway_ == null) {
+              Gateway = new global::Saltoapis.Nebula.Gateway.V1.Gateway();
+            }
+            input.ReadMessage(Gateway);
+            break;
+          }
         }
       }
     #endif
@@ -2464,6 +1819,21 @@ namespace Saltoapis.Nebula.Gateway.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            GatewayId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (gateway_ == null) {
+              Gateway = new global::Saltoapis.Nebula.Gateway.V1.Gateway();
+            }
+            input.ReadMessage(Gateway);
+            break;
+          }
         }
       }
     }
@@ -2472,21 +1842,21 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   }
 
   /// <summary>
-  /// The request message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
+  /// The request message for [GetGateway][salto.nebula.gateway.v1.GatewayService.GetGateway]
   /// </summary>
-  public sealed partial class InitializeGatewayRequest : pb::IMessage<InitializeGatewayRequest>
+  public sealed partial class GetGatewayRequest : pb::IMessage<GetGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<InitializeGatewayRequest> _parser = new pb::MessageParser<InitializeGatewayRequest>(() => new InitializeGatewayRequest());
+    private static readonly pb::MessageParser<GetGatewayRequest> _parser = new pb::MessageParser<GetGatewayRequest>(() => new GetGatewayRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<InitializeGatewayRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetGatewayRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2495,28 +1865,28 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayRequest() {
+    public GetGatewayRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayRequest(InitializeGatewayRequest other) : this() {
+    public GetGatewayRequest(GetGatewayRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayRequest Clone() {
-      return new InitializeGatewayRequest(this);
+    public GetGatewayRequest Clone() {
+      return new GetGatewayRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// The resource name of the gateway to be initialized. For example:
+    /// The name of the requested gateway resource. For example:
     /// `installations/surelock-homes-hq/gateways/conan-doyle`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2529,11 +1899,11 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as InitializeGatewayRequest);
+      return Equals(other as GetGatewayRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(InitializeGatewayRequest other) {
+    public bool Equals(GetGatewayRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -2600,7 +1970,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(InitializeGatewayRequest other) {
+    public void MergeFrom(GetGatewayRequest other) {
       if (other == null) {
         return;
       }
@@ -2651,145 +2021,6 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   }
 
   /// <summary>
-  /// The empty response message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
-  /// </summary>
-  public sealed partial class InitializeGatewayResponse : pb::IMessage<InitializeGatewayResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<InitializeGatewayResponse> _parser = new pb::MessageParser<InitializeGatewayResponse>(() => new InitializeGatewayResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<InitializeGatewayResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[12]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayResponse(InitializeGatewayResponse other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public InitializeGatewayResponse Clone() {
-      return new InitializeGatewayResponse(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as InitializeGatewayResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(InitializeGatewayResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(InitializeGatewayResponse other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [ListGateways][salto.nebula.gateway.v1.GatewayService.ListGateways]
   /// </summary>
   public sealed partial class ListGatewaysRequest : pb::IMessage<ListGatewaysRequest>
@@ -2804,7 +2035,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3140,7 +2371,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3335,960 +2566,6 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   }
 
   /// <summary>
-  /// The metadata message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
-  /// </summary>
-  public sealed partial class ResetGatewayMetadata : pb::IMessage<ResetGatewayMetadata>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ResetGatewayMetadata> _parser = new pb::MessageParser<ResetGatewayMetadata>(() => new ResetGatewayMetadata());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ResetGatewayMetadata> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[15]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayMetadata() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayMetadata(ResetGatewayMetadata other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayMetadata Clone() {
-      return new ResetGatewayMetadata(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ResetGatewayMetadata);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ResetGatewayMetadata other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ResetGatewayMetadata other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
-  /// </summary>
-  public sealed partial class ResetGatewayRequest : pb::IMessage<ResetGatewayRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ResetGatewayRequest> _parser = new pb::MessageParser<ResetGatewayRequest>(() => new ResetGatewayRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ResetGatewayRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[16]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayRequest(ResetGatewayRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayRequest Clone() {
-      return new ResetGatewayRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the gateway to be reset. For example:
-    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ResetGatewayRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ResetGatewayRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ResetGatewayRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The empty response message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
-  /// </summary>
-  public sealed partial class ResetGatewayResponse : pb::IMessage<ResetGatewayResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ResetGatewayResponse> _parser = new pb::MessageParser<ResetGatewayResponse>(() => new ResetGatewayResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ResetGatewayResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[17]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayResponse(ResetGatewayResponse other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResetGatewayResponse Clone() {
-      return new ResetGatewayResponse(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ResetGatewayResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ResetGatewayResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ResetGatewayResponse other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The metadata message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
-  /// </summary>
-  public sealed partial class UpdateGatewayFirmwareMetadata : pb::IMessage<UpdateGatewayFirmwareMetadata>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateGatewayFirmwareMetadata> _parser = new pb::MessageParser<UpdateGatewayFirmwareMetadata>(() => new UpdateGatewayFirmwareMetadata());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateGatewayFirmwareMetadata> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[18]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareMetadata() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareMetadata(UpdateGatewayFirmwareMetadata other) : this() {
-      progressPercent_ = other.progressPercent_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareMetadata Clone() {
-      return new UpdateGatewayFirmwareMetadata(this);
-    }
-
-    /// <summary>Field number for the "progress_percent" field.</summary>
-    public const int ProgressPercentFieldNumber = 1;
-    private int progressPercent_;
-    /// <summary>
-    /// Progress of operation. Range: [0, 100].
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int ProgressPercent {
-      get { return progressPercent_; }
-      set {
-        progressPercent_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateGatewayFirmwareMetadata);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateGatewayFirmwareMetadata other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (ProgressPercent != other.ProgressPercent) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (ProgressPercent != 0) hash ^= ProgressPercent.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (ProgressPercent != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ProgressPercent != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (ProgressPercent != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProgressPercent);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateGatewayFirmwareMetadata other) {
-      if (other == null) {
-        return;
-      }
-      if (other.ProgressPercent != 0) {
-        ProgressPercent = other.ProgressPercent;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            ProgressPercent = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            ProgressPercent = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
-  /// </summary>
-  public sealed partial class UpdateGatewayFirmwareRequest : pb::IMessage<UpdateGatewayFirmwareRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateGatewayFirmwareRequest> _parser = new pb::MessageParser<UpdateGatewayFirmwareRequest>(() => new UpdateGatewayFirmwareRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateGatewayFirmwareRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[19]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareRequest(UpdateGatewayFirmwareRequest other) : this() {
-      gateway_ = other.gateway_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareRequest Clone() {
-      return new UpdateGatewayFirmwareRequest(this);
-    }
-
-    /// <summary>Field number for the "gateway" field.</summary>
-    public const int GatewayFieldNumber = 1;
-    private string gateway_ = "";
-    /// <summary>
-    /// The resource name of the gateway whose firmware will be updated, for
-    /// example:
-    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Gateway {
-      get { return gateway_; }
-      set {
-        gateway_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateGatewayFirmwareRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateGatewayFirmwareRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Gateway != other.Gateway) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Gateway.Length != 0) hash ^= Gateway.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Gateway.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Gateway);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Gateway.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Gateway);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Gateway.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateGatewayFirmwareRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Gateway.Length != 0) {
-        Gateway = other.Gateway;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Gateway = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Gateway = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The response message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
-  /// </summary>
-  public sealed partial class UpdateGatewayFirmwareResponse : pb::IMessage<UpdateGatewayFirmwareResponse>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateGatewayFirmwareResponse> _parser = new pb::MessageParser<UpdateGatewayFirmwareResponse>(() => new UpdateGatewayFirmwareResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateGatewayFirmwareResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[20]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareResponse(UpdateGatewayFirmwareResponse other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateGatewayFirmwareResponse Clone() {
-      return new UpdateGatewayFirmwareResponse(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateGatewayFirmwareResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateGatewayFirmwareResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateGatewayFirmwareResponse other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [UpdateGateway][salto.nebula.gateway.v1.GatewayService.UpdateGateway]
   /// </summary>
   public sealed partial class UpdateGatewayRequest : pb::IMessage<UpdateGatewayRequest>
@@ -4303,7 +2580,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4524,21 +2801,21 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   }
 
   /// <summary>
-  /// WiFi network settings
+  /// The request message for [DeleteGateway][salto.nebula.gateway.v1.GatewayService.DeleteGateway]
   /// </summary>
-  public sealed partial class WifiSettings : pb::IMessage<WifiSettings>
+  public sealed partial class DeleteGatewayRequest : pb::IMessage<DeleteGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<WifiSettings> _parser = new pb::MessageParser<WifiSettings>(() => new WifiSettings());
+    private static readonly pb::MessageParser<DeleteGatewayRequest> _parser = new pb::MessageParser<DeleteGatewayRequest>(() => new DeleteGatewayRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<WifiSettings> Parser { get { return _parser; } }
+    public static pb::MessageParser<DeleteGatewayRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4547,114 +2824,59 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public WifiSettings() {
+    public DeleteGatewayRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public WifiSettings(WifiSettings other) : this() {
-      ipv4Settings_ = other.ipv4Settings_ != null ? other.ipv4Settings_.Clone() : null;
-      dnsSettings_ = other.dnsSettings_ != null ? other.dnsSettings_.Clone() : null;
-      ssid_ = other.ssid_;
-      Password = other.Password;
+    public DeleteGatewayRequest(DeleteGatewayRequest other) : this() {
+      name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public WifiSettings Clone() {
-      return new WifiSettings(this);
+    public DeleteGatewayRequest Clone() {
+      return new DeleteGatewayRequest(this);
     }
 
-    /// <summary>Field number for the "ipv4_settings" field.</summary>
-    public const int Ipv4SettingsFieldNumber = 1;
-    private global::Saltoapis.Nebula.Gateway.V1.IPv4Settings ipv4Settings_;
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
     /// <summary>
-    /// IPv4 (Internet Protocol version 4) settings of a WiFi network.
+    /// The resource name of the gateway to be deleted. For example:
+    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Gateway.V1.IPv4Settings Ipv4Settings {
-      get { return ipv4Settings_; }
+    public string Name {
+      get { return name_; }
       set {
-        ipv4Settings_ = value;
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
-
-    /// <summary>Field number for the "dns_settings" field.</summary>
-    public const int DnsSettingsFieldNumber = 2;
-    private global::Saltoapis.Nebula.Gateway.V1.DNSSettings dnsSettings_;
-    /// <summary>
-    /// DNS settings of a WiFi network.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Gateway.V1.DNSSettings DnsSettings {
-      get { return dnsSettings_; }
-      set {
-        dnsSettings_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "ssid" field.</summary>
-    public const int SsidFieldNumber = 3;
-    private string ssid_ = "";
-    /// <summary>
-    /// Service set identifier of a WiFi network. An SSID is a 32-character
-    /// unique identifier attached to the header of packets that are sent over a
-    /// Wireless Local Area Network. SSIDs serve as "network names" and are
-    /// typically human readable.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Ssid {
-      get { return ssid_; }
-      set {
-        ssid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "password" field.</summary>
-    public const int PasswordFieldNumber = 4;
-    private static readonly pb::FieldCodec<string> _single_password_codec = pb::FieldCodec.ForClassWrapper<string>(34);
-    private string password_;
-    /// <summary>
-    /// Password to be used to authenticate on a WiFi network.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Password {
-      get { return password_; }
-      set {
-        password_ = value;
-      }
-    }
-
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as WifiSettings);
+      return Equals(other as DeleteGatewayRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(WifiSettings other) {
+    public bool Equals(DeleteGatewayRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Ipv4Settings, other.Ipv4Settings)) return false;
-      if (!object.Equals(DnsSettings, other.DnsSettings)) return false;
-      if (Ssid != other.Ssid) return false;
-      if (Password != other.Password) return false;
+      if (Name != other.Name) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (ipv4Settings_ != null) hash ^= Ipv4Settings.GetHashCode();
-      if (dnsSettings_ != null) hash ^= DnsSettings.GetHashCode();
-      if (Ssid.Length != 0) hash ^= Ssid.GetHashCode();
-      if (password_ != null) hash ^= Password.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4671,20 +2893,9 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (ipv4Settings_ != null) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Ipv4Settings);
-      }
-      if (dnsSettings_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(DnsSettings);
-      }
-      if (Ssid.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Ssid);
-      }
-      if (password_ != null) {
-        _single_password_codec.WriteTagAndValue(output, Password);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -4695,20 +2906,9 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ipv4Settings_ != null) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Ipv4Settings);
-      }
-      if (dnsSettings_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(DnsSettings);
-      }
-      if (Ssid.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Ssid);
-      }
-      if (password_ != null) {
-        _single_password_codec.WriteTagAndValue(ref output, Password);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -4719,17 +2919,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (ipv4Settings_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Ipv4Settings);
-      }
-      if (dnsSettings_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DnsSettings);
-      }
-      if (Ssid.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Ssid);
-      }
-      if (password_ != null) {
-        size += _single_password_codec.CalculateSizeWithTag(Password);
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4738,29 +2929,12 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(WifiSettings other) {
+    public void MergeFrom(DeleteGatewayRequest other) {
       if (other == null) {
         return;
       }
-      if (other.ipv4Settings_ != null) {
-        if (ipv4Settings_ == null) {
-          Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
-        }
-        Ipv4Settings.MergeFrom(other.Ipv4Settings);
-      }
-      if (other.dnsSettings_ != null) {
-        if (dnsSettings_ == null) {
-          DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
-        }
-        DnsSettings.MergeFrom(other.DnsSettings);
-      }
-      if (other.Ssid.Length != 0) {
-        Ssid = other.Ssid;
-      }
-      if (other.password_ != null) {
-        if (password_ == null || other.Password != "") {
-          Password = other.Password;
-        }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4777,28 +2951,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (ipv4Settings_ == null) {
-              Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
-            }
-            input.ReadMessage(Ipv4Settings);
-            break;
-          }
-          case 18: {
-            if (dnsSettings_ == null) {
-              DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
-            }
-            input.ReadMessage(DnsSettings);
-            break;
-          }
-          case 26: {
-            Ssid = input.ReadString();
-            break;
-          }
-          case 34: {
-            string value = _single_password_codec.Read(input);
-            if (password_ == null || value != "") {
-              Password = value;
-            }
+            Name = input.ReadString();
             break;
           }
         }
@@ -4816,28 +2969,1875 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (ipv4Settings_ == null) {
-              Ipv4Settings = new global::Saltoapis.Nebula.Gateway.V1.IPv4Settings();
-            }
-            input.ReadMessage(Ipv4Settings);
+            Name = input.ReadString();
             break;
           }
-          case 18: {
-            if (dnsSettings_ == null) {
-              DnsSettings = new global::Saltoapis.Nebula.Gateway.V1.DNSSettings();
-            }
-            input.ReadMessage(DnsSettings);
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
+  /// </summary>
+  public sealed partial class InitializeGatewayRequest : pb::IMessage<InitializeGatewayRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<InitializeGatewayRequest> _parser = new pb::MessageParser<InitializeGatewayRequest>(() => new InitializeGatewayRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeGatewayRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayRequest(InitializeGatewayRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayRequest Clone() {
+      return new InitializeGatewayRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The resource name of the gateway to be initialized. For example:
+    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeGatewayRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeGatewayRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeGatewayRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
             break;
           }
-          case 26: {
-            Ssid = input.ReadString();
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
             break;
           }
-          case 34: {
-            string value = _single_password_codec.Read(ref input);
-            if (password_ == null || value != "") {
-              Password = value;
-            }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The empty response message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
+  /// </summary>
+  public sealed partial class InitializeGatewayResponse : pb::IMessage<InitializeGatewayResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<InitializeGatewayResponse> _parser = new pb::MessageParser<InitializeGatewayResponse>(() => new InitializeGatewayResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeGatewayResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayResponse(InitializeGatewayResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayResponse Clone() {
+      return new InitializeGatewayResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeGatewayResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeGatewayResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeGatewayResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The metadata message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
+  /// </summary>
+  public sealed partial class InitializeGatewayMetadata : pb::IMessage<InitializeGatewayMetadata>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<InitializeGatewayMetadata> _parser = new pb::MessageParser<InitializeGatewayMetadata>(() => new InitializeGatewayMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeGatewayMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayMetadata(InitializeGatewayMetadata other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeGatewayMetadata Clone() {
+      return new InitializeGatewayMetadata(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeGatewayMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeGatewayMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeGatewayMetadata other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
+  /// </summary>
+  public sealed partial class ConfigureGatewayRequest : pb::IMessage<ConfigureGatewayRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ConfigureGatewayRequest> _parser = new pb::MessageParser<ConfigureGatewayRequest>(() => new ConfigureGatewayRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ConfigureGatewayRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayRequest(ConfigureGatewayRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayRequest Clone() {
+      return new ConfigureGatewayRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The resource name of the gateway to be configured. For example:
+    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ConfigureGatewayRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ConfigureGatewayRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ConfigureGatewayRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The empty response message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
+  /// </summary>
+  public sealed partial class ConfigureGatewayResponse : pb::IMessage<ConfigureGatewayResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ConfigureGatewayResponse> _parser = new pb::MessageParser<ConfigureGatewayResponse>(() => new ConfigureGatewayResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ConfigureGatewayResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[15]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayResponse(ConfigureGatewayResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayResponse Clone() {
+      return new ConfigureGatewayResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ConfigureGatewayResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ConfigureGatewayResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ConfigureGatewayResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The metadata message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
+  /// </summary>
+  public sealed partial class ConfigureGatewayMetadata : pb::IMessage<ConfigureGatewayMetadata>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ConfigureGatewayMetadata> _parser = new pb::MessageParser<ConfigureGatewayMetadata>(() => new ConfigureGatewayMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ConfigureGatewayMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[16]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayMetadata(ConfigureGatewayMetadata other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ConfigureGatewayMetadata Clone() {
+      return new ConfigureGatewayMetadata(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ConfigureGatewayMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ConfigureGatewayMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ConfigureGatewayMetadata other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
+  /// </summary>
+  public sealed partial class ResetGatewayRequest : pb::IMessage<ResetGatewayRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ResetGatewayRequest> _parser = new pb::MessageParser<ResetGatewayRequest>(() => new ResetGatewayRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ResetGatewayRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayRequest(ResetGatewayRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayRequest Clone() {
+      return new ResetGatewayRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The resource name of the gateway to be reset. For example:
+    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ResetGatewayRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ResetGatewayRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ResetGatewayRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The empty response message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
+  /// </summary>
+  public sealed partial class ResetGatewayResponse : pb::IMessage<ResetGatewayResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ResetGatewayResponse> _parser = new pb::MessageParser<ResetGatewayResponse>(() => new ResetGatewayResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ResetGatewayResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[18]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayResponse(ResetGatewayResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayResponse Clone() {
+      return new ResetGatewayResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ResetGatewayResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ResetGatewayResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ResetGatewayResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The metadata message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
+  /// </summary>
+  public sealed partial class ResetGatewayMetadata : pb::IMessage<ResetGatewayMetadata>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ResetGatewayMetadata> _parser = new pb::MessageParser<ResetGatewayMetadata>(() => new ResetGatewayMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ResetGatewayMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[19]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayMetadata(ResetGatewayMetadata other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResetGatewayMetadata Clone() {
+      return new ResetGatewayMetadata(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ResetGatewayMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ResetGatewayMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ResetGatewayMetadata other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
+  /// </summary>
+  public sealed partial class UpdateGatewayFirmwareRequest : pb::IMessage<UpdateGatewayFirmwareRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateGatewayFirmwareRequest> _parser = new pb::MessageParser<UpdateGatewayFirmwareRequest>(() => new UpdateGatewayFirmwareRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateGatewayFirmwareRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareRequest(UpdateGatewayFirmwareRequest other) : this() {
+      gateway_ = other.gateway_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareRequest Clone() {
+      return new UpdateGatewayFirmwareRequest(this);
+    }
+
+    /// <summary>Field number for the "gateway" field.</summary>
+    public const int GatewayFieldNumber = 1;
+    private string gateway_ = "";
+    /// <summary>
+    /// The resource name of the gateway whose firmware will be updated, for
+    /// example:
+    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Gateway {
+      get { return gateway_; }
+      set {
+        gateway_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateGatewayFirmwareRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateGatewayFirmwareRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Gateway != other.Gateway) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Gateway.Length != 0) hash ^= Gateway.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Gateway.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Gateway);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Gateway.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Gateway);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Gateway.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateGatewayFirmwareRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Gateway.Length != 0) {
+        Gateway = other.Gateway;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Gateway = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Gateway = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
+  /// </summary>
+  public sealed partial class UpdateGatewayFirmwareResponse : pb::IMessage<UpdateGatewayFirmwareResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateGatewayFirmwareResponse> _parser = new pb::MessageParser<UpdateGatewayFirmwareResponse>(() => new UpdateGatewayFirmwareResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateGatewayFirmwareResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareResponse(UpdateGatewayFirmwareResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareResponse Clone() {
+      return new UpdateGatewayFirmwareResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateGatewayFirmwareResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateGatewayFirmwareResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateGatewayFirmwareResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The metadata message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
+  /// </summary>
+  public sealed partial class UpdateGatewayFirmwareMetadata : pb::IMessage<UpdateGatewayFirmwareMetadata>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateGatewayFirmwareMetadata> _parser = new pb::MessageParser<UpdateGatewayFirmwareMetadata>(() => new UpdateGatewayFirmwareMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateGatewayFirmwareMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[22]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareMetadata(UpdateGatewayFirmwareMetadata other) : this() {
+      progressPercent_ = other.progressPercent_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateGatewayFirmwareMetadata Clone() {
+      return new UpdateGatewayFirmwareMetadata(this);
+    }
+
+    /// <summary>Field number for the "progress_percent" field.</summary>
+    public const int ProgressPercentFieldNumber = 1;
+    private int progressPercent_;
+    /// <summary>
+    /// Progress of operation. Range: [0, 100].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ProgressPercent {
+      get { return progressPercent_; }
+      set {
+        progressPercent_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateGatewayFirmwareMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateGatewayFirmwareMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ProgressPercent != other.ProgressPercent) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ProgressPercent != 0) hash ^= ProgressPercent.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ProgressPercent != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProgressPercent);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ProgressPercent != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProgressPercent);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ProgressPercent != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProgressPercent);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateGatewayFirmwareMetadata other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ProgressPercent != 0) {
+        ProgressPercent = other.ProgressPercent;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ProgressPercent = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            ProgressPercent = input.ReadInt32();
             break;
           }
         }
