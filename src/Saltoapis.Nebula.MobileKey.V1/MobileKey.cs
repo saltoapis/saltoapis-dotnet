@@ -27,34 +27,34 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
             "CipzYWx0by9uZWJ1bGEvbW9iaWxla2V5L3YxL21vYmlsZV9rZXkucHJvdG8S",
             "GXNhbHRvLm5lYnVsYS5tb2JpbGVrZXkudjEaG2dvb2dsZS9wcm90b2J1Zi9l",
             "bXB0eS5wcm90bxogZ29vZ2xlL3Byb3RvYnVmL2ZpZWxkX21hc2sucHJvdG8i",
-            "aQoWQ3JlYXRlTW9iaWxlS2V5UmVxdWVzdBIVCg1tb2JpbGVfa2V5X2lkGAEg",
-            "ASgJEjgKCm1vYmlsZV9rZXkYAiABKAsyJC5zYWx0by5uZWJ1bGEubW9iaWxl",
-            "a2V5LnYxLk1vYmlsZUtleSImChZEZWxldGVNb2JpbGVLZXlSZXF1ZXN0EgwK",
-            "BG5hbWUYASABKAkiIwoTR2V0TW9iaWxlS2V5UmVxdWVzdBIMCgRuYW1lGAEg",
-            "ASgJImAKFUxpc3RNb2JpbGVLZXlzUmVxdWVzdBIRCglwYWdlX3NpemUYASAB",
-            "KAUSEgoKcGFnZV90b2tlbhgCIAEoCRIOCgZmaWx0ZXIYAyABKAkSEAoIb3Jk",
-            "ZXJfYnkYBCABKAkibAoWTGlzdE1vYmlsZUtleXNSZXNwb25zZRI5Cgttb2Jp",
-            "bGVfa2V5cxgBIAMoCzIkLnNhbHRvLm5lYnVsYS5tb2JpbGVrZXkudjEuTW9i",
-            "aWxlS2V5EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKcAQoJTW9iaWxlS2V5",
-            "EgwKBG5hbWUYASABKAkSDQoFdGl0bGUYAiABKAkSEAoIc3VidGl0bGUYAyAB",
-            "KAkSEQoJcGhvdG9fdXJpGAQgASgJEhAKCGxvY2F0aW9uGAUgASgJEhQKDHBo",
-            "b25lX251bWJlchgGIAEoCRIMCgRkYXRhGAcgASgMEhcKD2luc3RhbGxhdGlv",
-            "bl9pZBgIIAEoCSKDAQoWVXBkYXRlTW9iaWxlS2V5UmVxdWVzdBI4Cgptb2Jp",
-            "bGVfa2V5GAEgASgLMiQuc2FsdG8ubmVidWxhLm1vYmlsZWtleS52MS5Nb2Jp",
-            "bGVLZXkSLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYu",
-            "RmllbGRNYXNrMqUEChBNb2JpbGVLZXlTZXJ2aWNlEmoKD0NyZWF0ZU1vYmls",
+            "nAEKCU1vYmlsZUtleRIMCgRuYW1lGAEgASgJEg0KBXRpdGxlGAIgASgJEhAK",
+            "CHN1YnRpdGxlGAMgASgJEhEKCXBob3RvX3VyaRgEIAEoCRIQCghsb2NhdGlv",
+            "bhgFIAEoCRIUCgxwaG9uZV9udW1iZXIYBiABKAkSDAoEZGF0YRgHIAEoDBIX",
+            "Cg9pbnN0YWxsYXRpb25faWQYCCABKAkiaQoWQ3JlYXRlTW9iaWxlS2V5UmVx",
+            "dWVzdBIVCg1tb2JpbGVfa2V5X2lkGAEgASgJEjgKCm1vYmlsZV9rZXkYAiAB",
+            "KAsyJC5zYWx0by5uZWJ1bGEubW9iaWxla2V5LnYxLk1vYmlsZUtleSIjChNH",
+            "ZXRNb2JpbGVLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiYAoVTGlzdE1vYmls",
+            "ZUtleXNSZXF1ZXN0EhEKCXBhZ2Vfc2l6ZRgBIAEoBRISCgpwYWdlX3Rva2Vu",
+            "GAIgASgJEg4KBmZpbHRlchgDIAEoCRIQCghvcmRlcl9ieRgEIAEoCSJsChZM",
+            "aXN0TW9iaWxlS2V5c1Jlc3BvbnNlEjkKC21vYmlsZV9rZXlzGAEgAygLMiQu",
+            "c2FsdG8ubmVidWxhLm1vYmlsZWtleS52MS5Nb2JpbGVLZXkSFwoPbmV4dF9w",
+            "YWdlX3Rva2VuGAIgASgJIoMBChZVcGRhdGVNb2JpbGVLZXlSZXF1ZXN0EjgK",
+            "Cm1vYmlsZV9rZXkYASABKAsyJC5zYWx0by5uZWJ1bGEubW9iaWxla2V5LnYx",
+            "Lk1vYmlsZUtleRIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5GaWVsZE1hc2siJgoWRGVsZXRlTW9iaWxlS2V5UmVxdWVzdBIMCgRu",
+            "YW1lGAEgASgJMqUEChBNb2JpbGVLZXlTZXJ2aWNlEmoKD0NyZWF0ZU1vYmls",
             "ZUtleRIxLnNhbHRvLm5lYnVsYS5tb2JpbGVrZXkudjEuQ3JlYXRlTW9iaWxl",
             "S2V5UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5tb2JpbGVrZXkudjEuTW9iaWxl",
-            "S2V5ElwKD0RlbGV0ZU1vYmlsZUtleRIxLnNhbHRvLm5lYnVsYS5tb2JpbGVr",
-            "ZXkudjEuRGVsZXRlTW9iaWxlS2V5UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1",
-            "Zi5FbXB0eRJkCgxHZXRNb2JpbGVLZXkSLi5zYWx0by5uZWJ1bGEubW9iaWxl",
-            "a2V5LnYxLkdldE1vYmlsZUtleVJlcXVlc3QaJC5zYWx0by5uZWJ1bGEubW9i",
-            "aWxla2V5LnYxLk1vYmlsZUtleRJ1Cg5MaXN0TW9iaWxlS2V5cxIwLnNhbHRv",
-            "Lm5lYnVsYS5tb2JpbGVrZXkudjEuTGlzdE1vYmlsZUtleXNSZXF1ZXN0GjEu",
-            "c2FsdG8ubmVidWxhLm1vYmlsZWtleS52MS5MaXN0TW9iaWxlS2V5c1Jlc3Bv",
-            "bnNlEmoKD1VwZGF0ZU1vYmlsZUtleRIxLnNhbHRvLm5lYnVsYS5tb2JpbGVr",
-            "ZXkudjEuVXBkYXRlTW9iaWxlS2V5UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5t",
-            "b2JpbGVrZXkudjEuTW9iaWxlS2V5QqcBCiFjb20uc2FsdG9hcGlzLm5lYnVs",
+            "S2V5EmQKDEdldE1vYmlsZUtleRIuLnNhbHRvLm5lYnVsYS5tb2JpbGVrZXku",
+            "djEuR2V0TW9iaWxlS2V5UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5tb2JpbGVr",
+            "ZXkudjEuTW9iaWxlS2V5EnUKDkxpc3RNb2JpbGVLZXlzEjAuc2FsdG8ubmVi",
+            "dWxhLm1vYmlsZWtleS52MS5MaXN0TW9iaWxlS2V5c1JlcXVlc3QaMS5zYWx0",
+            "by5uZWJ1bGEubW9iaWxla2V5LnYxLkxpc3RNb2JpbGVLZXlzUmVzcG9uc2US",
+            "agoPVXBkYXRlTW9iaWxlS2V5EjEuc2FsdG8ubmVidWxhLm1vYmlsZWtleS52",
+            "MS5VcGRhdGVNb2JpbGVLZXlSZXF1ZXN0GiQuc2FsdG8ubmVidWxhLm1vYmls",
+            "ZWtleS52MS5Nb2JpbGVLZXkSXAoPRGVsZXRlTW9iaWxlS2V5EjEuc2FsdG8u",
+            "bmVidWxhLm1vYmlsZWtleS52MS5EZWxldGVNb2JpbGVLZXlSZXF1ZXN0GhYu",
+            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5QqcBCiFjb20uc2FsdG9hcGlzLm5lYnVs",
             "YS5tb2JpbGVrZXkudjFCDk1vYmlsZUtleVByb3RvUAFaUGdpdGxhYi5ybmQu",
             "c2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVs",
             "YS9tb2JpbGVrZXkvdjE7bW9iaWxla2V5qgIdU2FsdG9hcGlzLk5lYnVsYS5N",
@@ -62,19 +62,475 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.MobileKey), global::Saltoapis.Nebula.MobileKey.V1.MobileKey.Parser, new[]{ "Name", "Title", "Subtitle", "PhotoUri", "Location", "PhoneNumber", "Data", "InstallationId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest), global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest.Parser, new[]{ "MobileKeyId", "MobileKey" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest), global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest), global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysRequest), global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysRequest.Parser, new[]{ "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysResponse), global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysResponse.Parser, new[]{ "MobileKeys", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.MobileKey), global::Saltoapis.Nebula.MobileKey.V1.MobileKey.Parser, new[]{ "Name", "Title", "Subtitle", "PhotoUri", "Location", "PhoneNumber", "Data", "InstallationId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest), global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest.Parser, new[]{ "MobileKey", "UpdateMask" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest), global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest.Parser, new[]{ "MobileKey", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest), global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
+  /// <summary>
+  /// The mobile key object
+  /// </summary>
+  public sealed partial class MobileKey : pb::IMessage<MobileKey>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<MobileKey> _parser = new pb::MessageParser<MobileKey>(() => new MobileKey());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MobileKey> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.MobileKey.V1.MobileKeyReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MobileKey() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MobileKey(MobileKey other) : this() {
+      name_ = other.name_;
+      title_ = other.title_;
+      subtitle_ = other.subtitle_;
+      photoUri_ = other.photoUri_;
+      location_ = other.location_;
+      phoneNumber_ = other.phoneNumber_;
+      data_ = other.data_;
+      installationId_ = other.installationId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MobileKey Clone() {
+      return new MobileKey(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// Resource name of the mobile key. It must have the format of
+    /// `mobile-keys/*`. For example: `mobile-keys/baker-street-entrance`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "title" field.</summary>
+    public const int TitleFieldNumber = 2;
+    private string title_ = "";
+    /// <summary>
+    /// The title of the mobile key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Title {
+      get { return title_; }
+      set {
+        title_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "subtitle" field.</summary>
+    public const int SubtitleFieldNumber = 3;
+    private string subtitle_ = "";
+    /// <summary>
+    /// The subtitle of the mobile key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Subtitle {
+      get { return subtitle_; }
+      set {
+        subtitle_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "photo_uri" field.</summary>
+    public const int PhotoUriFieldNumber = 4;
+    private string photoUri_ = "";
+    /// <summary>
+    /// The viewing URI for the mobile key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PhotoUri {
+      get { return photoUri_; }
+      set {
+        photoUri_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "location" field.</summary>
+    public const int LocationFieldNumber = 5;
+    private string location_ = "";
+    /// <summary>
+    /// Geographic location for the mobile key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Location {
+      get { return location_; }
+      set {
+        location_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "phone_number" field.</summary>
+    public const int PhoneNumberFieldNumber = 6;
+    private string phoneNumber_ = "";
+    /// <summary>
+    /// Phone number for the mobile key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PhoneNumber {
+      get { return phoneNumber_; }
+      set {
+        phoneNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "data" field.</summary>
+    public const int DataFieldNumber = 7;
+    private pb::ByteString data_ = pb::ByteString.Empty;
+    /// <summary>
+    /// An encrypted and authenticated data blob of the mobile key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString Data {
+      get { return data_; }
+      set {
+        data_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "installation_id" field.</summary>
+    public const int InstallationIdFieldNumber = 8;
+    private string installationId_ = "";
+    /// <summary>
+    /// Installation identifier for low-level purposes.
+    ///
+    /// WARNING: This is going to be removed after the initial nebula release as
+    /// its only purpose is to ease the installation picking mechanism in mobile
+    /// apps.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string InstallationId {
+      get { return installationId_; }
+      set {
+        installationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MobileKey);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MobileKey other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Title != other.Title) return false;
+      if (Subtitle != other.Subtitle) return false;
+      if (PhotoUri != other.PhotoUri) return false;
+      if (Location != other.Location) return false;
+      if (PhoneNumber != other.PhoneNumber) return false;
+      if (Data != other.Data) return false;
+      if (InstallationId != other.InstallationId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Title.Length != 0) hash ^= Title.GetHashCode();
+      if (Subtitle.Length != 0) hash ^= Subtitle.GetHashCode();
+      if (PhotoUri.Length != 0) hash ^= PhotoUri.GetHashCode();
+      if (Location.Length != 0) hash ^= Location.GetHashCode();
+      if (PhoneNumber.Length != 0) hash ^= PhoneNumber.GetHashCode();
+      if (Data.Length != 0) hash ^= Data.GetHashCode();
+      if (InstallationId.Length != 0) hash ^= InstallationId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Title.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Title);
+      }
+      if (Subtitle.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Subtitle);
+      }
+      if (PhotoUri.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(PhotoUri);
+      }
+      if (Location.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Location);
+      }
+      if (PhoneNumber.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(PhoneNumber);
+      }
+      if (Data.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteBytes(Data);
+      }
+      if (InstallationId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(InstallationId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Title.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Title);
+      }
+      if (Subtitle.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Subtitle);
+      }
+      if (PhotoUri.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(PhotoUri);
+      }
+      if (Location.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Location);
+      }
+      if (PhoneNumber.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(PhoneNumber);
+      }
+      if (Data.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteBytes(Data);
+      }
+      if (InstallationId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(InstallationId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Title.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Title);
+      }
+      if (Subtitle.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Subtitle);
+      }
+      if (PhotoUri.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PhotoUri);
+      }
+      if (Location.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Location);
+      }
+      if (PhoneNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PhoneNumber);
+      }
+      if (Data.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Data);
+      }
+      if (InstallationId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstallationId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MobileKey other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Title.Length != 0) {
+        Title = other.Title;
+      }
+      if (other.Subtitle.Length != 0) {
+        Subtitle = other.Subtitle;
+      }
+      if (other.PhotoUri.Length != 0) {
+        PhotoUri = other.PhotoUri;
+      }
+      if (other.Location.Length != 0) {
+        Location = other.Location;
+      }
+      if (other.PhoneNumber.Length != 0) {
+        PhoneNumber = other.PhoneNumber;
+      }
+      if (other.Data.Length != 0) {
+        Data = other.Data;
+      }
+      if (other.InstallationId.Length != 0) {
+        InstallationId = other.InstallationId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            Title = input.ReadString();
+            break;
+          }
+          case 26: {
+            Subtitle = input.ReadString();
+            break;
+          }
+          case 34: {
+            PhotoUri = input.ReadString();
+            break;
+          }
+          case 42: {
+            Location = input.ReadString();
+            break;
+          }
+          case 50: {
+            PhoneNumber = input.ReadString();
+            break;
+          }
+          case 58: {
+            Data = input.ReadBytes();
+            break;
+          }
+          case 66: {
+            InstallationId = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            Title = input.ReadString();
+            break;
+          }
+          case 26: {
+            Subtitle = input.ReadString();
+            break;
+          }
+          case 34: {
+            PhotoUri = input.ReadString();
+            break;
+          }
+          case 42: {
+            Location = input.ReadString();
+            break;
+          }
+          case 50: {
+            PhoneNumber = input.ReadString();
+            break;
+          }
+          case 58: {
+            Data = input.ReadBytes();
+            break;
+          }
+          case 66: {
+            InstallationId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   /// <summary>
   /// The request message for [`CreateMobileKey`][salto.nebula.mobilekey.v1.MobileKeyService.CreateMobileKey]
   /// </summary>
@@ -90,7 +546,7 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.MobileKey.V1.MobileKeyReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Saltoapis.Nebula.MobileKey.V1.MobileKeyReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -294,185 +750,6 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
               MobileKey = new global::Saltoapis.Nebula.MobileKey.V1.MobileKey();
             }
             input.ReadMessage(MobileKey);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`DeleteMobileKey`][salto.nebula.mobilekey.v1.MobileKeyService.DeleteMobileKey]
-  /// </summary>
-  public sealed partial class DeleteMobileKeyRequest : pb::IMessage<DeleteMobileKeyRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DeleteMobileKeyRequest> _parser = new pb::MessageParser<DeleteMobileKeyRequest>(() => new DeleteMobileKeyRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DeleteMobileKeyRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.MobileKey.V1.MobileKeyReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteMobileKeyRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteMobileKeyRequest(DeleteMobileKeyRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteMobileKeyRequest Clone() {
-      return new DeleteMobileKeyRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the mobile key to be deleted. For example:
-    /// `mobile-keys/baker-street-entrance`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DeleteMobileKeyRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DeleteMobileKeyRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DeleteMobileKeyRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
             break;
           }
         }
@@ -1168,462 +1445,6 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
   }
 
   /// <summary>
-  /// The mobile key object
-  /// </summary>
-  public sealed partial class MobileKey : pb::IMessage<MobileKey>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<MobileKey> _parser = new pb::MessageParser<MobileKey>(() => new MobileKey());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<MobileKey> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.MobileKey.V1.MobileKeyReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MobileKey() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MobileKey(MobileKey other) : this() {
-      name_ = other.name_;
-      title_ = other.title_;
-      subtitle_ = other.subtitle_;
-      photoUri_ = other.photoUri_;
-      location_ = other.location_;
-      phoneNumber_ = other.phoneNumber_;
-      data_ = other.data_;
-      installationId_ = other.installationId_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MobileKey Clone() {
-      return new MobileKey(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// Resource name of the mobile key. It must have the format of
-    /// `mobile-keys/*`. For example: `mobile-keys/baker-street-entrance`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "title" field.</summary>
-    public const int TitleFieldNumber = 2;
-    private string title_ = "";
-    /// <summary>
-    /// The title of the mobile key.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Title {
-      get { return title_; }
-      set {
-        title_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "subtitle" field.</summary>
-    public const int SubtitleFieldNumber = 3;
-    private string subtitle_ = "";
-    /// <summary>
-    /// The subtitle of the mobile key.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Subtitle {
-      get { return subtitle_; }
-      set {
-        subtitle_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "photo_uri" field.</summary>
-    public const int PhotoUriFieldNumber = 4;
-    private string photoUri_ = "";
-    /// <summary>
-    /// The viewing URI for the mobile key.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string PhotoUri {
-      get { return photoUri_; }
-      set {
-        photoUri_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "location" field.</summary>
-    public const int LocationFieldNumber = 5;
-    private string location_ = "";
-    /// <summary>
-    /// Geographic location for the mobile key.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Location {
-      get { return location_; }
-      set {
-        location_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "phone_number" field.</summary>
-    public const int PhoneNumberFieldNumber = 6;
-    private string phoneNumber_ = "";
-    /// <summary>
-    /// Phone number for the mobile key.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string PhoneNumber {
-      get { return phoneNumber_; }
-      set {
-        phoneNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "data" field.</summary>
-    public const int DataFieldNumber = 7;
-    private pb::ByteString data_ = pb::ByteString.Empty;
-    /// <summary>
-    /// An encrypted and authenticated data blob of the mobile key.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pb::ByteString Data {
-      get { return data_; }
-      set {
-        data_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "installation_id" field.</summary>
-    public const int InstallationIdFieldNumber = 8;
-    private string installationId_ = "";
-    /// <summary>
-    /// Installation identifier for low-level purposes.
-    ///
-    /// WARNING: This is going to be removed after the initial nebula release as
-    /// its only purpose is to ease the installation picking mechanism in mobile
-    /// apps.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string InstallationId {
-      get { return installationId_; }
-      set {
-        installationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as MobileKey);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(MobileKey other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (Title != other.Title) return false;
-      if (Subtitle != other.Subtitle) return false;
-      if (PhotoUri != other.PhotoUri) return false;
-      if (Location != other.Location) return false;
-      if (PhoneNumber != other.PhoneNumber) return false;
-      if (Data != other.Data) return false;
-      if (InstallationId != other.InstallationId) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Title.Length != 0) hash ^= Title.GetHashCode();
-      if (Subtitle.Length != 0) hash ^= Subtitle.GetHashCode();
-      if (PhotoUri.Length != 0) hash ^= PhotoUri.GetHashCode();
-      if (Location.Length != 0) hash ^= Location.GetHashCode();
-      if (PhoneNumber.Length != 0) hash ^= PhoneNumber.GetHashCode();
-      if (Data.Length != 0) hash ^= Data.GetHashCode();
-      if (InstallationId.Length != 0) hash ^= InstallationId.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Title.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Title);
-      }
-      if (Subtitle.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Subtitle);
-      }
-      if (PhotoUri.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(PhotoUri);
-      }
-      if (Location.Length != 0) {
-        output.WriteRawTag(42);
-        output.WriteString(Location);
-      }
-      if (PhoneNumber.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(PhoneNumber);
-      }
-      if (Data.Length != 0) {
-        output.WriteRawTag(58);
-        output.WriteBytes(Data);
-      }
-      if (InstallationId.Length != 0) {
-        output.WriteRawTag(66);
-        output.WriteString(InstallationId);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Title.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Title);
-      }
-      if (Subtitle.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Subtitle);
-      }
-      if (PhotoUri.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(PhotoUri);
-      }
-      if (Location.Length != 0) {
-        output.WriteRawTag(42);
-        output.WriteString(Location);
-      }
-      if (PhoneNumber.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(PhoneNumber);
-      }
-      if (Data.Length != 0) {
-        output.WriteRawTag(58);
-        output.WriteBytes(Data);
-      }
-      if (InstallationId.Length != 0) {
-        output.WriteRawTag(66);
-        output.WriteString(InstallationId);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Title.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Title);
-      }
-      if (Subtitle.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Subtitle);
-      }
-      if (PhotoUri.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(PhotoUri);
-      }
-      if (Location.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Location);
-      }
-      if (PhoneNumber.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(PhoneNumber);
-      }
-      if (Data.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Data);
-      }
-      if (InstallationId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstallationId);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(MobileKey other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Title.Length != 0) {
-        Title = other.Title;
-      }
-      if (other.Subtitle.Length != 0) {
-        Subtitle = other.Subtitle;
-      }
-      if (other.PhotoUri.Length != 0) {
-        PhotoUri = other.PhotoUri;
-      }
-      if (other.Location.Length != 0) {
-        Location = other.Location;
-      }
-      if (other.PhoneNumber.Length != 0) {
-        PhoneNumber = other.PhoneNumber;
-      }
-      if (other.Data.Length != 0) {
-        Data = other.Data;
-      }
-      if (other.InstallationId.Length != 0) {
-        InstallationId = other.InstallationId;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            Title = input.ReadString();
-            break;
-          }
-          case 26: {
-            Subtitle = input.ReadString();
-            break;
-          }
-          case 34: {
-            PhotoUri = input.ReadString();
-            break;
-          }
-          case 42: {
-            Location = input.ReadString();
-            break;
-          }
-          case 50: {
-            PhoneNumber = input.ReadString();
-            break;
-          }
-          case 58: {
-            Data = input.ReadBytes();
-            break;
-          }
-          case 66: {
-            InstallationId = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            Title = input.ReadString();
-            break;
-          }
-          case 26: {
-            Subtitle = input.ReadString();
-            break;
-          }
-          case 34: {
-            PhotoUri = input.ReadString();
-            break;
-          }
-          case 42: {
-            Location = input.ReadString();
-            break;
-          }
-          case 50: {
-            PhoneNumber = input.ReadString();
-            break;
-          }
-          case 58: {
-            Data = input.ReadBytes();
-            break;
-          }
-          case 66: {
-            InstallationId = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [`UpdateMobileKey`][salto.nebula.mobilekey.v1.MobileKeyService.UpdateMobileKey]
   /// </summary>
   public sealed partial class UpdateMobileKeyRequest : pb::IMessage<UpdateMobileKeyRequest>
@@ -1638,7 +1459,7 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.MobileKey.V1.MobileKeyReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.MobileKey.V1.MobileKeyReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1849,6 +1670,185 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
               UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
             }
             input.ReadMessage(UpdateMask);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`DeleteMobileKey`][salto.nebula.mobilekey.v1.MobileKeyService.DeleteMobileKey]
+  /// </summary>
+  public sealed partial class DeleteMobileKeyRequest : pb::IMessage<DeleteMobileKeyRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DeleteMobileKeyRequest> _parser = new pb::MessageParser<DeleteMobileKeyRequest>(() => new DeleteMobileKeyRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteMobileKeyRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.MobileKey.V1.MobileKeyReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteMobileKeyRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteMobileKeyRequest(DeleteMobileKeyRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteMobileKeyRequest Clone() {
+      return new DeleteMobileKeyRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The resource name of the mobile key to be deleted. For example:
+    /// `mobile-keys/baker-street-entrance`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteMobileKeyRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteMobileKeyRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteMobileKeyRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
             break;
           }
         }

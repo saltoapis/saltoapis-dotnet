@@ -19,19 +19,19 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest> __Marshaller_salto_nebula_calendar_v1_CreateCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.Calendar> __Marshaller_salto_nebula_calendar_v1_Calendar = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.Calendar.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest> __Marshaller_salto_nebula_calendar_v1_CreateEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.Event> __Marshaller_salto_nebula_calendar_v1_Event = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.Event.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest> __Marshaller_salto_nebula_calendar_v1_DeleteCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest> __Marshaller_salto_nebula_calendar_v1_DeleteEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest> __Marshaller_salto_nebula_calendar_v1_GetCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.GetEventRequest> __Marshaller_salto_nebula_calendar_v1_GetEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.GetEventRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest> __Marshaller_salto_nebula_calendar_v1_ListCalendarsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse> __Marshaller_salto_nebula_calendar_v1_ListCalendarsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest> __Marshaller_salto_nebula_calendar_v1_UpdateCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest> __Marshaller_salto_nebula_calendar_v1_DeleteCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest> __Marshaller_salto_nebula_calendar_v1_CreateEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.Event> __Marshaller_salto_nebula_calendar_v1_Event = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.Event.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.GetEventRequest> __Marshaller_salto_nebula_calendar_v1_GetEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.GetEventRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest> __Marshaller_salto_nebula_calendar_v1_ListEventsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> __Marshaller_salto_nebula_calendar_v1_ListEventsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest> __Marshaller_salto_nebula_calendar_v1_UpdateCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest> __Marshaller_salto_nebula_calendar_v1_UpdateEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest> __Marshaller_salto_nebula_calendar_v1_DeleteEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest, global::Saltoapis.Nebula.Calendar.V1.Calendar> __Method_CreateCalendar = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest, global::Saltoapis.Nebula.Calendar.V1.Calendar>(
         grpc::MethodType.Unary,
@@ -40,40 +40,12 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         __Marshaller_salto_nebula_calendar_v1_CreateCalendarRequest,
         __Marshaller_salto_nebula_calendar_v1_Calendar);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event> __Method_CreateEvent = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "CreateEvent",
-        __Marshaller_salto_nebula_calendar_v1_CreateEventRequest,
-        __Marshaller_salto_nebula_calendar_v1_Event);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteCalendar = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteCalendar",
-        __Marshaller_salto_nebula_calendar_v1_DeleteCalendarRequest,
-        __Marshaller_google_protobuf_Empty);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteEvent = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteEvent",
-        __Marshaller_salto_nebula_calendar_v1_DeleteEventRequest,
-        __Marshaller_google_protobuf_Empty);
-
     static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest, global::Saltoapis.Nebula.Calendar.V1.Calendar> __Method_GetCalendar = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest, global::Saltoapis.Nebula.Calendar.V1.Calendar>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetCalendar",
         __Marshaller_salto_nebula_calendar_v1_GetCalendarRequest,
         __Marshaller_salto_nebula_calendar_v1_Calendar);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.GetEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event> __Method_GetEvent = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.GetEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetEvent",
-        __Marshaller_salto_nebula_calendar_v1_GetEventRequest,
-        __Marshaller_salto_nebula_calendar_v1_Event);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest, global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse> __Method_ListCalendars = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest, global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse>(
         grpc::MethodType.Unary,
@@ -82,13 +54,6 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         __Marshaller_salto_nebula_calendar_v1_ListCalendarsRequest,
         __Marshaller_salto_nebula_calendar_v1_ListCalendarsResponse);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest, global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> __Method_ListEvents = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest, global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "ListEvents",
-        __Marshaller_salto_nebula_calendar_v1_ListEventsRequest,
-        __Marshaller_salto_nebula_calendar_v1_ListEventsResponse);
-
     static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest, global::Saltoapis.Nebula.Calendar.V1.Calendar> __Method_UpdateCalendar = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest, global::Saltoapis.Nebula.Calendar.V1.Calendar>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -96,12 +61,47 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         __Marshaller_salto_nebula_calendar_v1_UpdateCalendarRequest,
         __Marshaller_salto_nebula_calendar_v1_Calendar);
 
+    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteCalendar = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteCalendar",
+        __Marshaller_salto_nebula_calendar_v1_DeleteCalendarRequest,
+        __Marshaller_google_protobuf_Empty);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event> __Method_CreateEvent = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreateEvent",
+        __Marshaller_salto_nebula_calendar_v1_CreateEventRequest,
+        __Marshaller_salto_nebula_calendar_v1_Event);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.GetEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event> __Method_GetEvent = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.GetEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetEvent",
+        __Marshaller_salto_nebula_calendar_v1_GetEventRequest,
+        __Marshaller_salto_nebula_calendar_v1_Event);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest, global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> __Method_ListEvents = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest, global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListEvents",
+        __Marshaller_salto_nebula_calendar_v1_ListEventsRequest,
+        __Marshaller_salto_nebula_calendar_v1_ListEventsResponse);
+
     static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event> __Method_UpdateEvent = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest, global::Saltoapis.Nebula.Calendar.V1.Event>(
         grpc::MethodType.Unary,
         __ServiceName,
         "UpdateEvent",
         __Marshaller_salto_nebula_calendar_v1_UpdateEventRequest,
         __Marshaller_salto_nebula_calendar_v1_Event);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteEvent = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteEvent",
+        __Marshaller_salto_nebula_calendar_v1_DeleteEventRequest,
+        __Marshaller_google_protobuf_Empty);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -185,162 +185,6 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_CreateCalendar, null, options, request);
       }
       /// <summary>
-      /// Create a calendar event
-      ///
-      /// Creates a calendar event.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.Calendar.V1.Event CreateEvent(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return CreateEvent(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Create a calendar event
-      ///
-      /// Creates a calendar event.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.Calendar.V1.Event CreateEvent(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_CreateEvent, null, options, request);
-      }
-      /// <summary>
-      /// Create a calendar event
-      ///
-      /// Creates a calendar event.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> CreateEventAsync(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return CreateEventAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Create a calendar event
-      ///
-      /// Creates a calendar event.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> CreateEventAsync(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_CreateEvent, null, options, request);
-      }
-      /// <summary>
-      /// Delete a calendar
-      ///
-      /// Permanently deletes a calendar. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteCalendar(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteCalendar(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete a calendar
-      ///
-      /// Permanently deletes a calendar. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteCalendar(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteCalendar, null, options, request);
-      }
-      /// <summary>
-      /// Delete a calendar
-      ///
-      /// Permanently deletes a calendar. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteCalendarAsync(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteCalendarAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete a calendar
-      ///
-      /// Permanently deletes a calendar. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteCalendarAsync(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteCalendar, null, options, request);
-      }
-      /// <summary>
-      /// Delete a calendar event
-      ///
-      /// Permanently deletes a calendar event. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteEvent(global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteEvent(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete a calendar event
-      ///
-      /// Permanently deletes a calendar event. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteEvent(global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteEvent, null, options, request);
-      }
-      /// <summary>
-      /// Delete a calendar event
-      ///
-      /// Permanently deletes a calendar event. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEventAsync(global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteEventAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete a calendar event
-      ///
-      /// Permanently deletes a calendar event. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEventAsync(global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteEvent, null, options, request);
-      }
-      /// <summary>
       /// Get a calendar
       ///
       /// Gets an existing calendar.
@@ -391,58 +235,6 @@ namespace Saltoapis.Nebula.Calendar.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Calendar> GetCalendarAsync(global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetCalendar, null, options, request);
-      }
-      /// <summary>
-      /// Get a calendar event
-      ///
-      /// Gets an existing calendar event.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.Calendar.V1.Event GetEvent(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetEvent(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Get a calendar event
-      ///
-      /// Gets an existing calendar event.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.Calendar.V1.Event GetEvent(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_GetEvent, null, options, request);
-      }
-      /// <summary>
-      /// Get a calendar event
-      ///
-      /// Gets an existing calendar event.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> GetEventAsync(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetEventAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Get a calendar event
-      ///
-      /// Gets an existing calendar event.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> GetEventAsync(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_GetEvent, null, options, request);
       }
       /// <summary>
       /// List calendars
@@ -497,58 +289,6 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_ListCalendars, null, options, request);
       }
       /// <summary>
-      /// List calendar events
-      ///
-      /// Lists existing calendar events.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse ListEvents(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ListEvents(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// List calendar events
-      ///
-      /// Lists existing calendar events.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse ListEvents(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_ListEvents, null, options, request);
-      }
-      /// <summary>
-      /// List calendar events
-      ///
-      /// Lists existing calendar events.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> ListEventsAsync(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ListEventsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// List calendar events
-      ///
-      /// Lists existing calendar events.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> ListEventsAsync(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_ListEvents, null, options, request);
-      }
-      /// <summary>
       /// Update a calendar
       ///
       /// Updates an existing calendar.
@@ -601,6 +341,214 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateCalendar, null, options, request);
       }
       /// <summary>
+      /// Delete a calendar
+      ///
+      /// Permanently deletes a calendar. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteCalendar(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteCalendar(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a calendar
+      ///
+      /// Permanently deletes a calendar. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteCalendar(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteCalendar, null, options, request);
+      }
+      /// <summary>
+      /// Delete a calendar
+      ///
+      /// Permanently deletes a calendar. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteCalendarAsync(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteCalendarAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a calendar
+      ///
+      /// Permanently deletes a calendar. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteCalendarAsync(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteCalendar, null, options, request);
+      }
+      /// <summary>
+      /// Create a calendar event
+      ///
+      /// Creates a calendar event.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.Calendar.V1.Event CreateEvent(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateEvent(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a calendar event
+      ///
+      /// Creates a calendar event.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.Calendar.V1.Event CreateEvent(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreateEvent, null, options, request);
+      }
+      /// <summary>
+      /// Create a calendar event
+      ///
+      /// Creates a calendar event.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> CreateEventAsync(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateEventAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a calendar event
+      ///
+      /// Creates a calendar event.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> CreateEventAsync(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreateEvent, null, options, request);
+      }
+      /// <summary>
+      /// Get a calendar event
+      ///
+      /// Gets an existing calendar event.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.Calendar.V1.Event GetEvent(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetEvent(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a calendar event
+      ///
+      /// Gets an existing calendar event.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.Calendar.V1.Event GetEvent(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetEvent, null, options, request);
+      }
+      /// <summary>
+      /// Get a calendar event
+      ///
+      /// Gets an existing calendar event.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> GetEventAsync(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetEventAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a calendar event
+      ///
+      /// Gets an existing calendar event.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> GetEventAsync(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetEvent, null, options, request);
+      }
+      /// <summary>
+      /// List calendar events
+      ///
+      /// Lists existing calendar events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse ListEvents(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListEvents(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List calendar events
+      ///
+      /// Lists existing calendar events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse ListEvents(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListEvents, null, options, request);
+      }
+      /// <summary>
+      /// List calendar events
+      ///
+      /// Lists existing calendar events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> ListEventsAsync(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListEventsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List calendar events
+      ///
+      /// Lists existing calendar events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> ListEventsAsync(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListEvents, null, options, request);
+      }
+      /// <summary>
       /// Update a calendar event
       ///
       /// Updates an existing calendar event.
@@ -651,6 +599,58 @@ namespace Saltoapis.Nebula.Calendar.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Calendar.V1.Event> UpdateEventAsync(global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateEvent, null, options, request);
+      }
+      /// <summary>
+      /// Delete a calendar event
+      ///
+      /// Permanently deletes a calendar event. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteEvent(global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteEvent(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a calendar event
+      ///
+      /// Permanently deletes a calendar event. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteEvent(global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteEvent, null, options, request);
+      }
+      /// <summary>
+      /// Delete a calendar event
+      ///
+      /// Permanently deletes a calendar event. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEventAsync(global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteEventAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a calendar event
+      ///
+      /// Permanently deletes a calendar event. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEventAsync(global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteEvent, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override CalendarServiceClient NewInstance(ClientBaseConfiguration configuration)

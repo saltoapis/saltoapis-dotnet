@@ -26,33 +26,33 @@ namespace Saltoapis.Nebula.Encoder.V1 {
           string.Concat(
             "CiVzYWx0by9uZWJ1bGEvZW5jb2Rlci92MS9lbmNvZGVyLnByb3RvEhdzYWx0",
             "by5uZWJ1bGEuZW5jb2Rlci52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnBy",
-            "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90byJtChRDcmVh",
-            "dGVFbmNvZGVyUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEgoKZW5jb2Rlcl9p",
-            "ZBgCIAEoCRIxCgdlbmNvZGVyGAMgASgLMiAuc2FsdG8ubmVidWxhLmVuY29k",
-            "ZXIudjEuRW5jb2RlciIkChREZWxldGVFbmNvZGVyUmVxdWVzdBIMCgRuYW1l",
-            "GAEgASgJIngKB0VuY29kZXISDAoEbmFtZRgBIAEoCRIRCglkZXZpY2VfaWQY",
-            "AiABKAkSFAoMZGlzcGxheV9uYW1lGAMgASgJEhEKB2dhdGV3YXkYBCABKAlI",
-            "ABISCghleHRlbmRlchgFIAEoCUgAQg8KDXBhcmVudF9kZXZpY2UiIQoRR2V0",
-            "RW5jb2RlclJlcXVlc3QSDAoEbmFtZRgBIAEoCSJuChNMaXN0RW5jb2RlcnNS",
-            "ZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoK",
-            "cGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkY",
-            "BSABKAkiYwoUTGlzdEVuY29kZXJzUmVzcG9uc2USMgoIZW5jb2RlcnMYASAD",
-            "KAsyIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVyEhcKD25leHRf",
-            "cGFnZV90b2tlbhgCIAEoCSJ6ChRVcGRhdGVFbmNvZGVyUmVxdWVzdBIxCgdl",
-            "bmNvZGVyGAEgASgLMiAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRW5jb2Rl",
-            "chIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVs",
-            "ZE1hc2sy9QMKDkVuY29kZXJTZXJ2aWNlEmAKDUNyZWF0ZUVuY29kZXISLS5z",
+            "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90byJ4CgdFbmNv",
+            "ZGVyEgwKBG5hbWUYASABKAkSEQoJZGV2aWNlX2lkGAIgASgJEhQKDGRpc3Bs",
+            "YXlfbmFtZRgDIAEoCRIRCgdnYXRld2F5GAQgASgJSAASEgoIZXh0ZW5kZXIY",
+            "BSABKAlIAEIPCg1wYXJlbnRfZGV2aWNlIm0KFENyZWF0ZUVuY29kZXJSZXF1",
+            "ZXN0Eg4KBnBhcmVudBgBIAEoCRISCgplbmNvZGVyX2lkGAIgASgJEjEKB2Vu",
+            "Y29kZXIYAyABKAsyIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVy",
+            "IiEKEUdldEVuY29kZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkibgoTTGlzdEVu",
+            "Y29kZXJzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIg",
+            "ASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9y",
+            "ZGVyX2J5GAUgASgJImMKFExpc3RFbmNvZGVyc1Jlc3BvbnNlEjIKCGVuY29k",
+            "ZXJzGAEgAygLMiAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRW5jb2RlchIX",
+            "Cg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiegoUVXBkYXRlRW5jb2RlclJlcXVl",
+            "c3QSMQoHZW5jb2RlchgBIAEoCzIgLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYx",
+            "LkVuY29kZXISLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuRmllbGRNYXNrIiQKFERlbGV0ZUVuY29kZXJSZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAky9QMKDkVuY29kZXJTZXJ2aWNlEmAKDUNyZWF0ZUVuY29kZXISLS5z",
             "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5DcmVhdGVFbmNvZGVyUmVxdWVzdBog",
-            "LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISVgoNRGVsZXRlRW5j",
-            "b2RlchItLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkRlbGV0ZUVuY29kZXJS",
-            "ZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EloKCkdldEVuY29kZXIS",
-            "Ki5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5HZXRFbmNvZGVyUmVxdWVzdBog",
-            "LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISawoMTGlzdEVuY29k",
-            "ZXJzEiwuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuTGlzdEVuY29kZXJzUmVx",
-            "dWVzdBotLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkxpc3RFbmNvZGVyc1Jl",
-            "c3BvbnNlEmAKDVVwZGF0ZUVuY29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rl",
-            "ci52MS5VcGRhdGVFbmNvZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5lbmNv",
-            "ZGVyLnYxLkVuY29kZXJCnQEKH2NvbS5zYWx0b2FwaXMubmVidWxhLmVuY29k",
+            "LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISWgoKR2V0RW5jb2Rl",
+            "chIqLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkdldEVuY29kZXJSZXF1ZXN0",
+            "GiAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRW5jb2RlchJrCgxMaXN0RW5j",
+            "b2RlcnMSLC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5MaXN0RW5jb2RlcnNS",
+            "ZXF1ZXN0Gi0uc2FsdG8ubmVidWxhLmVuY29kZXIudjEuTGlzdEVuY29kZXJz",
+            "UmVzcG9uc2USYAoNVXBkYXRlRW5jb2RlchItLnNhbHRvLm5lYnVsYS5lbmNv",
+            "ZGVyLnYxLlVwZGF0ZUVuY29kZXJSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmVu",
+            "Y29kZXIudjEuRW5jb2RlchJWCg1EZWxldGVFbmNvZGVyEi0uc2FsdG8ubmVi",
+            "dWxhLmVuY29kZXIudjEuRGVsZXRlRW5jb2RlclJlcXVlc3QaFi5nb29nbGUu",
+            "cHJvdG9idWYuRW1wdHlCnQEKH2NvbS5zYWx0b2FwaXMubmVidWxhLmVuY29k",
             "ZXIudjFCDEVuY29kZXJQcm90b1ABWkxnaXRsYWIucm5kLnNhbHRvc3lzdGVt",
             "cy5jb20vc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvZW5jb2Rlci92",
             "MTtlbmNvZGVyqgIbU2FsdG9hcGlzLk5lYnVsYS5FbmNvZGVyLlYxYgZwcm90",
@@ -60,466 +60,19 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest.Parser, new[]{ "Parent", "EncoderId", "Encoder" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.Encoder), global::Saltoapis.Nebula.Encoder.V1.Encoder.Parser, new[]{ "Name", "DeviceId", "DisplayName", "Gateway", "Extender" }, new[]{ "ParentDevice" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest.Parser, new[]{ "Parent", "EncoderId", "Encoder" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest), global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ListEncodersResponse), global::Saltoapis.Nebula.Encoder.V1.ListEncodersResponse.Parser, new[]{ "Encoders", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest.Parser, new[]{ "Encoder", "UpdateMask" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest.Parser, new[]{ "Encoder", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  /// <summary>
-  /// The request message for [CreateEncoder][salto.nebula.encoder.v1.EncoderService.CreateEncoder]
-  /// </summary>
-  public sealed partial class CreateEncoderRequest : pb::IMessage<CreateEncoderRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<CreateEncoderRequest> _parser = new pb::MessageParser<CreateEncoderRequest>(() => new CreateEncoderRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<CreateEncoderRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateEncoderRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateEncoderRequest(CreateEncoderRequest other) : this() {
-      parent_ = other.parent_;
-      encoderId_ = other.encoderId_;
-      encoder_ = other.encoder_ != null ? other.encoder_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public CreateEncoderRequest Clone() {
-      return new CreateEncoderRequest(this);
-    }
-
-    /// <summary>Field number for the "parent" field.</summary>
-    public const int ParentFieldNumber = 1;
-    private string parent_ = "";
-    /// <summary>
-    /// Resource name of the parent resource where to create the encoder. For
-    /// example, `installations/surelock-homes-hq`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Parent {
-      get { return parent_; }
-      set {
-        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "encoder_id" field.</summary>
-    public const int EncoderIdFieldNumber = 2;
-    private string encoderId_ = "";
-    /// <summary>
-    /// The encoder ID to use for this encoder. In case it's empty the
-    /// server will autogenerate a unique identifier.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string EncoderId {
-      get { return encoderId_; }
-      set {
-        encoderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "encoder" field.</summary>
-    public const int EncoderFieldNumber = 3;
-    private global::Saltoapis.Nebula.Encoder.V1.Encoder encoder_;
-    /// <summary>
-    /// The encoder resource to be created. Client must not set the
-    /// `Encoder.name` field.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.Encoder.V1.Encoder Encoder {
-      get { return encoder_; }
-      set {
-        encoder_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as CreateEncoderRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(CreateEncoderRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Parent != other.Parent) return false;
-      if (EncoderId != other.EncoderId) return false;
-      if (!object.Equals(Encoder, other.Encoder)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (EncoderId.Length != 0) hash ^= EncoderId.GetHashCode();
-      if (encoder_ != null) hash ^= Encoder.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (EncoderId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(EncoderId);
-      }
-      if (encoder_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Encoder);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (EncoderId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(EncoderId);
-      }
-      if (encoder_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Encoder);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Parent.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
-      }
-      if (EncoderId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(EncoderId);
-      }
-      if (encoder_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Encoder);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(CreateEncoderRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Parent.Length != 0) {
-        Parent = other.Parent;
-      }
-      if (other.EncoderId.Length != 0) {
-        EncoderId = other.EncoderId;
-      }
-      if (other.encoder_ != null) {
-        if (encoder_ == null) {
-          Encoder = new global::Saltoapis.Nebula.Encoder.V1.Encoder();
-        }
-        Encoder.MergeFrom(other.Encoder);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            EncoderId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (encoder_ == null) {
-              Encoder = new global::Saltoapis.Nebula.Encoder.V1.Encoder();
-            }
-            input.ReadMessage(Encoder);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            EncoderId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (encoder_ == null) {
-              Encoder = new global::Saltoapis.Nebula.Encoder.V1.Encoder();
-            }
-            input.ReadMessage(Encoder);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [DeleteEncoder][salto.nebula.encoder.v1.EncoderService.DeleteEncoder]
-  /// </summary>
-  public sealed partial class DeleteEncoderRequest : pb::IMessage<DeleteEncoderRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DeleteEncoderRequest> _parser = new pb::MessageParser<DeleteEncoderRequest>(() => new DeleteEncoderRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DeleteEncoderRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteEncoderRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteEncoderRequest(DeleteEncoderRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteEncoderRequest Clone() {
-      return new DeleteEncoderRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the encoder to be deleted. For example:
-    /// `installations/surelock-homes-hq/encoders/dancing-men`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DeleteEncoderRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DeleteEncoderRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DeleteEncoderRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   /// <summary>
   /// The encoder object
   /// </summary>
@@ -535,7 +88,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -889,6 +442,274 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   }
 
   /// <summary>
+  /// The request message for [CreateEncoder][salto.nebula.encoder.v1.EncoderService.CreateEncoder]
+  /// </summary>
+  public sealed partial class CreateEncoderRequest : pb::IMessage<CreateEncoderRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CreateEncoderRequest> _parser = new pb::MessageParser<CreateEncoderRequest>(() => new CreateEncoderRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CreateEncoderRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateEncoderRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateEncoderRequest(CreateEncoderRequest other) : this() {
+      parent_ = other.parent_;
+      encoderId_ = other.encoderId_;
+      encoder_ = other.encoder_ != null ? other.encoder_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CreateEncoderRequest Clone() {
+      return new CreateEncoderRequest(this);
+    }
+
+    /// <summary>Field number for the "parent" field.</summary>
+    public const int ParentFieldNumber = 1;
+    private string parent_ = "";
+    /// <summary>
+    /// Resource name of the parent resource where to create the encoder. For
+    /// example, `installations/surelock-homes-hq`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Parent {
+      get { return parent_; }
+      set {
+        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "encoder_id" field.</summary>
+    public const int EncoderIdFieldNumber = 2;
+    private string encoderId_ = "";
+    /// <summary>
+    /// The encoder ID to use for this encoder. In case it's empty the
+    /// server will autogenerate a unique identifier.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string EncoderId {
+      get { return encoderId_; }
+      set {
+        encoderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "encoder" field.</summary>
+    public const int EncoderFieldNumber = 3;
+    private global::Saltoapis.Nebula.Encoder.V1.Encoder encoder_;
+    /// <summary>
+    /// The encoder resource to be created. Client must not set the
+    /// `Encoder.name` field.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.Encoder.V1.Encoder Encoder {
+      get { return encoder_; }
+      set {
+        encoder_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CreateEncoderRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CreateEncoderRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Parent != other.Parent) return false;
+      if (EncoderId != other.EncoderId) return false;
+      if (!object.Equals(Encoder, other.Encoder)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
+      if (EncoderId.Length != 0) hash ^= EncoderId.GetHashCode();
+      if (encoder_ != null) hash ^= Encoder.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (EncoderId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(EncoderId);
+      }
+      if (encoder_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Encoder);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      if (EncoderId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(EncoderId);
+      }
+      if (encoder_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Encoder);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Parent.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
+      }
+      if (EncoderId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EncoderId);
+      }
+      if (encoder_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Encoder);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CreateEncoderRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Parent.Length != 0) {
+        Parent = other.Parent;
+      }
+      if (other.EncoderId.Length != 0) {
+        EncoderId = other.EncoderId;
+      }
+      if (other.encoder_ != null) {
+        if (encoder_ == null) {
+          Encoder = new global::Saltoapis.Nebula.Encoder.V1.Encoder();
+        }
+        Encoder.MergeFrom(other.Encoder);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            EncoderId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (encoder_ == null) {
+              Encoder = new global::Saltoapis.Nebula.Encoder.V1.Encoder();
+            }
+            input.ReadMessage(Encoder);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            EncoderId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (encoder_ == null) {
+              Encoder = new global::Saltoapis.Nebula.Encoder.V1.Encoder();
+            }
+            input.ReadMessage(Encoder);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The request message for [GetEncoder][salto.nebula.encoder.v1.EncoderService.GetEncoder]
   /// </summary>
   public sealed partial class GetEncoderRequest : pb::IMessage<GetEncoderRequest>
@@ -903,7 +724,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1082,7 +903,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1418,7 +1239,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1627,7 +1448,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1838,6 +1659,185 @@ namespace Saltoapis.Nebula.Encoder.V1 {
               UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
             }
             input.ReadMessage(UpdateMask);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [DeleteEncoder][salto.nebula.encoder.v1.EncoderService.DeleteEncoder]
+  /// </summary>
+  public sealed partial class DeleteEncoderRequest : pb::IMessage<DeleteEncoderRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DeleteEncoderRequest> _parser = new pb::MessageParser<DeleteEncoderRequest>(() => new DeleteEncoderRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeleteEncoderRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteEncoderRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteEncoderRequest(DeleteEncoderRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeleteEncoderRequest Clone() {
+      return new DeleteEncoderRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The resource name of the encoder to be deleted. For example:
+    /// `installations/surelock-homes-hq/encoders/dancing-men`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteEncoderRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeleteEncoderRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeleteEncoderRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
             break;
           }
         }

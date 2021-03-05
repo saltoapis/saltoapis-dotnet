@@ -19,12 +19,12 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
 
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_CreateMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.MobileKey> __Marshaller_salto_nebula_mobilekey_v1_MobileKey = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.MobileKey.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_DeleteMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_GetMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysRequest> __Marshaller_salto_nebula_mobilekey_v1_ListMobileKeysRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysResponse> __Marshaller_salto_nebula_mobilekey_v1_ListMobileKeysResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_UpdateMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_DeleteMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest, global::Saltoapis.Nebula.MobileKey.V1.MobileKey> __Method_CreateMobileKey = new grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest, global::Saltoapis.Nebula.MobileKey.V1.MobileKey>(
         grpc::MethodType.Unary,
@@ -32,13 +32,6 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
         "CreateMobileKey",
         __Marshaller_salto_nebula_mobilekey_v1_CreateMobileKeyRequest,
         __Marshaller_salto_nebula_mobilekey_v1_MobileKey);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteMobileKey = new grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteMobileKey",
-        __Marshaller_salto_nebula_mobilekey_v1_DeleteMobileKeyRequest,
-        __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest, global::Saltoapis.Nebula.MobileKey.V1.MobileKey> __Method_GetMobileKey = new grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest, global::Saltoapis.Nebula.MobileKey.V1.MobileKey>(
         grpc::MethodType.Unary,
@@ -60,6 +53,13 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
         "UpdateMobileKey",
         __Marshaller_salto_nebula_mobilekey_v1_UpdateMobileKeyRequest,
         __Marshaller_salto_nebula_mobilekey_v1_MobileKey);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteMobileKey = new grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteMobileKey",
+        __Marshaller_salto_nebula_mobilekey_v1_DeleteMobileKeyRequest,
+        __Marshaller_google_protobuf_Empty);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -141,58 +141,6 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.MobileKey.V1.MobileKey> CreateMobileKeyAsync(global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateMobileKey, null, options, request);
-      }
-      /// <summary>
-      /// Delete a mobile key
-      ///
-      /// Permanently deletes a mobile key. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteMobileKey(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteMobileKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete a mobile key
-      ///
-      /// Permanently deletes a mobile key. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteMobileKey(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteMobileKey, null, options, request);
-      }
-      /// <summary>
-      /// Delete a mobile key
-      ///
-      /// Permanently deletes a mobile key. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteMobileKeyAsync(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteMobileKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete a mobile key
-      ///
-      /// Permanently deletes a mobile key. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteMobileKeyAsync(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteMobileKey, null, options, request);
       }
       /// <summary>
       /// Get a mobile key
@@ -349,6 +297,58 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.MobileKey.V1.MobileKey> UpdateMobileKeyAsync(global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateMobileKey, null, options, request);
+      }
+      /// <summary>
+      /// Delete a mobile key
+      ///
+      /// Permanently deletes a mobile key. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteMobileKey(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteMobileKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a mobile key
+      ///
+      /// Permanently deletes a mobile key. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteMobileKey(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteMobileKey, null, options, request);
+      }
+      /// <summary>
+      /// Delete a mobile key
+      ///
+      /// Permanently deletes a mobile key. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteMobileKeyAsync(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteMobileKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a mobile key
+      ///
+      /// Permanently deletes a mobile key. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteMobileKeyAsync(global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteMobileKey, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override MobileKeyServiceClient NewInstance(ClientBaseConfiguration configuration)

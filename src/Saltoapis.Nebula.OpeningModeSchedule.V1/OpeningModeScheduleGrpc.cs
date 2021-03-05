@@ -20,12 +20,12 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_CreateOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_DeleteOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_GetOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse> __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_UpdateOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_DeleteOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Method_CreateOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule>(
         grpc::MethodType.Unary,
@@ -33,13 +33,6 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         "CreateOpeningModeSchedule",
         __Marshaller_salto_nebula_openingmodeschedule_v1_CreateOpeningModeScheduleRequest,
         __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteOpeningModeSchedule",
-        __Marshaller_salto_nebula_openingmodeschedule_v1_DeleteOpeningModeScheduleRequest,
-        __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Method_GetOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule>(
         grpc::MethodType.Unary,
@@ -61,6 +54,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         "UpdateOpeningModeSchedule",
         __Marshaller_salto_nebula_openingmodeschedule_v1_UpdateOpeningModeScheduleRequest,
         __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteOpeningModeSchedule",
+        __Marshaller_salto_nebula_openingmodeschedule_v1_DeleteOpeningModeScheduleRequest,
+        __Marshaller_google_protobuf_Empty);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -142,58 +142,6 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> CreateOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateOpeningModeSchedule, null, options, request);
-      }
-      /// <summary>
-      /// Delete an opening mode schedule
-      ///
-      /// Permanently deletes an opening mode schedule. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteOpeningModeSchedule(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an opening mode schedule
-      ///
-      /// Permanently deletes an opening mode schedule. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteOpeningModeSchedule, null, options, request);
-      }
-      /// <summary>
-      /// Delete an opening mode schedule
-      ///
-      /// Permanently deletes an opening mode schedule. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteOpeningModeScheduleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an opening mode schedule
-      ///
-      /// Permanently deletes an opening mode schedule. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteOpeningModeSchedule, null, options, request);
       }
       /// <summary>
       /// Get an opening mode schedule
@@ -354,6 +302,58 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> UpdateOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateOpeningModeSchedule, null, options, request);
+      }
+      /// <summary>
+      /// Delete an opening mode schedule
+      ///
+      /// Permanently deletes an opening mode schedule. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteOpeningModeSchedule(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an opening mode schedule
+      ///
+      /// Permanently deletes an opening mode schedule. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteOpeningModeSchedule, null, options, request);
+      }
+      /// <summary>
+      /// Delete an opening mode schedule
+      ///
+      /// Permanently deletes an opening mode schedule. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteOpeningModeScheduleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an opening mode schedule
+      ///
+      /// Permanently deletes an opening mode schedule. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteOpeningModeSchedule, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override OpeningModeScheduleServiceClient NewInstance(ClientBaseConfiguration configuration)

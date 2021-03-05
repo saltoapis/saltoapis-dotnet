@@ -19,28 +19,21 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.accessright.v1.AccessRightService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest> __Marshaller_salto_nebula_accessright_v1_CreateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> __Marshaller_salto_nebula_accessright_v1_AccessPoint = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.AccessPoint.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest> __Marshaller_salto_nebula_accessright_v1_CreateAccessRightRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.AccessRight> __Marshaller_salto_nebula_accessright_v1_AccessRight = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.AccessRight.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest> __Marshaller_salto_nebula_accessright_v1_DeleteAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest> __Marshaller_salto_nebula_accessright_v1_DeleteAccessRightRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest> __Marshaller_salto_nebula_accessright_v1_GetAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightRequest> __Marshaller_salto_nebula_accessright_v1_GetAccessRightRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest> __Marshaller_salto_nebula_accessright_v1_ListAccessPointsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse> __Marshaller_salto_nebula_accessright_v1_ListAccessPointsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsRequest> __Marshaller_salto_nebula_accessright_v1_ListAccessRightsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsResponse> __Marshaller_salto_nebula_accessright_v1_ListAccessRightsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessPointRequest> __Marshaller_salto_nebula_accessright_v1_UpdateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessPointRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest> __Marshaller_salto_nebula_accessright_v1_UpdateAccessRightRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest.Parser.ParseFrom);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> __Method_CreateAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "CreateAccessPoint",
-        __Marshaller_salto_nebula_accessright_v1_CreateAccessPointRequest,
-        __Marshaller_salto_nebula_accessright_v1_AccessPoint);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest> __Marshaller_salto_nebula_accessright_v1_DeleteAccessRightRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest> __Marshaller_salto_nebula_accessright_v1_CreateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> __Marshaller_salto_nebula_accessright_v1_AccessPoint = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.AccessPoint.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest> __Marshaller_salto_nebula_accessright_v1_GetAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest> __Marshaller_salto_nebula_accessright_v1_ListAccessPointsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse> __Marshaller_salto_nebula_accessright_v1_ListAccessPointsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessPointRequest> __Marshaller_salto_nebula_accessright_v1_UpdateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessPointRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest> __Marshaller_salto_nebula_accessright_v1_DeleteAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessRight> __Method_CreateAccessRight = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessRight>(
         grpc::MethodType.Unary,
@@ -49,40 +42,12 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         __Marshaller_salto_nebula_accessright_v1_CreateAccessRightRequest,
         __Marshaller_salto_nebula_accessright_v1_AccessRight);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteAccessPoint",
-        __Marshaller_salto_nebula_accessright_v1_DeleteAccessPointRequest,
-        __Marshaller_google_protobuf_Empty);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteAccessRight = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteAccessRight",
-        __Marshaller_salto_nebula_accessright_v1_DeleteAccessRightRequest,
-        __Marshaller_google_protobuf_Empty);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> __Method_GetAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetAccessPoint",
-        __Marshaller_salto_nebula_accessright_v1_GetAccessPointRequest,
-        __Marshaller_salto_nebula_accessright_v1_AccessPoint);
-
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessRight> __Method_GetAccessRight = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessRight>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetAccessRight",
         __Marshaller_salto_nebula_accessright_v1_GetAccessRightRequest,
         __Marshaller_salto_nebula_accessright_v1_AccessRight);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest, global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse> __Method_ListAccessPoints = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest, global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "ListAccessPoints",
-        __Marshaller_salto_nebula_accessright_v1_ListAccessPointsRequest,
-        __Marshaller_salto_nebula_accessright_v1_ListAccessPointsResponse);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsRequest, global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsResponse> __Method_ListAccessRights = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsRequest, global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsResponse>(
         grpc::MethodType.Unary,
@@ -91,6 +56,41 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         __Marshaller_salto_nebula_accessright_v1_ListAccessRightsRequest,
         __Marshaller_salto_nebula_accessright_v1_ListAccessRightsResponse);
 
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessRight> __Method_UpdateAccessRight = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessRight>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateAccessRight",
+        __Marshaller_salto_nebula_accessright_v1_UpdateAccessRightRequest,
+        __Marshaller_salto_nebula_accessright_v1_AccessRight);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteAccessRight = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteAccessRight",
+        __Marshaller_salto_nebula_accessright_v1_DeleteAccessRightRequest,
+        __Marshaller_google_protobuf_Empty);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> __Method_CreateAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreateAccessPoint",
+        __Marshaller_salto_nebula_accessright_v1_CreateAccessPointRequest,
+        __Marshaller_salto_nebula_accessright_v1_AccessPoint);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> __Method_GetAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetAccessPoint",
+        __Marshaller_salto_nebula_accessright_v1_GetAccessPointRequest,
+        __Marshaller_salto_nebula_accessright_v1_AccessPoint);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest, global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse> __Method_ListAccessPoints = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest, global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListAccessPoints",
+        __Marshaller_salto_nebula_accessright_v1_ListAccessPointsRequest,
+        __Marshaller_salto_nebula_accessright_v1_ListAccessPointsResponse);
+
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> __Method_UpdateAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessPointRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -98,12 +98,12 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         __Marshaller_salto_nebula_accessright_v1_UpdateAccessPointRequest,
         __Marshaller_salto_nebula_accessright_v1_AccessPoint);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessRight> __Method_UpdateAccessRight = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest, global::Saltoapis.Nebula.AccessRight.V1.AccessRight>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "UpdateAccessRight",
-        __Marshaller_salto_nebula_accessright_v1_UpdateAccessRightRequest,
-        __Marshaller_salto_nebula_accessright_v1_AccessRight);
+        "DeleteAccessPoint",
+        __Marshaller_salto_nebula_accessright_v1_DeleteAccessPointRequest,
+        __Marshaller_google_protobuf_Empty);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -134,58 +134,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       {
       }
 
-      /// <summary>
-      /// Create an access point
-      ///
-      /// Creates an access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessPoint CreateAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return CreateAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Create an access point
-      ///
-      /// Creates an access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessPoint CreateAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_CreateAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Create an access point
-      ///
-      /// Creates an access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> CreateAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return CreateAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Create an access point
-      ///
-      /// Creates an access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> CreateAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_CreateAccessPoint, null, options, request);
-      }
       /// <summary>
       /// Create an access right
       ///
@@ -237,162 +185,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessRight> CreateAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateAccessRight, null, options, request);
-      }
-      /// <summary>
-      /// Delete an access point
-      ///
-      /// Deletes an access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an access point
-      ///
-      /// Deletes an access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Delete an access point
-      ///
-      /// Deletes an access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an access point
-      ///
-      /// Deletes an access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Delete an access right
-      ///
-      /// Permanently deletes an access right. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessRight(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an access right
-      ///
-      /// Permanently deletes an access right. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessRight(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteAccessRight, null, options, request);
-      }
-      /// <summary>
-      /// Delete an access right
-      ///
-      /// Permanently deletes an access right. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an access right
-      ///
-      /// Permanently deletes an access right. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteAccessRight, null, options, request);
-      }
-      /// <summary>
-      /// Get an access point
-      ///
-      /// Retrieves an existing access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessPoint GetAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Get an access point
-      ///
-      /// Retrieves an existing access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessPoint GetAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_GetAccessPoint, null, options, request);
-      }
-      /// <summary>
-      /// Get an access point
-      ///
-      /// Retrieves an existing access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> GetAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Get an access point
-      ///
-      /// Retrieves an existing access right's access point association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> GetAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_GetAccessPoint, null, options, request);
       }
       /// <summary>
       /// Get an access right
@@ -447,58 +239,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_GetAccessRight, null, options, request);
       }
       /// <summary>
-      /// List access points
-      ///
-      /// Lists an existing access right's access point associations.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse ListAccessPoints(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ListAccessPoints(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// List access points
-      ///
-      /// Lists an existing access right's access point associations.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse ListAccessPoints(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_ListAccessPoints, null, options, request);
-      }
-      /// <summary>
-      /// List access points
-      ///
-      /// Lists an existing access right's access point associations.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse> ListAccessPointsAsync(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ListAccessPointsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// List access points
-      ///
-      /// Lists an existing access right's access point associations.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse> ListAccessPointsAsync(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_ListAccessPoints, null, options, request);
-      }
-      /// <summary>
       /// List access rights
       ///
       /// Returns a list of access rights that have been previously created.
@@ -549,6 +289,266 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsResponse> ListAccessRightsAsync(global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListAccessRights, null, options, request);
+      }
+      /// <summary>
+      /// Update an access right
+      ///
+      /// Updates an existing access right.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessRight UpdateAccessRight(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update an access right
+      ///
+      /// Updates an existing access right.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessRight UpdateAccessRight(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateAccessRight, null, options, request);
+      }
+      /// <summary>
+      /// Update an access right
+      ///
+      /// Updates an existing access right.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessRight> UpdateAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update an access right
+      ///
+      /// Updates an existing access right.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessRight> UpdateAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateAccessRight, null, options, request);
+      }
+      /// <summary>
+      /// Delete an access right
+      ///
+      /// Permanently deletes an access right. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessRight(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an access right
+      ///
+      /// Permanently deletes an access right. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessRight(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteAccessRight, null, options, request);
+      }
+      /// <summary>
+      /// Delete an access right
+      ///
+      /// Permanently deletes an access right. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete an access right
+      ///
+      /// Permanently deletes an access right. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteAccessRight, null, options, request);
+      }
+      /// <summary>
+      /// Create an access point
+      ///
+      /// Creates an access right's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessPoint CreateAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create an access point
+      ///
+      /// Creates an access right's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessPoint CreateAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreateAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// Create an access point
+      ///
+      /// Creates an access right's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> CreateAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create an access point
+      ///
+      /// Creates an access right's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> CreateAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreateAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// Get an access point
+      ///
+      /// Retrieves an existing access right's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessPoint GetAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get an access point
+      ///
+      /// Retrieves an existing access right's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessPoint GetAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// Get an access point
+      ///
+      /// Retrieves an existing access right's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> GetAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get an access point
+      ///
+      /// Retrieves an existing access right's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> GetAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// List access points
+      ///
+      /// Lists an existing access right's access point associations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse ListAccessPoints(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListAccessPoints(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List access points
+      ///
+      /// Lists an existing access right's access point associations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse ListAccessPoints(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListAccessPoints, null, options, request);
+      }
+      /// <summary>
+      /// List access points
+      ///
+      /// Lists an existing access right's access point associations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse> ListAccessPointsAsync(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListAccessPointsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List access points
+      ///
+      /// Lists an existing access right's access point associations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse> ListAccessPointsAsync(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListAccessPoints, null, options, request);
       }
       /// <summary>
       /// Update an access point
@@ -603,56 +603,56 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateAccessPoint, null, options, request);
       }
       /// <summary>
-      /// Update an access right
+      /// Delete an access point
       ///
-      /// Updates an existing access right.
+      /// Deletes an access right's access point association.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessRight UpdateAccessRight(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return UpdateAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return DeleteAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Update an access right
+      /// Delete an access point
       ///
-      /// Updates an existing access right.
+      /// Deletes an access right's access point association.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.AccessRight.V1.AccessRight UpdateAccessRight(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest request, grpc::CallOptions options)
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessPoint(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_UpdateAccessRight, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteAccessPoint, null, options, request);
       }
       /// <summary>
-      /// Update an access right
+      /// Delete an access point
       ///
-      /// Updates an existing access right.
+      /// Deletes an access right's access point association.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessRight> UpdateAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return UpdateAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return DeleteAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Update an access right
+      /// Delete an access point
       ///
-      /// Updates an existing access right.
+      /// Deletes an access right's access point association.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessRight.V1.AccessRight> UpdateAccessRightAsync(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessPointAsync(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_UpdateAccessRight, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteAccessPoint, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override AccessRightServiceClient NewInstance(ClientBaseConfiguration configuration)

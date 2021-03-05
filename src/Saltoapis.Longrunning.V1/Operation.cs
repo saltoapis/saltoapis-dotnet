@@ -27,23 +27,23 @@ namespace Saltoapis.Longrunning.V1 {
             "CiRzYWx0by9sb25ncnVubmluZy92MS9vcGVyYXRpb24ucHJvdG8SFHNhbHRv",
             "LmxvbmdydW5uaW5nLnYxGhlnb29nbGUvcHJvdG9idWYvYW55LnByb3RvGhtn",
             "b29nbGUvcHJvdG9idWYvZW1wdHkucHJvdG8aF2dvb2dsZS9ycGMvc3RhdHVz",
-            "LnByb3RvIiYKFkRlbGV0ZU9wZXJhdGlvblJlcXVlc3QSDAoEbmFtZRgBIAEo",
-            "CSIjChNHZXRPcGVyYXRpb25SZXF1ZXN0EgwKBG5hbWUYASABKAkiTgoVTGlz",
-            "dE9wZXJhdGlvbnNSZXF1ZXN0EhEKCXBhZ2Vfc2l6ZRgBIAEoBRISCgpwYWdl",
-            "X3Rva2VuGAIgASgJEg4KBmZpbHRlchgDIAEoCSJmChZMaXN0T3BlcmF0aW9u",
-            "c1Jlc3BvbnNlEjMKCm9wZXJhdGlvbnMYASADKAsyHy5zYWx0by5sb25ncnVu",
-            "bmluZy52MS5PcGVyYXRpb24SFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIqgB",
-            "CglPcGVyYXRpb24SDAoEbmFtZRgBIAEoCRImCghtZXRhZGF0YRgCIAEoCzIU",
-            "Lmdvb2dsZS5wcm90b2J1Zi5BbnkSDAoEZG9uZRgDIAEoCBIjCgVlcnJvchgE",
-            "IAEoCzISLmdvb2dsZS5ycGMuU3RhdHVzSAASKAoIcmVzcG9uc2UYBSABKAsy",
-            "FC5nb29nbGUucHJvdG9idWYuQW55SABCCAoGcmVzdWx0MrQCChBPcGVyYXRp",
-            "b25TZXJ2aWNlElcKD0RlbGV0ZU9wZXJhdGlvbhIsLnNhbHRvLmxvbmdydW5u",
-            "aW5nLnYxLkRlbGV0ZU9wZXJhdGlvblJlcXVlc3QaFi5nb29nbGUucHJvdG9i",
-            "dWYuRW1wdHkSWgoMR2V0T3BlcmF0aW9uEikuc2FsdG8ubG9uZ3J1bm5pbmcu",
-            "djEuR2V0T3BlcmF0aW9uUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYx",
-            "Lk9wZXJhdGlvbhJrCg5MaXN0T3BlcmF0aW9ucxIrLnNhbHRvLmxvbmdydW5u",
-            "aW5nLnYxLkxpc3RPcGVyYXRpb25zUmVxdWVzdBosLnNhbHRvLmxvbmdydW5u",
-            "aW5nLnYxLkxpc3RPcGVyYXRpb25zUmVzcG9uc2VCmgEKHGNvbS5zYWx0b2Fw",
+            "LnByb3RvIqgBCglPcGVyYXRpb24SDAoEbmFtZRgBIAEoCRImCghtZXRhZGF0",
+            "YRgCIAEoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnkSDAoEZG9uZRgDIAEoCBIj",
+            "CgVlcnJvchgEIAEoCzISLmdvb2dsZS5ycGMuU3RhdHVzSAASKAoIcmVzcG9u",
+            "c2UYBSABKAsyFC5nb29nbGUucHJvdG9idWYuQW55SABCCAoGcmVzdWx0IiMK",
+            "E0dldE9wZXJhdGlvblJlcXVlc3QSDAoEbmFtZRgBIAEoCSJOChVMaXN0T3Bl",
+            "cmF0aW9uc1JlcXVlc3QSEQoJcGFnZV9zaXplGAEgASgFEhIKCnBhZ2VfdG9r",
+            "ZW4YAiABKAkSDgoGZmlsdGVyGAMgASgJImYKFkxpc3RPcGVyYXRpb25zUmVz",
+            "cG9uc2USMwoKb3BlcmF0aW9ucxgBIAMoCzIfLnNhbHRvLmxvbmdydW5uaW5n",
+            "LnYxLk9wZXJhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiJgoWRGVs",
+            "ZXRlT3BlcmF0aW9uUmVxdWVzdBIMCgRuYW1lGAEgASgJMrQCChBPcGVyYXRp",
+            "b25TZXJ2aWNlEloKDEdldE9wZXJhdGlvbhIpLnNhbHRvLmxvbmdydW5uaW5n",
+            "LnYxLkdldE9wZXJhdGlvblJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52",
+            "MS5PcGVyYXRpb24SawoOTGlzdE9wZXJhdGlvbnMSKy5zYWx0by5sb25ncnVu",
+            "bmluZy52MS5MaXN0T3BlcmF0aW9uc1JlcXVlc3QaLC5zYWx0by5sb25ncnVu",
+            "bmluZy52MS5MaXN0T3BlcmF0aW9uc1Jlc3BvbnNlElcKD0RlbGV0ZU9wZXJh",
+            "dGlvbhIsLnNhbHRvLmxvbmdydW5uaW5nLnYxLkRlbGV0ZU9wZXJhdGlvblJl",
+            "cXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHlCmgEKHGNvbS5zYWx0b2Fw",
             "aXMubG9uZ3J1bm5pbmcudjFCDk9wZXJhdGlvblByb3RvUAFaTWdpdGxhYi5y",
             "bmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL2xv",
             "bmdydW5uaW5nL3YxO2xvbmdydW5uaW5nqgIYU2FsdG9hcGlzLkxvbmdydW5u",
@@ -51,11 +51,11 @@ namespace Saltoapis.Longrunning.V1 {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Longrunning.V1.DeleteOperationRequest), global::Saltoapis.Longrunning.V1.DeleteOperationRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Longrunning.V1.Operation), global::Saltoapis.Longrunning.V1.Operation.Parser, new[]{ "Name", "Metadata", "Done", "Error", "Response" }, new[]{ "Result" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Longrunning.V1.GetOperationRequest), global::Saltoapis.Longrunning.V1.GetOperationRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Longrunning.V1.ListOperationsRequest), global::Saltoapis.Longrunning.V1.ListOperationsRequest.Parser, new[]{ "PageSize", "PageToken", "Filter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Longrunning.V1.ListOperationsResponse), global::Saltoapis.Longrunning.V1.ListOperationsResponse.Parser, new[]{ "Operations", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Longrunning.V1.Operation), global::Saltoapis.Longrunning.V1.Operation.Parser, new[]{ "Name", "Metadata", "Done", "Error", "Response" }, new[]{ "Result" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Longrunning.V1.DeleteOperationRequest), global::Saltoapis.Longrunning.V1.DeleteOperationRequest.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion
@@ -63,18 +63,17 @@ namespace Saltoapis.Longrunning.V1 {
   }
   #region Messages
   /// <summary>
-  /// The request message for
-  /// [`OperationService.DeleteOperation`][salto.longrunning.v1.OperationService.DeleteOperation].
+  /// The long-running operation object
   /// </summary>
-  public sealed partial class DeleteOperationRequest : pb::IMessage<DeleteOperationRequest>
+  public sealed partial class Operation : pb::IMessage<Operation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<DeleteOperationRequest> _parser = new pb::MessageParser<DeleteOperationRequest>(() => new DeleteOperationRequest());
+    private static readonly pb::MessageParser<Operation> _parser = new pb::MessageParser<Operation>(() => new Operation());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DeleteOperationRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<Operation> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -87,30 +86,41 @@ namespace Saltoapis.Longrunning.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteOperationRequest() {
+    public Operation() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteOperationRequest(DeleteOperationRequest other) : this() {
+    public Operation(Operation other) : this() {
       name_ = other.name_;
+      metadata_ = other.metadata_ != null ? other.metadata_.Clone() : null;
+      done_ = other.done_;
+      switch (other.ResultCase) {
+        case ResultOneofCase.Error:
+          Error = other.Error.Clone();
+          break;
+        case ResultOneofCase.Response:
+          Response = other.Response.Clone();
+          break;
+      }
+
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DeleteOperationRequest Clone() {
-      return new DeleteOperationRequest(this);
+    public Operation Clone() {
+      return new Operation(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// The resource name of the operation to be deleted. For example:
-    /// `operations/01ds5r5cbjr9hvke5f6c5s7nm0`.
-    /// Format: operations/{operation}
+    /// The server-assigned name, which is only unique within the same service
+    /// that originally returns it. If you use the default HTTP mapping, the
+    /// `name` should have the format of `operations/some/unique/name`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -120,13 +130,100 @@ namespace Saltoapis.Longrunning.V1 {
       }
     }
 
+    /// <summary>Field number for the "metadata" field.</summary>
+    public const int MetadataFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Any metadata_;
+    /// <summary>
+    /// Service-specific metadata associated with the operation. It typically
+    /// contains progress information and common metadata such as create time.
+    /// Some services might not provide such metadata. Any method that returns a
+    /// long-running operation should document the metadata type, if any.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DeleteOperationRequest);
+    public global::Google.Protobuf.WellKnownTypes.Any Metadata {
+      get { return metadata_; }
+      set {
+        metadata_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "done" field.</summary>
+    public const int DoneFieldNumber = 3;
+    private bool done_;
+    /// <summary>
+    /// If the value is `false`, it means the operation is still in progress. If
+    /// true, the operation is completed, and either `error` or `response` is
+    /// available.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Done {
+      get { return done_; }
+      set {
+        done_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 4;
+    /// <summary>
+    /// The error result of the operation in case of failure or cancellation.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Rpc.Status Error {
+      get { return resultCase_ == ResultOneofCase.Error ? (global::Google.Rpc.Status) result_ : null; }
+      set {
+        result_ = value;
+        resultCase_ = value == null ? ResultOneofCase.None : ResultOneofCase.Error;
+      }
+    }
+
+    /// <summary>Field number for the "response" field.</summary>
+    public const int ResponseFieldNumber = 5;
+    /// <summary>
+    /// The normal response of the operation in case of success. If the
+    /// original method returns no data on success, such as `Delete`, the
+    /// response is `google.protobuf.Empty`. If the original method is
+    /// standard `Get`/`Create`/`Update`, the response should be the
+    /// resource. For other methods, the response should have the type
+    /// `XxxResponse`, where `Xxx` is the original method name. For example:
+    /// if the original method name is `AssignMobileKey()`, the inferred
+    /// response type is `AssignMobileKeyResponse`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Any Response {
+      get { return resultCase_ == ResultOneofCase.Response ? (global::Google.Protobuf.WellKnownTypes.Any) result_ : null; }
+      set {
+        result_ = value;
+        resultCase_ = value == null ? ResultOneofCase.None : ResultOneofCase.Response;
+      }
+    }
+
+    private object result_;
+    /// <summary>Enum of possible cases for the "result" oneof.</summary>
+    public enum ResultOneofCase {
+      None = 0,
+      Error = 4,
+      Response = 5,
+    }
+    private ResultOneofCase resultCase_ = ResultOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ResultOneofCase ResultCase {
+      get { return resultCase_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DeleteOperationRequest other) {
+    public void ClearResult() {
+      resultCase_ = ResultOneofCase.None;
+      result_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Operation);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Operation other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -134,6 +231,11 @@ namespace Saltoapis.Longrunning.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (!object.Equals(Metadata, other.Metadata)) return false;
+      if (Done != other.Done) return false;
+      if (!object.Equals(Error, other.Error)) return false;
+      if (!object.Equals(Response, other.Response)) return false;
+      if (ResultCase != other.ResultCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -141,6 +243,11 @@ namespace Saltoapis.Longrunning.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (metadata_ != null) hash ^= Metadata.GetHashCode();
+      if (Done != false) hash ^= Done.GetHashCode();
+      if (resultCase_ == ResultOneofCase.Error) hash ^= Error.GetHashCode();
+      if (resultCase_ == ResultOneofCase.Response) hash ^= Response.GetHashCode();
+      hash ^= (int) resultCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -161,6 +268,22 @@ namespace Saltoapis.Longrunning.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (metadata_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Metadata);
+      }
+      if (Done != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Done);
+      }
+      if (resultCase_ == ResultOneofCase.Error) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Error);
+      }
+      if (resultCase_ == ResultOneofCase.Response) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Response);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -174,6 +297,22 @@ namespace Saltoapis.Longrunning.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (metadata_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Metadata);
+      }
+      if (Done != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Done);
+      }
+      if (resultCase_ == ResultOneofCase.Error) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Error);
+      }
+      if (resultCase_ == ResultOneofCase.Response) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Response);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -186,6 +325,18 @@ namespace Saltoapis.Longrunning.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
+      if (metadata_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Metadata);
+      }
+      if (Done != false) {
+        size += 1 + 1;
+      }
+      if (resultCase_ == ResultOneofCase.Error) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Error);
+      }
+      if (resultCase_ == ResultOneofCase.Response) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Response);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -193,13 +344,37 @@ namespace Saltoapis.Longrunning.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DeleteOperationRequest other) {
+    public void MergeFrom(Operation other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
+      if (other.metadata_ != null) {
+        if (metadata_ == null) {
+          Metadata = new global::Google.Protobuf.WellKnownTypes.Any();
+        }
+        Metadata.MergeFrom(other.Metadata);
+      }
+      if (other.Done != false) {
+        Done = other.Done;
+      }
+      switch (other.ResultCase) {
+        case ResultOneofCase.Error:
+          if (Error == null) {
+            Error = new global::Google.Rpc.Status();
+          }
+          Error.MergeFrom(other.Error);
+          break;
+        case ResultOneofCase.Response:
+          if (Response == null) {
+            Response = new global::Google.Protobuf.WellKnownTypes.Any();
+          }
+          Response.MergeFrom(other.Response);
+          break;
+      }
+
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -218,6 +393,35 @@ namespace Saltoapis.Longrunning.V1 {
             Name = input.ReadString();
             break;
           }
+          case 18: {
+            if (metadata_ == null) {
+              Metadata = new global::Google.Protobuf.WellKnownTypes.Any();
+            }
+            input.ReadMessage(Metadata);
+            break;
+          }
+          case 24: {
+            Done = input.ReadBool();
+            break;
+          }
+          case 34: {
+            global::Google.Rpc.Status subBuilder = new global::Google.Rpc.Status();
+            if (resultCase_ == ResultOneofCase.Error) {
+              subBuilder.MergeFrom(Error);
+            }
+            input.ReadMessage(subBuilder);
+            Error = subBuilder;
+            break;
+          }
+          case 42: {
+            global::Google.Protobuf.WellKnownTypes.Any subBuilder = new global::Google.Protobuf.WellKnownTypes.Any();
+            if (resultCase_ == ResultOneofCase.Response) {
+              subBuilder.MergeFrom(Response);
+            }
+            input.ReadMessage(subBuilder);
+            Response = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -234,6 +438,35 @@ namespace Saltoapis.Longrunning.V1 {
             break;
           case 10: {
             Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (metadata_ == null) {
+              Metadata = new global::Google.Protobuf.WellKnownTypes.Any();
+            }
+            input.ReadMessage(Metadata);
+            break;
+          }
+          case 24: {
+            Done = input.ReadBool();
+            break;
+          }
+          case 34: {
+            global::Google.Rpc.Status subBuilder = new global::Google.Rpc.Status();
+            if (resultCase_ == ResultOneofCase.Error) {
+              subBuilder.MergeFrom(Error);
+            }
+            input.ReadMessage(subBuilder);
+            Error = subBuilder;
+            break;
+          }
+          case 42: {
+            global::Google.Protobuf.WellKnownTypes.Any subBuilder = new global::Google.Protobuf.WellKnownTypes.Any();
+            if (resultCase_ == ResultOneofCase.Response) {
+              subBuilder.MergeFrom(Response);
+            }
+            input.ReadMessage(subBuilder);
+            Response = subBuilder;
             break;
           }
         }
@@ -889,17 +1122,18 @@ namespace Saltoapis.Longrunning.V1 {
   }
 
   /// <summary>
-  /// The long-running operation object
+  /// The request message for
+  /// [`OperationService.DeleteOperation`][salto.longrunning.v1.OperationService.DeleteOperation].
   /// </summary>
-  public sealed partial class Operation : pb::IMessage<Operation>
+  public sealed partial class DeleteOperationRequest : pb::IMessage<DeleteOperationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<Operation> _parser = new pb::MessageParser<Operation>(() => new Operation());
+    private static readonly pb::MessageParser<DeleteOperationRequest> _parser = new pb::MessageParser<DeleteOperationRequest>(() => new DeleteOperationRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<Operation> Parser { get { return _parser; } }
+    public static pb::MessageParser<DeleteOperationRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -912,41 +1146,30 @@ namespace Saltoapis.Longrunning.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Operation() {
+    public DeleteOperationRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Operation(Operation other) : this() {
+    public DeleteOperationRequest(DeleteOperationRequest other) : this() {
       name_ = other.name_;
-      metadata_ = other.metadata_ != null ? other.metadata_.Clone() : null;
-      done_ = other.done_;
-      switch (other.ResultCase) {
-        case ResultOneofCase.Error:
-          Error = other.Error.Clone();
-          break;
-        case ResultOneofCase.Response:
-          Response = other.Response.Clone();
-          break;
-      }
-
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Operation Clone() {
-      return new Operation(this);
+    public DeleteOperationRequest Clone() {
+      return new DeleteOperationRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// The server-assigned name, which is only unique within the same service
-    /// that originally returns it. If you use the default HTTP mapping, the
-    /// `name` should have the format of `operations/some/unique/name`.
+    /// The resource name of the operation to be deleted. For example:
+    /// `operations/01ds5r5cbjr9hvke5f6c5s7nm0`.
+    /// Format: operations/{operation}
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -956,100 +1179,13 @@ namespace Saltoapis.Longrunning.V1 {
       }
     }
 
-    /// <summary>Field number for the "metadata" field.</summary>
-    public const int MetadataFieldNumber = 2;
-    private global::Google.Protobuf.WellKnownTypes.Any metadata_;
-    /// <summary>
-    /// Service-specific metadata associated with the operation. It typically
-    /// contains progress information and common metadata such as create time.
-    /// Some services might not provide such metadata. Any method that returns a
-    /// long-running operation should document the metadata type, if any.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Any Metadata {
-      get { return metadata_; }
-      set {
-        metadata_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "done" field.</summary>
-    public const int DoneFieldNumber = 3;
-    private bool done_;
-    /// <summary>
-    /// If the value is `false`, it means the operation is still in progress. If
-    /// true, the operation is completed, and either `error` or `response` is
-    /// available.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Done {
-      get { return done_; }
-      set {
-        done_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "error" field.</summary>
-    public const int ErrorFieldNumber = 4;
-    /// <summary>
-    /// The error result of the operation in case of failure or cancellation.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Rpc.Status Error {
-      get { return resultCase_ == ResultOneofCase.Error ? (global::Google.Rpc.Status) result_ : null; }
-      set {
-        result_ = value;
-        resultCase_ = value == null ? ResultOneofCase.None : ResultOneofCase.Error;
-      }
-    }
-
-    /// <summary>Field number for the "response" field.</summary>
-    public const int ResponseFieldNumber = 5;
-    /// <summary>
-    /// The normal response of the operation in case of success. If the
-    /// original method returns no data on success, such as `Delete`, the
-    /// response is `google.protobuf.Empty`. If the original method is
-    /// standard `Get`/`Create`/`Update`, the response should be the
-    /// resource. For other methods, the response should have the type
-    /// `XxxResponse`, where `Xxx` is the original method name. For example:
-    /// if the original method name is `AssignMobileKey()`, the inferred
-    /// response type is `AssignMobileKeyResponse`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Any Response {
-      get { return resultCase_ == ResultOneofCase.Response ? (global::Google.Protobuf.WellKnownTypes.Any) result_ : null; }
-      set {
-        result_ = value;
-        resultCase_ = value == null ? ResultOneofCase.None : ResultOneofCase.Response;
-      }
-    }
-
-    private object result_;
-    /// <summary>Enum of possible cases for the "result" oneof.</summary>
-    public enum ResultOneofCase {
-      None = 0,
-      Error = 4,
-      Response = 5,
-    }
-    private ResultOneofCase resultCase_ = ResultOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ResultOneofCase ResultCase {
-      get { return resultCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void ClearResult() {
-      resultCase_ = ResultOneofCase.None;
-      result_ = null;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as Operation);
+      return Equals(other as DeleteOperationRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(Operation other) {
+    public bool Equals(DeleteOperationRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1057,11 +1193,6 @@ namespace Saltoapis.Longrunning.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!object.Equals(Metadata, other.Metadata)) return false;
-      if (Done != other.Done) return false;
-      if (!object.Equals(Error, other.Error)) return false;
-      if (!object.Equals(Response, other.Response)) return false;
-      if (ResultCase != other.ResultCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1069,11 +1200,6 @@ namespace Saltoapis.Longrunning.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (metadata_ != null) hash ^= Metadata.GetHashCode();
-      if (Done != false) hash ^= Done.GetHashCode();
-      if (resultCase_ == ResultOneofCase.Error) hash ^= Error.GetHashCode();
-      if (resultCase_ == ResultOneofCase.Response) hash ^= Response.GetHashCode();
-      hash ^= (int) resultCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1094,22 +1220,6 @@ namespace Saltoapis.Longrunning.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (metadata_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Metadata);
-      }
-      if (Done != false) {
-        output.WriteRawTag(24);
-        output.WriteBool(Done);
-      }
-      if (resultCase_ == ResultOneofCase.Error) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Error);
-      }
-      if (resultCase_ == ResultOneofCase.Response) {
-        output.WriteRawTag(42);
-        output.WriteMessage(Response);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1123,22 +1233,6 @@ namespace Saltoapis.Longrunning.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (metadata_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Metadata);
-      }
-      if (Done != false) {
-        output.WriteRawTag(24);
-        output.WriteBool(Done);
-      }
-      if (resultCase_ == ResultOneofCase.Error) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Error);
-      }
-      if (resultCase_ == ResultOneofCase.Response) {
-        output.WriteRawTag(42);
-        output.WriteMessage(Response);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1151,18 +1245,6 @@ namespace Saltoapis.Longrunning.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (metadata_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Metadata);
-      }
-      if (Done != false) {
-        size += 1 + 1;
-      }
-      if (resultCase_ == ResultOneofCase.Error) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Error);
-      }
-      if (resultCase_ == ResultOneofCase.Response) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Response);
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1170,37 +1252,13 @@ namespace Saltoapis.Longrunning.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(Operation other) {
+    public void MergeFrom(DeleteOperationRequest other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.metadata_ != null) {
-        if (metadata_ == null) {
-          Metadata = new global::Google.Protobuf.WellKnownTypes.Any();
-        }
-        Metadata.MergeFrom(other.Metadata);
-      }
-      if (other.Done != false) {
-        Done = other.Done;
-      }
-      switch (other.ResultCase) {
-        case ResultOneofCase.Error:
-          if (Error == null) {
-            Error = new global::Google.Rpc.Status();
-          }
-          Error.MergeFrom(other.Error);
-          break;
-        case ResultOneofCase.Response:
-          if (Response == null) {
-            Response = new global::Google.Protobuf.WellKnownTypes.Any();
-          }
-          Response.MergeFrom(other.Response);
-          break;
-      }
-
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1219,35 +1277,6 @@ namespace Saltoapis.Longrunning.V1 {
             Name = input.ReadString();
             break;
           }
-          case 18: {
-            if (metadata_ == null) {
-              Metadata = new global::Google.Protobuf.WellKnownTypes.Any();
-            }
-            input.ReadMessage(Metadata);
-            break;
-          }
-          case 24: {
-            Done = input.ReadBool();
-            break;
-          }
-          case 34: {
-            global::Google.Rpc.Status subBuilder = new global::Google.Rpc.Status();
-            if (resultCase_ == ResultOneofCase.Error) {
-              subBuilder.MergeFrom(Error);
-            }
-            input.ReadMessage(subBuilder);
-            Error = subBuilder;
-            break;
-          }
-          case 42: {
-            global::Google.Protobuf.WellKnownTypes.Any subBuilder = new global::Google.Protobuf.WellKnownTypes.Any();
-            if (resultCase_ == ResultOneofCase.Response) {
-              subBuilder.MergeFrom(Response);
-            }
-            input.ReadMessage(subBuilder);
-            Response = subBuilder;
-            break;
-          }
         }
       }
     #endif
@@ -1264,35 +1293,6 @@ namespace Saltoapis.Longrunning.V1 {
             break;
           case 10: {
             Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            if (metadata_ == null) {
-              Metadata = new global::Google.Protobuf.WellKnownTypes.Any();
-            }
-            input.ReadMessage(Metadata);
-            break;
-          }
-          case 24: {
-            Done = input.ReadBool();
-            break;
-          }
-          case 34: {
-            global::Google.Rpc.Status subBuilder = new global::Google.Rpc.Status();
-            if (resultCase_ == ResultOneofCase.Error) {
-              subBuilder.MergeFrom(Error);
-            }
-            input.ReadMessage(subBuilder);
-            Error = subBuilder;
-            break;
-          }
-          case 42: {
-            global::Google.Protobuf.WellKnownTypes.Any subBuilder = new global::Google.Protobuf.WellKnownTypes.Any();
-            if (resultCase_ == ResultOneofCase.Response) {
-              subBuilder.MergeFrom(Response);
-            }
-            input.ReadMessage(subBuilder);
-            Response = subBuilder;
             break;
           }
         }

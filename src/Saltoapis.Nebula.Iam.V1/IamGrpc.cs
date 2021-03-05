@@ -21,12 +21,12 @@ namespace Saltoapis.Nebula.Iam.V1 {
 
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest> __Marshaller_salto_nebula_iam_v1_CreateRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.Role> __Marshaller_salto_nebula_iam_v1_Role = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.Role.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest> __Marshaller_salto_nebula_iam_v1_DeleteRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.GetRoleRequest> __Marshaller_salto_nebula_iam_v1_GetRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.GetRoleRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.ListRolesRequest> __Marshaller_salto_nebula_iam_v1_ListRolesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.ListRolesRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.ListRolesResponse> __Marshaller_salto_nebula_iam_v1_ListRolesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.ListRolesResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest> __Marshaller_salto_nebula_iam_v1_UpdateRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest> __Marshaller_salto_nebula_iam_v1_DeleteRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role> __Method_CreateRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role>(
         grpc::MethodType.Unary,
@@ -34,13 +34,6 @@ namespace Saltoapis.Nebula.Iam.V1 {
         "CreateRole",
         __Marshaller_salto_nebula_iam_v1_CreateRoleRequest,
         __Marshaller_salto_nebula_iam_v1_Role);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteRole",
-        __Marshaller_salto_nebula_iam_v1_DeleteRoleRequest,
-        __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.GetRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role> __Method_GetRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.GetRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role>(
         grpc::MethodType.Unary,
@@ -62,6 +55,13 @@ namespace Saltoapis.Nebula.Iam.V1 {
         "UpdateRole",
         __Marshaller_salto_nebula_iam_v1_UpdateRoleRequest,
         __Marshaller_salto_nebula_iam_v1_Role);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteRole",
+        __Marshaller_salto_nebula_iam_v1_DeleteRoleRequest,
+        __Marshaller_google_protobuf_Empty);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -143,58 +143,6 @@ namespace Saltoapis.Nebula.Iam.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.Role> CreateRoleAsync(global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateRole, null, options, request);
-      }
-      /// <summary>
-      /// Delete a role
-      ///
-      /// Permanently deletes a role. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteRole(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteRole(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete a role
-      ///
-      /// Permanently deletes a role. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteRole(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteRole, null, options, request);
-      }
-      /// <summary>
-      /// Delete a role
-      ///
-      /// Permanently deletes a role. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteRoleAsync(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteRoleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete a role
-      ///
-      /// Permanently deletes a role. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteRoleAsync(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteRole, null, options, request);
       }
       /// <summary>
       /// Get a role
@@ -351,6 +299,58 @@ namespace Saltoapis.Nebula.Iam.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.Role> UpdateRoleAsync(global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateRole, null, options, request);
+      }
+      /// <summary>
+      /// Delete a role
+      ///
+      /// Permanently deletes a role. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteRole(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteRole(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a role
+      ///
+      /// Permanently deletes a role. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteRole(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteRole, null, options, request);
+      }
+      /// <summary>
+      /// Delete a role
+      ///
+      /// Permanently deletes a role. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteRoleAsync(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteRoleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a role
+      ///
+      /// Permanently deletes a role. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteRoleAsync(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteRole, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override IAMServiceClient NewInstance(ClientBaseConfiguration configuration)
