@@ -41,6 +41,10 @@ namespace Saltoapis.Nebula.User.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AppKey> __Marshaller_salto_nebula_user_v1_AppKey = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.User.V1.AppKey.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest> __Marshaller_salto_nebula_user_v1_AssignAppKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest> __Marshaller_salto_nebula_user_v1_CancelAppKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest> __Marshaller_salto_nebula_user_v1_UpdateWalletKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.WalletKey> __Marshaller_salto_nebula_user_v1_WalletKey = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.User.V1.WalletKey.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest> __Marshaller_salto_nebula_user_v1_AssignWalletKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest> __Marshaller_salto_nebula_user_v1_CancelWalletKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserRequest, global::Saltoapis.Nebula.User.V1.User> __Method_CreateUser = new grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserRequest, global::Saltoapis.Nebula.User.V1.User>(
         grpc::MethodType.Unary,
@@ -153,6 +157,27 @@ namespace Saltoapis.Nebula.User.V1 {
         "CancelAppKey",
         __Marshaller_salto_nebula_user_v1_CancelAppKeyRequest,
         __Marshaller_salto_nebula_user_v1_AppKey);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey> __Method_UpdateWalletKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateWalletKey",
+        __Marshaller_salto_nebula_user_v1_UpdateWalletKeyRequest,
+        __Marshaller_salto_nebula_user_v1_WalletKey);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey> __Method_AssignWalletKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AssignWalletKey",
+        __Marshaller_salto_nebula_user_v1_AssignWalletKeyRequest,
+        __Marshaller_salto_nebula_user_v1_WalletKey);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey> __Method_CancelWalletKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CancelWalletKey",
+        __Marshaller_salto_nebula_user_v1_CancelWalletKeyRequest,
+        __Marshaller_salto_nebula_user_v1_WalletKey);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -1014,6 +1039,162 @@ namespace Saltoapis.Nebula.User.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AppKey> CancelAppKeyAsync(global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CancelAppKey, null, options, request);
+      }
+      /// <summary>
+      /// Update an wallet key
+      ///
+      /// Updates an existing user's wallet key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.User.V1.WalletKey UpdateWalletKey(global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateWalletKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update an wallet key
+      ///
+      /// Updates an existing user's wallet key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.User.V1.WalletKey UpdateWalletKey(global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateWalletKey, null, options, request);
+      }
+      /// <summary>
+      /// Update an wallet key
+      ///
+      /// Updates an existing user's wallet key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.WalletKey> UpdateWalletKeyAsync(global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateWalletKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update an wallet key
+      ///
+      /// Updates an existing user's wallet key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.WalletKey> UpdateWalletKeyAsync(global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateWalletKey, null, options, request);
+      }
+      /// <summary>
+      /// Assign an wallet key
+      ///
+      /// Assigns an wallet key to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.User.V1.WalletKey AssignWalletKey(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AssignWalletKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Assign an wallet key
+      ///
+      /// Assigns an wallet key to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.User.V1.WalletKey AssignWalletKey(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AssignWalletKey, null, options, request);
+      }
+      /// <summary>
+      /// Assign an wallet key
+      ///
+      /// Assigns an wallet key to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.WalletKey> AssignWalletKeyAsync(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AssignWalletKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Assign an wallet key
+      ///
+      /// Assigns an wallet key to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.WalletKey> AssignWalletKeyAsync(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AssignWalletKey, null, options, request);
+      }
+      /// <summary>
+      /// Cancel an wallet key
+      ///
+      /// Cancels an existing user's wallet key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.User.V1.WalletKey CancelWalletKey(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelWalletKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Cancel an wallet key
+      ///
+      /// Cancels an existing user's wallet key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.User.V1.WalletKey CancelWalletKey(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CancelWalletKey, null, options, request);
+      }
+      /// <summary>
+      /// Cancel an wallet key
+      ///
+      /// Cancels an existing user's wallet key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.WalletKey> CancelWalletKeyAsync(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelWalletKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Cancel an wallet key
+      ///
+      /// Cancels an existing user's wallet key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.WalletKey> CancelWalletKeyAsync(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CancelWalletKey, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override UserServiceClient NewInstance(ClientBaseConfiguration configuration)
