@@ -29,96 +29,105 @@ namespace Saltoapis.Nebula.User.V1 {
             "bGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxofZ29vZ2xlL3Byb3RvYnVm",
             "L3RpbWVzdGFtcC5wcm90bxogc2FsdG8vbmVidWxhL3R5cGUvZGF5X3R5cGUu",
             "cHJvdG8aHHNhbHRvL3R5cGUvZGF5X29mX3dlZWsucHJvdG8aHHNhbHRvL3R5",
-            "cGUvdGltZV9vZl9kYXkucHJvdG8iyAIKBFVzZXISDAoEbmFtZRgBIAEoCRIS",
+            "cGUvdGltZV9vZl9kYXkucHJvdG8iiwIKBFVzZXISDAoEbmFtZRgBIAEoCRIS",
             "CgpnaXZlbl9uYW1lGAIgASgJEhMKC2ZhbWlseV9uYW1lGAMgASgJEhQKDGRp",
             "c3BsYXlfbmFtZRgEIAEoCRINCgVlbWFpbBgFIAEoCRIxCg1hY3RpdmF0ZV90",
             "aW1lGAYgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIvCgtleHBp",
             "cmVfdGltZRgHIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDQoF",
-            "cGhvdG8YCCABKAkSEQoJcGhvdG9fdXJpGAkgASgJEi8KCGNhcmRfa2V5GAog",
-            "ASgLMh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleRItCgdhcHBfa2V5",
-            "GAsgASgLMhwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5InkKC0FjY2Vz",
-            "c1JpZ2h0EgwKBG5hbWUYASABKAkSFAoMYWNjZXNzX3JpZ2h0GAIgASgJEhQK",
-            "DGRpc3BsYXlfbmFtZRgDIAEoCRIwCghzY2hlZHVsZRgEIAEoCzIeLnNhbHRv",
-            "Lm5lYnVsYS51c2VyLnYxLlNjaGVkdWxlIqsCCgdDYXJkS2V5EgsKA3VpZBgB",
-            "IAEoCRI/Cgxhc3NpZ25fc3RhdGUYAiABKA4yKS5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5DYXJkS2V5LkFzc2lnblN0YXRlEj8KDHVwZGF0ZV9zdGF0ZRgDIAEo",
-            "DjIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhcmRLZXkuVXBkYXRlU3RhdGUi",
-            "SQoLQXNzaWduU3RhdGUSHAoYQVNTSUdOX1NUQVRFX1VOU1BFQ0lGSUVEEAAS",
-            "DgoKVU5BU1NJR05FRBABEgwKCEFTU0lHTkVEEAIiRgoLVXBkYXRlU3RhdGUS",
-            "HAoYVVBEQVRFX1NUQVRFX1VOU1BFQ0lGSUVEEAASDAoIT1VUREFURUQQARIL",
-            "CgdVUERBVEVEEAIiHAoGQXBwS2V5EhIKCm1vYmlsZV9rZXkYASABKAki8QEK",
-            "CFNjaGVkdWxlEjAKBGRheXMYASADKAsyIi5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5TY2hlZHVsZS5EYXkSKQoKc3RhcnRfdGltZRgCIAEoCzIVLnNhbHRvLnR5",
-            "cGUuVGltZU9mRGF5EicKCGVuZF90aW1lGAMgASgLMhUuc2FsdG8udHlwZS5U",
-            "aW1lT2ZEYXkaXwoDRGF5EiwKCGRheV90eXBlGAEgASgOMhouc2FsdG8ubmVi",
-            "dWxhLnR5cGUuRGF5VHlwZRIqCgtkYXlfb2Zfd2VlaxgCIAEoDjIVLnNhbHRv",
-            "LnR5cGUuRGF5T2ZXZWVrIl4KEUNyZWF0ZVVzZXJSZXF1ZXN0Eg4KBnBhcmVu",
-            "dBgBIAEoCRIPCgd1c2VyX2lkGAIgASgJEigKBHVzZXIYAyABKAsyGi5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5Vc2VyIh4KDkdldFVzZXJSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkiawoQTGlzdFVzZXJzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkS",
-            "EQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmls",
-            "dGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIlcKEUxpc3RVc2Vyc1Jlc3Bv",
-            "bnNlEikKBXVzZXJzGAEgAygLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNl",
-            "chIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkibgoRVXBkYXRlVXNlclJlcXVl",
-            "c3QSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIS",
-            "LwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRN",
-            "YXNrIiEKEURlbGV0ZVVzZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiYwoYQ3Jl",
-            "YXRlQWNjZXNzUmlnaHRSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRI3CgxhY2Nl",
-            "c3NfcmlnaHQYAiABKAsyIS5zYWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NS",
-            "aWdodCIlChVHZXRBY2Nlc3NSaWdodFJlcXVlc3QSDAoEbmFtZRgBIAEoCSJy",
-            "ChdMaXN0QWNjZXNzUmlnaHRzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJ",
-            "cGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVy",
-            "GAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIm0KGExpc3RBY2Nlc3NSaWdodHNS",
-            "ZXNwb25zZRI4Cg1hY2Nlc3NfcmlnaHRzGAEgAygLMiEuc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuQWNjZXNzUmlnaHQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJ",
-            "IoQBChhVcGRhdGVBY2Nlc3NSaWdodFJlcXVlc3QSNwoMYWNjZXNzX3JpZ2h0",
-            "GAEgASgLMiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSLwoL",
-            "dXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNr",
-            "IigKGERlbGV0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBIMCgRuYW1lGAEgASgJIlwK",
-            "FEVuY29kZUNhcmRLZXlSZXF1ZXN0EgwKBHVzZXIYASABKAkSEQoHZW5jb2Rl",
-            "chgCIAEoCUgAEhkKD2VsZWN0cm9uaWNfbG9jaxgDIAEoCUgAQggKBmRldmlj",
-            "ZSIkChRDYW5jZWxDYXJkS2V5UmVxdWVzdBIMCgR1c2VyGAEgASgJIiMKE0Fz",
-            "c2lnbkFwcEtleVJlcXVlc3QSDAoEdXNlchgBIAEoCSIjChNDYW5jZWxBcHBL",
-            "ZXlSZXF1ZXN0EgwKBHVzZXIYASABKAkyiwoKC1VzZXJTZXJ2aWNlElEKCkNy",
-            "ZWF0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNlci52MS5DcmVhdGVVc2VyUmVx",
-            "dWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISSwoHR2V0VXNlchIk",
-            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLkdldFVzZXJSZXF1ZXN0Ghouc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuVXNlchJcCglMaXN0VXNlcnMSJi5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5MaXN0VXNlcnNSZXF1ZXN0Gicuc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuTGlzdFVzZXJzUmVzcG9uc2USUQoKVXBkYXRlVXNlchInLnNhbHRv",
-            "Lm5lYnVsYS51c2VyLnYxLlVwZGF0ZVVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuVXNlchJNCgpEZWxldGVVc2VyEicuc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuRGVsZXRlVXNlclJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYu",
-            "RW1wdHkSZgoRQ3JlYXRlQWNjZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5DcmVhdGVBY2Nlc3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5BY2Nlc3NSaWdodBJgCg5HZXRBY2Nlc3NSaWdodBIrLnNhbHRv",
-            "Lm5lYnVsYS51c2VyLnYxLkdldEFjY2Vzc1JpZ2h0UmVxdWVzdBohLnNhbHRv",
-            "Lm5lYnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0EnEKEExpc3RBY2Nlc3NSaWdo",
-            "dHMSLS5zYWx0by5uZWJ1bGEudXNlci52MS5MaXN0QWNjZXNzUmlnaHRzUmVx",
-            "dWVzdBouLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RBY2Nlc3NSaWdodHNS",
-            "ZXNwb25zZRJmChFVcGRhdGVBY2Nlc3NSaWdodBIuLnNhbHRvLm5lYnVsYS51",
-            "c2VyLnYxLlVwZGF0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBohLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLkFjY2Vzc1JpZ2h0ElsKEURlbGV0ZUFjY2Vzc1JpZ2h0Ei4u",
-            "c2FsdG8ubmVidWxhLnVzZXIudjEuRGVsZXRlQWNjZXNzUmlnaHRSZXF1ZXN0",
-            "GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5ElMKDUVuY29kZUNhcmRLZXkSKi5z",
-            "YWx0by5uZWJ1bGEudXNlci52MS5FbmNvZGVDYXJkS2V5UmVxdWVzdBoWLmdv",
-            "b2dsZS5wcm90b2J1Zi5FbXB0eRJTCg1DYW5jZWxDYXJkS2V5Eiouc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuQ2FuY2VsQ2FyZEtleVJlcXVlc3QaFi5nb29nbGUu",
-            "cHJvdG9idWYuRW1wdHkSVwoMQXNzaWduQXBwS2V5Eikuc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuQXNzaWduQXBwS2V5UmVxdWVzdBocLnNhbHRvLm5lYnVsYS51",
-            "c2VyLnYxLkFwcEtleRJXCgxDYW5jZWxBcHBLZXkSKS5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5DYW5jZWxBcHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuQXBwS2V5Qo4BChxjb20uc2FsdG9hcGlzLm5lYnVsYS51c2VyLnYx",
-            "QglVc2VyUHJvdG9QAVpGZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMuY29tL3Nh",
-            "bHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL3VzZXIvdjE7dXNlcqoCGFNh",
-            "bHRvYXBpcy5OZWJ1bGEuVXNlci5WMWIGcHJvdG8z"));
+            "cGhvdG8YCCABKAkSEQoJcGhvdG9fdXJpGAkgASgJEhAKCGNhcmRfa2V5GAog",
+            "ASgJEg8KB2FwcF9rZXkYCyABKAkieQoLQWNjZXNzUmlnaHQSDAoEbmFtZRgB",
+            "IAEoCRIUCgxhY2Nlc3NfcmlnaHQYAiABKAkSFAoMZGlzcGxheV9uYW1lGAMg",
+            "ASgJEjAKCHNjaGVkdWxlGAQgASgLMh4uc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "U2NoZWR1bGUiuQIKB0NhcmRLZXkSDAoEbmFtZRgBIAEoCRILCgN1aWQYAiAB",
+            "KAkSPwoMYXNzaWduX3N0YXRlGAMgASgOMikuc2FsdG8ubmVidWxhLnVzZXIu",
+            "djEuQ2FyZEtleS5Bc3NpZ25TdGF0ZRI/Cgx1cGRhdGVfc3RhdGUYBCABKA4y",
+            "KS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5LlVwZGF0ZVN0YXRlIkkK",
+            "C0Fzc2lnblN0YXRlEhwKGEFTU0lHTl9TVEFURV9VTlNQRUNJRklFRBAAEg4K",
+            "ClVOQVNTSUdORUQQARIMCghBU1NJR05FRBACIkYKC1VwZGF0ZVN0YXRlEhwK",
+            "GFVQREFURV9TVEFURV9VTlNQRUNJRklFRBAAEgwKCE9VVERBVEVEEAESCwoH",
+            "VVBEQVRFRBACIioKBkFwcEtleRIMCgRuYW1lGAEgASgJEhIKCm1vYmlsZV9r",
+            "ZXkYAiABKAki8QEKCFNjaGVkdWxlEjAKBGRheXMYASADKAsyIi5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5TY2hlZHVsZS5EYXkSKQoKc3RhcnRfdGltZRgCIAEo",
+            "CzIVLnNhbHRvLnR5cGUuVGltZU9mRGF5EicKCGVuZF90aW1lGAMgASgLMhUu",
+            "c2FsdG8udHlwZS5UaW1lT2ZEYXkaXwoDRGF5EiwKCGRheV90eXBlGAEgASgO",
+            "Mhouc2FsdG8ubmVidWxhLnR5cGUuRGF5VHlwZRIqCgtkYXlfb2Zfd2VlaxgC",
+            "IAEoDjIVLnNhbHRvLnR5cGUuRGF5T2ZXZWVrIl4KEUNyZWF0ZVVzZXJSZXF1",
+            "ZXN0Eg4KBnBhcmVudBgBIAEoCRIPCgd1c2VyX2lkGAIgASgJEigKBHVzZXIY",
+            "AyABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIh4KDkdldFVzZXJS",
+            "ZXF1ZXN0EgwKBG5hbWUYASABKAkiawoQTGlzdFVzZXJzUmVxdWVzdBIOCgZw",
+            "YXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4Y",
+            "AyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIlcKEUxp",
+            "c3RVc2Vyc1Jlc3BvbnNlEikKBXVzZXJzGAEgAygLMhouc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuVXNlchIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkibgoRVXBk",
+            "YXRlVXNlclJlcXVlc3QSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51",
+            "c2VyLnYxLlVzZXISLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJv",
+            "dG9idWYuRmllbGRNYXNrIiEKEURlbGV0ZVVzZXJSZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAkiYwoYQ3JlYXRlQWNjZXNzUmlnaHRSZXF1ZXN0Eg4KBnBhcmVudBgB",
+            "IAEoCRI3CgxhY2Nlc3NfcmlnaHQYAiABKAsyIS5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5BY2Nlc3NSaWdodCIlChVHZXRBY2Nlc3NSaWdodFJlcXVlc3QSDAoE",
+            "bmFtZRgBIAEoCSJyChdMaXN0QWNjZXNzUmlnaHRzUmVxdWVzdBIOCgZwYXJl",
+            "bnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyAB",
+            "KAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIm0KGExpc3RB",
+            "Y2Nlc3NSaWdodHNSZXNwb25zZRI4Cg1hY2Nlc3NfcmlnaHRzGAEgAygLMiEu",
+            "c2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSFwoPbmV4dF9wYWdl",
+            "X3Rva2VuGAIgASgJIoQBChhVcGRhdGVBY2Nlc3NSaWdodFJlcXVlc3QSNwoM",
+            "YWNjZXNzX3JpZ2h0GAEgASgLMiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNj",
+            "ZXNzUmlnaHQSLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuRmllbGRNYXNrIigKGERlbGV0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBIMCgRu",
+            "YW1lGAEgASgJIngKFFVwZGF0ZUNhcmRLZXlSZXF1ZXN0Ei8KCGNhcmRfa2V5",
+            "GAEgASgLMh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleRIvCgt1cGRh",
+            "dGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siXAoU",
+            "RW5jb2RlQ2FyZEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCRIRCgdlbmNvZGVy",
+            "GAIgASgJSAASGQoPZWxlY3Ryb25pY19sb2NrGAMgASgJSABCCAoGZGV2aWNl",
+            "IiQKFENhbmNlbENhcmRLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkidQoTVXBk",
+            "YXRlQXBwS2V5UmVxdWVzdBItCgdhcHBfa2V5GAEgASgLMhwuc2FsdG8ubmVi",
+            "dWxhLnVzZXIudjEuQXBwS2V5Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLkZpZWxkTWFzayIjChNBc3NpZ25BcHBLZXlSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAkiIwoTQ2FuY2VsQXBwS2V5UmVxdWVzdBIMCgRuYW1l",
+            "GAEgASgJMsALCgtVc2VyU2VydmljZRJRCgpDcmVhdGVVc2VyEicuc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuQ3JlYXRlVXNlclJlcXVlc3QaGi5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5Vc2VyEksKB0dldFVzZXISJC5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5HZXRVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVz",
+            "ZXISXAoJTGlzdFVzZXJzEiYuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVz",
+            "ZXJzUmVxdWVzdBonLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RVc2Vyc1Jl",
+            "c3BvbnNlElEKClVwZGF0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNlci52MS5V",
+            "cGRhdGVVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIS",
+            "TQoKRGVsZXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLkRlbGV0ZVVz",
+            "ZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmYKEUNyZWF0ZUFj",
+            "Y2Vzc1JpZ2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlQWNjZXNz",
+            "UmlnaHRSZXF1ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmln",
+            "aHQSYAoOR2V0QWNjZXNzUmlnaHQSKy5zYWx0by5uZWJ1bGEudXNlci52MS5H",
+            "ZXRBY2Nlc3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNlci52MS5B",
+            "Y2Nlc3NSaWdodBJxChBMaXN0QWNjZXNzUmlnaHRzEi0uc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuTGlzdEFjY2Vzc1JpZ2h0c1JlcXVlc3QaLi5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5MaXN0QWNjZXNzUmlnaHRzUmVzcG9uc2USZgoRVXBkYXRl",
+            "QWNjZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52MS5VcGRhdGVBY2Nl",
+            "c3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NS",
+            "aWdodBJbChFEZWxldGVBY2Nlc3NSaWdodBIuLnNhbHRvLm5lYnVsYS51c2Vy",
+            "LnYxLkRlbGV0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1",
+            "Zi5FbXB0eRJaCg1VcGRhdGVDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIu",
+            "djEuVXBkYXRlQ2FyZEtleVJlcXVlc3QaHS5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5DYXJkS2V5ElMKDUVuY29kZUNhcmRLZXkSKi5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5FbmNvZGVDYXJkS2V5UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5F",
+            "bXB0eRJTCg1DYW5jZWxDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "Q2FuY2VsQ2FyZEtleVJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkS",
+            "VwoMVXBkYXRlQXBwS2V5Eikuc2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRl",
+            "QXBwS2V5UmVxdWVzdBocLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleRJX",
+            "CgxBc3NpZ25BcHBLZXkSKS5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25B",
+            "cHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5ElcK",
+            "DENhbmNlbEFwcEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbEFw",
+            "cEtleVJlcXVlc3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXlCjgEK",
+            "HGNvbS5zYWx0b2FwaXMubmVidWxhLnVzZXIudjFCCVVzZXJQcm90b1ABWkZn",
+            "aXRsYWIucm5kLnNhbHRvc3lzdGVtcy5jb20vc2FsdG9hcGlzL3NhbHRvYXBp",
+            "cy1nby9uZWJ1bGEvdXNlci92MTt1c2VyqgIYU2FsdG9hcGlzLk5lYnVsYS5V",
+            "c2VyLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.User), global::Saltoapis.Nebula.User.V1.User.Parser, new[]{ "Name", "GivenName", "FamilyName", "DisplayName", "Email", "ActivateTime", "ExpireTime", "Photo", "PhotoUri", "CardKey", "AppKey" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AccessRight), global::Saltoapis.Nebula.User.V1.AccessRight.Parser, new[]{ "Name", "AccessRight_", "DisplayName", "Schedule" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CardKey), global::Saltoapis.Nebula.User.V1.CardKey.Parser, new[]{ "Uid", "AssignState", "UpdateState" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState), typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AppKey), global::Saltoapis.Nebula.User.V1.AppKey.Parser, new[]{ "MobileKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CardKey), global::Saltoapis.Nebula.User.V1.CardKey.Parser, new[]{ "Name", "Uid", "AssignState", "UpdateState" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState), typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AppKey), global::Saltoapis.Nebula.User.V1.AppKey.Parser, new[]{ "Name", "MobileKey" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.Schedule), global::Saltoapis.Nebula.User.V1.Schedule.Parser, new[]{ "Days", "StartTime", "EndTime" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.Schedule.Types.Day), global::Saltoapis.Nebula.User.V1.Schedule.Types.Day.Parser, new[]{ "DayType", "DayOfWeek" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CreateUserRequest), global::Saltoapis.Nebula.User.V1.CreateUserRequest.Parser, new[]{ "Parent", "UserId", "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.GetUserRequest), global::Saltoapis.Nebula.User.V1.GetUserRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -132,10 +141,12 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse), global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse.Parser, new[]{ "AccessRights", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest), global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest.Parser, new[]{ "AccessRight", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest), global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest), global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest.Parser, new[]{ "User", "Encoder", "ElectronicLock" }, new[]{ "Device" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest), global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest.Parser, new[]{ "User" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser, new[]{ "User" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest), global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest.Parser, new[]{ "User" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest), global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest.Parser, new[]{ "CardKey", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest), global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest.Parser, new[]{ "Name", "Encoder", "ElectronicLock" }, new[]{ "Device" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest), global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest), global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest.Parser, new[]{ "AppKey", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest), global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion
@@ -183,8 +194,8 @@ namespace Saltoapis.Nebula.User.V1 {
       expireTime_ = other.expireTime_ != null ? other.expireTime_.Clone() : null;
       photo_ = other.photo_;
       photoUri_ = other.photoUri_;
-      cardKey_ = other.cardKey_ != null ? other.cardKey_.Clone() : null;
-      appKey_ = other.appKey_ != null ? other.appKey_.Clone() : null;
+      cardKey_ = other.cardKey_;
+      appKey_ = other.appKey_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -331,29 +342,29 @@ namespace Saltoapis.Nebula.User.V1 {
 
     /// <summary>Field number for the "card_key" field.</summary>
     public const int CardKeyFieldNumber = 10;
-    private global::Saltoapis.Nebula.User.V1.CardKey cardKey_;
+    private string cardKey_ = "";
     /// <summary>
-    /// The card key resource that belongs to the user.
+    /// Reference to the card key resource that belongs to the user.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.User.V1.CardKey CardKey {
+    public string CardKey {
       get { return cardKey_; }
       set {
-        cardKey_ = value;
+        cardKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "app_key" field.</summary>
     public const int AppKeyFieldNumber = 11;
-    private global::Saltoapis.Nebula.User.V1.AppKey appKey_;
+    private string appKey_ = "";
     /// <summary>
-    /// The app key resource that belongs to the user.
+    /// Reference to the app key resource that belongs to the user.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.User.V1.AppKey AppKey {
+    public string AppKey {
       get { return appKey_; }
       set {
-        appKey_ = value;
+        appKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -379,8 +390,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (!object.Equals(ExpireTime, other.ExpireTime)) return false;
       if (Photo != other.Photo) return false;
       if (PhotoUri != other.PhotoUri) return false;
-      if (!object.Equals(CardKey, other.CardKey)) return false;
-      if (!object.Equals(AppKey, other.AppKey)) return false;
+      if (CardKey != other.CardKey) return false;
+      if (AppKey != other.AppKey) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -396,8 +407,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (expireTime_ != null) hash ^= ExpireTime.GetHashCode();
       if (Photo.Length != 0) hash ^= Photo.GetHashCode();
       if (PhotoUri.Length != 0) hash ^= PhotoUri.GetHashCode();
-      if (cardKey_ != null) hash ^= CardKey.GetHashCode();
-      if (appKey_ != null) hash ^= AppKey.GetHashCode();
+      if (CardKey.Length != 0) hash ^= CardKey.GetHashCode();
+      if (AppKey.Length != 0) hash ^= AppKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -450,13 +461,13 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(74);
         output.WriteString(PhotoUri);
       }
-      if (cardKey_ != null) {
+      if (CardKey.Length != 0) {
         output.WriteRawTag(82);
-        output.WriteMessage(CardKey);
+        output.WriteString(CardKey);
       }
-      if (appKey_ != null) {
+      if (AppKey.Length != 0) {
         output.WriteRawTag(90);
-        output.WriteMessage(AppKey);
+        output.WriteString(AppKey);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -503,13 +514,13 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(74);
         output.WriteString(PhotoUri);
       }
-      if (cardKey_ != null) {
+      if (CardKey.Length != 0) {
         output.WriteRawTag(82);
-        output.WriteMessage(CardKey);
+        output.WriteString(CardKey);
       }
-      if (appKey_ != null) {
+      if (AppKey.Length != 0) {
         output.WriteRawTag(90);
-        output.WriteMessage(AppKey);
+        output.WriteString(AppKey);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -547,11 +558,11 @@ namespace Saltoapis.Nebula.User.V1 {
       if (PhotoUri.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(PhotoUri);
       }
-      if (cardKey_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CardKey);
+      if (CardKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CardKey);
       }
-      if (appKey_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AppKey);
+      if (AppKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AppKey);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -597,17 +608,11 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other.PhotoUri.Length != 0) {
         PhotoUri = other.PhotoUri;
       }
-      if (other.cardKey_ != null) {
-        if (cardKey_ == null) {
-          CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
-        }
-        CardKey.MergeFrom(other.CardKey);
+      if (other.CardKey.Length != 0) {
+        CardKey = other.CardKey;
       }
-      if (other.appKey_ != null) {
-        if (appKey_ == null) {
-          AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
-        }
-        AppKey.MergeFrom(other.AppKey);
+      if (other.AppKey.Length != 0) {
+        AppKey = other.AppKey;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -666,17 +671,11 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 82: {
-            if (cardKey_ == null) {
-              CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
-            }
-            input.ReadMessage(CardKey);
+            CardKey = input.ReadString();
             break;
           }
           case 90: {
-            if (appKey_ == null) {
-              AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
-            }
-            input.ReadMessage(AppKey);
+            AppKey = input.ReadString();
             break;
           }
         }
@@ -736,17 +735,11 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 82: {
-            if (cardKey_ == null) {
-              CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
-            }
-            input.ReadMessage(CardKey);
+            CardKey = input.ReadString();
             break;
           }
           case 90: {
-            if (appKey_ == null) {
-              AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
-            }
-            input.ReadMessage(AppKey);
+            AppKey = input.ReadString();
             break;
           }
         }
@@ -1098,6 +1091,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public CardKey(CardKey other) : this() {
+      name_ = other.name_;
       uid_ = other.uid_;
       assignState_ = other.assignState_;
       updateState_ = other.updateState_;
@@ -1109,8 +1103,24 @@ namespace Saltoapis.Nebula.User.V1 {
       return new CardKey(this);
     }
 
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// Output only. Resource name of the user's card key. It must have the
+    /// format of `installations/*/users/*/card-key`. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/card-key`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "uid" field.</summary>
-    public const int UidFieldNumber = 1;
+    public const int UidFieldNumber = 2;
     private string uid_ = "";
     /// <summary>
     /// Unique identifier of the physical card. Length dependent of technology.
@@ -1125,7 +1135,7 @@ namespace Saltoapis.Nebula.User.V1 {
     }
 
     /// <summary>Field number for the "assign_state" field.</summary>
-    public const int AssignStateFieldNumber = 2;
+    public const int AssignStateFieldNumber = 3;
     private global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState assignState_ = global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified;
     /// <summary>
     /// Indicates whether this card key has been assigned or not.
@@ -1146,7 +1156,7 @@ namespace Saltoapis.Nebula.User.V1 {
     }
 
     /// <summary>Field number for the "update_state" field.</summary>
-    public const int UpdateStateFieldNumber = 3;
+    public const int UpdateStateFieldNumber = 4;
     private global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState updateState_ = global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified;
     /// <summary>
     /// Indicates whether this card key has pending updates or not.
@@ -1179,6 +1189,7 @@ namespace Saltoapis.Nebula.User.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Name != other.Name) return false;
       if (Uid != other.Uid) return false;
       if (AssignState != other.AssignState) return false;
       if (UpdateState != other.UpdateState) return false;
@@ -1188,6 +1199,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Uid.Length != 0) hash ^= Uid.GetHashCode();
       if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) hash ^= AssignState.GetHashCode();
       if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) hash ^= UpdateState.GetHashCode();
@@ -1207,16 +1219,20 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Uid.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Uid.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(Uid);
       }
       if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(24);
         output.WriteEnum((int) AssignState);
       }
       if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) {
-        output.WriteRawTag(24);
+        output.WriteRawTag(32);
         output.WriteEnum((int) UpdateState);
       }
       if (_unknownFields != null) {
@@ -1228,16 +1244,20 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Uid.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Uid.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(Uid);
       }
       if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(24);
         output.WriteEnum((int) AssignState);
       }
       if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) {
-        output.WriteRawTag(24);
+        output.WriteRawTag(32);
         output.WriteEnum((int) UpdateState);
       }
       if (_unknownFields != null) {
@@ -1249,6 +1269,9 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
       if (Uid.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
       }
@@ -1268,6 +1291,9 @@ namespace Saltoapis.Nebula.User.V1 {
     public void MergeFrom(CardKey other) {
       if (other == null) {
         return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       if (other.Uid.Length != 0) {
         Uid = other.Uid;
@@ -1293,14 +1319,18 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
             Uid = input.ReadString();
             break;
           }
-          case 16: {
+          case 24: {
             AssignState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState) input.ReadEnum();
             break;
           }
-          case 24: {
+          case 32: {
             UpdateState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) input.ReadEnum();
             break;
           }
@@ -1319,14 +1349,18 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
             Uid = input.ReadString();
             break;
           }
-          case 16: {
+          case 24: {
             AssignState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState) input.ReadEnum();
             break;
           }
-          case 24: {
+          case 32: {
             UpdateState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) input.ReadEnum();
             break;
           }
@@ -1414,6 +1448,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public AppKey(AppKey other) : this() {
+      name_ = other.name_;
       mobileKey_ = other.mobileKey_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1423,8 +1458,24 @@ namespace Saltoapis.Nebula.User.V1 {
       return new AppKey(this);
     }
 
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// Resource name of the user's app key. It must have the
+    /// format of `installations/*/users/*/app-key`. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/app-key`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "mobile_key" field.</summary>
-    public const int MobileKeyFieldNumber = 1;
+    public const int MobileKeyFieldNumber = 2;
     private string mobileKey_ = "";
     /// <summary>
     /// Resource name of the global mobile key. It must have the
@@ -1451,6 +1502,7 @@ namespace Saltoapis.Nebula.User.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Name != other.Name) return false;
       if (MobileKey != other.MobileKey) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1458,6 +1510,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (MobileKey.Length != 0) hash ^= MobileKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1475,8 +1528,12 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (MobileKey.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (MobileKey.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(MobileKey);
       }
       if (_unknownFields != null) {
@@ -1488,8 +1545,12 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (MobileKey.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (MobileKey.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(MobileKey);
       }
       if (_unknownFields != null) {
@@ -1501,6 +1562,9 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
       if (MobileKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(MobileKey);
       }
@@ -1514,6 +1578,9 @@ namespace Saltoapis.Nebula.User.V1 {
     public void MergeFrom(AppKey other) {
       if (other == null) {
         return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       if (other.MobileKey.Length != 0) {
         MobileKey = other.MobileKey;
@@ -1533,6 +1600,10 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
             MobileKey = input.ReadString();
             break;
           }
@@ -1551,6 +1622,10 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
             MobileKey = input.ReadString();
             break;
           }
@@ -4826,6 +4901,241 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
+  /// The response message for [`UpdateCardKey`][salto.nebula.user.v1.UserService.UpdateCardKey]
+  /// </summary>
+  public sealed partial class UpdateCardKeyRequest : pb::IMessage<UpdateCardKeyRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateCardKeyRequest> _parser = new pb::MessageParser<UpdateCardKeyRequest>(() => new UpdateCardKeyRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateCardKeyRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateCardKeyRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateCardKeyRequest(UpdateCardKeyRequest other) : this() {
+      cardKey_ = other.cardKey_ != null ? other.cardKey_.Clone() : null;
+      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateCardKeyRequest Clone() {
+      return new UpdateCardKeyRequest(this);
+    }
+
+    /// <summary>Field number for the "card_key" field.</summary>
+    public const int CardKeyFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.CardKey cardKey_;
+    /// <summary>
+    /// The user's card key resource which replaces the resource on the server.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.User.V1.CardKey CardKey {
+      get { return cardKey_; }
+      set {
+        cardKey_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "update_mask" field.</summary>
+    public const int UpdateMaskFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// The update mask applied to the resource.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
+      get { return updateMask_; }
+      set {
+        updateMask_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateCardKeyRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateCardKeyRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(CardKey, other.CardKey)) return false;
+      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (cardKey_ != null) hash ^= CardKey.GetHashCode();
+      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (cardKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(CardKey);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(UpdateMask);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (cardKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(CardKey);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(UpdateMask);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (cardKey_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CardKey);
+      }
+      if (updateMask_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateCardKeyRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.cardKey_ != null) {
+        if (cardKey_ == null) {
+          CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
+        }
+        CardKey.MergeFrom(other.CardKey);
+      }
+      if (other.updateMask_ != null) {
+        if (updateMask_ == null) {
+          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+        }
+        UpdateMask.MergeFrom(other.UpdateMask);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (cardKey_ == null) {
+              CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
+            }
+            input.ReadMessage(CardKey);
+            break;
+          }
+          case 18: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (cardKey_ == null) {
+              CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
+            }
+            input.ReadMessage(CardKey);
+            break;
+          }
+          case 18: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The request message for [`EncodeCardKey`][salto.nebula.user.v1.UserService.EncodeCardKey]
   /// </summary>
   public sealed partial class EncodeCardKeyRequest : pb::IMessage<EncodeCardKeyRequest>
@@ -4840,7 +5150,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4857,7 +5167,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public EncodeCardKeyRequest(EncodeCardKeyRequest other) : this() {
-      user_ = other.user_;
+      name_ = other.name_;
       switch (other.DeviceCase) {
         case DeviceOneofCase.Encoder:
           Encoder = other.Encoder;
@@ -4875,18 +5185,18 @@ namespace Saltoapis.Nebula.User.V1 {
       return new EncodeCardKeyRequest(this);
     }
 
-    /// <summary>Field number for the "user" field.</summary>
-    public const int UserFieldNumber = 1;
-    private string user_ = "";
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
     /// <summary>
-    /// The name of the user whose card key will be encoded. For example:
-    /// `installations/surelock-homes-hq/users/john-watson`.
+    /// The name of the requested user's card key to be encoded. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/card-key`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string User {
-      get { return user_; }
+    public string Name {
+      get { return name_; }
       set {
-        user_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -4950,7 +5260,7 @@ namespace Saltoapis.Nebula.User.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (User != other.User) return false;
+      if (Name != other.Name) return false;
       if (Encoder != other.Encoder) return false;
       if (ElectronicLock != other.ElectronicLock) return false;
       if (DeviceCase != other.DeviceCase) return false;
@@ -4960,7 +5270,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (User.Length != 0) hash ^= User.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (deviceCase_ == DeviceOneofCase.Encoder) hash ^= Encoder.GetHashCode();
       if (deviceCase_ == DeviceOneofCase.ElectronicLock) hash ^= ElectronicLock.GetHashCode();
       hash ^= (int) deviceCase_;
@@ -4980,9 +5290,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (User.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(User);
+        output.WriteString(Name);
       }
       if (deviceCase_ == DeviceOneofCase.Encoder) {
         output.WriteRawTag(18);
@@ -5001,9 +5311,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (User.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(User);
+        output.WriteString(Name);
       }
       if (deviceCase_ == DeviceOneofCase.Encoder) {
         output.WriteRawTag(18);
@@ -5022,8 +5332,8 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (User.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(User);
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (deviceCase_ == DeviceOneofCase.Encoder) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Encoder);
@@ -5042,8 +5352,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other == null) {
         return;
       }
-      if (other.User.Length != 0) {
-        User = other.User;
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       switch (other.DeviceCase) {
         case DeviceOneofCase.Encoder:
@@ -5069,7 +5379,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            User = input.ReadString();
+            Name = input.ReadString();
             break;
           }
           case 18: {
@@ -5095,7 +5405,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            User = input.ReadString();
+            Name = input.ReadString();
             break;
           }
           case 18: {
@@ -5128,7 +5438,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5145,7 +5455,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public CancelCardKeyRequest(CancelCardKeyRequest other) : this() {
-      user_ = other.user_;
+      name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5154,18 +5464,18 @@ namespace Saltoapis.Nebula.User.V1 {
       return new CancelCardKeyRequest(this);
     }
 
-    /// <summary>Field number for the "user" field.</summary>
-    public const int UserFieldNumber = 1;
-    private string user_ = "";
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
     /// <summary>
-    /// The name of the user whose card key will be canceled. For example:
-    /// `installations/surelock-homes-hq/users/john-watson`.
+    /// The name of the requested user's card key to be canceled. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/card-key`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string User {
-      get { return user_; }
+    public string Name {
+      get { return name_; }
       set {
-        user_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -5182,14 +5492,14 @@ namespace Saltoapis.Nebula.User.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (User != other.User) return false;
+      if (Name != other.Name) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (User.Length != 0) hash ^= User.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5206,9 +5516,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (User.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(User);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -5219,9 +5529,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (User.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(User);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -5232,8 +5542,8 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (User.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(User);
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5246,8 +5556,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other == null) {
         return;
       }
-      if (other.User.Length != 0) {
-        User = other.User;
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5264,7 +5574,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            User = input.ReadString();
+            Name = input.ReadString();
             break;
           }
         }
@@ -5282,7 +5592,242 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            User = input.ReadString();
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`UpdateAppKey`][salto.nebula.user.v1.UserService.UpdateAppKey]
+  /// </summary>
+  public sealed partial class UpdateAppKeyRequest : pb::IMessage<UpdateAppKeyRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateAppKeyRequest> _parser = new pb::MessageParser<UpdateAppKeyRequest>(() => new UpdateAppKeyRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UpdateAppKeyRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAppKeyRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAppKeyRequest(UpdateAppKeyRequest other) : this() {
+      appKey_ = other.appKey_ != null ? other.appKey_.Clone() : null;
+      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UpdateAppKeyRequest Clone() {
+      return new UpdateAppKeyRequest(this);
+    }
+
+    /// <summary>Field number for the "app_key" field.</summary>
+    public const int AppKeyFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.AppKey appKey_;
+    /// <summary>
+    /// The user's app key resource which replaces the resource on the server.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.User.V1.AppKey AppKey {
+      get { return appKey_; }
+      set {
+        appKey_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "update_mask" field.</summary>
+    public const int UpdateMaskFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
+    /// <summary>
+    /// The update mask applied to the resource.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
+      get { return updateMask_; }
+      set {
+        updateMask_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateAppKeyRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UpdateAppKeyRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(AppKey, other.AppKey)) return false;
+      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (appKey_ != null) hash ^= AppKey.GetHashCode();
+      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (appKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AppKey);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(UpdateMask);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (appKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AppKey);
+      }
+      if (updateMask_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(UpdateMask);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (appKey_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AppKey);
+      }
+      if (updateMask_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UpdateAppKeyRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.appKey_ != null) {
+        if (appKey_ == null) {
+          AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
+        }
+        AppKey.MergeFrom(other.AppKey);
+      }
+      if (other.updateMask_ != null) {
+        if (updateMask_ == null) {
+          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+        }
+        UpdateMask.MergeFrom(other.UpdateMask);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (appKey_ == null) {
+              AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
+            }
+            input.ReadMessage(AppKey);
+            break;
+          }
+          case 18: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (appKey_ == null) {
+              AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
+            }
+            input.ReadMessage(AppKey);
+            break;
+          }
+          case 18: {
+            if (updateMask_ == null) {
+              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
+            }
+            input.ReadMessage(UpdateMask);
             break;
           }
         }
@@ -5307,7 +5852,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5324,7 +5869,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public AssignAppKeyRequest(AssignAppKeyRequest other) : this() {
-      user_ = other.user_;
+      name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5333,18 +5878,18 @@ namespace Saltoapis.Nebula.User.V1 {
       return new AssignAppKeyRequest(this);
     }
 
-    /// <summary>Field number for the "user" field.</summary>
-    public const int UserFieldNumber = 1;
-    private string user_ = "";
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
     /// <summary>
-    /// The name of the user whose app key will be assigned. For example:
-    /// `installations/surelock-homes-hq/users/john-watson`.
+    /// The name of the requested user's app key to be assigned. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/app-key`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string User {
-      get { return user_; }
+    public string Name {
+      get { return name_; }
       set {
-        user_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -5361,14 +5906,14 @@ namespace Saltoapis.Nebula.User.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (User != other.User) return false;
+      if (Name != other.Name) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (User.Length != 0) hash ^= User.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5385,9 +5930,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (User.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(User);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -5398,9 +5943,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (User.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(User);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -5411,8 +5956,8 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (User.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(User);
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5425,8 +5970,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other == null) {
         return;
       }
-      if (other.User.Length != 0) {
-        User = other.User;
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5443,7 +5988,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            User = input.ReadString();
+            Name = input.ReadString();
             break;
           }
         }
@@ -5461,7 +6006,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            User = input.ReadString();
+            Name = input.ReadString();
             break;
           }
         }
@@ -5486,7 +6031,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5503,7 +6048,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public CancelAppKeyRequest(CancelAppKeyRequest other) : this() {
-      user_ = other.user_;
+      name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5512,18 +6057,18 @@ namespace Saltoapis.Nebula.User.V1 {
       return new CancelAppKeyRequest(this);
     }
 
-    /// <summary>Field number for the "user" field.</summary>
-    public const int UserFieldNumber = 1;
-    private string user_ = "";
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
     /// <summary>
-    /// The name of the user whose app key will be canceled. For example:
-    /// `installations/surelock-homes-hq/users/john-watson`.
+    /// The name of the requested user's app key to be canceled. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/app-key`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string User {
-      get { return user_; }
+    public string Name {
+      get { return name_; }
       set {
-        user_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -5540,14 +6085,14 @@ namespace Saltoapis.Nebula.User.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (User != other.User) return false;
+      if (Name != other.Name) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (User.Length != 0) hash ^= User.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5564,9 +6109,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (User.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(User);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -5577,9 +6122,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (User.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(User);
+        output.WriteString(Name);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -5590,8 +6135,8 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (User.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(User);
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5604,8 +6149,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other == null) {
         return;
       }
-      if (other.User.Length != 0) {
-        User = other.User;
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5622,7 +6167,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            User = input.ReadString();
+            Name = input.ReadString();
             break;
           }
         }
@@ -5640,7 +6185,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            User = input.ReadString();
+            Name = input.ReadString();
             break;
           }
         }
