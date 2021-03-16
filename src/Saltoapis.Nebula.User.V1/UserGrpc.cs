@@ -1041,7 +1041,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_CancelAppKey, null, options, request);
       }
       /// <summary>
-      /// Update an wallet key
+      /// Update a wallet key
       ///
       /// Updates an existing user's wallet key.
       /// </summary>
@@ -1055,7 +1055,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return UpdateWalletKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Update an wallet key
+      /// Update a wallet key
       ///
       /// Updates an existing user's wallet key.
       /// </summary>
@@ -1067,7 +1067,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateWalletKey, null, options, request);
       }
       /// <summary>
-      /// Update an wallet key
+      /// Update a wallet key
       ///
       /// Updates an existing user's wallet key.
       /// </summary>
@@ -1081,7 +1081,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return UpdateWalletKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Update an wallet key
+      /// Update a wallet key
       ///
       /// Updates an existing user's wallet key.
       /// </summary>
@@ -1093,9 +1093,9 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateWalletKey, null, options, request);
       }
       /// <summary>
-      /// Assign an wallet key
+      /// Assign a wallet key
       ///
-      /// Assigns an wallet key to an existing user.
+      /// Assigns a wallet key to an existing user.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -1107,9 +1107,9 @@ namespace Saltoapis.Nebula.User.V1 {
         return AssignWalletKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Assign an wallet key
+      /// Assign a wallet key
       ///
-      /// Assigns an wallet key to an existing user.
+      /// Assigns a wallet key to an existing user.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -1119,9 +1119,9 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_AssignWalletKey, null, options, request);
       }
       /// <summary>
-      /// Assign an wallet key
+      /// Assign a wallet key
       ///
-      /// Assigns an wallet key to an existing user.
+      /// Assigns a wallet key to an existing user.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -1133,9 +1133,9 @@ namespace Saltoapis.Nebula.User.V1 {
         return AssignWalletKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Assign an wallet key
+      /// Assign a wallet key
       ///
-      /// Assigns an wallet key to an existing user.
+      /// Assigns a wallet key to an existing user.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -1145,7 +1145,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_AssignWalletKey, null, options, request);
       }
       /// <summary>
-      /// Cancel an wallet key
+      /// Cancel a wallet key
       ///
       /// Cancels an existing user's wallet key.
       /// </summary>
@@ -1159,7 +1159,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CancelWalletKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Cancel an wallet key
+      /// Cancel a wallet key
       ///
       /// Cancels an existing user's wallet key.
       /// </summary>
@@ -1171,7 +1171,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_CancelWalletKey, null, options, request);
       }
       /// <summary>
-      /// Cancel an wallet key
+      /// Cancel a wallet key
       ///
       /// Cancels an existing user's wallet key.
       /// </summary>
@@ -1185,7 +1185,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CancelWalletKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Cancel an wallet key
+      /// Cancel a wallet key
       ///
       /// Cancels an existing user's wallet key.
       /// </summary>
