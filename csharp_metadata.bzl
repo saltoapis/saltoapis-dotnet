@@ -35,6 +35,7 @@ TMPL_RENDERER_SHA="e16c69c9ea4f631a1dcce6411ef4b3477d1386ea"
 
 csharp_projects = [
     '//src/Saltoapis.Longrunning.V1',
+    '//src/Saltoapis.Nebula.DigitalKey.V1',
     '//src/Saltoapis.Nebula.Encoder.V1',
     '//src/Saltoapis.Nebula.Iam.V1',
     '//src/Saltoapis.Nebula.Installation.V1',
