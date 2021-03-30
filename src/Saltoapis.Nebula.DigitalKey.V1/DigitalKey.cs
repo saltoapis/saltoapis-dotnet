@@ -25,7 +25,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CixzYWx0by9uZWJ1bGEvZGlnaXRhbGtleS92MS9kaWdpdGFsX2tleS5wcm90",
-            "bxIac2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEiwQMKCkRpZ2l0YWxLZXkS",
+            "bxIac2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEiqwUKCkRpZ2l0YWxLZXkS",
             "DAoEbmFtZRgBIAEoCRJACgdhcHBfa2V5GAIgASgLMi0uc2FsdG8ubmVidWxh",
             "LmRpZ2l0YWxrZXkudjEuRGlnaXRhbEtleS5BcHBLZXlIABJGCgp3YWxsZXRf",
             "a2V5GAMgASgLMjAuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRh",
@@ -33,30 +33,36 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             "CghzdWJ0aXRsZRgCIAEoCRIRCglwaG90b191cmkYAyABKAkSDwoHYWRkcmVz",
             "cxgEIAEoCRpyCgZBcHBLZXkSQQoIbWV0YWRhdGEYASABKAsyLy5zYWx0by5u",
             "ZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5Lk1ldGFkYXRhEgwKBGRh",
-            "dGEYAiABKAwSFwoPaW5zdGFsbGF0aW9uX2lkGAMgASgJGk4KCVdhbGxldEtl",
-            "eRJBCghtZXRhZGF0YRgBIAEoCzIvLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5",
-            "LnYxLkRpZ2l0YWxLZXkuTWV0YWRhdGFCBgoEdHlwZSIkChRHZXREaWdpdGFs",
-            "S2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJImEKFkxpc3REaWdpdGFsS2V5c1Jl",
-            "cXVlc3QSEQoJcGFnZV9zaXplGAEgASgFEhIKCnBhZ2VfdG9rZW4YAiABKAkS",
-            "DgoGZmlsdGVyGAMgASgJEhAKCG9yZGVyX2J5GAQgASgJInAKF0xpc3REaWdp",
-            "dGFsS2V5c1Jlc3BvbnNlEjwKDGRpZ2l0YWxfa2V5cxgBIAMoCzImLnNhbHRv",
-            "Lm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkSFwoPbmV4dF9wYWdl",
-            "X3Rva2VuGAIgASgJMvoBChFEaWdpdGFsS2V5U2VydmljZRJpCg1HZXREaWdp",
-            "dGFsS2V5EjAuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuR2V0RGlnaXRh",
-            "bEtleVJlcXVlc3QaJi5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdp",
-            "dGFsS2V5EnoKD0xpc3REaWdpdGFsS2V5cxIyLnNhbHRvLm5lYnVsYS5kaWdp",
-            "dGFsa2V5LnYxLkxpc3REaWdpdGFsS2V5c1JlcXVlc3QaMy5zYWx0by5uZWJ1",
-            "bGEuZGlnaXRhbGtleS52MS5MaXN0RGlnaXRhbEtleXNSZXNwb25zZUKsAQoi",
-            "Y29tLnNhbHRvYXBpcy5uZWJ1bGEuZGlnaXRhbGtleS52MUIPRGlnaXRhbEtl",
-            "eVByb3RvUAFaUmdpdGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2Fw",
-            "aXMvc2FsdG9hcGlzLWdvL25lYnVsYS9kaWdpdGFsa2V5L3YxO2RpZ2l0YWxr",
-            "ZXmqAh5TYWx0b2FwaXMuTmVidWxhLkRpZ2l0YWxLZXkuVjFiBnByb3RvMw=="));
+            "dGEYAiABKAwSFwoPaW5zdGFsbGF0aW9uX2lkGAMgASgJGrcCCglXYWxsZXRL",
+            "ZXkSQQoIbWV0YWRhdGEYASABKAsyLy5zYWx0by5uZWJ1bGEuZGlnaXRhbGtl",
+            "eS52MS5EaWdpdGFsS2V5Lk1ldGFkYXRhEloKEGh5ZHJhX2NyZWRlbnRpYWwY",
+            "AiABKAsyQC5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5",
+            "LldhbGxldEtleS5IeWRyYUNyZWRlbnRpYWwaigEKD0h5ZHJhQ3JlZGVudGlh",
+            "bBIVCg1jcmVkZW50aWFsX2lkGAEgASgJEhsKE3NoYXJpbmdfaW5zdGFuY2Vf",
+            "aWQYAiABKAkSFAoMYWNjb3VudF9oYXNoGAMgASgJEhMKC3RlbXBsYXRlX2lk",
+            "GAQgASgJEhgKEHJlbHlpbmdfcGFydHlfaWQYBSABKAlCBgoEdHlwZSIkChRH",
+            "ZXREaWdpdGFsS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJImEKFkxpc3REaWdp",
+            "dGFsS2V5c1JlcXVlc3QSEQoJcGFnZV9zaXplGAEgASgFEhIKCnBhZ2VfdG9r",
+            "ZW4YAiABKAkSDgoGZmlsdGVyGAMgASgJEhAKCG9yZGVyX2J5GAQgASgJInAK",
+            "F0xpc3REaWdpdGFsS2V5c1Jlc3BvbnNlEjwKDGRpZ2l0YWxfa2V5cxgBIAMo",
+            "CzImLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkSFwoP",
+            "bmV4dF9wYWdlX3Rva2VuGAIgASgJMvoBChFEaWdpdGFsS2V5U2VydmljZRJp",
+            "Cg1HZXREaWdpdGFsS2V5EjAuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEu",
+            "R2V0RGlnaXRhbEtleVJlcXVlc3QaJi5zYWx0by5uZWJ1bGEuZGlnaXRhbGtl",
+            "eS52MS5EaWdpdGFsS2V5EnoKD0xpc3REaWdpdGFsS2V5cxIyLnNhbHRvLm5l",
+            "YnVsYS5kaWdpdGFsa2V5LnYxLkxpc3REaWdpdGFsS2V5c1JlcXVlc3QaMy5z",
+            "YWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5MaXN0RGlnaXRhbEtleXNSZXNw",
+            "b25zZUKsAQoiY29tLnNhbHRvYXBpcy5uZWJ1bGEuZGlnaXRhbGtleS52MUIP",
+            "RGlnaXRhbEtleVByb3RvUAFaUmdpdGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNv",
+            "bS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9kaWdpdGFsa2V5L3Yx",
+            "O2RpZ2l0YWxrZXmqAh5TYWx0b2FwaXMuTmVidWxhLkRpZ2l0YWxLZXkuVjFi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Parser, new[]{ "Name", "AppKey", "WalletKey" }, new[]{ "Type" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata.Parser, new[]{ "Title", "Subtitle", "PhotoUri", "Address" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Parser, new[]{ "Metadata", "Data", "InstallationId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Parser, new[]{ "Metadata" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Parser, new[]{ "Metadata", "HydraCredential" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential.Parser, new[]{ "CredentialId", "SharingInstanceId", "AccountHash", "TemplateId", "RelyingPartyId" }, null, null, null, null)})}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest), global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest), global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest.Parser, new[]{ "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse), global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse.Parser, new[]{ "DigitalKeys", "NextPageToken" }, null, null, null, null)
@@ -982,6 +988,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public WalletKey(WalletKey other) : this() {
           metadata_ = other.metadata_ != null ? other.metadata_.Clone() : null;
+          hydraCredential_ = other.hydraCredential_ != null ? other.hydraCredential_.Clone() : null;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -1004,6 +1011,20 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           }
         }
 
+        /// <summary>Field number for the "hydra_credential" field.</summary>
+        public const int HydraCredentialFieldNumber = 2;
+        private global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential hydraCredential_;
+        /// <summary>
+        /// Hydra credential of this user's wallet key.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential HydraCredential {
+          get { return hydraCredential_; }
+          set {
+            hydraCredential_ = value;
+          }
+        }
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public override bool Equals(object other) {
           return Equals(other as WalletKey);
@@ -1018,6 +1039,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             return true;
           }
           if (!object.Equals(Metadata, other.Metadata)) return false;
+          if (!object.Equals(HydraCredential, other.HydraCredential)) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -1025,6 +1047,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
         public override int GetHashCode() {
           int hash = 1;
           if (metadata_ != null) hash ^= Metadata.GetHashCode();
+          if (hydraCredential_ != null) hash ^= HydraCredential.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -1045,6 +1068,10 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             output.WriteRawTag(10);
             output.WriteMessage(Metadata);
           }
+          if (hydraCredential_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(HydraCredential);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -1058,6 +1085,10 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             output.WriteRawTag(10);
             output.WriteMessage(Metadata);
           }
+          if (hydraCredential_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(HydraCredential);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -1069,6 +1100,9 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           int size = 0;
           if (metadata_ != null) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(Metadata);
+          }
+          if (hydraCredential_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(HydraCredential);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -1086,6 +1120,12 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
               Metadata = new global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata();
             }
             Metadata.MergeFrom(other.Metadata);
+          }
+          if (other.hydraCredential_ != null) {
+            if (hydraCredential_ == null) {
+              HydraCredential = new global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential();
+            }
+            HydraCredential.MergeFrom(other.HydraCredential);
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -1106,6 +1146,13 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
                   Metadata = new global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata();
                 }
                 input.ReadMessage(Metadata);
+                break;
+              }
+              case 18: {
+                if (hydraCredential_ == null) {
+                  HydraCredential = new global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential();
+                }
+                input.ReadMessage(HydraCredential);
                 break;
               }
             }
@@ -1129,10 +1176,364 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
                 input.ReadMessage(Metadata);
                 break;
               }
+              case 18: {
+                if (hydraCredential_ == null) {
+                  HydraCredential = new global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential();
+                }
+                input.ReadMessage(HydraCredential);
+                break;
+              }
             }
           }
         }
         #endif
+
+        #region Nested types
+        /// <summary>Container for nested types declared in the WalletKey message type.</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static partial class Types {
+          /// <summary>
+          /// Representation of an Hydra credential
+          /// </summary>
+          public sealed partial class HydraCredential : pb::IMessage<HydraCredential>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<HydraCredential> _parser = new pb::MessageParser<HydraCredential>(() => new HydraCredential());
+            private pb::UnknownFieldSet _unknownFields;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public static pb::MessageParser<HydraCredential> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Descriptor.NestedTypes[0]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public HydraCredential() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public HydraCredential(HydraCredential other) : this() {
+              credentialId_ = other.credentialId_;
+              sharingInstanceId_ = other.sharingInstanceId_;
+              accountHash_ = other.accountHash_;
+              templateId_ = other.templateId_;
+              relyingPartyId_ = other.relyingPartyId_;
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public HydraCredential Clone() {
+              return new HydraCredential(this);
+            }
+
+            /// <summary>Field number for the "credential_id" field.</summary>
+            public const int CredentialIdFieldNumber = 1;
+            private string credentialId_ = "";
+            /// <summary>
+            /// Credential identifier created and managed by Wallet Hub.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public string CredentialId {
+              get { return credentialId_; }
+              set {
+                credentialId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+              }
+            }
+
+            /// <summary>Field number for the "sharing_instance_id" field.</summary>
+            public const int SharingInstanceIdFieldNumber = 2;
+            private string sharingInstanceId_ = "";
+            /// <summary>
+            /// An identifier that helps mapping which devices are being provisioned
+            /// simultaneously as a result of user initiating an in-app provisioning
+            /// on the main device.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public string SharingInstanceId {
+              get { return sharingInstanceId_; }
+              set {
+                sharingInstanceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+              }
+            }
+
+            /// <summary>Field number for the "account_hash" field.</summary>
+            public const int AccountHashFieldNumber = 3;
+            private string accountHash_ = "";
+            /// <summary>
+            /// An identifier that has a direct reference to user's account with the
+            /// issuer.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public string AccountHash {
+              get { return accountHash_; }
+              set {
+                accountHash_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+              }
+            }
+
+            /// <summary>Field number for the "template_id" field.</summary>
+            public const int TemplateIdFieldNumber = 4;
+            private string templateId_ = "";
+            /// <summary>
+            /// Card template identifier. Identifies a combination of
+            /// card profile identifier, card configuration identifier and
+            /// card art bundle name.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public string TemplateId {
+              get { return templateId_; }
+              set {
+                templateId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+              }
+            }
+
+            /// <summary>Field number for the "relying_party_id" field.</summary>
+            public const int RelyingPartyIdFieldNumber = 5;
+            private string relyingPartyId_ = "";
+            /// <summary>
+            /// An identifier representing an entity that uses a FIDO protocol to
+            /// directly authenticate users.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public string RelyingPartyId {
+              get { return relyingPartyId_; }
+              set {
+                relyingPartyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+              }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public override bool Equals(object other) {
+              return Equals(other as HydraCredential);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public bool Equals(HydraCredential other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              if (CredentialId != other.CredentialId) return false;
+              if (SharingInstanceId != other.SharingInstanceId) return false;
+              if (AccountHash != other.AccountHash) return false;
+              if (TemplateId != other.TemplateId) return false;
+              if (RelyingPartyId != other.RelyingPartyId) return false;
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (CredentialId.Length != 0) hash ^= CredentialId.GetHashCode();
+              if (SharingInstanceId.Length != 0) hash ^= SharingInstanceId.GetHashCode();
+              if (AccountHash.Length != 0) hash ^= AccountHash.GetHashCode();
+              if (TemplateId.Length != 0) hash ^= TemplateId.GetHashCode();
+              if (RelyingPartyId.Length != 0) hash ^= RelyingPartyId.GetHashCode();
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (CredentialId.Length != 0) {
+                output.WriteRawTag(10);
+                output.WriteString(CredentialId);
+              }
+              if (SharingInstanceId.Length != 0) {
+                output.WriteRawTag(18);
+                output.WriteString(SharingInstanceId);
+              }
+              if (AccountHash.Length != 0) {
+                output.WriteRawTag(26);
+                output.WriteString(AccountHash);
+              }
+              if (TemplateId.Length != 0) {
+                output.WriteRawTag(34);
+                output.WriteString(TemplateId);
+              }
+              if (RelyingPartyId.Length != 0) {
+                output.WriteRawTag(42);
+                output.WriteString(RelyingPartyId);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (CredentialId.Length != 0) {
+                output.WriteRawTag(10);
+                output.WriteString(CredentialId);
+              }
+              if (SharingInstanceId.Length != 0) {
+                output.WriteRawTag(18);
+                output.WriteString(SharingInstanceId);
+              }
+              if (AccountHash.Length != 0) {
+                output.WriteRawTag(26);
+                output.WriteString(AccountHash);
+              }
+              if (TemplateId.Length != 0) {
+                output.WriteRawTag(34);
+                output.WriteString(TemplateId);
+              }
+              if (RelyingPartyId.Length != 0) {
+                output.WriteRawTag(42);
+                output.WriteString(RelyingPartyId);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public int CalculateSize() {
+              int size = 0;
+              if (CredentialId.Length != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeStringSize(CredentialId);
+              }
+              if (SharingInstanceId.Length != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeStringSize(SharingInstanceId);
+              }
+              if (AccountHash.Length != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeStringSize(AccountHash);
+              }
+              if (TemplateId.Length != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeStringSize(TemplateId);
+              }
+              if (RelyingPartyId.Length != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeStringSize(RelyingPartyId);
+              }
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public void MergeFrom(HydraCredential other) {
+              if (other == null) {
+                return;
+              }
+              if (other.CredentialId.Length != 0) {
+                CredentialId = other.CredentialId;
+              }
+              if (other.SharingInstanceId.Length != 0) {
+                SharingInstanceId = other.SharingInstanceId;
+              }
+              if (other.AccountHash.Length != 0) {
+                AccountHash = other.AccountHash;
+              }
+              if (other.TemplateId.Length != 0) {
+                TemplateId = other.TemplateId;
+              }
+              if (other.RelyingPartyId.Length != 0) {
+                RelyingPartyId = other.RelyingPartyId;
+              }
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+                switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                  case 10: {
+                    CredentialId = input.ReadString();
+                    break;
+                  }
+                  case 18: {
+                    SharingInstanceId = input.ReadString();
+                    break;
+                  }
+                  case 26: {
+                    AccountHash = input.ReadString();
+                    break;
+                  }
+                  case 34: {
+                    TemplateId = input.ReadString();
+                    break;
+                  }
+                  case 42: {
+                    RelyingPartyId = input.ReadString();
+                    break;
+                  }
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+                switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                  case 10: {
+                    CredentialId = input.ReadString();
+                    break;
+                  }
+                  case 18: {
+                    SharingInstanceId = input.ReadString();
+                    break;
+                  }
+                  case 26: {
+                    AccountHash = input.ReadString();
+                    break;
+                  }
+                  case 34: {
+                    TemplateId = input.ReadString();
+                    break;
+                  }
+                  case 42: {
+                    RelyingPartyId = input.ReadString();
+                    break;
+                  }
+                }
+              }
+            }
+            #endif
+
+          }
+
+        }
+        #endregion
 
       }
 
