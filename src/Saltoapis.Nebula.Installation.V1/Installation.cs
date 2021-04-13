@@ -616,7 +616,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         public const int EnvironmentFieldNumber = 2;
         private global::Saltoapis.Nebula.Installation.V1.Installation.Types.HydraConfig.Types.Environment environment_ = global::Saltoapis.Nebula.Installation.V1.Installation.Types.HydraConfig.Types.Environment.Unspecified;
         /// <summary>
-        /// The environment to which is targeting to.
+        /// The environment it's targeting.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::Saltoapis.Nebula.Installation.V1.Installation.Types.HydraConfig.Types.Environment Environment {
