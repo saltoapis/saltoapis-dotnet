@@ -17,14 +17,44 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.encoder.v1.EncoderService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest> __Marshaller_salto_nebula_encoder_v1_CreateEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.Encoder> __Marshaller_salto_nebula_encoder_v1_Encoder = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.Encoder.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest> __Marshaller_salto_nebula_encoder_v1_GetEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest> __Marshaller_salto_nebula_encoder_v1_ListEncodersRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ListEncodersResponse> __Marshaller_salto_nebula_encoder_v1_ListEncodersResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.ListEncodersResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest> __Marshaller_salto_nebula_encoder_v1_UpdateEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest> __Marshaller_salto_nebula_encoder_v1_DeleteEncoderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest> __Marshaller_salto_nebula_encoder_v1_CreateEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.Encoder> __Marshaller_salto_nebula_encoder_v1_Encoder = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.Encoder.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest> __Marshaller_salto_nebula_encoder_v1_GetEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest> __Marshaller_salto_nebula_encoder_v1_ListEncodersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ListEncodersResponse> __Marshaller_salto_nebula_encoder_v1_ListEncodersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.ListEncodersResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest> __Marshaller_salto_nebula_encoder_v1_UpdateEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest> __Marshaller_salto_nebula_encoder_v1_DeleteEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder> __Method_CreateEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder>(
         grpc::MethodType.Unary,

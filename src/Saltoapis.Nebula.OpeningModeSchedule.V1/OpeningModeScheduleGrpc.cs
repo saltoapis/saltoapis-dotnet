@@ -18,14 +18,44 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_CreateOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_GetOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse> __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_UpdateOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_DeleteOpeningModeScheduleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_CreateOpeningModeScheduleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_GetOpeningModeScheduleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse> __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_UpdateOpeningModeScheduleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_DeleteOpeningModeScheduleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Method_CreateOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule>(
         grpc::MethodType.Unary,

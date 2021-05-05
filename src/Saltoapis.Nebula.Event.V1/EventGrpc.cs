@@ -17,10 +17,40 @@ namespace Saltoapis.Nebula.Event.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.event.v1.EventService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Event.V1.GetEventRequest> __Marshaller_salto_nebula_event_v1_GetEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Event.V1.GetEventRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Event.V1.Event> __Marshaller_salto_nebula_event_v1_Event = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Event.V1.Event.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Event.V1.ListEventsRequest> __Marshaller_salto_nebula_event_v1_ListEventsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Event.V1.ListEventsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Event.V1.ListEventsResponse> __Marshaller_salto_nebula_event_v1_ListEventsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Event.V1.ListEventsResponse.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Event.V1.GetEventRequest> __Marshaller_salto_nebula_event_v1_GetEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Event.V1.GetEventRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Event.V1.Event> __Marshaller_salto_nebula_event_v1_Event = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Event.V1.Event.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Event.V1.ListEventsRequest> __Marshaller_salto_nebula_event_v1_ListEventsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Event.V1.ListEventsRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Event.V1.ListEventsResponse> __Marshaller_salto_nebula_event_v1_ListEventsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Event.V1.ListEventsResponse.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Event.V1.GetEventRequest, global::Saltoapis.Nebula.Event.V1.Event> __Method_GetEvent = new grpc::Method<global::Saltoapis.Nebula.Event.V1.GetEventRequest, global::Saltoapis.Nebula.Event.V1.Event>(
         grpc::MethodType.Unary,

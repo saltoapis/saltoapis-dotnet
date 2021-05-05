@@ -17,16 +17,46 @@ namespace Saltoapis.Nebula.Extender.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.extender.v1.ExtenderService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest> __Marshaller_salto_nebula_extender_v1_CreateExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.Extender> __Marshaller_salto_nebula_extender_v1_Extender = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.Extender.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest> __Marshaller_salto_nebula_extender_v1_GetExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest> __Marshaller_salto_nebula_extender_v1_ListExtendersRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse> __Marshaller_salto_nebula_extender_v1_ListExtendersResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest> __Marshaller_salto_nebula_extender_v1_UpdateExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest> __Marshaller_salto_nebula_extender_v1_DeleteExtenderRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest> __Marshaller_salto_nebula_extender_v1_UpdateExtenderFirmwareRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.Operation.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest> __Marshaller_salto_nebula_extender_v1_CreateExtenderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.Extender> __Marshaller_salto_nebula_extender_v1_Extender = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.Extender.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest> __Marshaller_salto_nebula_extender_v1_GetExtenderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest> __Marshaller_salto_nebula_extender_v1_ListExtendersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse> __Marshaller_salto_nebula_extender_v1_ListExtendersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest> __Marshaller_salto_nebula_extender_v1_UpdateExtenderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest> __Marshaller_salto_nebula_extender_v1_DeleteExtenderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest> __Marshaller_salto_nebula_extender_v1_UpdateExtenderFirmwareRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender> __Method_CreateExtender = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender>(
         grpc::MethodType.Unary,

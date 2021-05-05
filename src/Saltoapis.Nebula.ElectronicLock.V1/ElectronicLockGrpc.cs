@@ -24,19 +24,49 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.electroniclock.v1.ElectronicLockService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_CreateElectronicLockRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> __Marshaller_salto_nebula_electroniclock_v1_ElectronicLock = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_GetElectronicLockRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest> __Marshaller_salto_nebula_electroniclock_v1_ListElectronicLocksRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse> __Marshaller_salto_nebula_electroniclock_v1_ListElectronicLocksResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_DeleteElectronicLockRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_InitializeElectronicLockRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.Operation.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_ConfigureElectronicLockRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_ResetElectronicLockRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest> __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockFirmwareRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_CreateElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> __Marshaller_salto_nebula_electroniclock_v1_ElectronicLock = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_GetElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest> __Marshaller_salto_nebula_electroniclock_v1_ListElectronicLocksRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse> __Marshaller_salto_nebula_electroniclock_v1_ListElectronicLocksResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_DeleteElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_InitializeElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_ConfigureElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_ResetElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest> __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockFirmwareRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> __Method_CreateElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock>(
         grpc::MethodType.Unary,

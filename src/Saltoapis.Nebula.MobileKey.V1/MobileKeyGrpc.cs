@@ -17,14 +17,44 @@ namespace Saltoapis.Nebula.MobileKey.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.mobilekey.v1.MobileKeyService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_CreateMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.MobileKey> __Marshaller_salto_nebula_mobilekey_v1_MobileKey = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.MobileKey.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_GetMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysRequest> __Marshaller_salto_nebula_mobilekey_v1_ListMobileKeysRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysResponse> __Marshaller_salto_nebula_mobilekey_v1_ListMobileKeysResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_UpdateMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_DeleteMobileKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_CreateMobileKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.MobileKey> __Marshaller_salto_nebula_mobilekey_v1_MobileKey = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.MobileKey.V1.MobileKey.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_GetMobileKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.MobileKey.V1.GetMobileKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysRequest> __Marshaller_salto_nebula_mobilekey_v1_ListMobileKeysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysResponse> __Marshaller_salto_nebula_mobilekey_v1_ListMobileKeysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.MobileKey.V1.ListMobileKeysResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_UpdateMobileKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.MobileKey.V1.UpdateMobileKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest> __Marshaller_salto_nebula_mobilekey_v1_DeleteMobileKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.MobileKey.V1.DeleteMobileKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest, global::Saltoapis.Nebula.MobileKey.V1.MobileKey> __Method_CreateMobileKey = new grpc::Method<global::Saltoapis.Nebula.MobileKey.V1.CreateMobileKeyRequest, global::Saltoapis.Nebula.MobileKey.V1.MobileKey>(
         grpc::MethodType.Unary,
