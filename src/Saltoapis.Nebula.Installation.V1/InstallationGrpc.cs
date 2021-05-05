@@ -17,23 +17,53 @@ namespace Saltoapis.Nebula.Installation.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.installation.v1.InstallationService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest> __Marshaller_salto_nebula_installation_v1_CreateInstallationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.Installation> __Marshaller_salto_nebula_installation_v1_Installation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.Installation.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest> __Marshaller_salto_nebula_installation_v1_GetInstallationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest> __Marshaller_salto_nebula_installation_v1_ListInstallationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse> __Marshaller_salto_nebula_installation_v1_ListInstallationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest> __Marshaller_salto_nebula_installation_v1_UpdateInstallationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest> __Marshaller_salto_nebula_installation_v1_DeleteInstallationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest> __Marshaller_salto_nebula_installation_v1_CreatePolicyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.Policy> __Marshaller_salto_nebula_installation_v1_Policy = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.Policy.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest> __Marshaller_salto_nebula_installation_v1_GetPolicyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest> __Marshaller_salto_nebula_installation_v1_ListPoliciesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse> __Marshaller_salto_nebula_installation_v1_ListPoliciesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest> __Marshaller_salto_nebula_installation_v1_UpdatePolicyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest> __Marshaller_salto_nebula_installation_v1_DeletePolicyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest> __Marshaller_salto_nebula_installation_v1_TestPermissionsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse> __Marshaller_salto_nebula_installation_v1_TestPermissionsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest> __Marshaller_salto_nebula_installation_v1_CreateInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.Installation> __Marshaller_salto_nebula_installation_v1_Installation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.Installation.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest> __Marshaller_salto_nebula_installation_v1_GetInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest> __Marshaller_salto_nebula_installation_v1_ListInstallationsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse> __Marshaller_salto_nebula_installation_v1_ListInstallationsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest> __Marshaller_salto_nebula_installation_v1_UpdateInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest> __Marshaller_salto_nebula_installation_v1_DeleteInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest> __Marshaller_salto_nebula_installation_v1_CreatePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.Policy> __Marshaller_salto_nebula_installation_v1_Policy = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.Policy.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest> __Marshaller_salto_nebula_installation_v1_GetPolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest> __Marshaller_salto_nebula_installation_v1_ListPoliciesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse> __Marshaller_salto_nebula_installation_v1_ListPoliciesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest> __Marshaller_salto_nebula_installation_v1_UpdatePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest> __Marshaller_salto_nebula_installation_v1_DeletePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest> __Marshaller_salto_nebula_installation_v1_TestPermissionsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse> __Marshaller_salto_nebula_installation_v1_TestPermissionsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_CreateInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
         grpc::MethodType.Unary,

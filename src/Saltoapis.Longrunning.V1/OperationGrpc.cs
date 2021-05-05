@@ -23,12 +23,42 @@ namespace Saltoapis.Longrunning.V1 {
   {
     static readonly string __ServiceName = "salto.longrunning.v1.OperationService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.GetOperationRequest> __Marshaller_salto_longrunning_v1_GetOperationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.GetOperationRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.Operation.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.ListOperationsRequest> __Marshaller_salto_longrunning_v1_ListOperationsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.ListOperationsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.ListOperationsResponse> __Marshaller_salto_longrunning_v1_ListOperationsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.ListOperationsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.DeleteOperationRequest> __Marshaller_salto_longrunning_v1_DeleteOperationRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.DeleteOperationRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.GetOperationRequest> __Marshaller_salto_longrunning_v1_GetOperationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.GetOperationRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.ListOperationsRequest> __Marshaller_salto_longrunning_v1_ListOperationsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.ListOperationsRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.ListOperationsResponse> __Marshaller_salto_longrunning_v1_ListOperationsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.ListOperationsResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.DeleteOperationRequest> __Marshaller_salto_longrunning_v1_DeleteOperationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.DeleteOperationRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Longrunning.V1.GetOperationRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_GetOperation = new grpc::Method<global::Saltoapis.Longrunning.V1.GetOperationRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,

@@ -17,10 +17,40 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.digitalkey.v1.DigitalKeyService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest> __Marshaller_salto_nebula_digitalkey_v1_GetDigitalKeyRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey> __Marshaller_salto_nebula_digitalkey_v1_DigitalKey = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest> __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeysRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse> __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeysResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest> __Marshaller_salto_nebula_digitalkey_v1_GetDigitalKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey> __Marshaller_salto_nebula_digitalkey_v1_DigitalKey = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest> __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse> __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest, global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey> __Method_GetDigitalKey = new grpc::Method<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest, global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey>(
         grpc::MethodType.Unary,

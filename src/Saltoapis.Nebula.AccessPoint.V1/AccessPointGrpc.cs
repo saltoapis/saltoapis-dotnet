@@ -17,14 +17,44 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.accesspoint.v1.AccessPointService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_CreateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> __Marshaller_salto_nebula_accesspoint_v1_AccessPoint = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_GetAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest> __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse> __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_UpdateAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_DeleteAccessPointRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_CreateAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> __Marshaller_salto_nebula_accesspoint_v1_AccessPoint = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_GetAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest> __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse> __Marshaller_salto_nebula_accesspoint_v1_ListAccessPointsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_UpdateAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_DeleteAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> __Method_CreateAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint>(
         grpc::MethodType.Unary,

@@ -17,19 +17,49 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.gateway.v1.GatewayService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest> __Marshaller_salto_nebula_gateway_v1_CreateGatewayRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.Gateway> __Marshaller_salto_nebula_gateway_v1_Gateway = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.Gateway.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest> __Marshaller_salto_nebula_gateway_v1_GetGatewayRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest> __Marshaller_salto_nebula_gateway_v1_ListGatewaysRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse> __Marshaller_salto_nebula_gateway_v1_ListGatewaysResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest> __Marshaller_salto_nebula_gateway_v1_UpdateGatewayRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest> __Marshaller_salto_nebula_gateway_v1_DeleteGatewayRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest> __Marshaller_salto_nebula_gateway_v1_InitializeGatewayRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Longrunning.V1.Operation.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest> __Marshaller_salto_nebula_gateway_v1_ConfigureGatewayRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest> __Marshaller_salto_nebula_gateway_v1_ResetGatewayRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest> __Marshaller_salto_nebula_gateway_v1_UpdateGatewayFirmwareRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest> __Marshaller_salto_nebula_gateway_v1_CreateGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.Gateway> __Marshaller_salto_nebula_gateway_v1_Gateway = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.Gateway.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest> __Marshaller_salto_nebula_gateway_v1_GetGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest> __Marshaller_salto_nebula_gateway_v1_ListGatewaysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse> __Marshaller_salto_nebula_gateway_v1_ListGatewaysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest> __Marshaller_salto_nebula_gateway_v1_UpdateGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest> __Marshaller_salto_nebula_gateway_v1_DeleteGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest> __Marshaller_salto_nebula_gateway_v1_InitializeGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest> __Marshaller_salto_nebula_gateway_v1_ConfigureGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest> __Marshaller_salto_nebula_gateway_v1_ResetGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest> __Marshaller_salto_nebula_gateway_v1_UpdateGatewayFirmwareRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway> __Method_CreateGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway>(
         grpc::MethodType.Unary,

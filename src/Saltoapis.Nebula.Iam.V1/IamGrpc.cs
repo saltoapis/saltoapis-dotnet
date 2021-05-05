@@ -19,14 +19,44 @@ namespace Saltoapis.Nebula.Iam.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.iam.v1.IAMService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest> __Marshaller_salto_nebula_iam_v1_CreateRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.Role> __Marshaller_salto_nebula_iam_v1_Role = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.Role.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.GetRoleRequest> __Marshaller_salto_nebula_iam_v1_GetRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.GetRoleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.ListRolesRequest> __Marshaller_salto_nebula_iam_v1_ListRolesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.ListRolesRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.ListRolesResponse> __Marshaller_salto_nebula_iam_v1_ListRolesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.ListRolesResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest> __Marshaller_salto_nebula_iam_v1_UpdateRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest> __Marshaller_salto_nebula_iam_v1_DeleteRoleRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest> __Marshaller_salto_nebula_iam_v1_CreateRoleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.Role> __Marshaller_salto_nebula_iam_v1_Role = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.Role.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.GetRoleRequest> __Marshaller_salto_nebula_iam_v1_GetRoleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.GetRoleRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.ListRolesRequest> __Marshaller_salto_nebula_iam_v1_ListRolesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.ListRolesRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.ListRolesResponse> __Marshaller_salto_nebula_iam_v1_ListRolesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.ListRolesResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest> __Marshaller_salto_nebula_iam_v1_UpdateRoleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest> __Marshaller_salto_nebula_iam_v1_DeleteRoleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role> __Method_CreateRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role>(
         grpc::MethodType.Unary,

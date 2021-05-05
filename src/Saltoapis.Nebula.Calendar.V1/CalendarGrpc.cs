@@ -17,21 +17,51 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.calendar.v1.CalendarService";
 
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest> __Marshaller_salto_nebula_calendar_v1_CreateCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.Calendar> __Marshaller_salto_nebula_calendar_v1_Calendar = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.Calendar.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest> __Marshaller_salto_nebula_calendar_v1_GetCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest> __Marshaller_salto_nebula_calendar_v1_ListCalendarsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse> __Marshaller_salto_nebula_calendar_v1_ListCalendarsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest> __Marshaller_salto_nebula_calendar_v1_UpdateCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest> __Marshaller_salto_nebula_calendar_v1_DeleteCalendarRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Google.Protobuf.WellKnownTypes.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest> __Marshaller_salto_nebula_calendar_v1_CreateEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.Event> __Marshaller_salto_nebula_calendar_v1_Event = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.Event.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.GetEventRequest> __Marshaller_salto_nebula_calendar_v1_GetEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.GetEventRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest> __Marshaller_salto_nebula_calendar_v1_ListEventsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> __Marshaller_salto_nebula_calendar_v1_ListEventsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest> __Marshaller_salto_nebula_calendar_v1_UpdateEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest> __Marshaller_salto_nebula_calendar_v1_DeleteEventRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest.Parser.ParseFrom);
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest> __Marshaller_salto_nebula_calendar_v1_CreateCalendarRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.Calendar> __Marshaller_salto_nebula_calendar_v1_Calendar = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.Calendar.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest> __Marshaller_salto_nebula_calendar_v1_GetCalendarRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest> __Marshaller_salto_nebula_calendar_v1_ListCalendarsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse> __Marshaller_salto_nebula_calendar_v1_ListCalendarsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest> __Marshaller_salto_nebula_calendar_v1_UpdateCalendarRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest> __Marshaller_salto_nebula_calendar_v1_DeleteCalendarRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest> __Marshaller_salto_nebula_calendar_v1_CreateEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.Event> __Marshaller_salto_nebula_calendar_v1_Event = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.Event.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.GetEventRequest> __Marshaller_salto_nebula_calendar_v1_GetEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.GetEventRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest> __Marshaller_salto_nebula_calendar_v1_ListEventsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse> __Marshaller_salto_nebula_calendar_v1_ListEventsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest> __Marshaller_salto_nebula_calendar_v1_UpdateEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.UpdateEventRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest> __Marshaller_salto_nebula_calendar_v1_DeleteEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Calendar.V1.DeleteEventRequest.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest, global::Saltoapis.Nebula.Calendar.V1.Calendar> __Method_CreateCalendar = new grpc::Method<global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest, global::Saltoapis.Nebula.Calendar.V1.Calendar>(
         grpc::MethodType.Unary,
