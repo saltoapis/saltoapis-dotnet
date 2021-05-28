@@ -2312,10 +2312,6 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
 
   }
 
-  /// <summary>
-  /// TODO(g.lerchundi): Provisional spec for testing purposes, do not use in
-  /// production.
-  /// </summary>
   public sealed partial class InitializeElectronicLockMetadata : pb::IMessage<InitializeElectronicLockMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

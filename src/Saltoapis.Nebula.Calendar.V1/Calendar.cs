@@ -324,10 +324,6 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
   }
 
-  /// <summary>
-  /// TODO(g.lerchundi): Add a comment on how this behaves with overlapping
-  /// dates. Mainly explain how the conflict resolution mechanism works.
-  /// </summary>
   public sealed partial class Event : pb::IMessage<Event>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
