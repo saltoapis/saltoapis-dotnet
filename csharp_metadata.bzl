@@ -10,10 +10,10 @@ It also contains a list of Bazel packages defined in the project.
 
 # used versions
 API_LINTER_SHA="9a4277725ba68bd9f68887fc71ee10e2ea6ac046"
-GITHUB_CLI_VERSION="1.9.0"
-GOLANG_VERSION="1.15.4"
-GRPC_GO_GENERATOR_VERSION="1.0.1"
-GRPC_GO_VERSION="1.33.1"
+GITHUB_CLI_VERSION="1.9.2"
+GOLANG_VERSION="1.16.3"
+GRPC_GO_GENERATOR_VERSION="1.1.0"
+GRPC_GO_VERSION="1.37.0"
 GRPC_JAVA_VERSION="1.37.0"
 GRPC_SWIFT_VERSION="1.0.0"
 GRPC_VERSION="1.37.1"
@@ -21,7 +21,7 @@ GRPC_WEB_VERSION="1.2.1"
 NANOPB_VERSION="0.4.4"
 PROTOBUF_VERSION="3.15.8"
 PROTOC_BRIDGE_GENERATOR_SHA="5e896a00f4acb1b0bfc07568bcfca4839c61a006"
-PROTOC_GO_GENERATOR_VERSION="1.25.0"
+PROTOC_GO_GENERATOR_VERSION="1.26.0"
 PROTOC_GO_JSON_GENERATOR_VERSION="ed3ed0e1fd6af35687b60d85640aa01474b40e0b"
 PROTOC_GRPC_GATEWAY_GENERATOR_VERSION="2.4.0"
 PROTOC_MD_GENERATOR_SHA="a80f2d24824f3ed396abc952ccf41e921c08c1af"
@@ -29,14 +29,13 @@ PROTOC_MERGER_GENERATOR_SHA="fadaba4baaa552fd1f795f8e54ffe0a2ceeaef67"
 PROTOC_METADATA_GENERATOR_SHA="2b22067b7d82124fd7a0653a07b64cb5465c4b47"
 PROTOC_TS_GENERATOR_SHA="34475255fff1bf64ec98c4e454e684fd7143a3ec"
 PROTOC_VALIDATE_GENERATOR_SHA="dd3f9432e42c30aa0338244ea5eac90cfd8aea60"
-PROTOLOCK_VERSION="0.15.0"
+PROTOLOCK_VERSION="0.15.2"
 PROTOSON_SHA="136a221995ea754fe65e5f3b139b504ee7d1a906"
 SRPC_VERSION="0.0.0-alpha.3"
-SWIFT_VERSION="5.3.1"
+SWIFT_VERSION="5.4"
 TMPL_RENDERER_SHA="e16c69c9ea4f631a1dcce6411ef4b3477d1386ea"
 
 csharp_projects = [
-    '//src/Saltoapis.Longrunning.V1',
     '//src/Saltoapis.Nebula.DigitalKey.V1',
     '//src/Saltoapis.Nebula.Encoder.V1',
     '//src/Saltoapis.Nebula.Iam.V1',
@@ -44,6 +43,7 @@ csharp_projects = [
     '//src/Saltoapis.Nebula.MobileKey.V1',
     '//src/Saltoapis.Nebula.Type',
     '//src/Saltoapis.Nebula.Unit.V1',
+    '//src/Saltoapis.Longrunning.V1',
     '//src/Saltoapis.Type',
     '//src/Saltoapis.Nebula.AccessPoint.V1',
     '//src/Saltoapis.Nebula.AccessRight.V1',
