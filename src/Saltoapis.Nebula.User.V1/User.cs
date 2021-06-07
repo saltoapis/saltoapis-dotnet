@@ -40,110 +40,113 @@ namespace Saltoapis.Nebula.User.V1 {
             "dF9rZXkYDCABKAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXki",
             "eQoLQWNjZXNzUmlnaHQSDAoEbmFtZRgBIAEoCRIUCgxhY2Nlc3NfcmlnaHQY",
             "AiABKAkSFAoMZGlzcGxheV9uYW1lGAMgASgJEjAKCHNjaGVkdWxlGAQgASgL",
-            "Mh4uc2FsdG8ubmVidWxhLnVzZXIudjEuU2NoZWR1bGUiuQIKB0NhcmRLZXkS",
-            "DAoEbmFtZRgBIAEoCRILCgN1aWQYAiABKAkSPwoMYXNzaWduX3N0YXRlGAMg",
-            "ASgOMikuc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleS5Bc3NpZ25TdGF0",
-            "ZRI/Cgx1cGRhdGVfc3RhdGUYBCABKA4yKS5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5DYXJkS2V5LlVwZGF0ZVN0YXRlIkkKC0Fzc2lnblN0YXRlEhwKGEFTU0lH",
-            "Tl9TVEFURV9VTlNQRUNJRklFRBAAEg4KClVOQVNTSUdORUQQARIMCghBU1NJ",
-            "R05FRBACIkYKC1VwZGF0ZVN0YXRlEhwKGFVQREFURV9TVEFURV9VTlNQRUNJ",
-            "RklFRBAAEgwKCE9VVERBVEVEEAESCwoHVVBEQVRFRBACIj8KBkFwcEtleRIM",
-            "CgRuYW1lGAEgASgJEhIKCm1vYmlsZV9rZXkYAiABKAkSEwoLZGlnaXRhbF9r",
-            "ZXkYAyABKAkiLgoJV2FsbGV0S2V5EgwKBG5hbWUYASABKAkSEwoLZGlnaXRh",
-            "bF9rZXkYAiABKAki8QEKCFNjaGVkdWxlEjAKBGRheXMYASADKAsyIi5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5TY2hlZHVsZS5EYXkSKQoKc3RhcnRfdGltZRgC",
-            "IAEoCzIVLnNhbHRvLnR5cGUuVGltZU9mRGF5EicKCGVuZF90aW1lGAMgASgL",
-            "MhUuc2FsdG8udHlwZS5UaW1lT2ZEYXkaXwoDRGF5EiwKCGRheV90eXBlGAEg",
-            "ASgOMhouc2FsdG8ubmVidWxhLnR5cGUuRGF5VHlwZRIqCgtkYXlfb2Zfd2Vl",
-            "axgCIAEoDjIVLnNhbHRvLnR5cGUuRGF5T2ZXZWVrIl4KEUNyZWF0ZVVzZXJS",
-            "ZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIPCgd1c2VyX2lkGAIgASgJEigKBHVz",
-            "ZXIYAyABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIh4KDkdldFVz",
-            "ZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiawoQTGlzdFVzZXJzUmVxdWVzdBIO",
-            "CgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9r",
-            "ZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIlcK",
-            "EUxpc3RVc2Vyc1Jlc3BvbnNlEikKBXVzZXJzGAEgAygLMhouc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuVXNlchIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkibgoR",
-            "VXBkYXRlVXNlclJlcXVlc3QSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLlVzZXISLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUu",
-            "cHJvdG9idWYuRmllbGRNYXNrIiEKEURlbGV0ZVVzZXJSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkiYwoYQ3JlYXRlQWNjZXNzUmlnaHRSZXF1ZXN0Eg4KBnBhcmVu",
-            "dBgBIAEoCRI3CgxhY2Nlc3NfcmlnaHQYAiABKAsyIS5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5BY2Nlc3NSaWdodCIlChVHZXRBY2Nlc3NSaWdodFJlcXVlc3QS",
-            "DAoEbmFtZRgBIAEoCSJyChdMaXN0QWNjZXNzUmlnaHRzUmVxdWVzdBIOCgZw",
-            "YXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4Y",
-            "AyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIm0KGExp",
-            "c3RBY2Nlc3NSaWdodHNSZXNwb25zZRI4Cg1hY2Nlc3NfcmlnaHRzGAEgAygL",
-            "MiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSFwoPbmV4dF9w",
-            "YWdlX3Rva2VuGAIgASgJIoQBChhVcGRhdGVBY2Nlc3NSaWdodFJlcXVlc3QS",
-            "NwoMYWNjZXNzX3JpZ2h0GAEgASgLMiEuc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "QWNjZXNzUmlnaHQSLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuRmllbGRNYXNrIigKGERlbGV0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBIM",
-            "CgRuYW1lGAEgASgJIngKFFVwZGF0ZUNhcmRLZXlSZXF1ZXN0Ei8KCGNhcmRf",
-            "a2V5GAEgASgLMh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleRIvCgt1",
-            "cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2si",
-            "XAoURW5jb2RlQ2FyZEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCRIRCgdlbmNv",
-            "ZGVyGAIgASgJSAASGQoPZWxlY3Ryb25pY19sb2NrGAMgASgJSABCCAoGZGV2",
-            "aWNlIiQKFENhbmNlbENhcmRLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkidQoT",
-            "VXBkYXRlQXBwS2V5UmVxdWVzdBItCgdhcHBfa2V5GAEgASgLMhwuc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuQXBwS2V5Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhou",
-            "Z29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIjChNBc3NpZ25BcHBLZXlSZXF1",
-            "ZXN0EgwKBG5hbWUYASABKAkiIwoTQ2FuY2VsQXBwS2V5UmVxdWVzdBIMCgRu",
-            "YW1lGAEgASgJIn4KFlVwZGF0ZVdhbGxldEtleVJlcXVlc3QSMwoKd2FsbGV0",
-            "X2tleRgBIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtleRIv",
-            "Cgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1h",
-            "c2siJgoWQXNzaWduV2FsbGV0S2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJIiYK",
-            "FkNhbmNlbFdhbGxldEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCTLmDQoLVXNl",
-            "clNlcnZpY2USUQoKQ3JlYXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LkNyZWF0ZVVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNl",
-            "chJLCgdHZXRVc2VyEiQuc2FsdG8ubmVidWxhLnVzZXIudjEuR2V0VXNlclJl",
-            "cXVlc3QaGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyElwKCUxpc3RVc2Vy",
-            "cxImLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RVc2Vyc1JlcXVlc3QaJy5z",
-            "YWx0by5uZWJ1bGEudXNlci52MS5MaXN0VXNlcnNSZXNwb25zZRJRCgpVcGRh",
-            "dGVVc2VyEicuc2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRlVXNlclJlcXVl",
-            "c3QaGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEk0KCkRlbGV0ZVVzZXIS",
-            "Jy5zYWx0by5uZWJ1bGEudXNlci52MS5EZWxldGVVc2VyUmVxdWVzdBoWLmdv",
-            "b2dsZS5wcm90b2J1Zi5FbXB0eRJmChFDcmVhdGVBY2Nlc3NSaWdodBIuLnNh",
-            "bHRvLm5lYnVsYS51c2VyLnYxLkNyZWF0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBoh",
-            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0EmAKDkdldEFjY2Vz",
-            "c1JpZ2h0Eisuc2FsdG8ubmVidWxhLnVzZXIudjEuR2V0QWNjZXNzUmlnaHRS",
-            "ZXF1ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQScQoQ",
-            "TGlzdEFjY2Vzc1JpZ2h0cxItLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RB",
-            "Y2Nlc3NSaWdodHNSZXF1ZXN0Gi4uc2FsdG8ubmVidWxhLnVzZXIudjEuTGlz",
-            "dEFjY2Vzc1JpZ2h0c1Jlc3BvbnNlEmYKEVVwZGF0ZUFjY2Vzc1JpZ2h0Ei4u",
-            "c2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRlQWNjZXNzUmlnaHRSZXF1ZXN0",
-            "GiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSWwoRRGVsZXRl",
-            "QWNjZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52MS5EZWxldGVBY2Nl",
-            "c3NSaWdodFJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSWgoNVXBk",
-            "YXRlQ2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZUNhcmRL",
-            "ZXlSZXF1ZXN0Gh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleRJTCg1F",
-            "bmNvZGVDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIudjEuRW5jb2RlQ2Fy",
-            "ZEtleVJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSUwoNQ2FuY2Vs",
-            "Q2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbENhcmRLZXlS",
-            "ZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5ElcKDFVwZGF0ZUFwcEtl",
-            "eRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZUFwcEtleVJlcXVlc3Qa",
-            "HC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSVwoMQXNzaWduQXBwS2V5",
-            "Eikuc2FsdG8ubmVidWxhLnVzZXIudjEuQXNzaWduQXBwS2V5UmVxdWVzdBoc",
-            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleRJXCgxDYW5jZWxBcHBLZXkS",
-            "KS5zYWx0by5uZWJ1bGEudXNlci52MS5DYW5jZWxBcHBLZXlSZXF1ZXN0Ghwu",
-            "c2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5EmAKD1VwZGF0ZVdhbGxldEtl",
-            "eRIsLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZVdhbGxldEtleVJlcXVl",
-            "c3QaHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkSYAoPQXNzaWdu",
-            "V2FsbGV0S2V5Eiwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXNzaWduV2FsbGV0",
-            "S2V5UmVxdWVzdBofLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtleRJg",
-            "Cg9DYW5jZWxXYWxsZXRLZXkSLC5zYWx0by5uZWJ1bGEudXNlci52MS5DYW5j",
-            "ZWxXYWxsZXRLZXlSZXF1ZXN0Gh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2Fs",
-            "bGV0S2V5Qo4BChxjb20uc2FsdG9hcGlzLm5lYnVsYS51c2VyLnYxQglVc2Vy",
-            "UHJvdG9QAVpGZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMuY29tL3NhbHRvYXBp",
-            "cy9zYWx0b2FwaXMtZ28vbmVidWxhL3VzZXIvdjE7dXNlcqoCGFNhbHRvYXBp",
-            "cy5OZWJ1bGEuVXNlci5WMWIGcHJvdG8z"));
+            "Mh4uc2FsdG8ubmVidWxhLnVzZXIudjEuU2NoZWR1bGUitgEKB0NhcmRLZXkS",
+            "DAoEbmFtZRgBIAEoCRILCgN1aWQYAiABKAkSMgoFc3RhdGUYAyABKA4yIy5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5LlN0YXRlEhAKCG91dGRhdGVk",
+            "GAQgASgIIkoKBVN0YXRlEhUKEVNUQVRFX1VOU1BFQ0lGSUVEEAASEAoMTk9U",
+            "X0FTU0lHTkVEEAESDAoIQVNTSUdORUQQAhIKCgZBQ1RJVkUQAyLEAQoGQXBw",
+            "S2V5EgwKBG5hbWUYASABKAkSEgoKbW9iaWxlX2tleRgCIAEoCRITCgtkaWdp",
+            "dGFsX2tleRgDIAEoCRIxCgVzdGF0ZRgEIAEoDjIiLnNhbHRvLm5lYnVsYS51",
+            "c2VyLnYxLkFwcEtleS5TdGF0ZRIQCghvdXRkYXRlZBgFIAEoCCI+CgVTdGF0",
+            "ZRIVChFTVEFURV9VTlNQRUNJRklFRBAAEhAKDE5PVF9BU1NJR05FRBABEgwK",
+            "CEFTU0lHTkVEEAIitgEKCVdhbGxldEtleRIMCgRuYW1lGAEgASgJEhMKC2Rp",
+            "Z2l0YWxfa2V5GAIgASgJEjQKBXN0YXRlGAMgASgOMiUuc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuV2FsbGV0S2V5LlN0YXRlEhAKCG91dGRhdGVkGAQgASgIIj4K",
+            "BVN0YXRlEhUKEVNUQVRFX1VOU1BFQ0lGSUVEEAASEAoMTk9UX0FTU0lHTkVE",
+            "EAESDAoIQVNTSUdORUQQAiLxAQoIU2NoZWR1bGUSMAoEZGF5cxgBIAMoCzIi",
+            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLlNjaGVkdWxlLkRheRIpCgpzdGFydF90",
+            "aW1lGAIgASgLMhUuc2FsdG8udHlwZS5UaW1lT2ZEYXkSJwoIZW5kX3RpbWUY",
+            "AyABKAsyFS5zYWx0by50eXBlLlRpbWVPZkRheRpfCgNEYXkSLAoIZGF5X3R5",
+            "cGUYASABKA4yGi5zYWx0by5uZWJ1bGEudHlwZS5EYXlUeXBlEioKC2RheV9v",
+            "Zl93ZWVrGAIgASgOMhUuc2FsdG8udHlwZS5EYXlPZldlZWsiXgoRQ3JlYXRl",
+            "VXNlclJlcXVlc3QSDgoGcGFyZW50GAEgASgJEg8KB3VzZXJfaWQYAiABKAkS",
+            "KAoEdXNlchgDIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIiHgoO",
+            "R2V0VXNlclJlcXVlc3QSDAoEbmFtZRgBIAEoCSJrChBMaXN0VXNlcnNSZXF1",
+            "ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFn",
+            "ZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSAB",
+            "KAkiVwoRTGlzdFVzZXJzUmVzcG9uc2USKQoFdXNlcnMYASADKAsyGi5zYWx0",
+            "by5uZWJ1bGEudXNlci52MS5Vc2VyEhcKD25leHRfcGFnZV90b2tlbhgCIAEo",
+            "CSJuChFVcGRhdGVVc2VyUmVxdWVzdBIoCgR1c2VyGAEgASgLMhouc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuVXNlchIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siIQoRRGVsZXRlVXNlclJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCSJjChhDcmVhdGVBY2Nlc3NSaWdodFJlcXVlc3QSDgoG",
+            "cGFyZW50GAEgASgJEjcKDGFjY2Vzc19yaWdodBgCIAEoCzIhLnNhbHRvLm5l",
+            "YnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0IiUKFUdldEFjY2Vzc1JpZ2h0UmVx",
+            "dWVzdBIMCgRuYW1lGAEgASgJInIKF0xpc3RBY2Nlc3NSaWdodHNSZXF1ZXN0",
+            "Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90",
+            "b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAki",
+            "bQoYTGlzdEFjY2Vzc1JpZ2h0c1Jlc3BvbnNlEjgKDWFjY2Vzc19yaWdodHMY",
+            "ASADKAsyIS5zYWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdodBIXCg9u",
+            "ZXh0X3BhZ2VfdG9rZW4YAiABKAkihAEKGFVwZGF0ZUFjY2Vzc1JpZ2h0UmVx",
+            "dWVzdBI3CgxhY2Nlc3NfcmlnaHQYASABKAsyIS5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5BY2Nlc3NSaWdodBIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2ds",
+            "ZS5wcm90b2J1Zi5GaWVsZE1hc2siKAoYRGVsZXRlQWNjZXNzUmlnaHRSZXF1",
+            "ZXN0EgwKBG5hbWUYASABKAkieAoUVXBkYXRlQ2FyZEtleVJlcXVlc3QSLwoI",
+            "Y2FyZF9rZXkYASABKAsyHS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5",
+            "Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxk",
+            "TWFzayJcChRFbmNvZGVDYXJkS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJEhEK",
+            "B2VuY29kZXIYAiABKAlIABIZCg9lbGVjdHJvbmljX2xvY2sYAyABKAlIAEII",
+            "CgZkZXZpY2UiJAoUQ2FuY2VsQ2FyZEtleVJlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CSJ1ChNVcGRhdGVBcHBLZXlSZXF1ZXN0Ei0KB2FwcF9rZXkYASABKAsyHC5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSLwoLdXBkYXRlX21hc2sYAiAB",
+            "KAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiMKE0Fzc2lnbkFwcEtl",
+            "eVJlcXVlc3QSDAoEbmFtZRgBIAEoCSIjChNDYW5jZWxBcHBLZXlSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAkifgoWVXBkYXRlV2FsbGV0S2V5UmVxdWVzdBIzCgp3",
+            "YWxsZXRfa2V5GAEgASgLMh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0",
+            "S2V5Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZp",
+            "ZWxkTWFzayImChZBc3NpZ25XYWxsZXRLZXlSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAkiJgoWQ2FuY2VsV2FsbGV0S2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJMuYN",
+            "CgtVc2VyU2VydmljZRJRCgpDcmVhdGVVc2VyEicuc2FsdG8ubmVidWxhLnVz",
+            "ZXIudjEuQ3JlYXRlVXNlclJlcXVlc3QaGi5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5Vc2VyEksKB0dldFVzZXISJC5zYWx0by5uZWJ1bGEudXNlci52MS5HZXRV",
+            "c2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISXAoJTGlz",
+            "dFVzZXJzEiYuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVzZXJzUmVxdWVz",
+            "dBonLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RVc2Vyc1Jlc3BvbnNlElEK",
+            "ClVwZGF0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNlci52MS5VcGRhdGVVc2Vy",
+            "UmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISTQoKRGVsZXRl",
+            "VXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLkRlbGV0ZVVzZXJSZXF1ZXN0",
+            "GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmYKEUNyZWF0ZUFjY2Vzc1JpZ2h0",
+            "Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlQWNjZXNzUmlnaHRSZXF1",
+            "ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSYAoOR2V0",
+            "QWNjZXNzUmlnaHQSKy5zYWx0by5uZWJ1bGEudXNlci52MS5HZXRBY2Nlc3NS",
+            "aWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdo",
+            "dBJxChBMaXN0QWNjZXNzUmlnaHRzEi0uc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "TGlzdEFjY2Vzc1JpZ2h0c1JlcXVlc3QaLi5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5MaXN0QWNjZXNzUmlnaHRzUmVzcG9uc2USZgoRVXBkYXRlQWNjZXNzUmln",
+            "aHQSLi5zYWx0by5uZWJ1bGEudXNlci52MS5VcGRhdGVBY2Nlc3NSaWdodFJl",
+            "cXVlc3QaIS5zYWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdodBJbChFE",
+            "ZWxldGVBY2Nlc3NSaWdodBIuLnNhbHRvLm5lYnVsYS51c2VyLnYxLkRlbGV0",
+            "ZUFjY2Vzc1JpZ2h0UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJa",
+            "Cg1VcGRhdGVDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRl",
+            "Q2FyZEtleVJlcXVlc3QaHS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5",
+            "ElMKDUVuY29kZUNhcmRLZXkSKi5zYWx0by5uZWJ1bGEudXNlci52MS5FbmNv",
+            "ZGVDYXJkS2V5UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJTCg1D",
+            "YW5jZWxDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2VsQ2Fy",
+            "ZEtleVJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSVwoMVXBkYXRl",
+            "QXBwS2V5Eikuc2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRlQXBwS2V5UmVx",
+            "dWVzdBocLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleRJXCgxBc3NpZ25B",
+            "cHBLZXkSKS5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25BcHBLZXlSZXF1",
+            "ZXN0Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5ElcKDENhbmNlbEFw",
+            "cEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbEFwcEtleVJlcXVl",
+            "c3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSYAoPVXBkYXRlV2Fs",
+            "bGV0S2V5Eiwuc2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRlV2FsbGV0S2V5",
+            "UmVxdWVzdBofLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtleRJgCg9B",
+            "c3NpZ25XYWxsZXRLZXkSLC5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25X",
+            "YWxsZXRLZXlSZXF1ZXN0Gh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0",
+            "S2V5EmAKD0NhbmNlbFdhbGxldEtleRIsLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LkNhbmNlbFdhbGxldEtleVJlcXVlc3QaHy5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5XYWxsZXRLZXlCjgEKHGNvbS5zYWx0b2FwaXMubmVidWxhLnVzZXIudjFC",
+            "CVVzZXJQcm90b1ABWkZnaXRsYWIucm5kLnNhbHRvc3lzdGVtcy5jb20vc2Fs",
+            "dG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvdXNlci92MTt1c2VyqgIYU2Fs",
+            "dG9hcGlzLk5lYnVsYS5Vc2VyLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.User), global::Saltoapis.Nebula.User.V1.User.Parser, new[]{ "Name", "GivenName", "FamilyName", "DisplayName", "Email", "ActivateTime", "ExpireTime", "Photo", "PhotoUri", "CardKey", "AppKey", "WalletKey" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AccessRight), global::Saltoapis.Nebula.User.V1.AccessRight.Parser, new[]{ "Name", "AccessRight_", "DisplayName", "Schedule" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CardKey), global::Saltoapis.Nebula.User.V1.CardKey.Parser, new[]{ "Name", "Uid", "AssignState", "UpdateState" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState), typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AppKey), global::Saltoapis.Nebula.User.V1.AppKey.Parser, new[]{ "Name", "MobileKey", "DigitalKey" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.WalletKey), global::Saltoapis.Nebula.User.V1.WalletKey.Parser, new[]{ "Name", "DigitalKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CardKey), global::Saltoapis.Nebula.User.V1.CardKey.Parser, new[]{ "Name", "Uid", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.State) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AppKey), global::Saltoapis.Nebula.User.V1.AppKey.Parser, new[]{ "Name", "MobileKey", "DigitalKey", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.AppKey.Types.State) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.WalletKey), global::Saltoapis.Nebula.User.V1.WalletKey.Parser, new[]{ "Name", "DigitalKey", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.WalletKey.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.Schedule), global::Saltoapis.Nebula.User.V1.Schedule.Parser, new[]{ "Days", "StartTime", "EndTime" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.Schedule.Types.Day), global::Saltoapis.Nebula.User.V1.Schedule.Types.Day.Parser, new[]{ "DayType", "DayOfWeek" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CreateUserRequest), global::Saltoapis.Nebula.User.V1.CreateUserRequest.Parser, new[]{ "Parent", "UserId", "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.GetUserRequest), global::Saltoapis.Nebula.User.V1.GetUserRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -1178,8 +1181,8 @@ namespace Saltoapis.Nebula.User.V1 {
     public CardKey(CardKey other) : this() {
       name_ = other.name_;
       uid_ = other.uid_;
-      assignState_ = other.assignState_;
-      updateState_ = other.updateState_;
+      state_ = other.state_;
+      outdated_ = other.outdated_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1219,45 +1222,42 @@ namespace Saltoapis.Nebula.User.V1 {
       }
     }
 
-    /// <summary>Field number for the "assign_state" field.</summary>
-    public const int AssignStateFieldNumber = 3;
-    private global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState assignState_ = global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified;
+    /// <summary>Field number for the "state" field.</summary>
+    public const int StateFieldNumber = 3;
+    private global::Saltoapis.Nebula.User.V1.CardKey.Types.State state_ = global::Saltoapis.Nebula.User.V1.CardKey.Types.State.Unspecified;
     /// <summary>
-    /// Indicates whether this card key has been assigned or not.
-    /// This field cannot be modified using a standard
+    /// Indicates whether this card key has been assigned, not assigned or is
+    /// active and ready for use. This field cannot be modified using a standard
     /// [`UpdateCardKey`][salto.nebula.user.v1.UserService.UpdateCardKey]
     /// operation. To change the value of this field, you must call
     /// [`EncodeCardKey`][salto.nebula.user.v1.UserService.EncodeCardKey].
     ///
-    /// If the value is `UNASSIGNED` also applies to the case where the
-    /// assignation process has been initiated but where it has not finished.
+    /// If the value is `NOT_ASSIGNED` it also applies to cases where the
+    /// assignation process has been initiated, but not completed.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState AssignState {
-      get { return assignState_; }
+    public global::Saltoapis.Nebula.User.V1.CardKey.Types.State State {
+      get { return state_; }
       set {
-        assignState_ = value;
+        state_ = value;
       }
     }
 
-    /// <summary>Field number for the "update_state" field.</summary>
-    public const int UpdateStateFieldNumber = 4;
-    private global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState updateState_ = global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified;
+    /// <summary>Field number for the "outdated" field.</summary>
+    public const int OutdatedFieldNumber = 4;
+    private bool outdated_;
     /// <summary>
     /// Indicates whether this card key has pending updates or not.
     /// This field cannot be modified using a standard
     /// [`UpdateCardKey`][salto.nebula.user.v1.UserService.UpdateCardKey]
     /// operation. To change the value of this field, you must call
-    /// [`EncodeCardKey`][salto.nebula.user.v1.UserService.EncodeCardKey].
-    ///
-    /// If the value is `UPDATED` also applies to the case where the
-    /// update process has been initiated but where it has not finished.
+    /// [`OutdateCardKey`][salto.nebula.user.v1.UserService.OutdateCardKey].
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState UpdateState {
-      get { return updateState_; }
+    public bool Outdated {
+      get { return outdated_; }
       set {
-        updateState_ = value;
+        outdated_ = value;
       }
     }
 
@@ -1276,8 +1276,8 @@ namespace Saltoapis.Nebula.User.V1 {
       }
       if (Name != other.Name) return false;
       if (Uid != other.Uid) return false;
-      if (AssignState != other.AssignState) return false;
-      if (UpdateState != other.UpdateState) return false;
+      if (State != other.State) return false;
+      if (Outdated != other.Outdated) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1286,8 +1286,8 @@ namespace Saltoapis.Nebula.User.V1 {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Uid.Length != 0) hash ^= Uid.GetHashCode();
-      if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) hash ^= AssignState.GetHashCode();
-      if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) hash ^= UpdateState.GetHashCode();
+      if (State != global::Saltoapis.Nebula.User.V1.CardKey.Types.State.Unspecified) hash ^= State.GetHashCode();
+      if (Outdated != false) hash ^= Outdated.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1312,13 +1312,13 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(18);
         output.WriteString(Uid);
       }
-      if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) {
+      if (State != global::Saltoapis.Nebula.User.V1.CardKey.Types.State.Unspecified) {
         output.WriteRawTag(24);
-        output.WriteEnum((int) AssignState);
+        output.WriteEnum((int) State);
       }
-      if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) {
+      if (Outdated != false) {
         output.WriteRawTag(32);
-        output.WriteEnum((int) UpdateState);
+        output.WriteBool(Outdated);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1337,13 +1337,13 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(18);
         output.WriteString(Uid);
       }
-      if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) {
+      if (State != global::Saltoapis.Nebula.User.V1.CardKey.Types.State.Unspecified) {
         output.WriteRawTag(24);
-        output.WriteEnum((int) AssignState);
+        output.WriteEnum((int) State);
       }
-      if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) {
+      if (Outdated != false) {
         output.WriteRawTag(32);
-        output.WriteEnum((int) UpdateState);
+        output.WriteBool(Outdated);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1360,11 +1360,11 @@ namespace Saltoapis.Nebula.User.V1 {
       if (Uid.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
       }
-      if (AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AssignState);
+      if (State != global::Saltoapis.Nebula.User.V1.CardKey.Types.State.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) State);
       }
-      if (UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) UpdateState);
+      if (Outdated != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1383,11 +1383,11 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other.Uid.Length != 0) {
         Uid = other.Uid;
       }
-      if (other.AssignState != global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState.Unspecified) {
-        AssignState = other.AssignState;
+      if (other.State != global::Saltoapis.Nebula.User.V1.CardKey.Types.State.Unspecified) {
+        State = other.State;
       }
-      if (other.UpdateState != global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState.Unspecified) {
-        UpdateState = other.UpdateState;
+      if (other.Outdated != false) {
+        Outdated = other.Outdated;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1412,11 +1412,11 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 24: {
-            AssignState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState) input.ReadEnum();
+            State = (global::Saltoapis.Nebula.User.V1.CardKey.Types.State) input.ReadEnum();
             break;
           }
           case 32: {
-            UpdateState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) input.ReadEnum();
+            Outdated = input.ReadBool();
             break;
           }
         }
@@ -1442,11 +1442,11 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 24: {
-            AssignState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.AssignState) input.ReadEnum();
+            State = (global::Saltoapis.Nebula.User.V1.CardKey.Types.State) input.ReadEnum();
             break;
           }
           case 32: {
-            UpdateState = (global::Saltoapis.Nebula.User.V1.CardKey.Types.UpdateState) input.ReadEnum();
+            Outdated = input.ReadBool();
             break;
           }
         }
@@ -1459,41 +1459,26 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static partial class Types {
       /// <summary>
-      /// Assign state for a card key.
+      /// State for a card key.
       /// </summary>
-      public enum AssignState {
+      public enum State {
         /// <summary>
         /// Sentinel value used to indicate that the state is unknown, omitted,
         /// or is not applicable.
         /// </summary>
-        [pbr::OriginalName("ASSIGN_STATE_UNSPECIFIED")] Unspecified = 0,
+        [pbr::OriginalName("STATE_UNSPECIFIED")] Unspecified = 0,
         /// <summary>
-        /// The card key has yet to be assigned to a physical card.
+        /// The card key has not been assigned to a physical card.
         /// </summary>
-        [pbr::OriginalName("UNASSIGNED")] Unassigned = 1,
+        [pbr::OriginalName("NOT_ASSIGNED")] NotAssigned = 1,
         /// <summary>
-        /// It has been already assigned.
+        /// The card key has been assigned.
         /// </summary>
         [pbr::OriginalName("ASSIGNED")] Assigned = 2,
-      }
-
-      /// <summary>
-      /// Update state for a card key.
-      /// </summary>
-      public enum UpdateState {
         /// <summary>
-        /// Sentinel value used to indicate that the state is unknown, omitted,
-        /// or is not applicable.
+        /// The card key is active and ready to be used.
         /// </summary>
-        [pbr::OriginalName("UPDATE_STATE_UNSPECIFIED")] Unspecified = 0,
-        /// <summary>
-        /// The card key has to be updated to a physical card.
-        /// </summary>
-        [pbr::OriginalName("OUTDATED")] Outdated = 1,
-        /// <summary>
-        /// It has been already updated.
-        /// </summary>
-        [pbr::OriginalName("UPDATED")] Updated = 2,
+        [pbr::OriginalName("ACTIVE")] Active = 3,
       }
 
     }
@@ -1536,6 +1521,8 @@ namespace Saltoapis.Nebula.User.V1 {
       name_ = other.name_;
       mobileKey_ = other.mobileKey_;
       digitalKey_ = other.digitalKey_;
+      state_ = other.state_;
+      outdated_ = other.outdated_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1590,6 +1577,42 @@ namespace Saltoapis.Nebula.User.V1 {
       }
     }
 
+    /// <summary>Field number for the "state" field.</summary>
+    public const int StateFieldNumber = 4;
+    private global::Saltoapis.Nebula.User.V1.AppKey.Types.State state_ = global::Saltoapis.Nebula.User.V1.AppKey.Types.State.Unspecified;
+    /// <summary>
+    /// Indicates whether this app key has been assigned or not. This field
+    /// cannot be modified using a standard
+    /// [`UpdateAppKey`][salto.nebula.user.v1.UserService.UpdateAppKey]
+    /// operation. To change the value of this field, you must call
+    /// [`AssignAppKey`][salto.nebula.user.v1.UserService.AssignAppKey].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.User.V1.AppKey.Types.State State {
+      get { return state_; }
+      set {
+        state_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "outdated" field.</summary>
+    public const int OutdatedFieldNumber = 5;
+    private bool outdated_;
+    /// <summary>
+    /// Indicates whether this app key has pending updates or not.
+    /// This field cannot be modified using a standard
+    /// [`UpdateAppKey`][salto.nebula.user.v1.UserService.UpdateAppKey]
+    /// operation. To change the value of this field, you must call
+    /// [`OutdateAppKey`][salto.nebula.user.v1.UserService.OutdateAppKey].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Outdated {
+      get { return outdated_; }
+      set {
+        outdated_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as AppKey);
@@ -1606,6 +1629,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (Name != other.Name) return false;
       if (MobileKey != other.MobileKey) return false;
       if (DigitalKey != other.DigitalKey) return false;
+      if (State != other.State) return false;
+      if (Outdated != other.Outdated) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1615,6 +1640,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (MobileKey.Length != 0) hash ^= MobileKey.GetHashCode();
       if (DigitalKey.Length != 0) hash ^= DigitalKey.GetHashCode();
+      if (State != global::Saltoapis.Nebula.User.V1.AppKey.Types.State.Unspecified) hash ^= State.GetHashCode();
+      if (Outdated != false) hash ^= Outdated.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1643,6 +1670,14 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(26);
         output.WriteString(DigitalKey);
       }
+      if (State != global::Saltoapis.Nebula.User.V1.AppKey.Types.State.Unspecified) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) State);
+      }
+      if (Outdated != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Outdated);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1664,6 +1699,14 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(26);
         output.WriteString(DigitalKey);
       }
+      if (State != global::Saltoapis.Nebula.User.V1.AppKey.Types.State.Unspecified) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) State);
+      }
+      if (Outdated != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Outdated);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1681,6 +1724,12 @@ namespace Saltoapis.Nebula.User.V1 {
       }
       if (DigitalKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DigitalKey);
+      }
+      if (State != global::Saltoapis.Nebula.User.V1.AppKey.Types.State.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) State);
+      }
+      if (Outdated != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1701,6 +1750,12 @@ namespace Saltoapis.Nebula.User.V1 {
       }
       if (other.DigitalKey.Length != 0) {
         DigitalKey = other.DigitalKey;
+      }
+      if (other.State != global::Saltoapis.Nebula.User.V1.AppKey.Types.State.Unspecified) {
+        State = other.State;
+      }
+      if (other.Outdated != false) {
+        Outdated = other.Outdated;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1726,6 +1781,14 @@ namespace Saltoapis.Nebula.User.V1 {
           }
           case 26: {
             DigitalKey = input.ReadString();
+            break;
+          }
+          case 32: {
+            State = (global::Saltoapis.Nebula.User.V1.AppKey.Types.State) input.ReadEnum();
+            break;
+          }
+          case 40: {
+            Outdated = input.ReadBool();
             break;
           }
         }
@@ -1754,10 +1817,44 @@ namespace Saltoapis.Nebula.User.V1 {
             DigitalKey = input.ReadString();
             break;
           }
+          case 32: {
+            State = (global::Saltoapis.Nebula.User.V1.AppKey.Types.State) input.ReadEnum();
+            break;
+          }
+          case 40: {
+            Outdated = input.ReadBool();
+            break;
+          }
         }
       }
     }
     #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the AppKey message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      /// <summary>
+      /// State for an app key.
+      /// </summary>
+      public enum State {
+        /// <summary>
+        /// Sentinel value used to indicate that the state is unknown, omitted,
+        /// or is not applicable.
+        /// </summary>
+        [pbr::OriginalName("STATE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// The app key has not been assigned.
+        /// </summary>
+        [pbr::OriginalName("NOT_ASSIGNED")] NotAssigned = 1,
+        /// <summary>
+        /// The app key has been assigned.
+        /// </summary>
+        [pbr::OriginalName("ASSIGNED")] Assigned = 2,
+      }
+
+    }
+    #endregion
 
   }
 
@@ -1795,6 +1892,8 @@ namespace Saltoapis.Nebula.User.V1 {
     public WalletKey(WalletKey other) : this() {
       name_ = other.name_;
       digitalKey_ = other.digitalKey_;
+      state_ = other.state_;
+      outdated_ = other.outdated_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1834,6 +1933,42 @@ namespace Saltoapis.Nebula.User.V1 {
       }
     }
 
+    /// <summary>Field number for the "state" field.</summary>
+    public const int StateFieldNumber = 3;
+    private global::Saltoapis.Nebula.User.V1.WalletKey.Types.State state_ = global::Saltoapis.Nebula.User.V1.WalletKey.Types.State.Unspecified;
+    /// <summary>
+    /// Indicates whether this wallet key has been assigned or not. This field
+    /// cannot be modified using a standard
+    /// [`UpdateWalletKey`][salto.nebula.user.v1.UserService.UpdateWalletKey]
+    /// operation. To change the value of this field, you must call
+    /// [`AssignWalletKey`][salto.nebula.user.v1.UserService.AssignWalletKey].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.User.V1.WalletKey.Types.State State {
+      get { return state_; }
+      set {
+        state_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "outdated" field.</summary>
+    public const int OutdatedFieldNumber = 4;
+    private bool outdated_;
+    /// <summary>
+    /// Indicates whether this wallet key has pending updates or not.
+    /// This field cannot be modified using a standard
+    /// [`UpdateWalletKey`][salto.nebula.user.v1.UserService.UpdateWalletKey]
+    /// operation. To change the value of this field, you must call
+    /// [`OutdateWalletKey`][salto.nebula.user.v1.UserService.OutdateWalletKey].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Outdated {
+      get { return outdated_; }
+      set {
+        outdated_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as WalletKey);
@@ -1849,6 +1984,8 @@ namespace Saltoapis.Nebula.User.V1 {
       }
       if (Name != other.Name) return false;
       if (DigitalKey != other.DigitalKey) return false;
+      if (State != other.State) return false;
+      if (Outdated != other.Outdated) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1857,6 +1994,8 @@ namespace Saltoapis.Nebula.User.V1 {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DigitalKey.Length != 0) hash ^= DigitalKey.GetHashCode();
+      if (State != global::Saltoapis.Nebula.User.V1.WalletKey.Types.State.Unspecified) hash ^= State.GetHashCode();
+      if (Outdated != false) hash ^= Outdated.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1881,6 +2020,14 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(18);
         output.WriteString(DigitalKey);
       }
+      if (State != global::Saltoapis.Nebula.User.V1.WalletKey.Types.State.Unspecified) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) State);
+      }
+      if (Outdated != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(Outdated);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1898,6 +2045,14 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(18);
         output.WriteString(DigitalKey);
       }
+      if (State != global::Saltoapis.Nebula.User.V1.WalletKey.Types.State.Unspecified) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) State);
+      }
+      if (Outdated != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(Outdated);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1912,6 +2067,12 @@ namespace Saltoapis.Nebula.User.V1 {
       }
       if (DigitalKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DigitalKey);
+      }
+      if (State != global::Saltoapis.Nebula.User.V1.WalletKey.Types.State.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) State);
+      }
+      if (Outdated != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1929,6 +2090,12 @@ namespace Saltoapis.Nebula.User.V1 {
       }
       if (other.DigitalKey.Length != 0) {
         DigitalKey = other.DigitalKey;
+      }
+      if (other.State != global::Saltoapis.Nebula.User.V1.WalletKey.Types.State.Unspecified) {
+        State = other.State;
+      }
+      if (other.Outdated != false) {
+        Outdated = other.Outdated;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1950,6 +2117,14 @@ namespace Saltoapis.Nebula.User.V1 {
           }
           case 18: {
             DigitalKey = input.ReadString();
+            break;
+          }
+          case 24: {
+            State = (global::Saltoapis.Nebula.User.V1.WalletKey.Types.State) input.ReadEnum();
+            break;
+          }
+          case 32: {
+            Outdated = input.ReadBool();
             break;
           }
         }
@@ -1974,10 +2149,44 @@ namespace Saltoapis.Nebula.User.V1 {
             DigitalKey = input.ReadString();
             break;
           }
+          case 24: {
+            State = (global::Saltoapis.Nebula.User.V1.WalletKey.Types.State) input.ReadEnum();
+            break;
+          }
+          case 32: {
+            Outdated = input.ReadBool();
+            break;
+          }
         }
       }
     }
     #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the WalletKey message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      /// <summary>
+      /// State for a wallet key.
+      /// </summary>
+      public enum State {
+        /// <summary>
+        /// Sentinel value used to indicate that the state is unknown, omitted,
+        /// or is not applicable.
+        /// </summary>
+        [pbr::OriginalName("STATE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// The wallet key has not been assigned.
+        /// </summary>
+        [pbr::OriginalName("NOT_ASSIGNED")] NotAssigned = 1,
+        /// <summary>
+        /// The wallet key has been assigned.
+        /// </summary>
+        [pbr::OriginalName("ASSIGNED")] Assigned = 2,
+      }
+
+    }
+    #endregion
 
   }
 
