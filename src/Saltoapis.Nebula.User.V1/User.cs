@@ -1469,7 +1469,7 @@ namespace Saltoapis.Nebula.User.V1 {
         /// </summary>
         [pbr::OriginalName("STATE_UNSPECIFIED")] Unspecified = 0,
         /// <summary>
-        /// The card key has not been assigned to a physical card.
+        /// The card key is not assigned to a physical card.
         /// </summary>
         [pbr::OriginalName("NOT_ASSIGNED")] NotAssigned = 1,
         /// <summary>
@@ -1845,7 +1845,7 @@ namespace Saltoapis.Nebula.User.V1 {
         /// </summary>
         [pbr::OriginalName("STATE_UNSPECIFIED")] Unspecified = 0,
         /// <summary>
-        /// The app key has not been assigned.
+        /// The app key is not assigned.
         /// </summary>
         [pbr::OriginalName("NOT_ASSIGNED")] NotAssigned = 1,
         /// <summary>
@@ -2181,7 +2181,7 @@ namespace Saltoapis.Nebula.User.V1 {
         /// </summary>
         [pbr::OriginalName("STATE_UNSPECIFIED")] Unspecified = 0,
         /// <summary>
-        /// The wallet key has not been assigned.
+        /// The wallet key is not assigned.
         /// </summary>
         [pbr::OriginalName("NOT_ASSIGNED")] NotAssigned = 1,
         /// <summary>
