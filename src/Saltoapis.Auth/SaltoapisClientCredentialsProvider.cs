@@ -85,7 +85,7 @@ namespace Saltoapis.Auth
     /// </summary>
     class SaltoOAuthClient : OAuthClientCredentialsProvider
     {
-        static readonly string discoveryUri = "https://account.saltonebula.com/.well-known/openid-configuration";
+        static readonly string discoveryUri = "https://account.saltosystems.com/.well-known/openid-configuration";
 
         OIDCConfiguration cachedOidcConfiguration; // refeshed every 24 hours
         DateTimeOffset oidcCacheExpiration;
