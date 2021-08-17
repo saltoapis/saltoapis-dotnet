@@ -74,6 +74,7 @@ namespace Saltoapis.Nebula.User.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest> __Marshaller_salto_nebula_user_v1_UpdateWalletKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.WalletKey> __Marshaller_salto_nebula_user_v1_WalletKey = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.WalletKey.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest> __Marshaller_salto_nebula_user_v1_AssignWalletKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse> __Marshaller_salto_nebula_user_v1_AssignWalletKeyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest> __Marshaller_salto_nebula_user_v1_CancelWalletKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest.Parser));
 
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserRequest, global::Saltoapis.Nebula.User.V1.User> __Method_CreateUser = new grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserRequest, global::Saltoapis.Nebula.User.V1.User>(
@@ -195,12 +196,12 @@ namespace Saltoapis.Nebula.User.V1 {
         __Marshaller_salto_nebula_user_v1_UpdateWalletKeyRequest,
         __Marshaller_salto_nebula_user_v1_WalletKey);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey> __Method_AssignWalletKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest, global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse> __Method_AssignWalletKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest, global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "AssignWalletKey",
         __Marshaller_salto_nebula_user_v1_AssignWalletKeyRequest,
-        __Marshaller_salto_nebula_user_v1_WalletKey);
+        __Marshaller_salto_nebula_user_v1_AssignWalletKeyResponse);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey> __Method_CancelWalletKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey>(
         grpc::MethodType.Unary,
@@ -1126,13 +1127,17 @@ namespace Saltoapis.Nebula.User.V1 {
       /// Assign a wallet key
       ///
       /// Assigns a wallet key to an existing user.
+      /// If the frictionless flag is set in the
+      /// [`AssignWalletKeyRequest`][salto.nebula.user.v1.AssignWalletKeyRequest]
+      /// it will instead return an access URL to sign in to SALTO Identity and
+      /// assign the wallet key seamlessly.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.User.V1.WalletKey AssignWalletKey(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse AssignWalletKey(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return AssignWalletKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -1140,11 +1145,15 @@ namespace Saltoapis.Nebula.User.V1 {
       /// Assign a wallet key
       ///
       /// Assigns a wallet key to an existing user.
+      /// If the frictionless flag is set in the
+      /// [`AssignWalletKeyRequest`][salto.nebula.user.v1.AssignWalletKeyRequest]
+      /// it will instead return an access URL to sign in to SALTO Identity and
+      /// assign the wallet key seamlessly.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.User.V1.WalletKey AssignWalletKey(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::CallOptions options)
+      public virtual global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse AssignWalletKey(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_AssignWalletKey, null, options, request);
       }
@@ -1152,13 +1161,17 @@ namespace Saltoapis.Nebula.User.V1 {
       /// Assign a wallet key
       ///
       /// Assigns a wallet key to an existing user.
+      /// If the frictionless flag is set in the
+      /// [`AssignWalletKeyRequest`][salto.nebula.user.v1.AssignWalletKeyRequest]
+      /// it will instead return an access URL to sign in to SALTO Identity and
+      /// assign the wallet key seamlessly.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.WalletKey> AssignWalletKeyAsync(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse> AssignWalletKeyAsync(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return AssignWalletKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -1166,11 +1179,15 @@ namespace Saltoapis.Nebula.User.V1 {
       /// Assign a wallet key
       ///
       /// Assigns a wallet key to an existing user.
+      /// If the frictionless flag is set in the
+      /// [`AssignWalletKeyRequest`][salto.nebula.user.v1.AssignWalletKeyRequest]
+      /// it will instead return an access URL to sign in to SALTO Identity and
+      /// assign the wallet key seamlessly.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.WalletKey> AssignWalletKeyAsync(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse> AssignWalletKeyAsync(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_AssignWalletKey, null, options, request);
       }
