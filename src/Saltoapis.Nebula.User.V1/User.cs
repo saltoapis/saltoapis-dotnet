@@ -99,50 +99,52 @@ namespace Saltoapis.Nebula.User.V1 {
             "ImIKF0Fzc2lnbldhbGxldEtleVJlc3BvbnNlEjMKCndhbGxldF9rZXkYASAB",
             "KAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkSEgoKYWNjZXNz",
             "X3VyaRgCIAEoCSImChZDYW5jZWxXYWxsZXRLZXlSZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAky9A0KC1VzZXJTZXJ2aWNlElEKCkNyZWF0ZVVzZXISJy5zYWx0by5u",
-            "ZWJ1bGEudXNlci52MS5DcmVhdGVVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLlVzZXISSwoHR2V0VXNlchIkLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLkdldFVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNl",
-            "chJcCglMaXN0VXNlcnMSJi5zYWx0by5uZWJ1bGEudXNlci52MS5MaXN0VXNl",
-            "cnNSZXF1ZXN0Gicuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVzZXJzUmVz",
-            "cG9uc2USUQoKVXBkYXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVw",
-            "ZGF0ZVVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchJN",
-            "CgpEZWxldGVVc2VyEicuc2FsdG8ubmVidWxhLnVzZXIudjEuRGVsZXRlVXNl",
-            "clJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSZgoRQ3JlYXRlQWNj",
-            "ZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52MS5DcmVhdGVBY2Nlc3NS",
-            "aWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdo",
-            "dBJgCg5HZXRBY2Nlc3NSaWdodBIrLnNhbHRvLm5lYnVsYS51c2VyLnYxLkdl",
-            "dEFjY2Vzc1JpZ2h0UmVxdWVzdBohLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFj",
-            "Y2Vzc1JpZ2h0EnEKEExpc3RBY2Nlc3NSaWdodHMSLS5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5MaXN0QWNjZXNzUmlnaHRzUmVxdWVzdBouLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLkxpc3RBY2Nlc3NSaWdodHNSZXNwb25zZRJmChFVcGRhdGVB",
-            "Y2Nlc3NSaWdodBIuLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZUFjY2Vz",
-            "c1JpZ2h0UmVxdWVzdBohLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFjY2Vzc1Jp",
-            "Z2h0ElsKEURlbGV0ZUFjY2Vzc1JpZ2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuRGVsZXRlQWNjZXNzUmlnaHRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVm",
-            "LkVtcHR5EloKDVVwZGF0ZUNhcmRLZXkSKi5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5VcGRhdGVDYXJkS2V5UmVxdWVzdBodLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LkNhcmRLZXkSUwoNRW5jb2RlQ2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLkVuY29kZUNhcmRLZXlSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVt",
-            "cHR5ElMKDUNhbmNlbENhcmRLZXkSKi5zYWx0by5uZWJ1bGEudXNlci52MS5D",
-            "YW5jZWxDYXJkS2V5UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJX",
-            "CgxVcGRhdGVBcHBLZXkSKS5zYWx0by5uZWJ1bGEudXNlci52MS5VcGRhdGVB",
-            "cHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5ElcK",
-            "DEFzc2lnbkFwcEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2lnbkFw",
-            "cEtleVJlcXVlc3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSVwoM",
-            "Q2FuY2VsQXBwS2V5Eikuc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2VsQXBw",
-            "S2V5UmVxdWVzdBocLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleRJgCg9V",
-            "cGRhdGVXYWxsZXRLZXkSLC5zYWx0by5uZWJ1bGEudXNlci52MS5VcGRhdGVX",
-            "YWxsZXRLZXlSZXF1ZXN0Gh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0",
-            "S2V5Em4KD0Fzc2lnbldhbGxldEtleRIsLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LkFzc2lnbldhbGxldEtleVJlcXVlc3QaLS5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5Bc3NpZ25XYWxsZXRLZXlSZXNwb25zZRJgCg9DYW5jZWxXYWxsZXRLZXkS",
-            "LC5zYWx0by5uZWJ1bGEudXNlci52MS5DYW5jZWxXYWxsZXRLZXlSZXF1ZXN0",
-            "Gh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5Qo4BChxjb20uc2Fs",
-            "dG9hcGlzLm5lYnVsYS51c2VyLnYxQglVc2VyUHJvdG9QAVpGZ2l0bGFiLnJu",
-            "ZC5zYWx0b3N5c3RlbXMuY29tL3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVi",
-            "dWxhL3VzZXIvdjE7dXNlcqoCGFNhbHRvYXBpcy5OZWJ1bGEuVXNlci5WMWIG",
-            "cHJvdG8z"));
+            "ASABKAkiTgoXQ2FuY2VsV2FsbGV0S2V5UmVzcG9uc2USMwoKd2FsbGV0X2tl",
+            "eRgBIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtleTKCDgoL",
+            "VXNlclNlcnZpY2USUQoKQ3JlYXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2Vy",
+            "LnYxLkNyZWF0ZVVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "VXNlchJLCgdHZXRVc2VyEiQuc2FsdG8ubmVidWxhLnVzZXIudjEuR2V0VXNl",
+            "clJlcXVlc3QaGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyElwKCUxpc3RV",
+            "c2VycxImLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RVc2Vyc1JlcXVlc3Qa",
+            "Jy5zYWx0by5uZWJ1bGEudXNlci52MS5MaXN0VXNlcnNSZXNwb25zZRJRCgpV",
+            "cGRhdGVVc2VyEicuc2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRlVXNlclJl",
+            "cXVlc3QaGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEk0KCkRlbGV0ZVVz",
+            "ZXISJy5zYWx0by5uZWJ1bGEudXNlci52MS5EZWxldGVVc2VyUmVxdWVzdBoW",
+            "Lmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJmChFDcmVhdGVBY2Nlc3NSaWdodBIu",
+            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLkNyZWF0ZUFjY2Vzc1JpZ2h0UmVxdWVz",
+            "dBohLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0EmAKDkdldEFj",
+            "Y2Vzc1JpZ2h0Eisuc2FsdG8ubmVidWxhLnVzZXIudjEuR2V0QWNjZXNzUmln",
+            "aHRSZXF1ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQS",
+            "cQoQTGlzdEFjY2Vzc1JpZ2h0cxItLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxp",
+            "c3RBY2Nlc3NSaWdodHNSZXF1ZXN0Gi4uc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "TGlzdEFjY2Vzc1JpZ2h0c1Jlc3BvbnNlEmYKEVVwZGF0ZUFjY2Vzc1JpZ2h0",
+            "Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRlQWNjZXNzUmlnaHRSZXF1",
+            "ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSWwoRRGVs",
+            "ZXRlQWNjZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52MS5EZWxldGVB",
+            "Y2Nlc3NSaWdodFJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSWgoN",
+            "VXBkYXRlQ2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZUNh",
+            "cmRLZXlSZXF1ZXN0Gh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleRJT",
+            "Cg1FbmNvZGVDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIudjEuRW5jb2Rl",
+            "Q2FyZEtleVJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSUwoNQ2Fu",
+            "Y2VsQ2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbENhcmRL",
+            "ZXlSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5ElcKDFVwZGF0ZUFw",
+            "cEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZUFwcEtleVJlcXVl",
+            "c3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSVwoMQXNzaWduQXBw",
+            "S2V5Eikuc2FsdG8ubmVidWxhLnVzZXIudjEuQXNzaWduQXBwS2V5UmVxdWVz",
+            "dBocLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleRJXCgxDYW5jZWxBcHBL",
+            "ZXkSKS5zYWx0by5uZWJ1bGEudXNlci52MS5DYW5jZWxBcHBLZXlSZXF1ZXN0",
+            "Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5EmAKD1VwZGF0ZVdhbGxl",
+            "dEtleRIsLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZVdhbGxldEtleVJl",
+            "cXVlc3QaHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkSbgoPQXNz",
+            "aWduV2FsbGV0S2V5Eiwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXNzaWduV2Fs",
+            "bGV0S2V5UmVxdWVzdBotLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2lnbldh",
+            "bGxldEtleVJlc3BvbnNlEm4KD0NhbmNlbFdhbGxldEtleRIsLnNhbHRvLm5l",
+            "YnVsYS51c2VyLnYxLkNhbmNlbFdhbGxldEtleVJlcXVlc3QaLS5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5DYW5jZWxXYWxsZXRLZXlSZXNwb25zZUKOAQocY29t",
+            "LnNhbHRvYXBpcy5uZWJ1bGEudXNlci52MUIJVXNlclByb3RvUAFaRmdpdGxh",
+            "Yi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdv",
+            "L25lYnVsYS91c2VyL3YxO3VzZXKqAhhTYWx0b2FwaXMuTmVidWxhLlVzZXIu",
+            "VjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -173,7 +175,8 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest), global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest.Parser, new[]{ "WalletKey", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest), global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest.Parser, new[]{ "Name", "Frictionless" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse), global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse.Parser, new[]{ "WalletKey", "AccessUri" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest), global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest.Parser, new[]{ "Name" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest), global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse), global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse.Parser, new[]{ "WalletKey" }, null, null, null, null)
           }));
     }
     #endregion
@@ -7614,6 +7617,193 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           case 10: {
             Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`CancelWalletKey`][salto.nebula.user.v1.UserService.CancelWalletKey]
+  /// </summary>
+  public sealed partial class CancelWalletKeyResponse : pb::IMessage<CancelWalletKeyResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CancelWalletKeyResponse> _parser = new pb::MessageParser<CancelWalletKeyResponse>(() => new CancelWalletKeyResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CancelWalletKeyResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[28]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CancelWalletKeyResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CancelWalletKeyResponse(CancelWalletKeyResponse other) : this() {
+      walletKey_ = other.walletKey_ != null ? other.walletKey_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CancelWalletKeyResponse Clone() {
+      return new CancelWalletKeyResponse(this);
+    }
+
+    /// <summary>Field number for the "wallet_key" field.</summary>
+    public const int WalletKeyFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.WalletKey walletKey_;
+    /// <summary>
+    /// The canceled wallet key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Saltoapis.Nebula.User.V1.WalletKey WalletKey {
+      get { return walletKey_; }
+      set {
+        walletKey_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CancelWalletKeyResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CancelWalletKeyResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(WalletKey, other.WalletKey)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (walletKey_ != null) hash ^= WalletKey.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (walletKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(WalletKey);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (walletKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(WalletKey);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (walletKey_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(WalletKey);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CancelWalletKeyResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.walletKey_ != null) {
+        if (walletKey_ == null) {
+          WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
+        }
+        WalletKey.MergeFrom(other.WalletKey);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (walletKey_ == null) {
+              WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
+            }
+            input.ReadMessage(WalletKey);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (walletKey_ == null) {
+              WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
+            }
+            input.ReadMessage(WalletKey);
             break;
           }
         }
