@@ -48,6 +48,7 @@ csharp_projects = [
     '//src/Saltoapis.Nebula.AccessPoint.V1',
     '//src/Saltoapis.Nebula.AccessRight.V1',
     '//src/Saltoapis.Nebula.Calendar.V1',
+    '//src/Saltoapis.Nebula.Device.V1',
     '//src/Saltoapis.Nebula.ElectronicLock.V1',
     '//src/Saltoapis.Nebula.Extender.V1',
     '//src/Saltoapis.Nebula.Gateway.V1',
