@@ -91,59 +91,64 @@ namespace Saltoapis.Nebula.User.V1 {
             "c2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5Ei8KC3VwZGF0ZV9tYXNrGAIg",
             "ASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIjChNBc3NpZ25BcHBL",
             "ZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiIwoTQ2FuY2VsQXBwS2V5UmVxdWVz",
-            "dBIMCgRuYW1lGAEgASgJIn4KFlVwZGF0ZVdhbGxldEtleVJlcXVlc3QSMwoK",
-            "d2FsbGV0X2tleRgBIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxl",
-            "dEtleRIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5G",
-            "aWVsZE1hc2siPAoWQXNzaWduV2FsbGV0S2V5UmVxdWVzdBIMCgRuYW1lGAEg",
-            "ASgJEhQKDGZyaWN0aW9ubGVzcxgCIAEoCCJiChdBc3NpZ25XYWxsZXRLZXlS",
+            "dBIMCgRuYW1lGAEgASgJIigKGENvbXB1dGVBcHBLZXlEYXRhUmVxdWVzdBIM",
+            "CgRuYW1lGAEgASgJIikKGUNvbXB1dGVBcHBLZXlEYXRhUmVzcG9uc2USDAoE",
+            "ZGF0YRgBIAEoDCJ+ChZVcGRhdGVXYWxsZXRLZXlSZXF1ZXN0EjMKCndhbGxl",
+            "dF9rZXkYASABKAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkS",
+            "LwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRN",
+            "YXNrIjwKFkFzc2lnbldhbGxldEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCRIU",
+            "CgxmcmljdGlvbmxlc3MYAiABKAgiYgoXQXNzaWduV2FsbGV0S2V5UmVzcG9u",
+            "c2USMwoKd2FsbGV0X2tleRgBIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LldhbGxldEtleRISCgphY2Nlc3NfdXJpGAIgASgJIiYKFkNhbmNlbFdhbGxl",
+            "dEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJOChdDYW5jZWxXYWxsZXRLZXlS",
             "ZXNwb25zZRIzCgp3YWxsZXRfa2V5GAEgASgLMh8uc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuV2FsbGV0S2V5EhIKCmFjY2Vzc191cmkYAiABKAkiJgoWQ2FuY2Vs",
-            "V2FsbGV0S2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJIk4KF0NhbmNlbFdhbGxl",
-            "dEtleVJlc3BvbnNlEjMKCndhbGxldF9rZXkYASABKAsyHy5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5XYWxsZXRLZXkygg4KC1VzZXJTZXJ2aWNlElEKCkNyZWF0",
-            "ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNlci52MS5DcmVhdGVVc2VyUmVxdWVz",
-            "dBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISSwoHR2V0VXNlchIkLnNh",
-            "bHRvLm5lYnVsYS51c2VyLnYxLkdldFVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuVXNlchJcCglMaXN0VXNlcnMSJi5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5MaXN0VXNlcnNSZXF1ZXN0Gicuc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuTGlzdFVzZXJzUmVzcG9uc2USUQoKVXBkYXRlVXNlchInLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLlVwZGF0ZVVzZXJSZXF1ZXN0Ghouc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuVXNlchJNCgpEZWxldGVVc2VyEicuc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuRGVsZXRlVXNlclJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1w",
-            "dHkSZgoRQ3JlYXRlQWNjZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5DcmVhdGVBY2Nlc3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5BY2Nlc3NSaWdodBJgCg5HZXRBY2Nlc3NSaWdodBIrLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLkdldEFjY2Vzc1JpZ2h0UmVxdWVzdBohLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0EnEKEExpc3RBY2Nlc3NSaWdodHMS",
-            "LS5zYWx0by5uZWJ1bGEudXNlci52MS5MaXN0QWNjZXNzUmlnaHRzUmVxdWVz",
-            "dBouLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RBY2Nlc3NSaWdodHNSZXNw",
-            "b25zZRJmChFVcGRhdGVBY2Nlc3NSaWdodBIuLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLlVwZGF0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBohLnNhbHRvLm5lYnVsYS51",
-            "c2VyLnYxLkFjY2Vzc1JpZ2h0ElsKEURlbGV0ZUFjY2Vzc1JpZ2h0Ei4uc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuRGVsZXRlQWNjZXNzUmlnaHRSZXF1ZXN0GhYu",
-            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5EloKDVVwZGF0ZUNhcmRLZXkSKi5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5VcGRhdGVDYXJkS2V5UmVxdWVzdBodLnNhbHRv",
-            "Lm5lYnVsYS51c2VyLnYxLkNhcmRLZXkSUwoNRW5jb2RlQ2FyZEtleRIqLnNh",
-            "bHRvLm5lYnVsYS51c2VyLnYxLkVuY29kZUNhcmRLZXlSZXF1ZXN0GhYuZ29v",
-            "Z2xlLnByb3RvYnVmLkVtcHR5ElMKDUNhbmNlbENhcmRLZXkSKi5zYWx0by5u",
-            "ZWJ1bGEudXNlci52MS5DYW5jZWxDYXJkS2V5UmVxdWVzdBoWLmdvb2dsZS5w",
-            "cm90b2J1Zi5FbXB0eRJXCgxVcGRhdGVBcHBLZXkSKS5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5VcGRhdGVBcHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuQXBwS2V5ElcKDEFzc2lnbkFwcEtleRIpLnNhbHRvLm5lYnVsYS51",
-            "c2VyLnYxLkFzc2lnbkFwcEtleVJlcXVlc3QaHC5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5BcHBLZXkSVwoMQ2FuY2VsQXBwS2V5Eikuc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuQ2FuY2VsQXBwS2V5UmVxdWVzdBocLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLkFwcEtleRJgCg9VcGRhdGVXYWxsZXRLZXkSLC5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5VcGRhdGVXYWxsZXRLZXlSZXF1ZXN0Gh8uc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuV2FsbGV0S2V5Em4KD0Fzc2lnbldhbGxldEtleRIsLnNhbHRv",
-            "Lm5lYnVsYS51c2VyLnYxLkFzc2lnbldhbGxldEtleVJlcXVlc3QaLS5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5Bc3NpZ25XYWxsZXRLZXlSZXNwb25zZRJuCg9D",
-            "YW5jZWxXYWxsZXRLZXkSLC5zYWx0by5uZWJ1bGEudXNlci52MS5DYW5jZWxX",
-            "YWxsZXRLZXlSZXF1ZXN0Gi0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2Vs",
-            "V2FsbGV0S2V5UmVzcG9uc2VCjgEKHGNvbS5zYWx0b2FwaXMubmVidWxhLnVz",
-            "ZXIudjFCCVVzZXJQcm90b1ABWkZnaXRsYWIucm5kLnNhbHRvc3lzdGVtcy5j",
-            "b20vc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvdXNlci92MTt1c2Vy",
-            "qgIYU2FsdG9hcGlzLk5lYnVsYS5Vc2VyLlYxYgZwcm90bzM="));
+            "ZXIudjEuV2FsbGV0S2V5MvgOCgtVc2VyU2VydmljZRJRCgpDcmVhdGVVc2Vy",
+            "Eicuc2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlVXNlclJlcXVlc3QaGi5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEksKB0dldFVzZXISJC5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5HZXRVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51",
+            "c2VyLnYxLlVzZXISXAoJTGlzdFVzZXJzEiYuc2FsdG8ubmVidWxhLnVzZXIu",
+            "djEuTGlzdFVzZXJzUmVxdWVzdBonLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxp",
+            "c3RVc2Vyc1Jlc3BvbnNlElEKClVwZGF0ZVVzZXISJy5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5VcGRhdGVVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2Vy",
+            "LnYxLlVzZXISTQoKRGVsZXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LkRlbGV0ZVVzZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmYK",
+            "EUNyZWF0ZUFjY2Vzc1JpZ2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuQ3Jl",
+            "YXRlQWNjZXNzUmlnaHRSZXF1ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "QWNjZXNzUmlnaHQSYAoOR2V0QWNjZXNzUmlnaHQSKy5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5HZXRBY2Nlc3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5BY2Nlc3NSaWdodBJxChBMaXN0QWNjZXNzUmlnaHRzEi0uc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuTGlzdEFjY2Vzc1JpZ2h0c1JlcXVlc3QaLi5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5MaXN0QWNjZXNzUmlnaHRzUmVzcG9uc2US",
+            "ZgoRVXBkYXRlQWNjZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52MS5V",
+            "cGRhdGVBY2Nlc3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5BY2Nlc3NSaWdodBJbChFEZWxldGVBY2Nlc3NSaWdodBIuLnNhbHRvLm5l",
+            "YnVsYS51c2VyLnYxLkRlbGV0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBoWLmdvb2ds",
+            "ZS5wcm90b2J1Zi5FbXB0eRJaCg1VcGRhdGVDYXJkS2V5Eiouc2FsdG8ubmVi",
+            "dWxhLnVzZXIudjEuVXBkYXRlQ2FyZEtleVJlcXVlc3QaHS5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5DYXJkS2V5ElMKDUVuY29kZUNhcmRLZXkSKi5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5FbmNvZGVDYXJkS2V5UmVxdWVzdBoWLmdvb2dsZS5w",
+            "cm90b2J1Zi5FbXB0eRJTCg1DYW5jZWxDYXJkS2V5Eiouc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuQ2FuY2VsQ2FyZEtleVJlcXVlc3QaFi5nb29nbGUucHJvdG9i",
+            "dWYuRW1wdHkSVwoMVXBkYXRlQXBwS2V5Eikuc2FsdG8ubmVidWxhLnVzZXIu",
+            "djEuVXBkYXRlQXBwS2V5UmVxdWVzdBocLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LkFwcEtleRJXCgxBc3NpZ25BcHBLZXkSKS5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5Bc3NpZ25BcHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "QXBwS2V5ElcKDENhbmNlbEFwcEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LkNhbmNlbEFwcEtleVJlcXVlc3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5B",
+            "cHBLZXkSdAoRQ29tcHV0ZUFwcEtleURhdGESLi5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5Db21wdXRlQXBwS2V5RGF0YVJlcXVlc3QaLy5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5Db21wdXRlQXBwS2V5RGF0YVJlc3BvbnNlEmAKD1VwZGF0ZVdh",
+            "bGxldEtleRIsLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZVdhbGxldEtl",
+            "eVJlcXVlc3QaHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkSbgoP",
+            "QXNzaWduV2FsbGV0S2V5Eiwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXNzaWdu",
+            "V2FsbGV0S2V5UmVxdWVzdBotLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2ln",
+            "bldhbGxldEtleVJlc3BvbnNlEm4KD0NhbmNlbFdhbGxldEtleRIsLnNhbHRv",
+            "Lm5lYnVsYS51c2VyLnYxLkNhbmNlbFdhbGxldEtleVJlcXVlc3QaLS5zYWx0",
+            "by5uZWJ1bGEudXNlci52MS5DYW5jZWxXYWxsZXRLZXlSZXNwb25zZUKOAQoc",
+            "Y29tLnNhbHRvYXBpcy5uZWJ1bGEudXNlci52MUIJVXNlclByb3RvUAFaRmdp",
+            "dGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9hcGlz",
+            "LWdvL25lYnVsYS91c2VyL3YxO3VzZXKqAhhTYWx0b2FwaXMuTmVidWxhLlVz",
+            "ZXIuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -171,6 +176,8 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest), global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest.Parser, new[]{ "AppKey", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest), global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest), global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse), global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse.Parser, new[]{ "Data" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest), global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest.Parser, new[]{ "WalletKey", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest), global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest.Parser, new[]{ "Name", "Frictionless" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse), global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse.Parser, new[]{ "WalletKey", "AccessUri" }, null, null, null, null),
@@ -6725,6 +6732,363 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
+  /// The request message for [`ComputeAppKeyData`][salto.nebula.user.v1.UserService.ComputeAppKeyData]
+  /// </summary>
+  public sealed partial class ComputeAppKeyDataRequest : pb::IMessage<ComputeAppKeyDataRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ComputeAppKeyDataRequest> _parser = new pb::MessageParser<ComputeAppKeyDataRequest>(() => new ComputeAppKeyDataRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ComputeAppKeyDataRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[24]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ComputeAppKeyDataRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ComputeAppKeyDataRequest(ComputeAppKeyDataRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ComputeAppKeyDataRequest Clone() {
+      return new ComputeAppKeyDataRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The name of the requested user's app key. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/app-key`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ComputeAppKeyDataRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ComputeAppKeyDataRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ComputeAppKeyDataRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`ComputeAppKeyData`][salto.nebula.user.v1.UserService.ComputeAppKeyData]
+  /// </summary>
+  public sealed partial class ComputeAppKeyDataResponse : pb::IMessage<ComputeAppKeyDataResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ComputeAppKeyDataResponse> _parser = new pb::MessageParser<ComputeAppKeyDataResponse>(() => new ComputeAppKeyDataResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ComputeAppKeyDataResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[25]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ComputeAppKeyDataResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ComputeAppKeyDataResponse(ComputeAppKeyDataResponse other) : this() {
+      data_ = other.data_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ComputeAppKeyDataResponse Clone() {
+      return new ComputeAppKeyDataResponse(this);
+    }
+
+    /// <summary>Field number for the "data" field.</summary>
+    public const int DataFieldNumber = 1;
+    private pb::ByteString data_ = pb::ByteString.Empty;
+    /// <summary>
+    /// Computed data of the requested app key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString Data {
+      get { return data_; }
+      set {
+        data_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ComputeAppKeyDataResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ComputeAppKeyDataResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Data != other.Data) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Data.Length != 0) hash ^= Data.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Data.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(Data);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Data.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(Data);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Data.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Data);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ComputeAppKeyDataResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Data.Length != 0) {
+        Data = other.Data;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Data = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Data = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The request message for [`UpdateWalletKey`][salto.nebula.user.v1.UserService.UpdateWalletKey]
   /// </summary>
   public sealed partial class UpdateWalletKeyRequest : pb::IMessage<UpdateWalletKeyRequest>
@@ -6739,7 +7103,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6974,7 +7338,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7193,7 +7557,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7421,7 +7785,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7600,7 +7964,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
