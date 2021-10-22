@@ -71,6 +71,8 @@ namespace Saltoapis.Nebula.User.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AppKey> __Marshaller_salto_nebula_user_v1_AppKey = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AppKey.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest> __Marshaller_salto_nebula_user_v1_AssignAppKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest> __Marshaller_salto_nebula_user_v1_CancelAppKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest> __Marshaller_salto_nebula_user_v1_ComputeAppKeyDataRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse> __Marshaller_salto_nebula_user_v1_ComputeAppKeyDataResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest> __Marshaller_salto_nebula_user_v1_UpdateWalletKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.WalletKey> __Marshaller_salto_nebula_user_v1_WalletKey = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.WalletKey.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest> __Marshaller_salto_nebula_user_v1_AssignWalletKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest.Parser));
@@ -189,6 +191,13 @@ namespace Saltoapis.Nebula.User.V1 {
         "CancelAppKey",
         __Marshaller_salto_nebula_user_v1_CancelAppKeyRequest,
         __Marshaller_salto_nebula_user_v1_AppKey);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest, global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse> __Method_ComputeAppKeyData = new grpc::Method<global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest, global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ComputeAppKeyData",
+        __Marshaller_salto_nebula_user_v1_ComputeAppKeyDataRequest,
+        __Marshaller_salto_nebula_user_v1_ComputeAppKeyDataResponse);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey> __Method_UpdateWalletKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest, global::Saltoapis.Nebula.User.V1.WalletKey>(
         grpc::MethodType.Unary,
@@ -1071,6 +1080,66 @@ namespace Saltoapis.Nebula.User.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AppKey> CancelAppKeyAsync(global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CancelAppKey, null, options, request);
+      }
+      /// <summary>
+      /// Compute data of an app key
+      ///
+      /// Compute an existing user's app key data. Data contains encoded access
+      /// rights of the user.
+      /// (-- api-linter: core::0136::http-name-variable=disabled --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse ComputeAppKeyData(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ComputeAppKeyData(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Compute data of an app key
+      ///
+      /// Compute an existing user's app key data. Data contains encoded access
+      /// rights of the user.
+      /// (-- api-linter: core::0136::http-name-variable=disabled --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse ComputeAppKeyData(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ComputeAppKeyData, null, options, request);
+      }
+      /// <summary>
+      /// Compute data of an app key
+      ///
+      /// Compute an existing user's app key data. Data contains encoded access
+      /// rights of the user.
+      /// (-- api-linter: core::0136::http-name-variable=disabled --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse> ComputeAppKeyDataAsync(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ComputeAppKeyDataAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Compute data of an app key
+      ///
+      /// Compute an existing user's app key data. Data contains encoded access
+      /// rights of the user.
+      /// (-- api-linter: core::0136::http-name-variable=disabled --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse> ComputeAppKeyDataAsync(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ComputeAppKeyData, null, options, request);
       }
       /// <summary>
       /// Update a wallet key
