@@ -154,12 +154,12 @@ namespace Saltoapis.Nebula.User.V1 {
         __Marshaller_salto_nebula_user_v1_AssignCardKeyRequest,
         __Marshaller_salto_nebula_user_v1_CardKey);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_CancelCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest, global::Saltoapis.Nebula.User.V1.CardKey> __Method_CancelCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest, global::Saltoapis.Nebula.User.V1.CardKey>(
         grpc::MethodType.Unary,
         __ServiceName,
         "CancelCardKey",
         __Marshaller_salto_nebula_user_v1_CancelCardKeyRequest,
-        __Marshaller_google_protobuf_Empty);
+        __Marshaller_salto_nebula_user_v1_CardKey);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_EncodeCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
@@ -814,7 +814,7 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty CancelCardKey(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Saltoapis.Nebula.User.V1.CardKey CancelCardKey(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CancelCardKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -826,7 +826,7 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty CancelCardKey(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::CallOptions options)
+      public virtual global::Saltoapis.Nebula.User.V1.CardKey CancelCardKey(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CancelCardKey, null, options, request);
       }
@@ -840,7 +840,7 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> CancelCardKeyAsync(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CardKey> CancelCardKeyAsync(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CancelCardKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -852,7 +852,7 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> CancelCardKeyAsync(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CardKey> CancelCardKeyAsync(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CancelCardKey, null, options, request);
       }
