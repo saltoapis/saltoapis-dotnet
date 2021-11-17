@@ -85,68 +85,58 @@ namespace Saltoapis.Nebula.User.V1 {
             "BG5hbWUYASABKAkSCwoDdWlkGAIgASgJIiQKFENhbmNlbENhcmRLZXlSZXF1",
             "ZXN0EgwKBG5hbWUYASABKAkiXAoURW5jb2RlQ2FyZEtleVJlcXVlc3QSDAoE",
             "bmFtZRgBIAEoCRIRCgdlbmNvZGVyGAIgASgJSAASGQoPZWxlY3Ryb25pY19s",
-            "b2NrGAMgASgJSABCCAoGZGV2aWNlInUKE1VwZGF0ZUFwcEtleVJlcXVlc3QS",
-            "LQoHYXBwX2tleRgBIAEoCzIcLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtl",
-            "eRIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVs",
-            "ZE1hc2siIwoTQXNzaWduQXBwS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJIiMK",
-            "E0NhbmNlbEFwcEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSIoChhDb21wdXRl",
-            "QXBwS2V5RGF0YVJlcXVlc3QSDAoEbmFtZRgBIAEoCSIpChlDb21wdXRlQXBw",
-            "S2V5RGF0YVJlc3BvbnNlEgwKBGRhdGEYASABKAwifgoWVXBkYXRlV2FsbGV0",
-            "S2V5UmVxdWVzdBIzCgp3YWxsZXRfa2V5GAEgASgLMh8uc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuV2FsbGV0S2V5Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLkZpZWxkTWFzayImChZBc3NpZ25XYWxsZXRLZXlSZXF1",
-            "ZXN0EgwKBG5hbWUYASABKAkiYgoXQXNzaWduV2FsbGV0S2V5UmVzcG9uc2US",
-            "MwoKd2FsbGV0X2tleRgBIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldh",
-            "bGxldEtleRISCgphY2Nlc3NfdXJpGAIgASgJIiYKFkNhbmNlbFdhbGxldEtl",
-            "eVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJOChdDYW5jZWxXYWxsZXRLZXlSZXNw",
-            "b25zZRIzCgp3YWxsZXRfa2V5GAEgASgLMh8uc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuV2FsbGV0S2V5MvgOCgtVc2VyU2VydmljZRJRCgpDcmVhdGVVc2VyEicu",
-            "c2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlVXNlclJlcXVlc3QaGi5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5Vc2VyEksKB0dldFVzZXISJC5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5HZXRVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLlVzZXISXAoJTGlzdFVzZXJzEiYuc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "TGlzdFVzZXJzUmVxdWVzdBonLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RV",
-            "c2Vyc1Jlc3BvbnNlElEKClVwZGF0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5VcGRhdGVVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LlVzZXISTQoKRGVsZXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLkRl",
-            "bGV0ZVVzZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmYKEUNy",
-            "ZWF0ZUFjY2Vzc1JpZ2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRl",
-            "QWNjZXNzUmlnaHRSZXF1ZXN0GiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNj",
-            "ZXNzUmlnaHQSYAoOR2V0QWNjZXNzUmlnaHQSKy5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5HZXRBY2Nlc3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5BY2Nlc3NSaWdodBJxChBMaXN0QWNjZXNzUmlnaHRzEi0uc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuTGlzdEFjY2Vzc1JpZ2h0c1JlcXVlc3QaLi5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5MaXN0QWNjZXNzUmlnaHRzUmVzcG9uc2USZgoR",
-            "VXBkYXRlQWNjZXNzUmlnaHQSLi5zYWx0by5uZWJ1bGEudXNlci52MS5VcGRh",
-            "dGVBY2Nlc3NSaWdodFJlcXVlc3QaIS5zYWx0by5uZWJ1bGEudXNlci52MS5B",
-            "Y2Nlc3NSaWdodBJbChFEZWxldGVBY2Nlc3NSaWdodBIuLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLkRlbGV0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBoWLmdvb2dsZS5w",
-            "cm90b2J1Zi5FbXB0eRJaCg1Bc3NpZ25DYXJkS2V5Eiouc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuQXNzaWduQ2FyZEtleVJlcXVlc3QaHS5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5DYXJkS2V5ElMKDUNhbmNlbENhcmRLZXkSKi5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5DYW5jZWxDYXJkS2V5UmVxdWVzdBoWLmdvb2dsZS5wcm90",
-            "b2J1Zi5FbXB0eRJTCg1FbmNvZGVDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuRW5jb2RlQ2FyZEtleVJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYu",
-            "RW1wdHkSVwoMVXBkYXRlQXBwS2V5Eikuc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "VXBkYXRlQXBwS2V5UmVxdWVzdBocLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFw",
-            "cEtleRJXCgxBc3NpZ25BcHBLZXkSKS5zYWx0by5uZWJ1bGEudXNlci52MS5B",
-            "c3NpZ25BcHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBw",
-            "S2V5ElcKDENhbmNlbEFwcEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNh",
-            "bmNlbEFwcEtleVJlcXVlc3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBL",
-            "ZXkSdAoRQ29tcHV0ZUFwcEtleURhdGESLi5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5Db21wdXRlQXBwS2V5RGF0YVJlcXVlc3QaLy5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5Db21wdXRlQXBwS2V5RGF0YVJlc3BvbnNlEmAKD1VwZGF0ZVdhbGxl",
-            "dEtleRIsLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZVdhbGxldEtleVJl",
-            "cXVlc3QaHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkSbgoPQXNz",
-            "aWduV2FsbGV0S2V5Eiwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXNzaWduV2Fs",
-            "bGV0S2V5UmVxdWVzdBotLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2lnbldh",
-            "bGxldEtleVJlc3BvbnNlEm4KD0NhbmNlbFdhbGxldEtleRIsLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLkNhbmNlbFdhbGxldEtleVJlcXVlc3QaLS5zYWx0by5u",
-            "ZWJ1bGEudXNlci52MS5DYW5jZWxXYWxsZXRLZXlSZXNwb25zZUKOAQocY29t",
-            "LnNhbHRvYXBpcy5uZWJ1bGEudXNlci52MUIJVXNlclByb3RvUAFaRmdpdGxh",
-            "Yi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdv",
-            "L25lYnVsYS91c2VyL3YxO3VzZXKqAhhTYWx0b2FwaXMuTmVidWxhLlVzZXIu",
-            "VjFiBnByb3RvMw=="));
+            "b2NrGAMgASgJSABCCAoGZGV2aWNlIiMKE0Fzc2lnbkFwcEtleVJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCSIjChNDYW5jZWxBcHBLZXlSZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAkiKAoYQ29tcHV0ZUFwcEtleURhdGFSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAkiKQoZQ29tcHV0ZUFwcEtleURhdGFSZXNwb25zZRIMCgRkYXRhGAEgASgM",
+            "IiYKFkFzc2lnbldhbGxldEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJiChdB",
+            "c3NpZ25XYWxsZXRLZXlSZXNwb25zZRIzCgp3YWxsZXRfa2V5GAEgASgLMh8u",
+            "c2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5EhIKCmFjY2Vzc191cmkY",
+            "AiABKAkiJgoWQ2FuY2VsV2FsbGV0S2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJ",
+            "Ik4KF0NhbmNlbFdhbGxldEtleVJlc3BvbnNlEjMKCndhbGxldF9rZXkYASAB",
+            "KAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkyvQ0KC1VzZXJT",
+            "ZXJ2aWNlElEKCkNyZWF0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNlci52MS5D",
+            "cmVhdGVVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIS",
+            "SwoHR2V0VXNlchIkLnNhbHRvLm5lYnVsYS51c2VyLnYxLkdldFVzZXJSZXF1",
+            "ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchJcCglMaXN0VXNlcnMS",
+            "Ji5zYWx0by5uZWJ1bGEudXNlci52MS5MaXN0VXNlcnNSZXF1ZXN0Gicuc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuTGlzdFVzZXJzUmVzcG9uc2USUQoKVXBkYXRl",
+            "VXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZVVzZXJSZXF1ZXN0",
+            "Ghouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchJNCgpEZWxldGVVc2VyEicu",
+            "c2FsdG8ubmVidWxhLnVzZXIudjEuRGVsZXRlVXNlclJlcXVlc3QaFi5nb29n",
+            "bGUucHJvdG9idWYuRW1wdHkSZgoRQ3JlYXRlQWNjZXNzUmlnaHQSLi5zYWx0",
+            "by5uZWJ1bGEudXNlci52MS5DcmVhdGVBY2Nlc3NSaWdodFJlcXVlc3QaIS5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdodBJgCg5HZXRBY2Nlc3NS",
+            "aWdodBIrLnNhbHRvLm5lYnVsYS51c2VyLnYxLkdldEFjY2Vzc1JpZ2h0UmVx",
+            "dWVzdBohLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0EnEKEExp",
+            "c3RBY2Nlc3NSaWdodHMSLS5zYWx0by5uZWJ1bGEudXNlci52MS5MaXN0QWNj",
+            "ZXNzUmlnaHRzUmVxdWVzdBouLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RB",
+            "Y2Nlc3NSaWdodHNSZXNwb25zZRJmChFVcGRhdGVBY2Nlc3NSaWdodBIuLnNh",
+            "bHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBoh",
+            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0ElsKEURlbGV0ZUFj",
+            "Y2Vzc1JpZ2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuRGVsZXRlQWNjZXNz",
+            "UmlnaHRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EloKDUFzc2ln",
+            "bkNhcmRLZXkSKi5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25DYXJkS2V5",
+            "UmVxdWVzdBodLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhcmRLZXkSUwoNQ2Fu",
+            "Y2VsQ2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbENhcmRL",
+            "ZXlSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5ElMKDUVuY29kZUNh",
+            "cmRLZXkSKi5zYWx0by5uZWJ1bGEudXNlci52MS5FbmNvZGVDYXJkS2V5UmVx",
+            "dWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJXCgxBc3NpZ25BcHBLZXkS",
+            "KS5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25BcHBLZXlSZXF1ZXN0Ghwu",
+            "c2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5ElcKDENhbmNlbEFwcEtleRIp",
+            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbEFwcEtleVJlcXVlc3QaHC5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSdAoRQ29tcHV0ZUFwcEtleURh",
+            "dGESLi5zYWx0by5uZWJ1bGEudXNlci52MS5Db21wdXRlQXBwS2V5RGF0YVJl",
+            "cXVlc3QaLy5zYWx0by5uZWJ1bGEudXNlci52MS5Db21wdXRlQXBwS2V5RGF0",
+            "YVJlc3BvbnNlEm4KD0Fzc2lnbldhbGxldEtleRIsLnNhbHRvLm5lYnVsYS51",
+            "c2VyLnYxLkFzc2lnbldhbGxldEtleVJlcXVlc3QaLS5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5Bc3NpZ25XYWxsZXRLZXlSZXNwb25zZRJuCg9DYW5jZWxXYWxs",
+            "ZXRLZXkSLC5zYWx0by5uZWJ1bGEudXNlci52MS5DYW5jZWxXYWxsZXRLZXlS",
+            "ZXF1ZXN0Gi0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2VsV2FsbGV0S2V5",
+            "UmVzcG9uc2VCjgEKHGNvbS5zYWx0b2FwaXMubmVidWxhLnVzZXIudjFCCVVz",
+            "ZXJQcm90b1ABWkZnaXRsYWIucm5kLnNhbHRvc3lzdGVtcy5jb20vc2FsdG9h",
+            "cGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvdXNlci92MTt1c2VyqgIYU2FsdG9h",
+            "cGlzLk5lYnVsYS5Vc2VyLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -171,12 +161,10 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest), global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest.Parser, new[]{ "Name", "Uid" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest), global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest), global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest.Parser, new[]{ "Name", "Encoder", "ElectronicLock" }, new[]{ "Device" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest), global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest.Parser, new[]{ "AppKey", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest), global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest), global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse), global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse.Parser, new[]{ "Data" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest), global::Saltoapis.Nebula.User.V1.UpdateWalletKeyRequest.Parser, new[]{ "WalletKey", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest), global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse), global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse.Parser, new[]{ "WalletKey", "AccessUri" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest), global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -6121,241 +6109,6 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The request message for [`UpdateAppKey`][salto.nebula.user.v1.UserService.UpdateAppKey]
-  /// </summary>
-  public sealed partial class UpdateAppKeyRequest : pb::IMessage<UpdateAppKeyRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateAppKeyRequest> _parser = new pb::MessageParser<UpdateAppKeyRequest>(() => new UpdateAppKeyRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateAppKeyRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[21]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAppKeyRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAppKeyRequest(UpdateAppKeyRequest other) : this() {
-      appKey_ = other.appKey_ != null ? other.appKey_.Clone() : null;
-      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateAppKeyRequest Clone() {
-      return new UpdateAppKeyRequest(this);
-    }
-
-    /// <summary>Field number for the "app_key" field.</summary>
-    public const int AppKeyFieldNumber = 1;
-    private global::Saltoapis.Nebula.User.V1.AppKey appKey_;
-    /// <summary>
-    /// The user's app key resource which replaces the resource on the server.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.User.V1.AppKey AppKey {
-      get { return appKey_; }
-      set {
-        appKey_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "update_mask" field.</summary>
-    public const int UpdateMaskFieldNumber = 2;
-    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
-    /// <summary>
-    /// The update mask applied to the resource.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
-      get { return updateMask_; }
-      set {
-        updateMask_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateAppKeyRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateAppKeyRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(AppKey, other.AppKey)) return false;
-      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (appKey_ != null) hash ^= AppKey.GetHashCode();
-      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (appKey_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(AppKey);
-      }
-      if (updateMask_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (appKey_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(AppKey);
-      }
-      if (updateMask_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (appKey_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AppKey);
-      }
-      if (updateMask_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateAppKeyRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.appKey_ != null) {
-        if (appKey_ == null) {
-          AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
-        }
-        AppKey.MergeFrom(other.AppKey);
-      }
-      if (other.updateMask_ != null) {
-        if (updateMask_ == null) {
-          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-        }
-        UpdateMask.MergeFrom(other.UpdateMask);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (appKey_ == null) {
-              AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
-            }
-            input.ReadMessage(AppKey);
-            break;
-          }
-          case 18: {
-            if (updateMask_ == null) {
-              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-            }
-            input.ReadMessage(UpdateMask);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (appKey_ == null) {
-              AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
-            }
-            input.ReadMessage(AppKey);
-            break;
-          }
-          case 18: {
-            if (updateMask_ == null) {
-              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-            }
-            input.ReadMessage(UpdateMask);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [`AssignDigitalkey`][salto.nebula.user.v1.UserService.AssignDigitalkey]
   /// </summary>
   public sealed partial class AssignAppKeyRequest : pb::IMessage<AssignAppKeyRequest>
@@ -6370,7 +6123,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6549,7 +6302,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6728,7 +6481,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6907,7 +6660,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7071,241 +6824,6 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The request message for [`UpdateWalletKey`][salto.nebula.user.v1.UserService.UpdateWalletKey]
-  /// </summary>
-  public sealed partial class UpdateWalletKeyRequest : pb::IMessage<UpdateWalletKeyRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateWalletKeyRequest> _parser = new pb::MessageParser<UpdateWalletKeyRequest>(() => new UpdateWalletKeyRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<UpdateWalletKeyRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[26]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateWalletKeyRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateWalletKeyRequest(UpdateWalletKeyRequest other) : this() {
-      walletKey_ = other.walletKey_ != null ? other.walletKey_.Clone() : null;
-      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public UpdateWalletKeyRequest Clone() {
-      return new UpdateWalletKeyRequest(this);
-    }
-
-    /// <summary>Field number for the "wallet_key" field.</summary>
-    public const int WalletKeyFieldNumber = 1;
-    private global::Saltoapis.Nebula.User.V1.WalletKey walletKey_;
-    /// <summary>
-    /// The user's wallet key resource which replaces the resource on the server.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.User.V1.WalletKey WalletKey {
-      get { return walletKey_; }
-      set {
-        walletKey_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "update_mask" field.</summary>
-    public const int UpdateMaskFieldNumber = 2;
-    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
-    /// <summary>
-    /// The update mask applied to the resource.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
-      get { return updateMask_; }
-      set {
-        updateMask_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateWalletKeyRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(UpdateWalletKeyRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(WalletKey, other.WalletKey)) return false;
-      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (walletKey_ != null) hash ^= WalletKey.GetHashCode();
-      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (walletKey_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(WalletKey);
-      }
-      if (updateMask_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (walletKey_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(WalletKey);
-      }
-      if (updateMask_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (walletKey_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(WalletKey);
-      }
-      if (updateMask_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(UpdateWalletKeyRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.walletKey_ != null) {
-        if (walletKey_ == null) {
-          WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
-        }
-        WalletKey.MergeFrom(other.WalletKey);
-      }
-      if (other.updateMask_ != null) {
-        if (updateMask_ == null) {
-          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-        }
-        UpdateMask.MergeFrom(other.UpdateMask);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (walletKey_ == null) {
-              WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
-            }
-            input.ReadMessage(WalletKey);
-            break;
-          }
-          case 18: {
-            if (updateMask_ == null) {
-              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-            }
-            input.ReadMessage(UpdateMask);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (walletKey_ == null) {
-              WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
-            }
-            input.ReadMessage(WalletKey);
-            break;
-          }
-          case 18: {
-            if (updateMask_ == null) {
-              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-            }
-            input.ReadMessage(UpdateMask);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [`AssignWalletKey`][salto.nebula.user.v1.UserService.AssignWalletKey]
   /// </summary>
   public sealed partial class AssignWalletKeyRequest : pb::IMessage<AssignWalletKeyRequest>
@@ -7320,7 +6838,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7499,7 +7017,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7727,7 +7245,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7906,7 +7424,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
