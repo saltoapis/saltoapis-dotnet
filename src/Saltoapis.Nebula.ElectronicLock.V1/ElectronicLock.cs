@@ -28,78 +28,75 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
             "b2NrLnByb3RvEh5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEaG2dv",
             "b2dsZS9wcm90b2J1Zi9lbXB0eS5wcm90bxogZ29vZ2xlL3Byb3RvYnVmL2Zp",
             "ZWxkX21hc2sucHJvdG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlv",
-            "bi5wcm90byLGAwoORWxlY3Ryb25pY0xvY2sSDAoEbmFtZRgBIAEoCRIRCglk",
+            "bi5wcm90byK+AgoORWxlY3Ryb25pY0xvY2sSDAoEbmFtZRgBIAEoCRIRCglk",
             "ZXZpY2VfaWQYAiABKAkSEQoHZ2F0ZXdheRgDIAEoCUgAEhIKCGV4dGVuZGVy",
             "GAQgASgJSAASYAoUaW5pdGlhbGl6YXRpb25fc3RhdGUYBSABKA4yQi5zYWx0",
             "by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuRWxlY3Ryb25pY0xvY2suSW5p",
-            "dGlhbGl6YXRpb25TdGF0ZRJQCgx1cGRhdGVfc3RhdGUYBiABKA4yOi5zYWx0",
-            "by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuRWxlY3Ryb25pY0xvY2suVXBk",
-            "YXRlU3RhdGUiXwoTSW5pdGlhbGl6YXRpb25TdGF0ZRIkCiBJTklUSUFMSVpB",
-            "VElPTl9TVEFURV9VTlNQRUNJRklFRBAAEhEKDVVOSU5JVElBTElaRUQQARIP",
-            "CgtJTklUSUFMSVpFRBACIkYKC1VwZGF0ZVN0YXRlEhwKGFVQREFURV9TVEFU",
-            "RV9VTlNQRUNJRklFRBAAEgwKCE9VVERBVEVEEAESCwoHVVBEQVRFRBACQg8K",
-            "DXBhcmVudF9kZXZpY2UikgEKG0NyZWF0ZUVsZWN0cm9uaWNMb2NrUmVxdWVz",
-            "dBIOCgZwYXJlbnQYASABKAkSGgoSZWxlY3Ryb25pY19sb2NrX2lkGAIgASgJ",
-            "EkcKD2VsZWN0cm9uaWNfbG9jaxgDIAEoCzIuLnNhbHRvLm5lYnVsYS5lbGVj",
-            "dHJvbmljbG9jay52MS5FbGVjdHJvbmljTG9jayIoChhHZXRFbGVjdHJvbmlj",
-            "TG9ja1JlcXVlc3QSDAoEbmFtZRgBIAEoCSJ1ChpMaXN0RWxlY3Ryb25pY0xv",
-            "Y2tzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgF",
-            "EhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVy",
-            "X2J5GAUgASgJIoABChtMaXN0RWxlY3Ryb25pY0xvY2tzUmVzcG9uc2USSAoQ",
-            "ZWxlY3Ryb25pY19sb2NrcxgBIAMoCzIuLnNhbHRvLm5lYnVsYS5lbGVjdHJv",
-            "bmljbG9jay52MS5FbGVjdHJvbmljTG9jaxIXCg9uZXh0X3BhZ2VfdG9rZW4Y",
-            "AiABKAkilwEKG1VwZGF0ZUVsZWN0cm9uaWNMb2NrUmVxdWVzdBJHCg9lbGVj",
-            "dHJvbmljX2xvY2sYASABKAsyLi5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xv",
-            "Y2sudjEuRWxlY3Ryb25pY0xvY2sSLwoLdXBkYXRlX21hc2sYAiABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuRmllbGRNYXNrIisKG0RlbGV0ZUVsZWN0cm9uaWNM",
-            "b2NrUmVxdWVzdBIMCgRuYW1lGAEgASgJIi8KH0luaXRpYWxpemVFbGVjdHJv",
-            "bmljTG9ja1JlcXVlc3QSDAoEbmFtZRgBIAEoCSIiCiBJbml0aWFsaXplRWxl",
-            "Y3Ryb25pY0xvY2tSZXNwb25zZSI8CiBJbml0aWFsaXplRWxlY3Ryb25pY0xv",
-            "Y2tNZXRhZGF0YRIYChBwcm9ncmVzc19wZXJjZW50GAEgASgFIi4KHkNvbmZp",
-            "Z3VyZUVsZWN0cm9uaWNMb2NrUmVxdWVzdBIMCgRuYW1lGAEgASgJIiEKH0Nv",
-            "bmZpZ3VyZUVsZWN0cm9uaWNMb2NrUmVzcG9uc2UiIQofQ29uZmlndXJlRWxl",
-            "Y3Ryb25pY0xvY2tNZXRhZGF0YSIqChpSZXNldEVsZWN0cm9uaWNMb2NrUmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJIh0KG1Jlc2V0RWxlY3Ryb25pY0xvY2tSZXNw",
-            "b25zZSIdChtSZXNldEVsZWN0cm9uaWNMb2NrTWV0YWRhdGEiPgojVXBkYXRl",
-            "RWxlY3Ryb25pY0xvY2tGaXJtd2FyZVJlcXVlc3QSFwoPZWxlY3Ryb25pY19s",
-            "b2NrGAEgASgJIiYKJFVwZGF0ZUVsZWN0cm9uaWNMb2NrRmlybXdhcmVSZXNw",
-            "b25zZSJACiRVcGRhdGVFbGVjdHJvbmljTG9ja0Zpcm13YXJlTWV0YWRhdGES",
-            "GAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBTKVCQoVRWxlY3Ryb25pY0xvY2tT",
-            "ZXJ2aWNlEoMBChRDcmVhdGVFbGVjdHJvbmljTG9jaxI7LnNhbHRvLm5lYnVs",
-            "YS5lbGVjdHJvbmljbG9jay52MS5DcmVhdGVFbGVjdHJvbmljTG9ja1JlcXVl",
+            "dGlhbGl6YXRpb25TdGF0ZRIQCghvdXRkYXRlZBgGIAEoCCJfChNJbml0aWFs",
+            "aXphdGlvblN0YXRlEiQKIElOSVRJQUxJWkFUSU9OX1NUQVRFX1VOU1BFQ0lG",
+            "SUVEEAASEQoNVU5JTklUSUFMSVpFRBABEg8KC0lOSVRJQUxJWkVEEAJCDwoN",
+            "cGFyZW50X2RldmljZSKSAQobQ3JlYXRlRWxlY3Ryb25pY0xvY2tSZXF1ZXN0",
+            "Eg4KBnBhcmVudBgBIAEoCRIaChJlbGVjdHJvbmljX2xvY2tfaWQYAiABKAkS",
+            "RwoPZWxlY3Ryb25pY19sb2NrGAMgASgLMi4uc2FsdG8ubmVidWxhLmVsZWN0",
+            "cm9uaWNsb2NrLnYxLkVsZWN0cm9uaWNMb2NrIigKGEdldEVsZWN0cm9uaWNM",
+            "b2NrUmVxdWVzdBIMCgRuYW1lGAEgASgJInUKGkxpc3RFbGVjdHJvbmljTG9j",
+            "a3NSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUS",
+            "EgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJf",
+            "YnkYBSABKAkigAEKG0xpc3RFbGVjdHJvbmljTG9ja3NSZXNwb25zZRJIChBl",
+            "bGVjdHJvbmljX2xvY2tzGAEgAygLMi4uc2FsdG8ubmVidWxhLmVsZWN0cm9u",
+            "aWNsb2NrLnYxLkVsZWN0cm9uaWNMb2NrEhcKD25leHRfcGFnZV90b2tlbhgC",
+            "IAEoCSKXAQobVXBkYXRlRWxlY3Ryb25pY0xvY2tSZXF1ZXN0EkcKD2VsZWN0",
+            "cm9uaWNfbG9jaxgBIAEoCzIuLnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9j",
+            "ay52MS5FbGVjdHJvbmljTG9jaxIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siKwobRGVsZXRlRWxlY3Ryb25pY0xv",
+            "Y2tSZXF1ZXN0EgwKBG5hbWUYASABKAkiLwofSW5pdGlhbGl6ZUVsZWN0cm9u",
+            "aWNMb2NrUmVxdWVzdBIMCgRuYW1lGAEgASgJIiIKIEluaXRpYWxpemVFbGVj",
+            "dHJvbmljTG9ja1Jlc3BvbnNlIjwKIEluaXRpYWxpemVFbGVjdHJvbmljTG9j",
+            "a01ldGFkYXRhEhgKEHByb2dyZXNzX3BlcmNlbnQYASABKAUiLgoeQ29uZmln",
+            "dXJlRWxlY3Ryb25pY0xvY2tSZXF1ZXN0EgwKBG5hbWUYASABKAkiIQofQ29u",
+            "ZmlndXJlRWxlY3Ryb25pY0xvY2tSZXNwb25zZSIhCh9Db25maWd1cmVFbGVj",
+            "dHJvbmljTG9ja01ldGFkYXRhIioKGlJlc2V0RWxlY3Ryb25pY0xvY2tSZXF1",
+            "ZXN0EgwKBG5hbWUYASABKAkiHQobUmVzZXRFbGVjdHJvbmljTG9ja1Jlc3Bv",
+            "bnNlIh0KG1Jlc2V0RWxlY3Ryb25pY0xvY2tNZXRhZGF0YSI+CiNVcGRhdGVF",
+            "bGVjdHJvbmljTG9ja0Zpcm13YXJlUmVxdWVzdBIXCg9lbGVjdHJvbmljX2xv",
+            "Y2sYASABKAkiJgokVXBkYXRlRWxlY3Ryb25pY0xvY2tGaXJtd2FyZVJlc3Bv",
+            "bnNlIkAKJFVwZGF0ZUVsZWN0cm9uaWNMb2NrRmlybXdhcmVNZXRhZGF0YRIY",
+            "ChBwcm9ncmVzc19wZXJjZW50GAEgASgFMpUJChVFbGVjdHJvbmljTG9ja1Nl",
+            "cnZpY2USgwEKFENyZWF0ZUVsZWN0cm9uaWNMb2NrEjsuc2FsdG8ubmVidWxh",
+            "LmVsZWN0cm9uaWNsb2NrLnYxLkNyZWF0ZUVsZWN0cm9uaWNMb2NrUmVxdWVz",
+            "dBouLnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5FbGVjdHJvbmlj",
+            "TG9jaxJ9ChFHZXRFbGVjdHJvbmljTG9jaxI4LnNhbHRvLm5lYnVsYS5lbGVj",
+            "dHJvbmljbG9jay52MS5HZXRFbGVjdHJvbmljTG9ja1JlcXVlc3QaLi5zYWx0",
+            "by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuRWxlY3Ryb25pY0xvY2sSjgEK",
+            "E0xpc3RFbGVjdHJvbmljTG9ja3MSOi5zYWx0by5uZWJ1bGEuZWxlY3Ryb25p",
+            "Y2xvY2sudjEuTGlzdEVsZWN0cm9uaWNMb2Nrc1JlcXVlc3QaOy5zYWx0by5u",
+            "ZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuTGlzdEVsZWN0cm9uaWNMb2Nrc1Jl",
+            "c3BvbnNlEoMBChRVcGRhdGVFbGVjdHJvbmljTG9jaxI7LnNhbHRvLm5lYnVs",
+            "YS5lbGVjdHJvbmljbG9jay52MS5VcGRhdGVFbGVjdHJvbmljTG9ja1JlcXVl",
             "c3QaLi5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuRWxlY3Ryb25p",
-            "Y0xvY2sSfQoRR2V0RWxlY3Ryb25pY0xvY2sSOC5zYWx0by5uZWJ1bGEuZWxl",
-            "Y3Ryb25pY2xvY2sudjEuR2V0RWxlY3Ryb25pY0xvY2tSZXF1ZXN0Gi4uc2Fs",
-            "dG8ubmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLkVsZWN0cm9uaWNMb2NrEo4B",
-            "ChNMaXN0RWxlY3Ryb25pY0xvY2tzEjouc2FsdG8ubmVidWxhLmVsZWN0cm9u",
-            "aWNsb2NrLnYxLkxpc3RFbGVjdHJvbmljTG9ja3NSZXF1ZXN0Gjsuc2FsdG8u",
-            "bmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLkxpc3RFbGVjdHJvbmljTG9ja3NS",
-            "ZXNwb25zZRKDAQoUVXBkYXRlRWxlY3Ryb25pY0xvY2sSOy5zYWx0by5uZWJ1",
-            "bGEuZWxlY3Ryb25pY2xvY2sudjEuVXBkYXRlRWxlY3Ryb25pY0xvY2tSZXF1",
-            "ZXN0Gi4uc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLkVsZWN0cm9u",
-            "aWNMb2NrEmsKFERlbGV0ZUVsZWN0cm9uaWNMb2NrEjsuc2FsdG8ubmVidWxh",
-            "LmVsZWN0cm9uaWNsb2NrLnYxLkRlbGV0ZUVsZWN0cm9uaWNMb2NrUmVxdWVz",
-            "dBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJ8ChhJbml0aWFsaXplRWxlY3Ry",
-            "b25pY0xvY2sSPy5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuSW5p",
-            "dGlhbGl6ZUVsZWN0cm9uaWNMb2NrUmVxdWVzdBofLnNhbHRvLmxvbmdydW5u",
-            "aW5nLnYxLk9wZXJhdGlvbhJ6ChdDb25maWd1cmVFbGVjdHJvbmljTG9jaxI+",
-            "LnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5Db25maWd1cmVFbGVj",
-            "dHJvbmljTG9ja1JlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVy",
-            "YXRpb24ScgoTUmVzZXRFbGVjdHJvbmljTG9jaxI6LnNhbHRvLm5lYnVsYS5l",
-            "bGVjdHJvbmljbG9jay52MS5SZXNldEVsZWN0cm9uaWNMb2NrUmVxdWVzdBof",
-            "LnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhKEAQocVXBkYXRlRWxl",
-            "Y3Ryb25pY0xvY2tGaXJtd2FyZRJDLnNhbHRvLm5lYnVsYS5lbGVjdHJvbmlj",
-            "bG9jay52MS5VcGRhdGVFbGVjdHJvbmljTG9ja0Zpcm13YXJlUmVxdWVzdBof",
-            "LnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbkLAAQomY29tLnNhbHRv",
-            "YXBpcy5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjFCE0VsZWN0cm9uaWNMb2Nr",
-            "UHJvdG9QAVpaZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMuY29tL3NhbHRvYXBp",
-            "cy9zYWx0b2FwaXMtZ28vbmVidWxhL2VsZWN0cm9uaWNsb2NrL3YxO2VsZWN0",
-            "cm9uaWNsb2NrqgIiU2FsdG9hcGlzLk5lYnVsYS5FbGVjdHJvbmljTG9jay5W",
-            "MWIGcHJvdG8z"));
+            "Y0xvY2sSawoURGVsZXRlRWxlY3Ryb25pY0xvY2sSOy5zYWx0by5uZWJ1bGEu",
+            "ZWxlY3Ryb25pY2xvY2sudjEuRGVsZXRlRWxlY3Ryb25pY0xvY2tSZXF1ZXN0",
+            "GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EnwKGEluaXRpYWxpemVFbGVjdHJv",
+            "bmljTG9jaxI/LnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5Jbml0",
+            "aWFsaXplRWxlY3Ryb25pY0xvY2tSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5p",
+            "bmcudjEuT3BlcmF0aW9uEnoKF0NvbmZpZ3VyZUVsZWN0cm9uaWNMb2NrEj4u",
+            "c2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLkNvbmZpZ3VyZUVsZWN0",
+            "cm9uaWNMb2NrUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJh",
+            "dGlvbhJyChNSZXNldEVsZWN0cm9uaWNMb2NrEjouc2FsdG8ubmVidWxhLmVs",
+            "ZWN0cm9uaWNsb2NrLnYxLlJlc2V0RWxlY3Ryb25pY0xvY2tSZXF1ZXN0Gh8u",
+            "c2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEoQBChxVcGRhdGVFbGVj",
+            "dHJvbmljTG9ja0Zpcm13YXJlEkMuc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNs",
+            "b2NrLnYxLlVwZGF0ZUVsZWN0cm9uaWNMb2NrRmlybXdhcmVSZXF1ZXN0Gh8u",
+            "c2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uQsABCiZjb20uc2FsdG9h",
+            "cGlzLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MUITRWxlY3Ryb25pY0xvY2tQ",
+            "cm90b1ABWlpnaXRsYWIucm5kLnNhbHRvc3lzdGVtcy5jb20vc2FsdG9hcGlz",
+            "L3NhbHRvYXBpcy1nby9uZWJ1bGEvZWxlY3Ryb25pY2xvY2svdjE7ZWxlY3Ry",
+            "b25pY2xvY2uqAiJTYWx0b2FwaXMuTmVidWxhLkVsZWN0cm9uaWNMb2NrLlYx",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock), global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Parser, new[]{ "Name", "DeviceId", "Gateway", "Extender", "InitializationState", "UpdateState" }, new[]{ "ParentDevice" }, new[]{ typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.InitializationState), typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock), global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Parser, new[]{ "Name", "DeviceId", "Gateway", "Extender", "InitializationState", "Outdated" }, new[]{ "ParentDevice" }, new[]{ typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.InitializationState) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest), global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest.Parser, new[]{ "Parent", "ElectronicLockId", "ElectronicLock" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest), global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest), global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -159,7 +156,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       name_ = other.name_;
       deviceId_ = other.deviceId_;
       initializationState_ = other.initializationState_;
-      updateState_ = other.updateState_;
+      outdated_ = other.outdated_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -257,9 +254,9 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       }
     }
 
-    /// <summary>Field number for the "update_state" field.</summary>
-    public const int UpdateStateFieldNumber = 6;
-    private global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState updateState_ = global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState.Unspecified;
+    /// <summary>Field number for the "outdated" field.</summary>
+    public const int OutdatedFieldNumber = 6;
+    private bool outdated_;
     /// <summary>
     /// Indicates whether this electronic lock has pending updates or not. This
     /// field cannot be modified using a standard
@@ -268,10 +265,10 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     /// [`ConfigureElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.ConfigureElectronicLock].
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState UpdateState {
-      get { return updateState_; }
+    public bool Outdated {
+      get { return outdated_; }
       set {
-        updateState_ = value;
+        outdated_ = value;
       }
     }
 
@@ -312,7 +309,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       if (Gateway != other.Gateway) return false;
       if (Extender != other.Extender) return false;
       if (InitializationState != other.InitializationState) return false;
-      if (UpdateState != other.UpdateState) return false;
+      if (Outdated != other.Outdated) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -325,7 +322,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
       if (InitializationState != global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.InitializationState.Unspecified) hash ^= InitializationState.GetHashCode();
-      if (UpdateState != global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState.Unspecified) hash ^= UpdateState.GetHashCode();
+      if (Outdated != false) hash ^= Outdated.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -363,9 +360,9 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         output.WriteRawTag(40);
         output.WriteEnum((int) InitializationState);
       }
-      if (UpdateState != global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState.Unspecified) {
+      if (Outdated != false) {
         output.WriteRawTag(48);
-        output.WriteEnum((int) UpdateState);
+        output.WriteBool(Outdated);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -396,9 +393,9 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         output.WriteRawTag(40);
         output.WriteEnum((int) InitializationState);
       }
-      if (UpdateState != global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState.Unspecified) {
+      if (Outdated != false) {
         output.WriteRawTag(48);
-        output.WriteEnum((int) UpdateState);
+        output.WriteBool(Outdated);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -424,8 +421,8 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       if (InitializationState != global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.InitializationState.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) InitializationState);
       }
-      if (UpdateState != global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) UpdateState);
+      if (Outdated != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -447,8 +444,8 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       if (other.InitializationState != global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.InitializationState.Unspecified) {
         InitializationState = other.InitializationState;
       }
-      if (other.UpdateState != global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState.Unspecified) {
-        UpdateState = other.UpdateState;
+      if (other.Outdated != false) {
+        Outdated = other.Outdated;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -494,7 +491,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
             break;
           }
           case 48: {
-            UpdateState = (global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState) input.ReadEnum();
+            Outdated = input.ReadBool();
             break;
           }
         }
@@ -532,7 +529,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
             break;
           }
           case 48: {
-            UpdateState = (global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.UpdateState) input.ReadEnum();
+            Outdated = input.ReadBool();
             break;
           }
         }
@@ -562,25 +559,6 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         /// The electronic lock has already been initialized.
         /// </summary>
         [pbr::OriginalName("INITIALIZED")] Initialized = 2,
-      }
-
-      /// <summary>
-      /// Update state for an electronic lock.
-      /// </summary>
-      public enum UpdateState {
-        /// <summary>
-        /// Sentinel value used to indicate that the state is unknown, omitted,
-        /// or is not applicable.
-        /// </summary>
-        [pbr::OriginalName("UPDATE_STATE_UNSPECIFIED")] Unspecified = 0,
-        /// <summary>
-        /// The electronic lock has to be updated with a new configuration.
-        /// </summary>
-        [pbr::OriginalName("OUTDATED")] Outdated = 1,
-        /// <summary>
-        /// It has been already updated.
-        /// </summary>
-        [pbr::OriginalName("UPDATED")] Updated = 2,
       }
 
     }
