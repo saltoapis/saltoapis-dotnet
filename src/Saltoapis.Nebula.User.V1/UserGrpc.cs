@@ -63,10 +63,10 @@ namespace Saltoapis.Nebula.User.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse> __Marshaller_salto_nebula_user_v1_ListAccessRightsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest> __Marshaller_salto_nebula_user_v1_UpdateAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest> __Marshaller_salto_nebula_user_v1_DeleteAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest.Parser));
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest> __Marshaller_salto_nebula_user_v1_UpdateCardKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest> __Marshaller_salto_nebula_user_v1_AssignCardKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CardKey> __Marshaller_salto_nebula_user_v1_CardKey = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CardKey.Parser));
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest> __Marshaller_salto_nebula_user_v1_EncodeCardKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest> __Marshaller_salto_nebula_user_v1_CancelCardKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest> __Marshaller_salto_nebula_user_v1_EncodeCardKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest> __Marshaller_salto_nebula_user_v1_UpdateAppKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AppKey> __Marshaller_salto_nebula_user_v1_AppKey = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AppKey.Parser));
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest> __Marshaller_salto_nebula_user_v1_AssignAppKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser));
@@ -150,25 +150,25 @@ namespace Saltoapis.Nebula.User.V1 {
         __Marshaller_salto_nebula_user_v1_DeleteAccessRightRequest,
         __Marshaller_google_protobuf_Empty);
 
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest, global::Saltoapis.Nebula.User.V1.CardKey> __Method_UpdateCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest, global::Saltoapis.Nebula.User.V1.CardKey>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest, global::Saltoapis.Nebula.User.V1.CardKey> __Method_AssignCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest, global::Saltoapis.Nebula.User.V1.CardKey>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "UpdateCardKey",
-        __Marshaller_salto_nebula_user_v1_UpdateCardKeyRequest,
+        "AssignCardKey",
+        __Marshaller_salto_nebula_user_v1_AssignCardKeyRequest,
         __Marshaller_salto_nebula_user_v1_CardKey);
-
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_EncodeCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "EncodeCardKey",
-        __Marshaller_salto_nebula_user_v1_EncodeCardKeyRequest,
-        __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_CancelCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
         "CancelCardKey",
         __Marshaller_salto_nebula_user_v1_CancelCardKeyRequest,
+        __Marshaller_google_protobuf_Empty);
+
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_EncodeCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "EncodeCardKey",
+        __Marshaller_salto_nebula_user_v1_EncodeCardKeyRequest,
         __Marshaller_google_protobuf_Empty);
 
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest, global::Saltoapis.Nebula.User.V1.AppKey> __Method_UpdateAppKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest, global::Saltoapis.Nebula.User.V1.AppKey>(
@@ -770,108 +770,56 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteAccessRight, null, options, request);
       }
       /// <summary>
-      /// Update a card key
+      /// Assign an card key
       ///
-      /// Updates an existing user's card key.
+      /// Assigns a card key to an existing user.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.User.V1.CardKey UpdateCardKey(global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Saltoapis.Nebula.User.V1.CardKey AssignCardKey(global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return UpdateCardKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return AssignCardKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Update a card key
+      /// Assign an card key
       ///
-      /// Updates an existing user's card key.
+      /// Assigns a card key to an existing user.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Saltoapis.Nebula.User.V1.CardKey UpdateCardKey(global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest request, grpc::CallOptions options)
+      public virtual global::Saltoapis.Nebula.User.V1.CardKey AssignCardKey(global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_UpdateCardKey, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_AssignCardKey, null, options, request);
       }
       /// <summary>
-      /// Update a card key
+      /// Assign an card key
       ///
-      /// Updates an existing user's card key.
+      /// Assigns a card key to an existing user.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CardKey> UpdateCardKeyAsync(global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CardKey> AssignCardKeyAsync(global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return UpdateCardKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return AssignCardKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Update a card key
+      /// Assign an card key
       ///
-      /// Updates an existing user's card key.
+      /// Assigns a card key to an existing user.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CardKey> UpdateCardKeyAsync(global::Saltoapis.Nebula.User.V1.UpdateCardKeyRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CardKey> AssignCardKeyAsync(global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_UpdateCardKey, null, options, request);
-      }
-      /// <summary>
-      /// Encode a card key
-      ///
-      /// Encodes an existing user's card key.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty EncodeCardKey(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return EncodeCardKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Encode a card key
-      ///
-      /// Encodes an existing user's card key.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty EncodeCardKey(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_EncodeCardKey, null, options, request);
-      }
-      /// <summary>
-      /// Encode a card key
-      ///
-      /// Encodes an existing user's card key.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> EncodeCardKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return EncodeCardKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Encode a card key
-      ///
-      /// Encodes an existing user's card key.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> EncodeCardKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_EncodeCardKey, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_AssignCardKey, null, options, request);
       }
       /// <summary>
       /// Cancel a card key
@@ -924,6 +872,58 @@ namespace Saltoapis.Nebula.User.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> CancelCardKeyAsync(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CancelCardKey, null, options, request);
+      }
+      /// <summary>
+      /// Encode a card key
+      ///
+      /// Encodes an existing user's card key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty EncodeCardKey(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return EncodeCardKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Encode a card key
+      ///
+      /// Encodes an existing user's card key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty EncodeCardKey(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_EncodeCardKey, null, options, request);
+      }
+      /// <summary>
+      /// Encode a card key
+      ///
+      /// Encodes an existing user's card key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> EncodeCardKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return EncodeCardKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Encode a card key
+      ///
+      /// Encodes an existing user's card key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> EncodeCardKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_EncodeCardKey, null, options, request);
       }
       /// <summary>
       /// Update an app key
@@ -1197,10 +1197,6 @@ namespace Saltoapis.Nebula.User.V1 {
       /// Assign a wallet key
       ///
       /// Assigns a wallet key to an existing user.
-      /// If the frictionless flag is set in the
-      /// [`AssignWalletKeyRequest`][salto.nebula.user.v1.UserService.AssignWalletKeyRequest]
-      /// it will instead return an access URL to sign in to SALTO Identity and
-      /// assign the wallet key seamlessly.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -1215,10 +1211,6 @@ namespace Saltoapis.Nebula.User.V1 {
       /// Assign a wallet key
       ///
       /// Assigns a wallet key to an existing user.
-      /// If the frictionless flag is set in the
-      /// [`AssignWalletKeyRequest`][salto.nebula.user.v1.UserService.AssignWalletKeyRequest]
-      /// it will instead return an access URL to sign in to SALTO Identity and
-      /// assign the wallet key seamlessly.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -1231,10 +1223,6 @@ namespace Saltoapis.Nebula.User.V1 {
       /// Assign a wallet key
       ///
       /// Assigns a wallet key to an existing user.
-      /// If the frictionless flag is set in the
-      /// [`AssignWalletKeyRequest`][salto.nebula.user.v1.UserService.AssignWalletKeyRequest]
-      /// it will instead return an access URL to sign in to SALTO Identity and
-      /// assign the wallet key seamlessly.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -1249,10 +1237,6 @@ namespace Saltoapis.Nebula.User.V1 {
       /// Assign a wallet key
       ///
       /// Assigns a wallet key to an existing user.
-      /// If the frictionless flag is set in the
-      /// [`AssignWalletKeyRequest`][salto.nebula.user.v1.UserService.AssignWalletKeyRequest]
-      /// it will instead return an access URL to sign in to SALTO Identity and
-      /// assign the wallet key seamlessly.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
