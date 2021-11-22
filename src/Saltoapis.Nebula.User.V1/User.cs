@@ -66,7 +66,7 @@ namespace Saltoapis.Nebula.User.V1 {
             "Z2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUg",
             "ASgJImsKEUxpc3RVc2Vyc1Jlc3BvbnNlEikKBXVzZXJzGAEgAygLMhouc2Fs",
             "dG8ubmVidWxhLnVzZXIudjEuVXNlchIXCg9uZXh0X3BhZ2VfdG9rZW4YAiAB",
-            "KAkSEgoKdG90YWxfc2l6ZRgDIAEoCSJuChFVcGRhdGVVc2VyUmVxdWVzdBIo",
+            "KAkSEgoKdG90YWxfc2l6ZRgDIAEoBSJuChFVcGRhdGVVc2VyUmVxdWVzdBIo",
             "CgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchIvCgt1",
             "cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2si",
             "IQoRRGVsZXRlVXNlclJlcXVlc3QSDAoEbmFtZRgBIAEoCSJjChhDcmVhdGVB",
@@ -3504,17 +3504,17 @@ namespace Saltoapis.Nebula.User.V1 {
 
     /// <summary>Field number for the "total_size" field.</summary>
     public const int TotalSizeFieldNumber = 3;
-    private string totalSize_ = "";
+    private int totalSize_;
     /// <summary>
     /// The total number of users in all pages, irrespective of any pagination.
     /// This is an estimated number based on the requested filter, and it may change in
     /// subsequent pages.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string TotalSize {
+    public int TotalSize {
       get { return totalSize_; }
       set {
-        totalSize_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        totalSize_ = value;
       }
     }
 
@@ -3542,7 +3542,7 @@ namespace Saltoapis.Nebula.User.V1 {
       int hash = 1;
       hash ^= users_.GetHashCode();
       if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
-      if (TotalSize.Length != 0) hash ^= TotalSize.GetHashCode();
+      if (TotalSize != 0) hash ^= TotalSize.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3564,9 +3564,9 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
       }
-      if (TotalSize.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(TotalSize);
+      if (TotalSize != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(TotalSize);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -3582,9 +3582,9 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
       }
-      if (TotalSize.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(TotalSize);
+      if (TotalSize != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(TotalSize);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -3599,8 +3599,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (NextPageToken.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
       }
-      if (TotalSize.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(TotalSize);
+      if (TotalSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(TotalSize);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3617,7 +3617,7 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other.NextPageToken.Length != 0) {
         NextPageToken = other.NextPageToken;
       }
-      if (other.TotalSize.Length != 0) {
+      if (other.TotalSize != 0) {
         TotalSize = other.TotalSize;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -3642,8 +3642,8 @@ namespace Saltoapis.Nebula.User.V1 {
             NextPageToken = input.ReadString();
             break;
           }
-          case 26: {
-            TotalSize = input.ReadString();
+          case 24: {
+            TotalSize = input.ReadInt32();
             break;
           }
         }
@@ -3668,8 +3668,8 @@ namespace Saltoapis.Nebula.User.V1 {
             NextPageToken = input.ReadString();
             break;
           }
-          case 26: {
-            TotalSize = input.ReadString();
+          case 24: {
+            TotalSize = input.ReadInt32();
             break;
           }
         }
