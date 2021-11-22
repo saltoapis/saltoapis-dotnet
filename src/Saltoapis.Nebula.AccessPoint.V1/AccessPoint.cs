@@ -40,31 +40,32 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             "LkFjY2Vzc1BvaW50IiUKFUdldEFjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1l",
             "GAEgASgJInIKF0xpc3RBY2Nlc3NQb2ludHNSZXF1ZXN0Eg4KBnBhcmVudBgB",
             "IAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIO",
-            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkidAoYTGlzdEFjY2Vz",
-            "c1BvaW50c1Jlc3BvbnNlEj8KDWFjY2Vzc19wb2ludHMYASADKAsyKC5zYWx0",
-            "by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSFwoPbmV4dF9w",
-            "YWdlX3Rva2VuGAIgASgJIosBChhVcGRhdGVBY2Nlc3NQb2ludFJlcXVlc3QS",
-            "PgoMYWNjZXNzX3BvaW50GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3Bv",
-            "aW50LnYxLkFjY2Vzc1BvaW50Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLkZpZWxkTWFzayIoChhEZWxldGVBY2Nlc3NQb2ludFJl",
-            "cXVlc3QSDAoEbmFtZRgBIAEoCTLVBAoSQWNjZXNzUG9pbnRTZXJ2aWNlEnQK",
-            "EUNyZWF0ZUFjY2Vzc1BvaW50EjUuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50",
-            "LnYxLkNyZWF0ZUFjY2Vzc1BvaW50UmVxdWVzdBooLnNhbHRvLm5lYnVsYS5h",
-            "Y2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBJuCg5HZXRBY2Nlc3NQb2ludBIy",
-            "LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5HZXRBY2Nlc3NQb2ludFJl",
-            "cXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9p",
-            "bnQSfwoQTGlzdEFjY2Vzc1BvaW50cxI0LnNhbHRvLm5lYnVsYS5hY2Nlc3Nw",
-            "b2ludC52MS5MaXN0QWNjZXNzUG9pbnRzUmVxdWVzdBo1LnNhbHRvLm5lYnVs",
-            "YS5hY2Nlc3Nwb2ludC52MS5MaXN0QWNjZXNzUG9pbnRzUmVzcG9uc2USdAoR",
-            "VXBkYXRlQWNjZXNzUG9pbnQSNS5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQu",
-            "djEuVXBkYXRlQWNjZXNzUG9pbnRSZXF1ZXN0Giguc2FsdG8ubmVidWxhLmFj",
-            "Y2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50EmIKEURlbGV0ZUFjY2Vzc1BvaW50",
-            "EjUuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkRlbGV0ZUFjY2Vzc1Bv",
-            "aW50UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eUKxAQojY29tLnNh",
-            "bHRvYXBpcy5uZWJ1bGEuYWNjZXNzcG9pbnQudjFCEEFjY2Vzc1BvaW50UHJv",
-            "dG9QAVpUZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMuY29tL3NhbHRvYXBpcy9z",
-            "YWx0b2FwaXMtZ28vbmVidWxhL2FjY2Vzc3BvaW50L3YxO2FjY2Vzc3BvaW50",
-            "qgIfU2FsdG9hcGlzLk5lYnVsYS5BY2Nlc3NQb2ludC5WMWIGcHJvdG8z"));
+            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiiAEKGExpc3RBY2Nl",
+            "c3NQb2ludHNSZXNwb25zZRI/Cg1hY2Nlc3NfcG9pbnRzGAEgAygLMiguc2Fs",
+            "dG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50EhcKD25leHRf",
+            "cGFnZV90b2tlbhgCIAEoCRISCgp0b3RhbF9zaXplGAMgASgJIosBChhVcGRh",
+            "dGVBY2Nlc3NQb2ludFJlcXVlc3QSPgoMYWNjZXNzX3BvaW50GAEgASgLMigu",
+            "c2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50Ei8KC3Vw",
+            "ZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIo",
+            "ChhEZWxldGVBY2Nlc3NQb2ludFJlcXVlc3QSDAoEbmFtZRgBIAEoCTLVBAoS",
+            "QWNjZXNzUG9pbnRTZXJ2aWNlEnQKEUNyZWF0ZUFjY2Vzc1BvaW50EjUuc2Fs",
+            "dG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkNyZWF0ZUFjY2Vzc1BvaW50UmVx",
+            "dWVzdBooLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2lu",
+            "dBJuCg5HZXRBY2Nlc3NQb2ludBIyLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2lu",
+            "dC52MS5HZXRBY2Nlc3NQb2ludFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNj",
+            "ZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSfwoQTGlzdEFjY2Vzc1BvaW50cxI0",
+            "LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5MaXN0QWNjZXNzUG9pbnRz",
+            "UmVxdWVzdBo1LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5MaXN0QWNj",
+            "ZXNzUG9pbnRzUmVzcG9uc2USdAoRVXBkYXRlQWNjZXNzUG9pbnQSNS5zYWx0",
+            "by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuVXBkYXRlQWNjZXNzUG9pbnRSZXF1",
+            "ZXN0Giguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50",
+            "EmIKEURlbGV0ZUFjY2Vzc1BvaW50EjUuc2FsdG8ubmVidWxhLmFjY2Vzc3Bv",
+            "aW50LnYxLkRlbGV0ZUFjY2Vzc1BvaW50UmVxdWVzdBoWLmdvb2dsZS5wcm90",
+            "b2J1Zi5FbXB0eUKxAQojY29tLnNhbHRvYXBpcy5uZWJ1bGEuYWNjZXNzcG9p",
+            "bnQudjFCEEFjY2Vzc1BvaW50UHJvdG9QAVpUZ2l0bGFiLnJuZC5zYWx0b3N5",
+            "c3RlbXMuY29tL3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2FjY2Vz",
+            "c3BvaW50L3YxO2FjY2Vzc3BvaW50qgIfU2FsdG9hcGlzLk5lYnVsYS5BY2Nl",
+            "c3NQb2ludC5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.OpeningModeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -72,7 +73,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest.Parser, new[]{ "Parent", "AccessPointId", "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse.Parser, new[]{ "AccessPoints", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsResponse.Parser, new[]{ "AccessPoints", "NextPageToken", "TotalSize" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.UpdateAccessPointRequest.Parser, new[]{ "AccessPoint", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null)
           }));
@@ -1392,6 +1393,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     public ListAccessPointsResponse(ListAccessPointsResponse other) : this() {
       accessPoints_ = other.accessPoints_.Clone();
       nextPageToken_ = other.nextPageToken_;
+      totalSize_ = other.totalSize_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1430,6 +1432,22 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
     }
 
+    /// <summary>Field number for the "total_size" field.</summary>
+    public const int TotalSizeFieldNumber = 3;
+    private string totalSize_ = "";
+    /// <summary>
+    /// The total number of access points in all pages, irrespective of any pagination.
+    /// This is an estimated number based on the requested filter, and it may change in
+    /// subsequent pages.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TotalSize {
+      get { return totalSize_; }
+      set {
+        totalSize_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ListAccessPointsResponse);
@@ -1445,6 +1463,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
       if(!accessPoints_.Equals(other.accessPoints_)) return false;
       if (NextPageToken != other.NextPageToken) return false;
+      if (TotalSize != other.TotalSize) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1453,6 +1472,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       int hash = 1;
       hash ^= accessPoints_.GetHashCode();
       if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (TotalSize.Length != 0) hash ^= TotalSize.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1474,6 +1494,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
       }
+      if (TotalSize.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(TotalSize);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1488,6 +1512,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
       }
+      if (TotalSize.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(TotalSize);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1500,6 +1528,9 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       size += accessPoints_.CalculateSize(_repeated_accessPoints_codec);
       if (NextPageToken.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (TotalSize.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TotalSize);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1515,6 +1546,9 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       accessPoints_.Add(other.accessPoints_);
       if (other.NextPageToken.Length != 0) {
         NextPageToken = other.NextPageToken;
+      }
+      if (other.TotalSize.Length != 0) {
+        TotalSize = other.TotalSize;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1538,6 +1572,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             NextPageToken = input.ReadString();
             break;
           }
+          case 26: {
+            TotalSize = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1558,6 +1596,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
           }
           case 18: {
             NextPageToken = input.ReadString();
+            break;
+          }
+          case 26: {
+            TotalSize = input.ReadString();
             break;
           }
         }
