@@ -33,25 +33,25 @@ namespace Saltoapis.Nebula.Device.V1 {
             "AEIPCg1wYXJlbnRfZGV2aWNlIiAKEEdldERldmljZVJlcXVlc3QSDAoEbmFt",
             "ZRgBIAEoCSJtChJMaXN0RGV2aWNlc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJ",
             "EhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZp",
-            "bHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJfChNMaXN0RGV2aWNlc1Jl",
+            "bHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJzChNMaXN0RGV2aWNlc1Jl",
             "c3BvbnNlEi8KB2RldmljZXMYASADKAsyHi5zYWx0by5uZWJ1bGEuZGV2aWNl",
-            "LnYxLkRldmljZRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkyzgEKDURldmlj",
-            "ZVNlcnZpY2USVQoJR2V0RGV2aWNlEiguc2FsdG8ubmVidWxhLmRldmljZS52",
-            "MS5HZXREZXZpY2VSZXF1ZXN0Gh4uc2FsdG8ubmVidWxhLmRldmljZS52MS5E",
-            "ZXZpY2USZgoLTGlzdERldmljZXMSKi5zYWx0by5uZWJ1bGEuZGV2aWNlLnYx",
-            "Lkxpc3REZXZpY2VzUmVxdWVzdBorLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEu",
-            "TGlzdERldmljZXNSZXNwb25zZUKYAQoeY29tLnNhbHRvYXBpcy5uZWJ1bGEu",
-            "ZGV2aWNlLnYxQgtEZXZpY2VQcm90b1ABWkpnaXRsYWIucm5kLnNhbHRvc3lz",
-            "dGVtcy5jb20vc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvZGV2aWNl",
-            "L3YxO2RldmljZaoCGlNhbHRvYXBpcy5OZWJ1bGEuRGV2aWNlLlYxYgZwcm90",
-            "bzM="));
+            "LnYxLkRldmljZRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkSEgoKdG90YWxf",
+            "c2l6ZRgDIAEoBTLOAQoNRGV2aWNlU2VydmljZRJVCglHZXREZXZpY2USKC5z",
+            "YWx0by5uZWJ1bGEuZGV2aWNlLnYxLkdldERldmljZVJlcXVlc3QaHi5zYWx0",
+            "by5uZWJ1bGEuZGV2aWNlLnYxLkRldmljZRJmCgtMaXN0RGV2aWNlcxIqLnNh",
+            "bHRvLm5lYnVsYS5kZXZpY2UudjEuTGlzdERldmljZXNSZXF1ZXN0Gisuc2Fs",
+            "dG8ubmVidWxhLmRldmljZS52MS5MaXN0RGV2aWNlc1Jlc3BvbnNlQpgBCh5j",
+            "b20uc2FsdG9hcGlzLm5lYnVsYS5kZXZpY2UudjFCC0RldmljZVByb3RvUAFa",
+            "SmdpdGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9h",
+            "cGlzLWdvL25lYnVsYS9kZXZpY2UvdjE7ZGV2aWNlqgIaU2FsdG9hcGlzLk5l",
+            "YnVsYS5EZXZpY2UuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Nebula.Type.DeviceTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender" }, new[]{ "ParentDevice" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetDeviceRequest), global::Saltoapis.Nebula.Device.V1.GetDeviceRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesRequest), global::Saltoapis.Nebula.Device.V1.ListDevicesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesResponse), global::Saltoapis.Nebula.Device.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesResponse), global::Saltoapis.Nebula.Device.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken", "TotalSize" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1057,6 +1057,7 @@ namespace Saltoapis.Nebula.Device.V1 {
     public ListDevicesResponse(ListDevicesResponse other) : this() {
       devices_ = other.devices_.Clone();
       nextPageToken_ = other.nextPageToken_;
+      totalSize_ = other.totalSize_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1095,6 +1096,22 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
     }
 
+    /// <summary>Field number for the "total_size" field.</summary>
+    public const int TotalSizeFieldNumber = 3;
+    private int totalSize_;
+    /// <summary>
+    /// The total number of devices in all pages, irrespective of any pagination.
+    /// This is an estimated number based on the requested filter, and it may change in
+    /// subsequent pages.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int TotalSize {
+      get { return totalSize_; }
+      set {
+        totalSize_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ListDevicesResponse);
@@ -1110,6 +1127,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
       if(!devices_.Equals(other.devices_)) return false;
       if (NextPageToken != other.NextPageToken) return false;
+      if (TotalSize != other.TotalSize) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1118,6 +1136,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       int hash = 1;
       hash ^= devices_.GetHashCode();
       if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
+      if (TotalSize != 0) hash ^= TotalSize.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1139,6 +1158,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
       }
+      if (TotalSize != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(TotalSize);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1153,6 +1176,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
       }
+      if (TotalSize != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(TotalSize);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1165,6 +1192,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       size += devices_.CalculateSize(_repeated_devices_codec);
       if (NextPageToken.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
+      }
+      if (TotalSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(TotalSize);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1180,6 +1210,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       devices_.Add(other.devices_);
       if (other.NextPageToken.Length != 0) {
         NextPageToken = other.NextPageToken;
+      }
+      if (other.TotalSize != 0) {
+        TotalSize = other.TotalSize;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1203,6 +1236,10 @@ namespace Saltoapis.Nebula.Device.V1 {
             NextPageToken = input.ReadString();
             break;
           }
+          case 24: {
+            TotalSize = input.ReadInt32();
+            break;
+          }
         }
       }
     #endif
@@ -1223,6 +1260,10 @@ namespace Saltoapis.Nebula.Device.V1 {
           }
           case 18: {
             NextPageToken = input.ReadString();
+            break;
+          }
+          case 24: {
+            TotalSize = input.ReadInt32();
             break;
           }
         }
