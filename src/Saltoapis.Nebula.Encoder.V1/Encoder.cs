@@ -187,7 +187,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     /// <summary>Field number for the "extender" field.</summary>
     public const int ExtenderFieldNumber = 5;
     /// <summary>
-    /// Parent name, when encoder is connected to a gateway
+    /// Parent name, when encoder is connected to an extender
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Extender {
@@ -889,7 +889,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   }
 
   /// <summary>
-  /// The request message for [ListEncoders][salto.nebula.encoder.v1.EncoderService.ListEncoder]
+  /// The request message for [ListEncoders][salto.nebula.encoder.v1.EncoderService.ListEncoders]
   /// </summary>
   public sealed partial class ListEncodersRequest : pb::IMessage<ListEncodersRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

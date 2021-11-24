@@ -9,9 +9,9 @@ using grpc = global::Grpc.Core;
 
 namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
-  /// A card encoder is an external device that reads and updates card keys with
-  /// access information. This service is responsible for managing encoder
-  /// resources.
+  /// A card encoder is an external device that reads and updates physical card
+  /// keys with access information. This service is responsible for managing
+  /// encoder resources.
   /// </summary>
   public static partial class EncoderService
   {
@@ -123,7 +123,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       /// <summary>
       /// Create an encoder
       ///
-      /// Creates a new encoder
+      /// Creates a new encoder.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -137,7 +137,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       /// <summary>
       /// Create an encoder
       ///
-      /// Creates a new encoder
+      /// Creates a new encoder.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -149,7 +149,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       /// <summary>
       /// Create an encoder
       ///
-      /// Creates a new encoder
+      /// Creates a new encoder.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -163,7 +163,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       /// <summary>
       /// Create an encoder
       ///
-      /// Creates a new encoder
+      /// Creates a new encoder.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
