@@ -26,29 +26,29 @@ namespace Saltoapis.Nebula.Device.V1 {
           string.Concat(
             "CiNzYWx0by9uZWJ1bGEvZGV2aWNlL3YxL2RldmljZS5wcm90bxIWc2FsdG8u",
             "bmVidWxhLmRldmljZS52MRojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5",
-            "cGUucHJvdG8iuwEKBkRldmljZRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9p",
+            "cGUucHJvdG8izQEKBkRldmljZRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9p",
             "ZBgCIAEoCRIUCgxkaXNwbGF5X25hbWUYAyABKAkSMgoLZGV2aWNlX3R5cGUY",
             "BCABKA4yHS5zYWx0by5uZWJ1bGEudHlwZS5EZXZpY2VUeXBlEg4KBnNvdXJj",
             "ZRgFIAEoCRIRCgdnYXRld2F5GAYgASgJSAASEgoIZXh0ZW5kZXIYByABKAlI",
-            "AEIPCg1wYXJlbnRfZGV2aWNlIiAKEEdldERldmljZVJlcXVlc3QSDAoEbmFt",
-            "ZRgBIAEoCSJtChJMaXN0RGV2aWNlc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJ",
-            "EhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZp",
-            "bHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJzChNMaXN0RGV2aWNlc1Jl",
-            "c3BvbnNlEi8KB2RldmljZXMYASADKAsyHi5zYWx0by5uZWJ1bGEuZGV2aWNl",
-            "LnYxLkRldmljZRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkSEgoKdG90YWxf",
-            "c2l6ZRgDIAEoBTLOAQoNRGV2aWNlU2VydmljZRJVCglHZXREZXZpY2USKC5z",
-            "YWx0by5uZWJ1bGEuZGV2aWNlLnYxLkdldERldmljZVJlcXVlc3QaHi5zYWx0",
-            "by5uZWJ1bGEuZGV2aWNlLnYxLkRldmljZRJmCgtMaXN0RGV2aWNlcxIqLnNh",
-            "bHRvLm5lYnVsYS5kZXZpY2UudjEuTGlzdERldmljZXNSZXF1ZXN0Gisuc2Fs",
-            "dG8ubmVidWxhLmRldmljZS52MS5MaXN0RGV2aWNlc1Jlc3BvbnNlQpgBCh5j",
-            "b20uc2FsdG9hcGlzLm5lYnVsYS5kZXZpY2UudjFCC0RldmljZVByb3RvUAFa",
-            "SmdpdGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNvbS9zYWx0b2FwaXMvc2FsdG9h",
-            "cGlzLWdvL25lYnVsYS9kZXZpY2UvdjE7ZGV2aWNlqgIaU2FsdG9hcGlzLk5l",
-            "YnVsYS5EZXZpY2UuVjFiBnByb3RvMw=="));
+            "ABIQCghvdXRkYXRlZBgIIAEoCEIPCg1wYXJlbnRfZGV2aWNlIiAKEEdldERl",
+            "dmljZVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJtChJMaXN0RGV2aWNlc1JlcXVl",
+            "c3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdl",
+            "X3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEo",
+            "CSJzChNMaXN0RGV2aWNlc1Jlc3BvbnNlEi8KB2RldmljZXMYASADKAsyHi5z",
+            "YWx0by5uZWJ1bGEuZGV2aWNlLnYxLkRldmljZRIXCg9uZXh0X3BhZ2VfdG9r",
+            "ZW4YAiABKAkSEgoKdG90YWxfc2l6ZRgDIAEoBTLOAQoNRGV2aWNlU2Vydmlj",
+            "ZRJVCglHZXREZXZpY2USKC5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkdldERl",
+            "dmljZVJlcXVlc3QaHi5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkRldmljZRJm",
+            "CgtMaXN0RGV2aWNlcxIqLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuTGlzdERl",
+            "dmljZXNSZXF1ZXN0Gisuc2FsdG8ubmVidWxhLmRldmljZS52MS5MaXN0RGV2",
+            "aWNlc1Jlc3BvbnNlQpgBCh5jb20uc2FsdG9hcGlzLm5lYnVsYS5kZXZpY2Uu",
+            "djFCC0RldmljZVByb3RvUAFaSmdpdGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNv",
+            "bS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9kZXZpY2UvdjE7ZGV2",
+            "aWNlqgIaU2FsdG9hcGlzLk5lYnVsYS5EZXZpY2UuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Nebula.Type.DeviceTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender" }, new[]{ "ParentDevice" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated" }, new[]{ "ParentDevice" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetDeviceRequest), global::Saltoapis.Nebula.Device.V1.GetDeviceRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesRequest), global::Saltoapis.Nebula.Device.V1.ListDevicesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesResponse), global::Saltoapis.Nebula.Device.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken", "TotalSize" }, null, null, null, null)
@@ -95,6 +95,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       displayName_ = other.displayName_;
       deviceType_ = other.deviceType_;
       source_ = other.source_;
+      outdated_ = other.outdated_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -217,6 +218,22 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
     }
 
+    /// <summary>Field number for the "outdated" field.</summary>
+    public const int OutdatedFieldNumber = 8;
+    private bool outdated_;
+    /// <summary>
+    /// Indicates whether this device has pending updates or not. This
+    /// could be because there was a pending configuration or a firmware update
+    /// and is conditionally set based on the current installation settings.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Outdated {
+      get { return outdated_; }
+      set {
+        outdated_ = value;
+      }
+    }
+
     private object parentDevice_;
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
@@ -256,6 +273,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Source != other.Source) return false;
       if (Gateway != other.Gateway) return false;
       if (Extender != other.Extender) return false;
+      if (Outdated != other.Outdated) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -270,6 +288,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Source.Length != 0) hash ^= Source.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
+      if (Outdated != false) hash ^= Outdated.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -315,6 +334,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(58);
         output.WriteString(Extender);
       }
+      if (Outdated != false) {
+        output.WriteRawTag(64);
+        output.WriteBool(Outdated);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -352,6 +375,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(58);
         output.WriteString(Extender);
       }
+      if (Outdated != false) {
+        output.WriteRawTag(64);
+        output.WriteBool(Outdated);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -382,6 +409,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
       }
+      if (Outdated != false) {
+        size += 1 + 1;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -407,6 +437,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
       if (other.Source.Length != 0) {
         Source = other.Source;
+      }
+      if (other.Outdated != false) {
+        Outdated = other.Outdated;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -459,6 +492,10 @@ namespace Saltoapis.Nebula.Device.V1 {
             Extender = input.ReadString();
             break;
           }
+          case 64: {
+            Outdated = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -499,6 +536,10 @@ namespace Saltoapis.Nebula.Device.V1 {
           }
           case 58: {
             Extender = input.ReadString();
+            break;
+          }
+          case 64: {
+            Outdated = input.ReadBool();
             break;
           }
         }
