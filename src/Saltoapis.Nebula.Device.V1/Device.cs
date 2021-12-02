@@ -25,30 +25,32 @@ namespace Saltoapis.Nebula.Device.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiNzYWx0by9uZWJ1bGEvZGV2aWNlL3YxL2RldmljZS5wcm90bxIWc2FsdG8u",
-            "bmVidWxhLmRldmljZS52MRojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5",
-            "cGUucHJvdG8izQEKBkRldmljZRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9p",
-            "ZBgCIAEoCRIUCgxkaXNwbGF5X25hbWUYAyABKAkSMgoLZGV2aWNlX3R5cGUY",
-            "BCABKA4yHS5zYWx0by5uZWJ1bGEudHlwZS5EZXZpY2VUeXBlEg4KBnNvdXJj",
-            "ZRgFIAEoCRIRCgdnYXRld2F5GAYgASgJSAASEgoIZXh0ZW5kZXIYByABKAlI",
-            "ABIQCghvdXRkYXRlZBgIIAEoCEIPCg1wYXJlbnRfZGV2aWNlIiAKEEdldERl",
-            "dmljZVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJtChJMaXN0RGV2aWNlc1JlcXVl",
-            "c3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdl",
-            "X3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEo",
-            "CSJzChNMaXN0RGV2aWNlc1Jlc3BvbnNlEi8KB2RldmljZXMYASADKAsyHi5z",
-            "YWx0by5uZWJ1bGEuZGV2aWNlLnYxLkRldmljZRIXCg9uZXh0X3BhZ2VfdG9r",
-            "ZW4YAiABKAkSEgoKdG90YWxfc2l6ZRgDIAEoBTLOAQoNRGV2aWNlU2Vydmlj",
-            "ZRJVCglHZXREZXZpY2USKC5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkdldERl",
-            "dmljZVJlcXVlc3QaHi5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkRldmljZRJm",
-            "CgtMaXN0RGV2aWNlcxIqLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuTGlzdERl",
-            "dmljZXNSZXF1ZXN0Gisuc2FsdG8ubmVidWxhLmRldmljZS52MS5MaXN0RGV2",
-            "aWNlc1Jlc3BvbnNlQpgBCh5jb20uc2FsdG9hcGlzLm5lYnVsYS5kZXZpY2Uu",
-            "djFCC0RldmljZVByb3RvUAFaSmdpdGxhYi5ybmQuc2FsdG9zeXN0ZW1zLmNv",
-            "bS9zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9kZXZpY2UvdjE7ZGV2",
-            "aWNlqgIaU2FsdG9hcGlzLk5lYnVsYS5EZXZpY2UuVjFiBnByb3RvMw=="));
+            "bmVidWxhLmRldmljZS52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5w",
+            "cm90bxojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5cGUucHJvdG8iggIK",
+            "BkRldmljZRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCRIUCgxk",
+            "aXNwbGF5X25hbWUYAyABKAkSMgoLZGV2aWNlX3R5cGUYBCABKA4yHS5zYWx0",
+            "by5uZWJ1bGEudHlwZS5EZXZpY2VUeXBlEg4KBnNvdXJjZRgFIAEoCRIRCgdn",
+            "YXRld2F5GAYgASgJSAASEgoIZXh0ZW5kZXIYByABKAlIABIQCghvdXRkYXRl",
+            "ZBgIIAEoCBIzCg9sYXN0X2V2ZW50X3RpbWUYCSABKAsyGi5nb29nbGUucHJv",
+            "dG9idWYuVGltZXN0YW1wQg8KDXBhcmVudF9kZXZpY2UiIAoQR2V0RGV2aWNl",
+            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIm0KEkxpc3REZXZpY2VzUmVxdWVzdBIO",
+            "CgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9r",
+            "ZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJInMK",
+            "E0xpc3REZXZpY2VzUmVzcG9uc2USLwoHZGV2aWNlcxgBIAMoCzIeLnNhbHRv",
+            "Lm5lYnVsYS5kZXZpY2UudjEuRGV2aWNlEhcKD25leHRfcGFnZV90b2tlbhgC",
+            "IAEoCRISCgp0b3RhbF9zaXplGAMgASgFMs4BCg1EZXZpY2VTZXJ2aWNlElUK",
+            "CUdldERldmljZRIoLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuR2V0RGV2aWNl",
+            "UmVxdWVzdBoeLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuRGV2aWNlEmYKC0xp",
+            "c3REZXZpY2VzEiouc2FsdG8ubmVidWxhLmRldmljZS52MS5MaXN0RGV2aWNl",
+            "c1JlcXVlc3QaKy5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkxpc3REZXZpY2Vz",
+            "UmVzcG9uc2VCmAEKHmNvbS5zYWx0b2FwaXMubmVidWxhLmRldmljZS52MUIL",
+            "RGV2aWNlUHJvdG9QAVpKZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMuY29tL3Nh",
+            "bHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2RldmljZS92MTtkZXZpY2Wq",
+            "AhpTYWx0b2FwaXMuTmVidWxhLkRldmljZS5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Saltoapis.Nebula.Type.DeviceTypeReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DeviceTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated" }, new[]{ "ParentDevice" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated", "LastEventTime" }, new[]{ "ParentDevice" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetDeviceRequest), global::Saltoapis.Nebula.Device.V1.GetDeviceRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesRequest), global::Saltoapis.Nebula.Device.V1.ListDevicesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesResponse), global::Saltoapis.Nebula.Device.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken", "TotalSize" }, null, null, null, null)
@@ -96,6 +98,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       deviceType_ = other.deviceType_;
       source_ = other.source_;
       outdated_ = other.outdated_;
+      lastEventTime_ = other.lastEventTime_ != null ? other.lastEventTime_.Clone() : null;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -234,6 +237,20 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
     }
 
+    /// <summary>Field number for the "last_event_time" field.</summary>
+    public const int LastEventTimeFieldNumber = 9;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp lastEventTime_;
+    /// <summary>
+    /// The last time an event was received.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp LastEventTime {
+      get { return lastEventTime_; }
+      set {
+        lastEventTime_ = value;
+      }
+    }
+
     private object parentDevice_;
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
@@ -274,6 +291,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Gateway != other.Gateway) return false;
       if (Extender != other.Extender) return false;
       if (Outdated != other.Outdated) return false;
+      if (!object.Equals(LastEventTime, other.LastEventTime)) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -289,6 +307,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
       if (Outdated != false) hash ^= Outdated.GetHashCode();
+      if (lastEventTime_ != null) hash ^= LastEventTime.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -338,6 +357,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(64);
         output.WriteBool(Outdated);
       }
+      if (lastEventTime_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(LastEventTime);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -379,6 +402,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(64);
         output.WriteBool(Outdated);
       }
+      if (lastEventTime_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(LastEventTime);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -412,6 +439,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Outdated != false) {
         size += 1 + 1;
       }
+      if (lastEventTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastEventTime);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -440,6 +470,12 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
       if (other.Outdated != false) {
         Outdated = other.Outdated;
+      }
+      if (other.lastEventTime_ != null) {
+        if (lastEventTime_ == null) {
+          LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        LastEventTime.MergeFrom(other.LastEventTime);
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -496,6 +532,13 @@ namespace Saltoapis.Nebula.Device.V1 {
             Outdated = input.ReadBool();
             break;
           }
+          case 74: {
+            if (lastEventTime_ == null) {
+              LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(LastEventTime);
+            break;
+          }
         }
       }
     #endif
@@ -540,6 +583,13 @@ namespace Saltoapis.Nebula.Device.V1 {
           }
           case 64: {
             Outdated = input.ReadBool();
+            break;
+          }
+          case 74: {
+            if (lastEventTime_ == null) {
+              LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(LastEventTime);
             break;
           }
         }
