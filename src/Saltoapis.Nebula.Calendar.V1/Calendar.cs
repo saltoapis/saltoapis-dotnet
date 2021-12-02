@@ -151,7 +151,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// Resource name of the calendar. It must have the format of
+    ///  Resource name of the calendar. It must have the format of
     /// `installations/*/calendars/*`. For example:
     /// `installations/surelock-homes-hq/calendars/gmt`.
     /// </summary>

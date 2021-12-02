@@ -143,7 +143,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// Resource name of the opening mode schedule. It must have the format of
+    ///  Resource name of the opening mode schedule. It must have the format of
     /// `installations/*/opening-mode-schedules/*`. For example:
     /// `installations/surelock-homes-hq/opening-mode-schedules/office-24-7`.
     /// </summary>

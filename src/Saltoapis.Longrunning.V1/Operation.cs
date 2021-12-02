@@ -134,7 +134,7 @@ namespace Saltoapis.Longrunning.V1 {
     public const int MetadataFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.Any metadata_;
     /// <summary>
-    /// Service-specific metadata associated with the operation. It typically
+    /// Service-specific metadata associated with the operation.  It typically
     /// contains progress information and common metadata such as create time.
     /// Some services might not provide such metadata. Any method that returns a
     /// long-running operation should document the metadata type, if any.
