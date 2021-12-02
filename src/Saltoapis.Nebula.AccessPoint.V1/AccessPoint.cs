@@ -141,7 +141,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// Resource name of the access point. It must have the format
+    ///  Resource name of the access point. It must have the format
     /// `installations/*/access-points/*`. For example:
     /// `installations/surelock-homes-hq/access-points/baker-street-entrance`.
     /// </summary>

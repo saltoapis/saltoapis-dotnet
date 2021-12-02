@@ -119,7 +119,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     /// installation-wide role which must have the format of:
     /// - iam-roles/viewer for predefined roles
     /// - installations/surelock-homes-hq/iam-roles/maintenance for custom installation
-    /// roles.
+    ///   roles.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {

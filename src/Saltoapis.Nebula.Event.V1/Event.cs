@@ -106,7 +106,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// Resource name of the event. It must have the format
+    ///  Resource name of the event. It must have the format
     /// `installations/*/events/*`. For example:
     /// `installations/surelock-homes-hq/events/01ARZ3NDEKTSV4RRFFQ69G5FAV`.
     /// </summary>

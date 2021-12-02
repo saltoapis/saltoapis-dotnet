@@ -177,7 +177,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// Resource name of the gateway. It must have the format of
+    ///  Resource name of the gateway. It must have the format of
     /// `installations/*/gateways/*`. For example:
     /// `installations/surelock-homes-hq/gateways/conan-doyle`.
     /// </summary>
