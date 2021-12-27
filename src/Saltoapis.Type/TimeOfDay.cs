@@ -26,10 +26,10 @@ namespace Saltoapis.Type {
           string.Concat(
             "ChxzYWx0by90eXBlL3RpbWVfb2ZfZGF5LnByb3RvEgpzYWx0by50eXBlIksK",
             "CVRpbWVPZkRheRINCgVob3VycxgBIAEoBRIPCgdtaW51dGVzGAIgASgFEg8K",
-            "B3NlY29uZHMYAyABKAUSDQoFbmFub3MYBCABKAVChAEKEmNvbS5zYWx0b2Fw",
-            "aXMudHlwZUIOVGltZU9mRGF5UHJvdG9QAVpLZ2l0bGFiLnJuZC5zYWx0b3N5",
-            "c3RlbXMuY29tL3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28vdHlwZS90aW1lb2Zk",
-            "YXk7dGltZW9mZGF5qgIOU2FsdG9hcGlzLlR5cGViBnByb3RvMw=="));
+            "B3NlY29uZHMYAyABKAUSDQoFbmFub3MYBCABKAVCewoSY29tLnNhbHRvYXBp",
+            "cy50eXBlQg5UaW1lT2ZEYXlQcm90b1ABWkJnaXRodWIuY29tL3NhbHRvYXBp",
+            "cy9wcml2YXRlLXNhbHRvYXBpcy1nby90eXBlL3RpbWVvZmRheTt0aW1lb2Zk",
+            "YXmqAg5TYWx0b2FwaXMuVHlwZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

@@ -25,10 +25,10 @@ namespace Saltoapis.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChVzYWx0by90eXBlL2RhdGUucHJvdG8SCnNhbHRvLnR5cGUiMAoERGF0ZRIM",
-            "CgR5ZWFyGAEgASgFEg0KBW1vbnRoGAIgASgFEgsKA2RheRgDIAEoBUJ1ChJj",
-            "b20uc2FsdG9hcGlzLnR5cGVCCURhdGVQcm90b1ABWkFnaXRsYWIucm5kLnNh",
-            "bHRvc3lzdGVtcy5jb20vc2FsdG9hcGlzL3NhbHRvYXBpcy1nby90eXBlL2Rh",
-            "dGU7ZGF0ZaoCDlNhbHRvYXBpcy5UeXBlYgZwcm90bzM="));
+            "CgR5ZWFyGAEgASgFEg0KBW1vbnRoGAIgASgFEgsKA2RheRgDIAEoBUJsChJj",
+            "b20uc2FsdG9hcGlzLnR5cGVCCURhdGVQcm90b1ABWjhnaXRodWIuY29tL3Nh",
+            "bHRvYXBpcy9wcml2YXRlLXNhbHRvYXBpcy1nby90eXBlL2RhdGU7ZGF0ZaoC",
+            "DlNhbHRvYXBpcy5UeXBlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
