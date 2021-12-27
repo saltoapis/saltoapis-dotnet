@@ -74,12 +74,12 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             "cGVuaW5nbW9kZXNjaGVkdWxlLnYxLk9wZW5pbmdNb2RlU2NoZWR1bGUSegoZ",
             "RGVsZXRlT3BlbmluZ01vZGVTY2hlZHVsZRJFLnNhbHRvLm5lYnVsYS5vcGVu",
             "aW5nbW9kZXNjaGVkdWxlLnYxLkRlbGV0ZU9wZW5pbmdNb2RlU2NoZWR1bGVS",
-            "ZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QtkBCitjb20uc2FsdG9h",
+            "ZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QtABCitjb20uc2FsdG9h",
             "cGlzLm5lYnVsYS5vcGVuaW5nbW9kZXNjaGVkdWxlLnYxQhhPcGVuaW5nTW9k",
-            "ZVNjaGVkdWxlUHJvdG9QAVpkZ2l0bGFiLnJuZC5zYWx0b3N5c3RlbXMuY29t",
-            "L3NhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL29wZW5pbmdtb2Rlc2No",
-            "ZWR1bGUvdjE7b3BlbmluZ21vZGVzY2hlZHVsZaoCJ1NhbHRvYXBpcy5OZWJ1",
-            "bGEuT3BlbmluZ01vZGVTY2hlZHVsZS5WMWIGcHJvdG8z"));
+            "ZVNjaGVkdWxlUHJvdG9QAVpbZ2l0aHViLmNvbS9zYWx0b2FwaXMvcHJpdmF0",
+            "ZS1zYWx0b2FwaXMtZ28vbmVidWxhL29wZW5pbmdtb2Rlc2NoZWR1bGUvdjE7",
+            "b3BlbmluZ21vZGVzY2hlZHVsZaoCJ1NhbHRvYXBpcy5OZWJ1bGEuT3Blbmlu",
+            "Z01vZGVTY2hlZHVsZS5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Nebula.Type.OpeningModeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
