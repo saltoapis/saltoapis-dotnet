@@ -107,19 +107,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     private static readonly pb::MessageParser<OpeningModeSchedule> _parser = new pb::MessageParser<OpeningModeSchedule>(() => new OpeningModeSchedule());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<OpeningModeSchedule> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public OpeningModeSchedule() {
       OnConstruction();
     }
@@ -127,6 +131,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public OpeningModeSchedule(OpeningModeSchedule other) : this() {
       name_ = other.name_;
       displayName_ = other.displayName_;
@@ -135,6 +140,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public OpeningModeSchedule Clone() {
       return new OpeningModeSchedule(this);
     }
@@ -148,6 +154,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// `installations/surelock-homes-hq/opening-mode-schedules/office-24-7`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
       get { return name_; }
       set {
@@ -162,6 +169,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// Display name of the opening mode schedule.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DisplayName {
       get { return displayName_; }
       set {
@@ -178,16 +186,19 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// Days when the opening mode schedule is valid.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day> Days {
       get { return days_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as OpeningModeSchedule);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(OpeningModeSchedule other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -202,6 +213,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
@@ -214,11 +226,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -240,6 +254,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Name.Length != 0) {
         output.WriteRawTag(10);
@@ -257,6 +272,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Name.Length != 0) {
@@ -273,6 +289,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(OpeningModeSchedule other) {
       if (other == null) {
         return;
@@ -288,6 +305,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -317,6 +335,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -344,6 +363,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     #region Nested types
     /// <summary>Container for nested types declared in the OpeningModeSchedule message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
       /// <summary>
       /// Day of the week
@@ -356,19 +376,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         private static readonly pb::MessageParser<Day> _parser = new pb::MessageParser<Day>(() => new Day());
         private pb::UnknownFieldSet _unknownFields;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pb::MessageParser<Day> Parser { get { return _parser; } }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
           get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         pbr::MessageDescriptor pb::IMessage.Descriptor {
           get { return Descriptor; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public Day() {
           OnConstruction();
         }
@@ -376,6 +400,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         partial void OnConstruction();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public Day(Day other) : this() {
           dayType_ = other.dayType_;
           dayOfWeek_ = other.dayOfWeek_;
@@ -384,6 +409,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public Day Clone() {
           return new Day(this);
         }
@@ -395,6 +421,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         /// Day type
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public global::Saltoapis.Nebula.Type.DayType DayType {
           get { return dayType_; }
           set {
@@ -409,6 +436,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         /// In case `day_type` is `NORMAL`, the specific day of the week.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public global::Saltoapis.Type.DayOfWeek DayOfWeek {
           get { return dayOfWeek_; }
           set {
@@ -425,16 +453,19 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         /// The slot to be applied.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day.Types.Slot> Slots {
           get { return slots_; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
           return Equals(other as Day);
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public bool Equals(Day other) {
           if (ReferenceEquals(other, null)) {
             return false;
@@ -449,6 +480,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override int GetHashCode() {
           int hash = 1;
           if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) hash ^= DayType.GetHashCode();
@@ -461,11 +493,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override string ToString() {
           return pb::JsonFormatter.ToDiagnosticString(this);
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public void WriteTo(pb::CodedOutputStream output) {
         #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           output.WriteRawMessage(this);
@@ -487,6 +521,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
         #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
           if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
             output.WriteRawTag(8);
@@ -504,6 +539,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         #endif
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public int CalculateSize() {
           int size = 0;
           if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
@@ -520,6 +556,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public void MergeFrom(Day other) {
           if (other == null) {
             return;
@@ -535,6 +572,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public void MergeFrom(pb::CodedInputStream input) {
         #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           input.ReadRawMessage(this);
@@ -564,6 +602,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
         #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
@@ -591,6 +630,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         #region Nested types
         /// <summary>Container for nested types declared in the Day message type.</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static partial class Types {
           /// <summary>
           /// The time period in which the opening mode will be valid
@@ -603,19 +643,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             private static readonly pb::MessageParser<Slot> _parser = new pb::MessageParser<Slot>(() => new Slot());
             private pb::UnknownFieldSet _unknownFields;
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public static pb::MessageParser<Slot> Parser { get { return _parser; } }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public static pbr::MessageDescriptor Descriptor {
               get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Types.Day.Descriptor.NestedTypes[0]; }
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             pbr::MessageDescriptor pb::IMessage.Descriptor {
               get { return Descriptor; }
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public Slot() {
               OnConstruction();
             }
@@ -623,6 +667,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             partial void OnConstruction();
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public Slot(Slot other) : this() {
               openingMode_ = other.openingMode_;
               startTime_ = other.startTime_ != null ? other.startTime_.Clone() : null;
@@ -631,6 +676,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public Slot Clone() {
               return new Slot(this);
             }
@@ -642,6 +688,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             /// The opening mode to be applied.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public global::Saltoapis.Nebula.Type.OpeningMode OpeningMode {
               get { return openingMode_; }
               set {
@@ -656,6 +703,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             /// Start time of day when schedule starts being valid.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public global::Saltoapis.Type.TimeOfDay StartTime {
               get { return startTime_; }
               set {
@@ -670,6 +718,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             /// End time of day when schedule ends being valid.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public global::Saltoapis.Type.TimeOfDay EndTime {
               get { return endTime_; }
               set {
@@ -678,11 +727,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public override bool Equals(object other) {
               return Equals(other as Slot);
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public bool Equals(Slot other) {
               if (ReferenceEquals(other, null)) {
                 return false;
@@ -697,6 +748,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public override int GetHashCode() {
               int hash = 1;
               if (OpeningMode != global::Saltoapis.Nebula.Type.OpeningMode.Unspecified) hash ^= OpeningMode.GetHashCode();
@@ -709,11 +761,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public override string ToString() {
               return pb::JsonFormatter.ToDiagnosticString(this);
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public void WriteTo(pb::CodedOutputStream output) {
             #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
               output.WriteRawMessage(this);
@@ -738,6 +792,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
             #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
               if (OpeningMode != global::Saltoapis.Nebula.Type.OpeningMode.Unspecified) {
                 output.WriteRawTag(8);
@@ -758,6 +813,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             #endif
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public int CalculateSize() {
               int size = 0;
               if (OpeningMode != global::Saltoapis.Nebula.Type.OpeningMode.Unspecified) {
@@ -776,6 +832,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public void MergeFrom(Slot other) {
               if (other == null) {
                 return;
@@ -799,6 +856,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public void MergeFrom(pb::CodedInputStream input) {
             #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
               input.ReadRawMessage(this);
@@ -834,6 +892,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
             #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
               uint tag;
               while ((tag = input.ReadTag()) != 0) {
@@ -887,19 +946,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     private static readonly pb::MessageParser<CreateOpeningModeScheduleRequest> _parser = new pb::MessageParser<CreateOpeningModeScheduleRequest>(() => new CreateOpeningModeScheduleRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CreateOpeningModeScheduleRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CreateOpeningModeScheduleRequest() {
       OnConstruction();
     }
@@ -907,6 +970,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CreateOpeningModeScheduleRequest(CreateOpeningModeScheduleRequest other) : this() {
       parent_ = other.parent_;
       openingModeScheduleId_ = other.openingModeScheduleId_;
@@ -915,6 +979,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CreateOpeningModeScheduleRequest Clone() {
       return new CreateOpeningModeScheduleRequest(this);
     }
@@ -927,6 +992,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// schedule. For example: `installations/surelock-homes-hq`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Parent {
       get { return parent_; }
       set {
@@ -942,6 +1008,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// case it's empty the server will autogenerate a unique identifier.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string OpeningModeScheduleId {
       get { return openingModeScheduleId_; }
       set {
@@ -957,6 +1024,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// `OpeningModeSchedule.name` field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule OpeningModeSchedule {
       get { return openingModeSchedule_; }
       set {
@@ -965,11 +1033,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as CreateOpeningModeScheduleRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(CreateOpeningModeScheduleRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -984,6 +1054,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Parent.Length != 0) hash ^= Parent.GetHashCode();
@@ -996,11 +1067,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -1025,6 +1098,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Parent.Length != 0) {
         output.WriteRawTag(10);
@@ -1045,6 +1119,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Parent.Length != 0) {
@@ -1063,6 +1138,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(CreateOpeningModeScheduleRequest other) {
       if (other == null) {
         return;
@@ -1083,6 +1159,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -1115,6 +1192,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -1155,19 +1233,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     private static readonly pb::MessageParser<GetOpeningModeScheduleRequest> _parser = new pb::MessageParser<GetOpeningModeScheduleRequest>(() => new GetOpeningModeScheduleRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<GetOpeningModeScheduleRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetOpeningModeScheduleRequest() {
       OnConstruction();
     }
@@ -1175,12 +1257,14 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetOpeningModeScheduleRequest(GetOpeningModeScheduleRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetOpeningModeScheduleRequest Clone() {
       return new GetOpeningModeScheduleRequest(this);
     }
@@ -1193,6 +1277,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// `installations/surelock-homes-hq/opening-mode-schedules/office-24-7`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
       get { return name_; }
       set {
@@ -1201,11 +1286,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as GetOpeningModeScheduleRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(GetOpeningModeScheduleRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1218,6 +1305,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
@@ -1228,11 +1316,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -1249,6 +1339,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Name.Length != 0) {
         output.WriteRawTag(10);
@@ -1261,6 +1352,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Name.Length != 0) {
@@ -1273,6 +1365,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(GetOpeningModeScheduleRequest other) {
       if (other == null) {
         return;
@@ -1284,6 +1377,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -1305,6 +1399,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -1334,19 +1429,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     private static readonly pb::MessageParser<ListOpeningModeSchedulesRequest> _parser = new pb::MessageParser<ListOpeningModeSchedulesRequest>(() => new ListOpeningModeSchedulesRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ListOpeningModeSchedulesRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListOpeningModeSchedulesRequest() {
       OnConstruction();
     }
@@ -1354,6 +1453,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListOpeningModeSchedulesRequest(ListOpeningModeSchedulesRequest other) : this() {
       parent_ = other.parent_;
       pageSize_ = other.pageSize_;
@@ -1364,6 +1464,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListOpeningModeSchedulesRequest Clone() {
       return new ListOpeningModeSchedulesRequest(this);
     }
@@ -1375,6 +1476,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// The parent resource name. For example: `installations/surelock-homes-hq`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Parent {
       get { return parent_; }
       set {
@@ -1389,6 +1491,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// The maximum number of items to return.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int PageSize {
       get { return pageSize_; }
       set {
@@ -1404,6 +1507,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// any.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PageToken {
       get { return pageToken_; }
       set {
@@ -1419,6 +1523,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// length of the filter is 20000 characters.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Filter {
       get { return filter_; }
       set {
@@ -1433,6 +1538,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// How the results should be sorted.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string OrderBy {
       get { return orderBy_; }
       set {
@@ -1441,11 +1547,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ListOpeningModeSchedulesRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ListOpeningModeSchedulesRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1462,6 +1570,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Parent.Length != 0) hash ^= Parent.GetHashCode();
@@ -1476,11 +1585,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -1513,6 +1624,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Parent.Length != 0) {
         output.WriteRawTag(10);
@@ -1541,6 +1653,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Parent.Length != 0) {
@@ -1565,6 +1678,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ListOpeningModeSchedulesRequest other) {
       if (other == null) {
         return;
@@ -1588,6 +1702,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -1625,6 +1740,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -1670,19 +1786,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     private static readonly pb::MessageParser<ListOpeningModeSchedulesResponse> _parser = new pb::MessageParser<ListOpeningModeSchedulesResponse>(() => new ListOpeningModeSchedulesResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ListOpeningModeSchedulesResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListOpeningModeSchedulesResponse() {
       OnConstruction();
     }
@@ -1690,6 +1810,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListOpeningModeSchedulesResponse(ListOpeningModeSchedulesResponse other) : this() {
       openingModeSchedules_ = other.openingModeSchedules_.Clone();
       nextPageToken_ = other.nextPageToken_;
@@ -1697,6 +1818,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListOpeningModeSchedulesResponse Clone() {
       return new ListOpeningModeSchedulesResponse(this);
     }
@@ -1712,6 +1834,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// field in the request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> OpeningModeSchedules {
       get { return openingModeSchedules_; }
     }
@@ -1724,6 +1847,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// results in the list.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string NextPageToken {
       get { return nextPageToken_; }
       set {
@@ -1732,11 +1856,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as ListOpeningModeSchedulesResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ListOpeningModeSchedulesResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1750,6 +1876,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       hash ^= openingModeSchedules_.GetHashCode();
@@ -1761,11 +1888,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -1783,6 +1912,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       openingModeSchedules_.WriteTo(ref output, _repeated_openingModeSchedules_codec);
       if (NextPageToken.Length != 0) {
@@ -1796,6 +1926,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       size += openingModeSchedules_.CalculateSize(_repeated_openingModeSchedules_codec);
@@ -1809,6 +1940,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ListOpeningModeSchedulesResponse other) {
       if (other == null) {
         return;
@@ -1821,6 +1953,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -1846,6 +1979,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -1879,19 +2013,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     private static readonly pb::MessageParser<UpdateOpeningModeScheduleRequest> _parser = new pb::MessageParser<UpdateOpeningModeScheduleRequest>(() => new UpdateOpeningModeScheduleRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<UpdateOpeningModeScheduleRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UpdateOpeningModeScheduleRequest() {
       OnConstruction();
     }
@@ -1899,6 +2037,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UpdateOpeningModeScheduleRequest(UpdateOpeningModeScheduleRequest other) : this() {
       openingModeSchedule_ = other.openingModeSchedule_ != null ? other.openingModeSchedule_.Clone() : null;
       updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
@@ -1906,6 +2045,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UpdateOpeningModeScheduleRequest Clone() {
       return new UpdateOpeningModeScheduleRequest(this);
     }
@@ -1917,6 +2057,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// The opening mode schedule resource which replaces the resource on the server.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule OpeningModeSchedule {
       get { return openingModeSchedule_; }
       set {
@@ -1931,6 +2072,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// The update mask applied to the resource.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
       get { return updateMask_; }
       set {
@@ -1939,11 +2081,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as UpdateOpeningModeScheduleRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(UpdateOpeningModeScheduleRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -1957,6 +2101,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (openingModeSchedule_ != null) hash ^= OpeningModeSchedule.GetHashCode();
@@ -1968,11 +2113,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -1993,6 +2140,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (openingModeSchedule_ != null) {
         output.WriteRawTag(10);
@@ -2009,6 +2157,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (openingModeSchedule_ != null) {
@@ -2024,6 +2173,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(UpdateOpeningModeScheduleRequest other) {
       if (other == null) {
         return;
@@ -2044,6 +2194,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -2075,6 +2226,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
@@ -2114,19 +2266,23 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     private static readonly pb::MessageParser<DeleteOpeningModeScheduleRequest> _parser = new pb::MessageParser<DeleteOpeningModeScheduleRequest>(() => new DeleteOpeningModeScheduleRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<DeleteOpeningModeScheduleRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
       get { return global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeScheduleReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     pbr::MessageDescriptor pb::IMessage.Descriptor {
       get { return Descriptor; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DeleteOpeningModeScheduleRequest() {
       OnConstruction();
     }
@@ -2134,12 +2290,14 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DeleteOpeningModeScheduleRequest(DeleteOpeningModeScheduleRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DeleteOpeningModeScheduleRequest Clone() {
       return new DeleteOpeningModeScheduleRequest(this);
     }
@@ -2152,6 +2310,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     /// `installations/surelock-homes-hq/opening-mode-schedules/office-24-7`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
       get { return name_; }
       set {
@@ -2160,11 +2319,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
       return Equals(other as DeleteOpeningModeScheduleRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(DeleteOpeningModeScheduleRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
@@ -2177,6 +2338,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
@@ -2187,11 +2349,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override string ToString() {
       return pb::JsonFormatter.ToDiagnosticString(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void WriteTo(pb::CodedOutputStream output) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
@@ -2208,6 +2372,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (Name.Length != 0) {
         output.WriteRawTag(10);
@@ -2220,6 +2385,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     #endif
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
       if (Name.Length != 0) {
@@ -2232,6 +2398,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(DeleteOpeningModeScheduleRequest other) {
       if (other == null) {
         return;
@@ -2243,6 +2410,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(pb::CodedInputStream input) {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       input.ReadRawMessage(this);
@@ -2264,6 +2432,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
 
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
