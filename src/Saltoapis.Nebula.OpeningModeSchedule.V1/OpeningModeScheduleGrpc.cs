@@ -18,6 +18,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService";
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -32,11 +33,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static class __Helper_MessageCache<T>
     {
       public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -48,15 +51,24 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       return parser.ParseFrom(context.PayloadAsNewBuffer());
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_CreateOpeningModeScheduleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_GetOpeningModeScheduleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse> __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_UpdateOpeningModeScheduleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest> __Marshaller_salto_nebula_openingmodeschedule_v1_DeleteOpeningModeScheduleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Method_CreateOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -64,6 +76,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         __Marshaller_salto_nebula_openingmodeschedule_v1_CreateOpeningModeScheduleRequest,
         __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Method_GetOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -71,6 +84,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         __Marshaller_salto_nebula_openingmodeschedule_v1_GetOpeningModeScheduleRequest,
         __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse> __Method_ListOpeningModeSchedules = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -78,6 +92,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesRequest,
         __Marshaller_salto_nebula_openingmodeschedule_v1_ListOpeningModeSchedulesResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> __Method_UpdateOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest, global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -85,6 +100,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
         __Marshaller_salto_nebula_openingmodeschedule_v1_UpdateOpeningModeScheduleRequest,
         __Marshaller_salto_nebula_openingmodeschedule_v1_OpeningModeSchedule);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteOpeningModeSchedule = new grpc::Method<global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -103,20 +119,24 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
     {
       /// <summary>Creates a new client for OpeningModeScheduleService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public OpeningModeScheduleServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for OpeningModeScheduleService that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public OpeningModeScheduleServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected OpeningModeScheduleServiceClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected OpeningModeScheduleServiceClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
@@ -131,6 +151,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule CreateOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateOpeningModeSchedule(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -143,6 +164,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule CreateOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreateOpeningModeSchedule, null, options, request);
@@ -157,6 +179,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> CreateOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateOpeningModeScheduleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -169,6 +192,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> CreateOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.CreateOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateOpeningModeSchedule, null, options, request);
@@ -183,6 +207,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule GetOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetOpeningModeSchedule(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -195,6 +220,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule GetOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetOpeningModeSchedule, null, options, request);
@@ -209,6 +235,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> GetOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetOpeningModeScheduleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -221,6 +248,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> GetOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.GetOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetOpeningModeSchedule, null, options, request);
@@ -236,6 +264,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse ListOpeningModeSchedules(global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListOpeningModeSchedules(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -249,6 +278,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse ListOpeningModeSchedules(global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ListOpeningModeSchedules, null, options, request);
@@ -264,6 +294,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse> ListOpeningModeSchedulesAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListOpeningModeSchedulesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -277,6 +308,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesResponse> ListOpeningModeSchedulesAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.ListOpeningModeSchedulesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListOpeningModeSchedules, null, options, request);
@@ -291,6 +323,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule UpdateOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateOpeningModeSchedule(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -303,6 +336,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule UpdateOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateOpeningModeSchedule, null, options, request);
@@ -317,6 +351,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> UpdateOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateOpeningModeScheduleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -329,6 +364,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.OpeningModeSchedule.V1.OpeningModeSchedule> UpdateOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.UpdateOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateOpeningModeSchedule, null, options, request);
@@ -343,6 +379,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteOpeningModeSchedule(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -355,6 +392,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteOpeningModeSchedule(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteOpeningModeSchedule, null, options, request);
@@ -369,6 +407,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteOpeningModeScheduleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -381,11 +420,13 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOpeningModeScheduleAsync(global::Saltoapis.Nebula.OpeningModeSchedule.V1.DeleteOpeningModeScheduleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteOpeningModeSchedule, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override OpeningModeScheduleServiceClient NewInstance(ClientBaseConfiguration configuration)
       {
         return new OpeningModeScheduleServiceClient(configuration);

@@ -17,6 +17,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.installation.v1.InstallationService";
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -31,11 +32,13 @@ namespace Saltoapis.Nebula.Installation.V1 {
       context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static class __Helper_MessageCache<T>
     {
       public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -47,24 +50,42 @@ namespace Saltoapis.Nebula.Installation.V1 {
       return parser.ParseFrom(context.PayloadAsNewBuffer());
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest> __Marshaller_salto_nebula_installation_v1_CreateInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.Installation> __Marshaller_salto_nebula_installation_v1_Installation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.Installation.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest> __Marshaller_salto_nebula_installation_v1_GetInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest> __Marshaller_salto_nebula_installation_v1_ListInstallationsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse> __Marshaller_salto_nebula_installation_v1_ListInstallationsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest> __Marshaller_salto_nebula_installation_v1_UpdateInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest> __Marshaller_salto_nebula_installation_v1_DeleteInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest> __Marshaller_salto_nebula_installation_v1_CreatePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.Policy> __Marshaller_salto_nebula_installation_v1_Policy = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.Policy.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest> __Marshaller_salto_nebula_installation_v1_GetPolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest> __Marshaller_salto_nebula_installation_v1_ListPoliciesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse> __Marshaller_salto_nebula_installation_v1_ListPoliciesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest> __Marshaller_salto_nebula_installation_v1_UpdatePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest> __Marshaller_salto_nebula_installation_v1_DeletePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest> __Marshaller_salto_nebula_installation_v1_TestPermissionsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse> __Marshaller_salto_nebula_installation_v1_TestPermissionsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse.Parser));
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_CreateInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -72,6 +93,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_CreateInstallationRequest,
         __Marshaller_salto_nebula_installation_v1_Installation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_GetInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -79,6 +101,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_GetInstallationRequest,
         __Marshaller_salto_nebula_installation_v1_Installation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest, global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse> __Method_ListInstallations = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest, global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -86,6 +109,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_ListInstallationsRequest,
         __Marshaller_salto_nebula_installation_v1_ListInstallationsResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_UpdateInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -93,6 +117,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_UpdateInstallationRequest,
         __Marshaller_salto_nebula_installation_v1_Installation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -100,6 +125,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_DeleteInstallationRequest,
         __Marshaller_google_protobuf_Empty);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest, global::Saltoapis.Nebula.Installation.V1.Policy> __Method_CreatePolicy = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest, global::Saltoapis.Nebula.Installation.V1.Policy>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -107,6 +133,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_CreatePolicyRequest,
         __Marshaller_salto_nebula_installation_v1_Policy);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest, global::Saltoapis.Nebula.Installation.V1.Policy> __Method_GetPolicy = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest, global::Saltoapis.Nebula.Installation.V1.Policy>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -114,6 +141,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_GetPolicyRequest,
         __Marshaller_salto_nebula_installation_v1_Policy);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest, global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse> __Method_ListPolicies = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest, global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -121,6 +149,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_ListPoliciesRequest,
         __Marshaller_salto_nebula_installation_v1_ListPoliciesResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest, global::Saltoapis.Nebula.Installation.V1.Policy> __Method_UpdatePolicy = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest, global::Saltoapis.Nebula.Installation.V1.Policy>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -128,6 +157,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_UpdatePolicyRequest,
         __Marshaller_salto_nebula_installation_v1_Policy);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeletePolicy = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -135,6 +165,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         __Marshaller_salto_nebula_installation_v1_DeletePolicyRequest,
         __Marshaller_google_protobuf_Empty);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest, global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse> __Method_TestPermissions = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest, global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -153,20 +184,24 @@ namespace Saltoapis.Nebula.Installation.V1 {
     {
       /// <summary>Creates a new client for InstallationService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public InstallationServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for InstallationService that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public InstallationServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected InstallationServiceClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected InstallationServiceClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
@@ -181,6 +216,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Installation CreateInstallation(global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateInstallation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -193,6 +229,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Installation CreateInstallation(global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreateInstallation, null, options, request);
@@ -207,6 +244,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Installation> CreateInstallationAsync(global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateInstallationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -219,6 +257,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Installation> CreateInstallationAsync(global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateInstallation, null, options, request);
@@ -233,6 +272,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Installation GetInstallation(global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetInstallation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -245,6 +285,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Installation GetInstallation(global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetInstallation, null, options, request);
@@ -259,6 +300,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Installation> GetInstallationAsync(global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetInstallationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -271,6 +313,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Installation> GetInstallationAsync(global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetInstallation, null, options, request);
@@ -285,6 +328,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse ListInstallations(global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListInstallations(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -297,6 +341,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse ListInstallations(global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ListInstallations, null, options, request);
@@ -311,6 +356,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse> ListInstallationsAsync(global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListInstallationsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -323,6 +369,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse> ListInstallationsAsync(global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListInstallations, null, options, request);
@@ -337,6 +384,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Installation UpdateInstallation(global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateInstallation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -349,6 +397,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Installation UpdateInstallation(global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateInstallation, null, options, request);
@@ -363,6 +412,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Installation> UpdateInstallationAsync(global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateInstallationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -375,6 +425,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Installation> UpdateInstallationAsync(global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateInstallation, null, options, request);
@@ -389,6 +440,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteInstallation(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteInstallation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -401,6 +453,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteInstallation(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteInstallation, null, options, request);
@@ -415,6 +468,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteInstallationAsync(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteInstallationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -427,6 +481,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteInstallationAsync(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteInstallation, null, options, request);
@@ -443,6 +498,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Policy CreatePolicy(global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreatePolicy(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -457,6 +513,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Policy CreatePolicy(global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreatePolicy, null, options, request);
@@ -473,6 +530,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Policy> CreatePolicyAsync(global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreatePolicyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -487,6 +545,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Policy> CreatePolicyAsync(global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreatePolicy, null, options, request);
@@ -501,6 +560,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Policy GetPolicy(global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetPolicy(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -513,6 +573,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Policy GetPolicy(global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetPolicy, null, options, request);
@@ -527,6 +588,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Policy> GetPolicyAsync(global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetPolicyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -539,6 +601,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Policy> GetPolicyAsync(global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetPolicy, null, options, request);
@@ -553,6 +616,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse ListPolicies(global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListPolicies(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -565,6 +629,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse ListPolicies(global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ListPolicies, null, options, request);
@@ -579,6 +644,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse> ListPoliciesAsync(global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListPoliciesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -591,6 +657,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.ListPoliciesResponse> ListPoliciesAsync(global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListPolicies, null, options, request);
@@ -605,6 +672,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Policy UpdatePolicy(global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdatePolicy(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -617,6 +685,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.Policy UpdatePolicy(global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdatePolicy, null, options, request);
@@ -631,6 +700,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Policy> UpdatePolicyAsync(global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdatePolicyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -643,6 +713,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Policy> UpdatePolicyAsync(global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdatePolicy, null, options, request);
@@ -657,6 +728,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeletePolicy(global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeletePolicy(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -669,6 +741,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeletePolicy(global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeletePolicy, null, options, request);
@@ -683,6 +756,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeletePolicyAsync(global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeletePolicyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -695,6 +769,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeletePolicyAsync(global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeletePolicy, null, options, request);
@@ -711,6 +786,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse TestPermissions(global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return TestPermissions(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -725,6 +801,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse TestPermissions(global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_TestPermissions, null, options, request);
@@ -741,6 +818,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse> TestPermissionsAsync(global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return TestPermissionsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -755,11 +833,13 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse> TestPermissionsAsync(global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_TestPermissions, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override InstallationServiceClient NewInstance(ClientBaseConfiguration configuration)
       {
         return new InstallationServiceClient(configuration);

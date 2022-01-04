@@ -17,6 +17,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.gateway.v1.GatewayService";
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -31,11 +32,13 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static class __Helper_MessageCache<T>
     {
       public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -47,20 +50,34 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       return parser.ParseFrom(context.PayloadAsNewBuffer());
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest> __Marshaller_salto_nebula_gateway_v1_CreateGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.Gateway> __Marshaller_salto_nebula_gateway_v1_Gateway = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.Gateway.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest> __Marshaller_salto_nebula_gateway_v1_GetGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest> __Marshaller_salto_nebula_gateway_v1_ListGatewaysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse> __Marshaller_salto_nebula_gateway_v1_ListGatewaysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest> __Marshaller_salto_nebula_gateway_v1_UpdateGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest> __Marshaller_salto_nebula_gateway_v1_DeleteGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest> __Marshaller_salto_nebula_gateway_v1_InitializeGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest> __Marshaller_salto_nebula_gateway_v1_ConfigureGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest> __Marshaller_salto_nebula_gateway_v1_ResetGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest> __Marshaller_salto_nebula_gateway_v1_UpdateGatewayFirmwareRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest.Parser));
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway> __Method_CreateGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -68,6 +85,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         __Marshaller_salto_nebula_gateway_v1_CreateGatewayRequest,
         __Marshaller_salto_nebula_gateway_v1_Gateway);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway> __Method_GetGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -75,6 +93,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         __Marshaller_salto_nebula_gateway_v1_GetGatewayRequest,
         __Marshaller_salto_nebula_gateway_v1_Gateway);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest, global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse> __Method_ListGateways = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest, global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -82,6 +101,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         __Marshaller_salto_nebula_gateway_v1_ListGatewaysRequest,
         __Marshaller_salto_nebula_gateway_v1_ListGatewaysResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway> __Method_UpdateGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -89,6 +109,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         __Marshaller_salto_nebula_gateway_v1_UpdateGatewayRequest,
         __Marshaller_salto_nebula_gateway_v1_Gateway);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -96,6 +117,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         __Marshaller_salto_nebula_gateway_v1_DeleteGatewayRequest,
         __Marshaller_google_protobuf_Empty);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_InitializeGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -103,6 +125,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         __Marshaller_salto_nebula_gateway_v1_InitializeGatewayRequest,
         __Marshaller_salto_longrunning_v1_Operation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_ConfigureGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -110,6 +133,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         __Marshaller_salto_nebula_gateway_v1_ConfigureGatewayRequest,
         __Marshaller_salto_longrunning_v1_Operation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_ResetGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -117,6 +141,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         __Marshaller_salto_nebula_gateway_v1_ResetGatewayRequest,
         __Marshaller_salto_longrunning_v1_Operation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_UpdateGatewayFirmware = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -135,20 +160,24 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     {
       /// <summary>Creates a new client for GatewayService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public GatewayServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for GatewayService that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public GatewayServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected GatewayServiceClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected GatewayServiceClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
@@ -163,6 +192,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Gateway.V1.Gateway CreateGateway(global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -175,6 +205,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Gateway.V1.Gateway CreateGateway(global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreateGateway, null, options, request);
@@ -189,6 +220,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.Gateway> CreateGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -201,6 +233,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.Gateway> CreateGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateGateway, null, options, request);
@@ -215,6 +248,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Gateway.V1.Gateway GetGateway(global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -227,6 +261,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Gateway.V1.Gateway GetGateway(global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetGateway, null, options, request);
@@ -241,6 +276,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.Gateway> GetGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -253,6 +289,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.Gateway> GetGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetGateway, null, options, request);
@@ -267,6 +304,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse ListGateways(global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListGateways(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -279,6 +317,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse ListGateways(global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ListGateways, null, options, request);
@@ -293,6 +332,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse> ListGatewaysAsync(global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListGatewaysAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -305,6 +345,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.ListGatewaysResponse> ListGatewaysAsync(global::Saltoapis.Nebula.Gateway.V1.ListGatewaysRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListGateways, null, options, request);
@@ -319,6 +360,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Gateway.V1.Gateway UpdateGateway(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -331,6 +373,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Gateway.V1.Gateway UpdateGateway(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateGateway, null, options, request);
@@ -345,6 +388,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.Gateway> UpdateGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -357,6 +401,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.Gateway> UpdateGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateGateway, null, options, request);
@@ -371,6 +416,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteGateway(global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -383,6 +429,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteGateway(global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteGateway, null, options, request);
@@ -397,6 +444,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -409,6 +457,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteGateway, null, options, request);
@@ -424,6 +473,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation InitializeGateway(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -437,6 +487,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation InitializeGateway(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_InitializeGateway, null, options, request);
@@ -452,6 +503,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> InitializeGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -465,6 +517,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> InitializeGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_InitializeGateway, null, options, request);
@@ -480,6 +533,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation ConfigureGateway(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ConfigureGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -493,6 +547,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation ConfigureGateway(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ConfigureGateway, null, options, request);
@@ -508,6 +563,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ConfigureGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ConfigureGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -521,6 +577,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ConfigureGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.ConfigureGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ConfigureGateway, null, options, request);
@@ -538,6 +595,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation ResetGateway(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ResetGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -553,6 +611,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation ResetGateway(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ResetGateway, null, options, request);
@@ -570,6 +629,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ResetGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -585,6 +645,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ResetGateway, null, options, request);
@@ -600,6 +661,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation UpdateGatewayFirmware(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateGatewayFirmware(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -613,6 +675,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation UpdateGatewayFirmware(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateGatewayFirmware, null, options, request);
@@ -628,6 +691,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateGatewayFirmwareAsync(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateGatewayFirmwareAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -641,11 +705,13 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateGatewayFirmwareAsync(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateGatewayFirmware, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override GatewayServiceClient NewInstance(ClientBaseConfiguration configuration)
       {
         return new GatewayServiceClient(configuration);
