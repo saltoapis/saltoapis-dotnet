@@ -19,6 +19,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.iam.v1.IAMService";
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -33,11 +34,13 @@ namespace Saltoapis.Nebula.Iam.V1 {
       context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static class __Helper_MessageCache<T>
     {
       public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -49,15 +52,24 @@ namespace Saltoapis.Nebula.Iam.V1 {
       return parser.ParseFrom(context.PayloadAsNewBuffer());
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest> __Marshaller_salto_nebula_iam_v1_CreateRoleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.Role> __Marshaller_salto_nebula_iam_v1_Role = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.Role.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.GetRoleRequest> __Marshaller_salto_nebula_iam_v1_GetRoleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.GetRoleRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.ListRolesRequest> __Marshaller_salto_nebula_iam_v1_ListRolesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.ListRolesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.ListRolesResponse> __Marshaller_salto_nebula_iam_v1_ListRolesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.ListRolesResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest> __Marshaller_salto_nebula_iam_v1_UpdateRoleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest> __Marshaller_salto_nebula_iam_v1_DeleteRoleRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role> __Method_CreateRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -65,6 +77,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
         __Marshaller_salto_nebula_iam_v1_CreateRoleRequest,
         __Marshaller_salto_nebula_iam_v1_Role);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.GetRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role> __Method_GetRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.GetRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -72,6 +85,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
         __Marshaller_salto_nebula_iam_v1_GetRoleRequest,
         __Marshaller_salto_nebula_iam_v1_Role);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.ListRolesRequest, global::Saltoapis.Nebula.Iam.V1.ListRolesResponse> __Method_ListRoles = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.ListRolesRequest, global::Saltoapis.Nebula.Iam.V1.ListRolesResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -79,6 +93,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
         __Marshaller_salto_nebula_iam_v1_ListRolesRequest,
         __Marshaller_salto_nebula_iam_v1_ListRolesResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role> __Method_UpdateRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest, global::Saltoapis.Nebula.Iam.V1.Role>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -86,6 +101,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
         __Marshaller_salto_nebula_iam_v1_UpdateRoleRequest,
         __Marshaller_salto_nebula_iam_v1_Role);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteRole = new grpc::Method<global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -104,20 +120,24 @@ namespace Saltoapis.Nebula.Iam.V1 {
     {
       /// <summary>Creates a new client for IAMService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public IAMServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for IAMService that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public IAMServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected IAMServiceClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected IAMServiceClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
@@ -132,6 +152,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Iam.V1.Role CreateRole(global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateRole(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -144,6 +165,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Iam.V1.Role CreateRole(global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreateRole, null, options, request);
@@ -158,6 +180,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.Role> CreateRoleAsync(global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateRoleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -170,6 +193,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.Role> CreateRoleAsync(global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateRole, null, options, request);
@@ -184,6 +208,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Iam.V1.Role GetRole(global::Saltoapis.Nebula.Iam.V1.GetRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetRole(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -196,6 +221,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Iam.V1.Role GetRole(global::Saltoapis.Nebula.Iam.V1.GetRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetRole, null, options, request);
@@ -210,6 +236,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.Role> GetRoleAsync(global::Saltoapis.Nebula.Iam.V1.GetRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetRoleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -222,6 +249,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.Role> GetRoleAsync(global::Saltoapis.Nebula.Iam.V1.GetRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetRole, null, options, request);
@@ -236,6 +264,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Iam.V1.ListRolesResponse ListRoles(global::Saltoapis.Nebula.Iam.V1.ListRolesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListRoles(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -248,6 +277,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Iam.V1.ListRolesResponse ListRoles(global::Saltoapis.Nebula.Iam.V1.ListRolesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ListRoles, null, options, request);
@@ -262,6 +292,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.ListRolesResponse> ListRolesAsync(global::Saltoapis.Nebula.Iam.V1.ListRolesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListRolesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -274,6 +305,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.ListRolesResponse> ListRolesAsync(global::Saltoapis.Nebula.Iam.V1.ListRolesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListRoles, null, options, request);
@@ -288,6 +320,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Iam.V1.Role UpdateRole(global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateRole(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -300,6 +333,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Iam.V1.Role UpdateRole(global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateRole, null, options, request);
@@ -314,6 +348,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.Role> UpdateRoleAsync(global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateRoleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -326,6 +361,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Iam.V1.Role> UpdateRoleAsync(global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateRole, null, options, request);
@@ -340,6 +376,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteRole(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteRole(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -352,6 +389,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteRole(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteRole, null, options, request);
@@ -366,6 +404,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteRoleAsync(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteRoleAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -378,11 +417,13 @@ namespace Saltoapis.Nebula.Iam.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteRoleAsync(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteRole, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override IAMServiceClient NewInstance(ClientBaseConfiguration configuration)
       {
         return new IAMServiceClient(configuration);

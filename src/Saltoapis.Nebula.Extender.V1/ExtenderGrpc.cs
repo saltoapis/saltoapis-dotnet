@@ -17,6 +17,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.extender.v1.ExtenderService";
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -31,11 +32,13 @@ namespace Saltoapis.Nebula.Extender.V1 {
       context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static class __Helper_MessageCache<T>
     {
       public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -47,17 +50,28 @@ namespace Saltoapis.Nebula.Extender.V1 {
       return parser.ParseFrom(context.PayloadAsNewBuffer());
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest> __Marshaller_salto_nebula_extender_v1_CreateExtenderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.Extender> __Marshaller_salto_nebula_extender_v1_Extender = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.Extender.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest> __Marshaller_salto_nebula_extender_v1_GetExtenderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest> __Marshaller_salto_nebula_extender_v1_ListExtendersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse> __Marshaller_salto_nebula_extender_v1_ListExtendersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest> __Marshaller_salto_nebula_extender_v1_UpdateExtenderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest> __Marshaller_salto_nebula_extender_v1_DeleteExtenderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest> __Marshaller_salto_nebula_extender_v1_UpdateExtenderFirmwareRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender> __Method_CreateExtender = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -65,6 +79,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
         __Marshaller_salto_nebula_extender_v1_CreateExtenderRequest,
         __Marshaller_salto_nebula_extender_v1_Extender);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender> __Method_GetExtender = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -72,6 +87,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
         __Marshaller_salto_nebula_extender_v1_GetExtenderRequest,
         __Marshaller_salto_nebula_extender_v1_Extender);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest, global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse> __Method_ListExtenders = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest, global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -79,6 +95,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
         __Marshaller_salto_nebula_extender_v1_ListExtendersRequest,
         __Marshaller_salto_nebula_extender_v1_ListExtendersResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender> __Method_UpdateExtender = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest, global::Saltoapis.Nebula.Extender.V1.Extender>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -86,6 +103,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
         __Marshaller_salto_nebula_extender_v1_UpdateExtenderRequest,
         __Marshaller_salto_nebula_extender_v1_Extender);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteExtender = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -93,6 +111,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
         __Marshaller_salto_nebula_extender_v1_DeleteExtenderRequest,
         __Marshaller_google_protobuf_Empty);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_UpdateExtenderFirmware = new grpc::Method<global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -111,20 +130,24 @@ namespace Saltoapis.Nebula.Extender.V1 {
     {
       /// <summary>Creates a new client for ExtenderService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public ExtenderServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for ExtenderService that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public ExtenderServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected ExtenderServiceClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected ExtenderServiceClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
@@ -139,6 +162,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Extender.V1.Extender CreateExtender(global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateExtender(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -151,6 +175,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Extender.V1.Extender CreateExtender(global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreateExtender, null, options, request);
@@ -165,6 +190,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.Extender> CreateExtenderAsync(global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateExtenderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -177,6 +203,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.Extender> CreateExtenderAsync(global::Saltoapis.Nebula.Extender.V1.CreateExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateExtender, null, options, request);
@@ -191,6 +218,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Extender.V1.Extender GetExtender(global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetExtender(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -203,6 +231,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Extender.V1.Extender GetExtender(global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetExtender, null, options, request);
@@ -217,6 +246,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.Extender> GetExtenderAsync(global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetExtenderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -229,6 +259,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.Extender> GetExtenderAsync(global::Saltoapis.Nebula.Extender.V1.GetExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetExtender, null, options, request);
@@ -243,6 +274,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse ListExtenders(global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListExtenders(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -255,6 +287,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse ListExtenders(global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ListExtenders, null, options, request);
@@ -269,6 +302,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse> ListExtendersAsync(global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListExtendersAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -281,6 +315,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.ListExtendersResponse> ListExtendersAsync(global::Saltoapis.Nebula.Extender.V1.ListExtendersRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListExtenders, null, options, request);
@@ -295,6 +330,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Extender.V1.Extender UpdateExtender(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateExtender(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -307,6 +343,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.Extender.V1.Extender UpdateExtender(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateExtender, null, options, request);
@@ -321,6 +358,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.Extender> UpdateExtenderAsync(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateExtenderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -333,6 +371,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Extender.V1.Extender> UpdateExtenderAsync(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateExtender, null, options, request);
@@ -347,6 +386,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteExtender(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteExtender(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -359,6 +399,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteExtender(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteExtender, null, options, request);
@@ -373,6 +414,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteExtenderAsync(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteExtenderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -385,6 +427,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteExtenderAsync(global::Saltoapis.Nebula.Extender.V1.DeleteExtenderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteExtender, null, options, request);
@@ -400,6 +443,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation UpdateExtenderFirmware(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateExtenderFirmware(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -413,6 +457,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation UpdateExtenderFirmware(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateExtenderFirmware, null, options, request);
@@ -428,6 +473,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateExtenderFirmwareAsync(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateExtenderFirmwareAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -441,11 +487,13 @@ namespace Saltoapis.Nebula.Extender.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateExtenderFirmwareAsync(global::Saltoapis.Nebula.Extender.V1.UpdateExtenderFirmwareRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateExtenderFirmware, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override ExtenderServiceClient NewInstance(ClientBaseConfiguration configuration)
       {
         return new ExtenderServiceClient(configuration);

@@ -24,6 +24,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   {
     static readonly string __ServiceName = "salto.nebula.electroniclock.v1.ElectronicLockService";
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -38,11 +39,13 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static class __Helper_MessageCache<T>
     {
       public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
     {
       #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
@@ -54,20 +57,34 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       return parser.ParseFrom(context.PayloadAsNewBuffer());
     }
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_CreateElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> __Marshaller_salto_nebula_electroniclock_v1_ElectronicLock = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_GetElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest> __Marshaller_salto_nebula_electroniclock_v1_ListElectronicLocksRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse> __Marshaller_salto_nebula_electroniclock_v1_ListElectronicLocksResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_DeleteElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_InitializeElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_ConfigureElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_ResetElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest> __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockFirmwareRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest.Parser));
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> __Method_CreateElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -75,6 +92,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         __Marshaller_salto_nebula_electroniclock_v1_CreateElectronicLockRequest,
         __Marshaller_salto_nebula_electroniclock_v1_ElectronicLock);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> __Method_GetElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -82,6 +100,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         __Marshaller_salto_nebula_electroniclock_v1_GetElectronicLockRequest,
         __Marshaller_salto_nebula_electroniclock_v1_ElectronicLock);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse> __Method_ListElectronicLocks = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -89,6 +108,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         __Marshaller_salto_nebula_electroniclock_v1_ListElectronicLocksRequest,
         __Marshaller_salto_nebula_electroniclock_v1_ListElectronicLocksResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> __Method_UpdateElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -96,6 +116,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockRequest,
         __Marshaller_salto_nebula_electroniclock_v1_ElectronicLock);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -103,6 +124,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         __Marshaller_salto_nebula_electroniclock_v1_DeleteElectronicLockRequest,
         __Marshaller_google_protobuf_Empty);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_InitializeElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -110,6 +132,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         __Marshaller_salto_nebula_electroniclock_v1_InitializeElectronicLockRequest,
         __Marshaller_salto_longrunning_v1_Operation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_ConfigureElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -117,6 +140,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         __Marshaller_salto_nebula_electroniclock_v1_ConfigureElectronicLockRequest,
         __Marshaller_salto_longrunning_v1_Operation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_ResetElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -124,6 +148,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         __Marshaller_salto_nebula_electroniclock_v1_ResetElectronicLockRequest,
         __Marshaller_salto_longrunning_v1_Operation);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_UpdateElectronicLockFirmware = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -142,20 +167,24 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     {
       /// <summary>Creates a new client for ElectronicLockService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public ElectronicLockServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for ElectronicLockService that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public ElectronicLockServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected ElectronicLockServiceClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected ElectronicLockServiceClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
@@ -170,6 +199,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock CreateElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -182,6 +212,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock CreateElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreateElectronicLock, null, options, request);
@@ -196,6 +227,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> CreateElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -208,6 +240,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> CreateElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateElectronicLock, null, options, request);
@@ -222,6 +255,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock GetElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -234,6 +268,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock GetElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetElectronicLock, null, options, request);
@@ -248,6 +283,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> GetElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -260,6 +296,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> GetElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetElectronicLock, null, options, request);
@@ -274,6 +311,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse ListElectronicLocks(global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListElectronicLocks(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -286,6 +324,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse ListElectronicLocks(global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ListElectronicLocks, null, options, request);
@@ -300,6 +339,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse> ListElectronicLocksAsync(global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListElectronicLocksAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -312,6 +352,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksResponse> ListElectronicLocksAsync(global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListElectronicLocks, null, options, request);
@@ -326,6 +367,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock UpdateElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -338,6 +380,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock UpdateElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateElectronicLock, null, options, request);
@@ -352,6 +395,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> UpdateElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -364,6 +408,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> UpdateElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateElectronicLock, null, options, request);
@@ -378,6 +423,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -390,6 +436,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteElectronicLock, null, options, request);
@@ -404,6 +451,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -416,6 +464,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteElectronicLock, null, options, request);
@@ -431,6 +480,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation InitializeElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -444,6 +494,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation InitializeElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_InitializeElectronicLock, null, options, request);
@@ -459,6 +510,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> InitializeElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -472,6 +524,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> InitializeElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_InitializeElectronicLock, null, options, request);
@@ -488,6 +541,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation ConfigureElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ConfigureElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -502,6 +556,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation ConfigureElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ConfigureElectronicLock, null, options, request);
@@ -518,6 +573,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ConfigureElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ConfigureElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -532,6 +588,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ConfigureElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.ConfigureElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ConfigureElectronicLock, null, options, request);
@@ -549,6 +606,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation ResetElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ResetElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -564,6 +622,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation ResetElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ResetElectronicLock, null, options, request);
@@ -581,6 +640,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ResetElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -596,6 +656,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ResetElectronicLock, null, options, request);
@@ -611,6 +672,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation UpdateElectronicLockFirmware(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateElectronicLockFirmware(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -624,6 +686,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Saltoapis.Longrunning.V1.Operation UpdateElectronicLockFirmware(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateElectronicLockFirmware, null, options, request);
@@ -639,6 +702,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateElectronicLockFirmwareAsync(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UpdateElectronicLockFirmwareAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -652,11 +716,13 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateElectronicLockFirmwareAsync(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateElectronicLockFirmware, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override ElectronicLockServiceClient NewInstance(ClientBaseConfiguration configuration)
       {
         return new ElectronicLockServiceClient(configuration);
