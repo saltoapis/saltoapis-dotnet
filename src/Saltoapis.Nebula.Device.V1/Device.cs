@@ -26,31 +26,32 @@ namespace Saltoapis.Nebula.Device.V1 {
           string.Concat(
             "CiNzYWx0by9uZWJ1bGEvZGV2aWNlL3YxL2RldmljZS5wcm90bxIWc2FsdG8u",
             "bmVidWxhLmRldmljZS52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5w",
-            "cm90bxojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5cGUucHJvdG8iggIK",
+            "cm90bxojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5cGUucHJvdG8iqAIK",
             "BkRldmljZRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCRIUCgxk",
             "aXNwbGF5X25hbWUYAyABKAkSMgoLZGV2aWNlX3R5cGUYBCABKA4yHS5zYWx0",
             "by5uZWJ1bGEudHlwZS5EZXZpY2VUeXBlEg4KBnNvdXJjZRgFIAEoCRIRCgdn",
             "YXRld2F5GAYgASgJSAASEgoIZXh0ZW5kZXIYByABKAlIABIQCghvdXRkYXRl",
-            "ZBgIIAEoCBIzCg9sYXN0X2V2ZW50X3RpbWUYCSABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuVGltZXN0YW1wQg8KDXBhcmVudF9kZXZpY2UiIAoQR2V0RGV2aWNl",
-            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIm0KEkxpc3REZXZpY2VzUmVxdWVzdBIO",
-            "CgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9r",
-            "ZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJInMK",
-            "E0xpc3REZXZpY2VzUmVzcG9uc2USLwoHZGV2aWNlcxgBIAMoCzIeLnNhbHRv",
-            "Lm5lYnVsYS5kZXZpY2UudjEuRGV2aWNlEhcKD25leHRfcGFnZV90b2tlbhgC",
-            "IAEoCRISCgp0b3RhbF9zaXplGAMgASgFMs4BCg1EZXZpY2VTZXJ2aWNlElUK",
-            "CUdldERldmljZRIoLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuR2V0RGV2aWNl",
-            "UmVxdWVzdBoeLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuRGV2aWNlEmYKC0xp",
-            "c3REZXZpY2VzEiouc2FsdG8ubmVidWxhLmRldmljZS52MS5MaXN0RGV2aWNl",
-            "c1JlcXVlc3QaKy5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkxpc3REZXZpY2Vz",
-            "UmVzcG9uc2VCjwEKHmNvbS5zYWx0b2FwaXMubmVidWxhLmRldmljZS52MUIL",
-            "RGV2aWNlUHJvdG9QAVpBZ2l0aHViLmNvbS9zYWx0b2FwaXMvcHJpdmF0ZS1z",
-            "YWx0b2FwaXMtZ28vbmVidWxhL2RldmljZS92MTtkZXZpY2WqAhpTYWx0b2Fw",
-            "aXMuTmVidWxhLkRldmljZS5WMWIGcHJvdG8z"));
+            "ZBgIIAEoCBIWCgljb25uZWN0ZWQYCiABKAhIAYgBARIzCg9sYXN0X2V2ZW50",
+            "X3RpbWUYCSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQg8KDXBh",
+            "cmVudF9kZXZpY2VCDAoKX2Nvbm5lY3RlZCIgChBHZXREZXZpY2VSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAkibQoSTGlzdERldmljZXNSZXF1ZXN0Eg4KBnBhcmVu",
+            "dBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEo",
+            "CRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkicwoTTGlzdERl",
+            "dmljZXNSZXNwb25zZRIvCgdkZXZpY2VzGAEgAygLMh4uc2FsdG8ubmVidWxh",
+            "LmRldmljZS52MS5EZXZpY2USFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJEhIK",
+            "CnRvdGFsX3NpemUYAyABKAUyzgEKDURldmljZVNlcnZpY2USVQoJR2V0RGV2",
+            "aWNlEiguc2FsdG8ubmVidWxhLmRldmljZS52MS5HZXREZXZpY2VSZXF1ZXN0",
+            "Gh4uc2FsdG8ubmVidWxhLmRldmljZS52MS5EZXZpY2USZgoLTGlzdERldmlj",
+            "ZXMSKi5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkxpc3REZXZpY2VzUmVxdWVz",
+            "dBorLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuTGlzdERldmljZXNSZXNwb25z",
+            "ZUKPAQoeY29tLnNhbHRvYXBpcy5uZWJ1bGEuZGV2aWNlLnYxQgtEZXZpY2VQ",
+            "cm90b1ABWkFnaXRodWIuY29tL3NhbHRvYXBpcy9wcml2YXRlLXNhbHRvYXBp",
+            "cy1nby9uZWJ1bGEvZGV2aWNlL3YxO2RldmljZaoCGlNhbHRvYXBpcy5OZWJ1",
+            "bGEuRGV2aWNlLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DeviceTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated", "LastEventTime" }, new[]{ "ParentDevice" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated", "Connected", "LastEventTime" }, new[]{ "ParentDevice", "Connected" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetDeviceRequest), global::Saltoapis.Nebula.Device.V1.GetDeviceRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesRequest), global::Saltoapis.Nebula.Device.V1.ListDevicesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesResponse), global::Saltoapis.Nebula.Device.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken", "TotalSize" }, null, null, null, null)
@@ -70,6 +71,7 @@ namespace Saltoapis.Nebula.Device.V1 {
   {
     private static readonly pb::MessageParser<Device> _parser = new pb::MessageParser<Device>(() => new Device());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<Device> Parser { get { return _parser; } }
@@ -97,12 +99,14 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Device(Device other) : this() {
+      _hasBits0 = other._hasBits0;
       name_ = other.name_;
       deviceId_ = other.deviceId_;
       displayName_ = other.displayName_;
       deviceType_ = other.deviceType_;
       source_ = other.source_;
       outdated_ = other.outdated_;
+      connected_ = other.connected_;
       lastEventTime_ = other.lastEventTime_ != null ? other.lastEventTime_.Clone() : null;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -251,6 +255,36 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
     }
 
+    /// <summary>Field number for the "connected" field.</summary>
+    public const int ConnectedFieldNumber = 10;
+    private bool connected_;
+    /// <summary>
+    /// Indicates whether this device is connected or not. The connectivity
+    /// detection policy could vary depending on the device. The property is
+    /// left unset if it is an offline device.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Connected {
+      get { if ((_hasBits0 & 1) != 0) { return connected_; } else { return false; } }
+      set {
+        _hasBits0 |= 1;
+        connected_ = value;
+      }
+    }
+    /// <summary>Gets whether the "connected" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasConnected {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "connected" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearConnected() {
+      _hasBits0 &= ~1;
+    }
+
     /// <summary>Field number for the "last_event_time" field.</summary>
     public const int LastEventTimeFieldNumber = 9;
     private global::Google.Protobuf.WellKnownTypes.Timestamp lastEventTime_;
@@ -310,6 +344,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Gateway != other.Gateway) return false;
       if (Extender != other.Extender) return false;
       if (Outdated != other.Outdated) return false;
+      if (Connected != other.Connected) return false;
       if (!object.Equals(LastEventTime, other.LastEventTime)) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -327,6 +362,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
       if (Outdated != false) hash ^= Outdated.GetHashCode();
+      if (HasConnected) hash ^= Connected.GetHashCode();
       if (lastEventTime_ != null) hash ^= LastEventTime.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
@@ -383,6 +419,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(74);
         output.WriteMessage(LastEventTime);
       }
+      if (HasConnected) {
+        output.WriteRawTag(80);
+        output.WriteBool(Connected);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -429,6 +469,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(74);
         output.WriteMessage(LastEventTime);
       }
+      if (HasConnected) {
+        output.WriteRawTag(80);
+        output.WriteBool(Connected);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -463,6 +507,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Outdated != false) {
         size += 1 + 1;
       }
+      if (HasConnected) {
+        size += 1 + 1;
+      }
       if (lastEventTime_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastEventTime);
       }
@@ -495,6 +542,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
       if (other.Outdated != false) {
         Outdated = other.Outdated;
+      }
+      if (other.HasConnected) {
+        Connected = other.Connected;
       }
       if (other.lastEventTime_ != null) {
         if (lastEventTime_ == null) {
@@ -565,6 +615,10 @@ namespace Saltoapis.Nebula.Device.V1 {
             input.ReadMessage(LastEventTime);
             break;
           }
+          case 80: {
+            Connected = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -617,6 +671,10 @@ namespace Saltoapis.Nebula.Device.V1 {
               LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(LastEventTime);
+            break;
+          }
+          case 80: {
+            Connected = input.ReadBool();
             break;
           }
         }
