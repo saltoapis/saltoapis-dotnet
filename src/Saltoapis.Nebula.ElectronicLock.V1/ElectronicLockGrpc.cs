@@ -74,6 +74,14 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_BindElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockResponse> __Marshaller_salto_nebula_electroniclock_v1_BindElectronicLockResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_UnbindElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockResponse> __Marshaller_salto_nebula_electroniclock_v1_UnbindElectronicLockResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_InitializeElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
@@ -123,6 +131,22 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         "DeleteElectronicLock",
         __Marshaller_salto_nebula_electroniclock_v1_DeleteElectronicLockRequest,
         __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockResponse> __Method_BindElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BindElectronicLock",
+        __Marshaller_salto_nebula_electroniclock_v1_BindElectronicLockRequest,
+        __Marshaller_salto_nebula_electroniclock_v1_BindElectronicLockResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockResponse> __Method_UnbindElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UnbindElectronicLock",
+        __Marshaller_salto_nebula_electroniclock_v1_UnbindElectronicLockRequest,
+        __Marshaller_salto_nebula_electroniclock_v1_UnbindElectronicLockResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_InitializeElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.InitializeElectronicLockRequest, global::Saltoapis.Longrunning.V1.Operation>(
@@ -468,6 +492,150 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.DeleteElectronicLockRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteElectronicLock, null, options, request);
+      }
+      /// <summary>
+      /// Bind an electronic lock
+      ///
+      /// Binds an electronic lock. Binding an electronic lock assigns a device
+      /// identifier to the electronic lock. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockResponse BindElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BindElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Bind an electronic lock
+      ///
+      /// Binds an electronic lock. Binding an electronic lock assigns a device
+      /// identifier to the electronic lock. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockResponse BindElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BindElectronicLock, null, options, request);
+      }
+      /// <summary>
+      /// Bind an electronic lock
+      ///
+      /// Binds an electronic lock. Binding an electronic lock assigns a device
+      /// identifier to the electronic lock. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockResponse> BindElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BindElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Bind an electronic lock
+      ///
+      /// Binds an electronic lock. Binding an electronic lock assigns a device
+      /// identifier to the electronic lock. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockResponse> BindElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.BindElectronicLockRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BindElectronicLock, null, options, request);
+      }
+      /// <summary>
+      /// Unbind an electronic lock
+      ///
+      /// Unbinds an electronic lock. Unbinding an electronic lock removes the
+      /// device identifier from the electronic lock. This may be required in some
+      /// cases where the electronic lock is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockResponse UnbindElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnbindElectronicLock(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unbind an electronic lock
+      ///
+      /// Unbinds an electronic lock. Unbinding an electronic lock removes the
+      /// device identifier from the electronic lock. This may be required in some
+      /// cases where the electronic lock is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockResponse UnbindElectronicLock(global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UnbindElectronicLock, null, options, request);
+      }
+      /// <summary>
+      /// Unbind an electronic lock
+      ///
+      /// Unbinds an electronic lock. Unbinding an electronic lock removes the
+      /// device identifier from the electronic lock. This may be required in some
+      /// cases where the electronic lock is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockResponse> UnbindElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnbindElectronicLockAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unbind an electronic lock
+      ///
+      /// Unbinds an electronic lock. Unbinding an electronic lock removes the
+      /// device identifier from the electronic lock. This may be required in some
+      /// cases where the electronic lock is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockResponse> UnbindElectronicLockAsync(global::Saltoapis.Nebula.ElectronicLock.V1.UnbindElectronicLockRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UnbindElectronicLock, null, options, request);
       }
       /// <summary>
       /// Initialize an electronic lock
