@@ -76,8 +76,8 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
             "aW5nbW9kZXNjaGVkdWxlLnYxLkRlbGV0ZU9wZW5pbmdNb2RlU2NoZWR1bGVS",
             "ZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QtABCitjb20uc2FsdG9h",
             "cGlzLm5lYnVsYS5vcGVuaW5nbW9kZXNjaGVkdWxlLnYxQhhPcGVuaW5nTW9k",
-            "ZVNjaGVkdWxlUHJvdG9QAVpbZ2l0aHViLmNvbS9zYWx0b2FwaXMvcHJpdmF0",
-            "ZS1zYWx0b2FwaXMtZ28vbmVidWxhL29wZW5pbmdtb2Rlc2NoZWR1bGUvdjE7",
+            "ZVNjaGVkdWxlUHJvdG9QAVpbZ2l0aHViLmNvbS9wcml2YXRlLXNhbHRvYXBp",
+            "cy9zYWx0b2FwaXMtZ28vbmVidWxhL29wZW5pbmdtb2Rlc2NoZWR1bGUvdjE7",
             "b3BlbmluZ21vZGVzY2hlZHVsZaoCJ1NhbHRvYXBpcy5OZWJ1bGEuT3Blbmlu",
             "Z01vZGVTY2hlZHVsZS5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,

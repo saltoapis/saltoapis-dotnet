@@ -54,7 +54,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             "RGlnaXRhbEtleXNSZXF1ZXN0GjMuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXku",
             "djEuTGlzdERpZ2l0YWxLZXlzUmVzcG9uc2VCowEKImNvbS5zYWx0b2FwaXMu",
             "bmVidWxhLmRpZ2l0YWxrZXkudjFCD0RpZ2l0YWxLZXlQcm90b1ABWklnaXRo",
-            "dWIuY29tL3NhbHRvYXBpcy9wcml2YXRlLXNhbHRvYXBpcy1nby9uZWJ1bGEv",
+            "dWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEv",
             "ZGlnaXRhbGtleS92MTtkaWdpdGFsa2V5qgIeU2FsdG9hcGlzLk5lYnVsYS5E",
             "aWdpdGFsS2V5LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,

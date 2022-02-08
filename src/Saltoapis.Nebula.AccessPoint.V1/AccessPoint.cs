@@ -62,8 +62,8 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             "EmIKEURlbGV0ZUFjY2Vzc1BvaW50EjUuc2FsdG8ubmVidWxhLmFjY2Vzc3Bv",
             "aW50LnYxLkRlbGV0ZUFjY2Vzc1BvaW50UmVxdWVzdBoWLmdvb2dsZS5wcm90",
             "b2J1Zi5FbXB0eUKoAQojY29tLnNhbHRvYXBpcy5uZWJ1bGEuYWNjZXNzcG9p",
-            "bnQudjFCEEFjY2Vzc1BvaW50UHJvdG9QAVpLZ2l0aHViLmNvbS9zYWx0b2Fw",
-            "aXMvcHJpdmF0ZS1zYWx0b2FwaXMtZ28vbmVidWxhL2FjY2Vzc3BvaW50L3Yx",
+            "bnQudjFCEEFjY2Vzc1BvaW50UHJvdG9QAVpLZ2l0aHViLmNvbS9wcml2YXRl",
+            "LXNhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2FjY2Vzc3BvaW50L3Yx",
             "O2FjY2Vzc3BvaW50qgIfU2FsdG9hcGlzLk5lYnVsYS5BY2Nlc3NQb2ludC5W",
             "MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,

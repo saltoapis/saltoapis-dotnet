@@ -138,8 +138,8 @@ namespace Saltoapis.Nebula.User.V1 {
             "bgoPQ2FuY2VsV2FsbGV0S2V5Eiwuc2FsdG8ubmVidWxhLnVzZXIudjEuQ2Fu",
             "Y2VsV2FsbGV0S2V5UmVxdWVzdBotLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNh",
             "bmNlbFdhbGxldEtleVJlc3BvbnNlQoUBChxjb20uc2FsdG9hcGlzLm5lYnVs",
-            "YS51c2VyLnYxQglVc2VyUHJvdG9QAVo9Z2l0aHViLmNvbS9zYWx0b2FwaXMv",
-            "cHJpdmF0ZS1zYWx0b2FwaXMtZ28vbmVidWxhL3VzZXIvdjE7dXNlcqoCGFNh",
+            "YS51c2VyLnYxQglVc2VyUHJvdG9QAVo9Z2l0aHViLmNvbS9wcml2YXRlLXNh",
+            "bHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL3VzZXIvdjE7dXNlcqoCGFNh",
             "bHRvYXBpcy5OZWJ1bGEuVXNlci5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },

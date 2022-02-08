@@ -45,7 +45,7 @@ namespace Saltoapis.Longrunning.V1 {
             "dGlvbhIsLnNhbHRvLmxvbmdydW5uaW5nLnYxLkRlbGV0ZU9wZXJhdGlvblJl",
             "cXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHlCkQEKHGNvbS5zYWx0b2Fw",
             "aXMubG9uZ3J1bm5pbmcudjFCDk9wZXJhdGlvblByb3RvUAFaRGdpdGh1Yi5j",
-            "b20vc2FsdG9hcGlzL3ByaXZhdGUtc2FsdG9hcGlzLWdvL2xvbmdydW5uaW5n",
+            "b20vcHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL2xvbmdydW5uaW5n",
             "L3YxO2xvbmdydW5uaW5nqgIYU2FsdG9hcGlzLkxvbmdydW5uaW5nLlYxYgZw",
             "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,

@@ -66,7 +66,7 @@ namespace Saltoapis.Nebula.Event.V1 {
             "bHRvLm5lYnVsYS51c2VyLnYxLlVzZXISPgoMYWNjZXNzX3JpZ2h0GAIgASgL",
             "Miguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0QooB",
             "Ch1jb20uc2FsdG9hcGlzLm5lYnVsYS5ldmVudC52MUIKVHlwZXNQcm90b1AB",
-            "Wj9naXRodWIuY29tL3NhbHRvYXBpcy9wcml2YXRlLXNhbHRvYXBpcy1nby9u",
+            "Wj9naXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9u",
             "ZWJ1bGEvZXZlbnQvdjE7ZXZlbnSqAhlTYWx0b2FwaXMuTmVidWxhLkV2ZW50",
             "LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
