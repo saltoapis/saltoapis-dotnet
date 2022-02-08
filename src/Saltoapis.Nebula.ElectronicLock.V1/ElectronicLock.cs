@@ -102,8 +102,8 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
             "YS5lbGVjdHJvbmljbG9jay52MS5VcGRhdGVFbGVjdHJvbmljTG9ja0Zpcm13",
             "YXJlUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbkK3",
             "AQomY29tLnNhbHRvYXBpcy5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjFCE0Vs",
-            "ZWN0cm9uaWNMb2NrUHJvdG9QAVpRZ2l0aHViLmNvbS9zYWx0b2FwaXMvcHJp",
-            "dmF0ZS1zYWx0b2FwaXMtZ28vbmVidWxhL2VsZWN0cm9uaWNsb2NrL3YxO2Vs",
+            "ZWN0cm9uaWNMb2NrUHJvdG9QAVpRZ2l0aHViLmNvbS9wcml2YXRlLXNhbHRv",
+            "YXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2VsZWN0cm9uaWNsb2NrL3YxO2Vs",
             "ZWN0cm9uaWNsb2NrqgIiU2FsdG9hcGlzLk5lYnVsYS5FbGVjdHJvbmljTG9j",
             "ay5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,

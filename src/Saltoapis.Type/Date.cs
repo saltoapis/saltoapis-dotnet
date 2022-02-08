@@ -26,8 +26,8 @@ namespace Saltoapis.Type {
           string.Concat(
             "ChVzYWx0by90eXBlL2RhdGUucHJvdG8SCnNhbHRvLnR5cGUiMAoERGF0ZRIM",
             "CgR5ZWFyGAEgASgFEg0KBW1vbnRoGAIgASgFEgsKA2RheRgDIAEoBUJsChJj",
-            "b20uc2FsdG9hcGlzLnR5cGVCCURhdGVQcm90b1ABWjhnaXRodWIuY29tL3Nh",
-            "bHRvYXBpcy9wcml2YXRlLXNhbHRvYXBpcy1nby90eXBlL2RhdGU7ZGF0ZaoC",
+            "b20uc2FsdG9hcGlzLnR5cGVCCURhdGVQcm90b1ABWjhnaXRodWIuY29tL3By",
+            "aXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby90eXBlL2RhdGU7ZGF0ZaoC",
             "DlNhbHRvYXBpcy5UeXBlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },

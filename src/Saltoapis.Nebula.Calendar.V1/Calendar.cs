@@ -79,7 +79,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
             "LnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5EZWxldGVFdmVudFJlcXVlc3Qa",
             "Fi5nb29nbGUucHJvdG9idWYuRW1wdHlCmQEKIGNvbS5zYWx0b2FwaXMubmVi",
             "dWxhLmNhbGVuZGFyLnYxQg1DYWxlbmRhclByb3RvUAFaRWdpdGh1Yi5jb20v",
-            "c2FsdG9hcGlzL3ByaXZhdGUtc2FsdG9hcGlzLWdvL25lYnVsYS9jYWxlbmRh",
+            "cHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9jYWxlbmRh",
             "ci92MTtjYWxlbmRhcqoCHFNhbHRvYXBpcy5OZWJ1bGEuQ2FsZW5kYXIuVjFi",
             "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,

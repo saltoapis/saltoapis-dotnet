@@ -29,7 +29,7 @@ namespace Saltoapis.Type {
             "T05EQVkQARILCgdUVUVTREFZEAISDQoJV0VETkVTREFZEAMSDAoIVEhVUlNE",
             "QVkQBBIKCgZGUklEQVkQBRIMCghTQVRVUkRBWRAGEgoKBlNVTkRBWRAHQnsK",
             "EmNvbS5zYWx0b2FwaXMudHlwZUIORGF5T2ZXZWVrUHJvdG9QAVpCZ2l0aHVi",
-            "LmNvbS9zYWx0b2FwaXMvcHJpdmF0ZS1zYWx0b2FwaXMtZ28vdHlwZS9kYXlv",
+            "LmNvbS9wcml2YXRlLXNhbHRvYXBpcy9zYWx0b2FwaXMtZ28vdHlwZS9kYXlv",
             "ZndlZWs7ZGF5b2Z3ZWVrqgIOU2FsdG9hcGlzLlR5cGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },

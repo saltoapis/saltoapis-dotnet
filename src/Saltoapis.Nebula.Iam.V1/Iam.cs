@@ -49,7 +49,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
             "Um9sZRJMCgpEZWxldGVSb2xlEiYuc2FsdG8ubmVidWxhLmlhbS52MS5EZWxl",
             "dGVSb2xlUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eUKAAQobY29t",
             "LnNhbHRvYXBpcy5uZWJ1bGEuaWFtLnYxQghJYW1Qcm90b1ABWjtnaXRodWIu",
-            "Y29tL3NhbHRvYXBpcy9wcml2YXRlLXNhbHRvYXBpcy1nby9uZWJ1bGEvaWFt",
+            "Y29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvaWFt",
             "L3YxO2lhbaoCF1NhbHRvYXBpcy5OZWJ1bGEuSWFtLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
