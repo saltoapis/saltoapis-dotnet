@@ -67,6 +67,14 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.BindGatewayRequest> __Marshaller_salto_nebula_gateway_v1_BindGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.BindGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.BindGatewayResponse> __Marshaller_salto_nebula_gateway_v1_BindGatewayResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.BindGatewayResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayRequest> __Marshaller_salto_nebula_gateway_v1_UnbindGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayResponse> __Marshaller_salto_nebula_gateway_v1_UnbindGatewayResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest> __Marshaller_salto_nebula_gateway_v1_InitializeGatewayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
@@ -116,6 +124,22 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         "DeleteGateway",
         __Marshaller_salto_nebula_gateway_v1_DeleteGatewayRequest,
         __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.BindGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.BindGatewayResponse> __Method_BindGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.BindGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.BindGatewayResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BindGateway",
+        __Marshaller_salto_nebula_gateway_v1_BindGatewayRequest,
+        __Marshaller_salto_nebula_gateway_v1_BindGatewayResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayResponse> __Method_UnbindGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UnbindGateway",
+        __Marshaller_salto_nebula_gateway_v1_UnbindGatewayRequest,
+        __Marshaller_salto_nebula_gateway_v1_UnbindGatewayResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_InitializeGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.InitializeGatewayRequest, global::Saltoapis.Longrunning.V1.Operation>(
@@ -461,6 +485,150 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.DeleteGatewayRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteGateway, null, options, request);
+      }
+      /// <summary>
+      /// Bind a gateway
+      ///
+      /// Binds a gateway. Binding a gateway assigns a device
+      /// identifier to the gateway. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Gateway.V1.BindGatewayResponse BindGateway(global::Saltoapis.Nebula.Gateway.V1.BindGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BindGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Bind a gateway
+      ///
+      /// Binds a gateway. Binding a gateway assigns a device
+      /// identifier to the gateway. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Gateway.V1.BindGatewayResponse BindGateway(global::Saltoapis.Nebula.Gateway.V1.BindGatewayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BindGateway, null, options, request);
+      }
+      /// <summary>
+      /// Bind a gateway
+      ///
+      /// Binds a gateway. Binding a gateway assigns a device
+      /// identifier to the gateway. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.BindGatewayResponse> BindGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.BindGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BindGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Bind a gateway
+      ///
+      /// Binds a gateway. Binding a gateway assigns a device
+      /// identifier to the gateway. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.BindGatewayResponse> BindGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.BindGatewayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BindGateway, null, options, request);
+      }
+      /// <summary>
+      /// Unbind a gateway
+      ///
+      /// Unbinds a gateway. Unbinding a gateway removes the
+      /// device identifier from the gateway. This may be required in some
+      /// cases where the gateway is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayResponse UnbindGateway(global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnbindGateway(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unbind a gateway
+      ///
+      /// Unbinds a gateway. Unbinding a gateway removes the
+      /// device identifier from the gateway. This may be required in some
+      /// cases where the gateway is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayResponse UnbindGateway(global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UnbindGateway, null, options, request);
+      }
+      /// <summary>
+      /// Unbind a gateway
+      ///
+      /// Unbinds a gateway. Unbinding a gateway removes the
+      /// device identifier from the gateway. This may be required in some
+      /// cases where the gateway is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayResponse> UnbindGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnbindGatewayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unbind a gateway
+      ///
+      /// Unbinds a gateway. Unbinding a gateway removes the
+      /// device identifier from the gateway. This may be required in some
+      /// cases where the gateway is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayResponse> UnbindGatewayAsync(global::Saltoapis.Nebula.Gateway.V1.UnbindGatewayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UnbindGateway, null, options, request);
       }
       /// <summary>
       /// Initialize a gateway
