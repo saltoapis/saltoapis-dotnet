@@ -26,40 +26,41 @@ namespace Saltoapis.Nebula.Encoder.V1 {
           string.Concat(
             "CiVzYWx0by9uZWJ1bGEvZW5jb2Rlci92MS9lbmNvZGVyLnByb3RvEhdzYWx0",
             "by5uZWJ1bGEuZW5jb2Rlci52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnBy",
-            "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90byJ4CgdFbmNv",
-            "ZGVyEgwKBG5hbWUYASABKAkSEQoJZGV2aWNlX2lkGAIgASgJEhQKDGRpc3Bs",
-            "YXlfbmFtZRgDIAEoCRIRCgdnYXRld2F5GAQgASgJSAASEgoIZXh0ZW5kZXIY",
-            "BSABKAlIAEIPCg1wYXJlbnRfZGV2aWNlIm0KFENyZWF0ZUVuY29kZXJSZXF1",
-            "ZXN0Eg4KBnBhcmVudBgBIAEoCRISCgplbmNvZGVyX2lkGAIgASgJEjEKB2Vu",
-            "Y29kZXIYAyABKAsyIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVy",
-            "IiEKEUdldEVuY29kZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkibgoTTGlzdEVu",
-            "Y29kZXJzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIg",
-            "ASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9y",
-            "ZGVyX2J5GAUgASgJImMKFExpc3RFbmNvZGVyc1Jlc3BvbnNlEjIKCGVuY29k",
-            "ZXJzGAEgAygLMiAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRW5jb2RlchIX",
-            "Cg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiegoUVXBkYXRlRW5jb2RlclJlcXVl",
-            "c3QSMQoHZW5jb2RlchgBIAEoCzIgLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYx",
-            "LkVuY29kZXISLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9i",
-            "dWYuRmllbGRNYXNrIiQKFERlbGV0ZUVuY29kZXJSZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAky9QMKDkVuY29kZXJTZXJ2aWNlEmAKDUNyZWF0ZUVuY29kZXISLS5z",
-            "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5DcmVhdGVFbmNvZGVyUmVxdWVzdBog",
-            "LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISWgoKR2V0RW5jb2Rl",
-            "chIqLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkdldEVuY29kZXJSZXF1ZXN0",
-            "GiAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRW5jb2RlchJrCgxMaXN0RW5j",
-            "b2RlcnMSLC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5MaXN0RW5jb2RlcnNS",
-            "ZXF1ZXN0Gi0uc2FsdG8ubmVidWxhLmVuY29kZXIudjEuTGlzdEVuY29kZXJz",
-            "UmVzcG9uc2USYAoNVXBkYXRlRW5jb2RlchItLnNhbHRvLm5lYnVsYS5lbmNv",
-            "ZGVyLnYxLlVwZGF0ZUVuY29kZXJSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmVu",
-            "Y29kZXIudjEuRW5jb2RlchJWCg1EZWxldGVFbmNvZGVyEi0uc2FsdG8ubmVi",
-            "dWxhLmVuY29kZXIudjEuRGVsZXRlRW5jb2RlclJlcXVlc3QaFi5nb29nbGUu",
-            "cHJvdG9idWYuRW1wdHlClAEKH2NvbS5zYWx0b2FwaXMubmVidWxhLmVuY29k",
-            "ZXIudjFCDEVuY29kZXJQcm90b1ABWkNnaXRodWIuY29tL3ByaXZhdGUtc2Fs",
-            "dG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvZW5jb2Rlci92MTtlbmNvZGVy",
-            "qgIbU2FsdG9hcGlzLk5lYnVsYS5FbmNvZGVyLlYxYgZwcm90bzM="));
+            "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90byKNAQoHRW5j",
+            "b2RlchIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCRIUCgxkaXNw",
+            "bGF5X25hbWUYAyABKAkSEwoLaW5pdGlhbGl6ZWQYBiABKAgSEQoHZ2F0ZXdh",
+            "eRgEIAEoCUgAEhIKCGV4dGVuZGVyGAUgASgJSABCDwoNcGFyZW50X2Rldmlj",
+            "ZSJtChRDcmVhdGVFbmNvZGVyUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEgoK",
+            "ZW5jb2Rlcl9pZBgCIAEoCRIxCgdlbmNvZGVyGAMgASgLMiAuc2FsdG8ubmVi",
+            "dWxhLmVuY29kZXIudjEuRW5jb2RlciIhChFHZXRFbmNvZGVyUmVxdWVzdBIM",
+            "CgRuYW1lGAEgASgJIm4KE0xpc3RFbmNvZGVyc1JlcXVlc3QSDgoGcGFyZW50",
+            "GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJ",
+            "Eg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJjChRMaXN0RW5j",
+            "b2RlcnNSZXNwb25zZRIyCghlbmNvZGVycxgBIAMoCzIgLnNhbHRvLm5lYnVs",
+            "YS5lbmNvZGVyLnYxLkVuY29kZXISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJ",
+            "InoKFFVwZGF0ZUVuY29kZXJSZXF1ZXN0EjEKB2VuY29kZXIYASABKAsyIC5z",
+            "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVyEi8KC3VwZGF0ZV9tYXNr",
+            "GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIkChREZWxldGVF",
+            "bmNvZGVyUmVxdWVzdBIMCgRuYW1lGAEgASgJMvUDCg5FbmNvZGVyU2Vydmlj",
+            "ZRJgCg1DcmVhdGVFbmNvZGVyEi0uc2FsdG8ubmVidWxhLmVuY29kZXIudjEu",
+            "Q3JlYXRlRW5jb2RlclJlcXVlc3QaIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52",
+            "MS5FbmNvZGVyEloKCkdldEVuY29kZXISKi5zYWx0by5uZWJ1bGEuZW5jb2Rl",
+            "ci52MS5HZXRFbmNvZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5lbmNvZGVy",
+            "LnYxLkVuY29kZXISawoMTGlzdEVuY29kZXJzEiwuc2FsdG8ubmVidWxhLmVu",
+            "Y29kZXIudjEuTGlzdEVuY29kZXJzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5l",
+            "bmNvZGVyLnYxLkxpc3RFbmNvZGVyc1Jlc3BvbnNlEmAKDVVwZGF0ZUVuY29k",
+            "ZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5VcGRhdGVFbmNvZGVyUmVx",
+            "dWVzdBogLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISVgoNRGVs",
+            "ZXRlRW5jb2RlchItLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkRlbGV0ZUVu",
+            "Y29kZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QpQBCh9jb20u",
+            "c2FsdG9hcGlzLm5lYnVsYS5lbmNvZGVyLnYxQgxFbmNvZGVyUHJvdG9QAVpD",
+            "Z2l0aHViLmNvbS9wcml2YXRlLXNhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVi",
+            "dWxhL2VuY29kZXIvdjE7ZW5jb2RlcqoCG1NhbHRvYXBpcy5OZWJ1bGEuRW5j",
+            "b2Rlci5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.Encoder), global::Saltoapis.Nebula.Encoder.V1.Encoder.Parser, new[]{ "Name", "DeviceId", "DisplayName", "Gateway", "Extender" }, new[]{ "ParentDevice" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.Encoder), global::Saltoapis.Nebula.Encoder.V1.Encoder.Parser, new[]{ "Name", "DeviceId", "DisplayName", "Initialized", "Gateway", "Extender" }, new[]{ "ParentDevice" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest.Parser, new[]{ "Parent", "EncoderId", "Encoder" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest), global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -112,6 +113,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       name_ = other.name_;
       deviceId_ = other.deviceId_;
       displayName_ = other.displayName_;
+      initialized_ = other.initialized_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -175,6 +177,28 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       get { return displayName_; }
       set {
         displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "initialized" field.</summary>
+    public const int InitializedFieldNumber = 6;
+    private bool initialized_;
+    /// <summary>
+    /// Indicates whether this encoder has been initialized or not. This
+    /// field cannot be modified using a standard
+    /// [`UpdateEncoder`][salto.nebula.encoder.v1.EncoderService.UpdateEncoder]
+    /// operation. To change the value of this field, you must call
+    /// [`InitializeEncoder`][salto.nebula.encoder.v1.EncoderService.InitializeEncoder].
+    ///
+    /// If the value is `false` also applies to the case where the
+    /// initialization process has been initiated but where it has not finished.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Initialized {
+      get { return initialized_; }
+      set {
+        initialized_ = value;
       }
     }
 
@@ -247,6 +271,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       if (Name != other.Name) return false;
       if (DeviceId != other.DeviceId) return false;
       if (DisplayName != other.DisplayName) return false;
+      if (Initialized != other.Initialized) return false;
       if (Gateway != other.Gateway) return false;
       if (Extender != other.Extender) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
@@ -260,6 +285,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
+      if (Initialized != false) hash ^= Initialized.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
       hash ^= (int) parentDeviceCase_;
@@ -301,6 +327,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         output.WriteRawTag(42);
         output.WriteString(Extender);
       }
+      if (Initialized != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(Initialized);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -331,6 +361,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         output.WriteRawTag(42);
         output.WriteString(Extender);
       }
+      if (Initialized != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(Initialized);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -349,6 +383,9 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       }
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
+      }
+      if (Initialized != false) {
+        size += 1 + 1;
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
@@ -376,6 +413,9 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       }
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
+      }
+      if (other.Initialized != false) {
+        Initialized = other.Initialized;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -421,6 +461,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             Extender = input.ReadString();
             break;
           }
+          case 48: {
+            Initialized = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -454,6 +498,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
           }
           case 42: {
             Extender = input.ReadString();
+            break;
+          }
+          case 48: {
+            Initialized = input.ReadBool();
             break;
           }
         }
