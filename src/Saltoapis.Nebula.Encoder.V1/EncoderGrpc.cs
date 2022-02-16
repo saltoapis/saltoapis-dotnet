@@ -74,6 +74,14 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest> __Marshaller_salto_nebula_encoder_v1_ConfigureEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest> __Marshaller_salto_nebula_encoder_v1_ResetEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest> __Marshaller_salto_nebula_encoder_v1_BindEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse> __Marshaller_salto_nebula_encoder_v1_BindEncoderResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderRequest> __Marshaller_salto_nebula_encoder_v1_UnbindEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderResponse> __Marshaller_salto_nebula_encoder_v1_UnbindEncoderResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder> __Method_CreateEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder>(
@@ -138,6 +146,22 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         "ResetEncoder",
         __Marshaller_salto_nebula_encoder_v1_ResetEncoderRequest,
         __Marshaller_salto_longrunning_v1_Operation);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse> __Method_BindEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BindEncoder",
+        __Marshaller_salto_nebula_encoder_v1_BindEncoderRequest,
+        __Marshaller_salto_nebula_encoder_v1_BindEncoderResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderResponse> __Method_UnbindEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UnbindEncoder",
+        __Marshaller_salto_nebula_encoder_v1_UnbindEncoderRequest,
+        __Marshaller_salto_nebula_encoder_v1_UnbindEncoderResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -639,6 +663,150 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ResetEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Bind an encoder
+      ///
+      /// Binds an encoder. Binding an encoder assigns a device
+      /// identifier to the encoder. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse BindEncoder(global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BindEncoder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Bind an encoder
+      ///
+      /// Binds an encoder. Binding an encoder assigns a device
+      /// identifier to the encoder. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse BindEncoder(global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BindEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Bind an encoder
+      ///
+      /// Binds an encoder. Binding an encoder assigns a device
+      /// identifier to the encoder. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse> BindEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BindEncoderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Bind an encoder
+      ///
+      /// Binds an encoder. Binding an encoder assigns a device
+      /// identifier to the encoder. After binding, the device can then be
+      /// initialized or configured.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse> BindEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BindEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Unbind an encoder
+      ///
+      /// Unbinds an encoder. Unbinding an encoder removes the
+      /// device identifier from the encoder. This may be required in some
+      /// cases where the encoder is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderResponse UnbindEncoder(global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnbindEncoder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unbind an encoder
+      ///
+      /// Unbinds an encoder. Unbinding an encoder removes the
+      /// device identifier from the encoder. This may be required in some
+      /// cases where the encoder is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderResponse UnbindEncoder(global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UnbindEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Unbind an encoder
+      ///
+      /// Unbinds an encoder. Unbinding an encoder removes the
+      /// device identifier from the encoder. This may be required in some
+      /// cases where the encoder is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderResponse> UnbindEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnbindEncoderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unbind an encoder
+      ///
+      /// Unbinds an encoder. Unbinding an encoder removes the
+      /// device identifier from the encoder. This may be required in some
+      /// cases where the encoder is not available anymore because, for
+      /// example, it's broken or damaged. Unbinding allows the initialization of
+      /// the replacement device without removing it from the installation. It also
+      /// means the device keeps all the information associated with it, such as
+      /// events.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderResponse> UnbindEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.UnbindEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UnbindEncoder, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
