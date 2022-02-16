@@ -38,13 +38,13 @@ VALE_VERSION="2.13.0"
 
 csharp_projects = [
     '//src/Saltoapis.Nebula.DigitalKey.V1',
-    '//src/Saltoapis.Nebula.Encoder.V1',
     '//src/Saltoapis.Nebula.Iam.V1',
     '//src/Saltoapis.Nebula.Installation.V1',
     '//src/Saltoapis.Nebula.Unit.V1',
     '//src/Saltoapis.Longrunning.V1',
     '//src/Saltoapis.Type',
     '//src/Saltoapis.Nebula.ElectronicLock.V1',
+    '//src/Saltoapis.Nebula.Encoder.V1',
     '//src/Saltoapis.Nebula.Extender.V1',
     '//src/Saltoapis.Nebula.Gateway.V1',
     '//src/Saltoapis.Nebula.Type',

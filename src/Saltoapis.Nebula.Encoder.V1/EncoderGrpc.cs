@@ -66,6 +66,14 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest> __Marshaller_salto_nebula_encoder_v1_DeleteEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.InitializeEncoderRequest> __Marshaller_salto_nebula_encoder_v1_InitializeEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.InitializeEncoderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest> __Marshaller_salto_nebula_encoder_v1_ConfigureEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest> __Marshaller_salto_nebula_encoder_v1_ResetEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder> __Method_CreateEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest, global::Saltoapis.Nebula.Encoder.V1.Encoder>(
@@ -106,6 +114,30 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         "DeleteEncoder",
         __Marshaller_salto_nebula_encoder_v1_DeleteEncoderRequest,
         __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.InitializeEncoderRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_InitializeEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.InitializeEncoderRequest, global::Saltoapis.Longrunning.V1.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "InitializeEncoder",
+        __Marshaller_salto_nebula_encoder_v1_InitializeEncoderRequest,
+        __Marshaller_salto_longrunning_v1_Operation);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_ConfigureEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest, global::Saltoapis.Longrunning.V1.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ConfigureEncoder",
+        __Marshaller_salto_nebula_encoder_v1_ConfigureEncoderRequest,
+        __Marshaller_salto_longrunning_v1_Operation);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_ResetEncoder = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest, global::Saltoapis.Longrunning.V1.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ResetEncoder",
+        __Marshaller_salto_nebula_encoder_v1_ResetEncoderRequest,
+        __Marshaller_salto_longrunning_v1_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -419,6 +451,194 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.DeleteEncoderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Initialize an encoder
+      ///
+      /// Initializes an encoder. Encoders need to be initialized before
+      /// you can start to use them.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation InitializeEncoder(global::Saltoapis.Nebula.Encoder.V1.InitializeEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return InitializeEncoder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Initialize an encoder
+      ///
+      /// Initializes an encoder. Encoders need to be initialized before
+      /// you can start to use them.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation InitializeEncoder(global::Saltoapis.Nebula.Encoder.V1.InitializeEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_InitializeEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Initialize an encoder
+      ///
+      /// Initializes an encoder. Encoders need to be initialized before
+      /// you can start to use them.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> InitializeEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.InitializeEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return InitializeEncoderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Initialize an encoder
+      ///
+      /// Initializes an encoder. Encoders need to be initialized before
+      /// you can start to use them.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> InitializeEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.InitializeEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_InitializeEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Configure an encoder
+      ///
+      /// Configures an encoder. Configuring an encoder implies adding some
+      /// information to the encoder based on the current settings.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation ConfigureEncoder(global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ConfigureEncoder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Configure an encoder
+      ///
+      /// Configures an encoder. Configuring an encoder implies adding some
+      /// information to the encoder based on the current settings.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation ConfigureEncoder(global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ConfigureEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Configure an encoder
+      ///
+      /// Configures an encoder. Configuring an encoder implies adding some
+      /// information to the encoder based on the current settings.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ConfigureEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ConfigureEncoderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Configure an encoder
+      ///
+      /// Configures an encoder. Configuring an encoder implies adding some
+      /// information to the encoder based on the current settings.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ConfigureEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ConfigureEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Reset an encoder
+      ///
+      /// Resetting a device such as an encoder means returning it to its factory
+      /// settings. Resetting is the process of removing the identity as
+      /// well as all the associated information of an already configured device.
+      /// Once a device has been reset, you need to reconfigure it.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation ResetEncoder(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ResetEncoder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Reset an encoder
+      ///
+      /// Resetting a device such as an encoder means returning it to its factory
+      /// settings. Resetting is the process of removing the identity as
+      /// well as all the associated information of an already configured device.
+      /// Once a device has been reset, you need to reconfigure it.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation ResetEncoder(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ResetEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Reset an encoder
+      ///
+      /// Resetting a device such as an encoder means returning it to its factory
+      /// settings. Resetting is the process of removing the identity as
+      /// well as all the associated information of an already configured device.
+      /// Once a device has been reset, you need to reconfigure it.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ResetEncoderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Reset an encoder
+      ///
+      /// Resetting a device such as an encoder means returning it to its factory
+      /// settings. Resetting is the process of removing the identity as
+      /// well as all the associated information of an already configured device.
+      /// Once a device has been reset, you need to reconfigure it.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ResetEncoder, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
