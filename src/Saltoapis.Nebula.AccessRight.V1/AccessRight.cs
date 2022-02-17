@@ -41,84 +41,91 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             "aW1lGAIgASgLMhUuc2FsdG8udHlwZS5UaW1lT2ZEYXkSJwoIZW5kX3RpbWUY",
             "AyABKAsyFS5zYWx0by50eXBlLlRpbWVPZkRheRpfCgNEYXkSLAoIZGF5X3R5",
             "cGUYASABKA4yGi5zYWx0by5uZWJ1bGEudHlwZS5EYXlUeXBlEioKC2RheV9v",
-            "Zl93ZWVrGAIgASgOMhUuc2FsdG8udHlwZS5EYXlPZldlZWsijwEKC0FjY2Vz",
-            "c1BvaW50EgwKBG5hbWUYASABKAkSFAoMYWNjZXNzX3BvaW50GAIgASgJEhQK",
-            "DGRpc3BsYXlfbmFtZRgDIAEoCRIVCg11cGRhdGVfYXV0aG9yGAQgASgJEi8K",
-            "C3VwZGF0ZV90aW1lGAUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
-            "cCKDAQoYQ3JlYXRlQWNjZXNzUmlnaHRSZXF1ZXN0Eg4KBnBhcmVudBgBIAEo",
-            "CRIXCg9hY2Nlc3NfcmlnaHRfaWQYAiABKAkSPgoMYWNjZXNzX3JpZ2h0GAMg",
-            "ASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0",
-            "IiUKFUdldEFjY2Vzc1JpZ2h0UmVxdWVzdBIMCgRuYW1lGAEgASgJInIKF0xp",
-            "c3RBY2Nlc3NSaWdodHNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdl",
-            "X3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCAB",
-            "KAkSEAoIb3JkZXJfYnkYBSABKAkidAoYTGlzdEFjY2Vzc1JpZ2h0c1Jlc3Bv",
-            "bnNlEj8KDWFjY2Vzc19yaWdodHMYASADKAsyKC5zYWx0by5uZWJ1bGEuYWNj",
-            "ZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSFwoPbmV4dF9wYWdlX3Rva2VuGAIg",
-            "ASgJIosBChhVcGRhdGVBY2Nlc3NSaWdodFJlcXVlc3QSPgoMYWNjZXNzX3Jp",
-            "Z2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vz",
-            "c1JpZ2h0Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVm",
-            "LkZpZWxkTWFzayIoChhEZWxldGVBY2Nlc3NSaWdodFJlcXVlc3QSDAoEbmFt",
-            "ZRgBIAEoCSJqChhDcmVhdGVBY2Nlc3NQb2ludFJlcXVlc3QSDgoGcGFyZW50",
-            "GAEgASgJEj4KDGFjY2Vzc19wb2ludBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
-            "Y2Nlc3NyaWdodC52MS5BY2Nlc3NQb2ludCIlChVHZXRBY2Nlc3NQb2ludFJl",
-            "cXVlc3QSDAoEbmFtZRgBIAEoCSJyChdMaXN0QWNjZXNzUG9pbnRzUmVxdWVz",
-            "dBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2Vf",
-            "dG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJ",
-            "InQKGExpc3RBY2Nlc3NQb2ludHNSZXNwb25zZRI/Cg1hY2Nlc3NfcG9pbnRz",
-            "GAEgAygLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1Bv",
-            "aW50EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKLAQoYVXBkYXRlQWNjZXNz",
-            "UG9pbnRSZXF1ZXN0Ej4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5l",
-            "YnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NQb2ludBIvCgt1cGRhdGVfbWFz",
-            "axgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siKAoYRGVsZXRl",
-            "QWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkylgkKEkFjY2Vzc1Jp",
-            "Z2h0U2VydmljZRJ0ChFDcmVhdGVBY2Nlc3NSaWdodBI1LnNhbHRvLm5lYnVs",
-            "YS5hY2Nlc3NyaWdodC52MS5DcmVhdGVBY2Nlc3NSaWdodFJlcXVlc3QaKC5z",
-            "YWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSbgoOR2V0",
-            "QWNjZXNzUmlnaHQSMi5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuR2V0",
-            "QWNjZXNzUmlnaHRSZXF1ZXN0Giguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0",
-            "LnYxLkFjY2Vzc1JpZ2h0En8KEExpc3RBY2Nlc3NSaWdodHMSNC5zYWx0by5u",
-            "ZWJ1bGEuYWNjZXNzcmlnaHQudjEuTGlzdEFjY2Vzc1JpZ2h0c1JlcXVlc3Qa",
-            "NS5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuTGlzdEFjY2Vzc1JpZ2h0",
-            "c1Jlc3BvbnNlEnQKEVVwZGF0ZUFjY2Vzc1JpZ2h0EjUuc2FsdG8ubmVidWxh",
-            "LmFjY2Vzc3JpZ2h0LnYxLlVwZGF0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBooLnNh",
-            "bHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBJiChFEZWxl",
-            "dGVBY2Nlc3NSaWdodBI1LnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5E",
-            "ZWxldGVBY2Nlc3NSaWdodFJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1w",
-            "dHkSdAoRQ3JlYXRlQWNjZXNzUG9pbnQSNS5zYWx0by5uZWJ1bGEuYWNjZXNz",
-            "cmlnaHQudjEuQ3JlYXRlQWNjZXNzUG9pbnRSZXF1ZXN0Giguc2FsdG8ubmVi",
-            "dWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1BvaW50Em4KDkdldEFjY2Vzc1Bv",
-            "aW50EjIuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkdldEFjY2Vzc1Bv",
-            "aW50UmVxdWVzdBooLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nl",
-            "c3NQb2ludBJ/ChBMaXN0QWNjZXNzUG9pbnRzEjQuc2FsdG8ubmVidWxhLmFj",
-            "Y2Vzc3JpZ2h0LnYxLkxpc3RBY2Nlc3NQb2ludHNSZXF1ZXN0GjUuc2FsdG8u",
-            "bmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkxpc3RBY2Nlc3NQb2ludHNSZXNwb25z",
-            "ZRJ0ChFVcGRhdGVBY2Nlc3NQb2ludBI1LnNhbHRvLm5lYnVsYS5hY2Nlc3Ny",
-            "aWdodC52MS5VcGRhdGVBY2Nlc3NQb2ludFJlcXVlc3QaKC5zYWx0by5uZWJ1",
-            "bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUG9pbnQSYgoRRGVsZXRlQWNjZXNz",
-            "UG9pbnQSNS5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuRGVsZXRlQWNj",
-            "ZXNzUG9pbnRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QqgBCiNj",
-            "b20uc2FsdG9hcGlzLm5lYnVsYS5hY2Nlc3NyaWdodC52MUIQQWNjZXNzUmln",
-            "aHRQcm90b1ABWktnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRv",
-            "YXBpcy1nby9uZWJ1bGEvYWNjZXNzcmlnaHQvdjE7YWNjZXNzcmlnaHSqAh9T",
-            "YWx0b2FwaXMuTmVidWxhLkFjY2Vzc1JpZ2h0LlYxYgZwcm90bzM="));
+            "Zl93ZWVrGAIgASgOMhUuc2FsdG8udHlwZS5EYXlPZldlZWsimgEKFkFjY2Vz",
+            "c1JpZ2h0QWNjZXNzUG9pbnQSDAoEbmFtZRgBIAEoCRIUCgxhY2Nlc3NfcG9p",
+            "bnQYAiABKAkSFAoMZGlzcGxheV9uYW1lGAMgASgJEhUKDXVwZGF0ZV9hdXRo",
+            "b3IYBCABKAkSLwoLdXBkYXRlX3RpbWUYBSABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuVGltZXN0YW1wIoMBChhDcmVhdGVBY2Nlc3NSaWdodFJlcXVlc3QSDgoG",
+            "cGFyZW50GAEgASgJEhcKD2FjY2Vzc19yaWdodF9pZBgCIAEoCRI+CgxhY2Nl",
+            "c3NfcmlnaHQYAyABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEu",
+            "QWNjZXNzUmlnaHQiJQoVR2V0QWNjZXNzUmlnaHRSZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAkicgoXTGlzdEFjY2Vzc1JpZ2h0c1JlcXVlc3QSDgoGcGFyZW50GAEg",
+            "ASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4K",
+            "BmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJ0ChhMaXN0QWNjZXNz",
+            "UmlnaHRzUmVzcG9uc2USPwoNYWNjZXNzX3JpZ2h0cxgBIAMoCzIoLnNhbHRv",
+            "Lm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBIXCg9uZXh0X3Bh",
+            "Z2VfdG9rZW4YAiABKAkiiwEKGFVwZGF0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBI+",
+            "CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmln",
+            "aHQudjEuQWNjZXNzUmlnaHQSLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29n",
+            "bGUucHJvdG9idWYuRmllbGRNYXNrIigKGERlbGV0ZUFjY2Vzc1JpZ2h0UmVx",
+            "dWVzdBIMCgRuYW1lGAEgASgJIo0BCiNDcmVhdGVBY2Nlc3NSaWdodEFjY2Vz",
+            "c1BvaW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSVgoZYWNjZXNzX3JpZ2h0",
+            "X2FjY2Vzc19wb2ludBgCIAEoCzIzLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdo",
+            "dC52MS5BY2Nlc3NSaWdodEFjY2Vzc1BvaW50IjAKIEdldEFjY2Vzc1JpZ2h0",
+            "QWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkifQoiTGlzdEFjY2Vz",
+            "c1JpZ2h0QWNjZXNzUG9pbnRzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJ",
+            "cGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVy",
+            "GAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIpcBCiNMaXN0QWNjZXNzUmlnaHRB",
+            "Y2Nlc3NQb2ludHNSZXNwb25zZRJXChphY2Nlc3NfcmlnaHRfYWNjZXNzX3Bv",
+            "aW50cxgBIAMoCzIzLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nl",
+            "c3NSaWdodEFjY2Vzc1BvaW50EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKu",
+            "AQojVXBkYXRlQWNjZXNzUmlnaHRBY2Nlc3NQb2ludFJlcXVlc3QSVgoZYWNj",
+            "ZXNzX3JpZ2h0X2FjY2Vzc19wb2ludBgBIAEoCzIzLnNhbHRvLm5lYnVsYS5h",
+            "Y2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodEFjY2Vzc1BvaW50Ei8KC3VwZGF0",
+            "ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIzCiNE",
+            "ZWxldGVBY2Nlc3NSaWdodEFjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEg",
+            "ASgJMrQKChJBY2Nlc3NSaWdodFNlcnZpY2USdAoRQ3JlYXRlQWNjZXNzUmln",
+            "aHQSNS5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQ3JlYXRlQWNjZXNz",
+            "UmlnaHRSZXF1ZXN0Giguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFj",
+            "Y2Vzc1JpZ2h0Em4KDkdldEFjY2Vzc1JpZ2h0EjIuc2FsdG8ubmVidWxhLmFj",
+            "Y2Vzc3JpZ2h0LnYxLkdldEFjY2Vzc1JpZ2h0UmVxdWVzdBooLnNhbHRvLm5l",
+            "YnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBJ/ChBMaXN0QWNjZXNz",
+            "UmlnaHRzEjQuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkxpc3RBY2Nl",
+            "c3NSaWdodHNSZXF1ZXN0GjUuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYx",
+            "Lkxpc3RBY2Nlc3NSaWdodHNSZXNwb25zZRJ0ChFVcGRhdGVBY2Nlc3NSaWdo",
+            "dBI1LnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5VcGRhdGVBY2Nlc3NS",
+            "aWdodFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNj",
+            "ZXNzUmlnaHQSYgoRRGVsZXRlQWNjZXNzUmlnaHQSNS5zYWx0by5uZWJ1bGEu",
+            "YWNjZXNzcmlnaHQudjEuRGVsZXRlQWNjZXNzUmlnaHRSZXF1ZXN0GhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5EpUBChxDcmVhdGVBY2Nlc3NSaWdodEFjY2Vz",
+            "c1BvaW50EkAuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkNyZWF0ZUFj",
+            "Y2Vzc1JpZ2h0QWNjZXNzUG9pbnRSZXF1ZXN0GjMuc2FsdG8ubmVidWxhLmFj",
+            "Y2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnQSjwEKGUdldEFj",
+            "Y2Vzc1JpZ2h0QWNjZXNzUG9pbnQSPS5zYWx0by5uZWJ1bGEuYWNjZXNzcmln",
+            "aHQudjEuR2V0QWNjZXNzUmlnaHRBY2Nlc3NQb2ludFJlcXVlc3QaMy5zYWx0",
+            "by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHRBY2Nlc3NQb2lu",
+            "dBKgAQobTGlzdEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRzEj8uc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3JpZ2h0LnYxLkxpc3RBY2Nlc3NSaWdodEFjY2Vzc1BvaW50",
+            "c1JlcXVlc3QaQC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuTGlzdEFj",
+            "Y2Vzc1JpZ2h0QWNjZXNzUG9pbnRzUmVzcG9uc2USlQEKHFVwZGF0ZUFjY2Vz",
+            "c1JpZ2h0QWNjZXNzUG9pbnQSQC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQu",
+            "djEuVXBkYXRlQWNjZXNzUmlnaHRBY2Nlc3NQb2ludFJlcXVlc3QaMy5zYWx0",
+            "by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHRBY2Nlc3NQb2lu",
+            "dBJ4ChxEZWxldGVBY2Nlc3NSaWdodEFjY2Vzc1BvaW50EkAuc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3JpZ2h0LnYxLkRlbGV0ZUFjY2Vzc1JpZ2h0QWNjZXNzUG9p",
+            "bnRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QqgBCiNjb20uc2Fs",
+            "dG9hcGlzLm5lYnVsYS5hY2Nlc3NyaWdodC52MUIQQWNjZXNzUmlnaHRQcm90",
+            "b1ABWktnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1n",
+            "by9uZWJ1bGEvYWNjZXNzcmlnaHQvdjE7YWNjZXNzcmlnaHSqAh9TYWx0b2Fw",
+            "aXMuTmVidWxhLkFjY2Vzc1JpZ2h0LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.AccessRight), global::Saltoapis.Nebula.AccessRight.V1.AccessRight.Parser, new[]{ "Name", "DisplayName", "ActivateTime", "ExpireTime", "Schedules", "UpdateAuthor", "UpdateTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.Schedule), global::Saltoapis.Nebula.AccessRight.V1.Schedule.Parser, new[]{ "Days", "StartTime", "EndTime" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day), global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day.Parser, new[]{ "DayType", "DayOfWeek" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.AccessPoint), global::Saltoapis.Nebula.AccessRight.V1.AccessPoint.Parser, new[]{ "Name", "AccessPoint_", "DisplayName", "UpdateAuthor", "UpdateTime" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint), global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint.Parser, new[]{ "Name", "AccessPoint", "DisplayName", "UpdateAuthor", "UpdateTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest.Parser, new[]{ "Parent", "AccessRightId", "AccessRight" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightRequest), global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsRequest), global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsResponse), global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightsResponse.Parser, new[]{ "AccessRights", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest), global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightRequest.Parser, new[]{ "AccessRight", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest), global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessPointRequest.Parser, new[]{ "Parent", "AccessPoint" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.GetAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest), global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse), global::Saltoapis.Nebula.AccessRight.V1.ListAccessPointsResponse.Parser, new[]{ "AccessPoints", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessPointRequest.Parser, new[]{ "AccessPoint", "UpdateMask" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightAccessPointRequest.Parser, new[]{ "Parent", "AccessRightAccessPoint" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightAccessPointsRequest), global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightAccessPointsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightAccessPointsResponse), global::Saltoapis.Nebula.AccessRight.V1.ListAccessRightAccessPointsResponse.Parser, new[]{ "AccessRightAccessPoints", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.UpdateAccessRightAccessPointRequest.Parser, new[]{ "AccessRightAccessPoint", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightAccessPointRequest), global::Saltoapis.Nebula.AccessRight.V1.DeleteAccessRightAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1106,16 +1113,16 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The access right's access point association
   /// </summary>
-  public sealed partial class AccessPoint : pb::IMessage<AccessPoint>
+  public sealed partial class AccessRightAccessPoint : pb::IMessage<AccessRightAccessPoint>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<AccessPoint> _parser = new pb::MessageParser<AccessPoint>(() => new AccessPoint());
+    private static readonly pb::MessageParser<AccessRightAccessPoint> _parser = new pb::MessageParser<AccessRightAccessPoint>(() => new AccessRightAccessPoint());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<AccessPoint> Parser { get { return _parser; } }
+    public static pb::MessageParser<AccessRightAccessPoint> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1131,7 +1138,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public AccessPoint() {
+    public AccessRightAccessPoint() {
       OnConstruction();
     }
 
@@ -1139,7 +1146,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public AccessPoint(AccessPoint other) : this() {
+    public AccessRightAccessPoint(AccessRightAccessPoint other) : this() {
       name_ = other.name_;
       accessPoint_ = other.accessPoint_;
       displayName_ = other.displayName_;
@@ -1150,8 +1157,8 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public AccessPoint Clone() {
-      return new AccessPoint(this);
+    public AccessRightAccessPoint Clone() {
+      return new AccessRightAccessPoint(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -1173,7 +1180,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     }
 
     /// <summary>Field number for the "access_point" field.</summary>
-    public const int AccessPoint_FieldNumber = 2;
+    public const int AccessPointFieldNumber = 2;
     private string accessPoint_ = "";
     /// <summary>
     /// The access point resource name to bind as an association to the parent
@@ -1182,7 +1189,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string AccessPoint_ {
+    public string AccessPoint {
       get { return accessPoint_; }
       set {
         accessPoint_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
@@ -1237,12 +1244,12 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as AccessPoint);
+      return Equals(other as AccessRightAccessPoint);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(AccessPoint other) {
+    public bool Equals(AccessRightAccessPoint other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1250,7 +1257,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (AccessPoint_ != other.AccessPoint_) return false;
+      if (AccessPoint != other.AccessPoint) return false;
       if (DisplayName != other.DisplayName) return false;
       if (UpdateAuthor != other.UpdateAuthor) return false;
       if (!object.Equals(UpdateTime, other.UpdateTime)) return false;
@@ -1262,7 +1269,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (AccessPoint_.Length != 0) hash ^= AccessPoint_.GetHashCode();
+      if (AccessPoint.Length != 0) hash ^= AccessPoint.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (UpdateAuthor.Length != 0) hash ^= UpdateAuthor.GetHashCode();
       if (updateTime_ != null) hash ^= UpdateTime.GetHashCode();
@@ -1288,9 +1295,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (AccessPoint_.Length != 0) {
+      if (AccessPoint.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(AccessPoint_);
+        output.WriteString(AccessPoint);
       }
       if (DisplayName.Length != 0) {
         output.WriteRawTag(26);
@@ -1318,9 +1325,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (AccessPoint_.Length != 0) {
+      if (AccessPoint.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(AccessPoint_);
+        output.WriteString(AccessPoint);
       }
       if (DisplayName.Length != 0) {
         output.WriteRawTag(26);
@@ -1347,8 +1354,8 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (AccessPoint_.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessPoint_);
+      if (AccessPoint.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessPoint);
       }
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
@@ -1367,15 +1374,15 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(AccessPoint other) {
+    public void MergeFrom(AccessRightAccessPoint other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.AccessPoint_.Length != 0) {
-        AccessPoint_ = other.AccessPoint_;
+      if (other.AccessPoint.Length != 0) {
+        AccessPoint = other.AccessPoint;
       }
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
@@ -1409,7 +1416,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             break;
           }
           case 18: {
-            AccessPoint_ = input.ReadString();
+            AccessPoint = input.ReadString();
             break;
           }
           case 26: {
@@ -1447,7 +1454,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             break;
           }
           case 18: {
-            AccessPoint_ = input.ReadString();
+            AccessPoint = input.ReadString();
             break;
           }
           case 26: {
@@ -2989,18 +2996,18 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   }
 
   /// <summary>
-  /// The request message for [`CreateAccessPoint`][salto.nebula.accessright.v1.AccessRightService.CreateAccessPoint]
+  /// The request message for [`CreateAccessRightAccessPoint`][salto.nebula.accessright.v1.AccessRightService.CreateAccessRightAccessPoint]
   /// </summary>
-  public sealed partial class CreateAccessPointRequest : pb::IMessage<CreateAccessPointRequest>
+  public sealed partial class CreateAccessRightAccessPointRequest : pb::IMessage<CreateAccessRightAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<CreateAccessPointRequest> _parser = new pb::MessageParser<CreateAccessPointRequest>(() => new CreateAccessPointRequest());
+    private static readonly pb::MessageParser<CreateAccessRightAccessPointRequest> _parser = new pb::MessageParser<CreateAccessRightAccessPointRequest>(() => new CreateAccessRightAccessPointRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<CreateAccessPointRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<CreateAccessRightAccessPointRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3016,7 +3023,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateAccessPointRequest() {
+    public CreateAccessRightAccessPointRequest() {
       OnConstruction();
     }
 
@@ -3024,16 +3031,16 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateAccessPointRequest(CreateAccessPointRequest other) : this() {
+    public CreateAccessRightAccessPointRequest(CreateAccessRightAccessPointRequest other) : this() {
       parent_ = other.parent_;
-      accessPoint_ = other.accessPoint_ != null ? other.accessPoint_.Clone() : null;
+      accessRightAccessPoint_ = other.accessRightAccessPoint_ != null ? other.accessRightAccessPoint_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateAccessPointRequest Clone() {
-      return new CreateAccessPointRequest(this);
+    public CreateAccessRightAccessPointRequest Clone() {
+      return new CreateAccessRightAccessPointRequest(this);
     }
 
     /// <summary>Field number for the "parent" field.</summary>
@@ -3053,31 +3060,31 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       }
     }
 
-    /// <summary>Field number for the "access_point" field.</summary>
-    public const int AccessPointFieldNumber = 2;
-    private global::Saltoapis.Nebula.AccessRight.V1.AccessPoint accessPoint_;
+    /// <summary>Field number for the "access_right_access_point" field.</summary>
+    public const int AccessRightAccessPointFieldNumber = 2;
+    private global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint accessRightAccessPoint_;
     /// <summary>
     /// The access right's access point association resource to be created.
-    /// Client must not set the `AccessPoint.name` field.
+    /// Client must not set the `AccessRightAccessPoint.name` field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Saltoapis.Nebula.AccessRight.V1.AccessPoint AccessPoint {
-      get { return accessPoint_; }
+    public global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint AccessRightAccessPoint {
+      get { return accessRightAccessPoint_; }
       set {
-        accessPoint_ = value;
+        accessRightAccessPoint_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as CreateAccessPointRequest);
+      return Equals(other as CreateAccessRightAccessPointRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(CreateAccessPointRequest other) {
+    public bool Equals(CreateAccessRightAccessPointRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3085,7 +3092,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         return true;
       }
       if (Parent != other.Parent) return false;
-      if (!object.Equals(AccessPoint, other.AccessPoint)) return false;
+      if (!object.Equals(AccessRightAccessPoint, other.AccessRightAccessPoint)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3094,7 +3101,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (accessPoint_ != null) hash ^= AccessPoint.GetHashCode();
+      if (accessRightAccessPoint_ != null) hash ^= AccessRightAccessPoint.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3117,9 +3124,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (accessPoint_ != null) {
+      if (accessRightAccessPoint_ != null) {
         output.WriteRawTag(18);
-        output.WriteMessage(AccessPoint);
+        output.WriteMessage(AccessRightAccessPoint);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -3135,9 +3142,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (accessPoint_ != null) {
+      if (accessRightAccessPoint_ != null) {
         output.WriteRawTag(18);
-        output.WriteMessage(AccessPoint);
+        output.WriteMessage(AccessRightAccessPoint);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -3152,8 +3159,8 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       if (Parent.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
       }
-      if (accessPoint_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessPoint);
+      if (accessRightAccessPoint_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessRightAccessPoint);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3163,18 +3170,18 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(CreateAccessPointRequest other) {
+    public void MergeFrom(CreateAccessRightAccessPointRequest other) {
       if (other == null) {
         return;
       }
       if (other.Parent.Length != 0) {
         Parent = other.Parent;
       }
-      if (other.accessPoint_ != null) {
-        if (accessPoint_ == null) {
-          AccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessPoint();
+      if (other.accessRightAccessPoint_ != null) {
+        if (accessRightAccessPoint_ == null) {
+          AccessRightAccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint();
         }
-        AccessPoint.MergeFrom(other.AccessPoint);
+        AccessRightAccessPoint.MergeFrom(other.AccessRightAccessPoint);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3196,10 +3203,10 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             break;
           }
           case 18: {
-            if (accessPoint_ == null) {
-              AccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessPoint();
+            if (accessRightAccessPoint_ == null) {
+              AccessRightAccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint();
             }
-            input.ReadMessage(AccessPoint);
+            input.ReadMessage(AccessRightAccessPoint);
             break;
           }
         }
@@ -3222,10 +3229,10 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             break;
           }
           case 18: {
-            if (accessPoint_ == null) {
-              AccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessPoint();
+            if (accessRightAccessPoint_ == null) {
+              AccessRightAccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint();
             }
-            input.ReadMessage(AccessPoint);
+            input.ReadMessage(AccessRightAccessPoint);
             break;
           }
         }
@@ -3236,18 +3243,18 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   }
 
   /// <summary>
-  /// The request message for [`GetAccessPoin`][salto.nebula.accessright.v1.AccessRightService.GetAccessPoint]
+  /// The request message for [`GetAccessRightAccessPoint`][salto.nebula.accessright.v1.AccessRightService.GetAccessRightAccessPoint]
   /// </summary>
-  public sealed partial class GetAccessPointRequest : pb::IMessage<GetAccessPointRequest>
+  public sealed partial class GetAccessRightAccessPointRequest : pb::IMessage<GetAccessRightAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetAccessPointRequest> _parser = new pb::MessageParser<GetAccessPointRequest>(() => new GetAccessPointRequest());
+    private static readonly pb::MessageParser<GetAccessRightAccessPointRequest> _parser = new pb::MessageParser<GetAccessRightAccessPointRequest>(() => new GetAccessRightAccessPointRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetAccessPointRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetAccessRightAccessPointRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3263,7 +3270,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAccessPointRequest() {
+    public GetAccessRightAccessPointRequest() {
       OnConstruction();
     }
 
@@ -3271,15 +3278,15 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAccessPointRequest(GetAccessPointRequest other) : this() {
+    public GetAccessRightAccessPointRequest(GetAccessRightAccessPointRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAccessPointRequest Clone() {
-      return new GetAccessPointRequest(this);
+    public GetAccessRightAccessPointRequest Clone() {
+      return new GetAccessRightAccessPointRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -3302,12 +3309,12 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetAccessPointRequest);
+      return Equals(other as GetAccessRightAccessPointRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetAccessPointRequest other) {
+    public bool Equals(GetAccessRightAccessPointRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3380,7 +3387,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetAccessPointRequest other) {
+    public void MergeFrom(GetAccessRightAccessPointRequest other) {
       if (other == null) {
         return;
       }
@@ -3433,18 +3440,18 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   }
 
   /// <summary>
-  /// The request message for [`ListAccessPoints`][salto.nebula.accessright.v1.AccessRightService.ListAccessPoint]
+  /// The request message for [`ListAccessRightAccessPoints`][salto.nebula.accessright.v1.AccessRightService.ListAccessRightAccessPoints]
   /// </summary>
-  public sealed partial class ListAccessPointsRequest : pb::IMessage<ListAccessPointsRequest>
+  public sealed partial class ListAccessRightAccessPointsRequest : pb::IMessage<ListAccessRightAccessPointsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ListAccessPointsRequest> _parser = new pb::MessageParser<ListAccessPointsRequest>(() => new ListAccessPointsRequest());
+    private static readonly pb::MessageParser<ListAccessRightAccessPointsRequest> _parser = new pb::MessageParser<ListAccessRightAccessPointsRequest>(() => new ListAccessRightAccessPointsRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ListAccessPointsRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<ListAccessRightAccessPointsRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3460,7 +3467,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessPointsRequest() {
+    public ListAccessRightAccessPointsRequest() {
       OnConstruction();
     }
 
@@ -3468,7 +3475,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessPointsRequest(ListAccessPointsRequest other) : this() {
+    public ListAccessRightAccessPointsRequest(ListAccessRightAccessPointsRequest other) : this() {
       parent_ = other.parent_;
       pageSize_ = other.pageSize_;
       pageToken_ = other.pageToken_;
@@ -3479,8 +3486,8 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessPointsRequest Clone() {
-      return new ListAccessPointsRequest(this);
+    public ListAccessRightAccessPointsRequest Clone() {
+      return new ListAccessRightAccessPointsRequest(this);
     }
 
     /// <summary>Field number for the "parent" field.</summary>
@@ -3565,12 +3572,12 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as ListAccessPointsRequest);
+      return Equals(other as ListAccessRightAccessPointsRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ListAccessPointsRequest other) {
+    public bool Equals(ListAccessRightAccessPointsRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3695,7 +3702,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ListAccessPointsRequest other) {
+    public void MergeFrom(ListAccessRightAccessPointsRequest other) {
       if (other == null) {
         return;
       }
@@ -3792,18 +3799,18 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   }
 
   /// <summary>
-  /// The request message for [`ListAccessPoints`][salto.nebula.accessright.v1.AccessRightService.ListAccessPoints]
+  /// The request message for [`ListAccessRightAccessPoints`][salto.nebula.accessright.v1.AccessRightService.ListAccessRightAccessPoints]
   /// </summary>
-  public sealed partial class ListAccessPointsResponse : pb::IMessage<ListAccessPointsResponse>
+  public sealed partial class ListAccessRightAccessPointsResponse : pb::IMessage<ListAccessRightAccessPointsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ListAccessPointsResponse> _parser = new pb::MessageParser<ListAccessPointsResponse>(() => new ListAccessPointsResponse());
+    private static readonly pb::MessageParser<ListAccessRightAccessPointsResponse> _parser = new pb::MessageParser<ListAccessRightAccessPointsResponse>(() => new ListAccessRightAccessPointsResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ListAccessPointsResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<ListAccessRightAccessPointsResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3819,7 +3826,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessPointsResponse() {
+    public ListAccessRightAccessPointsResponse() {
       OnConstruction();
     }
 
@@ -3827,32 +3834,32 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessPointsResponse(ListAccessPointsResponse other) : this() {
-      accessPoints_ = other.accessPoints_.Clone();
+    public ListAccessRightAccessPointsResponse(ListAccessRightAccessPointsResponse other) : this() {
+      accessRightAccessPoints_ = other.accessRightAccessPoints_.Clone();
       nextPageToken_ = other.nextPageToken_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessPointsResponse Clone() {
-      return new ListAccessPointsResponse(this);
+    public ListAccessRightAccessPointsResponse Clone() {
+      return new ListAccessRightAccessPointsResponse(this);
     }
 
-    /// <summary>Field number for the "access_points" field.</summary>
-    public const int AccessPointsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> _repeated_accessPoints_codec
-        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.AccessRight.V1.AccessPoint.Parser);
-    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> accessPoints_ = new pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint>();
+    /// <summary>Field number for the "access_right_access_points" field.</summary>
+    public const int AccessRightAccessPointsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint> _repeated_accessRightAccessPoints_codec
+        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint> accessRightAccessPoints_ = new pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint>();
     /// <summary>
-    /// The field name should match the noun `access_points` in the method name.
-    /// There will be a maximum number of items returned based on the `page_size`
-    /// field in the request.
+    /// The field name should match the noun `access_right_access_points` in the
+    /// method name. There will be a maximum number of items returned based on
+    /// the `page_size` field in the request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.AccessPoint> AccessPoints {
-      get { return accessPoints_; }
+    public pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint> AccessRightAccessPoints {
+      get { return accessRightAccessPoints_; }
     }
 
     /// <summary>Field number for the "next_page_token" field.</summary>
@@ -3874,19 +3881,19 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as ListAccessPointsResponse);
+      return Equals(other as ListAccessRightAccessPointsResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ListAccessPointsResponse other) {
+    public bool Equals(ListAccessRightAccessPointsResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!accessPoints_.Equals(other.accessPoints_)) return false;
+      if(!accessRightAccessPoints_.Equals(other.accessRightAccessPoints_)) return false;
       if (NextPageToken != other.NextPageToken) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3895,7 +3902,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= accessPoints_.GetHashCode();
+      hash ^= accessRightAccessPoints_.GetHashCode();
       if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3915,7 +3922,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      accessPoints_.WriteTo(output, _repeated_accessPoints_codec);
+      accessRightAccessPoints_.WriteTo(output, _repeated_accessRightAccessPoints_codec);
       if (NextPageToken.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
@@ -3930,7 +3937,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      accessPoints_.WriteTo(ref output, _repeated_accessPoints_codec);
+      accessRightAccessPoints_.WriteTo(ref output, _repeated_accessRightAccessPoints_codec);
       if (NextPageToken.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
@@ -3945,7 +3952,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      size += accessPoints_.CalculateSize(_repeated_accessPoints_codec);
+      size += accessRightAccessPoints_.CalculateSize(_repeated_accessRightAccessPoints_codec);
       if (NextPageToken.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
       }
@@ -3957,11 +3964,11 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ListAccessPointsResponse other) {
+    public void MergeFrom(ListAccessRightAccessPointsResponse other) {
       if (other == null) {
         return;
       }
-      accessPoints_.Add(other.accessPoints_);
+      accessRightAccessPoints_.Add(other.accessRightAccessPoints_);
       if (other.NextPageToken.Length != 0) {
         NextPageToken = other.NextPageToken;
       }
@@ -3981,7 +3988,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            accessPoints_.AddEntriesFrom(input, _repeated_accessPoints_codec);
+            accessRightAccessPoints_.AddEntriesFrom(input, _repeated_accessRightAccessPoints_codec);
             break;
           }
           case 18: {
@@ -4004,7 +4011,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            accessPoints_.AddEntriesFrom(ref input, _repeated_accessPoints_codec);
+            accessRightAccessPoints_.AddEntriesFrom(ref input, _repeated_accessRightAccessPoints_codec);
             break;
           }
           case 18: {
@@ -4019,18 +4026,18 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   }
 
   /// <summary>
-  /// The request message for [`UpdateAccessPoint`][salto.nebula.accessright.v1.AccessRightService.UpdateAccessPoint]
+  /// The request message for [`UpdateAccessRightAccessPoint`][salto.nebula.accessright.v1.AccessRightService.UpdateAccessRightAccessPoint]
   /// </summary>
-  public sealed partial class UpdateAccessPointRequest : pb::IMessage<UpdateAccessPointRequest>
+  public sealed partial class UpdateAccessRightAccessPointRequest : pb::IMessage<UpdateAccessRightAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<UpdateAccessPointRequest> _parser = new pb::MessageParser<UpdateAccessPointRequest>(() => new UpdateAccessPointRequest());
+    private static readonly pb::MessageParser<UpdateAccessRightAccessPointRequest> _parser = new pb::MessageParser<UpdateAccessRightAccessPointRequest>(() => new UpdateAccessRightAccessPointRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<UpdateAccessPointRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<UpdateAccessRightAccessPointRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4046,7 +4053,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateAccessPointRequest() {
+    public UpdateAccessRightAccessPointRequest() {
       OnConstruction();
     }
 
@@ -4054,31 +4061,31 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateAccessPointRequest(UpdateAccessPointRequest other) : this() {
-      accessPoint_ = other.accessPoint_ != null ? other.accessPoint_.Clone() : null;
+    public UpdateAccessRightAccessPointRequest(UpdateAccessRightAccessPointRequest other) : this() {
+      accessRightAccessPoint_ = other.accessRightAccessPoint_ != null ? other.accessRightAccessPoint_.Clone() : null;
       updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateAccessPointRequest Clone() {
-      return new UpdateAccessPointRequest(this);
+    public UpdateAccessRightAccessPointRequest Clone() {
+      return new UpdateAccessRightAccessPointRequest(this);
     }
 
-    /// <summary>Field number for the "access_point" field.</summary>
-    public const int AccessPointFieldNumber = 1;
-    private global::Saltoapis.Nebula.AccessRight.V1.AccessPoint accessPoint_;
+    /// <summary>Field number for the "access_right_access_point" field.</summary>
+    public const int AccessRightAccessPointFieldNumber = 1;
+    private global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint accessRightAccessPoint_;
     /// <summary>
     /// The access right's access point resource which replaces the resource on
     /// the server.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Saltoapis.Nebula.AccessRight.V1.AccessPoint AccessPoint {
-      get { return accessPoint_; }
+    public global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint AccessRightAccessPoint {
+      get { return accessRightAccessPoint_; }
       set {
-        accessPoint_ = value;
+        accessRightAccessPoint_ = value;
       }
     }
 
@@ -4100,19 +4107,19 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as UpdateAccessPointRequest);
+      return Equals(other as UpdateAccessRightAccessPointRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(UpdateAccessPointRequest other) {
+    public bool Equals(UpdateAccessRightAccessPointRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(AccessPoint, other.AccessPoint)) return false;
+      if (!object.Equals(AccessRightAccessPoint, other.AccessRightAccessPoint)) return false;
       if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4121,7 +4128,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (accessPoint_ != null) hash ^= AccessPoint.GetHashCode();
+      if (accessRightAccessPoint_ != null) hash ^= AccessRightAccessPoint.GetHashCode();
       if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4141,9 +4148,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (accessPoint_ != null) {
+      if (accessRightAccessPoint_ != null) {
         output.WriteRawTag(10);
-        output.WriteMessage(AccessPoint);
+        output.WriteMessage(AccessRightAccessPoint);
       }
       if (updateMask_ != null) {
         output.WriteRawTag(18);
@@ -4159,9 +4166,9 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (accessPoint_ != null) {
+      if (accessRightAccessPoint_ != null) {
         output.WriteRawTag(10);
-        output.WriteMessage(AccessPoint);
+        output.WriteMessage(AccessRightAccessPoint);
       }
       if (updateMask_ != null) {
         output.WriteRawTag(18);
@@ -4177,8 +4184,8 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (accessPoint_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessPoint);
+      if (accessRightAccessPoint_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessRightAccessPoint);
       }
       if (updateMask_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
@@ -4191,15 +4198,15 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(UpdateAccessPointRequest other) {
+    public void MergeFrom(UpdateAccessRightAccessPointRequest other) {
       if (other == null) {
         return;
       }
-      if (other.accessPoint_ != null) {
-        if (accessPoint_ == null) {
-          AccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessPoint();
+      if (other.accessRightAccessPoint_ != null) {
+        if (accessRightAccessPoint_ == null) {
+          AccessRightAccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint();
         }
-        AccessPoint.MergeFrom(other.AccessPoint);
+        AccessRightAccessPoint.MergeFrom(other.AccessRightAccessPoint);
       }
       if (other.updateMask_ != null) {
         if (updateMask_ == null) {
@@ -4223,10 +4230,10 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (accessPoint_ == null) {
-              AccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessPoint();
+            if (accessRightAccessPoint_ == null) {
+              AccessRightAccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint();
             }
-            input.ReadMessage(AccessPoint);
+            input.ReadMessage(AccessRightAccessPoint);
             break;
           }
           case 18: {
@@ -4252,10 +4259,10 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (accessPoint_ == null) {
-              AccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessPoint();
+            if (accessRightAccessPoint_ == null) {
+              AccessRightAccessPoint = new global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint();
             }
-            input.ReadMessage(AccessPoint);
+            input.ReadMessage(AccessRightAccessPoint);
             break;
           }
           case 18: {
@@ -4273,18 +4280,18 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   }
 
   /// <summary>
-  /// The request message for [`DeleteAccessPoint`][salto.nebula.accessright.v1.AccessRightService.DeleteAccessPoint]
+  /// The request message for [`DeleteAccessRightAccessPoint`][salto.nebula.accessright.v1.AccessRightService.DeleteAccessRightAccessPoint]
   /// </summary>
-  public sealed partial class DeleteAccessPointRequest : pb::IMessage<DeleteAccessPointRequest>
+  public sealed partial class DeleteAccessRightAccessPointRequest : pb::IMessage<DeleteAccessRightAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<DeleteAccessPointRequest> _parser = new pb::MessageParser<DeleteAccessPointRequest>(() => new DeleteAccessPointRequest());
+    private static readonly pb::MessageParser<DeleteAccessRightAccessPointRequest> _parser = new pb::MessageParser<DeleteAccessRightAccessPointRequest>(() => new DeleteAccessRightAccessPointRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DeleteAccessPointRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<DeleteAccessRightAccessPointRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4300,7 +4307,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAccessPointRequest() {
+    public DeleteAccessRightAccessPointRequest() {
       OnConstruction();
     }
 
@@ -4308,15 +4315,15 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAccessPointRequest(DeleteAccessPointRequest other) : this() {
+    public DeleteAccessRightAccessPointRequest(DeleteAccessRightAccessPointRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAccessPointRequest Clone() {
-      return new DeleteAccessPointRequest(this);
+    public DeleteAccessRightAccessPointRequest Clone() {
+      return new DeleteAccessRightAccessPointRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -4339,12 +4346,12 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as DeleteAccessPointRequest);
+      return Equals(other as DeleteAccessRightAccessPointRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DeleteAccessPointRequest other) {
+    public bool Equals(DeleteAccessRightAccessPointRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -4417,7 +4424,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DeleteAccessPointRequest other) {
+    public void MergeFrom(DeleteAccessRightAccessPointRequest other) {
       if (other == null) {
         return;
       }
