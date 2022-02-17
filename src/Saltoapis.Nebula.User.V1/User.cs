@@ -40,112 +40,115 @@ namespace Saltoapis.Nebula.User.V1 {
             "d2FsbGV0X2tleRgMIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxl",
             "dEtleRIVCg11cGRhdGVfYXV0aG9yGA0gASgJEi8KC3VwZGF0ZV90aW1lGA4g",
             "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEIOCgxfZmFtaWx5X25h",
-            "bWUiwQEKC0FjY2Vzc1JpZ2h0EgwKBG5hbWUYASABKAkSFAoMYWNjZXNzX3Jp",
-            "Z2h0GAIgASgJEhQKDGRpc3BsYXlfbmFtZRgDIAEoCRIwCghzY2hlZHVsZRgE",
-            "IAEoCzIeLnNhbHRvLm5lYnVsYS51c2VyLnYxLlNjaGVkdWxlEhUKDXVwZGF0",
-            "ZV9hdXRob3IYBSABKAkSLwoLdXBkYXRlX3RpbWUYBiABKAsyGi5nb29nbGUu",
-            "cHJvdG9idWYuVGltZXN0YW1wIrUBCgdDYXJkS2V5EgwKBG5hbWUYASABKAkS",
-            "CwoDdWlkGAIgASgJEjIKBXN0YXRlGAMgASgOMiMuc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuQ2FyZEtleS5TdGF0ZRIQCghvdXRkYXRlZBgEIAEoCCJJCgVTdGF0",
-            "ZRIVChFTVEFURV9VTlNQRUNJRklFRBAAEhAKDE5PVF9BU1NJR05FRBABEgsK",
-            "B1BFTkRJTkcQAhIKCgZBQ1RJVkUQAyK7AQoGQXBwS2V5EgwKBG5hbWUYASAB",
-            "KAkSEwoLZGlnaXRhbF9rZXkYAiABKAkSMQoFc3RhdGUYBCABKA4yIi5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5BcHBLZXkuU3RhdGUSEAoIb3V0ZGF0ZWQYBSAB",
-            "KAgiSQoFU3RhdGUSFQoRU1RBVEVfVU5TUEVDSUZJRUQQABIQCgxOT1RfQVNT",
-            "SUdORUQQARILCgdQRU5ESU5HEAISCgoGQUNUSVZFEAMiwQEKCVdhbGxldEtl",
-            "eRIMCgRuYW1lGAEgASgJEhMKC2RpZ2l0YWxfa2V5GAIgASgJEjQKBXN0YXRl",
-            "GAMgASgOMiUuc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5LlN0YXRl",
-            "EhAKCG91dGRhdGVkGAQgASgIIkkKBVN0YXRlEhUKEVNUQVRFX1VOU1BFQ0lG",
-            "SUVEEAASEAoMTk9UX0FTU0lHTkVEEAESCwoHUEVORElORxACEgoKBkFDVElW",
-            "RRADIvEBCghTY2hlZHVsZRIwCgRkYXlzGAEgAygLMiIuc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuU2NoZWR1bGUuRGF5EikKCnN0YXJ0X3RpbWUYAiABKAsyFS5z",
-            "YWx0by50eXBlLlRpbWVPZkRheRInCghlbmRfdGltZRgDIAEoCzIVLnNhbHRv",
-            "LnR5cGUuVGltZU9mRGF5Gl8KA0RheRIsCghkYXlfdHlwZRgBIAEoDjIaLnNh",
-            "bHRvLm5lYnVsYS50eXBlLkRheVR5cGUSKgoLZGF5X29mX3dlZWsYAiABKA4y",
-            "FS5zYWx0by50eXBlLkRheU9mV2VlayJeChFDcmVhdGVVc2VyUmVxdWVzdBIO",
-            "CgZwYXJlbnQYASABKAkSDwoHdXNlcl9pZBgCIAEoCRIoCgR1c2VyGAMgASgL",
-            "Mhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlciIeCg5HZXRVc2VyUmVxdWVz",
-            "dBIMCgRuYW1lGAEgASgJImsKEExpc3RVc2Vyc1JlcXVlc3QSDgoGcGFyZW50",
-            "GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJ",
-            "Eg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJrChFMaXN0VXNl",
-            "cnNSZXNwb25zZRIpCgV1c2VycxgBIAMoCzIaLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLlVzZXISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJEhIKCnRvdGFsX3Np",
-            "emUYAyABKAUibgoRVXBkYXRlVXNlclJlcXVlc3QSKAoEdXNlchgBIAEoCzIa",
-            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISLwoLdXBkYXRlX21hc2sYAiAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiEKEURlbGV0ZVVzZXJS",
-            "ZXF1ZXN0EgwKBG5hbWUYASABKAkiYwoYQ3JlYXRlQWNjZXNzUmlnaHRSZXF1",
-            "ZXN0Eg4KBnBhcmVudBgBIAEoCRI3CgxhY2Nlc3NfcmlnaHQYAiABKAsyIS5z",
-            "YWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdodCIlChVHZXRBY2Nlc3NS",
-            "aWdodFJlcXVlc3QSDAoEbmFtZRgBIAEoCSJyChdMaXN0QWNjZXNzUmlnaHRz",
-            "UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIK",
-            "CnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5",
-            "GAUgASgJIm0KGExpc3RBY2Nlc3NSaWdodHNSZXNwb25zZRI4Cg1hY2Nlc3Nf",
-            "cmlnaHRzGAEgAygLMiEuc2FsdG8ubmVidWxhLnVzZXIudjEuQWNjZXNzUmln",
-            "aHQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIoQBChhVcGRhdGVBY2Nlc3NS",
-            "aWdodFJlcXVlc3QSNwoMYWNjZXNzX3JpZ2h0GAEgASgLMiEuc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuQWNjZXNzUmlnaHQSLwoLdXBkYXRlX21hc2sYAiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIigKGERlbGV0ZUFjY2Vzc1Jp",
-            "Z2h0UmVxdWVzdBIMCgRuYW1lGAEgASgJIjEKFEFzc2lnbkNhcmRLZXlSZXF1",
-            "ZXN0EgwKBG5hbWUYASABKAkSCwoDdWlkGAIgASgJIiQKFENhbmNlbENhcmRL",
-            "ZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiXAoURW5jb2RlQ2FyZEtleVJlcXVl",
-            "c3QSDAoEbmFtZRgBIAEoCRIRCgdlbmNvZGVyGAIgASgJSAASGQoPZWxlY3Ry",
-            "b25pY19sb2NrGAMgASgJSABCCAoGZGV2aWNlIiMKE0Fzc2lnbkFwcEtleVJl",
-            "cXVlc3QSDAoEbmFtZRgBIAEoCSIjChNDYW5jZWxBcHBLZXlSZXF1ZXN0EgwK",
-            "BG5hbWUYASABKAkiKAoYQ29tcHV0ZUFwcEtleURhdGFSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkiKQoZQ29tcHV0ZUFwcEtleURhdGFSZXNwb25zZRIMCgRkYXRh",
-            "GAEgASgMIiYKFkFzc2lnbldhbGxldEtleVJlcXVlc3QSDAoEbmFtZRgBIAEo",
-            "CSJiChdBc3NpZ25XYWxsZXRLZXlSZXNwb25zZRIzCgp3YWxsZXRfa2V5GAEg",
-            "ASgLMh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5EhIKCmFjY2Vz",
-            "c191cmkYAiABKAkiJgoWQ2FuY2VsV2FsbGV0S2V5UmVxdWVzdBIMCgRuYW1l",
-            "GAEgASgJIk4KF0NhbmNlbFdhbGxldEtleVJlc3BvbnNlEjMKCndhbGxldF9r",
-            "ZXkYASABKAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkyxA0K",
-            "C1VzZXJTZXJ2aWNlElEKCkNyZWF0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5DcmVhdGVVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LlVzZXISSwoHR2V0VXNlchIkLnNhbHRvLm5lYnVsYS51c2VyLnYxLkdldFVz",
-            "ZXJSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchJcCglMaXN0",
-            "VXNlcnMSJi5zYWx0by5uZWJ1bGEudXNlci52MS5MaXN0VXNlcnNSZXF1ZXN0",
-            "Gicuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVzZXJzUmVzcG9uc2USUQoK",
-            "VXBkYXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZVVzZXJS",
-            "ZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchJNCgpEZWxldGVV",
-            "c2VyEicuc2FsdG8ubmVidWxhLnVzZXIudjEuRGVsZXRlVXNlclJlcXVlc3Qa",
-            "Fi5nb29nbGUucHJvdG9idWYuRW1wdHkSZgoRQ3JlYXRlQWNjZXNzUmlnaHQS",
-            "Li5zYWx0by5uZWJ1bGEudXNlci52MS5DcmVhdGVBY2Nlc3NSaWdodFJlcXVl",
-            "c3QaIS5zYWx0by5uZWJ1bGEudXNlci52MS5BY2Nlc3NSaWdodBJgCg5HZXRB",
-            "Y2Nlc3NSaWdodBIrLnNhbHRvLm5lYnVsYS51c2VyLnYxLkdldEFjY2Vzc1Jp",
-            "Z2h0UmVxdWVzdBohLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0",
-            "EnEKEExpc3RBY2Nlc3NSaWdodHMSLS5zYWx0by5uZWJ1bGEudXNlci52MS5M",
-            "aXN0QWNjZXNzUmlnaHRzUmVxdWVzdBouLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "Lkxpc3RBY2Nlc3NSaWdodHNSZXNwb25zZRJmChFVcGRhdGVBY2Nlc3NSaWdo",
-            "dBIuLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVwZGF0ZUFjY2Vzc1JpZ2h0UmVx",
-            "dWVzdBohLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFjY2Vzc1JpZ2h0ElsKEURl",
-            "bGV0ZUFjY2Vzc1JpZ2h0Ei4uc2FsdG8ubmVidWxhLnVzZXIudjEuRGVsZXRl",
-            "QWNjZXNzUmlnaHRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EloK",
-            "DUFzc2lnbkNhcmRLZXkSKi5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25D",
-            "YXJkS2V5UmVxdWVzdBodLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhcmRLZXkS",
-            "WgoNQ2FuY2VsQ2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNl",
-            "bENhcmRLZXlSZXF1ZXN0Gh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtl",
-            "eRJTCg1FbmNvZGVDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIudjEuRW5j",
-            "b2RlQ2FyZEtleVJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSVwoM",
-            "QXNzaWduQXBwS2V5Eikuc2FsdG8ubmVidWxhLnVzZXIudjEuQXNzaWduQXBw",
-            "S2V5UmVxdWVzdBocLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleRJXCgxD",
-            "YW5jZWxBcHBLZXkSKS5zYWx0by5uZWJ1bGEudXNlci52MS5DYW5jZWxBcHBL",
-            "ZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5EnQKEUNv",
-            "bXB1dGVBcHBLZXlEYXRhEi4uc2FsdG8ubmVidWxhLnVzZXIudjEuQ29tcHV0",
-            "ZUFwcEtleURhdGFSZXF1ZXN0Gi8uc2FsdG8ubmVidWxhLnVzZXIudjEuQ29t",
-            "cHV0ZUFwcEtleURhdGFSZXNwb25zZRJuCg9Bc3NpZ25XYWxsZXRLZXkSLC5z",
-            "YWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25XYWxsZXRLZXlSZXF1ZXN0Gi0u",
-            "c2FsdG8ubmVidWxhLnVzZXIudjEuQXNzaWduV2FsbGV0S2V5UmVzcG9uc2US",
-            "bgoPQ2FuY2VsV2FsbGV0S2V5Eiwuc2FsdG8ubmVidWxhLnVzZXIudjEuQ2Fu",
-            "Y2VsV2FsbGV0S2V5UmVxdWVzdBotLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNh",
-            "bmNlbFdhbGxldEtleVJlc3BvbnNlQoUBChxjb20uc2FsdG9hcGlzLm5lYnVs",
-            "YS51c2VyLnYxQglVc2VyUHJvdG9QAVo9Z2l0aHViLmNvbS9wcml2YXRlLXNh",
-            "bHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL3VzZXIvdjE7dXNlcqoCGFNh",
-            "bHRvYXBpcy5OZWJ1bGEuVXNlci5WMWIGcHJvdG8z"));
+            "bWUixQEKD1VzZXJBY2Nlc3NSaWdodBIMCgRuYW1lGAEgASgJEhQKDGFjY2Vz",
+            "c19yaWdodBgCIAEoCRIUCgxkaXNwbGF5X25hbWUYAyABKAkSMAoIc2NoZWR1",
+            "bGUYBCABKAsyHi5zYWx0by5uZWJ1bGEudXNlci52MS5TY2hlZHVsZRIVCg11",
+            "cGRhdGVfYXV0aG9yGAUgASgJEi8KC3VwZGF0ZV90aW1lGAYgASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcCK1AQoHQ2FyZEtleRIMCgRuYW1lGAEg",
+            "ASgJEgsKA3VpZBgCIAEoCRIyCgVzdGF0ZRgDIAEoDjIjLnNhbHRvLm5lYnVs",
+            "YS51c2VyLnYxLkNhcmRLZXkuU3RhdGUSEAoIb3V0ZGF0ZWQYBCABKAgiSQoF",
+            "U3RhdGUSFQoRU1RBVEVfVU5TUEVDSUZJRUQQABIQCgxOT1RfQVNTSUdORUQQ",
+            "ARILCgdQRU5ESU5HEAISCgoGQUNUSVZFEAMiuwEKBkFwcEtleRIMCgRuYW1l",
+            "GAEgASgJEhMKC2RpZ2l0YWxfa2V5GAIgASgJEjEKBXN0YXRlGAQgASgOMiIu",
+            "c2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5LlN0YXRlEhAKCG91dGRhdGVk",
+            "GAUgASgIIkkKBVN0YXRlEhUKEVNUQVRFX1VOU1BFQ0lGSUVEEAASEAoMTk9U",
+            "X0FTU0lHTkVEEAESCwoHUEVORElORxACEgoKBkFDVElWRRADIsEBCglXYWxs",
+            "ZXRLZXkSDAoEbmFtZRgBIAEoCRITCgtkaWdpdGFsX2tleRgCIAEoCRI0CgVz",
+            "dGF0ZRgDIAEoDjIlLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtleS5T",
+            "dGF0ZRIQCghvdXRkYXRlZBgEIAEoCCJJCgVTdGF0ZRIVChFTVEFURV9VTlNQ",
+            "RUNJRklFRBAAEhAKDE5PVF9BU1NJR05FRBABEgsKB1BFTkRJTkcQAhIKCgZB",
+            "Q1RJVkUQAyLxAQoIU2NoZWR1bGUSMAoEZGF5cxgBIAMoCzIiLnNhbHRvLm5l",
+            "YnVsYS51c2VyLnYxLlNjaGVkdWxlLkRheRIpCgpzdGFydF90aW1lGAIgASgL",
+            "MhUuc2FsdG8udHlwZS5UaW1lT2ZEYXkSJwoIZW5kX3RpbWUYAyABKAsyFS5z",
+            "YWx0by50eXBlLlRpbWVPZkRheRpfCgNEYXkSLAoIZGF5X3R5cGUYASABKA4y",
+            "Gi5zYWx0by5uZWJ1bGEudHlwZS5EYXlUeXBlEioKC2RheV9vZl93ZWVrGAIg",
+            "ASgOMhUuc2FsdG8udHlwZS5EYXlPZldlZWsiXgoRQ3JlYXRlVXNlclJlcXVl",
+            "c3QSDgoGcGFyZW50GAEgASgJEg8KB3VzZXJfaWQYAiABKAkSKAoEdXNlchgD",
+            "IAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIiHgoOR2V0VXNlclJl",
+            "cXVlc3QSDAoEbmFtZRgBIAEoCSJrChBMaXN0VXNlcnNSZXF1ZXN0Eg4KBnBh",
+            "cmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgD",
+            "IAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiawoRTGlz",
+            "dFVzZXJzUmVzcG9uc2USKQoFdXNlcnMYASADKAsyGi5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5Vc2VyEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCRISCgp0b3Rh",
+            "bF9zaXplGAMgASgFIm4KEVVwZGF0ZVVzZXJSZXF1ZXN0EigKBHVzZXIYASAB",
+            "KAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi8KC3VwZGF0ZV9tYXNr",
+            "GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIhChFEZWxldGVV",
+            "c2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJInAKHENyZWF0ZVVzZXJBY2Nlc3NS",
+            "aWdodFJlcXVlc3QSDgoGcGFyZW50GAEgASgJEkAKEXVzZXJfYWNjZXNzX3Jp",
+            "Z2h0GAIgASgLMiUuc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlckFjY2Vzc1Jp",
+            "Z2h0IikKGUdldFVzZXJBY2Nlc3NSaWdodFJlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CSJ2ChtMaXN0VXNlckFjY2Vzc1JpZ2h0c1JlcXVlc3QSDgoGcGFyZW50GAEg",
+            "ASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4K",
+            "BmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJ6ChxMaXN0VXNlckFj",
+            "Y2Vzc1JpZ2h0c1Jlc3BvbnNlEkEKEnVzZXJfYWNjZXNzX3JpZ2h0cxgBIAMo",
+            "CzIlLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nlc3NSaWdodBIXCg9u",
+            "ZXh0X3BhZ2VfdG9rZW4YAiABKAkikQEKHFVwZGF0ZVVzZXJBY2Nlc3NSaWdo",
+            "dFJlcXVlc3QSQAoRdXNlcl9hY2Nlc3NfcmlnaHQYASABKAsyJS5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5Vc2VyQWNjZXNzUmlnaHQSLwoLdXBkYXRlX21hc2sY",
+            "AiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiwKHERlbGV0ZVVz",
+            "ZXJBY2Nlc3NSaWdodFJlcXVlc3QSDAoEbmFtZRgBIAEoCSIxChRBc3NpZ25D",
+            "YXJkS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJEgsKA3VpZBgCIAEoCSIkChRD",
+            "YW5jZWxDYXJkS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJIlwKFEVuY29kZUNh",
+            "cmRLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoHZW5jb2RlchgCIAEoCUgA",
+            "EhkKD2VsZWN0cm9uaWNfbG9jaxgDIAEoCUgAQggKBmRldmljZSIjChNBc3Np",
+            "Z25BcHBLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiIwoTQ2FuY2VsQXBwS2V5",
+            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIigKGENvbXB1dGVBcHBLZXlEYXRhUmVx",
+            "dWVzdBIMCgRuYW1lGAEgASgJIikKGUNvbXB1dGVBcHBLZXlEYXRhUmVzcG9u",
+            "c2USDAoEZGF0YRgBIAEoDCImChZBc3NpZ25XYWxsZXRLZXlSZXF1ZXN0EgwK",
+            "BG5hbWUYASABKAkiYgoXQXNzaWduV2FsbGV0S2V5UmVzcG9uc2USMwoKd2Fs",
+            "bGV0X2tleRgBIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtl",
+            "eRISCgphY2Nlc3NfdXJpGAIgASgJIiYKFkNhbmNlbFdhbGxldEtleVJlcXVl",
+            "c3QSDAoEbmFtZRgBIAEoCSJOChdDYW5jZWxXYWxsZXRLZXlSZXNwb25zZRIz",
+            "Cgp3YWxsZXRfa2V5GAEgASgLMh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2Fs",
+            "bGV0S2V5MvwNCgtVc2VyU2VydmljZRJRCgpDcmVhdGVVc2VyEicuc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuQ3JlYXRlVXNlclJlcXVlc3QaGi5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5Vc2VyEksKB0dldFVzZXISJC5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5HZXRVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVz",
+            "ZXISXAoJTGlzdFVzZXJzEiYuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVz",
+            "ZXJzUmVxdWVzdBonLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RVc2Vyc1Jl",
+            "c3BvbnNlElEKClVwZGF0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNlci52MS5V",
+            "cGRhdGVVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIS",
+            "TQoKRGVsZXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLkRlbGV0ZVVz",
+            "ZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EnIKFUNyZWF0ZVVz",
+            "ZXJBY2Nlc3NSaWdodBIyLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNyZWF0ZVVz",
+            "ZXJBY2Nlc3NSaWdodFJlcXVlc3QaJS5zYWx0by5uZWJ1bGEudXNlci52MS5V",
+            "c2VyQWNjZXNzUmlnaHQSbAoSR2V0VXNlckFjY2Vzc1JpZ2h0Ei8uc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuR2V0VXNlckFjY2Vzc1JpZ2h0UmVxdWVzdBolLnNh",
+            "bHRvLm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nlc3NSaWdodBJ9ChRMaXN0VXNl",
+            "ckFjY2Vzc1JpZ2h0cxIxLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RVc2Vy",
+            "QWNjZXNzUmlnaHRzUmVxdWVzdBoyLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxp",
+            "c3RVc2VyQWNjZXNzUmlnaHRzUmVzcG9uc2UScgoVVXBkYXRlVXNlckFjY2Vz",
+            "c1JpZ2h0EjIuc2FsdG8ubmVidWxhLnVzZXIudjEuVXBkYXRlVXNlckFjY2Vz",
+            "c1JpZ2h0UmVxdWVzdBolLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nl",
+            "c3NSaWdodBJjChVEZWxldGVVc2VyQWNjZXNzUmlnaHQSMi5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5EZWxldGVVc2VyQWNjZXNzUmlnaHRSZXF1ZXN0GhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5EloKDUFzc2lnbkNhcmRLZXkSKi5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5Bc3NpZ25DYXJkS2V5UmVxdWVzdBodLnNhbHRvLm5l",
+            "YnVsYS51c2VyLnYxLkNhcmRLZXkSWgoNQ2FuY2VsQ2FyZEtleRIqLnNhbHRv",
+            "Lm5lYnVsYS51c2VyLnYxLkNhbmNlbENhcmRLZXlSZXF1ZXN0Gh0uc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuQ2FyZEtleRJTCg1FbmNvZGVDYXJkS2V5Eiouc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuRW5jb2RlQ2FyZEtleVJlcXVlc3QaFi5nb29n",
+            "bGUucHJvdG9idWYuRW1wdHkSVwoMQXNzaWduQXBwS2V5Eikuc2FsdG8ubmVi",
+            "dWxhLnVzZXIudjEuQXNzaWduQXBwS2V5UmVxdWVzdBocLnNhbHRvLm5lYnVs",
+            "YS51c2VyLnYxLkFwcEtleRJXCgxDYW5jZWxBcHBLZXkSKS5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5DYW5jZWxBcHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuQXBwS2V5EnQKEUNvbXB1dGVBcHBLZXlEYXRhEi4uc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuQ29tcHV0ZUFwcEtleURhdGFSZXF1ZXN0Gi8uc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuQ29tcHV0ZUFwcEtleURhdGFSZXNwb25zZRJu",
+            "Cg9Bc3NpZ25XYWxsZXRLZXkSLC5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3Np",
+            "Z25XYWxsZXRLZXlSZXF1ZXN0Gi0uc2FsdG8ubmVidWxhLnVzZXIudjEuQXNz",
+            "aWduV2FsbGV0S2V5UmVzcG9uc2USbgoPQ2FuY2VsV2FsbGV0S2V5Eiwuc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuQ2FuY2VsV2FsbGV0S2V5UmVxdWVzdBotLnNh",
+            "bHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbFdhbGxldEtleVJlc3BvbnNlQoUB",
+            "Chxjb20uc2FsdG9hcGlzLm5lYnVsYS51c2VyLnYxQglVc2VyUHJvdG9QAVo9",
+            "Z2l0aHViLmNvbS9wcml2YXRlLXNhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVi",
+            "dWxhL3VzZXIvdjE7dXNlcqoCGFNhbHRvYXBpcy5OZWJ1bGEuVXNlci5WMWIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.User), global::Saltoapis.Nebula.User.V1.User.Parser, new[]{ "Name", "GivenName", "FamilyName", "DisplayName", "Email", "ActivateTime", "ExpireTime", "Photo", "PhotoUri", "CardKey", "AppKey", "WalletKey", "UpdateAuthor", "UpdateTime" }, new[]{ "FamilyName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AccessRight), global::Saltoapis.Nebula.User.V1.AccessRight.Parser, new[]{ "Name", "AccessRight_", "DisplayName", "Schedule", "UpdateAuthor", "UpdateTime" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UserAccessRight), global::Saltoapis.Nebula.User.V1.UserAccessRight.Parser, new[]{ "Name", "AccessRight", "DisplayName", "Schedule", "UpdateAuthor", "UpdateTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CardKey), global::Saltoapis.Nebula.User.V1.CardKey.Parser, new[]{ "Name", "Uid", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AppKey), global::Saltoapis.Nebula.User.V1.AppKey.Parser, new[]{ "Name", "DigitalKey", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.AppKey.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.WalletKey), global::Saltoapis.Nebula.User.V1.WalletKey.Parser, new[]{ "Name", "DigitalKey", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.WalletKey.Types.State) }, null, null),
@@ -156,12 +159,12 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ListUsersResponse), global::Saltoapis.Nebula.User.V1.ListUsersResponse.Parser, new[]{ "Users", "NextPageToken", "TotalSize" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateUserRequest), global::Saltoapis.Nebula.User.V1.UpdateUserRequest.Parser, new[]{ "User", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.DeleteUserRequest), global::Saltoapis.Nebula.User.V1.DeleteUserRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest), global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest.Parser, new[]{ "Parent", "AccessRight" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.GetAccessRightRequest), global::Saltoapis.Nebula.User.V1.GetAccessRightRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest), global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse), global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse.Parser, new[]{ "AccessRights", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest), global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest.Parser, new[]{ "AccessRight", "UpdateMask" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest), global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest), global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest.Parser, new[]{ "Parent", "UserAccessRight" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest), global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest), global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse), global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse.Parser, new[]{ "UserAccessRights", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest), global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest.Parser, new[]{ "UserAccessRight", "UpdateMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest), global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest), global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest.Parser, new[]{ "Name", "Uid" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest), global::Saltoapis.Nebula.User.V1.CancelCardKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest), global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest.Parser, new[]{ "Name", "Encoder", "ElectronicLock" }, new[]{ "Device" }, null, null, null),
@@ -973,16 +976,16 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The user's access right association
   /// </summary>
-  public sealed partial class AccessRight : pb::IMessage<AccessRight>
+  public sealed partial class UserAccessRight : pb::IMessage<UserAccessRight>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<AccessRight> _parser = new pb::MessageParser<AccessRight>(() => new AccessRight());
+    private static readonly pb::MessageParser<UserAccessRight> _parser = new pb::MessageParser<UserAccessRight>(() => new UserAccessRight());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<AccessRight> Parser { get { return _parser; } }
+    public static pb::MessageParser<UserAccessRight> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -998,7 +1001,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public AccessRight() {
+    public UserAccessRight() {
       OnConstruction();
     }
 
@@ -1006,7 +1009,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public AccessRight(AccessRight other) : this() {
+    public UserAccessRight(UserAccessRight other) : this() {
       name_ = other.name_;
       accessRight_ = other.accessRight_;
       displayName_ = other.displayName_;
@@ -1018,8 +1021,8 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public AccessRight Clone() {
-      return new AccessRight(this);
+    public UserAccessRight Clone() {
+      return new UserAccessRight(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -1041,7 +1044,7 @@ namespace Saltoapis.Nebula.User.V1 {
     }
 
     /// <summary>Field number for the "access_right" field.</summary>
-    public const int AccessRight_FieldNumber = 2;
+    public const int AccessRightFieldNumber = 2;
     private string accessRight_ = "";
     /// <summary>
     /// The access right resource name to bind as an association to the parent
@@ -1050,7 +1053,7 @@ namespace Saltoapis.Nebula.User.V1 {
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string AccessRight_ {
+    public string AccessRight {
       get { return accessRight_; }
       set {
         accessRight_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
@@ -1121,12 +1124,12 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as AccessRight);
+      return Equals(other as UserAccessRight);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(AccessRight other) {
+    public bool Equals(UserAccessRight other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1134,7 +1137,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (AccessRight_ != other.AccessRight_) return false;
+      if (AccessRight != other.AccessRight) return false;
       if (DisplayName != other.DisplayName) return false;
       if (!object.Equals(Schedule, other.Schedule)) return false;
       if (UpdateAuthor != other.UpdateAuthor) return false;
@@ -1147,7 +1150,7 @@ namespace Saltoapis.Nebula.User.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (AccessRight_.Length != 0) hash ^= AccessRight_.GetHashCode();
+      if (AccessRight.Length != 0) hash ^= AccessRight.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (schedule_ != null) hash ^= Schedule.GetHashCode();
       if (UpdateAuthor.Length != 0) hash ^= UpdateAuthor.GetHashCode();
@@ -1174,9 +1177,9 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (AccessRight_.Length != 0) {
+      if (AccessRight.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(AccessRight_);
+        output.WriteString(AccessRight);
       }
       if (DisplayName.Length != 0) {
         output.WriteRawTag(26);
@@ -1208,9 +1211,9 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (AccessRight_.Length != 0) {
+      if (AccessRight.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(AccessRight_);
+        output.WriteString(AccessRight);
       }
       if (DisplayName.Length != 0) {
         output.WriteRawTag(26);
@@ -1241,8 +1244,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (AccessRight_.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessRight_);
+      if (AccessRight.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessRight);
       }
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
@@ -1264,15 +1267,15 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(AccessRight other) {
+    public void MergeFrom(UserAccessRight other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.AccessRight_.Length != 0) {
-        AccessRight_ = other.AccessRight_;
+      if (other.AccessRight.Length != 0) {
+        AccessRight = other.AccessRight;
       }
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
@@ -1312,7 +1315,7 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 18: {
-            AccessRight_ = input.ReadString();
+            AccessRight = input.ReadString();
             break;
           }
           case 26: {
@@ -1357,7 +1360,7 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 18: {
-            AccessRight_ = input.ReadString();
+            AccessRight = input.ReadString();
             break;
           }
           case 26: {
@@ -4547,18 +4550,18 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The request message for [`CreateAccessRight`][salto.nebula.user.v1.UserService.CreateAccessRight]
+  /// The request message for [`CreateUserAccessRight`][salto.nebula.user.v1.UserService.CreateUserAccessRight]
   /// </summary>
-  public sealed partial class CreateAccessRightRequest : pb::IMessage<CreateAccessRightRequest>
+  public sealed partial class CreateUserAccessRightRequest : pb::IMessage<CreateUserAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<CreateAccessRightRequest> _parser = new pb::MessageParser<CreateAccessRightRequest>(() => new CreateAccessRightRequest());
+    private static readonly pb::MessageParser<CreateUserAccessRightRequest> _parser = new pb::MessageParser<CreateUserAccessRightRequest>(() => new CreateUserAccessRightRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<CreateAccessRightRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<CreateUserAccessRightRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4574,7 +4577,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateAccessRightRequest() {
+    public CreateUserAccessRightRequest() {
       OnConstruction();
     }
 
@@ -4582,16 +4585,16 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateAccessRightRequest(CreateAccessRightRequest other) : this() {
+    public CreateUserAccessRightRequest(CreateUserAccessRightRequest other) : this() {
       parent_ = other.parent_;
-      accessRight_ = other.accessRight_ != null ? other.accessRight_.Clone() : null;
+      userAccessRight_ = other.userAccessRight_ != null ? other.userAccessRight_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateAccessRightRequest Clone() {
-      return new CreateAccessRightRequest(this);
+    public CreateUserAccessRightRequest Clone() {
+      return new CreateUserAccessRightRequest(this);
     }
 
     /// <summary>Field number for the "parent" field.</summary>
@@ -4611,31 +4614,31 @@ namespace Saltoapis.Nebula.User.V1 {
       }
     }
 
-    /// <summary>Field number for the "access_right" field.</summary>
-    public const int AccessRightFieldNumber = 2;
-    private global::Saltoapis.Nebula.User.V1.AccessRight accessRight_;
+    /// <summary>Field number for the "user_access_right" field.</summary>
+    public const int UserAccessRightFieldNumber = 2;
+    private global::Saltoapis.Nebula.User.V1.UserAccessRight userAccessRight_;
     /// <summary>
     /// The user's access right association resource to be created. Client must
-    /// not set the `AccessRight.name` field.
+    /// not set the `UserAccessRight.name` field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Saltoapis.Nebula.User.V1.AccessRight AccessRight {
-      get { return accessRight_; }
+    public global::Saltoapis.Nebula.User.V1.UserAccessRight UserAccessRight {
+      get { return userAccessRight_; }
       set {
-        accessRight_ = value;
+        userAccessRight_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as CreateAccessRightRequest);
+      return Equals(other as CreateUserAccessRightRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(CreateAccessRightRequest other) {
+    public bool Equals(CreateUserAccessRightRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -4643,7 +4646,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return true;
       }
       if (Parent != other.Parent) return false;
-      if (!object.Equals(AccessRight, other.AccessRight)) return false;
+      if (!object.Equals(UserAccessRight, other.UserAccessRight)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4652,7 +4655,7 @@ namespace Saltoapis.Nebula.User.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (accessRight_ != null) hash ^= AccessRight.GetHashCode();
+      if (userAccessRight_ != null) hash ^= UserAccessRight.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4675,9 +4678,9 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (accessRight_ != null) {
+      if (userAccessRight_ != null) {
         output.WriteRawTag(18);
-        output.WriteMessage(AccessRight);
+        output.WriteMessage(UserAccessRight);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -4693,9 +4696,9 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (accessRight_ != null) {
+      if (userAccessRight_ != null) {
         output.WriteRawTag(18);
-        output.WriteMessage(AccessRight);
+        output.WriteMessage(UserAccessRight);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -4710,8 +4713,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (Parent.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
       }
-      if (accessRight_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessRight);
+      if (userAccessRight_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UserAccessRight);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4721,18 +4724,18 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(CreateAccessRightRequest other) {
+    public void MergeFrom(CreateUserAccessRightRequest other) {
       if (other == null) {
         return;
       }
       if (other.Parent.Length != 0) {
         Parent = other.Parent;
       }
-      if (other.accessRight_ != null) {
-        if (accessRight_ == null) {
-          AccessRight = new global::Saltoapis.Nebula.User.V1.AccessRight();
+      if (other.userAccessRight_ != null) {
+        if (userAccessRight_ == null) {
+          UserAccessRight = new global::Saltoapis.Nebula.User.V1.UserAccessRight();
         }
-        AccessRight.MergeFrom(other.AccessRight);
+        UserAccessRight.MergeFrom(other.UserAccessRight);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4754,10 +4757,10 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 18: {
-            if (accessRight_ == null) {
-              AccessRight = new global::Saltoapis.Nebula.User.V1.AccessRight();
+            if (userAccessRight_ == null) {
+              UserAccessRight = new global::Saltoapis.Nebula.User.V1.UserAccessRight();
             }
-            input.ReadMessage(AccessRight);
+            input.ReadMessage(UserAccessRight);
             break;
           }
         }
@@ -4780,10 +4783,10 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           }
           case 18: {
-            if (accessRight_ == null) {
-              AccessRight = new global::Saltoapis.Nebula.User.V1.AccessRight();
+            if (userAccessRight_ == null) {
+              UserAccessRight = new global::Saltoapis.Nebula.User.V1.UserAccessRight();
             }
-            input.ReadMessage(AccessRight);
+            input.ReadMessage(UserAccessRight);
             break;
           }
         }
@@ -4794,18 +4797,18 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The request message for [`GetAccessRight`][salto.nebula.user.v1.UserService.GetAcessRight]
+  /// The request message for [`GetUserAccessRight`][salto.nebula.user.v1.UserService.GetUserAcessRight]
   /// </summary>
-  public sealed partial class GetAccessRightRequest : pb::IMessage<GetAccessRightRequest>
+  public sealed partial class GetUserAccessRightRequest : pb::IMessage<GetUserAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetAccessRightRequest> _parser = new pb::MessageParser<GetAccessRightRequest>(() => new GetAccessRightRequest());
+    private static readonly pb::MessageParser<GetUserAccessRightRequest> _parser = new pb::MessageParser<GetUserAccessRightRequest>(() => new GetUserAccessRightRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetAccessRightRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetUserAccessRightRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4821,7 +4824,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAccessRightRequest() {
+    public GetUserAccessRightRequest() {
       OnConstruction();
     }
 
@@ -4829,15 +4832,15 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAccessRightRequest(GetAccessRightRequest other) : this() {
+    public GetUserAccessRightRequest(GetUserAccessRightRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAccessRightRequest Clone() {
-      return new GetAccessRightRequest(this);
+    public GetUserAccessRightRequest Clone() {
+      return new GetUserAccessRightRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -4860,12 +4863,12 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetAccessRightRequest);
+      return Equals(other as GetUserAccessRightRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetAccessRightRequest other) {
+    public bool Equals(GetUserAccessRightRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -4938,7 +4941,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetAccessRightRequest other) {
+    public void MergeFrom(GetUserAccessRightRequest other) {
       if (other == null) {
         return;
       }
@@ -4991,18 +4994,18 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The request message for [`ListAccessRights`][salto.nebula.user.v1.UserService.ListAccessRights]
+  /// The request message for [`ListUserAccessRights`][salto.nebula.user.v1.UserService.ListUserAccessRights]
   /// </summary>
-  public sealed partial class ListAccessRightsRequest : pb::IMessage<ListAccessRightsRequest>
+  public sealed partial class ListUserAccessRightsRequest : pb::IMessage<ListUserAccessRightsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ListAccessRightsRequest> _parser = new pb::MessageParser<ListAccessRightsRequest>(() => new ListAccessRightsRequest());
+    private static readonly pb::MessageParser<ListUserAccessRightsRequest> _parser = new pb::MessageParser<ListUserAccessRightsRequest>(() => new ListUserAccessRightsRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ListAccessRightsRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<ListUserAccessRightsRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5018,7 +5021,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessRightsRequest() {
+    public ListUserAccessRightsRequest() {
       OnConstruction();
     }
 
@@ -5026,7 +5029,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessRightsRequest(ListAccessRightsRequest other) : this() {
+    public ListUserAccessRightsRequest(ListUserAccessRightsRequest other) : this() {
       parent_ = other.parent_;
       pageSize_ = other.pageSize_;
       pageToken_ = other.pageToken_;
@@ -5037,8 +5040,8 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessRightsRequest Clone() {
-      return new ListAccessRightsRequest(this);
+    public ListUserAccessRightsRequest Clone() {
+      return new ListUserAccessRightsRequest(this);
     }
 
     /// <summary>Field number for the "parent" field.</summary>
@@ -5122,12 +5125,12 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as ListAccessRightsRequest);
+      return Equals(other as ListUserAccessRightsRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ListAccessRightsRequest other) {
+    public bool Equals(ListUserAccessRightsRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -5252,7 +5255,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ListAccessRightsRequest other) {
+    public void MergeFrom(ListUserAccessRightsRequest other) {
       if (other == null) {
         return;
       }
@@ -5349,18 +5352,18 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The response message for [`ListAccessRights`][salto.nebula.user.v1.UserService.ListAccessRights]
+  /// The response message for [`ListUserAccessRights`][salto.nebula.user.v1.UserService.ListUserAccessRights]
   /// </summary>
-  public sealed partial class ListAccessRightsResponse : pb::IMessage<ListAccessRightsResponse>
+  public sealed partial class ListUserAccessRightsResponse : pb::IMessage<ListUserAccessRightsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ListAccessRightsResponse> _parser = new pb::MessageParser<ListAccessRightsResponse>(() => new ListAccessRightsResponse());
+    private static readonly pb::MessageParser<ListUserAccessRightsResponse> _parser = new pb::MessageParser<ListUserAccessRightsResponse>(() => new ListUserAccessRightsResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ListAccessRightsResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<ListUserAccessRightsResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5376,7 +5379,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessRightsResponse() {
+    public ListUserAccessRightsResponse() {
       OnConstruction();
     }
 
@@ -5384,32 +5387,32 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessRightsResponse(ListAccessRightsResponse other) : this() {
-      accessRights_ = other.accessRights_.Clone();
+    public ListUserAccessRightsResponse(ListUserAccessRightsResponse other) : this() {
+      userAccessRights_ = other.userAccessRights_.Clone();
       nextPageToken_ = other.nextPageToken_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ListAccessRightsResponse Clone() {
-      return new ListAccessRightsResponse(this);
+    public ListUserAccessRightsResponse Clone() {
+      return new ListUserAccessRightsResponse(this);
     }
 
-    /// <summary>Field number for the "access_rights" field.</summary>
-    public const int AccessRightsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.User.V1.AccessRight> _repeated_accessRights_codec
-        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.User.V1.AccessRight.Parser);
-    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.User.V1.AccessRight> accessRights_ = new pbc::RepeatedField<global::Saltoapis.Nebula.User.V1.AccessRight>();
+    /// <summary>Field number for the "user_access_rights" field.</summary>
+    public const int UserAccessRightsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.User.V1.UserAccessRight> _repeated_userAccessRights_codec
+        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.User.V1.UserAccessRight.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.User.V1.UserAccessRight> userAccessRights_ = new pbc::RepeatedField<global::Saltoapis.Nebula.User.V1.UserAccessRight>();
     /// <summary>
-    /// The field name should match the noun `access_rights` in the method name.
-    /// There will be a maximum number of items returned based on the `page_size`
-    /// field in the request.
+    /// The field name should match the noun `user_access_rights` in the method
+    /// name. There will be a maximum number of items returned based on the
+    /// `page_size` field in the request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Saltoapis.Nebula.User.V1.AccessRight> AccessRights {
-      get { return accessRights_; }
+    public pbc::RepeatedField<global::Saltoapis.Nebula.User.V1.UserAccessRight> UserAccessRights {
+      get { return userAccessRights_; }
     }
 
     /// <summary>Field number for the "next_page_token" field.</summary>
@@ -5431,19 +5434,19 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as ListAccessRightsResponse);
+      return Equals(other as ListUserAccessRightsResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ListAccessRightsResponse other) {
+    public bool Equals(ListUserAccessRightsResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!accessRights_.Equals(other.accessRights_)) return false;
+      if(!userAccessRights_.Equals(other.userAccessRights_)) return false;
       if (NextPageToken != other.NextPageToken) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -5452,7 +5455,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= accessRights_.GetHashCode();
+      hash ^= userAccessRights_.GetHashCode();
       if (NextPageToken.Length != 0) hash ^= NextPageToken.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -5472,7 +5475,7 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      accessRights_.WriteTo(output, _repeated_accessRights_codec);
+      userAccessRights_.WriteTo(output, _repeated_userAccessRights_codec);
       if (NextPageToken.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
@@ -5487,7 +5490,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      accessRights_.WriteTo(ref output, _repeated_accessRights_codec);
+      userAccessRights_.WriteTo(ref output, _repeated_userAccessRights_codec);
       if (NextPageToken.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(NextPageToken);
@@ -5502,7 +5505,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      size += accessRights_.CalculateSize(_repeated_accessRights_codec);
+      size += userAccessRights_.CalculateSize(_repeated_userAccessRights_codec);
       if (NextPageToken.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NextPageToken);
       }
@@ -5514,11 +5517,11 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ListAccessRightsResponse other) {
+    public void MergeFrom(ListUserAccessRightsResponse other) {
       if (other == null) {
         return;
       }
-      accessRights_.Add(other.accessRights_);
+      userAccessRights_.Add(other.userAccessRights_);
       if (other.NextPageToken.Length != 0) {
         NextPageToken = other.NextPageToken;
       }
@@ -5538,7 +5541,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            accessRights_.AddEntriesFrom(input, _repeated_accessRights_codec);
+            userAccessRights_.AddEntriesFrom(input, _repeated_userAccessRights_codec);
             break;
           }
           case 18: {
@@ -5561,7 +5564,7 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            accessRights_.AddEntriesFrom(ref input, _repeated_accessRights_codec);
+            userAccessRights_.AddEntriesFrom(ref input, _repeated_userAccessRights_codec);
             break;
           }
           case 18: {
@@ -5576,18 +5579,18 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The request message for [`UpdateAccessRight`][salto.nebula.user.v1.UserService.UpdateAccessRight]
+  /// The request message for [`UpdateUserAccessRight`][salto.nebula.user.v1.UserService.UpdateUserAccessRight]
   /// </summary>
-  public sealed partial class UpdateAccessRightRequest : pb::IMessage<UpdateAccessRightRequest>
+  public sealed partial class UpdateUserAccessRightRequest : pb::IMessage<UpdateUserAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<UpdateAccessRightRequest> _parser = new pb::MessageParser<UpdateAccessRightRequest>(() => new UpdateAccessRightRequest());
+    private static readonly pb::MessageParser<UpdateUserAccessRightRequest> _parser = new pb::MessageParser<UpdateUserAccessRightRequest>(() => new UpdateUserAccessRightRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<UpdateAccessRightRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<UpdateUserAccessRightRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5603,7 +5606,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateAccessRightRequest() {
+    public UpdateUserAccessRightRequest() {
       OnConstruction();
     }
 
@@ -5611,31 +5614,31 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateAccessRightRequest(UpdateAccessRightRequest other) : this() {
-      accessRight_ = other.accessRight_ != null ? other.accessRight_.Clone() : null;
+    public UpdateUserAccessRightRequest(UpdateUserAccessRightRequest other) : this() {
+      userAccessRight_ = other.userAccessRight_ != null ? other.userAccessRight_.Clone() : null;
       updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateAccessRightRequest Clone() {
-      return new UpdateAccessRightRequest(this);
+    public UpdateUserAccessRightRequest Clone() {
+      return new UpdateUserAccessRightRequest(this);
     }
 
-    /// <summary>Field number for the "access_right" field.</summary>
-    public const int AccessRightFieldNumber = 1;
-    private global::Saltoapis.Nebula.User.V1.AccessRight accessRight_;
+    /// <summary>Field number for the "user_access_right" field.</summary>
+    public const int UserAccessRightFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.UserAccessRight userAccessRight_;
     /// <summary>
     /// The user's access right resource which replaces the resource on the
     /// server.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Saltoapis.Nebula.User.V1.AccessRight AccessRight {
-      get { return accessRight_; }
+    public global::Saltoapis.Nebula.User.V1.UserAccessRight UserAccessRight {
+      get { return userAccessRight_; }
       set {
-        accessRight_ = value;
+        userAccessRight_ = value;
       }
     }
 
@@ -5657,19 +5660,19 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as UpdateAccessRightRequest);
+      return Equals(other as UpdateUserAccessRightRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(UpdateAccessRightRequest other) {
+    public bool Equals(UpdateUserAccessRightRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(AccessRight, other.AccessRight)) return false;
+      if (!object.Equals(UserAccessRight, other.UserAccessRight)) return false;
       if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -5678,7 +5681,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (accessRight_ != null) hash ^= AccessRight.GetHashCode();
+      if (userAccessRight_ != null) hash ^= UserAccessRight.GetHashCode();
       if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -5698,9 +5701,9 @@ namespace Saltoapis.Nebula.User.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (accessRight_ != null) {
+      if (userAccessRight_ != null) {
         output.WriteRawTag(10);
-        output.WriteMessage(AccessRight);
+        output.WriteMessage(UserAccessRight);
       }
       if (updateMask_ != null) {
         output.WriteRawTag(18);
@@ -5716,9 +5719,9 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (accessRight_ != null) {
+      if (userAccessRight_ != null) {
         output.WriteRawTag(10);
-        output.WriteMessage(AccessRight);
+        output.WriteMessage(UserAccessRight);
       }
       if (updateMask_ != null) {
         output.WriteRawTag(18);
@@ -5734,8 +5737,8 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (accessRight_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessRight);
+      if (userAccessRight_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UserAccessRight);
       }
       if (updateMask_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
@@ -5748,15 +5751,15 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(UpdateAccessRightRequest other) {
+    public void MergeFrom(UpdateUserAccessRightRequest other) {
       if (other == null) {
         return;
       }
-      if (other.accessRight_ != null) {
-        if (accessRight_ == null) {
-          AccessRight = new global::Saltoapis.Nebula.User.V1.AccessRight();
+      if (other.userAccessRight_ != null) {
+        if (userAccessRight_ == null) {
+          UserAccessRight = new global::Saltoapis.Nebula.User.V1.UserAccessRight();
         }
-        AccessRight.MergeFrom(other.AccessRight);
+        UserAccessRight.MergeFrom(other.UserAccessRight);
       }
       if (other.updateMask_ != null) {
         if (updateMask_ == null) {
@@ -5780,10 +5783,10 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (accessRight_ == null) {
-              AccessRight = new global::Saltoapis.Nebula.User.V1.AccessRight();
+            if (userAccessRight_ == null) {
+              UserAccessRight = new global::Saltoapis.Nebula.User.V1.UserAccessRight();
             }
-            input.ReadMessage(AccessRight);
+            input.ReadMessage(UserAccessRight);
             break;
           }
           case 18: {
@@ -5809,10 +5812,10 @@ namespace Saltoapis.Nebula.User.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (accessRight_ == null) {
-              AccessRight = new global::Saltoapis.Nebula.User.V1.AccessRight();
+            if (userAccessRight_ == null) {
+              UserAccessRight = new global::Saltoapis.Nebula.User.V1.UserAccessRight();
             }
-            input.ReadMessage(AccessRight);
+            input.ReadMessage(UserAccessRight);
             break;
           }
           case 18: {
@@ -5830,18 +5833,18 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The request message for [`DeleteAccessRight`][salto.nebula.user.v1.UserService.DeleteAccessRight]
+  /// The request message for [`DeleteUserAccessRight`][salto.nebula.user.v1.UserService.DeleteUserAccessRight]
   /// </summary>
-  public sealed partial class DeleteAccessRightRequest : pb::IMessage<DeleteAccessRightRequest>
+  public sealed partial class DeleteUserAccessRightRequest : pb::IMessage<DeleteUserAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<DeleteAccessRightRequest> _parser = new pb::MessageParser<DeleteAccessRightRequest>(() => new DeleteAccessRightRequest());
+    private static readonly pb::MessageParser<DeleteUserAccessRightRequest> _parser = new pb::MessageParser<DeleteUserAccessRightRequest>(() => new DeleteUserAccessRightRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DeleteAccessRightRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<DeleteUserAccessRightRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5857,7 +5860,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAccessRightRequest() {
+    public DeleteUserAccessRightRequest() {
       OnConstruction();
     }
 
@@ -5865,15 +5868,15 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAccessRightRequest(DeleteAccessRightRequest other) : this() {
+    public DeleteUserAccessRightRequest(DeleteUserAccessRightRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAccessRightRequest Clone() {
-      return new DeleteAccessRightRequest(this);
+    public DeleteUserAccessRightRequest Clone() {
+      return new DeleteUserAccessRightRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -5896,12 +5899,12 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as DeleteAccessRightRequest);
+      return Equals(other as DeleteUserAccessRightRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DeleteAccessRightRequest other) {
+    public bool Equals(DeleteUserAccessRightRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -5974,7 +5977,7 @@ namespace Saltoapis.Nebula.User.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DeleteAccessRightRequest other) {
+    public void MergeFrom(DeleteUserAccessRightRequest other) {
       if (other == null) {
         return;
       }

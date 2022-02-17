@@ -68,19 +68,19 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest> __Marshaller_salto_nebula_user_v1_CreateAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest> __Marshaller_salto_nebula_user_v1_CreateUserAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AccessRight> __Marshaller_salto_nebula_user_v1_AccessRight = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AccessRight.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UserAccessRight> __Marshaller_salto_nebula_user_v1_UserAccessRight = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UserAccessRight.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.GetAccessRightRequest> __Marshaller_salto_nebula_user_v1_GetAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.GetAccessRightRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest> __Marshaller_salto_nebula_user_v1_GetUserAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest> __Marshaller_salto_nebula_user_v1_ListAccessRightsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest> __Marshaller_salto_nebula_user_v1_ListUserAccessRightsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse> __Marshaller_salto_nebula_user_v1_ListAccessRightsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse> __Marshaller_salto_nebula_user_v1_ListUserAccessRightsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest> __Marshaller_salto_nebula_user_v1_UpdateAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest> __Marshaller_salto_nebula_user_v1_UpdateUserAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest> __Marshaller_salto_nebula_user_v1_DeleteAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest> __Marshaller_salto_nebula_user_v1_DeleteUserAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest> __Marshaller_salto_nebula_user_v1_AssignCardKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignCardKeyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -149,43 +149,43 @@ namespace Saltoapis.Nebula.User.V1 {
         __Marshaller_google_protobuf_Empty);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest, global::Saltoapis.Nebula.User.V1.AccessRight> __Method_CreateAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest, global::Saltoapis.Nebula.User.V1.AccessRight>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest, global::Saltoapis.Nebula.User.V1.UserAccessRight> __Method_CreateUserAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest, global::Saltoapis.Nebula.User.V1.UserAccessRight>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "CreateAccessRight",
-        __Marshaller_salto_nebula_user_v1_CreateAccessRightRequest,
-        __Marshaller_salto_nebula_user_v1_AccessRight);
+        "CreateUserAccessRight",
+        __Marshaller_salto_nebula_user_v1_CreateUserAccessRightRequest,
+        __Marshaller_salto_nebula_user_v1_UserAccessRight);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.GetAccessRightRequest, global::Saltoapis.Nebula.User.V1.AccessRight> __Method_GetAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.GetAccessRightRequest, global::Saltoapis.Nebula.User.V1.AccessRight>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest, global::Saltoapis.Nebula.User.V1.UserAccessRight> __Method_GetUserAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest, global::Saltoapis.Nebula.User.V1.UserAccessRight>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "GetAccessRight",
-        __Marshaller_salto_nebula_user_v1_GetAccessRightRequest,
-        __Marshaller_salto_nebula_user_v1_AccessRight);
+        "GetUserAccessRight",
+        __Marshaller_salto_nebula_user_v1_GetUserAccessRightRequest,
+        __Marshaller_salto_nebula_user_v1_UserAccessRight);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest, global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse> __Method_ListAccessRights = new grpc::Method<global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest, global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest, global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse> __Method_ListUserAccessRights = new grpc::Method<global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest, global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "ListAccessRights",
-        __Marshaller_salto_nebula_user_v1_ListAccessRightsRequest,
-        __Marshaller_salto_nebula_user_v1_ListAccessRightsResponse);
+        "ListUserAccessRights",
+        __Marshaller_salto_nebula_user_v1_ListUserAccessRightsRequest,
+        __Marshaller_salto_nebula_user_v1_ListUserAccessRightsResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest, global::Saltoapis.Nebula.User.V1.AccessRight> __Method_UpdateAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest, global::Saltoapis.Nebula.User.V1.AccessRight>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest, global::Saltoapis.Nebula.User.V1.UserAccessRight> __Method_UpdateUserAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest, global::Saltoapis.Nebula.User.V1.UserAccessRight>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "UpdateAccessRight",
-        __Marshaller_salto_nebula_user_v1_UpdateAccessRightRequest,
-        __Marshaller_salto_nebula_user_v1_AccessRight);
+        "UpdateUserAccessRight",
+        __Marshaller_salto_nebula_user_v1_UpdateUserAccessRightRequest,
+        __Marshaller_salto_nebula_user_v1_UserAccessRight);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteUserAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "DeleteAccessRight",
-        __Marshaller_salto_nebula_user_v1_DeleteAccessRightRequest,
+        "DeleteUserAccessRight",
+        __Marshaller_salto_nebula_user_v1_DeleteUserAccessRightRequest,
         __Marshaller_google_protobuf_Empty);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -576,9 +576,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.User.V1.AccessRight CreateAccessRight(global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Saltoapis.Nebula.User.V1.UserAccessRight CreateUserAccessRight(global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return CreateAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return CreateUserAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// Create an access right
@@ -589,9 +589,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.User.V1.AccessRight CreateAccessRight(global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest request, grpc::CallOptions options)
+      public virtual global::Saltoapis.Nebula.User.V1.UserAccessRight CreateUserAccessRight(global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_CreateAccessRight, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_CreateUserAccessRight, null, options, request);
       }
       /// <summary>
       /// Create an access right
@@ -604,9 +604,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AccessRight> CreateAccessRightAsync(global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.UserAccessRight> CreateUserAccessRightAsync(global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return CreateAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return CreateUserAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// Create an access right
@@ -617,9 +617,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AccessRight> CreateAccessRightAsync(global::Saltoapis.Nebula.User.V1.CreateAccessRightRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.UserAccessRight> CreateUserAccessRightAsync(global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_CreateAccessRight, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_CreateUserAccessRight, null, options, request);
       }
       /// <summary>
       /// Get an access right
@@ -632,9 +632,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.User.V1.AccessRight GetAccessRight(global::Saltoapis.Nebula.User.V1.GetAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Saltoapis.Nebula.User.V1.UserAccessRight GetUserAccessRight(global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetUserAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// Get an access right
@@ -645,9 +645,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.User.V1.AccessRight GetAccessRight(global::Saltoapis.Nebula.User.V1.GetAccessRightRequest request, grpc::CallOptions options)
+      public virtual global::Saltoapis.Nebula.User.V1.UserAccessRight GetUserAccessRight(global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_GetAccessRight, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_GetUserAccessRight, null, options, request);
       }
       /// <summary>
       /// Get an access right
@@ -660,9 +660,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AccessRight> GetAccessRightAsync(global::Saltoapis.Nebula.User.V1.GetAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.UserAccessRight> GetUserAccessRightAsync(global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetUserAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// Get an access right
@@ -673,9 +673,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AccessRight> GetAccessRightAsync(global::Saltoapis.Nebula.User.V1.GetAccessRightRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.UserAccessRight> GetUserAccessRightAsync(global::Saltoapis.Nebula.User.V1.GetUserAccessRightRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_GetAccessRight, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_GetUserAccessRight, null, options, request);
       }
       /// <summary>
       /// List access rights
@@ -688,9 +688,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse ListAccessRights(global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse ListUserAccessRights(global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return ListAccessRights(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return ListUserAccessRights(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// List access rights
@@ -701,9 +701,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse ListAccessRights(global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest request, grpc::CallOptions options)
+      public virtual global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse ListUserAccessRights(global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_ListAccessRights, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_ListUserAccessRights, null, options, request);
       }
       /// <summary>
       /// List access rights
@@ -716,9 +716,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse> ListAccessRightsAsync(global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse> ListUserAccessRightsAsync(global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return ListAccessRightsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return ListUserAccessRightsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// List access rights
@@ -729,9 +729,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.ListAccessRightsResponse> ListAccessRightsAsync(global::Saltoapis.Nebula.User.V1.ListAccessRightsRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.ListUserAccessRightsResponse> ListUserAccessRightsAsync(global::Saltoapis.Nebula.User.V1.ListUserAccessRightsRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_ListAccessRights, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_ListUserAccessRights, null, options, request);
       }
       /// <summary>
       /// Update an access right
@@ -744,9 +744,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.User.V1.AccessRight UpdateAccessRight(global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Saltoapis.Nebula.User.V1.UserAccessRight UpdateUserAccessRight(global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return UpdateAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return UpdateUserAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// Update an access right
@@ -757,9 +757,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.User.V1.AccessRight UpdateAccessRight(global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest request, grpc::CallOptions options)
+      public virtual global::Saltoapis.Nebula.User.V1.UserAccessRight UpdateUserAccessRight(global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_UpdateAccessRight, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateUserAccessRight, null, options, request);
       }
       /// <summary>
       /// Update an access right
@@ -772,9 +772,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AccessRight> UpdateAccessRightAsync(global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.UserAccessRight> UpdateUserAccessRightAsync(global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return UpdateAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return UpdateUserAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// Update an access right
@@ -785,9 +785,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AccessRight> UpdateAccessRightAsync(global::Saltoapis.Nebula.User.V1.UpdateAccessRightRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.UserAccessRight> UpdateUserAccessRightAsync(global::Saltoapis.Nebula.User.V1.UpdateUserAccessRightRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_UpdateAccessRight, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateUserAccessRight, null, options, request);
       }
       /// <summary>
       /// Delete an access right
@@ -800,9 +800,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessRight(global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteUserAccessRight(global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return DeleteAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return DeleteUserAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// Delete an access right
@@ -813,9 +813,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteAccessRight(global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest request, grpc::CallOptions options)
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteUserAccessRight(global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteAccessRight, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteUserAccessRight, null, options, request);
       }
       /// <summary>
       /// Delete an access right
@@ -828,9 +828,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessRightAsync(global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteUserAccessRightAsync(global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return DeleteAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return DeleteUserAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
       /// Delete an access right
@@ -841,9 +841,9 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessRightAsync(global::Saltoapis.Nebula.User.V1.DeleteAccessRightRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteUserAccessRightAsync(global::Saltoapis.Nebula.User.V1.DeleteUserAccessRightRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteAccessRight, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteUserAccessRight, null, options, request);
       }
       /// <summary>
       /// Assign an card key
