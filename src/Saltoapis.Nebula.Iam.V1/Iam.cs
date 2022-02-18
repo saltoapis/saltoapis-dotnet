@@ -25,42 +25,27 @@ namespace Saltoapis.Nebula.Iam.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch1zYWx0by9uZWJ1bGEvaWFtL3YxL2lhbS5wcm90bxITc2FsdG8ubmVidWxh",
-            "LmlhbS52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnByb3RvGiBnb29nbGUv",
-            "cHJvdG9idWYvZmllbGRfbWFzay5wcm90byI/CgRSb2xlEgwKBG5hbWUYASAB",
-            "KAkSFAoMZGlzcGxheV9uYW1lGAIgASgJEhMKC3Blcm1pc3Npb25zGAMgAygJ",
-            "Il0KEUNyZWF0ZVJvbGVSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIPCgdyb2xl",
-            "X2lkGAIgASgJEicKBHJvbGUYAyABKAsyGS5zYWx0by5uZWJ1bGEuaWFtLnYx",
-            "LlJvbGUiHgoOR2V0Um9sZVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJrChBMaXN0",
-            "Um9sZXNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiAB",
-            "KAUSEgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3Jk",
-            "ZXJfYnkYBSABKAkiVgoRTGlzdFJvbGVzUmVzcG9uc2USKAoFcm9sZXMYASAD",
-            "KAsyGS5zYWx0by5uZWJ1bGEuaWFtLnYxLlJvbGUSFwoPbmV4dF9wYWdlX3Rv",
-            "a2VuGAIgASgJIm0KEVVwZGF0ZVJvbGVSZXF1ZXN0EicKBHJvbGUYASABKAsy",
-            "GS5zYWx0by5uZWJ1bGEuaWFtLnYxLlJvbGUSLwoLdXBkYXRlX21hc2sYAiAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiEKEURlbGV0ZVJvbGVS",
-            "ZXF1ZXN0EgwKBG5hbWUYASABKAkyowMKCklBTVNlcnZpY2USTwoKQ3JlYXRl",
-            "Um9sZRImLnNhbHRvLm5lYnVsYS5pYW0udjEuQ3JlYXRlUm9sZVJlcXVlc3Qa",
-            "GS5zYWx0by5uZWJ1bGEuaWFtLnYxLlJvbGUSSQoHR2V0Um9sZRIjLnNhbHRv",
-            "Lm5lYnVsYS5pYW0udjEuR2V0Um9sZVJlcXVlc3QaGS5zYWx0by5uZWJ1bGEu",
-            "aWFtLnYxLlJvbGUSWgoJTGlzdFJvbGVzEiUuc2FsdG8ubmVidWxhLmlhbS52",
-            "MS5MaXN0Um9sZXNSZXF1ZXN0GiYuc2FsdG8ubmVidWxhLmlhbS52MS5MaXN0",
-            "Um9sZXNSZXNwb25zZRJPCgpVcGRhdGVSb2xlEiYuc2FsdG8ubmVidWxhLmlh",
-            "bS52MS5VcGRhdGVSb2xlUmVxdWVzdBoZLnNhbHRvLm5lYnVsYS5pYW0udjEu",
-            "Um9sZRJMCgpEZWxldGVSb2xlEiYuc2FsdG8ubmVidWxhLmlhbS52MS5EZWxl",
-            "dGVSb2xlUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eUKAAQobY29t",
-            "LnNhbHRvYXBpcy5uZWJ1bGEuaWFtLnYxQghJYW1Qcm90b1ABWjtnaXRodWIu",
-            "Y29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvaWFt",
-            "L3YxO2lhbaoCF1NhbHRvYXBpcy5OZWJ1bGEuSWFtLlYxYgZwcm90bzM="));
+            "LmlhbS52MSI/CgRSb2xlEgwKBG5hbWUYASABKAkSFAoMZGlzcGxheV9uYW1l",
+            "GAIgASgJEhMKC3Blcm1pc3Npb25zGAMgAygJIh4KDkdldFJvbGVSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAkiawoQTGlzdFJvbGVzUmVxdWVzdBIOCgZwYXJlbnQY",
+            "ASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkS",
+            "DgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIlYKEUxpc3RSb2xl",
+            "c1Jlc3BvbnNlEigKBXJvbGVzGAEgAygLMhkuc2FsdG8ubmVidWxhLmlhbS52",
+            "MS5Sb2xlEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCTKzAQoKSUFNU2Vydmlj",
+            "ZRJJCgdHZXRSb2xlEiMuc2FsdG8ubmVidWxhLmlhbS52MS5HZXRSb2xlUmVx",
+            "dWVzdBoZLnNhbHRvLm5lYnVsYS5pYW0udjEuUm9sZRJaCglMaXN0Um9sZXMS",
+            "JS5zYWx0by5uZWJ1bGEuaWFtLnYxLkxpc3RSb2xlc1JlcXVlc3QaJi5zYWx0",
+            "by5uZWJ1bGEuaWFtLnYxLkxpc3RSb2xlc1Jlc3BvbnNlQoABChtjb20uc2Fs",
+            "dG9hcGlzLm5lYnVsYS5pYW0udjFCCElhbVByb3RvUAFaO2dpdGh1Yi5jb20v",
+            "cHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9pYW0vdjE7",
+            "aWFtqgIXU2FsdG9hcGlzLk5lYnVsYS5JYW0uVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Iam.V1.Role), global::Saltoapis.Nebula.Iam.V1.Role.Parser, new[]{ "Name", "DisplayName", "Permissions" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest), global::Saltoapis.Nebula.Iam.V1.CreateRoleRequest.Parser, new[]{ "Parent", "RoleId", "Role" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Iam.V1.GetRoleRequest), global::Saltoapis.Nebula.Iam.V1.GetRoleRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Iam.V1.ListRolesRequest), global::Saltoapis.Nebula.Iam.V1.ListRolesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Iam.V1.ListRolesResponse), global::Saltoapis.Nebula.Iam.V1.ListRolesResponse.Parser, new[]{ "Roles", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest), global::Saltoapis.Nebula.Iam.V1.UpdateRoleRequest.Parser, new[]{ "Role", "UpdateMask" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest), global::Saltoapis.Nebula.Iam.V1.DeleteRoleRequest.Parser, new[]{ "Name" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Iam.V1.ListRolesResponse), global::Saltoapis.Nebula.Iam.V1.ListRolesResponse.Parser, new[]{ "Roles", "NextPageToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -120,11 +105,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// Resource name of the role. It can be a system or
-    /// installation-wide role which must have the format of:
-    /// - iam-roles/viewer for predefined roles
-    /// - installations/surelock-homes-hq/iam-roles/maintenance for custom installation
-    ///   roles.
+    /// Resource name of the role.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -336,293 +317,6 @@ namespace Saltoapis.Nebula.Iam.V1 {
   }
 
   /// <summary>
-  /// The request message for [`CreateRole`][salto.nebula.iam.v1.IAMService.CreateRole]
-  /// </summary>
-  public sealed partial class CreateRoleRequest : pb::IMessage<CreateRoleRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<CreateRoleRequest> _parser = new pb::MessageParser<CreateRoleRequest>(() => new CreateRoleRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<CreateRoleRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateRoleRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateRoleRequest(CreateRoleRequest other) : this() {
-      parent_ = other.parent_;
-      roleId_ = other.roleId_;
-      role_ = other.role_ != null ? other.role_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CreateRoleRequest Clone() {
-      return new CreateRoleRequest(this);
-    }
-
-    /// <summary>Field number for the "parent" field.</summary>
-    public const int ParentFieldNumber = 1;
-    private string parent_ = "";
-    /// <summary>
-    /// Resource name of the parent resource where to create the role. For
-    /// example: `installations/surelock-homes-hq`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Parent {
-      get { return parent_; }
-      set {
-        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "role_id" field.</summary>
-    public const int RoleIdFieldNumber = 2;
-    private string roleId_ = "";
-    /// <summary>
-    /// Optional. The role ID to use for role. In case it's empty the server will
-    /// autogenerate a unique identifier.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string RoleId {
-      get { return roleId_; }
-      set {
-        roleId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "role" field.</summary>
-    public const int RoleFieldNumber = 3;
-    private global::Saltoapis.Nebula.Iam.V1.Role role_;
-    /// <summary>
-    /// The role resource to be created. Client must not set the `Role.name`
-    /// field.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Saltoapis.Nebula.Iam.V1.Role Role {
-      get { return role_; }
-      set {
-        role_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as CreateRoleRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(CreateRoleRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Parent != other.Parent) return false;
-      if (RoleId != other.RoleId) return false;
-      if (!object.Equals(Role, other.Role)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (RoleId.Length != 0) hash ^= RoleId.GetHashCode();
-      if (role_ != null) hash ^= Role.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (RoleId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(RoleId);
-      }
-      if (role_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Role);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Parent.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Parent);
-      }
-      if (RoleId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(RoleId);
-      }
-      if (role_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Role);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Parent.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
-      }
-      if (RoleId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(RoleId);
-      }
-      if (role_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Role);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(CreateRoleRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Parent.Length != 0) {
-        Parent = other.Parent;
-      }
-      if (other.RoleId.Length != 0) {
-        RoleId = other.RoleId;
-      }
-      if (other.role_ != null) {
-        if (role_ == null) {
-          Role = new global::Saltoapis.Nebula.Iam.V1.Role();
-        }
-        Role.MergeFrom(other.Role);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            RoleId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (role_ == null) {
-              Role = new global::Saltoapis.Nebula.Iam.V1.Role();
-            }
-            input.ReadMessage(Role);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Parent = input.ReadString();
-            break;
-          }
-          case 18: {
-            RoleId = input.ReadString();
-            break;
-          }
-          case 26: {
-            if (role_ == null) {
-              Role = new global::Saltoapis.Nebula.Iam.V1.Role();
-            }
-            input.ReadMessage(Role);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [`GetRole`][salto.nebula.iam.v1.IAMService.GetRole]
   /// </summary>
   public sealed partial class GetRoleRequest : pb::IMessage<GetRoleRequest>
@@ -639,7 +333,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -673,9 +367,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     public const int NameFieldNumber = 1;
     private string name_ = "";
     /// <summary>
-    /// The name of the requested role resource. For example:
-    /// - `iam-roles/viewer`.
-    /// - `installations/surelock-homes-hq/iam-roles/maintenance`.
+    /// The name of the requested role resource. For example: `iam-roles/admin`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -836,7 +528,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -874,9 +566,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     public const int ParentFieldNumber = 1;
     private string parent_ = "";
     /// <summary>
-    /// The parent resource name. For example:
-    /// - `` (empty string) -- this refers to predefined roles.
-    /// - `installations/surelock-homes-hq`.
+    /// The parent resource name.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1195,7 +885,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1396,455 +1086,6 @@ namespace Saltoapis.Nebula.Iam.V1 {
           }
           case 18: {
             NextPageToken = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`UpdateRole`][salto.nebula.iam.v1.IAMService.UpdateRole]
-  /// </summary>
-  public sealed partial class UpdateRoleRequest : pb::IMessage<UpdateRoleRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateRoleRequest> _parser = new pb::MessageParser<UpdateRoleRequest>(() => new UpdateRoleRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<UpdateRoleRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateRoleRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateRoleRequest(UpdateRoleRequest other) : this() {
-      role_ = other.role_ != null ? other.role_.Clone() : null;
-      updateMask_ = other.updateMask_ != null ? other.updateMask_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateRoleRequest Clone() {
-      return new UpdateRoleRequest(this);
-    }
-
-    /// <summary>Field number for the "role" field.</summary>
-    public const int RoleFieldNumber = 1;
-    private global::Saltoapis.Nebula.Iam.V1.Role role_;
-    /// <summary>
-    /// The role resource which replaces the resource on the server.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Saltoapis.Nebula.Iam.V1.Role Role {
-      get { return role_; }
-      set {
-        role_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "update_mask" field.</summary>
-    public const int UpdateMaskFieldNumber = 2;
-    private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
-    /// <summary>
-    /// The update mask applied to the resource.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Google.Protobuf.WellKnownTypes.FieldMask UpdateMask {
-      get { return updateMask_; }
-      set {
-        updateMask_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateRoleRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(UpdateRoleRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Role, other.Role)) return false;
-      if (!object.Equals(UpdateMask, other.UpdateMask)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (role_ != null) hash ^= Role.GetHashCode();
-      if (updateMask_ != null) hash ^= UpdateMask.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (role_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Role);
-      }
-      if (updateMask_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (role_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Role);
-      }
-      if (updateMask_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (role_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Role);
-      }
-      if (updateMask_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdateMask);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(UpdateRoleRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.role_ != null) {
-        if (role_ == null) {
-          Role = new global::Saltoapis.Nebula.Iam.V1.Role();
-        }
-        Role.MergeFrom(other.Role);
-      }
-      if (other.updateMask_ != null) {
-        if (updateMask_ == null) {
-          UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-        }
-        UpdateMask.MergeFrom(other.UpdateMask);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (role_ == null) {
-              Role = new global::Saltoapis.Nebula.Iam.V1.Role();
-            }
-            input.ReadMessage(Role);
-            break;
-          }
-          case 18: {
-            if (updateMask_ == null) {
-              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-            }
-            input.ReadMessage(UpdateMask);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (role_ == null) {
-              Role = new global::Saltoapis.Nebula.Iam.V1.Role();
-            }
-            input.ReadMessage(Role);
-            break;
-          }
-          case 18: {
-            if (updateMask_ == null) {
-              UpdateMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
-            }
-            input.ReadMessage(UpdateMask);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// The request message for [`DeleteRole`][salto.nebula.iam.v1.IAMService.DeleteRole]
-  /// </summary>
-  public sealed partial class DeleteRoleRequest : pb::IMessage<DeleteRoleRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DeleteRoleRequest> _parser = new pb::MessageParser<DeleteRoleRequest>(() => new DeleteRoleRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DeleteRoleRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Iam.V1.IamReflection.Descriptor.MessageTypes[6]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteRoleRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteRoleRequest(DeleteRoleRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteRoleRequest Clone() {
-      return new DeleteRoleRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The resource name of the role to be deleted. For example:
-    /// `installations/surelock-homes-hq/iam-roles/maintenance`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as DeleteRoleRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DeleteRoleRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DeleteRoleRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
             break;
           }
         }
