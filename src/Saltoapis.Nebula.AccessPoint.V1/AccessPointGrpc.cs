@@ -66,6 +66,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_DeleteAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPoint.V1.UnlockAccessPointRequest> __Marshaller_salto_nebula_accesspoint_v1_UnlockAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPoint.V1.UnlockAccessPointRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint> __Method_CreateAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest, global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint>(
@@ -106,6 +110,14 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         "DeleteAccessPoint",
         __Marshaller_salto_nebula_accesspoint_v1_DeleteAccessPointRequest,
         __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.UnlockAccessPointRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_UnlockAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPoint.V1.UnlockAccessPointRequest, global::Saltoapis.Longrunning.V1.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UnlockAccessPoint",
+        __Marshaller_salto_nebula_accesspoint_v1_UnlockAccessPointRequest,
+        __Marshaller_salto_longrunning_v1_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -419,6 +431,66 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.DeleteAccessPointRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// Unlock an access point
+      ///
+      /// Remotely unlocks an access point. This can be run against those access
+      /// points where their associated devices are online and connected.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation UnlockAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.UnlockAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnlockAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unlock an access point
+      ///
+      /// Remotely unlocks an access point. This can be run against those access
+      /// points where their associated devices are online and connected.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation UnlockAccessPoint(global::Saltoapis.Nebula.AccessPoint.V1.UnlockAccessPointRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UnlockAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// Unlock an access point
+      ///
+      /// Remotely unlocks an access point. This can be run against those access
+      /// points where their associated devices are online and connected.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UnlockAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.UnlockAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnlockAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unlock an access point
+      ///
+      /// Remotely unlocks an access point. This can be run against those access
+      /// points where their associated devices are online and connected.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UnlockAccessPointAsync(global::Saltoapis.Nebula.AccessPoint.V1.UnlockAccessPointRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UnlockAccessPoint, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
