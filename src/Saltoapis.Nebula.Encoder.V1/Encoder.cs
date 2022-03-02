@@ -1130,8 +1130,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     public const int FilterFieldNumber = 4;
     private string filter_ = "";
     /// <summary>
-    /// A filter that chooses which encoders to return. The maximum
-    /// length of the filter is 20000 characters.
+    /// A filter that chooses which encoders to return.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
