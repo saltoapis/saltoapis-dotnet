@@ -28,63 +28,63 @@ namespace Saltoapis.Nebula.Unit.V1 {
             "bGEudW5pdC52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnByb3RvGiBnb29n",
             "bGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90byIqCgRVbml0EgwKBG5hbWUY",
             "ASABKAkSFAoMZGlzcGxheV9uYW1lGAIgASgJIjUKBlBvbGljeRIMCgRuYW1l",
-            "GAEgASgJEg4KBm1lbWJlchgCIAEoCRINCgVyb2xlcxgDIAMoCSJeChFDcmVh",
-            "dGVVbml0UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSDwoHdW5pdF9pZBgCIAEo",
-            "CRIoCgR1bml0GAMgASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdCIe",
-            "Cg5HZXRVbml0UmVxdWVzdBIMCgRuYW1lGAEgASgJImsKEExpc3RVbml0c1Jl",
-            "cXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpw",
-            "YWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgF",
-            "IAEoCSJXChFMaXN0VW5pdHNSZXNwb25zZRIpCgV1bml0cxgBIAMoCzIaLnNh",
-            "bHRvLm5lYnVsYS51bml0LnYxLlVuaXQSFwoPbmV4dF9wYWdlX3Rva2VuGAIg",
-            "ASgJIm4KEVVwZGF0ZVVuaXRSZXF1ZXN0EigKBHVuaXQYASABKAsyGi5zYWx0",
-            "by5uZWJ1bGEudW5pdC52MS5Vbml0Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhou",
-            "Z29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIhChFEZWxldGVVbml0UmVxdWVz",
-            "dBIMCgRuYW1lGAEgASgJImYKE0NyZWF0ZVBvbGljeVJlcXVlc3QSDgoGcGFy",
-            "ZW50GAEgASgJEhEKCXBvbGljeV9pZBgCIAEoCRIsCgZwb2xpY3kYAyABKAsy",
-            "HC5zYWx0by5uZWJ1bGEudW5pdC52MS5Qb2xpY3kiIAoQR2V0UG9saWN5UmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJIm4KE0xpc3RQb2xpY2llc1JlcXVlc3QSDgoG",
-            "cGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2Vu",
-            "GAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJfChRM",
-            "aXN0UG9saWNpZXNSZXNwb25zZRIuCghwb2xpY2llcxgBIAMoCzIcLnNhbHRv",
-            "Lm5lYnVsYS51bml0LnYxLlBvbGljeRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiAB",
-            "KAkidAoTVXBkYXRlUG9saWN5UmVxdWVzdBIsCgZwb2xpY3kYASABKAsyHC5z",
-            "YWx0by5uZWJ1bGEudW5pdC52MS5Qb2xpY3kSLwoLdXBkYXRlX21hc2sYAiAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiMKE0RlbGV0ZVBvbGlj",
-            "eVJlcXVlc3QSDAoEbmFtZRgBIAEoCSI7ChZUZXN0UGVybWlzc2lvbnNSZXF1",
-            "ZXN0EgwKBHVuaXQYASABKAkSEwoLcGVybWlzc2lvbnMYAiADKAkiLgoXVGVz",
-            "dFBlcm1pc3Npb25zUmVzcG9uc2USEwoLcGVybWlzc2lvbnMYASADKAky3AcK",
-            "C1VuaXRTZXJ2aWNlElEKCkNyZWF0ZVVuaXQSJy5zYWx0by5uZWJ1bGEudW5p",
-            "dC52MS5DcmVhdGVVbml0UmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51bml0LnYx",
-            "LlVuaXQSSwoHR2V0VW5pdBIkLnNhbHRvLm5lYnVsYS51bml0LnYxLkdldFVu",
-            "aXRSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdBJcCglMaXN0",
-            "VW5pdHMSJi5zYWx0by5uZWJ1bGEudW5pdC52MS5MaXN0VW5pdHNSZXF1ZXN0",
-            "Gicuc2FsdG8ubmVidWxhLnVuaXQudjEuTGlzdFVuaXRzUmVzcG9uc2USUQoK",
-            "VXBkYXRlVW5pdBInLnNhbHRvLm5lYnVsYS51bml0LnYxLlVwZGF0ZVVuaXRS",
-            "ZXF1ZXN0Ghouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdBJNCgpEZWxldGVV",
-            "bml0Eicuc2FsdG8ubmVidWxhLnVuaXQudjEuRGVsZXRlVW5pdFJlcXVlc3Qa",
-            "Fi5nb29nbGUucHJvdG9idWYuRW1wdHkSVwoMQ3JlYXRlUG9saWN5Eikuc2Fs",
-            "dG8ubmVidWxhLnVuaXQudjEuQ3JlYXRlUG9saWN5UmVxdWVzdBocLnNhbHRv",
-            "Lm5lYnVsYS51bml0LnYxLlBvbGljeRJRCglHZXRQb2xpY3kSJi5zYWx0by5u",
-            "ZWJ1bGEudW5pdC52MS5HZXRQb2xpY3lSZXF1ZXN0Ghwuc2FsdG8ubmVidWxh",
-            "LnVuaXQudjEuUG9saWN5EmUKDExpc3RQb2xpY2llcxIpLnNhbHRvLm5lYnVs",
-            "YS51bml0LnYxLkxpc3RQb2xpY2llc1JlcXVlc3QaKi5zYWx0by5uZWJ1bGEu",
-            "dW5pdC52MS5MaXN0UG9saWNpZXNSZXNwb25zZRJXCgxVcGRhdGVQb2xpY3kS",
-            "KS5zYWx0by5uZWJ1bGEudW5pdC52MS5VcGRhdGVQb2xpY3lSZXF1ZXN0Ghwu",
-            "c2FsdG8ubmVidWxhLnVuaXQudjEuUG9saWN5ElEKDERlbGV0ZVBvbGljeRIp",
-            "LnNhbHRvLm5lYnVsYS51bml0LnYxLkRlbGV0ZVBvbGljeVJlcXVlc3QaFi5n",
-            "b29nbGUucHJvdG9idWYuRW1wdHkSbgoPVGVzdFBlcm1pc3Npb25zEiwuc2Fs",
-            "dG8ubmVidWxhLnVuaXQudjEuVGVzdFBlcm1pc3Npb25zUmVxdWVzdBotLnNh",
-            "bHRvLm5lYnVsYS51bml0LnYxLlRlc3RQZXJtaXNzaW9uc1Jlc3BvbnNlQoUB",
-            "Chxjb20uc2FsdG9hcGlzLm5lYnVsYS51bml0LnYxQglVbml0UHJvdG9QAVo9",
-            "Z2l0aHViLmNvbS9wcml2YXRlLXNhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVi",
-            "dWxhL3VuaXQvdjE7dW5pdKoCGFNhbHRvYXBpcy5OZWJ1bGEuVW5pdC5WMWIG",
-            "cHJvdG8z"));
+            "GAEgASgJEg4KBm1lbWJlchgCIAEoCRINCgVyb2xlcxgDIAMoCSJvChFDcmVh",
+            "dGVVbml0UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSFAoHdW5pdF9pZBgCIAEo",
+            "CUgAiAEBEigKBHVuaXQYAyABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52MS5V",
+            "bml0QgoKCF91bml0X2lkIh4KDkdldFVuaXRSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAkiawoQTGlzdFVuaXRzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFn",
+            "ZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQg",
+            "ASgJEhAKCG9yZGVyX2J5GAUgASgJIlcKEUxpc3RVbml0c1Jlc3BvbnNlEikK",
+            "BXVuaXRzGAEgAygLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdBIXCg9u",
+            "ZXh0X3BhZ2VfdG9rZW4YAiABKAkibgoRVXBkYXRlVW5pdFJlcXVlc3QSKAoE",
+            "dW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51bml0LnYxLlVuaXQSLwoLdXBk",
+            "YXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiEK",
+            "EURlbGV0ZVVuaXRSZXF1ZXN0EgwKBG5hbWUYASABKAkiZgoTQ3JlYXRlUG9s",
+            "aWN5UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcG9saWN5X2lkGAIgASgJ",
+            "EiwKBnBvbGljeRgDIAEoCzIcLnNhbHRvLm5lYnVsYS51bml0LnYxLlBvbGlj",
+            "eSIgChBHZXRQb2xpY3lSZXF1ZXN0EgwKBG5hbWUYASABKAkibgoTTGlzdFBv",
+            "bGljaWVzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIg",
+            "ASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9y",
+            "ZGVyX2J5GAUgASgJIl8KFExpc3RQb2xpY2llc1Jlc3BvbnNlEi4KCHBvbGlj",
+            "aWVzGAEgAygLMhwuc2FsdG8ubmVidWxhLnVuaXQudjEuUG9saWN5EhcKD25l",
+            "eHRfcGFnZV90b2tlbhgCIAEoCSJ0ChNVcGRhdGVQb2xpY3lSZXF1ZXN0EiwK",
+            "BnBvbGljeRgBIAEoCzIcLnNhbHRvLm5lYnVsYS51bml0LnYxLlBvbGljeRIv",
+            "Cgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1h",
+            "c2siIwoTRGVsZXRlUG9saWN5UmVxdWVzdBIMCgRuYW1lGAEgASgJIjsKFlRl",
+            "c3RQZXJtaXNzaW9uc1JlcXVlc3QSDAoEdW5pdBgBIAEoCRITCgtwZXJtaXNz",
+            "aW9ucxgCIAMoCSIuChdUZXN0UGVybWlzc2lvbnNSZXNwb25zZRITCgtwZXJt",
+            "aXNzaW9ucxgBIAMoCTLcBwoLVW5pdFNlcnZpY2USUQoKQ3JlYXRlVW5pdBIn",
+            "LnNhbHRvLm5lYnVsYS51bml0LnYxLkNyZWF0ZVVuaXRSZXF1ZXN0Ghouc2Fs",
+            "dG8ubmVidWxhLnVuaXQudjEuVW5pdBJLCgdHZXRVbml0EiQuc2FsdG8ubmVi",
+            "dWxhLnVuaXQudjEuR2V0VW5pdFJlcXVlc3QaGi5zYWx0by5uZWJ1bGEudW5p",
+            "dC52MS5Vbml0ElwKCUxpc3RVbml0cxImLnNhbHRvLm5lYnVsYS51bml0LnYx",
+            "Lkxpc3RVbml0c1JlcXVlc3QaJy5zYWx0by5uZWJ1bGEudW5pdC52MS5MaXN0",
+            "VW5pdHNSZXNwb25zZRJRCgpVcGRhdGVVbml0Eicuc2FsdG8ubmVidWxhLnVu",
+            "aXQudjEuVXBkYXRlVW5pdFJlcXVlc3QaGi5zYWx0by5uZWJ1bGEudW5pdC52",
+            "MS5Vbml0Ek0KCkRlbGV0ZVVuaXQSJy5zYWx0by5uZWJ1bGEudW5pdC52MS5E",
+            "ZWxldGVVbml0UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJXCgxD",
+            "cmVhdGVQb2xpY3kSKS5zYWx0by5uZWJ1bGEudW5pdC52MS5DcmVhdGVQb2xp",
+            "Y3lSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVuaXQudjEuUG9saWN5ElEKCUdl",
+            "dFBvbGljeRImLnNhbHRvLm5lYnVsYS51bml0LnYxLkdldFBvbGljeVJlcXVl",
+            "c3QaHC5zYWx0by5uZWJ1bGEudW5pdC52MS5Qb2xpY3kSZQoMTGlzdFBvbGlj",
+            "aWVzEikuc2FsdG8ubmVidWxhLnVuaXQudjEuTGlzdFBvbGljaWVzUmVxdWVz",
+            "dBoqLnNhbHRvLm5lYnVsYS51bml0LnYxLkxpc3RQb2xpY2llc1Jlc3BvbnNl",
+            "ElcKDFVwZGF0ZVBvbGljeRIpLnNhbHRvLm5lYnVsYS51bml0LnYxLlVwZGF0",
+            "ZVBvbGljeVJlcXVlc3QaHC5zYWx0by5uZWJ1bGEudW5pdC52MS5Qb2xpY3kS",
+            "UQoMRGVsZXRlUG9saWN5Eikuc2FsdG8ubmVidWxhLnVuaXQudjEuRGVsZXRl",
+            "UG9saWN5UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJuCg9UZXN0",
+            "UGVybWlzc2lvbnMSLC5zYWx0by5uZWJ1bGEudW5pdC52MS5UZXN0UGVybWlz",
+            "c2lvbnNSZXF1ZXN0Gi0uc2FsdG8ubmVidWxhLnVuaXQudjEuVGVzdFBlcm1p",
+            "c3Npb25zUmVzcG9uc2VChQEKHGNvbS5zYWx0b2FwaXMubmVidWxhLnVuaXQu",
+            "djFCCVVuaXRQcm90b1ABWj1naXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlz",
+            "L3NhbHRvYXBpcy1nby9uZWJ1bGEvdW5pdC92MTt1bml0qgIYU2FsdG9hcGlz",
+            "Lk5lYnVsYS5Vbml0LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.Unit), global::Saltoapis.Nebula.Unit.V1.Unit.Parser, new[]{ "Name", "DisplayName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.Policy), global::Saltoapis.Nebula.Unit.V1.Policy.Parser, new[]{ "Name", "Member", "Roles" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.CreateUnitRequest), global::Saltoapis.Nebula.Unit.V1.CreateUnitRequest.Parser, new[]{ "Parent", "UnitId", "Unit" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.CreateUnitRequest), global::Saltoapis.Nebula.Unit.V1.CreateUnitRequest.Parser, new[]{ "Parent", "UnitId", "Unit" }, new[]{ "UnitId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.GetUnitRequest), global::Saltoapis.Nebula.Unit.V1.GetUnitRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.ListUnitsRequest), global::Saltoapis.Nebula.Unit.V1.ListUnitsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.ListUnitsResponse), global::Saltoapis.Nebula.Unit.V1.ListUnitsResponse.Parser, new[]{ "Units", "NextPageToken" }, null, null, null, null),
@@ -674,7 +674,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
 
     /// <summary>Field number for the "unit_id" field.</summary>
     public const int UnitIdFieldNumber = 2;
-    private string unitId_ = "";
+    private string unitId_;
     /// <summary>
     /// The unit id to use for this unit. If it's empty the server will
     /// autogenerate a unique identifier.
@@ -682,10 +682,22 @@ namespace Saltoapis.Nebula.Unit.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UnitId {
-      get { return unitId_; }
+      get { return unitId_ ?? ""; }
       set {
         unitId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+    /// <summary>Gets whether the "unit_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasUnitId {
+      get { return unitId_ != null; }
+    }
+    /// <summary>Clears the value of the "unit_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearUnitId() {
+      unitId_ = null;
     }
 
     /// <summary>Field number for the "unit" field.</summary>
@@ -730,7 +742,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (UnitId.Length != 0) hash ^= UnitId.GetHashCode();
+      if (HasUnitId) hash ^= UnitId.GetHashCode();
       if (unit_ != null) hash ^= Unit.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -754,7 +766,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (UnitId.Length != 0) {
+      if (HasUnitId) {
         output.WriteRawTag(18);
         output.WriteString(UnitId);
       }
@@ -776,7 +788,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (UnitId.Length != 0) {
+      if (HasUnitId) {
         output.WriteRawTag(18);
         output.WriteString(UnitId);
       }
@@ -797,7 +809,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
       if (Parent.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
       }
-      if (UnitId.Length != 0) {
+      if (HasUnitId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(UnitId);
       }
       if (unit_ != null) {
@@ -818,7 +830,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
       if (other.Parent.Length != 0) {
         Parent = other.Parent;
       }
-      if (other.UnitId.Length != 0) {
+      if (other.HasUnitId) {
         UnitId = other.UnitId;
       }
       if (other.unit_ != null) {
