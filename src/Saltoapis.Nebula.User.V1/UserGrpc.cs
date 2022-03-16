@@ -90,6 +90,8 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest> __Marshaller_salto_nebula_user_v1_EncodeCardKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.Operation> __Marshaller_salto_longrunning_v1_Operation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.Operation.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest> __Marshaller_salto_nebula_user_v1_AssignAppKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AppKey> __Marshaller_salto_nebula_user_v1_AppKey = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AppKey.Parser));
@@ -205,12 +207,12 @@ namespace Saltoapis.Nebula.User.V1 {
         __Marshaller_salto_nebula_user_v1_CardKey);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_EncodeCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_EncodeCardKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest, global::Saltoapis.Longrunning.V1.Operation>(
         grpc::MethodType.Unary,
         __ServiceName,
         "EncodeCardKey",
         __Marshaller_salto_nebula_user_v1_EncodeCardKeyRequest,
-        __Marshaller_google_protobuf_Empty);
+        __Marshaller_salto_longrunning_v1_Operation);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest, global::Saltoapis.Nebula.User.V1.AppKey> __Method_AssignAppKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest, global::Saltoapis.Nebula.User.V1.AppKey>(
@@ -968,7 +970,7 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty EncodeCardKey(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Saltoapis.Longrunning.V1.Operation EncodeCardKey(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return EncodeCardKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -981,7 +983,7 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty EncodeCardKey(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::CallOptions options)
+      public virtual global::Saltoapis.Longrunning.V1.Operation EncodeCardKey(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_EncodeCardKey, null, options, request);
       }
@@ -996,7 +998,7 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> EncodeCardKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> EncodeCardKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return EncodeCardKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -1009,7 +1011,7 @@ namespace Saltoapis.Nebula.User.V1 {
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> EncodeCardKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> EncodeCardKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeCardKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_EncodeCardKey, null, options, request);
       }
