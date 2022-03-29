@@ -68,6 +68,14 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.BlockUserRequest> __Marshaller_salto_nebula_user_v1_BlockUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.BlockUserRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.BlockUserResponse> __Marshaller_salto_nebula_user_v1_BlockUserResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.BlockUserResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UnblockUserRequest> __Marshaller_salto_nebula_user_v1_UnblockUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UnblockUserRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UnblockUserResponse> __Marshaller_salto_nebula_user_v1_UnblockUserResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UnblockUserResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest> __Marshaller_salto_nebula_user_v1_CreateUserAccessRightRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.UserAccessRight> __Marshaller_salto_nebula_user_v1_UserAccessRight = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.UserAccessRight.Parser));
@@ -149,6 +157,22 @@ namespace Saltoapis.Nebula.User.V1 {
         "DeleteUser",
         __Marshaller_salto_nebula_user_v1_DeleteUserRequest,
         __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.BlockUserRequest, global::Saltoapis.Nebula.User.V1.BlockUserResponse> __Method_BlockUser = new grpc::Method<global::Saltoapis.Nebula.User.V1.BlockUserRequest, global::Saltoapis.Nebula.User.V1.BlockUserResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BlockUser",
+        __Marshaller_salto_nebula_user_v1_BlockUserRequest,
+        __Marshaller_salto_nebula_user_v1_BlockUserResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.UnblockUserRequest, global::Saltoapis.Nebula.User.V1.UnblockUserResponse> __Method_UnblockUser = new grpc::Method<global::Saltoapis.Nebula.User.V1.UnblockUserRequest, global::Saltoapis.Nebula.User.V1.UnblockUserResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UnblockUser",
+        __Marshaller_salto_nebula_user_v1_UnblockUserRequest,
+        __Marshaller_salto_nebula_user_v1_UnblockUserResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest, global::Saltoapis.Nebula.User.V1.UserAccessRight> __Method_CreateUserAccessRight = new grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserAccessRightRequest, global::Saltoapis.Nebula.User.V1.UserAccessRight>(
@@ -566,6 +590,142 @@ namespace Saltoapis.Nebula.User.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteUserAsync(global::Saltoapis.Nebula.User.V1.DeleteUserRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteUser, null, options, request);
+      }
+      /// <summary>
+      /// Block a user
+      ///
+      /// Temporarily blocks an existing user. While blocked, the user cannot
+      /// perform any admin actions, that is, they have no management role.
+      /// Neither can they unlock any access point with any type of key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.BlockUserResponse BlockUser(global::Saltoapis.Nebula.User.V1.BlockUserRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BlockUser(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Block a user
+      ///
+      /// Temporarily blocks an existing user. While blocked, the user cannot
+      /// perform any admin actions, that is, they have no management role.
+      /// Neither can they unlock any access point with any type of key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.BlockUserResponse BlockUser(global::Saltoapis.Nebula.User.V1.BlockUserRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BlockUser, null, options, request);
+      }
+      /// <summary>
+      /// Block a user
+      ///
+      /// Temporarily blocks an existing user. While blocked, the user cannot
+      /// perform any admin actions, that is, they have no management role.
+      /// Neither can they unlock any access point with any type of key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.BlockUserResponse> BlockUserAsync(global::Saltoapis.Nebula.User.V1.BlockUserRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BlockUserAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Block a user
+      ///
+      /// Temporarily blocks an existing user. While blocked, the user cannot
+      /// perform any admin actions, that is, they have no management role.
+      /// Neither can they unlock any access point with any type of key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.BlockUserResponse> BlockUserAsync(global::Saltoapis.Nebula.User.V1.BlockUserRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BlockUser, null, options, request);
+      }
+      /// <summary>
+      /// Unblock a user
+      ///
+      /// Unblocks an already blocked user. Once unblocked, the user can
+      /// perform the admin actions they could previously, that is,
+      /// they once again have a management role.
+      /// They can also once again unlock the access points they previously
+      /// had access to.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.UnblockUserResponse UnblockUser(global::Saltoapis.Nebula.User.V1.UnblockUserRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnblockUser(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unblock a user
+      ///
+      /// Unblocks an already blocked user. Once unblocked, the user can
+      /// perform the admin actions they could previously, that is,
+      /// they once again have a management role.
+      /// They can also once again unlock the access points they previously
+      /// had access to.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.UnblockUserResponse UnblockUser(global::Saltoapis.Nebula.User.V1.UnblockUserRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UnblockUser, null, options, request);
+      }
+      /// <summary>
+      /// Unblock a user
+      ///
+      /// Unblocks an already blocked user. Once unblocked, the user can
+      /// perform the admin actions they could previously, that is,
+      /// they once again have a management role.
+      /// They can also once again unlock the access points they previously
+      /// had access to.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.UnblockUserResponse> UnblockUserAsync(global::Saltoapis.Nebula.User.V1.UnblockUserRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnblockUserAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unblock a user
+      ///
+      /// Unblocks an already blocked user. Once unblocked, the user can
+      /// perform the admin actions they could previously, that is,
+      /// they once again have a management role.
+      /// They can also once again unlock the access points they previously
+      /// had access to.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.UnblockUserResponse> UnblockUserAsync(global::Saltoapis.Nebula.User.V1.UnblockUserRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UnblockUser, null, options, request);
       }
       /// <summary>
       /// Create an access right
