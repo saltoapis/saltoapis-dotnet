@@ -1008,7 +1008,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteUserAccessRight, null, options, request);
       }
       /// <summary>
-      /// Assign an card key
+      /// Assign a card key
       ///
       /// Assigns a card key to an existing user.
       /// </summary>
@@ -1023,7 +1023,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return AssignCardKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Assign an card key
+      /// Assign a card key
       ///
       /// Assigns a card key to an existing user.
       /// </summary>
@@ -1036,7 +1036,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_AssignCardKey, null, options, request);
       }
       /// <summary>
-      /// Assign an card key
+      /// Assign a card key
       ///
       /// Assigns a card key to an existing user.
       /// </summary>
@@ -1051,7 +1051,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return AssignCardKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Assign an card key
+      /// Assign a card key
       ///
       /// Assigns a card key to an existing user.
       /// </summary>
