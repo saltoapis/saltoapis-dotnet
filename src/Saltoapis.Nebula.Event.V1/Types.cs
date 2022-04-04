@@ -67,20 +67,25 @@ namespace Saltoapis.Nebula.Event.V1 {
             "Y2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCKCAQoWVXNlckFjY2Vzc1JpZ2h0",
             "RGVsZXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEu",
             "VXNlchI+CgxhY2Nlc3NfcmlnaHQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNj",
-            "ZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQiQgoPQ2FyZEtleUFzc2lnbmVkEi8K",
-            "CGNhcmRfa2V5GAEgASgLMh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtl",
-            "eSJCCg9DYXJkS2V5Q2FuY2VsZWQSLwoIY2FyZF9rZXkYASABKAsyHS5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5DYXJkS2V5Ij8KDkFwcEtleUFzc2lnbmVkEi0K",
-            "B2FwcF9rZXkYASABKAsyHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXki",
-            "PwoOQXBwS2V5Q2FuY2VsZWQSLQoHYXBwX2tleRgBIAEoCzIcLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLkFwcEtleSJIChFXYWxsZXRLZXlBc3NpZ25lZBIzCgp3",
-            "YWxsZXRfa2V5GAEgASgLMh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0",
-            "S2V5IkgKEVdhbGxldEtleUNhbmNlbGVkEjMKCndhbGxldF9rZXkYASABKAsy",
-            "Hy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXlCigEKHWNvbS5zYWx0",
-            "b2FwaXMubmVidWxhLmV2ZW50LnYxQgpUeXBlc1Byb3RvUAFaP2dpdGh1Yi5j",
-            "b20vcHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9ldmVu",
-            "dC92MTtldmVudKoCGVNhbHRvYXBpcy5OZWJ1bGEuRXZlbnQuVjFiBnByb3Rv",
-            "Mw=="));
+            "ZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQibAoPQ2FyZEtleUFzc2lnbmVkEigK",
+            "BHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi8KCGNh",
+            "cmRfa2V5GAIgASgLMh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleSJs",
+            "Cg9DYXJkS2V5Q2FuY2VsZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVs",
+            "YS51c2VyLnYxLlVzZXISLwoIY2FyZF9rZXkYAiABKAsyHS5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5DYXJkS2V5ImkKDkFwcEtleUFzc2lnbmVkEigKBHVzZXIY",
+            "ASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi0KB2FwcF9rZXkY",
+            "AiABKAsyHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkiaQoOQXBwS2V5",
+            "Q2FuY2VsZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LlVzZXISLQoHYXBwX2tleRgCIAEoCzIcLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LkFwcEtleSJyChFXYWxsZXRLZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhou",
+            "c2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchIzCgp3YWxsZXRfa2V5GAIgASgL",
+            "Mh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5InIKEVdhbGxldEtl",
+            "eUNhbmNlbGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5Vc2VyEjMKCndhbGxldF9rZXkYAiABKAsyHy5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5XYWxsZXRLZXlCigEKHWNvbS5zYWx0b2FwaXMubmVidWxhLmV2ZW50",
+            "LnYxQgpUeXBlc1Byb3RvUAFaP2dpdGh1Yi5jb20vcHJpdmF0ZS1zYWx0b2Fw",
+            "aXMvc2FsdG9hcGlzLWdvL25lYnVsYS9ldmVudC92MTtldmVudKoCGVNhbHRv",
+            "YXBpcy5OZWJ1bGEuRXZlbnQuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -102,12 +107,12 @@ namespace Saltoapis.Nebula.Event.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserDeleted), global::Saltoapis.Nebula.Event.V1.UserDeleted.Parser, new[]{ "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserAccessRightCreated), global::Saltoapis.Nebula.Event.V1.UserAccessRightCreated.Parser, new[]{ "User", "AccessRight" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserAccessRightDeleted), global::Saltoapis.Nebula.Event.V1.UserAccessRightDeleted.Parser, new[]{ "User", "AccessRight" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.CardKeyAssigned), global::Saltoapis.Nebula.Event.V1.CardKeyAssigned.Parser, new[]{ "CardKey" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.CardKeyCanceled), global::Saltoapis.Nebula.Event.V1.CardKeyCanceled.Parser, new[]{ "CardKey" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AppKeyAssigned), global::Saltoapis.Nebula.Event.V1.AppKeyAssigned.Parser, new[]{ "AppKey" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AppKeyCanceled), global::Saltoapis.Nebula.Event.V1.AppKeyCanceled.Parser, new[]{ "AppKey" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.WalletKeyAssigned), global::Saltoapis.Nebula.Event.V1.WalletKeyAssigned.Parser, new[]{ "WalletKey" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.WalletKeyCanceled), global::Saltoapis.Nebula.Event.V1.WalletKeyCanceled.Parser, new[]{ "WalletKey" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.CardKeyAssigned), global::Saltoapis.Nebula.Event.V1.CardKeyAssigned.Parser, new[]{ "User", "CardKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.CardKeyCanceled), global::Saltoapis.Nebula.Event.V1.CardKeyCanceled.Parser, new[]{ "User", "CardKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AppKeyAssigned), global::Saltoapis.Nebula.Event.V1.AppKeyAssigned.Parser, new[]{ "User", "AppKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AppKeyCanceled), global::Saltoapis.Nebula.Event.V1.AppKeyCanceled.Parser, new[]{ "User", "AppKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.WalletKeyAssigned), global::Saltoapis.Nebula.Event.V1.WalletKeyAssigned.Parser, new[]{ "User", "WalletKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.WalletKeyCanceled), global::Saltoapis.Nebula.Event.V1.WalletKeyCanceled.Parser, new[]{ "User", "WalletKey" }, null, null, null, null)
           }));
     }
     #endregion
@@ -4166,6 +4171,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CardKeyAssigned(CardKeyAssigned other) : this() {
+      user_ = other.user_ != null ? other.user_.Clone() : null;
       cardKey_ = other.cardKey_ != null ? other.cardKey_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4176,11 +4182,26 @@ namespace Saltoapis.Nebula.Event.V1 {
       return new CardKeyAssigned(this);
     }
 
+    /// <summary>Field number for the "user" field.</summary>
+    public const int UserFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.User user_;
+    /// <summary>
+    /// Card key's user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.User User {
+      get { return user_; }
+      set {
+        user_ = value;
+      }
+    }
+
     /// <summary>Field number for the "card_key" field.</summary>
-    public const int CardKeyFieldNumber = 1;
+    public const int CardKeyFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.CardKey cardKey_;
     /// <summary>
-    /// CardKey assigned.
+    /// Card key assigned.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4206,6 +4227,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(User, other.User)) return false;
       if (!object.Equals(CardKey, other.CardKey)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4214,6 +4236,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (user_ != null) hash ^= User.GetHashCode();
       if (cardKey_ != null) hash ^= CardKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4233,8 +4256,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (cardKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (cardKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(CardKey);
       }
       if (_unknownFields != null) {
@@ -4247,8 +4274,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (cardKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (cardKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(CardKey);
       }
       if (_unknownFields != null) {
@@ -4261,6 +4292,9 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (user_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
+      }
       if (cardKey_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CardKey);
       }
@@ -4275,6 +4309,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     public void MergeFrom(CardKeyAssigned other) {
       if (other == null) {
         return;
+      }
+      if (other.user_ != null) {
+        if (user_ == null) {
+          User = new global::Saltoapis.Nebula.User.V1.User();
+        }
+        User.MergeFrom(other.User);
       }
       if (other.cardKey_ != null) {
         if (cardKey_ == null) {
@@ -4298,6 +4338,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (cardKey_ == null) {
               CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
             }
@@ -4320,6 +4367,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (cardKey_ == null) {
               CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
             }
@@ -4370,6 +4424,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CardKeyCanceled(CardKeyCanceled other) : this() {
+      user_ = other.user_ != null ? other.user_.Clone() : null;
       cardKey_ = other.cardKey_ != null ? other.cardKey_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4380,11 +4435,26 @@ namespace Saltoapis.Nebula.Event.V1 {
       return new CardKeyCanceled(this);
     }
 
+    /// <summary>Field number for the "user" field.</summary>
+    public const int UserFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.User user_;
+    /// <summary>
+    /// Card key's user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.User User {
+      get { return user_; }
+      set {
+        user_ = value;
+      }
+    }
+
     /// <summary>Field number for the "card_key" field.</summary>
-    public const int CardKeyFieldNumber = 1;
+    public const int CardKeyFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.CardKey cardKey_;
     /// <summary>
-    /// CardKey canceled.
+    /// Card key canceled.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4410,6 +4480,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(User, other.User)) return false;
       if (!object.Equals(CardKey, other.CardKey)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4418,6 +4489,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (user_ != null) hash ^= User.GetHashCode();
       if (cardKey_ != null) hash ^= CardKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4437,8 +4509,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (cardKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (cardKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(CardKey);
       }
       if (_unknownFields != null) {
@@ -4451,8 +4527,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (cardKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (cardKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(CardKey);
       }
       if (_unknownFields != null) {
@@ -4465,6 +4545,9 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (user_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
+      }
       if (cardKey_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CardKey);
       }
@@ -4479,6 +4562,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     public void MergeFrom(CardKeyCanceled other) {
       if (other == null) {
         return;
+      }
+      if (other.user_ != null) {
+        if (user_ == null) {
+          User = new global::Saltoapis.Nebula.User.V1.User();
+        }
+        User.MergeFrom(other.User);
       }
       if (other.cardKey_ != null) {
         if (cardKey_ == null) {
@@ -4502,6 +4591,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (cardKey_ == null) {
               CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
             }
@@ -4524,6 +4620,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (cardKey_ == null) {
               CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
             }
@@ -4574,6 +4677,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AppKeyAssigned(AppKeyAssigned other) : this() {
+      user_ = other.user_ != null ? other.user_.Clone() : null;
       appKey_ = other.appKey_ != null ? other.appKey_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4584,11 +4688,26 @@ namespace Saltoapis.Nebula.Event.V1 {
       return new AppKeyAssigned(this);
     }
 
+    /// <summary>Field number for the "user" field.</summary>
+    public const int UserFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.User user_;
+    /// <summary>
+    /// App key's user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.User User {
+      get { return user_; }
+      set {
+        user_ = value;
+      }
+    }
+
     /// <summary>Field number for the "app_key" field.</summary>
-    public const int AppKeyFieldNumber = 1;
+    public const int AppKeyFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.AppKey appKey_;
     /// <summary>
-    /// AppKey assigned.
+    /// App key assigned.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4614,6 +4733,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(User, other.User)) return false;
       if (!object.Equals(AppKey, other.AppKey)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4622,6 +4742,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (user_ != null) hash ^= User.GetHashCode();
       if (appKey_ != null) hash ^= AppKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4641,8 +4762,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (appKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (appKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(AppKey);
       }
       if (_unknownFields != null) {
@@ -4655,8 +4780,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (appKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (appKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(AppKey);
       }
       if (_unknownFields != null) {
@@ -4669,6 +4798,9 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (user_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
+      }
       if (appKey_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(AppKey);
       }
@@ -4683,6 +4815,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     public void MergeFrom(AppKeyAssigned other) {
       if (other == null) {
         return;
+      }
+      if (other.user_ != null) {
+        if (user_ == null) {
+          User = new global::Saltoapis.Nebula.User.V1.User();
+        }
+        User.MergeFrom(other.User);
       }
       if (other.appKey_ != null) {
         if (appKey_ == null) {
@@ -4706,6 +4844,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (appKey_ == null) {
               AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
             }
@@ -4728,6 +4873,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (appKey_ == null) {
               AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
             }
@@ -4778,6 +4930,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AppKeyCanceled(AppKeyCanceled other) : this() {
+      user_ = other.user_ != null ? other.user_.Clone() : null;
       appKey_ = other.appKey_ != null ? other.appKey_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4788,11 +4941,26 @@ namespace Saltoapis.Nebula.Event.V1 {
       return new AppKeyCanceled(this);
     }
 
+    /// <summary>Field number for the "user" field.</summary>
+    public const int UserFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.User user_;
+    /// <summary>
+    /// App key's user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.User User {
+      get { return user_; }
+      set {
+        user_ = value;
+      }
+    }
+
     /// <summary>Field number for the "app_key" field.</summary>
-    public const int AppKeyFieldNumber = 1;
+    public const int AppKeyFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.AppKey appKey_;
     /// <summary>
-    /// AppKey canceled.
+    /// App key canceled.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4818,6 +4986,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(User, other.User)) return false;
       if (!object.Equals(AppKey, other.AppKey)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4826,6 +4995,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (user_ != null) hash ^= User.GetHashCode();
       if (appKey_ != null) hash ^= AppKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4845,8 +5015,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (appKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (appKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(AppKey);
       }
       if (_unknownFields != null) {
@@ -4859,8 +5033,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (appKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (appKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(AppKey);
       }
       if (_unknownFields != null) {
@@ -4873,6 +5051,9 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (user_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
+      }
       if (appKey_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(AppKey);
       }
@@ -4887,6 +5068,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     public void MergeFrom(AppKeyCanceled other) {
       if (other == null) {
         return;
+      }
+      if (other.user_ != null) {
+        if (user_ == null) {
+          User = new global::Saltoapis.Nebula.User.V1.User();
+        }
+        User.MergeFrom(other.User);
       }
       if (other.appKey_ != null) {
         if (appKey_ == null) {
@@ -4910,6 +5097,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (appKey_ == null) {
               AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
             }
@@ -4932,6 +5126,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (appKey_ == null) {
               AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
             }
@@ -4982,6 +5183,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public WalletKeyAssigned(WalletKeyAssigned other) : this() {
+      user_ = other.user_ != null ? other.user_.Clone() : null;
       walletKey_ = other.walletKey_ != null ? other.walletKey_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4992,11 +5194,26 @@ namespace Saltoapis.Nebula.Event.V1 {
       return new WalletKeyAssigned(this);
     }
 
+    /// <summary>Field number for the "user" field.</summary>
+    public const int UserFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.User user_;
+    /// <summary>
+    /// Wallet key's user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.User User {
+      get { return user_; }
+      set {
+        user_ = value;
+      }
+    }
+
     /// <summary>Field number for the "wallet_key" field.</summary>
-    public const int WalletKeyFieldNumber = 1;
+    public const int WalletKeyFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.WalletKey walletKey_;
     /// <summary>
-    /// WalletKey assigned.
+    /// Wallet key assigned.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5022,6 +5239,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(User, other.User)) return false;
       if (!object.Equals(WalletKey, other.WalletKey)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -5030,6 +5248,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (user_ != null) hash ^= User.GetHashCode();
       if (walletKey_ != null) hash ^= WalletKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -5049,8 +5268,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (walletKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (walletKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(WalletKey);
       }
       if (_unknownFields != null) {
@@ -5063,8 +5286,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (walletKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (walletKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(WalletKey);
       }
       if (_unknownFields != null) {
@@ -5077,6 +5304,9 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (user_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
+      }
       if (walletKey_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(WalletKey);
       }
@@ -5091,6 +5321,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     public void MergeFrom(WalletKeyAssigned other) {
       if (other == null) {
         return;
+      }
+      if (other.user_ != null) {
+        if (user_ == null) {
+          User = new global::Saltoapis.Nebula.User.V1.User();
+        }
+        User.MergeFrom(other.User);
       }
       if (other.walletKey_ != null) {
         if (walletKey_ == null) {
@@ -5114,6 +5350,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (walletKey_ == null) {
               WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
             }
@@ -5136,6 +5379,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (walletKey_ == null) {
               WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
             }
@@ -5186,6 +5436,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public WalletKeyCanceled(WalletKeyCanceled other) : this() {
+      user_ = other.user_ != null ? other.user_.Clone() : null;
       walletKey_ = other.walletKey_ != null ? other.walletKey_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -5196,11 +5447,26 @@ namespace Saltoapis.Nebula.Event.V1 {
       return new WalletKeyCanceled(this);
     }
 
+    /// <summary>Field number for the "user" field.</summary>
+    public const int UserFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.User user_;
+    /// <summary>
+    /// Wallet key's user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.User User {
+      get { return user_; }
+      set {
+        user_ = value;
+      }
+    }
+
     /// <summary>Field number for the "wallet_key" field.</summary>
-    public const int WalletKeyFieldNumber = 1;
+    public const int WalletKeyFieldNumber = 2;
     private global::Saltoapis.Nebula.User.V1.WalletKey walletKey_;
     /// <summary>
-    /// WalletKey canceled.
+    /// Wallet key canceled.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5226,6 +5492,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(User, other.User)) return false;
       if (!object.Equals(WalletKey, other.WalletKey)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -5234,6 +5501,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (user_ != null) hash ^= User.GetHashCode();
       if (walletKey_ != null) hash ^= WalletKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -5253,8 +5521,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (walletKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (walletKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(WalletKey);
       }
       if (_unknownFields != null) {
@@ -5267,8 +5539,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (walletKey_ != null) {
+      if (user_ != null) {
         output.WriteRawTag(10);
+        output.WriteMessage(User);
+      }
+      if (walletKey_ != null) {
+        output.WriteRawTag(18);
         output.WriteMessage(WalletKey);
       }
       if (_unknownFields != null) {
@@ -5281,6 +5557,9 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (user_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
+      }
       if (walletKey_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(WalletKey);
       }
@@ -5295,6 +5574,12 @@ namespace Saltoapis.Nebula.Event.V1 {
     public void MergeFrom(WalletKeyCanceled other) {
       if (other == null) {
         return;
+      }
+      if (other.user_ != null) {
+        if (user_ == null) {
+          User = new global::Saltoapis.Nebula.User.V1.User();
+        }
+        User.MergeFrom(other.User);
       }
       if (other.walletKey_ != null) {
         if (walletKey_ == null) {
@@ -5318,6 +5603,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (walletKey_ == null) {
               WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
             }
@@ -5340,6 +5632,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 18: {
             if (walletKey_ == null) {
               WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
             }
