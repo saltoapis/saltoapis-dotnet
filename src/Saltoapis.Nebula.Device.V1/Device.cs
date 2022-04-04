@@ -26,32 +26,33 @@ namespace Saltoapis.Nebula.Device.V1 {
           string.Concat(
             "CiNzYWx0by9uZWJ1bGEvZGV2aWNlL3YxL2RldmljZS5wcm90bxIWc2FsdG8u",
             "bmVidWxhLmRldmljZS52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5w",
-            "cm90bxojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5cGUucHJvdG8iqAIK",
+            "cm90bxojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5cGUucHJvdG8i0gIK",
             "BkRldmljZRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCRIUCgxk",
             "aXNwbGF5X25hbWUYAyABKAkSMgoLZGV2aWNlX3R5cGUYBCABKA4yHS5zYWx0",
             "by5uZWJ1bGEudHlwZS5EZXZpY2VUeXBlEg4KBnNvdXJjZRgFIAEoCRIRCgdn",
             "YXRld2F5GAYgASgJSAASEgoIZXh0ZW5kZXIYByABKAlIABIQCghvdXRkYXRl",
             "ZBgIIAEoCBIWCgljb25uZWN0ZWQYCiABKAhIAYgBARIzCg9sYXN0X2V2ZW50",
-            "X3RpbWUYCSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQg8KDXBh",
-            "cmVudF9kZXZpY2VCDAoKX2Nvbm5lY3RlZCIgChBHZXREZXZpY2VSZXF1ZXN0",
-            "EgwKBG5hbWUYASABKAkibQoSTGlzdERldmljZXNSZXF1ZXN0Eg4KBnBhcmVu",
-            "dBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEo",
-            "CRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkicwoTTGlzdERl",
-            "dmljZXNSZXNwb25zZRIvCgdkZXZpY2VzGAEgAygLMh4uc2FsdG8ubmVidWxh",
-            "LmRldmljZS52MS5EZXZpY2USFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJEhIK",
-            "CnRvdGFsX3NpemUYAyABKAUyzgEKDURldmljZVNlcnZpY2USVQoJR2V0RGV2",
-            "aWNlEiguc2FsdG8ubmVidWxhLmRldmljZS52MS5HZXREZXZpY2VSZXF1ZXN0",
-            "Gh4uc2FsdG8ubmVidWxhLmRldmljZS52MS5EZXZpY2USZgoLTGlzdERldmlj",
-            "ZXMSKi5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkxpc3REZXZpY2VzUmVxdWVz",
-            "dBorLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuTGlzdERldmljZXNSZXNwb25z",
-            "ZUKPAQoeY29tLnNhbHRvYXBpcy5uZWJ1bGEuZGV2aWNlLnYxQgtEZXZpY2VQ",
-            "cm90b1ABWkFnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBp",
-            "cy1nby9uZWJ1bGEvZGV2aWNlL3YxO2RldmljZaoCGlNhbHRvYXBpcy5OZWJ1",
-            "bGEuRGV2aWNlLlYxYgZwcm90bzM="));
+            "X3RpbWUYCSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhgKC2xv",
+            "d19iYXR0ZXJ5GAsgASgISAKIAQFCDwoNcGFyZW50X2RldmljZUIMCgpfY29u",
+            "bmVjdGVkQg4KDF9sb3dfYmF0dGVyeSIgChBHZXREZXZpY2VSZXF1ZXN0EgwK",
+            "BG5hbWUYASABKAkibQoSTGlzdERldmljZXNSZXF1ZXN0Eg4KBnBhcmVudBgB",
+            "IAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIO",
+            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkicwoTTGlzdERldmlj",
+            "ZXNSZXNwb25zZRIvCgdkZXZpY2VzGAEgAygLMh4uc2FsdG8ubmVidWxhLmRl",
+            "dmljZS52MS5EZXZpY2USFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJEhIKCnRv",
+            "dGFsX3NpemUYAyABKAUyzgEKDURldmljZVNlcnZpY2USVQoJR2V0RGV2aWNl",
+            "Eiguc2FsdG8ubmVidWxhLmRldmljZS52MS5HZXREZXZpY2VSZXF1ZXN0Gh4u",
+            "c2FsdG8ubmVidWxhLmRldmljZS52MS5EZXZpY2USZgoLTGlzdERldmljZXMS",
+            "Ki5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkxpc3REZXZpY2VzUmVxdWVzdBor",
+            "LnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuTGlzdERldmljZXNSZXNwb25zZUKP",
+            "AQoeY29tLnNhbHRvYXBpcy5uZWJ1bGEuZGV2aWNlLnYxQgtEZXZpY2VQcm90",
+            "b1ABWkFnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1n",
+            "by9uZWJ1bGEvZGV2aWNlL3YxO2RldmljZaoCGlNhbHRvYXBpcy5OZWJ1bGEu",
+            "RGV2aWNlLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DeviceTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated", "Connected", "LastEventTime" }, new[]{ "ParentDevice", "Connected" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated", "Connected", "LastEventTime", "LowBattery" }, new[]{ "ParentDevice", "Connected", "LowBattery" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetDeviceRequest), global::Saltoapis.Nebula.Device.V1.GetDeviceRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesRequest), global::Saltoapis.Nebula.Device.V1.ListDevicesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesResponse), global::Saltoapis.Nebula.Device.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken", "TotalSize" }, null, null, null, null)
@@ -108,6 +109,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       outdated_ = other.outdated_;
       connected_ = other.connected_;
       lastEventTime_ = other.lastEventTime_ != null ? other.lastEventTime_.Clone() : null;
+      lowBattery_ = other.lowBattery_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -300,6 +302,37 @@ namespace Saltoapis.Nebula.Device.V1 {
       }
     }
 
+    /// <summary>Field number for the "low_battery" field.</summary>
+    public const int LowBatteryFieldNumber = 11;
+    private bool lowBattery_;
+    /// <summary>
+    /// Indicates whether the battery of this device is low, and needs
+    /// replacing, or is normal and doesn't need replacing. If unset it means
+    /// the device is mains powered. For example, the device could be a
+    /// gateway, an extender, or a control unit.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool LowBattery {
+      get { if ((_hasBits0 & 2) != 0) { return lowBattery_; } else { return false; } }
+      set {
+        _hasBits0 |= 2;
+        lowBattery_ = value;
+      }
+    }
+    /// <summary>Gets whether the "low_battery" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasLowBattery {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "low_battery" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearLowBattery() {
+      _hasBits0 &= ~2;
+    }
+
     private object parentDevice_;
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
@@ -346,6 +379,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Outdated != other.Outdated) return false;
       if (Connected != other.Connected) return false;
       if (!object.Equals(LastEventTime, other.LastEventTime)) return false;
+      if (LowBattery != other.LowBattery) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -364,6 +398,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Outdated != false) hash ^= Outdated.GetHashCode();
       if (HasConnected) hash ^= Connected.GetHashCode();
       if (lastEventTime_ != null) hash ^= LastEventTime.GetHashCode();
+      if (HasLowBattery) hash ^= LowBattery.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -423,6 +458,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(80);
         output.WriteBool(Connected);
       }
+      if (HasLowBattery) {
+        output.WriteRawTag(88);
+        output.WriteBool(LowBattery);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -473,6 +512,10 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(80);
         output.WriteBool(Connected);
       }
+      if (HasLowBattery) {
+        output.WriteRawTag(88);
+        output.WriteBool(LowBattery);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -513,6 +556,9 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (lastEventTime_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastEventTime);
       }
+      if (HasLowBattery) {
+        size += 1 + 1;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -551,6 +597,9 @@ namespace Saltoapis.Nebula.Device.V1 {
           LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         LastEventTime.MergeFrom(other.LastEventTime);
+      }
+      if (other.HasLowBattery) {
+        LowBattery = other.LowBattery;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -619,6 +668,10 @@ namespace Saltoapis.Nebula.Device.V1 {
             Connected = input.ReadBool();
             break;
           }
+          case 88: {
+            LowBattery = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -675,6 +728,10 @@ namespace Saltoapis.Nebula.Device.V1 {
           }
           case 80: {
             Connected = input.ReadBool();
+            break;
+          }
+          case 88: {
+            LowBattery = input.ReadBool();
             break;
           }
         }
