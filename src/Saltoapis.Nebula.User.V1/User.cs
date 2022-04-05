@@ -1476,7 +1476,7 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// Representation of a physical key, belonging to a user
+  /// Representation of a card key, belonging to a user
   /// </summary>
   public sealed partial class CardKey : pb::IMessage<CardKey>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
