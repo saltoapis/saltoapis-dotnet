@@ -65,6 +65,10 @@ namespace Saltoapis.Nebula.Unit.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest> __Marshaller_salto_nebula_unit_v1_CleanOutUnitRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse> __Marshaller_salto_nebula_unit_v1_CleanOutUnitResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.CreatePolicyRequest> __Marshaller_salto_nebula_unit_v1_CreatePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.CreatePolicyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.Policy> __Marshaller_salto_nebula_unit_v1_Policy = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.Policy.Parser));
@@ -122,6 +126,14 @@ namespace Saltoapis.Nebula.Unit.V1 {
         "DeleteUnit",
         __Marshaller_salto_nebula_unit_v1_DeleteUnitRequest,
         __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest, global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse> __Method_CleanOutUnit = new grpc::Method<global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest, global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CleanOutUnit",
+        __Marshaller_salto_nebula_unit_v1_CleanOutUnitRequest,
+        __Marshaller_salto_nebula_unit_v1_CleanOutUnitResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Unit.V1.CreatePolicyRequest, global::Saltoapis.Nebula.Unit.V1.Policy> __Method_CreatePolicy = new grpc::Method<global::Saltoapis.Nebula.Unit.V1.CreatePolicyRequest, global::Saltoapis.Nebula.Unit.V1.Policy>(
@@ -483,6 +495,86 @@ namespace Saltoapis.Nebula.Unit.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteUnitAsync(global::Saltoapis.Nebula.Unit.V1.DeleteUnitRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteUnit, null, options, request);
+      }
+      /// <summary>
+      /// Clean out a unit
+      ///
+      /// Cleans out a unit by deleting all the users belonging to it. This process
+      /// implicitly entails the blocking of the keys that were active within the
+      /// unit. Cleaning out a unit will not delete the access rights and the
+      /// associated access points that belong to the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because clean out is a
+      ///     phrasal verb and api-linter don't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse CleanOutUnit(global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CleanOutUnit(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Clean out a unit
+      ///
+      /// Cleans out a unit by deleting all the users belonging to it. This process
+      /// implicitly entails the blocking of the keys that were active within the
+      /// unit. Cleaning out a unit will not delete the access rights and the
+      /// associated access points that belong to the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because clean out is a
+      ///     phrasal verb and api-linter don't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse CleanOutUnit(global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CleanOutUnit, null, options, request);
+      }
+      /// <summary>
+      /// Clean out a unit
+      ///
+      /// Cleans out a unit by deleting all the users belonging to it. This process
+      /// implicitly entails the blocking of the keys that were active within the
+      /// unit. Cleaning out a unit will not delete the access rights and the
+      /// associated access points that belong to the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because clean out is a
+      ///     phrasal verb and api-linter don't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse> CleanOutUnitAsync(global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CleanOutUnitAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Clean out a unit
+      ///
+      /// Cleans out a unit by deleting all the users belonging to it. This process
+      /// implicitly entails the blocking of the keys that were active within the
+      /// unit. Cleaning out a unit will not delete the access rights and the
+      /// associated access points that belong to the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because clean out is a
+      ///     phrasal verb and api-linter don't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse> CleanOutUnitAsync(global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CleanOutUnit, null, options, request);
       }
       /// <summary>
       /// Create a policy
