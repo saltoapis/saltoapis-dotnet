@@ -52,33 +52,39 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             "ZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiGgoYQ29uZmlndXJlRW5jb2RlclJl",
             "c3BvbnNlIhoKGENvbmZpZ3VyZUVuY29kZXJNZXRhZGF0YSIjChNSZXNldEVu",
             "Y29kZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiFgoUUmVzZXRFbmNvZGVyUmVz",
-            "cG9uc2UiFgoUUmVzZXRFbmNvZGVyTWV0YWRhdGEy/gcKDkVuY29kZXJTZXJ2",
-            "aWNlEmAKDUNyZWF0ZUVuY29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52",
-            "MS5DcmVhdGVFbmNvZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5lbmNvZGVy",
-            "LnYxLkVuY29kZXISWgoKR2V0RW5jb2RlchIqLnNhbHRvLm5lYnVsYS5lbmNv",
-            "ZGVyLnYxLkdldEVuY29kZXJSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmVuY29k",
-            "ZXIudjEuRW5jb2RlchJrCgxMaXN0RW5jb2RlcnMSLC5zYWx0by5uZWJ1bGEu",
-            "ZW5jb2Rlci52MS5MaXN0RW5jb2RlcnNSZXF1ZXN0Gi0uc2FsdG8ubmVidWxh",
-            "LmVuY29kZXIudjEuTGlzdEVuY29kZXJzUmVzcG9uc2USYAoNVXBkYXRlRW5j",
-            "b2RlchItLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLlVwZGF0ZUVuY29kZXJS",
-            "ZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRW5jb2RlchJWCg1E",
-            "ZWxldGVFbmNvZGVyEi0uc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRGVsZXRl",
-            "RW5jb2RlclJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSZwoRSW5p",
-            "dGlhbGl6ZUVuY29kZXISMS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5Jbml0",
-            "aWFsaXplRW5jb2RlclJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5P",
-            "cGVyYXRpb24SZQoQQ29uZmlndXJlRW5jb2RlchIwLnNhbHRvLm5lYnVsYS5l",
-            "bmNvZGVyLnYxLkNvbmZpZ3VyZUVuY29kZXJSZXF1ZXN0Gh8uc2FsdG8ubG9u",
-            "Z3J1bm5pbmcudjEuT3BlcmF0aW9uEl0KDFJlc2V0RW5jb2RlchIsLnNhbHRv",
-            "Lm5lYnVsYS5lbmNvZGVyLnYxLlJlc2V0RW5jb2RlclJlcXVlc3QaHy5zYWx0",
-            "by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SaAoLQmluZEVuY29kZXISKy5z",
-            "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5jb2RlclJlcXVlc3QaLC5z",
-            "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5jb2RlclJlc3BvbnNlEm4K",
-            "DVVuYmluZEVuY29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5VbmJp",
-            "bmRFbmNvZGVyUmVxdWVzdBouLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLlVu",
-            "YmluZEVuY29kZXJSZXNwb25zZUKUAQofY29tLnNhbHRvYXBpcy5uZWJ1bGEu",
-            "ZW5jb2Rlci52MUIMRW5jb2RlclByb3RvUAFaQ2dpdGh1Yi5jb20vcHJpdmF0",
-            "ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9lbmNvZGVyL3YxO2Vu",
-            "Y29kZXKqAhtTYWx0b2FwaXMuTmVidWxhLkVuY29kZXIuVjFiBnByb3RvMw=="));
+            "cG9uc2UiFgoUUmVzZXRFbmNvZGVyTWV0YWRhdGEiLwocVXBkYXRlRW5jb2Rl",
+            "ckZpcm13YXJlUmVxdWVzdBIPCgdlbmNvZGVyGAEgASgJIh8KHVVwZGF0ZUVu",
+            "Y29kZXJGaXJtd2FyZVJlc3BvbnNlIh8KHVVwZGF0ZUVuY29kZXJGaXJtd2Fy",
+            "ZU1ldGFkYXRhMu8ICg5FbmNvZGVyU2VydmljZRJgCg1DcmVhdGVFbmNvZGVy",
+            "Ei0uc2FsdG8ubmVidWxhLmVuY29kZXIudjEuQ3JlYXRlRW5jb2RlclJlcXVl",
+            "c3QaIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVyEloKCkdldEVu",
+            "Y29kZXISKi5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5HZXRFbmNvZGVyUmVx",
+            "dWVzdBogLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISawoMTGlz",
+            "dEVuY29kZXJzEiwuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuTGlzdEVuY29k",
+            "ZXJzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkxpc3RFbmNv",
+            "ZGVyc1Jlc3BvbnNlEmAKDVVwZGF0ZUVuY29kZXISLS5zYWx0by5uZWJ1bGEu",
+            "ZW5jb2Rlci52MS5VcGRhdGVFbmNvZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVs",
+            "YS5lbmNvZGVyLnYxLkVuY29kZXISVgoNRGVsZXRlRW5jb2RlchItLnNhbHRv",
+            "Lm5lYnVsYS5lbmNvZGVyLnYxLkRlbGV0ZUVuY29kZXJSZXF1ZXN0GhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5EmcKEUluaXRpYWxpemVFbmNvZGVyEjEuc2Fs",
+            "dG8ubmVidWxhLmVuY29kZXIudjEuSW5pdGlhbGl6ZUVuY29kZXJSZXF1ZXN0",
+            "Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEmUKEENvbmZpZ3Vy",
+            "ZUVuY29kZXISMC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5Db25maWd1cmVF",
+            "bmNvZGVyUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlv",
+            "bhJdCgxSZXNldEVuY29kZXISLC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5S",
+            "ZXNldEVuY29kZXJSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3Bl",
+            "cmF0aW9uEm8KFVVwZGF0ZUVuY29kZXJGaXJtd2FyZRI1LnNhbHRvLm5lYnVs",
+            "YS5lbmNvZGVyLnYxLlVwZGF0ZUVuY29kZXJGaXJtd2FyZVJlcXVlc3QaHy5z",
+            "YWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SaAoLQmluZEVuY29kZXIS",
+            "Ky5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5jb2RlclJlcXVlc3Qa",
+            "LC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5jb2RlclJlc3BvbnNl",
+            "Em4KDVVuYmluZEVuY29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5V",
+            "bmJpbmRFbmNvZGVyUmVxdWVzdBouLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYx",
+            "LlVuYmluZEVuY29kZXJSZXNwb25zZUKUAQofY29tLnNhbHRvYXBpcy5uZWJ1",
+            "bGEuZW5jb2Rlci52MUIMRW5jb2RlclByb3RvUAFaQ2dpdGh1Yi5jb20vcHJp",
+            "dmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9lbmNvZGVyL3Yx",
+            "O2VuY29kZXKqAhtTYWx0b2FwaXMuTmVidWxhLkVuY29kZXIuVjFiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -101,7 +107,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderMetadata), global::Saltoapis.Nebula.Encoder.V1.ConfigureEncoderMetadata.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderResponse), global::Saltoapis.Nebula.Encoder.V1.ResetEncoderResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderMetadata), global::Saltoapis.Nebula.Encoder.V1.ResetEncoderMetadata.Parser, null, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderMetadata), global::Saltoapis.Nebula.Encoder.V1.ResetEncoderMetadata.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest.Parser, new[]{ "Encoder" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareResponse), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata.Parser, null, null, null, null, null)
           }));
     }
     #endregion
@@ -4336,6 +4345,513 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ResetEncoderMetadata other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`UpdateEncoderFirmware`][salto.nebula.encoder.v1.EncoderService.UpdateEncoderFirmware]
+  /// </summary>
+  public sealed partial class UpdateEncoderFirmwareRequest : pb::IMessage<UpdateEncoderFirmwareRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateEncoderFirmwareRequest> _parser = new pb::MessageParser<UpdateEncoderFirmwareRequest>(() => new UpdateEncoderFirmwareRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UpdateEncoderFirmwareRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareRequest(UpdateEncoderFirmwareRequest other) : this() {
+      encoder_ = other.encoder_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareRequest Clone() {
+      return new UpdateEncoderFirmwareRequest(this);
+    }
+
+    /// <summary>Field number for the "encoder" field.</summary>
+    public const int EncoderFieldNumber = 1;
+    private string encoder_ = "";
+    /// <summary>
+    /// The resource name of the encoder whose firmware will be updated. For
+    /// example:
+    /// `installations/surelock-homes-hq/encoders/conan-doyle`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Encoder {
+      get { return encoder_; }
+      set {
+        encoder_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateEncoderFirmwareRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UpdateEncoderFirmwareRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Encoder != other.Encoder) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Encoder.Length != 0) hash ^= Encoder.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Encoder.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Encoder);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Encoder.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Encoder);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Encoder.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Encoder);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UpdateEncoderFirmwareRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Encoder.Length != 0) {
+        Encoder = other.Encoder;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Encoder = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Encoder = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The empty response message for [`UpdateEncoderFirmware`][salto.nebula.encoder.v1.EncoderService.UpdateEncoderFirmware]
+  /// </summary>
+  public sealed partial class UpdateEncoderFirmwareResponse : pb::IMessage<UpdateEncoderFirmwareResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateEncoderFirmwareResponse> _parser = new pb::MessageParser<UpdateEncoderFirmwareResponse>(() => new UpdateEncoderFirmwareResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UpdateEncoderFirmwareResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareResponse(UpdateEncoderFirmwareResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareResponse Clone() {
+      return new UpdateEncoderFirmwareResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateEncoderFirmwareResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UpdateEncoderFirmwareResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UpdateEncoderFirmwareResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The metadata message for [`UpdateEncoderFirmware`][salto.nebula.encoder.v1.EncoderService.UpdateEncoderFirmware]
+  /// </summary>
+  public sealed partial class UpdateEncoderFirmwareMetadata : pb::IMessage<UpdateEncoderFirmwareMetadata>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateEncoderFirmwareMetadata> _parser = new pb::MessageParser<UpdateEncoderFirmwareMetadata>(() => new UpdateEncoderFirmwareMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UpdateEncoderFirmwareMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[22]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareMetadata(UpdateEncoderFirmwareMetadata other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateEncoderFirmwareMetadata Clone() {
+      return new UpdateEncoderFirmwareMetadata(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateEncoderFirmwareMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UpdateEncoderFirmwareMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UpdateEncoderFirmwareMetadata other) {
       if (other == null) {
         return;
       }
