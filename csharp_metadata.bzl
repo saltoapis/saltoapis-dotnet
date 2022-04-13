@@ -43,6 +43,7 @@ csharp_projects = [
     '//src/Saltoapis.Nebula.Unit.V1',
     '//src/Saltoapis.Longrunning.V1',
     '//src/Saltoapis.Type',
+    '//src/Saltoapis.Nebula.Controller.V1',
     '//src/Saltoapis.Nebula.ElectronicLock.V1',
     '//src/Saltoapis.Nebula.Encoder.V1',
     '//src/Saltoapis.Nebula.Extender.V1',
