@@ -75,6 +75,8 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest> __Marshaller_salto_nebula_encoder_v1_ResetEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest> __Marshaller_salto_nebula_encoder_v1_UpdateEncoderFirmwareRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest> __Marshaller_salto_nebula_encoder_v1_BindEncoderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.BindEncoderRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse> __Marshaller_salto_nebula_encoder_v1_BindEncoderResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.BindEncoderResponse.Parser));
@@ -145,6 +147,14 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         __ServiceName,
         "ResetEncoder",
         __Marshaller_salto_nebula_encoder_v1_ResetEncoderRequest,
+        __Marshaller_salto_longrunning_v1_Operation);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_UpdateEncoderFirmware = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest, global::Saltoapis.Longrunning.V1.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateEncoderFirmware",
+        __Marshaller_salto_nebula_encoder_v1_UpdateEncoderFirmwareRequest,
         __Marshaller_salto_longrunning_v1_Operation);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -663,6 +673,66 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ResetEncoderAsync(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ResetEncoder, null, options, request);
+      }
+      /// <summary>
+      /// Update encoder firmware
+      ///
+      /// Updates an encoder's firmware. SALTO provides firmware updates
+      /// when new functionality is available or when we fix a bug.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation UpdateEncoderFirmware(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateEncoderFirmware(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update encoder firmware
+      ///
+      /// Updates an encoder's firmware. SALTO provides firmware updates
+      /// when new functionality is available or when we fix a bug.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation UpdateEncoderFirmware(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateEncoderFirmware, null, options, request);
+      }
+      /// <summary>
+      /// Update encoder firmware
+      ///
+      /// Updates an encoder's firmware. SALTO provides firmware updates
+      /// when new functionality is available or when we fix a bug.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateEncoderFirmwareAsync(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateEncoderFirmwareAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update encoder firmware
+      ///
+      /// Updates an encoder's firmware. SALTO provides firmware updates
+      /// when new functionality is available or when we fix a bug.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateEncoderFirmwareAsync(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateEncoderFirmware, null, options, request);
       }
       /// <summary>
       /// Bind an encoder
