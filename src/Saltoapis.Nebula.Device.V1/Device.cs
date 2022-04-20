@@ -26,33 +26,33 @@ namespace Saltoapis.Nebula.Device.V1 {
           string.Concat(
             "CiNzYWx0by9uZWJ1bGEvZGV2aWNlL3YxL2RldmljZS5wcm90bxIWc2FsdG8u",
             "bmVidWxhLmRldmljZS52MRofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5w",
-            "cm90bxojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5cGUucHJvdG8i0gIK",
-            "BkRldmljZRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCRIUCgxk",
-            "aXNwbGF5X25hbWUYAyABKAkSMgoLZGV2aWNlX3R5cGUYBCABKA4yHS5zYWx0",
-            "by5uZWJ1bGEudHlwZS5EZXZpY2VUeXBlEg4KBnNvdXJjZRgFIAEoCRIRCgdn",
-            "YXRld2F5GAYgASgJSAASEgoIZXh0ZW5kZXIYByABKAlIABIQCghvdXRkYXRl",
-            "ZBgIIAEoCBIWCgljb25uZWN0ZWQYCiABKAhIAYgBARIzCg9sYXN0X2V2ZW50",
-            "X3RpbWUYCSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhgKC2xv",
-            "d19iYXR0ZXJ5GAsgASgISAKIAQFCDwoNcGFyZW50X2RldmljZUIMCgpfY29u",
-            "bmVjdGVkQg4KDF9sb3dfYmF0dGVyeSIgChBHZXREZXZpY2VSZXF1ZXN0EgwK",
-            "BG5hbWUYASABKAkibQoSTGlzdERldmljZXNSZXF1ZXN0Eg4KBnBhcmVudBgB",
-            "IAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIO",
-            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkicwoTTGlzdERldmlj",
-            "ZXNSZXNwb25zZRIvCgdkZXZpY2VzGAEgAygLMh4uc2FsdG8ubmVidWxhLmRl",
-            "dmljZS52MS5EZXZpY2USFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJEhIKCnRv",
-            "dGFsX3NpemUYAyABKAUyzgEKDURldmljZVNlcnZpY2USVQoJR2V0RGV2aWNl",
-            "Eiguc2FsdG8ubmVidWxhLmRldmljZS52MS5HZXREZXZpY2VSZXF1ZXN0Gh4u",
-            "c2FsdG8ubmVidWxhLmRldmljZS52MS5EZXZpY2USZgoLTGlzdERldmljZXMS",
-            "Ki5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkxpc3REZXZpY2VzUmVxdWVzdBor",
-            "LnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuTGlzdERldmljZXNSZXNwb25zZUKP",
-            "AQoeY29tLnNhbHRvYXBpcy5uZWJ1bGEuZGV2aWNlLnYxQgtEZXZpY2VQcm90",
-            "b1ABWkFnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1n",
-            "by9uZWJ1bGEvZGV2aWNlL3YxO2RldmljZaoCGlNhbHRvYXBpcy5OZWJ1bGEu",
-            "RGV2aWNlLlYxYgZwcm90bzM="));
+            "cm90bxojc2FsdG8vbmVidWxhL3R5cGUvZGV2aWNlX3R5cGUucHJvdG8i5QIK",
+            "BkRldmljZRIMCgRuYW1lGAEgASgJEhYKCWRldmljZV9pZBgCIAEoCUgBiAEB",
+            "EhQKDGRpc3BsYXlfbmFtZRgDIAEoCRIyCgtkZXZpY2VfdHlwZRgEIAEoDjId",
+            "LnNhbHRvLm5lYnVsYS50eXBlLkRldmljZVR5cGUSDgoGc291cmNlGAUgASgJ",
+            "EhEKB2dhdGV3YXkYBiABKAlIABISCghleHRlbmRlchgHIAEoCUgAEhAKCG91",
+            "dGRhdGVkGAggASgIEhYKCWNvbm5lY3RlZBgKIAEoCEgCiAEBEjMKD2xhc3Rf",
+            "ZXZlbnRfdGltZRgJIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
+            "GAoLbG93X2JhdHRlcnkYCyABKAhIA4gBAUIPCg1wYXJlbnRfZGV2aWNlQgwK",
+            "Cl9kZXZpY2VfaWRCDAoKX2Nvbm5lY3RlZEIOCgxfbG93X2JhdHRlcnkiIAoQ",
+            "R2V0RGV2aWNlUmVxdWVzdBIMCgRuYW1lGAEgASgJIm0KEkxpc3REZXZpY2Vz",
+            "UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIK",
+            "CnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5",
+            "GAUgASgJInMKE0xpc3REZXZpY2VzUmVzcG9uc2USLwoHZGV2aWNlcxgBIAMo",
+            "CzIeLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuRGV2aWNlEhcKD25leHRfcGFn",
+            "ZV90b2tlbhgCIAEoCRISCgp0b3RhbF9zaXplGAMgASgFMs4BCg1EZXZpY2VT",
+            "ZXJ2aWNlElUKCUdldERldmljZRIoLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEu",
+            "R2V0RGV2aWNlUmVxdWVzdBoeLnNhbHRvLm5lYnVsYS5kZXZpY2UudjEuRGV2",
+            "aWNlEmYKC0xpc3REZXZpY2VzEiouc2FsdG8ubmVidWxhLmRldmljZS52MS5M",
+            "aXN0RGV2aWNlc1JlcXVlc3QaKy5zYWx0by5uZWJ1bGEuZGV2aWNlLnYxLkxp",
+            "c3REZXZpY2VzUmVzcG9uc2VCjwEKHmNvbS5zYWx0b2FwaXMubmVidWxhLmRl",
+            "dmljZS52MUILRGV2aWNlUHJvdG9QAVpBZ2l0aHViLmNvbS9wcml2YXRlLXNh",
+            "bHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2RldmljZS92MTtkZXZpY2Wq",
+            "AhpTYWx0b2FwaXMuTmVidWxhLkRldmljZS5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DeviceTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated", "Connected", "LastEventTime", "LowBattery" }, new[]{ "ParentDevice", "Connected", "LowBattery" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.Device), global::Saltoapis.Nebula.Device.V1.Device.Parser, new[]{ "Name", "DeviceId", "DisplayName", "DeviceType", "Source", "Gateway", "Extender", "Outdated", "Connected", "LastEventTime", "LowBattery" }, new[]{ "ParentDevice", "DeviceId", "Connected", "LowBattery" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.GetDeviceRequest), global::Saltoapis.Nebula.Device.V1.GetDeviceRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesRequest), global::Saltoapis.Nebula.Device.V1.ListDevicesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Device.V1.ListDevicesResponse), global::Saltoapis.Nebula.Device.V1.ListDevicesResponse.Parser, new[]{ "Devices", "NextPageToken", "TotalSize" }, null, null, null, null)
@@ -147,7 +147,7 @@ namespace Saltoapis.Nebula.Device.V1 {
 
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 2;
-    private string deviceId_ = "";
+    private string deviceId_;
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
     /// by SALTO, including gateways, extenders, electronic locks and so on.
@@ -155,10 +155,22 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DeviceId {
-      get { return deviceId_; }
+      get { return deviceId_ ?? ""; }
       set {
         deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+    /// <summary>Gets whether the "device_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasDeviceId {
+      get { return deviceId_ != null; }
+    }
+    /// <summary>Clears the value of the "device_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearDeviceId() {
+      deviceId_ = null;
     }
 
     /// <summary>Field number for the "display_name" field.</summary>
@@ -389,7 +401,7 @@ namespace Saltoapis.Nebula.Device.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
+      if (HasDeviceId) hash ^= DeviceId.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (DeviceType != global::Saltoapis.Nebula.Type.DeviceType.Unspecified) hash ^= DeviceType.GetHashCode();
       if (Source.Length != 0) hash ^= Source.GetHashCode();
@@ -422,7 +434,7 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (DeviceId.Length != 0) {
+      if (HasDeviceId) {
         output.WriteRawTag(18);
         output.WriteString(DeviceId);
       }
@@ -476,7 +488,7 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (DeviceId.Length != 0) {
+      if (HasDeviceId) {
         output.WriteRawTag(18);
         output.WriteString(DeviceId);
       }
@@ -529,7 +541,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (DeviceId.Length != 0) {
+      if (HasDeviceId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
       }
       if (DisplayName.Length != 0) {
@@ -574,7 +586,7 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.DeviceId.Length != 0) {
+      if (other.HasDeviceId) {
         DeviceId = other.DeviceId;
       }
       if (other.DisplayName.Length != 0) {
