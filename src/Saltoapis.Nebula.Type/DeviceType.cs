@@ -25,13 +25,13 @@ namespace Saltoapis.Nebula.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiNzYWx0by9uZWJ1bGEvdHlwZS9kZXZpY2VfdHlwZS5wcm90bxIRc2FsdG8u",
-            "bmVidWxhLnR5cGUqZgoKRGV2aWNlVHlwZRIbChdERVZJQ0VfVFlQRV9VTlNQ",
+            "bmVidWxhLnR5cGUqdgoKRGV2aWNlVHlwZRIbChdERVZJQ0VfVFlQRV9VTlNQ",
             "RUNJRklFRBAAEhMKD0VMRUNUUk9OSUNfTE9DSxABEgsKB0dBVEVXQVkQAhIM",
-            "CghFWFRFTkRFUhADEgsKB0VOQ09ERVIQBEKTAQoZY29tLnNhbHRvYXBpcy5u",
-            "ZWJ1bGEudHlwZUIPRGV2aWNlVHlwZVByb3RvUAFaS2dpdGh1Yi5jb20vcHJp",
-            "dmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS90eXBlL2Rldmlj",
-            "ZXR5cGU7ZGV2aWNldHlwZaoCFVNhbHRvYXBpcy5OZWJ1bGEuVHlwZWIGcHJv",
-            "dG8z"));
+            "CghFWFRFTkRFUhADEgsKB0VOQ09ERVIQBBIOCgpDT05UUk9MTEVSEAVCkwEK",
+            "GWNvbS5zYWx0b2FwaXMubmVidWxhLnR5cGVCD0RldmljZVR5cGVQcm90b1AB",
+            "WktnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9u",
+            "ZWJ1bGEvdHlwZS9kZXZpY2V0eXBlO2RldmljZXR5cGWqAhVTYWx0b2FwaXMu",
+            "TmVidWxhLlR5cGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Saltoapis.Nebula.Type.DeviceType), }, null, null));
@@ -64,6 +64,10 @@ namespace Saltoapis.Nebula.Type {
     /// Encoder
     /// </summary>
     [pbr::OriginalName("ENCODER")] Encoder = 4,
+    /// <summary>
+    /// Controller
+    /// </summary>
+    [pbr::OriginalName("CONTROLLER")] Controller = 5,
   }
 
   #endregion
