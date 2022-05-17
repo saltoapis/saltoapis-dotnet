@@ -1,15 +1,13 @@
-# this is the LTS. Last release is 5.0
+# this is the LTS. Latest release is 5.0
 FROM mcr.microsoft.com/dotnet/sdk:3.1
 
-# install make
-# Install bazel
+# Install bazelisk & dev dependencies
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends build-essential ca-certificates apt-transport-https curl gnupg git software-properties-common && \
-    curl -s https://bazel.build/bazel-release.pub.gpg | apt-key add - && \
-    echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | tee /etc/apt/sources.list.d/bazel.list && \
-    apt-get update && \
-    apt-get install -y --no-install-recommends bazel-3.7.0 && \
-    mv /usr/bin/bazel-3.7.0 /usr/bin/bazel
+    apt-get install -y --no-install-recommends build-essential ca-certificates apt-transport-https curl cmake git software-properties-common && \
+    curl -L -o bazelisk https://github.com/bazelbuild/bazelisk/releases/download/v1.7.4/bazelisk-linux-amd64 && \
+    chmod +x bazelisk && \
+    cp bazelisk /usr/local/bin && \
+    ln -s /usr/local/bin/bazelisk /usr/local/bin/bazel
 
 # Define default command.
 CMD ["bash"]

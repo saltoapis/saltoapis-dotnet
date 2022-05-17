@@ -4,7 +4,7 @@ and manually generated) in this project. That macro adds rules to build and rele
 of the libraries.
 """
 
-load("@io_bazel_rules_dotnet//dotnet:defs.bzl", "core_library")
+load("@io_bazel_rules_dotnet//dotnet:defs.bzl", "csharp_library")
 load("//scripts:release.bzl", "nuget_deploy")
 
 def load_rules(lib_name, internal_dependencies, extra_info):
@@ -23,24 +23,24 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     
 
     third_party_deps = [
-        "@grpc.core//:core",
-        "@google.protobuf//:core",
-        "@google.api.commonprotos//:core",
+        "@grpc.core//:lib",
+        "@google.protobuf//:lib",
+        "@google.api.commonprotos//:lib",
     ]
     
     if  'extra_deps' in extra_info:
         third_party_deps += extra_info['extra_deps'].split(',')
     
-    core_library(
+    csharp_library(
         name = '%s.dll' % lib_name,
         srcs = native.glob(['*.cs']),
-        deps = lib_deps + third_party_deps + ["@io_bazel_rules_dotnet//dotnet/stdlib.core/v3.1.100:libraryset"],
+        deps = lib_deps + third_party_deps + ["@core_sdk_stdlib//:libraryset"],
     )
 
     project_description = "Contains the SDK related to '%s'. Check out https://developer.saltonebula.com/ for more information" % lib_name
     if 'nuget_description' in extra_info:
         project_description = extra_info['nuget_description']
-    # package will use version from 'core_library' by default 
+    # package will use version from 'csharp_library' by default 
     # but can be overriden by using --define version=1.0.0 
     nuget_deploy(
         name = 'deploy',

@@ -1,8 +1,8 @@
-load("@io_bazel_rules_dotnet//dotnet:defs.bzl", "core_nunit3_test")
+load("@io_bazel_rules_dotnet//dotnet:defs.bzl", "csharp_nunit3_test")
 
 package(default_visibility = ['//:__subpackages__'])
 
-core_nunit3_test(
+csharp_nunit3_test(
     name = 'interceptor_test.dll',
     srcs = [
         'InterceptorTest.cs',
@@ -10,6 +10,6 @@ core_nunit3_test(
     deps = [
         '//src/Saltoapis.Auth:Saltoapis.Auth.dll',
 
-        "@nunit//:core",
+        "@nunit//:lib",
     ],
 )
