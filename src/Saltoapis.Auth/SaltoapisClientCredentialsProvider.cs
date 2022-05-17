@@ -1,6 +1,5 @@
 using System;
-using System.Web;
-using System.Text;
+using System.Collections.Generic; // KeyValuePair
 
 using System.Net.Http; // HttpClient
 using System.Threading.Tasks; // Task
@@ -73,6 +72,10 @@ namespace Saltoapis.Auth
         public string Error
         { get; set; }
 
+        [JsonPropertyName("error_hint")]
+        public string ErrorHint
+        { get; set; }
+
         [JsonPropertyName("error_description")]
         public string ErrorDescription
         { get; set; }
@@ -92,13 +95,15 @@ namespace Saltoapis.Auth
 
         SaltoTokenResponse token;
 
-        readonly String clientId;
-        readonly String clientSecret;
+        readonly String   clientId;
+        readonly String   clientSecret;
+        readonly String[] scopes;
 
-        public SaltoOAuthClient(String id, String secret)
+        public SaltoOAuthClient(String id, String secret, String[] scopes)
         {
             this.clientId = id;
             this.clientSecret = secret;
+            this.scopes = scopes;
         }
 
         /**
@@ -170,13 +175,16 @@ namespace Saltoapis.Auth
 
         async Task<SaltoTokenResponse> ObtainOAuthToken(HttpClient httpClient)
         {
-            string tokenEndpoint = cachedOidcConfiguration.TokenEndpoint;
+            // build token request post data
+            var postData = new List<KeyValuePair<string, string>>();
+            postData.Add(new KeyValuePair<string, string>("grant_type", "client_credentials"));
+            postData.Add(new KeyValuePair<string, string>("client_id", this.clientId));
+            postData.Add(new KeyValuePair<string, string>("client_secret", this.clientSecret));
+            postData.Add(new KeyValuePair<string, string>("scope", string.Join(" ", this.scopes)));
 
-            var body = $"grant_type=client_credentials&client_id={HttpUtility.UrlEncode(this.clientId)}&client_secret={HttpUtility.UrlEncode(this.clientSecret)}";
-            using (var stringContent = new StringContent(body, Encoding.UTF8, "application/x-www-form-urlencoded"))
+            using (var formBody = new FormUrlEncodedContent(postData))
             {
-
-                var responseMessage = await httpClient.PostAsync(tokenEndpoint, stringContent);
+                var responseMessage = await httpClient.PostAsync(cachedOidcConfiguration.TokenEndpoint, formBody);
                 var result = await responseMessage.Content.ReadAsStringAsync();
                 if (responseMessage.IsSuccessStatusCode)
                 {
@@ -187,7 +195,7 @@ namespace Saltoapis.Auth
                 {
                     // get error
                     var error = JsonSerializer.Deserialize<TokenError>(result);
-                    throw new SaltoOAuthException($"Error getting the access_token. Server returned {responseMessage.StatusCode} error ( error = '{error.Error}', description = '{error.ErrorDescription}')");
+                    throw new SaltoOAuthException($"Error getting the access_token. Server returned {responseMessage.StatusCode} error ( error = '{error.Error}', error_hint = '{error.ErrorHint}', description = '{error.ErrorDescription}')");
                 }
             }
         }

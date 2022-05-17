@@ -52,9 +52,9 @@ namespace Saltoapis.Auth
     {
         OAuthClientCredentialsProvider OAuthClient;
 
-        public SaltoapisAuthInterceptor(String id, String secret)
+        public SaltoapisAuthInterceptor(String id, String secret, String[] scopes)
         {
-            this.OAuthClient = new SaltoOAuthClient(id, secret);
+            this.OAuthClient = new SaltoOAuthClient(id, secret, scopes);
         }
 
         public SaltoapisAuthInterceptor(OAuthClientCredentialsProvider credentialsProvider)
