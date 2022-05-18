@@ -25,43 +25,44 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CixzYWx0by9uZWJ1bGEvZGlnaXRhbGtleS92MS9kaWdpdGFsX2tleS5wcm90",
-            "bxIac2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEi0wUKCkRpZ2l0YWxLZXkS",
+            "bxIac2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEi5AUKCkRpZ2l0YWxLZXkS",
             "DAoEbmFtZRgBIAEoCRJACgdhcHBfa2V5GAIgASgLMi0uc2FsdG8ubmVidWxh",
             "LmRpZ2l0YWxrZXkudjEuRGlnaXRhbEtleS5BcHBLZXlIABJGCgp3YWxsZXRf",
             "a2V5GAMgASgLMjAuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRh",
             "bEtleS5XYWxsZXRLZXlIABpPCghNZXRhZGF0YRINCgV0aXRsZRgBIAEoCRIQ",
             "CghzdWJ0aXRsZRgCIAEoCRIRCglwaG90b191cmkYAyABKAkSDwoHYWRkcmVz",
-            "cxgEIAEoCRqDAQoGQXBwS2V5EkEKCG1ldGFkYXRhGAEgASgLMi8uc2FsdG8u",
+            "cxgEIAEoCRqUAQoGQXBwS2V5EkEKCG1ldGFkYXRhGAEgASgLMi8uc2FsdG8u",
             "bmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRhbEtleS5NZXRhZGF0YRIMCgRk",
-            "YXRhGAIgASgMEhcKD2luc3RhbGxhdGlvbl9pZBgDIAEoCRIPCgd1bml0X2lk",
-            "GAQgASgJGs0CCglXYWxsZXRLZXkSQQoIbWV0YWRhdGEYASABKAsyLy5zYWx0",
-            "by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5Lk1ldGFkYXRhEloK",
-            "EGh5ZHJhX2NyZWRlbnRpYWwYAiABKAsyQC5zYWx0by5uZWJ1bGEuZGlnaXRh",
-            "bGtleS52MS5EaWdpdGFsS2V5LldhbGxldEtleS5IeWRyYUNyZWRlbnRpYWwa",
-            "oAEKD0h5ZHJhQ3JlZGVudGlhbBIVCg1jcmVkZW50aWFsX2lkGAEgASgJEhsK",
-            "E3NoYXJpbmdfaW5zdGFuY2VfaWQYAiABKAkSFAoMYWNjb3VudF9oYXNoGAMg",
-            "ASgJEhMKC3RlbXBsYXRlX2lkGAQgASgJEhgKEHJlbHlpbmdfcGFydHlfaWQY",
-            "BSABKAkSFAoMcmVmZXJlbmNlX2lkGAYgASgJQgYKBHR5cGUiJAoUR2V0RGln",
-            "aXRhbEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJhChZMaXN0RGlnaXRhbEtl",
-            "eXNSZXF1ZXN0EhEKCXBhZ2Vfc2l6ZRgBIAEoBRISCgpwYWdlX3Rva2VuGAIg",
-            "ASgJEg4KBmZpbHRlchgDIAEoCRIQCghvcmRlcl9ieRgEIAEoCSJwChdMaXN0",
-            "RGlnaXRhbEtleXNSZXNwb25zZRI8CgxkaWdpdGFsX2tleXMYASADKAsyJi5z",
-            "YWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5EhcKD25leHRf",
-            "cGFnZV90b2tlbhgCIAEoCTL6AQoRRGlnaXRhbEtleVNlcnZpY2USaQoNR2V0",
-            "RGlnaXRhbEtleRIwLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkdldERp",
-            "Z2l0YWxLZXlSZXF1ZXN0GiYuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEu",
-            "RGlnaXRhbEtleRJ6Cg9MaXN0RGlnaXRhbEtleXMSMi5zYWx0by5uZWJ1bGEu",
-            "ZGlnaXRhbGtleS52MS5MaXN0RGlnaXRhbEtleXNSZXF1ZXN0GjMuc2FsdG8u",
-            "bmVidWxhLmRpZ2l0YWxrZXkudjEuTGlzdERpZ2l0YWxLZXlzUmVzcG9uc2VC",
-            "owEKImNvbS5zYWx0b2FwaXMubmVidWxhLmRpZ2l0YWxrZXkudjFCD0RpZ2l0",
-            "YWxLZXlQcm90b1ABWklnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3Nh",
-            "bHRvYXBpcy1nby9uZWJ1bGEvZGlnaXRhbGtleS92MTtkaWdpdGFsa2V5qgIe",
-            "U2FsdG9hcGlzLk5lYnVsYS5EaWdpdGFsS2V5LlYxYgZwcm90bzM="));
+            "YXRhGAIgASgMEhcKD2luc3RhbGxhdGlvbl9pZBgDIAEoCRIUCgd1bml0X2lk",
+            "GAQgASgJSACIAQFCCgoIX3VuaXRfaWQazQIKCVdhbGxldEtleRJBCghtZXRh",
+            "ZGF0YRgBIAEoCzIvLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRpZ2l0",
+            "YWxLZXkuTWV0YWRhdGESWgoQaHlkcmFfY3JlZGVudGlhbBgCIAEoCzJALnNh",
+            "bHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkuV2FsbGV0S2V5",
+            "Lkh5ZHJhQ3JlZGVudGlhbBqgAQoPSHlkcmFDcmVkZW50aWFsEhUKDWNyZWRl",
+            "bnRpYWxfaWQYASABKAkSGwoTc2hhcmluZ19pbnN0YW5jZV9pZBgCIAEoCRIU",
+            "CgxhY2NvdW50X2hhc2gYAyABKAkSEwoLdGVtcGxhdGVfaWQYBCABKAkSGAoQ",
+            "cmVseWluZ19wYXJ0eV9pZBgFIAEoCRIUCgxyZWZlcmVuY2VfaWQYBiABKAlC",
+            "BgoEdHlwZSIkChRHZXREaWdpdGFsS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJ",
+            "ImEKFkxpc3REaWdpdGFsS2V5c1JlcXVlc3QSEQoJcGFnZV9zaXplGAEgASgF",
+            "EhIKCnBhZ2VfdG9rZW4YAiABKAkSDgoGZmlsdGVyGAMgASgJEhAKCG9yZGVy",
+            "X2J5GAQgASgJInAKF0xpc3REaWdpdGFsS2V5c1Jlc3BvbnNlEjwKDGRpZ2l0",
+            "YWxfa2V5cxgBIAMoCzImLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRp",
+            "Z2l0YWxLZXkSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJMvoBChFEaWdpdGFs",
+            "S2V5U2VydmljZRJpCg1HZXREaWdpdGFsS2V5EjAuc2FsdG8ubmVidWxhLmRp",
+            "Z2l0YWxrZXkudjEuR2V0RGlnaXRhbEtleVJlcXVlc3QaJi5zYWx0by5uZWJ1",
+            "bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5EnoKD0xpc3REaWdpdGFsS2V5",
+            "cxIyLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkxpc3REaWdpdGFsS2V5",
+            "c1JlcXVlc3QaMy5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5MaXN0RGln",
+            "aXRhbEtleXNSZXNwb25zZUKjAQoiY29tLnNhbHRvYXBpcy5uZWJ1bGEuZGln",
+            "aXRhbGtleS52MUIPRGlnaXRhbEtleVByb3RvUAFaSWdpdGh1Yi5jb20vcHJp",
+            "dmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9kaWdpdGFsa2V5",
+            "L3YxO2RpZ2l0YWxrZXmqAh5TYWx0b2FwaXMuTmVidWxhLkRpZ2l0YWxLZXku",
+            "VjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Parser, new[]{ "Name", "AppKey", "WalletKey" }, new[]{ "Type" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata.Parser, new[]{ "Title", "Subtitle", "PhotoUri", "Address" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Parser, new[]{ "Metadata", "Data", "InstallationId", "UnitId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Parser, new[]{ "Metadata", "Data", "InstallationId", "UnitId" }, new[]{ "UnitId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Parser, new[]{ "Metadata", "HydraCredential" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential.Parser, new[]{ "CredentialId", "SharingInstanceId", "AccountHash", "TemplateId", "RelyingPartyId", "ReferenceId" }, null, null, null, null)})}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest), global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest), global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest.Parser, new[]{ "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -829,7 +830,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
 
         /// <summary>Field number for the "unit_id" field.</summary>
         public const int UnitIdFieldNumber = 4;
-        private string unitId_ = "";
+        private string unitId_;
         /// <summary>
         /// Unit identifier for low-level purposes.
         ///
@@ -840,10 +841,22 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public string UnitId {
-          get { return unitId_; }
+          get { return unitId_ ?? ""; }
           set {
             unitId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
           }
+        }
+        /// <summary>Gets whether the "unit_id" field is set</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasUnitId {
+          get { return unitId_ != null; }
+        }
+        /// <summary>Clears the value of the "unit_id" field</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearUnitId() {
+          unitId_ = null;
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -875,7 +888,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           if (metadata_ != null) hash ^= Metadata.GetHashCode();
           if (Data.Length != 0) hash ^= Data.GetHashCode();
           if (InstallationId.Length != 0) hash ^= InstallationId.GetHashCode();
-          if (UnitId.Length != 0) hash ^= UnitId.GetHashCode();
+          if (HasUnitId) hash ^= UnitId.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -906,7 +919,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             output.WriteRawTag(26);
             output.WriteString(InstallationId);
           }
-          if (UnitId.Length != 0) {
+          if (HasUnitId) {
             output.WriteRawTag(34);
             output.WriteString(UnitId);
           }
@@ -932,7 +945,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             output.WriteRawTag(26);
             output.WriteString(InstallationId);
           }
-          if (UnitId.Length != 0) {
+          if (HasUnitId) {
             output.WriteRawTag(34);
             output.WriteString(UnitId);
           }
@@ -955,7 +968,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           if (InstallationId.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(InstallationId);
           }
-          if (UnitId.Length != 0) {
+          if (HasUnitId) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(UnitId);
           }
           if (_unknownFields != null) {
@@ -982,7 +995,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           if (other.InstallationId.Length != 0) {
             InstallationId = other.InstallationId;
           }
-          if (other.UnitId.Length != 0) {
+          if (other.HasUnitId) {
             UnitId = other.UnitId;
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
