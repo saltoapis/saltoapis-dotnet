@@ -97,8 +97,7 @@ namespace Saltoapis.Type {
     public const int HoursFieldNumber = 1;
     private int hours_;
     /// <summary>
-    /// Hours of day in 24 hour format. Should be from 0 to 23. An API may choose
-    /// to allow the value "24:00:00" for scenarios like business closing time.
+    /// Hours of day in 24 hour format. Should be from 0 to 23.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -128,8 +127,7 @@ namespace Saltoapis.Type {
     public const int SecondsFieldNumber = 3;
     private int seconds_;
     /// <summary>
-    /// Seconds of minutes of the time. Must be from 0 to 59, although an API may
-    /// allow the value 60 if it allows leap-seconds.
+    /// Seconds of minutes of the time. Must be from 0 to 59.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
