@@ -28,78 +28,78 @@ namespace Saltoapis.Nebula.Controller.V1 {
             "EhpzYWx0by5uZWJ1bGEuY29udHJvbGxlci52MRobZ29vZ2xlL3Byb3RvYnVm",
             "L2VtcHR5LnByb3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90",
             "bxofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90bxokc2FsdG8vbG9u",
-            "Z3J1bm5pbmcvdjEvb3BlcmF0aW9uLnByb3RvIpECCgpDb250cm9sbGVyEgwK",
+            "Z3J1bm5pbmcvdjEvb3BlcmF0aW9uLnByb3RvIqcCCgpDb250cm9sbGVyEgwK",
             "BG5hbWUYASABKAkSFgoJZGV2aWNlX2lkGAIgASgJSAGIAQESEQoHZ2F0ZXdh",
             "eRgEIAEoCUgAEhIKCGV4dGVuZGVyGAUgASgJSAASEwoLaW5pdGlhbGl6ZWQY",
             "BiABKAgSFQoNYWNjZXNzX3BvaW50cxgHIAMoCRIQCghvdXRkYXRlZBgIIAEo",
             "CBIWCgljb25uZWN0ZWQYCSABKAhIAogBARIzCg9sYXN0X2V2ZW50X3RpbWUY",
-            "CiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQg8KDXBhcmVudF9k",
-            "ZXZpY2VCDAoKX2RldmljZV9pZEIMCgpfY29ubmVjdGVkIpMBChdDcmVhdGVD",
-            "b250cm9sbGVyUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSGgoNY29udHJvbGxl",
-            "cl9pZBgCIAEoCUgAiAEBEjoKCmNvbnRyb2xsZXIYAyABKAsyJi5zYWx0by5u",
-            "ZWJ1bGEuY29udHJvbGxlci52MS5Db250cm9sbGVyQhAKDl9jb250cm9sbGVy",
-            "X2lkIiQKFEdldENvbnRyb2xsZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkicQoW",
-            "TGlzdENvbnRyb2xsZXJzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFn",
-            "ZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQg",
-            "ASgJEhAKCG9yZGVyX2J5GAUgASgJIm8KF0xpc3RDb250cm9sbGVyc1Jlc3Bv",
-            "bnNlEjsKC2NvbnRyb2xsZXJzGAEgAygLMiYuc2FsdG8ubmVidWxhLmNvbnRy",
-            "b2xsZXIudjEuQ29udHJvbGxlchIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAki",
-            "hgEKF1VwZGF0ZUNvbnRyb2xsZXJSZXF1ZXN0EjoKCmNvbnRyb2xsZXIYASAB",
-            "KAsyJi5zYWx0by5uZWJ1bGEuY29udHJvbGxlci52MS5Db250cm9sbGVyEi8K",
-            "C3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFz",
-            "ayInChdEZWxldGVDb250cm9sbGVyUmVxdWVzdBIMCgRuYW1lGAEgASgJIjgK",
-            "FUJpbmRDb250cm9sbGVyUmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKCWRldmlj",
-            "ZV9pZBgCIAEoCSIYChZCaW5kQ29udHJvbGxlclJlc3BvbnNlIjYKF1VuYmlu",
-            "ZENvbnRyb2xsZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFZm9yY2UYAiAB",
-            "KAgiGgoYVW5iaW5kQ29udHJvbGxlclJlc3BvbnNlIisKG0luaXRpYWxpemVD",
-            "b250cm9sbGVyUmVxdWVzdBIMCgRuYW1lGAEgASgJIh4KHEluaXRpYWxpemVD",
-            "b250cm9sbGVyUmVzcG9uc2UiOAocSW5pdGlhbGl6ZUNvbnRyb2xsZXJNZXRh",
-            "ZGF0YRIYChBwcm9ncmVzc19wZXJjZW50GAEgASgFIioKGkNvbmZpZ3VyZUNv",
-            "bnRyb2xsZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiHQobQ29uZmlndXJlQ29u",
-            "dHJvbGxlclJlc3BvbnNlIjcKG0NvbmZpZ3VyZUNvbnRyb2xsZXJNZXRhZGF0",
-            "YRIYChBwcm9ncmVzc19wZXJjZW50GAEgASgFIiYKFlJlc2V0Q29udHJvbGxl",
-            "clJlcXVlc3QSDAoEbmFtZRgBIAEoCSIZChdSZXNldENvbnRyb2xsZXJSZXNw",
-            "b25zZSIZChdSZXNldENvbnRyb2xsZXJNZXRhZGF0YSI1Ch9VcGRhdGVDb250",
-            "cm9sbGVyRmlybXdhcmVSZXF1ZXN0EhIKCmNvbnRyb2xsZXIYASABKAkiIgog",
-            "VXBkYXRlQ29udHJvbGxlckZpcm13YXJlUmVzcG9uc2UiPAogVXBkYXRlQ29u",
-            "dHJvbGxlckZpcm13YXJlTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgB",
-            "IAEoBTL5CQoRQ29udHJvbGxlclNlcnZpY2USbwoQQ3JlYXRlQ29udHJvbGxl",
-            "chIzLnNhbHRvLm5lYnVsYS5jb250cm9sbGVyLnYxLkNyZWF0ZUNvbnRyb2xs",
-            "ZXJSZXF1ZXN0GiYuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuQ29udHJv",
-            "bGxlchJpCg1HZXRDb250cm9sbGVyEjAuc2FsdG8ubmVidWxhLmNvbnRyb2xs",
-            "ZXIudjEuR2V0Q29udHJvbGxlclJlcXVlc3QaJi5zYWx0by5uZWJ1bGEuY29u",
-            "dHJvbGxlci52MS5Db250cm9sbGVyEnoKD0xpc3RDb250cm9sbGVycxIyLnNh",
-            "bHRvLm5lYnVsYS5jb250cm9sbGVyLnYxLkxpc3RDb250cm9sbGVyc1JlcXVl",
-            "c3QaMy5zYWx0by5uZWJ1bGEuY29udHJvbGxlci52MS5MaXN0Q29udHJvbGxl",
-            "cnNSZXNwb25zZRJvChBVcGRhdGVDb250cm9sbGVyEjMuc2FsdG8ubmVidWxh",
-            "LmNvbnRyb2xsZXIudjEuVXBkYXRlQ29udHJvbGxlclJlcXVlc3QaJi5zYWx0",
-            "by5uZWJ1bGEuY29udHJvbGxlci52MS5Db250cm9sbGVyEl8KEERlbGV0ZUNv",
-            "bnRyb2xsZXISMy5zYWx0by5uZWJ1bGEuY29udHJvbGxlci52MS5EZWxldGVD",
-            "b250cm9sbGVyUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJ3Cg5C",
-            "aW5kQ29udHJvbGxlchIxLnNhbHRvLm5lYnVsYS5jb250cm9sbGVyLnYxLkJp",
-            "bmRDb250cm9sbGVyUmVxdWVzdBoyLnNhbHRvLm5lYnVsYS5jb250cm9sbGVy",
-            "LnYxLkJpbmRDb250cm9sbGVyUmVzcG9uc2USfQoQVW5iaW5kQ29udHJvbGxl",
-            "chIzLnNhbHRvLm5lYnVsYS5jb250cm9sbGVyLnYxLlVuYmluZENvbnRyb2xs",
-            "ZXJSZXF1ZXN0GjQuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuVW5iaW5k",
-            "Q29udHJvbGxlclJlc3BvbnNlEnAKFEluaXRpYWxpemVDb250cm9sbGVyEjcu",
-            "c2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuSW5pdGlhbGl6ZUNvbnRyb2xs",
-            "ZXJSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEm4K",
-            "E0NvbmZpZ3VyZUNvbnRyb2xsZXISNi5zYWx0by5uZWJ1bGEuY29udHJvbGxl",
-            "ci52MS5Db25maWd1cmVDb250cm9sbGVyUmVxdWVzdBofLnNhbHRvLmxvbmdy",
-            "dW5uaW5nLnYxLk9wZXJhdGlvbhJmCg9SZXNldENvbnRyb2xsZXISMi5zYWx0",
-            "by5uZWJ1bGEuY29udHJvbGxlci52MS5SZXNldENvbnRyb2xsZXJSZXF1ZXN0",
-            "Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEngKGFVwZGF0ZUNv",
-            "bnRyb2xsZXJGaXJtd2FyZRI7LnNhbHRvLm5lYnVsYS5jb250cm9sbGVyLnYx",
-            "LlVwZGF0ZUNvbnRyb2xsZXJGaXJtd2FyZVJlcXVlc3QaHy5zYWx0by5sb25n",
-            "cnVubmluZy52MS5PcGVyYXRpb25CowEKImNvbS5zYWx0b2FwaXMubmVidWxh",
-            "LmNvbnRyb2xsZXIudjFCD0NvbnRyb2xsZXJQcm90b1ABWklnaXRodWIuY29t",
-            "L3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvY29udHJv",
-            "bGxlci92MTtjb250cm9sbGVyqgIeU2FsdG9hcGlzLk5lYnVsYS5Db250cm9s",
-            "bGVyLlYxYgZwcm90bzM="));
+            "CiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhQKDGRpc3BsYXlf",
+            "bmFtZRgLIAEoCUIPCg1wYXJlbnRfZGV2aWNlQgwKCl9kZXZpY2VfaWRCDAoK",
+            "X2Nvbm5lY3RlZCKTAQoXQ3JlYXRlQ29udHJvbGxlclJlcXVlc3QSDgoGcGFy",
+            "ZW50GAEgASgJEhoKDWNvbnRyb2xsZXJfaWQYAiABKAlIAIgBARI6Cgpjb250",
+            "cm9sbGVyGAMgASgLMiYuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuQ29u",
+            "dHJvbGxlckIQCg5fY29udHJvbGxlcl9pZCIkChRHZXRDb250cm9sbGVyUmVx",
+            "dWVzdBIMCgRuYW1lGAEgASgJInEKFkxpc3RDb250cm9sbGVyc1JlcXVlc3QS",
+            "DgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rv",
+            "a2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJv",
+            "ChdMaXN0Q29udHJvbGxlcnNSZXNwb25zZRI7Cgtjb250cm9sbGVycxgBIAMo",
+            "CzImLnNhbHRvLm5lYnVsYS5jb250cm9sbGVyLnYxLkNvbnRyb2xsZXISFwoP",
+            "bmV4dF9wYWdlX3Rva2VuGAIgASgJIoYBChdVcGRhdGVDb250cm9sbGVyUmVx",
+            "dWVzdBI6Cgpjb250cm9sbGVyGAEgASgLMiYuc2FsdG8ubmVidWxhLmNvbnRy",
+            "b2xsZXIudjEuQ29udHJvbGxlchIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siJwoXRGVsZXRlQ29udHJvbGxlclJl",
+            "cXVlc3QSDAoEbmFtZRgBIAEoCSI4ChVCaW5kQ29udHJvbGxlclJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCRIRCglkZXZpY2VfaWQYAiABKAkiGAoWQmluZENvbnRy",
+            "b2xsZXJSZXNwb25zZSI2ChdVbmJpbmRDb250cm9sbGVyUmVxdWVzdBIMCgRu",
+            "YW1lGAEgASgJEg0KBWZvcmNlGAIgASgIIhoKGFVuYmluZENvbnRyb2xsZXJS",
+            "ZXNwb25zZSIrChtJbml0aWFsaXplQ29udHJvbGxlclJlcXVlc3QSDAoEbmFt",
+            "ZRgBIAEoCSIeChxJbml0aWFsaXplQ29udHJvbGxlclJlc3BvbnNlIjgKHElu",
+            "aXRpYWxpemVDb250cm9sbGVyTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2Vu",
+            "dBgBIAEoBSIqChpDb25maWd1cmVDb250cm9sbGVyUmVxdWVzdBIMCgRuYW1l",
+            "GAEgASgJIh0KG0NvbmZpZ3VyZUNvbnRyb2xsZXJSZXNwb25zZSI3ChtDb25m",
+            "aWd1cmVDb250cm9sbGVyTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgB",
+            "IAEoBSImChZSZXNldENvbnRyb2xsZXJSZXF1ZXN0EgwKBG5hbWUYASABKAki",
+            "GQoXUmVzZXRDb250cm9sbGVyUmVzcG9uc2UiGQoXUmVzZXRDb250cm9sbGVy",
+            "TWV0YWRhdGEiNQofVXBkYXRlQ29udHJvbGxlckZpcm13YXJlUmVxdWVzdBIS",
+            "Cgpjb250cm9sbGVyGAEgASgJIiIKIFVwZGF0ZUNvbnRyb2xsZXJGaXJtd2Fy",
+            "ZVJlc3BvbnNlIjwKIFVwZGF0ZUNvbnRyb2xsZXJGaXJtd2FyZU1ldGFkYXRh",
+            "EhgKEHByb2dyZXNzX3BlcmNlbnQYASABKAUy+QkKEUNvbnRyb2xsZXJTZXJ2",
+            "aWNlEm8KEENyZWF0ZUNvbnRyb2xsZXISMy5zYWx0by5uZWJ1bGEuY29udHJv",
+            "bGxlci52MS5DcmVhdGVDb250cm9sbGVyUmVxdWVzdBomLnNhbHRvLm5lYnVs",
+            "YS5jb250cm9sbGVyLnYxLkNvbnRyb2xsZXISaQoNR2V0Q29udHJvbGxlchIw",
+            "LnNhbHRvLm5lYnVsYS5jb250cm9sbGVyLnYxLkdldENvbnRyb2xsZXJSZXF1",
+            "ZXN0GiYuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuQ29udHJvbGxlchJ6",
+            "Cg9MaXN0Q29udHJvbGxlcnMSMi5zYWx0by5uZWJ1bGEuY29udHJvbGxlci52",
+            "MS5MaXN0Q29udHJvbGxlcnNSZXF1ZXN0GjMuc2FsdG8ubmVidWxhLmNvbnRy",
+            "b2xsZXIudjEuTGlzdENvbnRyb2xsZXJzUmVzcG9uc2USbwoQVXBkYXRlQ29u",
+            "dHJvbGxlchIzLnNhbHRvLm5lYnVsYS5jb250cm9sbGVyLnYxLlVwZGF0ZUNv",
+            "bnRyb2xsZXJSZXF1ZXN0GiYuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEu",
+            "Q29udHJvbGxlchJfChBEZWxldGVDb250cm9sbGVyEjMuc2FsdG8ubmVidWxh",
+            "LmNvbnRyb2xsZXIudjEuRGVsZXRlQ29udHJvbGxlclJlcXVlc3QaFi5nb29n",
+            "bGUucHJvdG9idWYuRW1wdHkSdwoOQmluZENvbnRyb2xsZXISMS5zYWx0by5u",
+            "ZWJ1bGEuY29udHJvbGxlci52MS5CaW5kQ29udHJvbGxlclJlcXVlc3QaMi5z",
+            "YWx0by5uZWJ1bGEuY29udHJvbGxlci52MS5CaW5kQ29udHJvbGxlclJlc3Bv",
+            "bnNlEn0KEFVuYmluZENvbnRyb2xsZXISMy5zYWx0by5uZWJ1bGEuY29udHJv",
+            "bGxlci52MS5VbmJpbmRDb250cm9sbGVyUmVxdWVzdBo0LnNhbHRvLm5lYnVs",
+            "YS5jb250cm9sbGVyLnYxLlVuYmluZENvbnRyb2xsZXJSZXNwb25zZRJwChRJ",
+            "bml0aWFsaXplQ29udHJvbGxlchI3LnNhbHRvLm5lYnVsYS5jb250cm9sbGVy",
+            "LnYxLkluaXRpYWxpemVDb250cm9sbGVyUmVxdWVzdBofLnNhbHRvLmxvbmdy",
+            "dW5uaW5nLnYxLk9wZXJhdGlvbhJuChNDb25maWd1cmVDb250cm9sbGVyEjYu",
+            "c2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuQ29uZmlndXJlQ29udHJvbGxl",
+            "clJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SZgoP",
+            "UmVzZXRDb250cm9sbGVyEjIuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEu",
+            "UmVzZXRDb250cm9sbGVyUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYx",
+            "Lk9wZXJhdGlvbhJ4ChhVcGRhdGVDb250cm9sbGVyRmlybXdhcmUSOy5zYWx0",
+            "by5uZWJ1bGEuY29udHJvbGxlci52MS5VcGRhdGVDb250cm9sbGVyRmlybXdh",
+            "cmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uQqMB",
+            "CiJjb20uc2FsdG9hcGlzLm5lYnVsYS5jb250cm9sbGVyLnYxQg9Db250cm9s",
+            "bGVyUHJvdG9QAVpJZ2l0aHViLmNvbS9wcml2YXRlLXNhbHRvYXBpcy9zYWx0",
+            "b2FwaXMtZ28vbmVidWxhL2NvbnRyb2xsZXIvdjE7Y29udHJvbGxlcqoCHlNh",
+            "bHRvYXBpcy5OZWJ1bGEuQ29udHJvbGxlci5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.Controller), global::Saltoapis.Nebula.Controller.V1.Controller.Parser, new[]{ "Name", "DeviceId", "Gateway", "Extender", "Initialized", "AccessPoints", "Outdated", "Connected", "LastEventTime" }, new[]{ "ParentDevice", "DeviceId", "Connected" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.Controller), global::Saltoapis.Nebula.Controller.V1.Controller.Parser, new[]{ "Name", "DeviceId", "Gateway", "Extender", "Initialized", "AccessPoints", "Outdated", "Connected", "LastEventTime", "DisplayName" }, new[]{ "ParentDevice", "DeviceId", "Connected" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.CreateControllerRequest), global::Saltoapis.Nebula.Controller.V1.CreateControllerRequest.Parser, new[]{ "Parent", "ControllerId", "Controller" }, new[]{ "ControllerId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.GetControllerRequest), global::Saltoapis.Nebula.Controller.V1.GetControllerRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.ListControllersRequest), global::Saltoapis.Nebula.Controller.V1.ListControllersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -174,6 +174,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
       outdated_ = other.outdated_;
       connected_ = other.connected_;
       lastEventTime_ = other.lastEventTime_ != null ? other.lastEventTime_.Clone() : null;
+      displayName_ = other.displayName_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -366,6 +367,21 @@ namespace Saltoapis.Nebula.Controller.V1 {
       }
     }
 
+    /// <summary>Field number for the "display_name" field.</summary>
+    public const int DisplayNameFieldNumber = 11;
+    private string displayName_ = "";
+    /// <summary>
+    /// Display name of the controller.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DisplayName {
+      get { return displayName_; }
+      set {
+        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     private object parentDevice_;
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
@@ -411,6 +427,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
       if (Outdated != other.Outdated) return false;
       if (Connected != other.Connected) return false;
       if (!object.Equals(LastEventTime, other.LastEventTime)) return false;
+      if (DisplayName != other.DisplayName) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -428,6 +445,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
       if (Outdated != false) hash ^= Outdated.GetHashCode();
       if (HasConnected) hash ^= Connected.GetHashCode();
       if (lastEventTime_ != null) hash ^= LastEventTime.GetHashCode();
+      if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -480,6 +498,10 @@ namespace Saltoapis.Nebula.Controller.V1 {
         output.WriteRawTag(82);
         output.WriteMessage(LastEventTime);
       }
+      if (DisplayName.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(DisplayName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -523,6 +545,10 @@ namespace Saltoapis.Nebula.Controller.V1 {
         output.WriteRawTag(82);
         output.WriteMessage(LastEventTime);
       }
+      if (DisplayName.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(DisplayName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -558,6 +584,9 @@ namespace Saltoapis.Nebula.Controller.V1 {
       if (lastEventTime_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastEventTime);
       }
+      if (DisplayName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -591,6 +620,9 @@ namespace Saltoapis.Nebula.Controller.V1 {
           LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         LastEventTime.MergeFrom(other.LastEventTime);
+      }
+      if (other.DisplayName.Length != 0) {
+        DisplayName = other.DisplayName;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -655,6 +687,10 @@ namespace Saltoapis.Nebula.Controller.V1 {
             input.ReadMessage(LastEventTime);
             break;
           }
+          case 90: {
+            DisplayName = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -707,6 +743,10 @@ namespace Saltoapis.Nebula.Controller.V1 {
               LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(LastEventTime);
+            break;
+          }
+          case 90: {
+            DisplayName = input.ReadString();
             break;
           }
         }
