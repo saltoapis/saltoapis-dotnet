@@ -26,91 +26,89 @@ namespace Saltoapis.Nebula.Gateway.V1 {
           string.Concat(
             "CiVzYWx0by9uZWJ1bGEvZ2F0ZXdheS92MS9nYXRld2F5LnByb3RvEhdzYWx0",
             "by5uZWJ1bGEuZ2F0ZXdheS52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnBy",
-            "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxoeZ29vZ2xl",
-            "L3Byb3RvYnVmL3dyYXBwZXJzLnByb3RvGiRzYWx0by9sb25ncnVubmluZy92",
-            "MS9vcGVyYXRpb24ucHJvdG8inwMKB0dhdGV3YXkSDAoEbmFtZRgBIAEoCRIW",
-            "CglkZXZpY2VfaWQYAiABKAlIAIgBARIUCgxkaXNwbGF5X25hbWUYAyABKAkS",
-            "UgoUaW5pdGlhbGl6YXRpb25fc3RhdGUYBCABKA4yNC5zYWx0by5uZWJ1bGEu",
-            "Z2F0ZXdheS52MS5HYXRld2F5LkluaXRpYWxpemF0aW9uU3RhdGUSEQoJY29u",
-            "bmVjdGVkGAcgASgIEkQKEWV0aGVybmV0X3NldHRpbmdzGAUgASgLMikuc2Fs",
-            "dG8ubmVidWxhLmdhdGV3YXkudjEuRXRoZXJuZXRTZXR0aW5ncxI8Cg13aWZp",
-            "X3NldHRpbmdzGAYgASgLMiUuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuV2lm",
-            "aVNldHRpbmdzIl8KE0luaXRpYWxpemF0aW9uU3RhdGUSJAogSU5JVElBTEla",
-            "QVRJT05fU1RBVEVfVU5TUEVDSUZJRUQQABIRCg1VTklOSVRJQUxJWkVEEAES",
-            "DwoLSU5JVElBTElaRUQQAkIMCgpfZGV2aWNlX2lkIowBChBFdGhlcm5ldFNl",
-            "dHRpbmdzEjwKDWlwdjRfc2V0dGluZ3MYASABKAsyJS5zYWx0by5uZWJ1bGEu",
-            "Z2F0ZXdheS52MS5JUHY0U2V0dGluZ3MSOgoMZG5zX3NldHRpbmdzGAIgASgL",
-            "MiQuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuRE5TU2V0dGluZ3MixgEKDFdp",
-            "ZmlTZXR0aW5ncxI8Cg1pcHY0X3NldHRpbmdzGAEgASgLMiUuc2FsdG8ubmVi",
-            "dWxhLmdhdGV3YXkudjEuSVB2NFNldHRpbmdzEjoKDGRuc19zZXR0aW5ncxgC",
-            "IAEoCzIkLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkROU1NldHRpbmdzEgwK",
-            "BHNzaWQYAyABKAkSLgoIcGFzc3dvcmQYBCABKAsyHC5nb29nbGUucHJvdG9i",
-            "dWYuU3RyaW5nVmFsdWUiogEKDElQdjRTZXR0aW5ncxIwCgppcF9hZGRyZXNz",
-            "GAEgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlN0cmluZ1ZhbHVlEioKBG1hc2sY",
-            "AiABKAsyHC5nb29nbGUucHJvdG9idWYuU3RyaW5nVmFsdWUSNAoOcm91dGVy",
-            "X2FkZHJlc3MYAyABKAsyHC5nb29nbGUucHJvdG9idWYuU3RyaW5nVmFsdWUi",
-            "JAoLRE5TU2V0dGluZ3MSFQoNZG5zX2FkZHJlc3NlcxgBIAMoCSKBAQoUQ3Jl",
-            "YXRlR2F0ZXdheVJlcXVlc3QSDgoGcGFyZW50GAEgASgJEhcKCmdhdGV3YXlf",
-            "aWQYAiABKAlIAIgBARIxCgdnYXRld2F5GAMgASgLMiAuc2FsdG8ubmVidWxh",
-            "LmdhdGV3YXkudjEuR2F0ZXdheUINCgtfZ2F0ZXdheV9pZCIhChFHZXRHYXRl",
-            "d2F5UmVxdWVzdBIMCgRuYW1lGAEgASgJIm4KE0xpc3RHYXRld2F5c1JlcXVl",
-            "c3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdl",
-            "X3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEo",
-            "CSJjChRMaXN0R2F0ZXdheXNSZXNwb25zZRIyCghnYXRld2F5cxgBIAMoCzIg",
-            "LnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdhdGV3YXkSFwoPbmV4dF9wYWdl",
-            "X3Rva2VuGAIgASgJInoKFFVwZGF0ZUdhdGV3YXlSZXF1ZXN0EjEKB2dhdGV3",
-            "YXkYASABKAsyIC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5HYXRld2F5Ei8K",
-            "C3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFz",
-            "ayIkChREZWxldGVHYXRld2F5UmVxdWVzdBIMCgRuYW1lGAEgASgJIjUKEkJp",
-            "bmRHYXRld2F5UmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgC",
-            "IAEoCSIVChNCaW5kR2F0ZXdheVJlc3BvbnNlIjMKFFVuYmluZEdhdGV3YXlS",
-            "ZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFZm9yY2UYAiABKAgiFwoVVW5iaW5k",
-            "R2F0ZXdheVJlc3BvbnNlIigKGEluaXRpYWxpemVHYXRld2F5UmVxdWVzdBIM",
-            "CgRuYW1lGAEgASgJIhsKGUluaXRpYWxpemVHYXRld2F5UmVzcG9uc2UiGwoZ",
-            "SW5pdGlhbGl6ZUdhdGV3YXlNZXRhZGF0YSInChdDb25maWd1cmVHYXRld2F5",
-            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIhoKGENvbmZpZ3VyZUdhdGV3YXlSZXNw",
-            "b25zZSIaChhDb25maWd1cmVHYXRld2F5TWV0YWRhdGEiIwoTUmVzZXRHYXRl",
-            "d2F5UmVxdWVzdBIMCgRuYW1lGAEgASgJIhYKFFJlc2V0R2F0ZXdheVJlc3Bv",
-            "bnNlIhYKFFJlc2V0R2F0ZXdheU1ldGFkYXRhIi8KHFVwZGF0ZUdhdGV3YXlG",
-            "aXJtd2FyZVJlcXVlc3QSDwoHZ2F0ZXdheRgBIAEoCSIfCh1VcGRhdGVHYXRl",
-            "d2F5RmlybXdhcmVSZXNwb25zZSI5Ch1VcGRhdGVHYXRld2F5RmlybXdhcmVN",
-            "ZXRhZGF0YRIYChBwcm9ncmVzc19wZXJjZW50GAEgASgFMu8ICg5HYXRld2F5",
-            "U2VydmljZRJgCg1DcmVhdGVHYXRld2F5Ei0uc2FsdG8ubmVidWxhLmdhdGV3",
-            "YXkudjEuQ3JlYXRlR2F0ZXdheVJlcXVlc3QaIC5zYWx0by5uZWJ1bGEuZ2F0",
-            "ZXdheS52MS5HYXRld2F5EloKCkdldEdhdGV3YXkSKi5zYWx0by5uZWJ1bGEu",
-            "Z2F0ZXdheS52MS5HZXRHYXRld2F5UmVxdWVzdBogLnNhbHRvLm5lYnVsYS5n",
-            "YXRld2F5LnYxLkdhdGV3YXkSawoMTGlzdEdhdGV3YXlzEiwuc2FsdG8ubmVi",
-            "dWxhLmdhdGV3YXkudjEuTGlzdEdhdGV3YXlzUmVxdWVzdBotLnNhbHRvLm5l",
-            "YnVsYS5nYXRld2F5LnYxLkxpc3RHYXRld2F5c1Jlc3BvbnNlEmAKDVVwZGF0",
-            "ZUdhdGV3YXkSLS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5VcGRhdGVHYXRl",
-            "d2F5UmVxdWVzdBogLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdhdGV3YXkS",
-            "VgoNRGVsZXRlR2F0ZXdheRItLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkRl",
-            "bGV0ZUdhdGV3YXlSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmgK",
-            "C0JpbmRHYXRld2F5Eisuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuQmluZEdh",
-            "dGV3YXlSZXF1ZXN0Giwuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuQmluZEdh",
-            "dGV3YXlSZXNwb25zZRJuCg1VbmJpbmRHYXRld2F5Ei0uc2FsdG8ubmVidWxh",
-            "LmdhdGV3YXkudjEuVW5iaW5kR2F0ZXdheVJlcXVlc3QaLi5zYWx0by5uZWJ1",
-            "bGEuZ2F0ZXdheS52MS5VbmJpbmRHYXRld2F5UmVzcG9uc2USZwoRSW5pdGlh",
-            "bGl6ZUdhdGV3YXkSMS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5Jbml0aWFs",
-            "aXplR2F0ZXdheVJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVy",
-            "YXRpb24SZQoQQ29uZmlndXJlR2F0ZXdheRIwLnNhbHRvLm5lYnVsYS5nYXRl",
-            "d2F5LnYxLkNvbmZpZ3VyZUdhdGV3YXlSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1",
-            "bm5pbmcudjEuT3BlcmF0aW9uEl0KDFJlc2V0R2F0ZXdheRIsLnNhbHRvLm5l",
-            "YnVsYS5nYXRld2F5LnYxLlJlc2V0R2F0ZXdheVJlcXVlc3QaHy5zYWx0by5s",
-            "b25ncnVubmluZy52MS5PcGVyYXRpb24SbwoVVXBkYXRlR2F0ZXdheUZpcm13",
-            "YXJlEjUuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuVXBkYXRlR2F0ZXdheUZp",
-            "cm13YXJlUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlv",
-            "bkKUAQofY29tLnNhbHRvYXBpcy5uZWJ1bGEuZ2F0ZXdheS52MUIMR2F0ZXdh",
-            "eVByb3RvUAFaQ2dpdGh1Yi5jb20vcHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9h",
-            "cGlzLWdvL25lYnVsYS9nYXRld2F5L3YxO2dhdGV3YXmqAhtTYWx0b2FwaXMu",
-            "TmVidWxhLkdhdGV3YXkuVjFiBnByb3RvMw=="));
+            "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxokc2FsdG8v",
+            "bG9uZ3J1bm5pbmcvdjEvb3BlcmF0aW9uLnByb3RvIp8DCgdHYXRld2F5EgwK",
+            "BG5hbWUYASABKAkSFgoJZGV2aWNlX2lkGAIgASgJSACIAQESFAoMZGlzcGxh",
+            "eV9uYW1lGAMgASgJElIKFGluaXRpYWxpemF0aW9uX3N0YXRlGAQgASgOMjQu",
+            "c2FsdG8ubmVidWxhLmdhdGV3YXkudjEuR2F0ZXdheS5Jbml0aWFsaXphdGlv",
+            "blN0YXRlEhEKCWNvbm5lY3RlZBgHIAEoCBJEChFldGhlcm5ldF9zZXR0aW5n",
+            "cxgFIAEoCzIpLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkV0aGVybmV0U2V0",
+            "dGluZ3MSPAoNd2lmaV9zZXR0aW5ncxgGIAEoCzIlLnNhbHRvLm5lYnVsYS5n",
+            "YXRld2F5LnYxLldpZmlTZXR0aW5ncyJfChNJbml0aWFsaXphdGlvblN0YXRl",
+            "EiQKIElOSVRJQUxJWkFUSU9OX1NUQVRFX1VOU1BFQ0lGSUVEEAASEQoNVU5J",
+            "TklUSUFMSVpFRBABEg8KC0lOSVRJQUxJWkVEEAJCDAoKX2RldmljZV9pZCKM",
+            "AQoQRXRoZXJuZXRTZXR0aW5ncxI8Cg1pcHY0X3NldHRpbmdzGAEgASgLMiUu",
+            "c2FsdG8ubmVidWxhLmdhdGV3YXkudjEuSVB2NFNldHRpbmdzEjoKDGRuc19z",
+            "ZXR0aW5ncxgCIAEoCzIkLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkROU1Nl",
+            "dHRpbmdzIroBCgxXaWZpU2V0dGluZ3MSPAoNaXB2NF9zZXR0aW5ncxgBIAEo",
+            "CzIlLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLklQdjRTZXR0aW5ncxI6Cgxk",
+            "bnNfc2V0dGluZ3MYAiABKAsyJC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5E",
+            "TlNTZXR0aW5ncxIMCgRzc2lkGAMgASgJEhUKCHBhc3N3b3JkGAQgASgJSACI",
+            "AQFCCwoJX3Bhc3N3b3JkIoIBCgxJUHY0U2V0dGluZ3MSFwoKaXBfYWRkcmVz",
+            "cxgBIAEoCUgAiAEBEhEKBG1hc2sYAiABKAlIAYgBARIbCg5yb3V0ZXJfYWRk",
+            "cmVzcxgDIAEoCUgCiAEBQg0KC19pcF9hZGRyZXNzQgcKBV9tYXNrQhEKD19y",
+            "b3V0ZXJfYWRkcmVzcyIkCgtETlNTZXR0aW5ncxIVCg1kbnNfYWRkcmVzc2Vz",
+            "GAEgAygJIoEBChRDcmVhdGVHYXRld2F5UmVxdWVzdBIOCgZwYXJlbnQYASAB",
+            "KAkSFwoKZ2F0ZXdheV9pZBgCIAEoCUgAiAEBEjEKB2dhdGV3YXkYAyABKAsy",
+            "IC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5HYXRld2F5Qg0KC19nYXRld2F5",
+            "X2lkIiEKEUdldEdhdGV3YXlSZXF1ZXN0EgwKBG5hbWUYASABKAkibgoTTGlz",
+            "dEdhdGV3YXlzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXpl",
+            "GAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAK",
+            "CG9yZGVyX2J5GAUgASgJImMKFExpc3RHYXRld2F5c1Jlc3BvbnNlEjIKCGdh",
+            "dGV3YXlzGAEgAygLMiAuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuR2F0ZXdh",
+            "eRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiegoUVXBkYXRlR2F0ZXdheVJl",
+            "cXVlc3QSMQoHZ2F0ZXdheRgBIAEoCzIgLnNhbHRvLm5lYnVsYS5nYXRld2F5",
+            "LnYxLkdhdGV3YXkSLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJv",
+            "dG9idWYuRmllbGRNYXNrIiQKFERlbGV0ZUdhdGV3YXlSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkiNQoSQmluZEdhdGV3YXlSZXF1ZXN0EgwKBG5hbWUYASABKAkS",
+            "EQoJZGV2aWNlX2lkGAIgASgJIhUKE0JpbmRHYXRld2F5UmVzcG9uc2UiMwoU",
+            "VW5iaW5kR2F0ZXdheVJlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgVmb3JjZRgC",
+            "IAEoCCIXChVVbmJpbmRHYXRld2F5UmVzcG9uc2UiKAoYSW5pdGlhbGl6ZUdh",
+            "dGV3YXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiGwoZSW5pdGlhbGl6ZUdhdGV3",
+            "YXlSZXNwb25zZSIbChlJbml0aWFsaXplR2F0ZXdheU1ldGFkYXRhIicKF0Nv",
+            "bmZpZ3VyZUdhdGV3YXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiGgoYQ29uZmln",
+            "dXJlR2F0ZXdheVJlc3BvbnNlIhoKGENvbmZpZ3VyZUdhdGV3YXlNZXRhZGF0",
+            "YSIjChNSZXNldEdhdGV3YXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiFgoUUmVz",
+            "ZXRHYXRld2F5UmVzcG9uc2UiFgoUUmVzZXRHYXRld2F5TWV0YWRhdGEiLwoc",
+            "VXBkYXRlR2F0ZXdheUZpcm13YXJlUmVxdWVzdBIPCgdnYXRld2F5GAEgASgJ",
+            "Ih8KHVVwZGF0ZUdhdGV3YXlGaXJtd2FyZVJlc3BvbnNlIjkKHVVwZGF0ZUdh",
+            "dGV3YXlGaXJtd2FyZU1ldGFkYXRhEhgKEHByb2dyZXNzX3BlcmNlbnQYASAB",
+            "KAUy7wgKDkdhdGV3YXlTZXJ2aWNlEmAKDUNyZWF0ZUdhdGV3YXkSLS5zYWx0",
+            "by5uZWJ1bGEuZ2F0ZXdheS52MS5DcmVhdGVHYXRld2F5UmVxdWVzdBogLnNh",
+            "bHRvLm5lYnVsYS5nYXRld2F5LnYxLkdhdGV3YXkSWgoKR2V0R2F0ZXdheRIq",
+            "LnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdldEdhdGV3YXlSZXF1ZXN0GiAu",
+            "c2FsdG8ubmVidWxhLmdhdGV3YXkudjEuR2F0ZXdheRJrCgxMaXN0R2F0ZXdh",
+            "eXMSLC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5MaXN0R2F0ZXdheXNSZXF1",
+            "ZXN0Gi0uc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuTGlzdEdhdGV3YXlzUmVz",
+            "cG9uc2USYAoNVXBkYXRlR2F0ZXdheRItLnNhbHRvLm5lYnVsYS5nYXRld2F5",
+            "LnYxLlVwZGF0ZUdhdGV3YXlSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmdhdGV3",
+            "YXkudjEuR2F0ZXdheRJWCg1EZWxldGVHYXRld2F5Ei0uc2FsdG8ubmVidWxh",
+            "LmdhdGV3YXkudjEuRGVsZXRlR2F0ZXdheVJlcXVlc3QaFi5nb29nbGUucHJv",
+            "dG9idWYuRW1wdHkSaAoLQmluZEdhdGV3YXkSKy5zYWx0by5uZWJ1bGEuZ2F0",
+            "ZXdheS52MS5CaW5kR2F0ZXdheVJlcXVlc3QaLC5zYWx0by5uZWJ1bGEuZ2F0",
+            "ZXdheS52MS5CaW5kR2F0ZXdheVJlc3BvbnNlEm4KDVVuYmluZEdhdGV3YXkS",
+            "LS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5VbmJpbmRHYXRld2F5UmVxdWVz",
+            "dBouLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLlVuYmluZEdhdGV3YXlSZXNw",
+            "b25zZRJnChFJbml0aWFsaXplR2F0ZXdheRIxLnNhbHRvLm5lYnVsYS5nYXRl",
+            "d2F5LnYxLkluaXRpYWxpemVHYXRld2F5UmVxdWVzdBofLnNhbHRvLmxvbmdy",
+            "dW5uaW5nLnYxLk9wZXJhdGlvbhJlChBDb25maWd1cmVHYXRld2F5EjAuc2Fs",
+            "dG8ubmVidWxhLmdhdGV3YXkudjEuQ29uZmlndXJlR2F0ZXdheVJlcXVlc3Qa",
+            "Hy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SXQoMUmVzZXRHYXRl",
+            "d2F5Eiwuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuUmVzZXRHYXRld2F5UmVx",
+            "dWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJvChVVcGRh",
+            "dGVHYXRld2F5RmlybXdhcmUSNS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5V",
+            "cGRhdGVHYXRld2F5RmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5p",
+            "bmcudjEuT3BlcmF0aW9uQpQBCh9jb20uc2FsdG9hcGlzLm5lYnVsYS5nYXRl",
+            "d2F5LnYxQgxHYXRld2F5UHJvdG9QAVpDZ2l0aHViLmNvbS9wcml2YXRlLXNh",
+            "bHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2dhdGV3YXkvdjE7Z2F0ZXdh",
+            "eaoCG1NhbHRvYXBpcy5OZWJ1bGEuR2F0ZXdheS5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.Gateway), global::Saltoapis.Nebula.Gateway.V1.Gateway.Parser, new[]{ "Name", "DeviceId", "DisplayName", "InitializationState", "Connected", "EthernetSettings", "WifiSettings" }, new[]{ "DeviceId" }, new[]{ typeof(global::Saltoapis.Nebula.Gateway.V1.Gateway.Types.InitializationState) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.EthernetSettings), global::Saltoapis.Nebula.Gateway.V1.EthernetSettings.Parser, new[]{ "Ipv4Settings", "DnsSettings" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.WifiSettings), global::Saltoapis.Nebula.Gateway.V1.WifiSettings.Parser, new[]{ "Ipv4Settings", "DnsSettings", "Ssid", "Password" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.IPv4Settings), global::Saltoapis.Nebula.Gateway.V1.IPv4Settings.Parser, new[]{ "IpAddress", "Mask", "RouterAddress" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.WifiSettings), global::Saltoapis.Nebula.Gateway.V1.WifiSettings.Parser, new[]{ "Ipv4Settings", "DnsSettings", "Ssid", "Password" }, new[]{ "Password" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.IPv4Settings), global::Saltoapis.Nebula.Gateway.V1.IPv4Settings.Parser, new[]{ "IpAddress", "Mask", "RouterAddress" }, new[]{ "IpAddress", "Mask", "RouterAddress" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.DNSSettings), global::Saltoapis.Nebula.Gateway.V1.DNSSettings.Parser, new[]{ "DnsAddresses" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest.Parser, new[]{ "Parent", "GatewayId", "Gateway" }, new[]{ "GatewayId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest), global::Saltoapis.Nebula.Gateway.V1.GetGatewayRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -938,7 +936,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       ipv4Settings_ = other.ipv4Settings_ != null ? other.ipv4Settings_.Clone() : null;
       dnsSettings_ = other.dnsSettings_ != null ? other.dnsSettings_.Clone() : null;
       ssid_ = other.ssid_;
-      Password = other.Password;
+      password_ = other.password_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -998,7 +996,6 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     /// <summary>Field number for the "password" field.</summary>
     public const int PasswordFieldNumber = 4;
-    private static readonly pb::FieldCodec<string> _single_password_codec = pb::FieldCodec.ForClassWrapper<string>(34);
     private string password_;
     /// <summary>
     /// Password to be used to authenticate on a WiFi network.
@@ -1006,12 +1003,23 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Password {
-      get { return password_; }
+      get { return password_ ?? ""; }
       set {
-        password_ = value;
+        password_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
-
+    /// <summary>Gets whether the "password" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPassword {
+      get { return password_ != null; }
+    }
+    /// <summary>Clears the value of the "password" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPassword() {
+      password_ = null;
+    }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1042,7 +1050,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       if (ipv4Settings_ != null) hash ^= Ipv4Settings.GetHashCode();
       if (dnsSettings_ != null) hash ^= DnsSettings.GetHashCode();
       if (Ssid.Length != 0) hash ^= Ssid.GetHashCode();
-      if (password_ != null) hash ^= Password.GetHashCode();
+      if (HasPassword) hash ^= Password.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1073,8 +1081,9 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         output.WriteRawTag(26);
         output.WriteString(Ssid);
       }
-      if (password_ != null) {
-        _single_password_codec.WriteTagAndValue(output, Password);
+      if (HasPassword) {
+        output.WriteRawTag(34);
+        output.WriteString(Password);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1098,8 +1107,9 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         output.WriteRawTag(26);
         output.WriteString(Ssid);
       }
-      if (password_ != null) {
-        _single_password_codec.WriteTagAndValue(ref output, Password);
+      if (HasPassword) {
+        output.WriteRawTag(34);
+        output.WriteString(Password);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1120,8 +1130,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       if (Ssid.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Ssid);
       }
-      if (password_ != null) {
-        size += _single_password_codec.CalculateSizeWithTag(Password);
+      if (HasPassword) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Password);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1150,10 +1160,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       if (other.Ssid.Length != 0) {
         Ssid = other.Ssid;
       }
-      if (other.password_ != null) {
-        if (password_ == null || other.Password != "") {
-          Password = other.Password;
-        }
+      if (other.HasPassword) {
+        Password = other.Password;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1189,10 +1197,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             break;
           }
           case 34: {
-            string value = _single_password_codec.Read(input);
-            if (password_ == null || value != "") {
-              Password = value;
-            }
+            Password = input.ReadString();
             break;
           }
         }
@@ -1229,10 +1234,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             break;
           }
           case 34: {
-            string value = _single_password_codec.Read(ref input);
-            if (password_ == null || value != "") {
-              Password = value;
-            }
+            Password = input.ReadString();
             break;
           }
         }
@@ -1279,9 +1281,9 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public IPv4Settings(IPv4Settings other) : this() {
-      IpAddress = other.IpAddress;
-      Mask = other.Mask;
-      RouterAddress = other.RouterAddress;
+      ipAddress_ = other.ipAddress_;
+      mask_ = other.mask_;
+      routerAddress_ = other.routerAddress_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1293,7 +1295,6 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     /// <summary>Field number for the "ip_address" field.</summary>
     public const int IpAddressFieldNumber = 1;
-    private static readonly pb::FieldCodec<string> _single_ipAddress_codec = pb::FieldCodec.ForClassWrapper<string>(10);
     private string ipAddress_;
     /// <summary>
     /// IP address
@@ -1303,16 +1304,26 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string IpAddress {
-      get { return ipAddress_; }
+      get { return ipAddress_ ?? ""; }
       set {
-        ipAddress_ = value;
+        ipAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
-
+    /// <summary>Gets whether the "ip_address" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasIpAddress {
+      get { return ipAddress_ != null; }
+    }
+    /// <summary>Clears the value of the "ip_address" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearIpAddress() {
+      ipAddress_ = null;
+    }
 
     /// <summary>Field number for the "mask" field.</summary>
     public const int MaskFieldNumber = 2;
-    private static readonly pb::FieldCodec<string> _single_mask_codec = pb::FieldCodec.ForClassWrapper<string>(18);
     private string mask_;
     /// <summary>
     /// Subnet mask is expressed in dot-decimal notation like an address.
@@ -1324,16 +1335,26 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Mask {
-      get { return mask_; }
+      get { return mask_ ?? ""; }
       set {
-        mask_ = value;
+        mask_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
-
+    /// <summary>Gets whether the "mask" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasMask {
+      get { return mask_ != null; }
+    }
+    /// <summary>Clears the value of the "mask" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearMask() {
+      mask_ = null;
+    }
 
     /// <summary>Field number for the "router_address" field.</summary>
     public const int RouterAddressFieldNumber = 3;
-    private static readonly pb::FieldCodec<string> _single_routerAddress_codec = pb::FieldCodec.ForClassWrapper<string>(26);
     private string routerAddress_;
     /// <summary>
     /// Default network router's IP address
@@ -1343,12 +1364,23 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string RouterAddress {
-      get { return routerAddress_; }
+      get { return routerAddress_ ?? ""; }
       set {
-        routerAddress_ = value;
+        routerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
-
+    /// <summary>Gets whether the "router_address" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasRouterAddress {
+      get { return routerAddress_ != null; }
+    }
+    /// <summary>Clears the value of the "router_address" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearRouterAddress() {
+      routerAddress_ = null;
+    }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1375,9 +1407,9 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (ipAddress_ != null) hash ^= IpAddress.GetHashCode();
-      if (mask_ != null) hash ^= Mask.GetHashCode();
-      if (routerAddress_ != null) hash ^= RouterAddress.GetHashCode();
+      if (HasIpAddress) hash ^= IpAddress.GetHashCode();
+      if (HasMask) hash ^= Mask.GetHashCode();
+      if (HasRouterAddress) hash ^= RouterAddress.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1396,14 +1428,17 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (ipAddress_ != null) {
-        _single_ipAddress_codec.WriteTagAndValue(output, IpAddress);
+      if (HasIpAddress) {
+        output.WriteRawTag(10);
+        output.WriteString(IpAddress);
       }
-      if (mask_ != null) {
-        _single_mask_codec.WriteTagAndValue(output, Mask);
+      if (HasMask) {
+        output.WriteRawTag(18);
+        output.WriteString(Mask);
       }
-      if (routerAddress_ != null) {
-        _single_routerAddress_codec.WriteTagAndValue(output, RouterAddress);
+      if (HasRouterAddress) {
+        output.WriteRawTag(26);
+        output.WriteString(RouterAddress);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1415,14 +1450,17 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ipAddress_ != null) {
-        _single_ipAddress_codec.WriteTagAndValue(ref output, IpAddress);
+      if (HasIpAddress) {
+        output.WriteRawTag(10);
+        output.WriteString(IpAddress);
       }
-      if (mask_ != null) {
-        _single_mask_codec.WriteTagAndValue(ref output, Mask);
+      if (HasMask) {
+        output.WriteRawTag(18);
+        output.WriteString(Mask);
       }
-      if (routerAddress_ != null) {
-        _single_routerAddress_codec.WriteTagAndValue(ref output, RouterAddress);
+      if (HasRouterAddress) {
+        output.WriteRawTag(26);
+        output.WriteString(RouterAddress);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1434,14 +1472,14 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (ipAddress_ != null) {
-        size += _single_ipAddress_codec.CalculateSizeWithTag(IpAddress);
+      if (HasIpAddress) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(IpAddress);
       }
-      if (mask_ != null) {
-        size += _single_mask_codec.CalculateSizeWithTag(Mask);
+      if (HasMask) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Mask);
       }
-      if (routerAddress_ != null) {
-        size += _single_routerAddress_codec.CalculateSizeWithTag(RouterAddress);
+      if (HasRouterAddress) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RouterAddress);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1455,20 +1493,14 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       if (other == null) {
         return;
       }
-      if (other.ipAddress_ != null) {
-        if (ipAddress_ == null || other.IpAddress != "") {
-          IpAddress = other.IpAddress;
-        }
+      if (other.HasIpAddress) {
+        IpAddress = other.IpAddress;
       }
-      if (other.mask_ != null) {
-        if (mask_ == null || other.Mask != "") {
-          Mask = other.Mask;
-        }
+      if (other.HasMask) {
+        Mask = other.Mask;
       }
-      if (other.routerAddress_ != null) {
-        if (routerAddress_ == null || other.RouterAddress != "") {
-          RouterAddress = other.RouterAddress;
-        }
+      if (other.HasRouterAddress) {
+        RouterAddress = other.RouterAddress;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1486,24 +1518,15 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            string value = _single_ipAddress_codec.Read(input);
-            if (ipAddress_ == null || value != "") {
-              IpAddress = value;
-            }
+            IpAddress = input.ReadString();
             break;
           }
           case 18: {
-            string value = _single_mask_codec.Read(input);
-            if (mask_ == null || value != "") {
-              Mask = value;
-            }
+            Mask = input.ReadString();
             break;
           }
           case 26: {
-            string value = _single_routerAddress_codec.Read(input);
-            if (routerAddress_ == null || value != "") {
-              RouterAddress = value;
-            }
+            RouterAddress = input.ReadString();
             break;
           }
         }
@@ -1522,24 +1545,15 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            string value = _single_ipAddress_codec.Read(ref input);
-            if (ipAddress_ == null || value != "") {
-              IpAddress = value;
-            }
+            IpAddress = input.ReadString();
             break;
           }
           case 18: {
-            string value = _single_mask_codec.Read(ref input);
-            if (mask_ == null || value != "") {
-              Mask = value;
-            }
+            Mask = input.ReadString();
             break;
           }
           case 26: {
-            string value = _single_routerAddress_codec.Read(ref input);
-            if (routerAddress_ == null || value != "") {
-              RouterAddress = value;
-            }
+            RouterAddress = input.ReadString();
             break;
           }
         }
