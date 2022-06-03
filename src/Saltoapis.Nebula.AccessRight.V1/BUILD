@@ -7,7 +7,6 @@ load_rules(
     lib_name = 'Saltoapis.Nebula.AccessRight.V1',
     internal_dependencies = [
         '//src/Saltoapis.Nebula.Type',
-        '//src/Saltoapis.Type',
     ],
     extra_info = {
         'generator': 'csharp',
