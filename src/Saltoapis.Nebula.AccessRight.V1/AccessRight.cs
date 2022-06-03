@@ -28,89 +28,80 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
             "b3RvEhtzYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEaG2dvb2dsZS9wcm90",
             "b2J1Zi9lbXB0eS5wcm90bxogZ29vZ2xlL3Byb3RvYnVmL2ZpZWxkX21hc2su",
             "cHJvdG8aH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJvdG8aIHNhbHRv",
-            "L25lYnVsYS90eXBlL2RheV90eXBlLnByb3RvGhxzYWx0by90eXBlL2RheV9v",
-            "Zl93ZWVrLnByb3RvGhxzYWx0by90eXBlL3RpbWVfb2ZfZGF5LnByb3RvIs8B",
-            "CgtBY2Nlc3NSaWdodBIMCgRuYW1lGAEgASgJEhQKDGRpc3BsYXlfbmFtZRgC",
-            "IAEoCRIxCg1hY3RpdmF0ZV90aW1lGAMgASgLMhouZ29vZ2xlLnByb3RvYnVm",
-            "LlRpbWVzdGFtcBIvCgtleHBpcmVfdGltZRgEIAEoCzIaLmdvb2dsZS5wcm90",
-            "b2J1Zi5UaW1lc3RhbXASOAoJc2NoZWR1bGVzGAUgAygLMiUuc2FsdG8ubmVi",
-            "dWxhLmFjY2Vzc3JpZ2h0LnYxLlNjaGVkdWxlIvgBCghTY2hlZHVsZRI3CgRk",
-            "YXlzGAEgAygLMikuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLlNjaGVk",
-            "dWxlLkRheRIpCgpzdGFydF90aW1lGAIgASgLMhUuc2FsdG8udHlwZS5UaW1l",
-            "T2ZEYXkSJwoIZW5kX3RpbWUYAyABKAsyFS5zYWx0by50eXBlLlRpbWVPZkRh",
-            "eRpfCgNEYXkSLAoIZGF5X3R5cGUYASABKA4yGi5zYWx0by5uZWJ1bGEudHlw",
-            "ZS5EYXlUeXBlEioKC2RheV9vZl93ZWVrGAIgASgOMhUuc2FsdG8udHlwZS5E",
-            "YXlPZldlZWsiUgoWQWNjZXNzUmlnaHRBY2Nlc3NQb2ludBIMCgRuYW1lGAEg",
-            "ASgJEhQKDGFjY2Vzc19wb2ludBgCIAEoCRIUCgxkaXNwbGF5X25hbWUYAyAB",
-            "KAkinAEKGENyZWF0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBIOCgZwYXJlbnQYASAB",
-            "KAkSHAoPYWNjZXNzX3JpZ2h0X2lkGAIgASgJSACIAQESPgoMYWNjZXNzX3Jp",
-            "Z2h0GAMgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vz",
-            "c1JpZ2h0QhIKEF9hY2Nlc3NfcmlnaHRfaWQiJQoVR2V0QWNjZXNzUmlnaHRS",
-            "ZXF1ZXN0EgwKBG5hbWUYASABKAkicgoXTGlzdEFjY2Vzc1JpZ2h0c1JlcXVl",
-            "c3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdl",
-            "X3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEo",
-            "CSJ0ChhMaXN0QWNjZXNzUmlnaHRzUmVzcG9uc2USPwoNYWNjZXNzX3JpZ2h0",
-            "cxgBIAMoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NS",
-            "aWdodBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiiwEKGFVwZGF0ZUFjY2Vz",
-            "c1JpZ2h0UmVxdWVzdBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5u",
-            "ZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSLwoLdXBkYXRlX21h",
-            "c2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIigKGERlbGV0",
-            "ZUFjY2Vzc1JpZ2h0UmVxdWVzdBIMCgRuYW1lGAEgASgJIo0BCiNDcmVhdGVB",
-            "Y2Nlc3NSaWdodEFjY2Vzc1BvaW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkS",
-            "VgoZYWNjZXNzX3JpZ2h0X2FjY2Vzc19wb2ludBgCIAEoCzIzLnNhbHRvLm5l",
-            "YnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodEFjY2Vzc1BvaW50IjAK",
-            "IEdldEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASAB",
-            "KAkifQoiTGlzdEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRzUmVxdWVzdBIOCgZw",
-            "YXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4Y",
-            "AyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIpcBCiNM",
-            "aXN0QWNjZXNzUmlnaHRBY2Nlc3NQb2ludHNSZXNwb25zZRJXChphY2Nlc3Nf",
-            "cmlnaHRfYWNjZXNzX3BvaW50cxgBIAMoCzIzLnNhbHRvLm5lYnVsYS5hY2Nl",
-            "c3NyaWdodC52MS5BY2Nlc3NSaWdodEFjY2Vzc1BvaW50EhcKD25leHRfcGFn",
-            "ZV90b2tlbhgCIAEoCSKuAQojVXBkYXRlQWNjZXNzUmlnaHRBY2Nlc3NQb2lu",
-            "dFJlcXVlc3QSVgoZYWNjZXNzX3JpZ2h0X2FjY2Vzc19wb2ludBgBIAEoCzIz",
-            "LnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodEFjY2Vz",
-            "c1BvaW50Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVm",
-            "LkZpZWxkTWFzayIzCiNEZWxldGVBY2Nlc3NSaWdodEFjY2Vzc1BvaW50UmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJMrQKChJBY2Nlc3NSaWdodFNlcnZpY2USdAoR",
-            "Q3JlYXRlQWNjZXNzUmlnaHQSNS5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQu",
-            "djEuQ3JlYXRlQWNjZXNzUmlnaHRSZXF1ZXN0Giguc2FsdG8ubmVidWxhLmFj",
-            "Y2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Em4KDkdldEFjY2Vzc1JpZ2h0EjIu",
-            "c2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkdldEFjY2Vzc1JpZ2h0UmVx",
-            "dWVzdBooLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdo",
-            "dBJ/ChBMaXN0QWNjZXNzUmlnaHRzEjQuc2FsdG8ubmVidWxhLmFjY2Vzc3Jp",
-            "Z2h0LnYxLkxpc3RBY2Nlc3NSaWdodHNSZXF1ZXN0GjUuc2FsdG8ubmVidWxh",
-            "LmFjY2Vzc3JpZ2h0LnYxLkxpc3RBY2Nlc3NSaWdodHNSZXNwb25zZRJ0ChFV",
-            "cGRhdGVBY2Nlc3NSaWdodBI1LnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52",
-            "MS5VcGRhdGVBY2Nlc3NSaWdodFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNj",
-            "ZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSYgoRRGVsZXRlQWNjZXNzUmlnaHQS",
-            "NS5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuRGVsZXRlQWNjZXNzUmln",
-            "aHRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EpUBChxDcmVhdGVB",
-            "Y2Nlc3NSaWdodEFjY2Vzc1BvaW50EkAuc2FsdG8ubmVidWxhLmFjY2Vzc3Jp",
-            "Z2h0LnYxLkNyZWF0ZUFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRSZXF1ZXN0GjMu",
-            "c2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0QWNjZXNz",
-            "UG9pbnQSjwEKGUdldEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnQSPS5zYWx0by5u",
-            "ZWJ1bGEuYWNjZXNzcmlnaHQudjEuR2V0QWNjZXNzUmlnaHRBY2Nlc3NQb2lu",
-            "dFJlcXVlc3QaMy5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNz",
-            "UmlnaHRBY2Nlc3NQb2ludBKgAQobTGlzdEFjY2Vzc1JpZ2h0QWNjZXNzUG9p",
-            "bnRzEj8uc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkxpc3RBY2Nlc3NS",
-            "aWdodEFjY2Vzc1BvaW50c1JlcXVlc3QaQC5zYWx0by5uZWJ1bGEuYWNjZXNz",
-            "cmlnaHQudjEuTGlzdEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRzUmVzcG9uc2US",
-            "lQEKHFVwZGF0ZUFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnQSQC5zYWx0by5uZWJ1",
-            "bGEuYWNjZXNzcmlnaHQudjEuVXBkYXRlQWNjZXNzUmlnaHRBY2Nlc3NQb2lu",
-            "dFJlcXVlc3QaMy5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNz",
-            "UmlnaHRBY2Nlc3NQb2ludBJ4ChxEZWxldGVBY2Nlc3NSaWdodEFjY2Vzc1Bv",
-            "aW50EkAuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkRlbGV0ZUFjY2Vz",
-            "c1JpZ2h0QWNjZXNzUG9pbnRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVt",
-            "cHR5QqgBCiNjb20uc2FsdG9hcGlzLm5lYnVsYS5hY2Nlc3NyaWdodC52MUIQ",
-            "QWNjZXNzUmlnaHRQcm90b1ABWktnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9h",
-            "cGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvYWNjZXNzcmlnaHQvdjE7YWNjZXNz",
-            "cmlnaHSqAh9TYWx0b2FwaXMuTmVidWxhLkFjY2Vzc1JpZ2h0LlYxYgZwcm90",
-            "bzM="));
+            "L25lYnVsYS90eXBlL3NjaGVkdWxlLnByb3RvIsUBCgtBY2Nlc3NSaWdodBIM",
+            "CgRuYW1lGAEgASgJEhQKDGRpc3BsYXlfbmFtZRgCIAEoCRIxCg1hY3RpdmF0",
+            "ZV90aW1lGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIvCgtl",
+            "eHBpcmVfdGltZRgEIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
+            "LgoJc2NoZWR1bGVzGAUgAygLMhsuc2FsdG8ubmVidWxhLnR5cGUuU2NoZWR1",
+            "bGUiUgoWQWNjZXNzUmlnaHRBY2Nlc3NQb2ludBIMCgRuYW1lGAEgASgJEhQK",
+            "DGFjY2Vzc19wb2ludBgCIAEoCRIUCgxkaXNwbGF5X25hbWUYAyABKAkinAEK",
+            "GENyZWF0ZUFjY2Vzc1JpZ2h0UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSHAoP",
+            "YWNjZXNzX3JpZ2h0X2lkGAIgASgJSACIAQESPgoMYWNjZXNzX3JpZ2h0GAMg",
+            "ASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0",
+            "QhIKEF9hY2Nlc3NfcmlnaHRfaWQiJQoVR2V0QWNjZXNzUmlnaHRSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAkicgoXTGlzdEFjY2Vzc1JpZ2h0c1JlcXVlc3QSDgoG",
+            "cGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2Vu",
+            "GAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJ0ChhM",
+            "aXN0QWNjZXNzUmlnaHRzUmVzcG9uc2USPwoNYWNjZXNzX3JpZ2h0cxgBIAMo",
+            "CzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBIX",
+            "Cg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiiwEKGFVwZGF0ZUFjY2Vzc1JpZ2h0",
+            "UmVxdWVzdBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1bGEu",
+            "YWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSLwoLdXBkYXRlX21hc2sYAiAB",
+            "KAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIigKGERlbGV0ZUFjY2Vz",
+            "c1JpZ2h0UmVxdWVzdBIMCgRuYW1lGAEgASgJIo0BCiNDcmVhdGVBY2Nlc3NS",
+            "aWdodEFjY2Vzc1BvaW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSVgoZYWNj",
+            "ZXNzX3JpZ2h0X2FjY2Vzc19wb2ludBgCIAEoCzIzLnNhbHRvLm5lYnVsYS5h",
+            "Y2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodEFjY2Vzc1BvaW50IjAKIEdldEFj",
+            "Y2Vzc1JpZ2h0QWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkifQoi",
+            "TGlzdEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRzUmVxdWVzdBIOCgZwYXJlbnQY",
+            "ASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkS",
+            "DgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIpcBCiNMaXN0QWNj",
+            "ZXNzUmlnaHRBY2Nlc3NQb2ludHNSZXNwb25zZRJXChphY2Nlc3NfcmlnaHRf",
+            "YWNjZXNzX3BvaW50cxgBIAMoCzIzLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdo",
+            "dC52MS5BY2Nlc3NSaWdodEFjY2Vzc1BvaW50EhcKD25leHRfcGFnZV90b2tl",
+            "bhgCIAEoCSKuAQojVXBkYXRlQWNjZXNzUmlnaHRBY2Nlc3NQb2ludFJlcXVl",
+            "c3QSVgoZYWNjZXNzX3JpZ2h0X2FjY2Vzc19wb2ludBgBIAEoCzIzLnNhbHRv",
+            "Lm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodEFjY2Vzc1BvaW50",
+            "Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxk",
+            "TWFzayIzCiNEZWxldGVBY2Nlc3NSaWdodEFjY2Vzc1BvaW50UmVxdWVzdBIM",
+            "CgRuYW1lGAEgASgJMrQKChJBY2Nlc3NSaWdodFNlcnZpY2USdAoRQ3JlYXRl",
+            "QWNjZXNzUmlnaHQSNS5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQ3Jl",
+            "YXRlQWNjZXNzUmlnaHRSZXF1ZXN0Giguc2FsdG8ubmVidWxhLmFjY2Vzc3Jp",
+            "Z2h0LnYxLkFjY2Vzc1JpZ2h0Em4KDkdldEFjY2Vzc1JpZ2h0EjIuc2FsdG8u",
+            "bmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkdldEFjY2Vzc1JpZ2h0UmVxdWVzdBoo",
+            "LnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBJ/ChBM",
+            "aXN0QWNjZXNzUmlnaHRzEjQuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYx",
+            "Lkxpc3RBY2Nlc3NSaWdodHNSZXF1ZXN0GjUuc2FsdG8ubmVidWxhLmFjY2Vz",
+            "c3JpZ2h0LnYxLkxpc3RBY2Nlc3NSaWdodHNSZXNwb25zZRJ0ChFVcGRhdGVB",
+            "Y2Nlc3NSaWdodBI1LnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5VcGRh",
+            "dGVBY2Nlc3NSaWdodFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmln",
+            "aHQudjEuQWNjZXNzUmlnaHQSYgoRRGVsZXRlQWNjZXNzUmlnaHQSNS5zYWx0",
+            "by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuRGVsZXRlQWNjZXNzUmlnaHRSZXF1",
+            "ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EpUBChxDcmVhdGVBY2Nlc3NS",
+            "aWdodEFjY2Vzc1BvaW50EkAuc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYx",
+            "LkNyZWF0ZUFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRSZXF1ZXN0GjMuc2FsdG8u",
+            "bmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnQS",
+            "jwEKGUdldEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnQSPS5zYWx0by5uZWJ1bGEu",
+            "YWNjZXNzcmlnaHQudjEuR2V0QWNjZXNzUmlnaHRBY2Nlc3NQb2ludFJlcXVl",
+            "c3QaMy5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHRB",
+            "Y2Nlc3NQb2ludBKgAQobTGlzdEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRzEj8u",
+            "c2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkxpc3RBY2Nlc3NSaWdodEFj",
+            "Y2Vzc1BvaW50c1JlcXVlc3QaQC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQu",
+            "djEuTGlzdEFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRzUmVzcG9uc2USlQEKHFVw",
+            "ZGF0ZUFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnQSQC5zYWx0by5uZWJ1bGEuYWNj",
+            "ZXNzcmlnaHQudjEuVXBkYXRlQWNjZXNzUmlnaHRBY2Nlc3NQb2ludFJlcXVl",
+            "c3QaMy5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHRB",
+            "Y2Nlc3NQb2ludBJ4ChxEZWxldGVBY2Nlc3NSaWdodEFjY2Vzc1BvaW50EkAu",
+            "c2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkRlbGV0ZUFjY2Vzc1JpZ2h0",
+            "QWNjZXNzUG9pbnRSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QqgB",
+            "CiNjb20uc2FsdG9hcGlzLm5lYnVsYS5hY2Nlc3NyaWdodC52MUIQQWNjZXNz",
+            "UmlnaHRQcm90b1ABWktnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3Nh",
+            "bHRvYXBpcy1nby9uZWJ1bGEvYWNjZXNzcmlnaHQvdjE7YWNjZXNzcmlnaHSq",
+            "Ah9TYWx0b2FwaXMuTmVidWxhLkFjY2Vzc1JpZ2h0LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DayOfWeekReflection.Descriptor, global::Saltoapis.Type.TimeOfDayReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Nebula.Type.ScheduleReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.AccessRight), global::Saltoapis.Nebula.AccessRight.V1.AccessRight.Parser, new[]{ "Name", "DisplayName", "ActivateTime", "ExpireTime", "Schedules" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.Schedule), global::Saltoapis.Nebula.AccessRight.V1.Schedule.Parser, new[]{ "Days", "StartTime", "EndTime" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day), global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day.Parser, new[]{ "DayType", "DayOfWeek" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint), global::Saltoapis.Nebula.AccessRight.V1.AccessRightAccessPoint.Parser, new[]{ "Name", "AccessPoint", "DisplayName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest), global::Saltoapis.Nebula.AccessRight.V1.CreateAccessRightRequest.Parser, new[]{ "Parent", "AccessRightId", "AccessRight" }, new[]{ "AccessRightId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightRequest), global::Saltoapis.Nebula.AccessRight.V1.GetAccessRightRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -245,15 +236,15 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     /// <summary>Field number for the "schedules" field.</summary>
     public const int SchedulesFieldNumber = 5;
-    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.AccessRight.V1.Schedule> _repeated_schedules_codec
-        = pb::FieldCodec.ForMessage(42, global::Saltoapis.Nebula.AccessRight.V1.Schedule.Parser);
-    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule> schedules_ = new pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule>();
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.Type.Schedule> _repeated_schedules_codec
+        = pb::FieldCodec.ForMessage(42, global::Saltoapis.Nebula.Type.Schedule.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.Type.Schedule> schedules_ = new pbc::RepeatedField<global::Saltoapis.Nebula.Type.Schedule>();
     /// <summary>
     /// Schedules in which this access right is applied.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule> Schedules {
+    public pbc::RepeatedField<global::Saltoapis.Nebula.Type.Schedule> Schedules {
       get { return schedules_; }
     }
 
@@ -495,531 +486,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   }
 
   /// <summary>
-  /// Represents the schedule for an access right.
-  /// </summary>
-  public sealed partial class Schedule : pb::IMessage<Schedule>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<Schedule> _parser = new pb::MessageParser<Schedule>(() => new Schedule());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Schedule> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Schedule() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Schedule(Schedule other) : this() {
-      days_ = other.days_.Clone();
-      startTime_ = other.startTime_ != null ? other.startTime_.Clone() : null;
-      endTime_ = other.endTime_ != null ? other.endTime_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Schedule Clone() {
-      return new Schedule(this);
-    }
-
-    /// <summary>Field number for the "days" field.</summary>
-    public const int DaysFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day> _repeated_days_codec
-        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day.Parser);
-    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day> days_ = new pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day>();
-    /// <summary>
-    /// Days when it's valid.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Saltoapis.Nebula.AccessRight.V1.Schedule.Types.Day> Days {
-      get { return days_; }
-    }
-
-    /// <summary>Field number for the "start_time" field.</summary>
-    public const int StartTimeFieldNumber = 2;
-    private global::Saltoapis.Type.TimeOfDay startTime_;
-    /// <summary>
-    /// Start time of day when schedule starts being valid.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Saltoapis.Type.TimeOfDay StartTime {
-      get { return startTime_; }
-      set {
-        startTime_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "end_time" field.</summary>
-    public const int EndTimeFieldNumber = 3;
-    private global::Saltoapis.Type.TimeOfDay endTime_;
-    /// <summary>
-    /// End time of day when schedule ends being valid.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Saltoapis.Type.TimeOfDay EndTime {
-      get { return endTime_; }
-      set {
-        endTime_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Schedule);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Schedule other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!days_.Equals(other.days_)) return false;
-      if (!object.Equals(StartTime, other.StartTime)) return false;
-      if (!object.Equals(EndTime, other.EndTime)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= days_.GetHashCode();
-      if (startTime_ != null) hash ^= StartTime.GetHashCode();
-      if (endTime_ != null) hash ^= EndTime.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      days_.WriteTo(output, _repeated_days_codec);
-      if (startTime_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(StartTime);
-      }
-      if (endTime_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(EndTime);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      days_.WriteTo(ref output, _repeated_days_codec);
-      if (startTime_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(StartTime);
-      }
-      if (endTime_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(EndTime);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      size += days_.CalculateSize(_repeated_days_codec);
-      if (startTime_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StartTime);
-      }
-      if (endTime_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EndTime);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Schedule other) {
-      if (other == null) {
-        return;
-      }
-      days_.Add(other.days_);
-      if (other.startTime_ != null) {
-        if (startTime_ == null) {
-          StartTime = new global::Saltoapis.Type.TimeOfDay();
-        }
-        StartTime.MergeFrom(other.StartTime);
-      }
-      if (other.endTime_ != null) {
-        if (endTime_ == null) {
-          EndTime = new global::Saltoapis.Type.TimeOfDay();
-        }
-        EndTime.MergeFrom(other.EndTime);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            days_.AddEntriesFrom(input, _repeated_days_codec);
-            break;
-          }
-          case 18: {
-            if (startTime_ == null) {
-              StartTime = new global::Saltoapis.Type.TimeOfDay();
-            }
-            input.ReadMessage(StartTime);
-            break;
-          }
-          case 26: {
-            if (endTime_ == null) {
-              EndTime = new global::Saltoapis.Type.TimeOfDay();
-            }
-            input.ReadMessage(EndTime);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            days_.AddEntriesFrom(ref input, _repeated_days_codec);
-            break;
-          }
-          case 18: {
-            if (startTime_ == null) {
-              StartTime = new global::Saltoapis.Type.TimeOfDay();
-            }
-            input.ReadMessage(StartTime);
-            break;
-          }
-          case 26: {
-            if (endTime_ == null) {
-              EndTime = new global::Saltoapis.Type.TimeOfDay();
-            }
-            input.ReadMessage(EndTime);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-    #region Nested types
-    /// <summary>Container for nested types declared in the Schedule message type.</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static partial class Types {
-      /// <summary>
-      /// Day of the week
-      /// </summary>
-      public sealed partial class Day : pb::IMessage<Day>
-      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          , pb::IBufferMessage
-      #endif
-      {
-        private static readonly pb::MessageParser<Day> _parser = new pb::MessageParser<Day>(() => new Day());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<Day> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::Saltoapis.Nebula.AccessRight.V1.Schedule.Descriptor.NestedTypes[0]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Day() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Day(Day other) : this() {
-          dayType_ = other.dayType_;
-          dayOfWeek_ = other.dayOfWeek_;
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Day Clone() {
-          return new Day(this);
-        }
-
-        /// <summary>Field number for the "day_type" field.</summary>
-        public const int DayTypeFieldNumber = 1;
-        private global::Saltoapis.Nebula.Type.DayType dayType_ = global::Saltoapis.Nebula.Type.DayType.Unspecified;
-        /// <summary>
-        /// Day type
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public global::Saltoapis.Nebula.Type.DayType DayType {
-          get { return dayType_; }
-          set {
-            dayType_ = value;
-          }
-        }
-
-        /// <summary>Field number for the "day_of_week" field.</summary>
-        public const int DayOfWeekFieldNumber = 2;
-        private global::Saltoapis.Type.DayOfWeek dayOfWeek_ = global::Saltoapis.Type.DayOfWeek.Unspecified;
-        /// <summary>
-        /// In case `day_type` is `NORMAL`, the specific day of the week.
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public global::Saltoapis.Type.DayOfWeek DayOfWeek {
-          get { return dayOfWeek_; }
-          set {
-            dayOfWeek_ = value;
-          }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override bool Equals(object other) {
-          return Equals(other as Day);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(Day other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          if (DayType != other.DayType) return false;
-          if (DayOfWeek != other.DayOfWeek) return false;
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) hash ^= DayType.GetHashCode();
-          if (DayOfWeek != global::Saltoapis.Type.DayOfWeek.Unspecified) hash ^= DayOfWeek.GetHashCode();
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void WriteTo(pb::CodedOutputStream output) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          output.WriteRawMessage(this);
-        #else
-          if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
-            output.WriteRawTag(8);
-            output.WriteEnum((int) DayType);
-          }
-          if (DayOfWeek != global::Saltoapis.Type.DayOfWeek.Unspecified) {
-            output.WriteRawTag(16);
-            output.WriteEnum((int) DayOfWeek);
-          }
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
-            output.WriteRawTag(8);
-            output.WriteEnum((int) DayType);
-          }
-          if (DayOfWeek != global::Saltoapis.Type.DayOfWeek.Unspecified) {
-            output.WriteRawTag(16);
-            output.WriteEnum((int) DayOfWeek);
-          }
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(ref output);
-          }
-        }
-        #endif
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public int CalculateSize() {
-          int size = 0;
-          if (DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
-            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DayType);
-          }
-          if (DayOfWeek != global::Saltoapis.Type.DayOfWeek.Unspecified) {
-            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DayOfWeek);
-          }
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(Day other) {
-          if (other == null) {
-            return;
-          }
-          if (other.DayType != global::Saltoapis.Nebula.Type.DayType.Unspecified) {
-            DayType = other.DayType;
-          }
-          if (other.DayOfWeek != global::Saltoapis.Type.DayOfWeek.Unspecified) {
-            DayOfWeek = other.DayOfWeek;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(pb::CodedInputStream input) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          input.ReadRawMessage(this);
-        #else
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-              case 8: {
-                DayType = (global::Saltoapis.Nebula.Type.DayType) input.ReadEnum();
-                break;
-              }
-              case 16: {
-                DayOfWeek = (global::Saltoapis.Type.DayOfWeek) input.ReadEnum();
-                break;
-              }
-            }
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                break;
-              case 8: {
-                DayType = (global::Saltoapis.Nebula.Type.DayType) input.ReadEnum();
-                break;
-              }
-              case 16: {
-                DayOfWeek = (global::Saltoapis.Type.DayOfWeek) input.ReadEnum();
-                break;
-              }
-            }
-          }
-        }
-        #endif
-
-      }
-
-    }
-    #endregion
-
-  }
-
-  /// <summary>
   /// The access right's access point association
   /// </summary>
   public sealed partial class AccessRightAccessPoint : pb::IMessage<AccessRightAccessPoint>
@@ -1036,7 +502,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1316,7 +782,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1615,7 +1081,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1811,7 +1277,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2167,7 +1633,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2394,7 +1860,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2647,7 +2113,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2843,7 +2309,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3090,7 +2556,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3287,7 +2753,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3645,7 +3111,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3872,7 +3338,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4126,7 +3592,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
