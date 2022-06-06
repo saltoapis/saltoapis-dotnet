@@ -28,9 +28,9 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             "by5uZWJ1bGEuZW5jb2Rlci52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnBy",
             "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxokc2FsdG8v",
             "bG9uZ3J1bm5pbmcvdjEvb3BlcmF0aW9uLnByb3RvIqABCgdFbmNvZGVyEgwK",
-            "BG5hbWUYASABKAkSFgoJZGV2aWNlX2lkGAIgASgJSAGIAQESFAoMZGlzcGxh",
-            "eV9uYW1lGAMgASgJEhMKC2luaXRpYWxpemVkGAYgASgIEhEKB2dhdGV3YXkY",
-            "BCABKAlIABISCghleHRlbmRlchgFIAEoCUgAQg8KDXBhcmVudF9kZXZpY2VC",
+            "BG5hbWUYASABKAkSFAoMZGlzcGxheV9uYW1lGAIgASgJEhYKCWRldmljZV9p",
+            "ZBgDIAEoCUgBiAEBEhEKB2dhdGV3YXkYBCABKAlIABISCghleHRlbmRlchgF",
+            "IAEoCUgAEhMKC2luaXRpYWxpemVkGAYgASgIQg8KDXBhcmVudF9kZXZpY2VC",
             "DAoKX2RldmljZV9pZCKBAQoUQ3JlYXRlRW5jb2RlclJlcXVlc3QSDgoGcGFy",
             "ZW50GAEgASgJEhcKCmVuY29kZXJfaWQYAiABKAlIAIgBARIxCgdlbmNvZGVy",
             "GAMgASgLMiAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRW5jb2RlckINCgtf",
@@ -88,7 +88,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.Encoder), global::Saltoapis.Nebula.Encoder.V1.Encoder.Parser, new[]{ "Name", "DeviceId", "DisplayName", "Initialized", "Gateway", "Extender" }, new[]{ "ParentDevice", "DeviceId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.Encoder), global::Saltoapis.Nebula.Encoder.V1.Encoder.Parser, new[]{ "Name", "DisplayName", "DeviceId", "Gateway", "Extender", "Initialized" }, new[]{ "ParentDevice", "DeviceId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.CreateEncoderRequest.Parser, new[]{ "Parent", "EncoderId", "Encoder" }, new[]{ "EncoderId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest), global::Saltoapis.Nebula.Encoder.V1.GetEncoderRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest), global::Saltoapis.Nebula.Encoder.V1.ListEncodersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -155,8 +155,8 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Encoder(Encoder other) : this() {
       name_ = other.name_;
-      deviceId_ = other.deviceId_;
       displayName_ = other.displayName_;
+      deviceId_ = other.deviceId_;
       initialized_ = other.initialized_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -193,8 +193,23 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       }
     }
 
+    /// <summary>Field number for the "display_name" field.</summary>
+    public const int DisplayNameFieldNumber = 2;
+    private string displayName_ = "";
+    /// <summary>
+    /// Display name of the encoder.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DisplayName {
+      get { return displayName_; }
+      set {
+        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "device_id" field.</summary>
-    public const int DeviceIdFieldNumber = 2;
+    public const int DeviceIdFieldNumber = 3;
     private string deviceId_;
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -219,43 +234,6 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearDeviceId() {
       deviceId_ = null;
-    }
-
-    /// <summary>Field number for the "display_name" field.</summary>
-    public const int DisplayNameFieldNumber = 3;
-    private string displayName_ = "";
-    /// <summary>
-    /// Display name of the encoder.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string DisplayName {
-      get { return displayName_; }
-      set {
-        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "initialized" field.</summary>
-    public const int InitializedFieldNumber = 6;
-    private bool initialized_;
-    /// <summary>
-    /// Indicates whether this encoder has been initialized or not. This
-    /// field cannot be modified using a standard
-    /// [`UpdateEncoder`][salto.nebula.encoder.v1.EncoderService.UpdateEncoder]
-    /// operation. To change the value of this field, you must call
-    /// [`InitializeEncoder`][salto.nebula.encoder.v1.EncoderService.InitializeEncoder].
-    ///
-    /// If the value is `false` also applies to the case where the
-    /// initialization process has been initiated but where it has not finished.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Initialized {
-      get { return initialized_; }
-      set {
-        initialized_ = value;
-      }
     }
 
     /// <summary>Field number for the "gateway" field.</summary>
@@ -285,6 +263,28 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       set {
         parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         parentDeviceCase_ = ParentDeviceOneofCase.Extender;
+      }
+    }
+
+    /// <summary>Field number for the "initialized" field.</summary>
+    public const int InitializedFieldNumber = 6;
+    private bool initialized_;
+    /// <summary>
+    /// Indicates whether this encoder has been initialized or not. This
+    /// field cannot be modified using a standard
+    /// [`UpdateEncoder`][salto.nebula.encoder.v1.EncoderService.UpdateEncoder]
+    /// operation. To change the value of this field, you must call
+    /// [`InitializeEncoder`][salto.nebula.encoder.v1.EncoderService.InitializeEncoder].
+    ///
+    /// If the value is `false` also applies to the case where the
+    /// initialization process has been initiated but where it has not finished.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Initialized {
+      get { return initialized_; }
+      set {
+        initialized_ = value;
       }
     }
 
@@ -325,11 +325,11 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (DeviceId != other.DeviceId) return false;
       if (DisplayName != other.DisplayName) return false;
-      if (Initialized != other.Initialized) return false;
+      if (DeviceId != other.DeviceId) return false;
       if (Gateway != other.Gateway) return false;
       if (Extender != other.Extender) return false;
+      if (Initialized != other.Initialized) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -339,11 +339,11 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (HasDeviceId) hash ^= DeviceId.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
-      if (Initialized != false) hash ^= Initialized.GetHashCode();
+      if (HasDeviceId) hash ^= DeviceId.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
+      if (Initialized != false) hash ^= Initialized.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -367,13 +367,13 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (HasDeviceId) {
-        output.WriteRawTag(18);
-        output.WriteString(DeviceId);
-      }
       if (DisplayName.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(18);
         output.WriteString(DisplayName);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(26);
+        output.WriteString(DeviceId);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
         output.WriteRawTag(34);
@@ -401,13 +401,13 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (HasDeviceId) {
-        output.WriteRawTag(18);
-        output.WriteString(DeviceId);
-      }
       if (DisplayName.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(18);
         output.WriteString(DisplayName);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(26);
+        output.WriteString(DeviceId);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
         output.WriteRawTag(34);
@@ -434,20 +434,20 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (HasDeviceId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
-      }
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
       }
-      if (Initialized != false) {
-        size += 1 + 1;
+      if (HasDeviceId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
+      }
+      if (Initialized != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -464,11 +464,11 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.HasDeviceId) {
-        DeviceId = other.DeviceId;
-      }
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
+      }
+      if (other.HasDeviceId) {
+        DeviceId = other.DeviceId;
       }
       if (other.Initialized != false) {
         Initialized = other.Initialized;
@@ -502,11 +502,11 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             break;
           }
           case 18: {
-            DeviceId = input.ReadString();
+            DisplayName = input.ReadString();
             break;
           }
           case 26: {
-            DisplayName = input.ReadString();
+            DeviceId = input.ReadString();
             break;
           }
           case 34: {
@@ -541,11 +541,11 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             break;
           }
           case 18: {
-            DeviceId = input.ReadString();
+            DisplayName = input.ReadString();
             break;
           }
           case 26: {
-            DisplayName = input.ReadString();
+            DeviceId = input.ReadString();
             break;
           }
           case 34: {
