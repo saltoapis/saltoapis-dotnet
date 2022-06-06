@@ -28,89 +28,87 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
             "b2NrLnByb3RvEh5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEaG2dv",
             "b2dsZS9wcm90b2J1Zi9lbXB0eS5wcm90bxogZ29vZ2xlL3Byb3RvYnVmL2Zp",
             "ZWxkX21hc2sucHJvdG8aH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJv",
-            "dG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlvbi5wcm90byK2AwoO",
-            "RWxlY3Ryb25pY0xvY2sSDAoEbmFtZRgBIAEoCRIWCglkZXZpY2VfaWQYAiAB",
-            "KAlIAYgBARIRCgdnYXRld2F5GAMgASgJSAASEgoIZXh0ZW5kZXIYBCABKAlI",
-            "ABITCgtpbml0aWFsaXplZBgFIAEoCBIQCghvdXRkYXRlZBgGIAEoCBIWCglj",
-            "b25uZWN0ZWQYCCABKAhIAogBARIzCg9sYXN0X2V2ZW50X3RpbWUYByABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhMKC2xvd19iYXR0ZXJ5GAkg",
-            "ASgIEhkKDGFjY2Vzc19wb2ludBgKIAEoCUgDiAEBEhQKDGRpc3BsYXlfbmFt",
-            "ZRgLIAEoCSJfChNJbml0aWFsaXphdGlvblN0YXRlEiQKIElOSVRJQUxJWkFU",
-            "SU9OX1NUQVRFX1VOU1BFQ0lGSUVEEAASEQoNVU5JTklUSUFMSVpFRBABEg8K",
-            "C0lOSVRJQUxJWkVEEAJCDwoNcGFyZW50X2RldmljZUIMCgpfZGV2aWNlX2lk",
-            "QgwKCl9jb25uZWN0ZWRCDwoNX2FjY2Vzc19wb2ludCKuAQobQ3JlYXRlRWxl",
-            "Y3Ryb25pY0xvY2tSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIfChJlbGVjdHJv",
-            "bmljX2xvY2tfaWQYAiABKAlIAIgBARJHCg9lbGVjdHJvbmljX2xvY2sYAyAB",
-            "KAsyLi5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuRWxlY3Ryb25p",
-            "Y0xvY2tCFQoTX2VsZWN0cm9uaWNfbG9ja19pZCIoChhHZXRFbGVjdHJvbmlj",
-            "TG9ja1JlcXVlc3QSDAoEbmFtZRgBIAEoCSJ1ChpMaXN0RWxlY3Ryb25pY0xv",
-            "Y2tzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgF",
-            "EhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVy",
-            "X2J5GAUgASgJIoABChtMaXN0RWxlY3Ryb25pY0xvY2tzUmVzcG9uc2USSAoQ",
-            "ZWxlY3Ryb25pY19sb2NrcxgBIAMoCzIuLnNhbHRvLm5lYnVsYS5lbGVjdHJv",
-            "bmljbG9jay52MS5FbGVjdHJvbmljTG9jaxIXCg9uZXh0X3BhZ2VfdG9rZW4Y",
-            "AiABKAkilwEKG1VwZGF0ZUVsZWN0cm9uaWNMb2NrUmVxdWVzdBJHCg9lbGVj",
-            "dHJvbmljX2xvY2sYASABKAsyLi5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xv",
-            "Y2sudjEuRWxlY3Ryb25pY0xvY2sSLwoLdXBkYXRlX21hc2sYAiABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuRmllbGRNYXNrIisKG0RlbGV0ZUVsZWN0cm9uaWNM",
-            "b2NrUmVxdWVzdBIMCgRuYW1lGAEgASgJIjwKGUJpbmRFbGVjdHJvbmljTG9j",
-            "a1JlcXVlc3QSDAoEbmFtZRgBIAEoCRIRCglkZXZpY2VfaWQYAiABKAkiHAoa",
-            "QmluZEVsZWN0cm9uaWNMb2NrUmVzcG9uc2UiOgobVW5iaW5kRWxlY3Ryb25p",
-            "Y0xvY2tSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFZm9yY2UYAiABKAgiHgoc",
-            "VW5iaW5kRWxlY3Ryb25pY0xvY2tSZXNwb25zZSIvCh9Jbml0aWFsaXplRWxl",
-            "Y3Ryb25pY0xvY2tSZXF1ZXN0EgwKBG5hbWUYASABKAkiIgogSW5pdGlhbGl6",
-            "ZUVsZWN0cm9uaWNMb2NrUmVzcG9uc2UiPAogSW5pdGlhbGl6ZUVsZWN0cm9u",
-            "aWNMb2NrTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBSIuCh5D",
-            "b25maWd1cmVFbGVjdHJvbmljTG9ja1JlcXVlc3QSDAoEbmFtZRgBIAEoCSIh",
-            "Ch9Db25maWd1cmVFbGVjdHJvbmljTG9ja1Jlc3BvbnNlIiEKH0NvbmZpZ3Vy",
-            "ZUVsZWN0cm9uaWNMb2NrTWV0YWRhdGEiKgoaUmVzZXRFbGVjdHJvbmljTG9j",
-            "a1JlcXVlc3QSDAoEbmFtZRgBIAEoCSIdChtSZXNldEVsZWN0cm9uaWNMb2Nr",
-            "UmVzcG9uc2UiHQobUmVzZXRFbGVjdHJvbmljTG9ja01ldGFkYXRhIj4KI1Vw",
-            "ZGF0ZUVsZWN0cm9uaWNMb2NrRmlybXdhcmVSZXF1ZXN0EhcKD2VsZWN0cm9u",
-            "aWNfbG9jaxgBIAEoCSImCiRVcGRhdGVFbGVjdHJvbmljTG9ja0Zpcm13YXJl",
-            "UmVzcG9uc2UiQAokVXBkYXRlRWxlY3Ryb25pY0xvY2tGaXJtd2FyZU1ldGFk",
-            "YXRhEhgKEHByb2dyZXNzX3BlcmNlbnQYASABKAUytwsKFUVsZWN0cm9uaWNM",
-            "b2NrU2VydmljZRKDAQoUQ3JlYXRlRWxlY3Ryb25pY0xvY2sSOy5zYWx0by5u",
-            "ZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuQ3JlYXRlRWxlY3Ryb25pY0xvY2tS",
-            "ZXF1ZXN0Gi4uc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLkVsZWN0",
-            "cm9uaWNMb2NrEn0KEUdldEVsZWN0cm9uaWNMb2NrEjguc2FsdG8ubmVidWxh",
-            "LmVsZWN0cm9uaWNsb2NrLnYxLkdldEVsZWN0cm9uaWNMb2NrUmVxdWVzdBou",
-            "LnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5FbGVjdHJvbmljTG9j",
-            "axKOAQoTTGlzdEVsZWN0cm9uaWNMb2NrcxI6LnNhbHRvLm5lYnVsYS5lbGVj",
-            "dHJvbmljbG9jay52MS5MaXN0RWxlY3Ryb25pY0xvY2tzUmVxdWVzdBo7LnNh",
-            "bHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5MaXN0RWxlY3Ryb25pY0xv",
-            "Y2tzUmVzcG9uc2USgwEKFFVwZGF0ZUVsZWN0cm9uaWNMb2NrEjsuc2FsdG8u",
+            "dG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlvbi5wcm90byLVAgoO",
+            "RWxlY3Ryb25pY0xvY2sSDAoEbmFtZRgBIAEoCRIUCgxkaXNwbGF5X25hbWUY",
+            "AiABKAkSFgoJZGV2aWNlX2lkGAMgASgJSAGIAQESEQoHZ2F0ZXdheRgEIAEo",
+            "CUgAEhIKCGV4dGVuZGVyGAUgASgJSAASGQoMYWNjZXNzX3BvaW50GAYgASgJ",
+            "SAKIAQESEwoLaW5pdGlhbGl6ZWQYByABKAgSEAoIb3V0ZGF0ZWQYCCABKAgS",
+            "FgoJY29ubmVjdGVkGAkgASgISAOIAQESEwoLbG93X2JhdHRlcnkYCiABKAgS",
+            "MwoPbGFzdF9ldmVudF90aW1lGAsgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRp",
+            "bWVzdGFtcEIPCg1wYXJlbnRfZGV2aWNlQgwKCl9kZXZpY2VfaWRCDwoNX2Fj",
+            "Y2Vzc19wb2ludEIMCgpfY29ubmVjdGVkIq4BChtDcmVhdGVFbGVjdHJvbmlj",
+            "TG9ja1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEh8KEmVsZWN0cm9uaWNfbG9j",
+            "a19pZBgCIAEoCUgAiAEBEkcKD2VsZWN0cm9uaWNfbG9jaxgDIAEoCzIuLnNh",
+            "bHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5FbGVjdHJvbmljTG9ja0IV",
+            "ChNfZWxlY3Ryb25pY19sb2NrX2lkIigKGEdldEVsZWN0cm9uaWNMb2NrUmVx",
+            "dWVzdBIMCgRuYW1lGAEgASgJInUKGkxpc3RFbGVjdHJvbmljTG9ja3NSZXF1",
+            "ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFn",
+            "ZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSAB",
+            "KAkigAEKG0xpc3RFbGVjdHJvbmljTG9ja3NSZXNwb25zZRJIChBlbGVjdHJv",
+            "bmljX2xvY2tzGAEgAygLMi4uc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2Nr",
+            "LnYxLkVsZWN0cm9uaWNMb2NrEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKX",
+            "AQobVXBkYXRlRWxlY3Ryb25pY0xvY2tSZXF1ZXN0EkcKD2VsZWN0cm9uaWNf",
+            "bG9jaxgBIAEoCzIuLnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5F",
+            "bGVjdHJvbmljTG9jaxIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5w",
+            "cm90b2J1Zi5GaWVsZE1hc2siKwobRGVsZXRlRWxlY3Ryb25pY0xvY2tSZXF1",
+            "ZXN0EgwKBG5hbWUYASABKAkiPAoZQmluZEVsZWN0cm9uaWNMb2NrUmVxdWVz",
+            "dBIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCSIcChpCaW5kRWxl",
+            "Y3Ryb25pY0xvY2tSZXNwb25zZSI6ChtVbmJpbmRFbGVjdHJvbmljTG9ja1Jl",
+            "cXVlc3QSDAoEbmFtZRgBIAEoCRINCgVmb3JjZRgCIAEoCCIeChxVbmJpbmRF",
+            "bGVjdHJvbmljTG9ja1Jlc3BvbnNlIi8KH0luaXRpYWxpemVFbGVjdHJvbmlj",
+            "TG9ja1JlcXVlc3QSDAoEbmFtZRgBIAEoCSIiCiBJbml0aWFsaXplRWxlY3Ry",
+            "b25pY0xvY2tSZXNwb25zZSI8CiBJbml0aWFsaXplRWxlY3Ryb25pY0xvY2tN",
+            "ZXRhZGF0YRIYChBwcm9ncmVzc19wZXJjZW50GAEgASgFIi4KHkNvbmZpZ3Vy",
+            "ZUVsZWN0cm9uaWNMb2NrUmVxdWVzdBIMCgRuYW1lGAEgASgJIiEKH0NvbmZp",
+            "Z3VyZUVsZWN0cm9uaWNMb2NrUmVzcG9uc2UiIQofQ29uZmlndXJlRWxlY3Ry",
+            "b25pY0xvY2tNZXRhZGF0YSIqChpSZXNldEVsZWN0cm9uaWNMb2NrUmVxdWVz",
+            "dBIMCgRuYW1lGAEgASgJIh0KG1Jlc2V0RWxlY3Ryb25pY0xvY2tSZXNwb25z",
+            "ZSIdChtSZXNldEVsZWN0cm9uaWNMb2NrTWV0YWRhdGEiPgojVXBkYXRlRWxl",
+            "Y3Ryb25pY0xvY2tGaXJtd2FyZVJlcXVlc3QSFwoPZWxlY3Ryb25pY19sb2Nr",
+            "GAEgASgJIiYKJFVwZGF0ZUVsZWN0cm9uaWNMb2NrRmlybXdhcmVSZXNwb25z",
+            "ZSJACiRVcGRhdGVFbGVjdHJvbmljTG9ja0Zpcm13YXJlTWV0YWRhdGESGAoQ",
+            "cHJvZ3Jlc3NfcGVyY2VudBgBIAEoBTK3CwoVRWxlY3Ryb25pY0xvY2tTZXJ2",
+            "aWNlEoMBChRDcmVhdGVFbGVjdHJvbmljTG9jaxI7LnNhbHRvLm5lYnVsYS5l",
+            "bGVjdHJvbmljbG9jay52MS5DcmVhdGVFbGVjdHJvbmljTG9ja1JlcXVlc3Qa",
+            "Li5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2sudjEuRWxlY3Ryb25pY0xv",
+            "Y2sSfQoRR2V0RWxlY3Ryb25pY0xvY2sSOC5zYWx0by5uZWJ1bGEuZWxlY3Ry",
+            "b25pY2xvY2sudjEuR2V0RWxlY3Ryb25pY0xvY2tSZXF1ZXN0Gi4uc2FsdG8u",
+            "bmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLkVsZWN0cm9uaWNMb2NrEo4BChNM",
+            "aXN0RWxlY3Ryb25pY0xvY2tzEjouc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNs",
+            "b2NrLnYxLkxpc3RFbGVjdHJvbmljTG9ja3NSZXF1ZXN0Gjsuc2FsdG8ubmVi",
+            "dWxhLmVsZWN0cm9uaWNsb2NrLnYxLkxpc3RFbGVjdHJvbmljTG9ja3NSZXNw",
+            "b25zZRKDAQoUVXBkYXRlRWxlY3Ryb25pY0xvY2sSOy5zYWx0by5uZWJ1bGEu",
+            "ZWxlY3Ryb25pY2xvY2sudjEuVXBkYXRlRWxlY3Ryb25pY0xvY2tSZXF1ZXN0",
+            "Gi4uc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLkVsZWN0cm9uaWNM",
+            "b2NrEmsKFERlbGV0ZUVsZWN0cm9uaWNMb2NrEjsuc2FsdG8ubmVidWxhLmVs",
+            "ZWN0cm9uaWNsb2NrLnYxLkRlbGV0ZUVsZWN0cm9uaWNMb2NrUmVxdWVzdBoW",
+            "Lmdvb2dsZS5wcm90b2J1Zi5FbXB0eRKLAQoSQmluZEVsZWN0cm9uaWNMb2Nr",
+            "Ejkuc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLkJpbmRFbGVjdHJv",
+            "bmljTG9ja1JlcXVlc3QaOi5zYWx0by5uZWJ1bGEuZWxlY3Ryb25pY2xvY2su",
+            "djEuQmluZEVsZWN0cm9uaWNMb2NrUmVzcG9uc2USkQEKFFVuYmluZEVsZWN0",
+            "cm9uaWNMb2NrEjsuc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLlVu",
+            "YmluZEVsZWN0cm9uaWNMb2NrUmVxdWVzdBo8LnNhbHRvLm5lYnVsYS5lbGVj",
+            "dHJvbmljbG9jay52MS5VbmJpbmRFbGVjdHJvbmljTG9ja1Jlc3BvbnNlEnwK",
+            "GEluaXRpYWxpemVFbGVjdHJvbmljTG9jaxI/LnNhbHRvLm5lYnVsYS5lbGVj",
+            "dHJvbmljbG9jay52MS5Jbml0aWFsaXplRWxlY3Ryb25pY0xvY2tSZXF1ZXN0",
+            "Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEnoKF0NvbmZpZ3Vy",
+            "ZUVsZWN0cm9uaWNMb2NrEj4uc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2Nr",
+            "LnYxLkNvbmZpZ3VyZUVsZWN0cm9uaWNMb2NrUmVxdWVzdBofLnNhbHRvLmxv",
+            "bmdydW5uaW5nLnYxLk9wZXJhdGlvbhJyChNSZXNldEVsZWN0cm9uaWNMb2Nr",
+            "Ejouc2FsdG8ubmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLlJlc2V0RWxlY3Ry",
+            "b25pY0xvY2tSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0",
+            "aW9uEoQBChxVcGRhdGVFbGVjdHJvbmljTG9ja0Zpcm13YXJlEkMuc2FsdG8u",
             "bmVidWxhLmVsZWN0cm9uaWNsb2NrLnYxLlVwZGF0ZUVsZWN0cm9uaWNMb2Nr",
-            "UmVxdWVzdBouLnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5FbGVj",
-            "dHJvbmljTG9jaxJrChREZWxldGVFbGVjdHJvbmljTG9jaxI7LnNhbHRvLm5l",
-            "YnVsYS5lbGVjdHJvbmljbG9jay52MS5EZWxldGVFbGVjdHJvbmljTG9ja1Jl",
-            "cXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSiwEKEkJpbmRFbGVjdHJv",
-            "bmljTG9jaxI5LnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5CaW5k",
-            "RWxlY3Ryb25pY0xvY2tSZXF1ZXN0Gjouc2FsdG8ubmVidWxhLmVsZWN0cm9u",
-            "aWNsb2NrLnYxLkJpbmRFbGVjdHJvbmljTG9ja1Jlc3BvbnNlEpEBChRVbmJp",
-            "bmRFbGVjdHJvbmljTG9jaxI7LnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9j",
-            "ay52MS5VbmJpbmRFbGVjdHJvbmljTG9ja1JlcXVlc3QaPC5zYWx0by5uZWJ1",
-            "bGEuZWxlY3Ryb25pY2xvY2sudjEuVW5iaW5kRWxlY3Ryb25pY0xvY2tSZXNw",
-            "b25zZRJ8ChhJbml0aWFsaXplRWxlY3Ryb25pY0xvY2sSPy5zYWx0by5uZWJ1",
-            "bGEuZWxlY3Ryb25pY2xvY2sudjEuSW5pdGlhbGl6ZUVsZWN0cm9uaWNMb2Nr",
-            "UmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJ6ChdD",
-            "b25maWd1cmVFbGVjdHJvbmljTG9jaxI+LnNhbHRvLm5lYnVsYS5lbGVjdHJv",
-            "bmljbG9jay52MS5Db25maWd1cmVFbGVjdHJvbmljTG9ja1JlcXVlc3QaHy5z",
-            "YWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24ScgoTUmVzZXRFbGVjdHJv",
-            "bmljTG9jaxI6LnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5SZXNl",
-            "dEVsZWN0cm9uaWNMb2NrUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYx",
-            "Lk9wZXJhdGlvbhKEAQocVXBkYXRlRWxlY3Ryb25pY0xvY2tGaXJtd2FyZRJD",
-            "LnNhbHRvLm5lYnVsYS5lbGVjdHJvbmljbG9jay52MS5VcGRhdGVFbGVjdHJv",
-            "bmljTG9ja0Zpcm13YXJlUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYx",
-            "Lk9wZXJhdGlvbkK3AQomY29tLnNhbHRvYXBpcy5uZWJ1bGEuZWxlY3Ryb25p",
-            "Y2xvY2sudjFCE0VsZWN0cm9uaWNMb2NrUHJvdG9QAVpRZ2l0aHViLmNvbS9w",
-            "cml2YXRlLXNhbHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2VsZWN0cm9u",
-            "aWNsb2NrL3YxO2VsZWN0cm9uaWNsb2NrqgIiU2FsdG9hcGlzLk5lYnVsYS5F",
-            "bGVjdHJvbmljTG9jay5WMWIGcHJvdG8z"));
+            "RmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0",
+            "aW9uQrcBCiZjb20uc2FsdG9hcGlzLm5lYnVsYS5lbGVjdHJvbmljbG9jay52",
+            "MUITRWxlY3Ryb25pY0xvY2tQcm90b1ABWlFnaXRodWIuY29tL3ByaXZhdGUt",
+            "c2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvZWxlY3Ryb25pY2xvY2sv",
+            "djE7ZWxlY3Ryb25pY2xvY2uqAiJTYWx0b2FwaXMuTmVidWxhLkVsZWN0cm9u",
+            "aWNMb2NrLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock), global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Parser, new[]{ "Name", "DeviceId", "Gateway", "Extender", "Initialized", "Outdated", "Connected", "LastEventTime", "LowBattery", "AccessPoint", "DisplayName" }, new[]{ "ParentDevice", "DeviceId", "Connected", "AccessPoint" }, new[]{ typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Types.InitializationState) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock), global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock.Parser, new[]{ "Name", "DisplayName", "DeviceId", "Gateway", "Extender", "AccessPoint", "Initialized", "Outdated", "Connected", "LowBattery", "LastEventTime" }, new[]{ "ParentDevice", "DeviceId", "AccessPoint", "Connected" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest), global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest.Parser, new[]{ "Parent", "ElectronicLockId", "ElectronicLock" }, new[]{ "ElectronicLockId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest), global::Saltoapis.Nebula.ElectronicLock.V1.GetElectronicLockRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest), global::Saltoapis.Nebula.ElectronicLock.V1.ListElectronicLocksRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -179,14 +177,14 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     public ElectronicLock(ElectronicLock other) : this() {
       _hasBits0 = other._hasBits0;
       name_ = other.name_;
+      displayName_ = other.displayName_;
       deviceId_ = other.deviceId_;
+      accessPoint_ = other.accessPoint_;
       initialized_ = other.initialized_;
       outdated_ = other.outdated_;
       connected_ = other.connected_;
-      lastEventTime_ = other.lastEventTime_ != null ? other.lastEventTime_.Clone() : null;
       lowBattery_ = other.lowBattery_;
-      accessPoint_ = other.accessPoint_;
-      displayName_ = other.displayName_;
+      lastEventTime_ = other.lastEventTime_ != null ? other.lastEventTime_.Clone() : null;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -222,8 +220,23 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       }
     }
 
+    /// <summary>Field number for the "display_name" field.</summary>
+    public const int DisplayNameFieldNumber = 2;
+    private string displayName_ = "";
+    /// <summary>
+    /// Display name of the electronic lock.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DisplayName {
+      get { return displayName_; }
+      set {
+        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "device_id" field.</summary>
-    public const int DeviceIdFieldNumber = 2;
+    public const int DeviceIdFieldNumber = 3;
     private string deviceId_;
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -251,7 +264,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     }
 
     /// <summary>Field number for the "gateway" field.</summary>
-    public const int GatewayFieldNumber = 3;
+    public const int GatewayFieldNumber = 4;
     /// <summary>
     /// Parent name, when electronic lock is connected to a gateway
     /// </summary>
@@ -266,7 +279,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     }
 
     /// <summary>Field number for the "extender" field.</summary>
-    public const int ExtenderFieldNumber = 4;
+    public const int ExtenderFieldNumber = 5;
     /// <summary>
     /// Parent name, when electronic lock is connected to an extender
     /// </summary>
@@ -280,8 +293,35 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       }
     }
 
+    /// <summary>Field number for the "access_point" field.</summary>
+    public const int AccessPointFieldNumber = 6;
+    private string accessPoint_;
+    /// <summary>
+    /// The access point that the electronic lock gives coverage to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AccessPoint {
+      get { return accessPoint_ ?? ""; }
+      set {
+        accessPoint_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "access_point" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasAccessPoint {
+      get { return accessPoint_ != null; }
+    }
+    /// <summary>Clears the value of the "access_point" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAccessPoint() {
+      accessPoint_ = null;
+    }
+
     /// <summary>Field number for the "initialized" field.</summary>
-    public const int InitializedFieldNumber = 5;
+    public const int InitializedFieldNumber = 7;
     private bool initialized_;
     /// <summary>
     /// Indicates whether this electronic lock has been initialized or not. This
@@ -303,7 +343,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     }
 
     /// <summary>Field number for the "outdated" field.</summary>
-    public const int OutdatedFieldNumber = 6;
+    public const int OutdatedFieldNumber = 8;
     private bool outdated_;
     /// <summary>
     /// Indicates whether this electronic lock has pending updates or not. This
@@ -320,7 +360,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     }
 
     /// <summary>Field number for the "connected" field.</summary>
-    public const int ConnectedFieldNumber = 8;
+    public const int ConnectedFieldNumber = 9;
     private bool connected_;
     /// <summary>
     /// Indicates whether this electronic lock is connected or not. It's
@@ -350,23 +390,8 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       _hasBits0 &= ~1;
     }
 
-    /// <summary>Field number for the "last_event_time" field.</summary>
-    public const int LastEventTimeFieldNumber = 7;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp lastEventTime_;
-    /// <summary>
-    /// The last time an event was received.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp LastEventTime {
-      get { return lastEventTime_; }
-      set {
-        lastEventTime_ = value;
-      }
-    }
-
     /// <summary>Field number for the "low_battery" field.</summary>
-    public const int LowBatteryFieldNumber = 9;
+    public const int LowBatteryFieldNumber = 10;
     private bool lowBattery_;
     /// <summary>
     /// Indicates whether the battery of this electronic lock is low, and needs
@@ -381,45 +406,18 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       }
     }
 
-    /// <summary>Field number for the "access_point" field.</summary>
-    public const int AccessPointFieldNumber = 10;
-    private string accessPoint_;
+    /// <summary>Field number for the "last_event_time" field.</summary>
+    public const int LastEventTimeFieldNumber = 11;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp lastEventTime_;
     /// <summary>
-    /// The access point that the electronic lock gives coverage to.
+    /// The last time an event was received.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string AccessPoint {
-      get { return accessPoint_ ?? ""; }
+    public global::Google.Protobuf.WellKnownTypes.Timestamp LastEventTime {
+      get { return lastEventTime_; }
       set {
-        accessPoint_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "access_point" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasAccessPoint {
-      get { return accessPoint_ != null; }
-    }
-    /// <summary>Clears the value of the "access_point" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearAccessPoint() {
-      accessPoint_ = null;
-    }
-
-    /// <summary>Field number for the "display_name" field.</summary>
-    public const int DisplayNameFieldNumber = 11;
-    private string displayName_ = "";
-    /// <summary>
-    /// Display name of the electronic lock.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string DisplayName {
-      get { return displayName_; }
-      set {
-        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        lastEventTime_ = value;
       }
     }
 
@@ -427,8 +425,8 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
       None = 0,
-      Gateway = 3,
-      Extender = 4,
+      Gateway = 4,
+      Extender = 5,
     }
     private ParentDeviceOneofCase parentDeviceCase_ = ParentDeviceOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -460,16 +458,16 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (DisplayName != other.DisplayName) return false;
       if (DeviceId != other.DeviceId) return false;
       if (Gateway != other.Gateway) return false;
       if (Extender != other.Extender) return false;
+      if (AccessPoint != other.AccessPoint) return false;
       if (Initialized != other.Initialized) return false;
       if (Outdated != other.Outdated) return false;
       if (Connected != other.Connected) return false;
-      if (!object.Equals(LastEventTime, other.LastEventTime)) return false;
       if (LowBattery != other.LowBattery) return false;
-      if (AccessPoint != other.AccessPoint) return false;
-      if (DisplayName != other.DisplayName) return false;
+      if (!object.Equals(LastEventTime, other.LastEventTime)) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -479,16 +477,16 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (HasDeviceId) hash ^= DeviceId.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
+      if (HasAccessPoint) hash ^= AccessPoint.GetHashCode();
       if (Initialized != false) hash ^= Initialized.GetHashCode();
       if (Outdated != false) hash ^= Outdated.GetHashCode();
       if (HasConnected) hash ^= Connected.GetHashCode();
-      if (lastEventTime_ != null) hash ^= LastEventTime.GetHashCode();
       if (LowBattery != false) hash ^= LowBattery.GetHashCode();
-      if (HasAccessPoint) hash ^= AccessPoint.GetHashCode();
-      if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
+      if (lastEventTime_ != null) hash ^= LastEventTime.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -512,45 +510,45 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (HasDeviceId) {
+      if (DisplayName.Length != 0) {
         output.WriteRawTag(18);
+        output.WriteString(DisplayName);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(26);
         output.WriteString(DeviceId);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Gateway);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteString(Extender);
       }
+      if (HasAccessPoint) {
+        output.WriteRawTag(50);
+        output.WriteString(AccessPoint);
+      }
       if (Initialized != false) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(56);
         output.WriteBool(Initialized);
       }
       if (Outdated != false) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(64);
         output.WriteBool(Outdated);
       }
-      if (lastEventTime_ != null) {
-        output.WriteRawTag(58);
-        output.WriteMessage(LastEventTime);
-      }
       if (HasConnected) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(72);
         output.WriteBool(Connected);
       }
       if (LowBattery != false) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(80);
         output.WriteBool(LowBattery);
       }
-      if (HasAccessPoint) {
-        output.WriteRawTag(82);
-        output.WriteString(AccessPoint);
-      }
-      if (DisplayName.Length != 0) {
+      if (lastEventTime_ != null) {
         output.WriteRawTag(90);
-        output.WriteString(DisplayName);
+        output.WriteMessage(LastEventTime);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -566,45 +564,45 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (HasDeviceId) {
+      if (DisplayName.Length != 0) {
         output.WriteRawTag(18);
+        output.WriteString(DisplayName);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(26);
         output.WriteString(DeviceId);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Gateway);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteString(Extender);
       }
+      if (HasAccessPoint) {
+        output.WriteRawTag(50);
+        output.WriteString(AccessPoint);
+      }
       if (Initialized != false) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(56);
         output.WriteBool(Initialized);
       }
       if (Outdated != false) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(64);
         output.WriteBool(Outdated);
       }
-      if (lastEventTime_ != null) {
-        output.WriteRawTag(58);
-        output.WriteMessage(LastEventTime);
-      }
       if (HasConnected) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(72);
         output.WriteBool(Connected);
       }
       if (LowBattery != false) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(80);
         output.WriteBool(LowBattery);
       }
-      if (HasAccessPoint) {
-        output.WriteRawTag(82);
-        output.WriteString(AccessPoint);
-      }
-      if (DisplayName.Length != 0) {
+      if (lastEventTime_ != null) {
         output.WriteRawTag(90);
-        output.WriteString(DisplayName);
+        output.WriteMessage(LastEventTime);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -619,6 +617,9 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
+      if (DisplayName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
+      }
       if (HasDeviceId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
       }
@@ -627,6 +628,9 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
+      }
+      if (HasAccessPoint) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessPoint);
       }
       if (Initialized != false) {
         size += 1 + 1;
@@ -637,17 +641,11 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       if (HasConnected) {
         size += 1 + 1;
       }
-      if (lastEventTime_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastEventTime);
-      }
       if (LowBattery != false) {
         size += 1 + 1;
       }
-      if (HasAccessPoint) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessPoint);
-      }
-      if (DisplayName.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
+      if (lastEventTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastEventTime);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -664,8 +662,14 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
+      if (other.DisplayName.Length != 0) {
+        DisplayName = other.DisplayName;
+      }
       if (other.HasDeviceId) {
         DeviceId = other.DeviceId;
+      }
+      if (other.HasAccessPoint) {
+        AccessPoint = other.AccessPoint;
       }
       if (other.Initialized != false) {
         Initialized = other.Initialized;
@@ -676,20 +680,14 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       if (other.HasConnected) {
         Connected = other.Connected;
       }
+      if (other.LowBattery != false) {
+        LowBattery = other.LowBattery;
+      }
       if (other.lastEventTime_ != null) {
         if (lastEventTime_ == null) {
           LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         LastEventTime.MergeFrom(other.LastEventTime);
-      }
-      if (other.LowBattery != false) {
-        LowBattery = other.LowBattery;
-      }
-      if (other.HasAccessPoint) {
-        AccessPoint = other.AccessPoint;
-      }
-      if (other.DisplayName.Length != 0) {
-        DisplayName = other.DisplayName;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -720,46 +718,46 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
             break;
           }
           case 18: {
-            DeviceId = input.ReadString();
+            DisplayName = input.ReadString();
             break;
           }
           case 26: {
-            Gateway = input.ReadString();
+            DeviceId = input.ReadString();
             break;
           }
           case 34: {
+            Gateway = input.ReadString();
+            break;
+          }
+          case 42: {
             Extender = input.ReadString();
             break;
           }
-          case 40: {
+          case 50: {
+            AccessPoint = input.ReadString();
+            break;
+          }
+          case 56: {
             Initialized = input.ReadBool();
             break;
           }
-          case 48: {
+          case 64: {
             Outdated = input.ReadBool();
             break;
           }
-          case 58: {
+          case 72: {
+            Connected = input.ReadBool();
+            break;
+          }
+          case 80: {
+            LowBattery = input.ReadBool();
+            break;
+          }
+          case 90: {
             if (lastEventTime_ == null) {
               LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(LastEventTime);
-            break;
-          }
-          case 64: {
-            Connected = input.ReadBool();
-            break;
-          }
-          case 72: {
-            LowBattery = input.ReadBool();
-            break;
-          }
-          case 82: {
-            AccessPoint = input.ReadString();
-            break;
-          }
-          case 90: {
-            DisplayName = input.ReadString();
             break;
           }
         }
@@ -782,80 +780,52 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
             break;
           }
           case 18: {
-            DeviceId = input.ReadString();
+            DisplayName = input.ReadString();
             break;
           }
           case 26: {
-            Gateway = input.ReadString();
+            DeviceId = input.ReadString();
             break;
           }
           case 34: {
+            Gateway = input.ReadString();
+            break;
+          }
+          case 42: {
             Extender = input.ReadString();
             break;
           }
-          case 40: {
+          case 50: {
+            AccessPoint = input.ReadString();
+            break;
+          }
+          case 56: {
             Initialized = input.ReadBool();
             break;
           }
-          case 48: {
+          case 64: {
             Outdated = input.ReadBool();
             break;
           }
-          case 58: {
+          case 72: {
+            Connected = input.ReadBool();
+            break;
+          }
+          case 80: {
+            LowBattery = input.ReadBool();
+            break;
+          }
+          case 90: {
             if (lastEventTime_ == null) {
               LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(LastEventTime);
             break;
           }
-          case 64: {
-            Connected = input.ReadBool();
-            break;
-          }
-          case 72: {
-            LowBattery = input.ReadBool();
-            break;
-          }
-          case 82: {
-            AccessPoint = input.ReadString();
-            break;
-          }
-          case 90: {
-            DisplayName = input.ReadString();
-            break;
-          }
         }
       }
     }
     #endif
-
-    #region Nested types
-    /// <summary>Container for nested types declared in the ElectronicLock message type.</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static partial class Types {
-      /// <summary>
-      /// Initialization state for an electronic lock.
-      /// </summary>
-      public enum InitializationState {
-        /// <summary>
-        /// Sentinel value used to indicate that the state is unknown, omitted,
-        /// or is not applicable.
-        /// </summary>
-        [pbr::OriginalName("INITIALIZATION_STATE_UNSPECIFIED")] Unspecified = 0,
-        /// <summary>
-        /// The electronic lock has yet to be initialized and requires
-        /// initialization to function.
-        /// </summary>
-        [pbr::OriginalName("UNINITIALIZED")] Uninitialized = 1,
-        /// <summary>
-        /// The electronic lock has already been initialized.
-        /// </summary>
-        [pbr::OriginalName("INITIALIZED")] Initialized = 2,
-      }
-
-    }
-    #endregion
 
   }
 

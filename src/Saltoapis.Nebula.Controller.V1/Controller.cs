@@ -29,12 +29,12 @@ namespace Saltoapis.Nebula.Controller.V1 {
             "L2VtcHR5LnByb3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90",
             "bxofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90bxokc2FsdG8vbG9u",
             "Z3J1bm5pbmcvdjEvb3BlcmF0aW9uLnByb3RvIqcCCgpDb250cm9sbGVyEgwK",
-            "BG5hbWUYASABKAkSFgoJZGV2aWNlX2lkGAIgASgJSAGIAQESEQoHZ2F0ZXdh",
-            "eRgEIAEoCUgAEhIKCGV4dGVuZGVyGAUgASgJSAASEwoLaW5pdGlhbGl6ZWQY",
-            "BiABKAgSFQoNYWNjZXNzX3BvaW50cxgHIAMoCRIQCghvdXRkYXRlZBgIIAEo",
-            "CBIWCgljb25uZWN0ZWQYCSABKAhIAogBARIzCg9sYXN0X2V2ZW50X3RpbWUY",
-            "CiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhQKDGRpc3BsYXlf",
-            "bmFtZRgLIAEoCUIPCg1wYXJlbnRfZGV2aWNlQgwKCl9kZXZpY2VfaWRCDAoK",
+            "BG5hbWUYASABKAkSFAoMZGlzcGxheV9uYW1lGAIgASgJEhYKCWRldmljZV9p",
+            "ZBgDIAEoCUgBiAEBEhEKB2dhdGV3YXkYBCABKAlIABISCghleHRlbmRlchgF",
+            "IAEoCUgAEhUKDWFjY2Vzc19wb2ludHMYBiADKAkSEwoLaW5pdGlhbGl6ZWQY",
+            "ByABKAgSEAoIb3V0ZGF0ZWQYCCABKAgSFgoJY29ubmVjdGVkGAkgASgISAKI",
+            "AQESMwoPbGFzdF9ldmVudF90aW1lGAogASgLMhouZ29vZ2xlLnByb3RvYnVm",
+            "LlRpbWVzdGFtcEIPCg1wYXJlbnRfZGV2aWNlQgwKCl9kZXZpY2VfaWRCDAoK",
             "X2Nvbm5lY3RlZCKTAQoXQ3JlYXRlQ29udHJvbGxlclJlcXVlc3QSDgoGcGFy",
             "ZW50GAEgASgJEhoKDWNvbnRyb2xsZXJfaWQYAiABKAlIAIgBARI6Cgpjb250",
             "cm9sbGVyGAMgASgLMiYuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuQ29u",
@@ -99,7 +99,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.Controller), global::Saltoapis.Nebula.Controller.V1.Controller.Parser, new[]{ "Name", "DeviceId", "Gateway", "Extender", "Initialized", "AccessPoints", "Outdated", "Connected", "LastEventTime", "DisplayName" }, new[]{ "ParentDevice", "DeviceId", "Connected" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.Controller), global::Saltoapis.Nebula.Controller.V1.Controller.Parser, new[]{ "Name", "DisplayName", "DeviceId", "Gateway", "Extender", "AccessPoints", "Initialized", "Outdated", "Connected", "LastEventTime" }, new[]{ "ParentDevice", "DeviceId", "Connected" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.CreateControllerRequest), global::Saltoapis.Nebula.Controller.V1.CreateControllerRequest.Parser, new[]{ "Parent", "ControllerId", "Controller" }, new[]{ "ControllerId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.GetControllerRequest), global::Saltoapis.Nebula.Controller.V1.GetControllerRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Controller.V1.ListControllersRequest), global::Saltoapis.Nebula.Controller.V1.ListControllersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -168,13 +168,13 @@ namespace Saltoapis.Nebula.Controller.V1 {
     public Controller(Controller other) : this() {
       _hasBits0 = other._hasBits0;
       name_ = other.name_;
+      displayName_ = other.displayName_;
       deviceId_ = other.deviceId_;
-      initialized_ = other.initialized_;
       accessPoints_ = other.accessPoints_.Clone();
+      initialized_ = other.initialized_;
       outdated_ = other.outdated_;
       connected_ = other.connected_;
       lastEventTime_ = other.lastEventTime_ != null ? other.lastEventTime_.Clone() : null;
-      displayName_ = other.displayName_;
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -210,8 +210,23 @@ namespace Saltoapis.Nebula.Controller.V1 {
       }
     }
 
+    /// <summary>Field number for the "display_name" field.</summary>
+    public const int DisplayNameFieldNumber = 2;
+    private string displayName_ = "";
+    /// <summary>
+    /// Display name of the controller.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DisplayName {
+      get { return displayName_; }
+      set {
+        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "device_id" field.</summary>
-    public const int DeviceIdFieldNumber = 2;
+    public const int DeviceIdFieldNumber = 3;
     private string deviceId_;
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -268,8 +283,22 @@ namespace Saltoapis.Nebula.Controller.V1 {
       }
     }
 
+    /// <summary>Field number for the "access_points" field.</summary>
+    public const int AccessPointsFieldNumber = 6;
+    private static readonly pb::FieldCodec<string> _repeated_accessPoints_codec
+        = pb::FieldCodec.ForString(50);
+    private readonly pbc::RepeatedField<string> accessPoints_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// The access points that the controller gives coverage to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> AccessPoints {
+      get { return accessPoints_; }
+    }
+
     /// <summary>Field number for the "initialized" field.</summary>
-    public const int InitializedFieldNumber = 6;
+    public const int InitializedFieldNumber = 7;
     private bool initialized_;
     /// <summary>
     /// Indicates whether this controller has been initialized or not. This
@@ -288,20 +317,6 @@ namespace Saltoapis.Nebula.Controller.V1 {
       set {
         initialized_ = value;
       }
-    }
-
-    /// <summary>Field number for the "access_points" field.</summary>
-    public const int AccessPointsFieldNumber = 7;
-    private static readonly pb::FieldCodec<string> _repeated_accessPoints_codec
-        = pb::FieldCodec.ForString(58);
-    private readonly pbc::RepeatedField<string> accessPoints_ = new pbc::RepeatedField<string>();
-    /// <summary>
-    /// The access points that the controller gives coverage to.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<string> AccessPoints {
-      get { return accessPoints_; }
     }
 
     /// <summary>Field number for the "outdated" field.</summary>
@@ -367,21 +382,6 @@ namespace Saltoapis.Nebula.Controller.V1 {
       }
     }
 
-    /// <summary>Field number for the "display_name" field.</summary>
-    public const int DisplayNameFieldNumber = 11;
-    private string displayName_ = "";
-    /// <summary>
-    /// Display name of the controller.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string DisplayName {
-      get { return displayName_; }
-      set {
-        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     private object parentDevice_;
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
@@ -419,15 +419,15 @@ namespace Saltoapis.Nebula.Controller.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (DisplayName != other.DisplayName) return false;
       if (DeviceId != other.DeviceId) return false;
       if (Gateway != other.Gateway) return false;
       if (Extender != other.Extender) return false;
-      if (Initialized != other.Initialized) return false;
       if(!accessPoints_.Equals(other.accessPoints_)) return false;
+      if (Initialized != other.Initialized) return false;
       if (Outdated != other.Outdated) return false;
       if (Connected != other.Connected) return false;
       if (!object.Equals(LastEventTime, other.LastEventTime)) return false;
-      if (DisplayName != other.DisplayName) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -437,15 +437,15 @@ namespace Saltoapis.Nebula.Controller.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (HasDeviceId) hash ^= DeviceId.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
-      if (Initialized != false) hash ^= Initialized.GetHashCode();
       hash ^= accessPoints_.GetHashCode();
+      if (Initialized != false) hash ^= Initialized.GetHashCode();
       if (Outdated != false) hash ^= Outdated.GetHashCode();
       if (HasConnected) hash ^= Connected.GetHashCode();
       if (lastEventTime_ != null) hash ^= LastEventTime.GetHashCode();
-      if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -469,8 +469,12 @@ namespace Saltoapis.Nebula.Controller.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (HasDeviceId) {
+      if (DisplayName.Length != 0) {
         output.WriteRawTag(18);
+        output.WriteString(DisplayName);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(26);
         output.WriteString(DeviceId);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
@@ -481,11 +485,11 @@ namespace Saltoapis.Nebula.Controller.V1 {
         output.WriteRawTag(42);
         output.WriteString(Extender);
       }
+      accessPoints_.WriteTo(output, _repeated_accessPoints_codec);
       if (Initialized != false) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(56);
         output.WriteBool(Initialized);
       }
-      accessPoints_.WriteTo(output, _repeated_accessPoints_codec);
       if (Outdated != false) {
         output.WriteRawTag(64);
         output.WriteBool(Outdated);
@@ -497,10 +501,6 @@ namespace Saltoapis.Nebula.Controller.V1 {
       if (lastEventTime_ != null) {
         output.WriteRawTag(82);
         output.WriteMessage(LastEventTime);
-      }
-      if (DisplayName.Length != 0) {
-        output.WriteRawTag(90);
-        output.WriteString(DisplayName);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -516,8 +516,12 @@ namespace Saltoapis.Nebula.Controller.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (HasDeviceId) {
+      if (DisplayName.Length != 0) {
         output.WriteRawTag(18);
+        output.WriteString(DisplayName);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(26);
         output.WriteString(DeviceId);
       }
       if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
@@ -528,11 +532,11 @@ namespace Saltoapis.Nebula.Controller.V1 {
         output.WriteRawTag(42);
         output.WriteString(Extender);
       }
+      accessPoints_.WriteTo(ref output, _repeated_accessPoints_codec);
       if (Initialized != false) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(56);
         output.WriteBool(Initialized);
       }
-      accessPoints_.WriteTo(ref output, _repeated_accessPoints_codec);
       if (Outdated != false) {
         output.WriteRawTag(64);
         output.WriteBool(Outdated);
@@ -544,10 +548,6 @@ namespace Saltoapis.Nebula.Controller.V1 {
       if (lastEventTime_ != null) {
         output.WriteRawTag(82);
         output.WriteMessage(LastEventTime);
-      }
-      if (DisplayName.Length != 0) {
-        output.WriteRawTag(90);
-        output.WriteString(DisplayName);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -562,6 +562,9 @@ namespace Saltoapis.Nebula.Controller.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
+      if (DisplayName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
+      }
       if (HasDeviceId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
       }
@@ -571,10 +574,10 @@ namespace Saltoapis.Nebula.Controller.V1 {
       if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
       }
+      size += accessPoints_.CalculateSize(_repeated_accessPoints_codec);
       if (Initialized != false) {
         size += 1 + 1;
       }
-      size += accessPoints_.CalculateSize(_repeated_accessPoints_codec);
       if (Outdated != false) {
         size += 1 + 1;
       }
@@ -583,9 +586,6 @@ namespace Saltoapis.Nebula.Controller.V1 {
       }
       if (lastEventTime_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastEventTime);
-      }
-      if (DisplayName.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -602,13 +602,16 @@ namespace Saltoapis.Nebula.Controller.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
+      if (other.DisplayName.Length != 0) {
+        DisplayName = other.DisplayName;
+      }
       if (other.HasDeviceId) {
         DeviceId = other.DeviceId;
       }
+      accessPoints_.Add(other.accessPoints_);
       if (other.Initialized != false) {
         Initialized = other.Initialized;
       }
-      accessPoints_.Add(other.accessPoints_);
       if (other.Outdated != false) {
         Outdated = other.Outdated;
       }
@@ -620,9 +623,6 @@ namespace Saltoapis.Nebula.Controller.V1 {
           LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         LastEventTime.MergeFrom(other.LastEventTime);
-      }
-      if (other.DisplayName.Length != 0) {
-        DisplayName = other.DisplayName;
       }
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
@@ -653,6 +653,10 @@ namespace Saltoapis.Nebula.Controller.V1 {
             break;
           }
           case 18: {
+            DisplayName = input.ReadString();
+            break;
+          }
+          case 26: {
             DeviceId = input.ReadString();
             break;
           }
@@ -664,12 +668,12 @@ namespace Saltoapis.Nebula.Controller.V1 {
             Extender = input.ReadString();
             break;
           }
-          case 48: {
-            Initialized = input.ReadBool();
+          case 50: {
+            accessPoints_.AddEntriesFrom(input, _repeated_accessPoints_codec);
             break;
           }
-          case 58: {
-            accessPoints_.AddEntriesFrom(input, _repeated_accessPoints_codec);
+          case 56: {
+            Initialized = input.ReadBool();
             break;
           }
           case 64: {
@@ -685,10 +689,6 @@ namespace Saltoapis.Nebula.Controller.V1 {
               LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(LastEventTime);
-            break;
-          }
-          case 90: {
-            DisplayName = input.ReadString();
             break;
           }
         }
@@ -711,6 +711,10 @@ namespace Saltoapis.Nebula.Controller.V1 {
             break;
           }
           case 18: {
+            DisplayName = input.ReadString();
+            break;
+          }
+          case 26: {
             DeviceId = input.ReadString();
             break;
           }
@@ -722,12 +726,12 @@ namespace Saltoapis.Nebula.Controller.V1 {
             Extender = input.ReadString();
             break;
           }
-          case 48: {
-            Initialized = input.ReadBool();
+          case 50: {
+            accessPoints_.AddEntriesFrom(ref input, _repeated_accessPoints_codec);
             break;
           }
-          case 58: {
-            accessPoints_.AddEntriesFrom(ref input, _repeated_accessPoints_codec);
+          case 56: {
+            Initialized = input.ReadBool();
             break;
           }
           case 64: {
@@ -743,10 +747,6 @@ namespace Saltoapis.Nebula.Controller.V1 {
               LastEventTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(LastEventTime);
-            break;
-          }
-          case 90: {
-            DisplayName = input.ReadString();
             break;
           }
         }
