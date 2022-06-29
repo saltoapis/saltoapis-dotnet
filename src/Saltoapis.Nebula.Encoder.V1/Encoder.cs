@@ -54,37 +54,38 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             "TWV0YWRhdGEiIwoTUmVzZXRFbmNvZGVyUmVxdWVzdBIMCgRuYW1lGAEgASgJ",
             "IhYKFFJlc2V0RW5jb2RlclJlc3BvbnNlIhYKFFJlc2V0RW5jb2Rlck1ldGFk",
             "YXRhIi8KHFVwZGF0ZUVuY29kZXJGaXJtd2FyZVJlcXVlc3QSDwoHZW5jb2Rl",
-            "chgBIAEoCSIfCh1VcGRhdGVFbmNvZGVyRmlybXdhcmVSZXNwb25zZSIfCh1V",
-            "cGRhdGVFbmNvZGVyRmlybXdhcmVNZXRhZGF0YTLvCAoORW5jb2RlclNlcnZp",
-            "Y2USYAoNQ3JlYXRlRW5jb2RlchItLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYx",
-            "LkNyZWF0ZUVuY29kZXJSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmVuY29kZXIu",
-            "djEuRW5jb2RlchJaCgpHZXRFbmNvZGVyEiouc2FsdG8ubmVidWxhLmVuY29k",
-            "ZXIudjEuR2V0RW5jb2RlclJlcXVlc3QaIC5zYWx0by5uZWJ1bGEuZW5jb2Rl",
-            "ci52MS5FbmNvZGVyEmsKDExpc3RFbmNvZGVycxIsLnNhbHRvLm5lYnVsYS5l",
-            "bmNvZGVyLnYxLkxpc3RFbmNvZGVyc1JlcXVlc3QaLS5zYWx0by5uZWJ1bGEu",
-            "ZW5jb2Rlci52MS5MaXN0RW5jb2RlcnNSZXNwb25zZRJgCg1VcGRhdGVFbmNv",
-            "ZGVyEi0uc2FsdG8ubmVidWxhLmVuY29kZXIudjEuVXBkYXRlRW5jb2RlclJl",
-            "cXVlc3QaIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVyElYKDURl",
-            "bGV0ZUVuY29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5EZWxldGVF",
-            "bmNvZGVyUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJnChFJbml0",
-            "aWFsaXplRW5jb2RlchIxLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkluaXRp",
-            "YWxpemVFbmNvZGVyUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9w",
-            "ZXJhdGlvbhJlChBDb25maWd1cmVFbmNvZGVyEjAuc2FsdG8ubmVidWxhLmVu",
-            "Y29kZXIudjEuQ29uZmlndXJlRW5jb2RlclJlcXVlc3QaHy5zYWx0by5sb25n",
-            "cnVubmluZy52MS5PcGVyYXRpb24SXQoMUmVzZXRFbmNvZGVyEiwuc2FsdG8u",
-            "bmVidWxhLmVuY29kZXIudjEuUmVzZXRFbmNvZGVyUmVxdWVzdBofLnNhbHRv",
-            "LmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJvChVVcGRhdGVFbmNvZGVyRmly",
-            "bXdhcmUSNS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5VcGRhdGVFbmNvZGVy",
-            "RmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0",
-            "aW9uEmgKC0JpbmRFbmNvZGVyEisuc2FsdG8ubmVidWxhLmVuY29kZXIudjEu",
-            "QmluZEVuY29kZXJSZXF1ZXN0Giwuc2FsdG8ubmVidWxhLmVuY29kZXIudjEu",
-            "QmluZEVuY29kZXJSZXNwb25zZRJuCg1VbmJpbmRFbmNvZGVyEi0uc2FsdG8u",
-            "bmVidWxhLmVuY29kZXIudjEuVW5iaW5kRW5jb2RlclJlcXVlc3QaLi5zYWx0",
-            "by5uZWJ1bGEuZW5jb2Rlci52MS5VbmJpbmRFbmNvZGVyUmVzcG9uc2VClAEK",
-            "H2NvbS5zYWx0b2FwaXMubmVidWxhLmVuY29kZXIudjFCDEVuY29kZXJQcm90",
-            "b1ABWkNnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1n",
-            "by9uZWJ1bGEvZW5jb2Rlci92MTtlbmNvZGVyqgIbU2FsdG9hcGlzLk5lYnVs",
-            "YS5FbmNvZGVyLlYxYgZwcm90bzM="));
+            "chgBIAEoCSIfCh1VcGRhdGVFbmNvZGVyRmlybXdhcmVSZXNwb25zZSI5Ch1V",
+            "cGRhdGVFbmNvZGVyRmlybXdhcmVNZXRhZGF0YRIYChBwcm9ncmVzc19wZXJj",
+            "ZW50GAEgASgFMu8ICg5FbmNvZGVyU2VydmljZRJgCg1DcmVhdGVFbmNvZGVy",
+            "Ei0uc2FsdG8ubmVidWxhLmVuY29kZXIudjEuQ3JlYXRlRW5jb2RlclJlcXVl",
+            "c3QaIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVyEloKCkdldEVu",
+            "Y29kZXISKi5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5HZXRFbmNvZGVyUmVx",
+            "dWVzdBogLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISawoMTGlz",
+            "dEVuY29kZXJzEiwuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuTGlzdEVuY29k",
+            "ZXJzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkxpc3RFbmNv",
+            "ZGVyc1Jlc3BvbnNlEmAKDVVwZGF0ZUVuY29kZXISLS5zYWx0by5uZWJ1bGEu",
+            "ZW5jb2Rlci52MS5VcGRhdGVFbmNvZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVs",
+            "YS5lbmNvZGVyLnYxLkVuY29kZXISVgoNRGVsZXRlRW5jb2RlchItLnNhbHRv",
+            "Lm5lYnVsYS5lbmNvZGVyLnYxLkRlbGV0ZUVuY29kZXJSZXF1ZXN0GhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5EmcKEUluaXRpYWxpemVFbmNvZGVyEjEuc2Fs",
+            "dG8ubmVidWxhLmVuY29kZXIudjEuSW5pdGlhbGl6ZUVuY29kZXJSZXF1ZXN0",
+            "Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEmUKEENvbmZpZ3Vy",
+            "ZUVuY29kZXISMC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5Db25maWd1cmVF",
+            "bmNvZGVyUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlv",
+            "bhJdCgxSZXNldEVuY29kZXISLC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5S",
+            "ZXNldEVuY29kZXJSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3Bl",
+            "cmF0aW9uEm8KFVVwZGF0ZUVuY29kZXJGaXJtd2FyZRI1LnNhbHRvLm5lYnVs",
+            "YS5lbmNvZGVyLnYxLlVwZGF0ZUVuY29kZXJGaXJtd2FyZVJlcXVlc3QaHy5z",
+            "YWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SaAoLQmluZEVuY29kZXIS",
+            "Ky5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5jb2RlclJlcXVlc3Qa",
+            "LC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5jb2RlclJlc3BvbnNl",
+            "Em4KDVVuYmluZEVuY29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5V",
+            "bmJpbmRFbmNvZGVyUmVxdWVzdBouLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYx",
+            "LlVuYmluZEVuY29kZXJSZXNwb25zZUKUAQofY29tLnNhbHRvYXBpcy5uZWJ1",
+            "bGEuZW5jb2Rlci52MUIMRW5jb2RlclByb3RvUAFaQ2dpdGh1Yi5jb20vcHJp",
+            "dmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9lbmNvZGVyL3Yx",
+            "O2VuY29kZXKqAhtTYWx0b2FwaXMuTmVidWxhLkVuY29kZXIuVjFiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -110,7 +111,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ResetEncoderMetadata), global::Saltoapis.Nebula.Encoder.V1.ResetEncoderMetadata.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareRequest.Parser, new[]{ "Encoder" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareResponse), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata.Parser, null, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null)
           }));
     }
     #endregion
@@ -4786,6 +4787,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UpdateEncoderFirmwareMetadata(UpdateEncoderFirmwareMetadata other) : this() {
+      progressPercent_ = other.progressPercent_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4793,6 +4795,21 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UpdateEncoderFirmwareMetadata Clone() {
       return new UpdateEncoderFirmwareMetadata(this);
+    }
+
+    /// <summary>Field number for the "progress_percent" field.</summary>
+    public const int ProgressPercentFieldNumber = 1;
+    private int progressPercent_;
+    /// <summary>
+    /// Progress of operation. Range: [0, 100].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int ProgressPercent {
+      get { return progressPercent_; }
+      set {
+        progressPercent_ = value;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4810,6 +4827,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (ProgressPercent != other.ProgressPercent) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4817,6 +4835,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (ProgressPercent != 0) hash ^= ProgressPercent.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4835,6 +4854,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      if (ProgressPercent != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProgressPercent);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4845,6 +4868,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ProgressPercent != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProgressPercent);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4855,6 +4882,9 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (ProgressPercent != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProgressPercent);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4866,6 +4896,9 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     public void MergeFrom(UpdateEncoderFirmwareMetadata other) {
       if (other == null) {
         return;
+      }
+      if (other.ProgressPercent != 0) {
+        ProgressPercent = other.ProgressPercent;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4882,6 +4915,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 8: {
+            ProgressPercent = input.ReadInt32();
+            break;
+          }
         }
       }
     #endif
@@ -4897,6 +4934,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 8: {
+            ProgressPercent = input.ReadInt32();
+            break;
+          }
         }
       }
     }
