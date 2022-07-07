@@ -37,7 +37,7 @@ def load_rules(lib_name, internal_dependencies, extra_info):
         deps = lib_deps + third_party_deps + ["@core_sdk_stdlib//:libraryset"],
     )
 
-    project_description = "Contains the SDK related to '%s'. Check out https://developer.saltonebula.com/ for more information" % lib_name
+    project_description = "Contains the SDK related to '%s'. Check out https://developer.saltosystems.com/ for more information" % lib_name
     if 'nuget_description' in extra_info:
         project_description = extra_info['nuget_description']
     # package will use version from 'csharp_library' by default 
