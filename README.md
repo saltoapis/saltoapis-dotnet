@@ -22,7 +22,7 @@ var invoker = ChannelExtensions.Intercept(channel, authInterceptor);
 var service = new UserService.UserServiceClient(invoker);
 ```
 
-You can find more information about authentication at https://developer.saltosystems.com/api/authentication/.
+You can find more information about authentication at https://developer.saltosystems.com/nebula/api/authentication/.
 
 ## Setup
 
