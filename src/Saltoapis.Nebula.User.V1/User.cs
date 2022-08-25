@@ -1133,8 +1133,8 @@ namespace Saltoapis.Nebula.User.V1 {
         = pb::FieldCodec.ForMessage(42, global::Saltoapis.Nebula.Type.Schedule.Parser);
     private readonly pbc::RepeatedField<global::Saltoapis.Nebula.Type.Schedule> effectiveSchedules_ = new pbc::RepeatedField<global::Saltoapis.Nebula.Type.Schedule>();
     /// <summary>
-    /// The computed effective schedules for the user's access right at the given
-    /// parent resource.
+    /// The computed effective schedules for the user's access right based on the
+    /// given parent resource.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
