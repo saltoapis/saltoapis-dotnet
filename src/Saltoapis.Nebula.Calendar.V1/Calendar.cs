@@ -32,68 +32,69 @@ namespace Saltoapis.Nebula.Calendar.V1 {
             "bmFtZRgCIAEoCSKNAQoFRXZlbnQSDAoEbmFtZRgBIAEoCRIsCghkYXlfdHlw",
             "ZRgCIAEoDjIaLnNhbHRvLm5lYnVsYS50eXBlLkRheVR5cGUSJAoKc3RhcnRf",
             "ZGF0ZRgDIAEoCzIQLnNhbHRvLnR5cGUuRGF0ZRIiCghlbmRfZGF0ZRgEIAEo",
-            "CzIQLnNhbHRvLnR5cGUuRGF0ZSJyChVDcmVhdGVDYWxlbmRhclJlcXVlc3QS",
-            "DgoGcGFyZW50GAEgASgJEhMKC2NhbGVuZGFyX2lkGAIgASgJEjQKCGNhbGVu",
-            "ZGFyGAMgASgLMiIuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNhbGVuZGFy",
-            "IiIKEkdldENhbGVuZGFyUmVxdWVzdBIMCgRuYW1lGAEgASgJIm8KFExpc3RD",
-            "YWxlbmRhcnNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUY",
-            "AiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoI",
-            "b3JkZXJfYnkYBSABKAkiZwoVTGlzdENhbGVuZGFyc1Jlc3BvbnNlEjUKCWNh",
-            "bGVuZGFycxgBIAMoCzIiLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5DYWxl",
-            "bmRhchIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkifgoVVXBkYXRlQ2FsZW5k",
-            "YXJSZXF1ZXN0EjQKCGNhbGVuZGFyGAEgASgLMiIuc2FsdG8ubmVidWxhLmNh",
-            "bGVuZGFyLnYxLkNhbGVuZGFyEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLkZpZWxkTWFzayIlChVEZWxldGVDYWxlbmRhclJlcXVl",
-            "c3QSDAoEbmFtZRgBIAEoCSJmChJDcmVhdGVFdmVudFJlcXVlc3QSDgoGcGFy",
-            "ZW50GAEgASgJEhAKCGV2ZW50X2lkGAIgASgJEi4KBWV2ZW50GAMgASgLMh8u",
-            "c2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkV2ZW50Ih8KD0dldEV2ZW50UmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJImwKEUxpc3RFdmVudHNSZXF1ZXN0Eg4KBnBh",
-            "cmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgD",
-            "IAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiXgoSTGlz",
-            "dEV2ZW50c1Jlc3BvbnNlEi8KBmV2ZW50cxgBIAMoCzIfLnNhbHRvLm5lYnVs",
-            "YS5jYWxlbmRhci52MS5FdmVudBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAki",
-            "dQoSVXBkYXRlRXZlbnRSZXF1ZXN0Ei4KBWV2ZW50GAEgASgLMh8uc2FsdG8u",
-            "bmVidWxhLmNhbGVuZGFyLnYxLkV2ZW50Ei8KC3VwZGF0ZV9tYXNrGAIgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIiChJEZWxldGVFdmVudFJl",
-            "cXVlc3QSDAoEbmFtZRgBIAEoCTLfBwoPQ2FsZW5kYXJTZXJ2aWNlEmUKDkNy",
-            "ZWF0ZUNhbGVuZGFyEi8uc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNyZWF0",
-            "ZUNhbGVuZGFyUmVxdWVzdBoiLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5D",
-            "YWxlbmRhchJfCgtHZXRDYWxlbmRhchIsLnNhbHRvLm5lYnVsYS5jYWxlbmRh",
-            "ci52MS5HZXRDYWxlbmRhclJlcXVlc3QaIi5zYWx0by5uZWJ1bGEuY2FsZW5k",
-            "YXIudjEuQ2FsZW5kYXIScAoNTGlzdENhbGVuZGFycxIuLnNhbHRvLm5lYnVs",
-            "YS5jYWxlbmRhci52MS5MaXN0Q2FsZW5kYXJzUmVxdWVzdBovLnNhbHRvLm5l",
-            "YnVsYS5jYWxlbmRhci52MS5MaXN0Q2FsZW5kYXJzUmVzcG9uc2USZQoOVXBk",
-            "YXRlQ2FsZW5kYXISLy5zYWx0by5uZWJ1bGEuY2FsZW5kYXIudjEuVXBkYXRl",
-            "Q2FsZW5kYXJSZXF1ZXN0GiIuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNh",
-            "bGVuZGFyElkKDkRlbGV0ZUNhbGVuZGFyEi8uc2FsdG8ubmVidWxhLmNhbGVu",
-            "ZGFyLnYxLkRlbGV0ZUNhbGVuZGFyUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1",
-            "Zi5FbXB0eRJcCgtDcmVhdGVFdmVudBIsLnNhbHRvLm5lYnVsYS5jYWxlbmRh",
-            "ci52MS5DcmVhdGVFdmVudFJlcXVlc3QaHy5zYWx0by5uZWJ1bGEuY2FsZW5k",
-            "YXIudjEuRXZlbnQSVgoIR2V0RXZlbnQSKS5zYWx0by5uZWJ1bGEuY2FsZW5k",
-            "YXIudjEuR2V0RXZlbnRSZXF1ZXN0Gh8uc2FsdG8ubmVidWxhLmNhbGVuZGFy",
-            "LnYxLkV2ZW50EmcKCkxpc3RFdmVudHMSKy5zYWx0by5uZWJ1bGEuY2FsZW5k",
-            "YXIudjEuTGlzdEV2ZW50c1JlcXVlc3QaLC5zYWx0by5uZWJ1bGEuY2FsZW5k",
-            "YXIudjEuTGlzdEV2ZW50c1Jlc3BvbnNlElwKC1VwZGF0ZUV2ZW50Eiwuc2Fs",
-            "dG8ubmVidWxhLmNhbGVuZGFyLnYxLlVwZGF0ZUV2ZW50UmVxdWVzdBofLnNh",
-            "bHRvLm5lYnVsYS5jYWxlbmRhci52MS5FdmVudBJTCgtEZWxldGVFdmVudBIs",
-            "LnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5EZWxldGVFdmVudFJlcXVlc3Qa",
-            "Fi5nb29nbGUucHJvdG9idWYuRW1wdHlCmQEKIGNvbS5zYWx0b2FwaXMubmVi",
-            "dWxhLmNhbGVuZGFyLnYxQg1DYWxlbmRhclByb3RvUAFaRWdpdGh1Yi5jb20v",
-            "cHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9jYWxlbmRh",
-            "ci92MTtjYWxlbmRhcqoCHFNhbHRvYXBpcy5OZWJ1bGEuQ2FsZW5kYXIuVjFi",
-            "BnByb3RvMw=="));
+            "CzIQLnNhbHRvLnR5cGUuRGF0ZSKHAQoVQ3JlYXRlQ2FsZW5kYXJSZXF1ZXN0",
+            "Eg4KBnBhcmVudBgBIAEoCRIYCgtjYWxlbmRhcl9pZBgCIAEoCUgAiAEBEjQK",
+            "CGNhbGVuZGFyGAMgASgLMiIuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLkNh",
+            "bGVuZGFyQg4KDF9jYWxlbmRhcl9pZCIiChJHZXRDYWxlbmRhclJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCSJvChRMaXN0Q2FsZW5kYXJzUmVxdWVzdBIOCgZwYXJl",
+            "bnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyAB",
+            "KAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJImcKFUxpc3RD",
+            "YWxlbmRhcnNSZXNwb25zZRI1CgljYWxlbmRhcnMYASADKAsyIi5zYWx0by5u",
+            "ZWJ1bGEuY2FsZW5kYXIudjEuQ2FsZW5kYXISFwoPbmV4dF9wYWdlX3Rva2Vu",
+            "GAIgASgJIn4KFVVwZGF0ZUNhbGVuZGFyUmVxdWVzdBI0CghjYWxlbmRhchgB",
+            "IAEoCzIiLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5DYWxlbmRhchIvCgt1",
+            "cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2si",
+            "JQoVRGVsZXRlQ2FsZW5kYXJSZXF1ZXN0EgwKBG5hbWUYASABKAkieAoSQ3Jl",
+            "YXRlRXZlbnRSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIVCghldmVudF9pZBgC",
+            "IAEoCUgAiAEBEi4KBWV2ZW50GAMgASgLMh8uc2FsdG8ubmVidWxhLmNhbGVu",
+            "ZGFyLnYxLkV2ZW50QgsKCV9ldmVudF9pZCIfCg9HZXRFdmVudFJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCSJsChFMaXN0RXZlbnRzUmVxdWVzdBIOCgZwYXJlbnQY",
+            "ASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkS",
+            "DgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIl4KEkxpc3RFdmVu",
+            "dHNSZXNwb25zZRIvCgZldmVudHMYASADKAsyHy5zYWx0by5uZWJ1bGEuY2Fs",
+            "ZW5kYXIudjEuRXZlbnQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJInUKElVw",
+            "ZGF0ZUV2ZW50UmVxdWVzdBIuCgVldmVudBgBIAEoCzIfLnNhbHRvLm5lYnVs",
+            "YS5jYWxlbmRhci52MS5FdmVudBIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siIgoSRGVsZXRlRXZlbnRSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAky3wcKD0NhbGVuZGFyU2VydmljZRJlCg5DcmVhdGVD",
+            "YWxlbmRhchIvLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5DcmVhdGVDYWxl",
+            "bmRhclJlcXVlc3QaIi5zYWx0by5uZWJ1bGEuY2FsZW5kYXIudjEuQ2FsZW5k",
+            "YXISXwoLR2V0Q2FsZW5kYXISLC5zYWx0by5uZWJ1bGEuY2FsZW5kYXIudjEu",
+            "R2V0Q2FsZW5kYXJSZXF1ZXN0GiIuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYx",
+            "LkNhbGVuZGFyEnAKDUxpc3RDYWxlbmRhcnMSLi5zYWx0by5uZWJ1bGEuY2Fs",
+            "ZW5kYXIudjEuTGlzdENhbGVuZGFyc1JlcXVlc3QaLy5zYWx0by5uZWJ1bGEu",
+            "Y2FsZW5kYXIudjEuTGlzdENhbGVuZGFyc1Jlc3BvbnNlEmUKDlVwZGF0ZUNh",
+            "bGVuZGFyEi8uc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYxLlVwZGF0ZUNhbGVu",
+            "ZGFyUmVxdWVzdBoiLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5DYWxlbmRh",
+            "chJZCg5EZWxldGVDYWxlbmRhchIvLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52",
+            "MS5EZWxldGVDYWxlbmRhclJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1w",
+            "dHkSXAoLQ3JlYXRlRXZlbnQSLC5zYWx0by5uZWJ1bGEuY2FsZW5kYXIudjEu",
+            "Q3JlYXRlRXZlbnRSZXF1ZXN0Gh8uc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYx",
+            "LkV2ZW50ElYKCEdldEV2ZW50Eikuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYx",
+            "LkdldEV2ZW50UmVxdWVzdBofLnNhbHRvLm5lYnVsYS5jYWxlbmRhci52MS5F",
+            "dmVudBJnCgpMaXN0RXZlbnRzEisuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYx",
+            "Lkxpc3RFdmVudHNSZXF1ZXN0Giwuc2FsdG8ubmVidWxhLmNhbGVuZGFyLnYx",
+            "Lkxpc3RFdmVudHNSZXNwb25zZRJcCgtVcGRhdGVFdmVudBIsLnNhbHRvLm5l",
+            "YnVsYS5jYWxlbmRhci52MS5VcGRhdGVFdmVudFJlcXVlc3QaHy5zYWx0by5u",
+            "ZWJ1bGEuY2FsZW5kYXIudjEuRXZlbnQSUwoLRGVsZXRlRXZlbnQSLC5zYWx0",
+            "by5uZWJ1bGEuY2FsZW5kYXIudjEuRGVsZXRlRXZlbnRSZXF1ZXN0GhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5QpkBCiBjb20uc2FsdG9hcGlzLm5lYnVsYS5j",
+            "YWxlbmRhci52MUINQ2FsZW5kYXJQcm90b1ABWkVnaXRodWIuY29tL3ByaXZh",
+            "dGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvY2FsZW5kYXIvdjE7",
+            "Y2FsZW5kYXKqAhxTYWx0b2FwaXMuTmVidWxhLkNhbGVuZGFyLlYxYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.Calendar), global::Saltoapis.Nebula.Calendar.V1.Calendar.Parser, new[]{ "Name", "DisplayName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.Event), global::Saltoapis.Nebula.Calendar.V1.Event.Parser, new[]{ "Name", "DayType", "StartDate", "EndDate" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest), global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest.Parser, new[]{ "Parent", "CalendarId", "Calendar" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest), global::Saltoapis.Nebula.Calendar.V1.CreateCalendarRequest.Parser, new[]{ "Parent", "CalendarId", "Calendar" }, new[]{ "CalendarId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest), global::Saltoapis.Nebula.Calendar.V1.GetCalendarRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest), global::Saltoapis.Nebula.Calendar.V1.ListCalendarsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse), global::Saltoapis.Nebula.Calendar.V1.ListCalendarsResponse.Parser, new[]{ "Calendars", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest), global::Saltoapis.Nebula.Calendar.V1.UpdateCalendarRequest.Parser, new[]{ "Calendar", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest), global::Saltoapis.Nebula.Calendar.V1.DeleteCalendarRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest), global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest.Parser, new[]{ "Parent", "EventId", "Event" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest), global::Saltoapis.Nebula.Calendar.V1.CreateEventRequest.Parser, new[]{ "Parent", "EventId", "Event" }, new[]{ "EventId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.GetEventRequest), global::Saltoapis.Nebula.Calendar.V1.GetEventRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest), global::Saltoapis.Nebula.Calendar.V1.ListEventsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse), global::Saltoapis.Nebula.Calendar.V1.ListEventsResponse.Parser, new[]{ "Events", "NextPageToken" }, null, null, null, null),
@@ -741,7 +742,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
     /// <summary>Field number for the "calendar_id" field.</summary>
     public const int CalendarIdFieldNumber = 2;
-    private string calendarId_ = "";
+    private string calendarId_;
     /// <summary>
     /// The calendar ID to use for this calendar. In case it's empty
     /// the server will autogenerate a unique identifier.
@@ -749,10 +750,22 @@ namespace Saltoapis.Nebula.Calendar.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string CalendarId {
-      get { return calendarId_; }
+      get { return calendarId_ ?? ""; }
       set {
         calendarId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+    /// <summary>Gets whether the "calendar_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasCalendarId {
+      get { return calendarId_ != null; }
+    }
+    /// <summary>Clears the value of the "calendar_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearCalendarId() {
+      calendarId_ = null;
     }
 
     /// <summary>Field number for the "calendar" field.</summary>
@@ -797,7 +810,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (CalendarId.Length != 0) hash ^= CalendarId.GetHashCode();
+      if (HasCalendarId) hash ^= CalendarId.GetHashCode();
       if (calendar_ != null) hash ^= Calendar.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -821,7 +834,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (CalendarId.Length != 0) {
+      if (HasCalendarId) {
         output.WriteRawTag(18);
         output.WriteString(CalendarId);
       }
@@ -843,7 +856,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (CalendarId.Length != 0) {
+      if (HasCalendarId) {
         output.WriteRawTag(18);
         output.WriteString(CalendarId);
       }
@@ -864,7 +877,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
       if (Parent.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
       }
-      if (CalendarId.Length != 0) {
+      if (HasCalendarId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(CalendarId);
       }
       if (calendar_ != null) {
@@ -885,7 +898,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
       if (other.Parent.Length != 0) {
         Parent = other.Parent;
       }
-      if (other.CalendarId.Length != 0) {
+      if (other.HasCalendarId) {
         CalendarId = other.CalendarId;
       }
       if (other.calendar_ != null) {
@@ -2256,7 +2269,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
     /// <summary>Field number for the "event_id" field.</summary>
     public const int EventIdFieldNumber = 2;
-    private string eventId_ = "";
+    private string eventId_;
     /// <summary>
     /// The event ID to use for this calendar event. In case it's
     /// empty the server will autogenerate a unique identifier.
@@ -2264,10 +2277,22 @@ namespace Saltoapis.Nebula.Calendar.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string EventId {
-      get { return eventId_; }
+      get { return eventId_ ?? ""; }
       set {
         eventId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+    /// <summary>Gets whether the "event_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasEventId {
+      get { return eventId_ != null; }
+    }
+    /// <summary>Clears the value of the "event_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearEventId() {
+      eventId_ = null;
     }
 
     /// <summary>Field number for the "event" field.</summary>
@@ -2312,7 +2337,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Parent.Length != 0) hash ^= Parent.GetHashCode();
-      if (EventId.Length != 0) hash ^= EventId.GetHashCode();
+      if (HasEventId) hash ^= EventId.GetHashCode();
       if (event_ != null) hash ^= Event.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2336,7 +2361,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (EventId.Length != 0) {
+      if (HasEventId) {
         output.WriteRawTag(18);
         output.WriteString(EventId);
       }
@@ -2358,7 +2383,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
         output.WriteRawTag(10);
         output.WriteString(Parent);
       }
-      if (EventId.Length != 0) {
+      if (HasEventId) {
         output.WriteRawTag(18);
         output.WriteString(EventId);
       }
@@ -2379,7 +2404,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
       if (Parent.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
       }
-      if (EventId.Length != 0) {
+      if (HasEventId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(EventId);
       }
       if (event_ != null) {
@@ -2400,7 +2425,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
       if (other.Parent.Length != 0) {
         Parent = other.Parent;
       }
-      if (other.EventId.Length != 0) {
+      if (other.HasEventId) {
         EventId = other.EventId;
       }
       if (other.event_ != null) {
