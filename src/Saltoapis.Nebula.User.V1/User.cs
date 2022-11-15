@@ -55,97 +55,110 @@ namespace Saltoapis.Nebula.User.V1 {
             "CgRuYW1lGAEgASgJEjQKBXN0YXRlGAIgASgOMiUuc2FsdG8ubmVidWxhLnVz",
             "ZXIudjEuV2FsbGV0S2V5LlN0YXRlEhAKCG91dGRhdGVkGAMgASgIIkkKBVN0",
             "YXRlEhUKEVNUQVRFX1VOU1BFQ0lGSUVEEAASEAoMTk9UX0FTU0lHTkVEEAES",
-            "CwoHUEVORElORxACEgoKBkFDVElWRRADIm8KEUNyZWF0ZVVzZXJSZXF1ZXN0",
-            "Eg4KBnBhcmVudBgBIAEoCRIUCgd1c2VyX2lkGAIgASgJSACIAQESKAoEdXNl",
-            "chgDIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXJCCgoIX3VzZXJf",
-            "aWQiHgoOR2V0VXNlclJlcXVlc3QSDAoEbmFtZRgBIAEoCSJrChBMaXN0VXNl",
-            "cnNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUS",
-            "EgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJf",
-            "YnkYBSABKAkiawoRTGlzdFVzZXJzUmVzcG9uc2USKQoFdXNlcnMYASADKAsy",
-            "Gi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEhcKD25leHRfcGFnZV90b2tl",
-            "bhgCIAEoCRISCgp0b3RhbF9zaXplGAMgASgFIm4KEVVwZGF0ZVVzZXJSZXF1",
-            "ZXN0EigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2Vy",
-            "Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxk",
-            "TWFzayIhChFEZWxldGVVc2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJIiAKEEJs",
-            "b2NrVXNlclJlcXVlc3QSDAoEbmFtZRgBIAEoCSITChFCbG9ja1VzZXJSZXNw",
-            "b25zZSIiChJVbmJsb2NrVXNlclJlcXVlc3QSDAoEbmFtZRgBIAEoCSIVChNV",
-            "bmJsb2NrVXNlclJlc3BvbnNlInAKHENyZWF0ZVVzZXJBY2Nlc3NSaWdodFJl",
-            "cXVlc3QSDgoGcGFyZW50GAEgASgJEkAKEXVzZXJfYWNjZXNzX3JpZ2h0GAIg",
-            "ASgLMiUuc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlckFjY2Vzc1JpZ2h0IikK",
-            "GUdldFVzZXJBY2Nlc3NSaWdodFJlcXVlc3QSDAoEbmFtZRgBIAEoCSJ2ChtM",
-            "aXN0VXNlckFjY2Vzc1JpZ2h0c1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEK",
-            "CXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRl",
-            "chgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJ6ChxMaXN0VXNlckFjY2Vzc1Jp",
-            "Z2h0c1Jlc3BvbnNlEkEKEnVzZXJfYWNjZXNzX3JpZ2h0cxgBIAMoCzIlLnNh",
-            "bHRvLm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nlc3NSaWdodBIXCg9uZXh0X3Bh",
-            "Z2VfdG9rZW4YAiABKAkikQEKHFVwZGF0ZVVzZXJBY2Nlc3NSaWdodFJlcXVl",
-            "c3QSQAoRdXNlcl9hY2Nlc3NfcmlnaHQYASABKAsyJS5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5Vc2VyQWNjZXNzUmlnaHQSLwoLdXBkYXRlX21hc2sYAiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiwKHERlbGV0ZVVzZXJBY2Nl",
-            "c3NSaWdodFJlcXVlc3QSDAoEbmFtZRgBIAEoCSIxChRBc3NpZ25DYXJkS2V5",
-            "UmVxdWVzdBIMCgRuYW1lGAEgASgJEgsKA3VpZBgCIAEoCSIkChRDYW5jZWxD",
-            "YXJkS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJInIKFEVuY29kZUNhcmRLZXlS",
-            "ZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoHZW5jb2RlchgCIAEoCUgAEhkKD2Vs",
-            "ZWN0cm9uaWNfbG9jaxgDIAEoCUgAEhQKCmNvbnRyb2xsZXIYBCABKAlIAEII",
-            "CgZkZXZpY2UiFwoVRW5jb2RlQ2FyZEtleVJlc3BvbnNlIhcKFUVuY29kZUNh",
-            "cmRLZXlNZXRhZGF0YSIjChNBc3NpZ25BcHBLZXlSZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAkiIwoTQ2FuY2VsQXBwS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJIigK",
-            "GENvbXB1dGVBcHBLZXlEYXRhUmVxdWVzdBIMCgRuYW1lGAEgASgJIikKGUNv",
-            "bXB1dGVBcHBLZXlEYXRhUmVzcG9uc2USDAoEZGF0YRgBIAEoDCImChZBc3Np",
-            "Z25XYWxsZXRLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiYgoXQXNzaWduV2Fs",
-            "bGV0S2V5UmVzcG9uc2USMwoKd2FsbGV0X2tleRgBIAEoCzIfLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLldhbGxldEtleRISCgphY2Nlc3NfdXJpGAIgASgJIiYK",
-            "FkNhbmNlbFdhbGxldEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJOChdDYW5j",
-            "ZWxXYWxsZXRLZXlSZXNwb25zZRIzCgp3YWxsZXRfa2V5GAEgASgLMh8uc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5MscPCgtVc2VyU2VydmljZRJR",
-            "CgpDcmVhdGVVc2VyEicuc2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlVXNl",
-            "clJlcXVlc3QaGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEksKB0dldFVz",
-            "ZXISJC5zYWx0by5uZWJ1bGEudXNlci52MS5HZXRVc2VyUmVxdWVzdBoaLnNh",
-            "bHRvLm5lYnVsYS51c2VyLnYxLlVzZXISXAoJTGlzdFVzZXJzEiYuc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuTGlzdFVzZXJzUmVxdWVzdBonLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLkxpc3RVc2Vyc1Jlc3BvbnNlElEKClVwZGF0ZVVzZXISJy5z",
-            "YWx0by5uZWJ1bGEudXNlci52MS5VcGRhdGVVc2VyUmVxdWVzdBoaLnNhbHRv",
-            "Lm5lYnVsYS51c2VyLnYxLlVzZXISTQoKRGVsZXRlVXNlchInLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLkRlbGV0ZVVzZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3Rv",
-            "YnVmLkVtcHR5ElwKCUJsb2NrVXNlchImLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LkJsb2NrVXNlclJlcXVlc3QaJy5zYWx0by5uZWJ1bGEudXNlci52MS5CbG9j",
-            "a1VzZXJSZXNwb25zZRJiCgtVbmJsb2NrVXNlchIoLnNhbHRvLm5lYnVsYS51",
-            "c2VyLnYxLlVuYmxvY2tVc2VyUmVxdWVzdBopLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLlVuYmxvY2tVc2VyUmVzcG9uc2UScgoVQ3JlYXRlVXNlckFjY2Vzc1Jp",
-            "Z2h0EjIuc2FsdG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlVXNlckFjY2Vzc1Jp",
-            "Z2h0UmVxdWVzdBolLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nlc3NS",
-            "aWdodBJsChJHZXRVc2VyQWNjZXNzUmlnaHQSLy5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5HZXRVc2VyQWNjZXNzUmlnaHRSZXF1ZXN0GiUuc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuVXNlckFjY2Vzc1JpZ2h0En0KFExpc3RVc2VyQWNjZXNzUmln",
-            "aHRzEjEuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVzZXJBY2Nlc3NSaWdo",
-            "dHNSZXF1ZXN0GjIuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlzdFVzZXJBY2Nl",
-            "c3NSaWdodHNSZXNwb25zZRJyChVVcGRhdGVVc2VyQWNjZXNzUmlnaHQSMi5z",
-            "YWx0by5uZWJ1bGEudXNlci52MS5VcGRhdGVVc2VyQWNjZXNzUmlnaHRSZXF1",
-            "ZXN0GiUuc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlckFjY2Vzc1JpZ2h0EmMK",
-            "FURlbGV0ZVVzZXJBY2Nlc3NSaWdodBIyLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LkRlbGV0ZVVzZXJBY2Nlc3NSaWdodFJlcXVlc3QaFi5nb29nbGUucHJvdG9i",
-            "dWYuRW1wdHkSWgoNQXNzaWduQ2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLkFzc2lnbkNhcmRLZXlSZXF1ZXN0Gh0uc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuQ2FyZEtleRJaCg1DYW5jZWxDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuQ2FuY2VsQ2FyZEtleVJlcXVlc3QaHS5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5DYXJkS2V5ElwKDUVuY29kZUNhcmRLZXkSKi5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5FbmNvZGVDYXJkS2V5UmVxdWVzdBofLnNhbHRvLmxvbmdydW5u",
-            "aW5nLnYxLk9wZXJhdGlvbhJXCgxBc3NpZ25BcHBLZXkSKS5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5Bc3NpZ25BcHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuQXBwS2V5ElcKDENhbmNlbEFwcEtleRIpLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLkNhbmNlbEFwcEtleVJlcXVlc3QaHC5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5BcHBLZXkSdAoRQ29tcHV0ZUFwcEtleURhdGESLi5zYWx0by5u",
-            "ZWJ1bGEudXNlci52MS5Db21wdXRlQXBwS2V5RGF0YVJlcXVlc3QaLy5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5Db21wdXRlQXBwS2V5RGF0YVJlc3BvbnNlEm4K",
-            "D0Fzc2lnbldhbGxldEtleRIsLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2ln",
-            "bldhbGxldEtleVJlcXVlc3QaLS5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3Np",
-            "Z25XYWxsZXRLZXlSZXNwb25zZRJuCg9DYW5jZWxXYWxsZXRLZXkSLC5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5DYW5jZWxXYWxsZXRLZXlSZXF1ZXN0Gi0uc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuQ2FuY2VsV2FsbGV0S2V5UmVzcG9uc2VChQEK",
-            "HGNvbS5zYWx0b2FwaXMubmVidWxhLnVzZXIudjFCCVVzZXJQcm90b1ABWj1n",
-            "aXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1",
-            "bGEvdXNlci92MTt1c2VyqgIYU2FsdG9hcGlzLk5lYnVsYS5Vc2VyLlYxYgZw",
-            "cm90bzM="));
+            "CwoHUEVORElORxACEgoKBkFDVElWRRADIosBCghQYXNzY29kZRIMCgRuYW1l",
+            "GAEgASgJEjMKBXN0YXRlGAIgASgOMiQuc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "UGFzc2NvZGUuU3RhdGUiPAoFU3RhdGUSFQoRU1RBVEVfVU5TUEVDSUZJRUQQ",
+            "ABIQCgxOT1RfQVNTSUdORUQQARIKCgZBQ1RJVkUQAiJvChFDcmVhdGVVc2Vy",
+            "UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSFAoHdXNlcl9pZBgCIAEoCUgAiAEB",
+            "EigKBHVzZXIYAyABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyQgoK",
+            "CF91c2VyX2lkIh4KDkdldFVzZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiawoQ",
+            "TGlzdFVzZXJzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXpl",
+            "GAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAK",
+            "CG9yZGVyX2J5GAUgASgJImsKEUxpc3RVc2Vyc1Jlc3BvbnNlEikKBXVzZXJz",
+            "GAEgAygLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchIXCg9uZXh0X3Bh",
+            "Z2VfdG9rZW4YAiABKAkSEgoKdG90YWxfc2l6ZRgDIAEoBSJuChFVcGRhdGVV",
+            "c2VyUmVxdWVzdBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIu",
+            "djEuVXNlchIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1",
+            "Zi5GaWVsZE1hc2siIQoRRGVsZXRlVXNlclJlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CSIgChBCbG9ja1VzZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiEwoRQmxvY2tV",
+            "c2VyUmVzcG9uc2UiIgoSVW5ibG9ja1VzZXJSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAkiFQoTVW5ibG9ja1VzZXJSZXNwb25zZSJwChxDcmVhdGVVc2VyQWNjZXNz",
+            "UmlnaHRSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRJAChF1c2VyX2FjY2Vzc19y",
+            "aWdodBgCIAEoCzIlLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nlc3NS",
+            "aWdodCIpChlHZXRVc2VyQWNjZXNzUmlnaHRSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAkidgobTGlzdFVzZXJBY2Nlc3NSaWdodHNSZXF1ZXN0Eg4KBnBhcmVudBgB",
+            "IAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIO",
+            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiegocTGlzdFVzZXJB",
+            "Y2Nlc3NSaWdodHNSZXNwb25zZRJBChJ1c2VyX2FjY2Vzc19yaWdodHMYASAD",
+            "KAsyJS5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyQWNjZXNzUmlnaHQSFwoP",
+            "bmV4dF9wYWdlX3Rva2VuGAIgASgJIpEBChxVcGRhdGVVc2VyQWNjZXNzUmln",
+            "aHRSZXF1ZXN0EkAKEXVzZXJfYWNjZXNzX3JpZ2h0GAEgASgLMiUuc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuVXNlckFjY2Vzc1JpZ2h0Ei8KC3VwZGF0ZV9tYXNr",
+            "GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIsChxEZWxldGVV",
+            "c2VyQWNjZXNzUmlnaHRSZXF1ZXN0EgwKBG5hbWUYASABKAkiMQoUQXNzaWdu",
+            "Q2FyZEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCRILCgN1aWQYAiABKAkiJAoU",
+            "Q2FuY2VsQ2FyZEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJyChRFbmNvZGVD",
+            "YXJkS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKB2VuY29kZXIYAiABKAlI",
+            "ABIZCg9lbGVjdHJvbmljX2xvY2sYAyABKAlIABIUCgpjb250cm9sbGVyGAQg",
+            "ASgJSABCCAoGZGV2aWNlIhcKFUVuY29kZUNhcmRLZXlSZXNwb25zZSIXChVF",
+            "bmNvZGVDYXJkS2V5TWV0YWRhdGEiIwoTQXNzaWduQXBwS2V5UmVxdWVzdBIM",
+            "CgRuYW1lGAEgASgJIiMKE0NhbmNlbEFwcEtleVJlcXVlc3QSDAoEbmFtZRgB",
+            "IAEoCSIoChhDb21wdXRlQXBwS2V5RGF0YVJlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CSIpChlDb21wdXRlQXBwS2V5RGF0YVJlc3BvbnNlEgwKBGRhdGEYASABKAwi",
+            "JgoWQXNzaWduV2FsbGV0S2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJImIKF0Fz",
+            "c2lnbldhbGxldEtleVJlc3BvbnNlEjMKCndhbGxldF9rZXkYASABKAsyHy5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkSEgoKYWNjZXNzX3VyaRgC",
+            "IAEoCSImChZDYW5jZWxXYWxsZXRLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAki",
+            "TgoXQ2FuY2VsV2FsbGV0S2V5UmVzcG9uc2USMwoKd2FsbGV0X2tleRgBIAEo",
+            "CzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtleSIlChVBc3NpZ25Q",
+            "YXNzY29kZVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJZChZBc3NpZ25QYXNzY29k",
+            "ZVJlc3BvbnNlEjAKCHBhc3Njb2RlGAEgASgLMh4uc2FsdG8ubmVidWxhLnVz",
+            "ZXIudjEuUGFzc2NvZGUSDQoFdmFsdWUYAiABKAkiJQoVQ2FuY2VsUGFzc2Nv",
+            "ZGVSZXF1ZXN0EgwKBG5hbWUYASABKAkiSgoWQ2FuY2VsUGFzc2NvZGVSZXNw",
+            "b25zZRIwCghwYXNzY29kZRgBIAEoCzIeLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LlBhc3Njb2RlMqERCgtVc2VyU2VydmljZRJRCgpDcmVhdGVVc2VyEicuc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuQ3JlYXRlVXNlclJlcXVlc3QaGi5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5Vc2VyEksKB0dldFVzZXISJC5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5HZXRVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LlVzZXISXAoJTGlzdFVzZXJzEiYuc2FsdG8ubmVidWxhLnVzZXIudjEuTGlz",
+            "dFVzZXJzUmVxdWVzdBonLnNhbHRvLm5lYnVsYS51c2VyLnYxLkxpc3RVc2Vy",
+            "c1Jlc3BvbnNlElEKClVwZGF0ZVVzZXISJy5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5VcGRhdGVVc2VyUmVxdWVzdBoaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVz",
+            "ZXISTQoKRGVsZXRlVXNlchInLnNhbHRvLm5lYnVsYS51c2VyLnYxLkRlbGV0",
+            "ZVVzZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5ElwKCUJsb2Nr",
+            "VXNlchImLnNhbHRvLm5lYnVsYS51c2VyLnYxLkJsb2NrVXNlclJlcXVlc3Qa",
+            "Jy5zYWx0by5uZWJ1bGEudXNlci52MS5CbG9ja1VzZXJSZXNwb25zZRJiCgtV",
+            "bmJsb2NrVXNlchIoLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVuYmxvY2tVc2Vy",
+            "UmVxdWVzdBopLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVuYmxvY2tVc2VyUmVz",
+            "cG9uc2UScgoVQ3JlYXRlVXNlckFjY2Vzc1JpZ2h0EjIuc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuQ3JlYXRlVXNlckFjY2Vzc1JpZ2h0UmVxdWVzdBolLnNhbHRv",
+            "Lm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nlc3NSaWdodBJsChJHZXRVc2VyQWNj",
+            "ZXNzUmlnaHQSLy5zYWx0by5uZWJ1bGEudXNlci52MS5HZXRVc2VyQWNjZXNz",
+            "UmlnaHRSZXF1ZXN0GiUuc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlckFjY2Vz",
+            "c1JpZ2h0En0KFExpc3RVc2VyQWNjZXNzUmlnaHRzEjEuc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuTGlzdFVzZXJBY2Nlc3NSaWdodHNSZXF1ZXN0GjIuc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuTGlzdFVzZXJBY2Nlc3NSaWdodHNSZXNwb25zZRJy",
+            "ChVVcGRhdGVVc2VyQWNjZXNzUmlnaHQSMi5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5VcGRhdGVVc2VyQWNjZXNzUmlnaHRSZXF1ZXN0GiUuc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuVXNlckFjY2Vzc1JpZ2h0EmMKFURlbGV0ZVVzZXJBY2Nlc3NS",
+            "aWdodBIyLnNhbHRvLm5lYnVsYS51c2VyLnYxLkRlbGV0ZVVzZXJBY2Nlc3NS",
+            "aWdodFJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSWgoNQXNzaWdu",
+            "Q2FyZEtleRIqLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2lnbkNhcmRLZXlS",
+            "ZXF1ZXN0Gh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleRJaCg1DYW5j",
+            "ZWxDYXJkS2V5Eiouc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2VsQ2FyZEtl",
+            "eVJlcXVlc3QaHS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5ElwKDUVu",
+            "Y29kZUNhcmRLZXkSKi5zYWx0by5uZWJ1bGEudXNlci52MS5FbmNvZGVDYXJk",
+            "S2V5UmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJX",
+            "CgxBc3NpZ25BcHBLZXkSKS5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25B",
+            "cHBLZXlSZXF1ZXN0Ghwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBwS2V5ElcK",
+            "DENhbmNlbEFwcEtleRIpLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhbmNlbEFw",
+            "cEtleVJlcXVlc3QaHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSdAoR",
+            "Q29tcHV0ZUFwcEtleURhdGESLi5zYWx0by5uZWJ1bGEudXNlci52MS5Db21w",
+            "dXRlQXBwS2V5RGF0YVJlcXVlc3QaLy5zYWx0by5uZWJ1bGEudXNlci52MS5D",
+            "b21wdXRlQXBwS2V5RGF0YVJlc3BvbnNlEm4KD0Fzc2lnbldhbGxldEtleRIs",
+            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2lnbldhbGxldEtleVJlcXVlc3Qa",
+            "LS5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25XYWxsZXRLZXlSZXNwb25z",
+            "ZRJuCg9DYW5jZWxXYWxsZXRLZXkSLC5zYWx0by5uZWJ1bGEudXNlci52MS5D",
+            "YW5jZWxXYWxsZXRLZXlSZXF1ZXN0Gi0uc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "Q2FuY2VsV2FsbGV0S2V5UmVzcG9uc2USawoOQXNzaWduUGFzc2NvZGUSKy5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25QYXNzY29kZVJlcXVlc3QaLC5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25QYXNzY29kZVJlc3BvbnNlEmsK",
+            "DkNhbmNlbFBhc3Njb2RlEisuc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2Vs",
+            "UGFzc2NvZGVSZXF1ZXN0Giwuc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FuY2Vs",
+            "UGFzc2NvZGVSZXNwb25zZUKFAQocY29tLnNhbHRvYXBpcy5uZWJ1bGEudXNl",
+            "ci52MUIJVXNlclByb3RvUAFaPWdpdGh1Yi5jb20vcHJpdmF0ZS1zYWx0b2Fw",
+            "aXMvc2FsdG9hcGlzLWdvL25lYnVsYS91c2VyL3YxO3VzZXKqAhhTYWx0b2Fw",
+            "aXMuTmVidWxhLlVzZXIuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, global::Saltoapis.Nebula.Type.ScheduleReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -154,6 +167,7 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CardKey), global::Saltoapis.Nebula.User.V1.CardKey.Parser, new[]{ "Name", "Uid", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AppKey), global::Saltoapis.Nebula.User.V1.AppKey.Parser, new[]{ "Name", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.AppKey.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.WalletKey), global::Saltoapis.Nebula.User.V1.WalletKey.Parser, new[]{ "Name", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.WalletKey.Types.State) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.Passcode), global::Saltoapis.Nebula.User.V1.Passcode.Parser, new[]{ "Name", "State" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.Passcode.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CreateUserRequest), global::Saltoapis.Nebula.User.V1.CreateUserRequest.Parser, new[]{ "Parent", "UserId", "User" }, new[]{ "UserId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.GetUserRequest), global::Saltoapis.Nebula.User.V1.GetUserRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ListUsersRequest), global::Saltoapis.Nebula.User.V1.ListUsersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -182,7 +196,11 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest), global::Saltoapis.Nebula.User.V1.AssignWalletKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse), global::Saltoapis.Nebula.User.V1.AssignWalletKeyResponse.Parser, new[]{ "WalletKey", "AccessUri" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest), global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse), global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse.Parser, new[]{ "WalletKey" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse), global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse.Parser, new[]{ "WalletKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest), global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse), global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse.Parser, new[]{ "Passcode", "Value" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest), global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse), global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse.Parser, new[]{ "Passcode" }, null, null, null, null)
           }));
     }
     #endregion
@@ -2344,6 +2362,277 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
+  /// Representation of a passcode, belonging to a user
+  /// </summary>
+  public sealed partial class Passcode : pb::IMessage<Passcode>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<Passcode> _parser = new pb::MessageParser<Passcode>(() => new Passcode());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<Passcode> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Passcode() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Passcode(Passcode other) : this() {
+      name_ = other.name_;
+      state_ = other.state_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Passcode Clone() {
+      return new Passcode(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// Output only. Resource name of the user's passcode. It must have the
+    /// format of `installations/*/users/*/passcode`. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/passcode`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "state" field.</summary>
+    public const int StateFieldNumber = 2;
+    private global::Saltoapis.Nebula.User.V1.Passcode.Types.State state_ = global::Saltoapis.Nebula.User.V1.Passcode.Types.State.Unspecified;
+    /// <summary>
+    /// Indicates whether this passcode has been assigned, not assigned or is
+    /// active and ready for use. This field cannot be modified using a standard
+    /// passcode update operation. To change the value of this field, you must
+    /// call
+    /// [`AssignPasscode`][salto.nebula.user.v1.UserService.AssignPasscode].
+    ///
+    /// If the value is `NOT_ASSIGNED` it also applies to cases where the
+    /// assignation process has been initiated, but not completed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.Passcode.Types.State State {
+      get { return state_; }
+      set {
+        state_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as Passcode);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(Passcode other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (State != other.State) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (State != global::Saltoapis.Nebula.User.V1.Passcode.Types.State.Unspecified) hash ^= State.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (State != global::Saltoapis.Nebula.User.V1.Passcode.Types.State.Unspecified) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) State);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (State != global::Saltoapis.Nebula.User.V1.Passcode.Types.State.Unspecified) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) State);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (State != global::Saltoapis.Nebula.User.V1.Passcode.Types.State.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) State);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(Passcode other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.State != global::Saltoapis.Nebula.User.V1.Passcode.Types.State.Unspecified) {
+        State = other.State;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            State = (global::Saltoapis.Nebula.User.V1.Passcode.Types.State) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            State = (global::Saltoapis.Nebula.User.V1.Passcode.Types.State) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the Passcode message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static partial class Types {
+      /// <summary>
+      /// State for a passcode.
+      /// </summary>
+      public enum State {
+        /// <summary>
+        /// Sentinel value used to indicate that the state is unknown, omitted,
+        /// or is not applicable.
+        /// </summary>
+        [pbr::OriginalName("STATE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// The passcode is not assigned.
+        /// </summary>
+        [pbr::OriginalName("NOT_ASSIGNED")] NotAssigned = 1,
+        /// <summary>
+        /// The passcode is active and ready to be used.
+        /// </summary>
+        [pbr::OriginalName("ACTIVE")] Active = 2,
+      }
+
+    }
+    #endregion
+
+  }
+
+  /// <summary>
   /// The request message for [`CreateUser`][salto.nebula.user.v1.UserService.CreateUser]
   /// </summary>
   public sealed partial class CreateUserRequest : pb::IMessage<CreateUserRequest>
@@ -2360,7 +2649,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2659,7 +2948,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2855,7 +3144,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3211,7 +3500,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3480,7 +3769,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3733,7 +4022,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3929,7 +4218,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4125,7 +4414,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4280,7 +4569,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4476,7 +4765,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4631,7 +4920,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4878,7 +5167,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5075,7 +5364,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5433,7 +5722,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5660,7 +5949,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5914,7 +6203,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6111,7 +6400,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6348,7 +6637,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6544,7 +6833,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6896,7 +7185,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7051,7 +7340,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7206,7 +7495,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7402,7 +7691,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7598,7 +7887,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7794,7 +8083,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7989,7 +8278,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8185,7 +8474,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8431,7 +8720,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8627,7 +8916,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8805,6 +9094,846 @@ namespace Saltoapis.Nebula.User.V1 {
               WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
             }
             input.ReadMessage(WalletKey);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`AssignPasscode`][salto.nebula.user.v1.UserService.AssignPasscode]
+  /// </summary>
+  public sealed partial class AssignPasscodeRequest : pb::IMessage<AssignPasscodeRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AssignPasscodeRequest> _parser = new pb::MessageParser<AssignPasscodeRequest>(() => new AssignPasscodeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AssignPasscodeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[35]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AssignPasscodeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AssignPasscodeRequest(AssignPasscodeRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AssignPasscodeRequest Clone() {
+      return new AssignPasscodeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The name of the requested user's passcode to be assigned. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/passcode`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AssignPasscodeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AssignPasscodeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AssignPasscodeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`AssignPasscode`][salto.nebula.user.v1.UserService.AssignPasscode]
+  /// </summary>
+  public sealed partial class AssignPasscodeResponse : pb::IMessage<AssignPasscodeResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AssignPasscodeResponse> _parser = new pb::MessageParser<AssignPasscodeResponse>(() => new AssignPasscodeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AssignPasscodeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[36]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AssignPasscodeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AssignPasscodeResponse(AssignPasscodeResponse other) : this() {
+      passcode_ = other.passcode_ != null ? other.passcode_.Clone() : null;
+      value_ = other.value_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AssignPasscodeResponse Clone() {
+      return new AssignPasscodeResponse(this);
+    }
+
+    /// <summary>Field number for the "passcode" field.</summary>
+    public const int PasscodeFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.Passcode passcode_;
+    /// <summary>
+    /// The assigned passcode.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.Passcode Passcode {
+      get { return passcode_; }
+      set {
+        passcode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "value" field.</summary>
+    public const int ValueFieldNumber = 2;
+    private string value_ = "";
+    /// <summary>
+    /// The passcode value.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Value {
+      get { return value_; }
+      set {
+        value_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AssignPasscodeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AssignPasscodeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Passcode, other.Passcode)) return false;
+      if (Value != other.Value) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (passcode_ != null) hash ^= Passcode.GetHashCode();
+      if (Value.Length != 0) hash ^= Value.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (passcode_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Passcode);
+      }
+      if (Value.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Value);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (passcode_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Passcode);
+      }
+      if (Value.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Value);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (passcode_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Passcode);
+      }
+      if (Value.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AssignPasscodeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.passcode_ != null) {
+        if (passcode_ == null) {
+          Passcode = new global::Saltoapis.Nebula.User.V1.Passcode();
+        }
+        Passcode.MergeFrom(other.Passcode);
+      }
+      if (other.Value.Length != 0) {
+        Value = other.Value;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (passcode_ == null) {
+              Passcode = new global::Saltoapis.Nebula.User.V1.Passcode();
+            }
+            input.ReadMessage(Passcode);
+            break;
+          }
+          case 18: {
+            Value = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (passcode_ == null) {
+              Passcode = new global::Saltoapis.Nebula.User.V1.Passcode();
+            }
+            input.ReadMessage(Passcode);
+            break;
+          }
+          case 18: {
+            Value = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`CancelPasscode`][salto.nebula.user.v1.UserService.CancelPasscode]
+  /// </summary>
+  public sealed partial class CancelPasscodeRequest : pb::IMessage<CancelPasscodeRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CancelPasscodeRequest> _parser = new pb::MessageParser<CancelPasscodeRequest>(() => new CancelPasscodeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CancelPasscodeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[37]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelPasscodeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelPasscodeRequest(CancelPasscodeRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelPasscodeRequest Clone() {
+      return new CancelPasscodeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The name of the requested user's passcode to be canceled. For example:
+    /// `installations/surelock-homes-hq/users/john-watson/passcode`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CancelPasscodeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CancelPasscodeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CancelPasscodeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`CancelPasscode`][salto.nebula.user.v1.UserService.CancelPasscode]
+  /// </summary>
+  public sealed partial class CancelPasscodeResponse : pb::IMessage<CancelPasscodeResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CancelPasscodeResponse> _parser = new pb::MessageParser<CancelPasscodeResponse>(() => new CancelPasscodeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CancelPasscodeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor.MessageTypes[38]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelPasscodeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelPasscodeResponse(CancelPasscodeResponse other) : this() {
+      passcode_ = other.passcode_ != null ? other.passcode_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelPasscodeResponse Clone() {
+      return new CancelPasscodeResponse(this);
+    }
+
+    /// <summary>Field number for the "passcode" field.</summary>
+    public const int PasscodeFieldNumber = 1;
+    private global::Saltoapis.Nebula.User.V1.Passcode passcode_;
+    /// <summary>
+    /// The canceled passcode.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.Passcode Passcode {
+      get { return passcode_; }
+      set {
+        passcode_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CancelPasscodeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CancelPasscodeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Passcode, other.Passcode)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (passcode_ != null) hash ^= Passcode.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (passcode_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Passcode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (passcode_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Passcode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (passcode_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Passcode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CancelPasscodeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.passcode_ != null) {
+        if (passcode_ == null) {
+          Passcode = new global::Saltoapis.Nebula.User.V1.Passcode();
+        }
+        Passcode.MergeFrom(other.Passcode);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (passcode_ == null) {
+              Passcode = new global::Saltoapis.Nebula.User.V1.Passcode();
+            }
+            input.ReadMessage(Passcode);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (passcode_ == null) {
+              Passcode = new global::Saltoapis.Nebula.User.V1.Passcode();
+            }
+            input.ReadMessage(Passcode);
             break;
           }
         }
