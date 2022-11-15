@@ -117,6 +117,14 @@ namespace Saltoapis.Nebula.User.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest> __Marshaller_salto_nebula_user_v1_CancelWalletKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse> __Marshaller_salto_nebula_user_v1_CancelWalletKeyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest> __Marshaller_salto_nebula_user_v1_AssignPasscodeRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse> __Marshaller_salto_nebula_user_v1_AssignPasscodeResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest> __Marshaller_salto_nebula_user_v1_CancelPasscodeRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse> __Marshaller_salto_nebula_user_v1_CancelPasscodeResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserRequest, global::Saltoapis.Nebula.User.V1.User> __Method_CreateUser = new grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserRequest, global::Saltoapis.Nebula.User.V1.User>(
@@ -277,6 +285,22 @@ namespace Saltoapis.Nebula.User.V1 {
         "CancelWalletKey",
         __Marshaller_salto_nebula_user_v1_CancelWalletKeyRequest,
         __Marshaller_salto_nebula_user_v1_CancelWalletKeyResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest, global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse> __Method_AssignPasscode = new grpc::Method<global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest, global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AssignPasscode",
+        __Marshaller_salto_nebula_user_v1_AssignPasscodeRequest,
+        __Marshaller_salto_nebula_user_v1_AssignPasscodeResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest, global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse> __Method_CancelPasscode = new grpc::Method<global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest, global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CancelPasscode",
+        __Marshaller_salto_nebula_user_v1_CancelPasscodeRequest,
+        __Marshaller_salto_nebula_user_v1_CancelPasscodeResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -1462,6 +1486,118 @@ namespace Saltoapis.Nebula.User.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CancelWalletKeyResponse> CancelWalletKeyAsync(global::Saltoapis.Nebula.User.V1.CancelWalletKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CancelWalletKey, null, options, request);
+      }
+      /// <summary>
+      /// Assign a passcode
+      ///
+      /// Assigns a passcode to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse AssignPasscode(global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AssignPasscode(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Assign a passcode
+      ///
+      /// Assigns a passcode to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse AssignPasscode(global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AssignPasscode, null, options, request);
+      }
+      /// <summary>
+      /// Assign a passcode
+      ///
+      /// Assigns a passcode to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse> AssignPasscodeAsync(global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AssignPasscodeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Assign a passcode
+      ///
+      /// Assigns a passcode to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AssignPasscodeResponse> AssignPasscodeAsync(global::Saltoapis.Nebula.User.V1.AssignPasscodeRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AssignPasscode, null, options, request);
+      }
+      /// <summary>
+      /// Cancel a passcode
+      ///
+      /// Cancels an existing user's passcode.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse CancelPasscode(global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelPasscode(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Cancel a passcode
+      ///
+      /// Cancels an existing user's passcode.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse CancelPasscode(global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CancelPasscode, null, options, request);
+      }
+      /// <summary>
+      /// Cancel a passcode
+      ///
+      /// Cancels an existing user's passcode.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse> CancelPasscodeAsync(global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelPasscodeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Cancel a passcode
+      ///
+      /// Cancels an existing user's passcode.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse> CancelPasscodeAsync(global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CancelPasscode, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
