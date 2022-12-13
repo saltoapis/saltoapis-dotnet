@@ -69,36 +69,42 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             "dEdhdGV3YXlNZXRhZGF0YSIvChxVcGRhdGVHYXRld2F5RmlybXdhcmVSZXF1",
             "ZXN0Eg8KB2dhdGV3YXkYASABKAkiHwodVXBkYXRlR2F0ZXdheUZpcm13YXJl",
             "UmVzcG9uc2UiOQodVXBkYXRlR2F0ZXdheUZpcm13YXJlTWV0YWRhdGESGAoQ",
-            "cHJvZ3Jlc3NfcGVyY2VudBgBIAEoBTLvCAoOR2F0ZXdheVNlcnZpY2USYAoN",
-            "Q3JlYXRlR2F0ZXdheRItLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkNyZWF0",
-            "ZUdhdGV3YXlSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuR2F0",
-            "ZXdheRJaCgpHZXRHYXRld2F5Eiouc2FsdG8ubmVidWxhLmdhdGV3YXkudjEu",
-            "R2V0R2F0ZXdheVJlcXVlc3QaIC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5H",
-            "YXRld2F5EmsKDExpc3RHYXRld2F5cxIsLnNhbHRvLm5lYnVsYS5nYXRld2F5",
-            "LnYxLkxpc3RHYXRld2F5c1JlcXVlc3QaLS5zYWx0by5uZWJ1bGEuZ2F0ZXdh",
-            "eS52MS5MaXN0R2F0ZXdheXNSZXNwb25zZRJgCg1VcGRhdGVHYXRld2F5Ei0u",
-            "c2FsdG8ubmVidWxhLmdhdGV3YXkudjEuVXBkYXRlR2F0ZXdheVJlcXVlc3Qa",
-            "IC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5HYXRld2F5ElYKDURlbGV0ZUdh",
-            "dGV3YXkSLS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5EZWxldGVHYXRld2F5",
-            "UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJoCgtCaW5kR2F0ZXdh",
-            "eRIrLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkJpbmRHYXRld2F5UmVxdWVz",
-            "dBosLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkJpbmRHYXRld2F5UmVzcG9u",
-            "c2USbgoNVW5iaW5kR2F0ZXdheRItLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYx",
-            "LlVuYmluZEdhdGV3YXlSZXF1ZXN0Gi4uc2FsdG8ubmVidWxhLmdhdGV3YXku",
-            "djEuVW5iaW5kR2F0ZXdheVJlc3BvbnNlEmcKEUluaXRpYWxpemVHYXRld2F5",
-            "EjEuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuSW5pdGlhbGl6ZUdhdGV3YXlS",
-            "ZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEmUKEENv",
-            "bmZpZ3VyZUdhdGV3YXkSMC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5Db25m",
-            "aWd1cmVHYXRld2F5UmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9w",
-            "ZXJhdGlvbhJdCgxSZXNldEdhdGV3YXkSLC5zYWx0by5uZWJ1bGEuZ2F0ZXdh",
-            "eS52MS5SZXNldEdhdGV3YXlSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcu",
-            "djEuT3BlcmF0aW9uEm8KFVVwZGF0ZUdhdGV3YXlGaXJtd2FyZRI1LnNhbHRv",
-            "Lm5lYnVsYS5nYXRld2F5LnYxLlVwZGF0ZUdhdGV3YXlGaXJtd2FyZVJlcXVl",
-            "c3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb25ClAEKH2NvbS5z",
-            "YWx0b2FwaXMubmVidWxhLmdhdGV3YXkudjFCDEdhdGV3YXlQcm90b1ABWkNn",
-            "aXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1",
-            "bGEvZ2F0ZXdheS92MTtnYXRld2F5qgIbU2FsdG9hcGlzLk5lYnVsYS5HYXRl",
-            "d2F5LlYxYgZwcm90bzM="));
+            "cHJvZ3Jlc3NfcGVyY2VudBgBIAEoBSI0CiFHZW5lcmF0ZUF1dGhvcml6YXRp",
+            "b25Ub2tlblJlcXVlc3QSDwoHZ2F0ZXdheRgBIAEoCSJBCiJHZW5lcmF0ZUF1",
+            "dGhvcml6YXRpb25Ub2tlblJlc3BvbnNlEhsKE2F1dGhvcml6YXRpb25fdG9r",
+            "ZW4YASABKAwyhwoKDkdhdGV3YXlTZXJ2aWNlEmAKDUNyZWF0ZUdhdGV3YXkS",
+            "LS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5DcmVhdGVHYXRld2F5UmVxdWVz",
+            "dBogLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdhdGV3YXkSWgoKR2V0R2F0",
+            "ZXdheRIqLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdldEdhdGV3YXlSZXF1",
+            "ZXN0GiAuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuR2F0ZXdheRJrCgxMaXN0",
+            "R2F0ZXdheXMSLC5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5MaXN0R2F0ZXdh",
+            "eXNSZXF1ZXN0Gi0uc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuTGlzdEdhdGV3",
+            "YXlzUmVzcG9uc2USYAoNVXBkYXRlR2F0ZXdheRItLnNhbHRvLm5lYnVsYS5n",
+            "YXRld2F5LnYxLlVwZGF0ZUdhdGV3YXlSZXF1ZXN0GiAuc2FsdG8ubmVidWxh",
+            "LmdhdGV3YXkudjEuR2F0ZXdheRJWCg1EZWxldGVHYXRld2F5Ei0uc2FsdG8u",
+            "bmVidWxhLmdhdGV3YXkudjEuRGVsZXRlR2F0ZXdheVJlcXVlc3QaFi5nb29n",
+            "bGUucHJvdG9idWYuRW1wdHkSaAoLQmluZEdhdGV3YXkSKy5zYWx0by5uZWJ1",
+            "bGEuZ2F0ZXdheS52MS5CaW5kR2F0ZXdheVJlcXVlc3QaLC5zYWx0by5uZWJ1",
+            "bGEuZ2F0ZXdheS52MS5CaW5kR2F0ZXdheVJlc3BvbnNlEm4KDVVuYmluZEdh",
+            "dGV3YXkSLS5zYWx0by5uZWJ1bGEuZ2F0ZXdheS52MS5VbmJpbmRHYXRld2F5",
+            "UmVxdWVzdBouLnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLlVuYmluZEdhdGV3",
+            "YXlSZXNwb25zZRJnChFJbml0aWFsaXplR2F0ZXdheRIxLnNhbHRvLm5lYnVs",
+            "YS5nYXRld2F5LnYxLkluaXRpYWxpemVHYXRld2F5UmVxdWVzdBofLnNhbHRv",
+            "LmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJlChBDb25maWd1cmVHYXRld2F5",
+            "EjAuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuQ29uZmlndXJlR2F0ZXdheVJl",
+            "cXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SXQoMUmVz",
+            "ZXRHYXRld2F5Eiwuc2FsdG8ubmVidWxhLmdhdGV3YXkudjEuUmVzZXRHYXRl",
+            "d2F5UmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJv",
+            "ChVVcGRhdGVHYXRld2F5RmlybXdhcmUSNS5zYWx0by5uZWJ1bGEuZ2F0ZXdh",
+            "eS52MS5VcGRhdGVHYXRld2F5RmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9u",
+            "Z3J1bm5pbmcudjEuT3BlcmF0aW9uEpUBChpHZW5lcmF0ZUF1dGhvcml6YXRp",
+            "b25Ub2tlbhI6LnNhbHRvLm5lYnVsYS5nYXRld2F5LnYxLkdlbmVyYXRlQXV0",
+            "aG9yaXphdGlvblRva2VuUmVxdWVzdBo7LnNhbHRvLm5lYnVsYS5nYXRld2F5",
+            "LnYxLkdlbmVyYXRlQXV0aG9yaXphdGlvblRva2VuUmVzcG9uc2VClAEKH2Nv",
+            "bS5zYWx0b2FwaXMubmVidWxhLmdhdGV3YXkudjFCDEdhdGV3YXlQcm90b1AB",
+            "WkNnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9u",
+            "ZWJ1bGEvZ2F0ZXdheS92MTtnYXRld2F5qgIbU2FsdG9hcGlzLk5lYnVsYS5H",
+            "YXRld2F5LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -128,7 +134,9 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.ResetGatewayMetadata), global::Saltoapis.Nebula.Gateway.V1.ResetGatewayMetadata.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareRequest.Parser, new[]{ "Gateway" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareResponse), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareMetadata), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareMetadata), global::Saltoapis.Nebula.Gateway.V1.UpdateGatewayFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenRequest), global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenRequest.Parser, new[]{ "Gateway" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenResponse), global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenResponse.Parser, new[]{ "AuthorizationToken" }, null, null, null, null)
           }));
     }
     #endregion
@@ -6088,6 +6096,398 @@ namespace Saltoapis.Nebula.Gateway.V1 {
             break;
           case 8: {
             ProgressPercent = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`GenerateAuthorizationToken`][salto.nebula.gateway.v1.GatewayService.GenerateAuthorizationToken]
+  /// </summary>
+  public sealed partial class GenerateAuthorizationTokenRequest : pb::IMessage<GenerateAuthorizationTokenRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GenerateAuthorizationTokenRequest> _parser = new pb::MessageParser<GenerateAuthorizationTokenRequest>(() => new GenerateAuthorizationTokenRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GenerateAuthorizationTokenRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[27]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateAuthorizationTokenRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateAuthorizationTokenRequest(GenerateAuthorizationTokenRequest other) : this() {
+      gateway_ = other.gateway_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateAuthorizationTokenRequest Clone() {
+      return new GenerateAuthorizationTokenRequest(this);
+    }
+
+    /// <summary>Field number for the "gateway" field.</summary>
+    public const int GatewayFieldNumber = 1;
+    private string gateway_ = "";
+    /// <summary>
+    /// The resource name of the gateway that the authorization token is
+    /// generated for. For example:
+    /// `installations/surelock-homes-hq/gateways/conan-doyle`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Gateway {
+      get { return gateway_; }
+      set {
+        gateway_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GenerateAuthorizationTokenRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GenerateAuthorizationTokenRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Gateway != other.Gateway) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Gateway.Length != 0) hash ^= Gateway.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Gateway.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Gateway);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Gateway.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Gateway);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Gateway.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GenerateAuthorizationTokenRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Gateway.Length != 0) {
+        Gateway = other.Gateway;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Gateway = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Gateway = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`GenerateAuthorizationToken`][salto.nebula.gateway.v1.GatewayService.GenerateAuthorizationToken]
+  /// </summary>
+  public sealed partial class GenerateAuthorizationTokenResponse : pb::IMessage<GenerateAuthorizationTokenResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GenerateAuthorizationTokenResponse> _parser = new pb::MessageParser<GenerateAuthorizationTokenResponse>(() => new GenerateAuthorizationTokenResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GenerateAuthorizationTokenResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Gateway.V1.GatewayReflection.Descriptor.MessageTypes[28]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateAuthorizationTokenResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateAuthorizationTokenResponse(GenerateAuthorizationTokenResponse other) : this() {
+      authorizationToken_ = other.authorizationToken_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateAuthorizationTokenResponse Clone() {
+      return new GenerateAuthorizationTokenResponse(this);
+    }
+
+    /// <summary>Field number for the "authorization_token" field.</summary>
+    public const int AuthorizationTokenFieldNumber = 1;
+    private pb::ByteString authorizationToken_ = pb::ByteString.Empty;
+    /// <summary>
+    /// Authorization token to be used for connecting against a gateway.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString AuthorizationToken {
+      get { return authorizationToken_; }
+      set {
+        authorizationToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GenerateAuthorizationTokenResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GenerateAuthorizationTokenResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AuthorizationToken != other.AuthorizationToken) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AuthorizationToken.Length != 0) hash ^= AuthorizationToken.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AuthorizationToken.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(AuthorizationToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AuthorizationToken.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(AuthorizationToken);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AuthorizationToken.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(AuthorizationToken);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GenerateAuthorizationTokenResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AuthorizationToken.Length != 0) {
+        AuthorizationToken = other.AuthorizationToken;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AuthorizationToken = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AuthorizationToken = input.ReadBytes();
             break;
           }
         }
