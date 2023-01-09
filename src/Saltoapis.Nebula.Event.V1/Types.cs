@@ -5404,7 +5404,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   }
 
   /// <summary>
-  /// Event representing the assignment of a user's walley key.
+  /// Event representing the assignment of a user's wallet key.
   /// </summary>
   public sealed partial class WalletKeyAssigned : pb::IMessage<WalletKeyAssigned>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
