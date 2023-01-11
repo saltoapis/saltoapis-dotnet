@@ -273,7 +273,7 @@ def saltoapis_nuget_dependencies():
     nuget_package(
         name = "google.protobuf",
         package = "google.protobuf",
-        version = PROTOBUF_VERSION,
+        version = "3.%s" % PROTOBUF_VERSION,
         core_lib = {
             "netcoreapp2.0": "lib/netstandard2.0/Google.Protobuf.dll",
             "netcoreapp2.1": "lib/netstandard2.0/Google.Protobuf.dll",
