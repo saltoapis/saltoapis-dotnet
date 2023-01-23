@@ -27,79 +27,92 @@ namespace Saltoapis.Nebula.Installation.V1 {
             "Ci9zYWx0by9uZWJ1bGEvaW5zdGFsbGF0aW9uL3YxL2luc3RhbGxhdGlvbi5w",
             "cm90bxIcc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MRobZ29vZ2xlL3By",
             "b3RvYnVmL2VtcHR5LnByb3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFz",
-            "ay5wcm90byK9AgoMSW5zdGFsbGF0aW9uEgwKBG5hbWUYASABKAkSFAoMZGlz",
-            "cGxheV9uYW1lGAIgASgJEhIKBXBob3RvGAMgASgJSACIAQESEQoJcGhvdG9f",
-            "dXJpGAQgASgJEg8KB2FkZHJlc3MYBSABKAkSEQoJdGltZV96b25lGAYgASgJ",
-            "ElEKD2RpZ2l0YWxfa2V5X2FydBgHIAEoCzI4LnNhbHRvLm5lYnVsYS5pbnN0",
-            "YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uLkRpZ2l0YWxLZXlBcnQaYQoNRGln",
-            "aXRhbEtleUFydBIdChBiYWNrZ3JvdW5kX2ltYWdlGAEgASgJSACIAQESHAoU",
-            "YmFja2dyb3VuZF9pbWFnZV91cmkYAiABKAlCEwoRX2JhY2tncm91bmRfaW1h",
-            "Z2VCCAoGX3Bob3RvIjUKBlBvbGljeRIMCgRuYW1lGAEgASgJEg4KBm1lbWJl",
-            "chgCIAEoCRINCgVyb2xlcxgDIAMoCSKmAQoZQ3JlYXRlSW5zdGFsbGF0aW9u",
-            "UmVxdWVzdBIcCg9pbnN0YWxsYXRpb25faWQYASABKAlIAIgBARJACgxpbnN0",
-            "YWxsYXRpb24YAiABKAsyKi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYx",
-            "Lkluc3RhbGxhdGlvbhIVCg12YWxpZGF0ZV9vbmx5GAUgASgIQhIKEF9pbnN0",
-            "YWxsYXRpb25faWQiJgoWR2V0SW5zdGFsbGF0aW9uUmVxdWVzdBIMCgRuYW1l",
-            "GAEgASgJImMKGExpc3RJbnN0YWxsYXRpb25zUmVxdWVzdBIRCglwYWdlX3Np",
-            "emUYASABKAUSEgoKcGFnZV90b2tlbhgCIAEoCRIOCgZmaWx0ZXIYAyABKAkS",
-            "EAoIb3JkZXJfYnkYBCABKAkidwoZTGlzdEluc3RhbGxhdGlvbnNSZXNwb25z",
-            "ZRJBCg1pbnN0YWxsYXRpb25zGAEgAygLMiouc2FsdG8ubmVidWxhLmluc3Rh",
-            "bGxhdGlvbi52MS5JbnN0YWxsYXRpb24SFwoPbmV4dF9wYWdlX3Rva2VuGAIg",
-            "ASgJIo4BChlVcGRhdGVJbnN0YWxsYXRpb25SZXF1ZXN0EkAKDGluc3RhbGxh",
-            "dGlvbhgBIAEoCzIqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5z",
-            "dGFsbGF0aW9uEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3Rv",
-            "YnVmLkZpZWxkTWFzayIpChlEZWxldGVJbnN0YWxsYXRpb25SZXF1ZXN0EgwK",
-            "BG5hbWUYASABKAkibgoTQ3JlYXRlUG9saWN5UmVxdWVzdBIOCgZwYXJlbnQY",
-            "ASABKAkSEQoJcG9saWN5X2lkGAIgASgJEjQKBnBvbGljeRgDIAEoCzIkLnNh",
-            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuUG9saWN5IiAKEEdldFBvbGlj",
-            "eVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJuChNMaXN0UG9saWNpZXNSZXF1ZXN0",
-            "Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90",
-            "b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAki",
-            "ZwoUTGlzdFBvbGljaWVzUmVzcG9uc2USNgoIcG9saWNpZXMYASADKAsyJC5z",
-            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGljeRIXCg9uZXh0X3Bh",
-            "Z2VfdG9rZW4YAiABKAkifAoTVXBkYXRlUG9saWN5UmVxdWVzdBI0CgZwb2xp",
-            "Y3kYASABKAsyJC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGlj",
-            "eRIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVs",
-            "ZE1hc2siIwoTRGVsZXRlUG9saWN5UmVxdWVzdBIMCgRuYW1lGAEgASgJIkMK",
-            "FlRlc3RQZXJtaXNzaW9uc1JlcXVlc3QSFAoMaW5zdGFsbGF0aW9uGAEgASgJ",
-            "EhMKC3Blcm1pc3Npb25zGAIgAygJIi4KF1Rlc3RQZXJtaXNzaW9uc1Jlc3Bv",
-            "bnNlEhMKC3Blcm1pc3Npb25zGAEgAygJMvUJChNJbnN0YWxsYXRpb25TZXJ2",
-            "aWNlEnkKEkNyZWF0ZUluc3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5pbnN0",
-            "YWxsYXRpb24udjEuQ3JlYXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoqLnNhbHRv",
-            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uEnMKD0dldElu",
-            "c3RhbGxhdGlvbhI0LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuR2V0",
+            "ay5wcm90bxofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90byL8AwoM",
+            "SW5zdGFsbGF0aW9uEgwKBG5hbWUYASABKAkSFAoMZGlzcGxheV9uYW1lGAIg",
+            "ASgJEhIKBXBob3RvGAMgASgJSACIAQESEQoJcGhvdG9fdXJpGAQgASgJEg8K",
+            "B2FkZHJlc3MYBSABKAkSEQoJdGltZV96b25lGAYgASgJElEKD2RpZ2l0YWxf",
+            "a2V5X2FydBgHIAEoCzI4LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEu",
+            "SW5zdGFsbGF0aW9uLkRpZ2l0YWxLZXlBcnQSYwoYdHJhbnNmZXJfb3duZXJz",
+            "aGlwX3N0YXRlGAggASgLMkEuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52",
+            "MS5JbnN0YWxsYXRpb24uVHJhbnNmZXJPd25lcnNoaXBTdGF0ZRphCg1EaWdp",
+            "dGFsS2V5QXJ0Eh0KEGJhY2tncm91bmRfaW1hZ2UYASABKAlIAIgBARIcChRi",
+            "YWNrZ3JvdW5kX2ltYWdlX3VyaRgCIAEoCUITChFfYmFja2dyb3VuZF9pbWFn",
+            "ZRpYChZUcmFuc2Zlck93bmVyc2hpcFN0YXRlEg0KBWVtYWlsGAEgASgJEi8K",
+            "C2V4cGlyZV90aW1lGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
+            "cEIICgZfcGhvdG8iNQoGUG9saWN5EgwKBG5hbWUYASABKAkSDgoGbWVtYmVy",
+            "GAIgASgJEg0KBXJvbGVzGAMgAygJIqYBChlDcmVhdGVJbnN0YWxsYXRpb25S",
+            "ZXF1ZXN0EhwKD2luc3RhbGxhdGlvbl9pZBgBIAEoCUgAiAEBEkAKDGluc3Rh",
+            "bGxhdGlvbhgCIAEoCzIqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEu",
+            "SW5zdGFsbGF0aW9uEhUKDXZhbGlkYXRlX29ubHkYBSABKAhCEgoQX2luc3Rh",
+            "bGxhdGlvbl9pZCImChZHZXRJbnN0YWxsYXRpb25SZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAkiYwoYTGlzdEluc3RhbGxhdGlvbnNSZXF1ZXN0EhEKCXBhZ2Vfc2l6",
+            "ZRgBIAEoBRISCgpwYWdlX3Rva2VuGAIgASgJEg4KBmZpbHRlchgDIAEoCRIQ",
+            "CghvcmRlcl9ieRgEIAEoCSJ3ChlMaXN0SW5zdGFsbGF0aW9uc1Jlc3BvbnNl",
+            "EkEKDWluc3RhbGxhdGlvbnMYASADKAsyKi5zYWx0by5uZWJ1bGEuaW5zdGFs",
+            "bGF0aW9uLnYxLkluc3RhbGxhdGlvbhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiAB",
+            "KAkijgEKGVVwZGF0ZUluc3RhbGxhdGlvblJlcXVlc3QSQAoMaW5zdGFsbGF0",
+            "aW9uGAEgASgLMiouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnN0",
+            "YWxsYXRpb24SLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuRmllbGRNYXNrIikKGURlbGV0ZUluc3RhbGxhdGlvblJlcXVlc3QSDAoE",
+            "bmFtZRgBIAEoCSJuChNDcmVhdGVQb2xpY3lSZXF1ZXN0Eg4KBnBhcmVudBgB",
+            "IAEoCRIRCglwb2xpY3lfaWQYAiABKAkSNAoGcG9saWN5GAMgASgLMiQuc2Fs",
+            "dG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5Qb2xpY3kiIAoQR2V0UG9saWN5",
+            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIm4KE0xpc3RQb2xpY2llc1JlcXVlc3QS",
+            "DgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rv",
+            "a2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJn",
+            "ChRMaXN0UG9saWNpZXNSZXNwb25zZRI2Cghwb2xpY2llcxgBIAMoCzIkLnNh",
+            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuUG9saWN5EhcKD25leHRfcGFn",
+            "ZV90b2tlbhgCIAEoCSJ8ChNVcGRhdGVQb2xpY3lSZXF1ZXN0EjQKBnBvbGlj",
+            "eRgBIAEoCzIkLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuUG9saWN5",
+            "Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxk",
+            "TWFzayIjChNEZWxldGVQb2xpY3lSZXF1ZXN0EgwKBG5hbWUYASABKAkiQwoW",
+            "VGVzdFBlcm1pc3Npb25zUmVxdWVzdBIUCgxpbnN0YWxsYXRpb24YASABKAkS",
+            "EwoLcGVybWlzc2lvbnMYAiADKAkiLgoXVGVzdFBlcm1pc3Npb25zUmVzcG9u",
+            "c2USEwoLcGVybWlzc2lvbnMYASADKAkiSwokVHJhbnNmZXJJbnN0YWxsYXRp",
+            "b25Pd25lcnNoaXBSZXF1ZXN0EhQKDGluc3RhbGxhdGlvbhgBIAEoCRINCgVl",
+            "bWFpbBgCIAEoCSInCiVUcmFuc2Zlckluc3RhbGxhdGlvbk93bmVyc2hpcFJl",
+            "c3BvbnNlMqALChNJbnN0YWxsYXRpb25TZXJ2aWNlEnkKEkNyZWF0ZUluc3Rh",
+            "bGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuQ3JlYXRl",
             "SW5zdGFsbGF0aW9uUmVxdWVzdBoqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRp",
-            "b24udjEuSW5zdGFsbGF0aW9uEoQBChFMaXN0SW5zdGFsbGF0aW9ucxI2LnNh",
-            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuTGlzdEluc3RhbGxhdGlvbnNS",
-            "ZXF1ZXN0Gjcuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5MaXN0SW5z",
-            "dGFsbGF0aW9uc1Jlc3BvbnNlEnkKElVwZGF0ZUluc3RhbGxhdGlvbhI3LnNh",
-            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVXBkYXRlSW5zdGFsbGF0aW9u",
-            "UmVxdWVzdBoqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFs",
-            "bGF0aW9uEmUKEkRlbGV0ZUluc3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5p",
-            "bnN0YWxsYXRpb24udjEuRGVsZXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoWLmdv",
-            "b2dsZS5wcm90b2J1Zi5FbXB0eRJnCgxDcmVhdGVQb2xpY3kSMS5zYWx0by5u",
-            "ZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkNyZWF0ZVBvbGljeVJlcXVlc3QaJC5z",
-            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGljeRJhCglHZXRQb2xp",
-            "Y3kSLi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkdldFBvbGljeVJl",
-            "cXVlc3QaJC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGljeRJ1",
-            "CgxMaXN0UG9saWNpZXMSMS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYx",
-            "Lkxpc3RQb2xpY2llc1JlcXVlc3QaMi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0",
-            "aW9uLnYxLkxpc3RQb2xpY2llc1Jlc3BvbnNlEmcKDFVwZGF0ZVBvbGljeRIx",
-            "LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVXBkYXRlUG9saWN5UmVx",
-            "dWVzdBokLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuUG9saWN5ElkK",
-            "DERlbGV0ZVBvbGljeRIxLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEu",
-            "RGVsZXRlUG9saWN5UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJ+",
-            "Cg9UZXN0UGVybWlzc2lvbnMSNC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9u",
-            "LnYxLlRlc3RQZXJtaXNzaW9uc1JlcXVlc3QaNS5zYWx0by5uZWJ1bGEuaW5z",
-            "dGFsbGF0aW9uLnYxLlRlc3RQZXJtaXNzaW9uc1Jlc3BvbnNlQq0BCiRjb20u",
-            "c2FsdG9hcGlzLm5lYnVsYS5pbnN0YWxsYXRpb24udjFCEUluc3RhbGxhdGlv",
-            "blByb3RvUAFaTWdpdGh1Yi5jb20vcHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9h",
-            "cGlzLWdvL25lYnVsYS9pbnN0YWxsYXRpb24vdjE7aW5zdGFsbGF0aW9uqgIg",
-            "U2FsdG9hcGlzLk5lYnVsYS5JbnN0YWxsYXRpb24uVjFiBnByb3RvMw=="));
+            "b24udjEuSW5zdGFsbGF0aW9uEnMKD0dldEluc3RhbGxhdGlvbhI0LnNhbHRv",
+            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuR2V0SW5zdGFsbGF0aW9uUmVxdWVz",
+            "dBoqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9u",
+            "EoQBChFMaXN0SW5zdGFsbGF0aW9ucxI2LnNhbHRvLm5lYnVsYS5pbnN0YWxs",
+            "YXRpb24udjEuTGlzdEluc3RhbGxhdGlvbnNSZXF1ZXN0Gjcuc2FsdG8ubmVi",
+            "dWxhLmluc3RhbGxhdGlvbi52MS5MaXN0SW5zdGFsbGF0aW9uc1Jlc3BvbnNl",
+            "EnkKElVwZGF0ZUluc3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5pbnN0YWxs",
+            "YXRpb24udjEuVXBkYXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoqLnNhbHRvLm5l",
+            "YnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uEmUKEkRlbGV0ZUlu",
+            "c3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuRGVs",
+            "ZXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0",
+            "eRJnCgxDcmVhdGVQb2xpY3kSMS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9u",
+            "LnYxLkNyZWF0ZVBvbGljeVJlcXVlc3QaJC5zYWx0by5uZWJ1bGEuaW5zdGFs",
+            "bGF0aW9uLnYxLlBvbGljeRJhCglHZXRQb2xpY3kSLi5zYWx0by5uZWJ1bGEu",
+            "aW5zdGFsbGF0aW9uLnYxLkdldFBvbGljeVJlcXVlc3QaJC5zYWx0by5uZWJ1",
+            "bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGljeRJ1CgxMaXN0UG9saWNpZXMSMS5z",
+            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RQb2xpY2llc1JlcXVl",
+            "c3QaMi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RQb2xpY2ll",
+            "c1Jlc3BvbnNlEmcKDFVwZGF0ZVBvbGljeRIxLnNhbHRvLm5lYnVsYS5pbnN0",
+            "YWxsYXRpb24udjEuVXBkYXRlUG9saWN5UmVxdWVzdBokLnNhbHRvLm5lYnVs",
+            "YS5pbnN0YWxsYXRpb24udjEuUG9saWN5ElkKDERlbGV0ZVBvbGljeRIxLnNh",
+            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuRGVsZXRlUG9saWN5UmVxdWVz",
+            "dBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJ+Cg9UZXN0UGVybWlzc2lvbnMS",
+            "NC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlRlc3RQZXJtaXNzaW9u",
+            "c1JlcXVlc3QaNS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlRlc3RQ",
+            "ZXJtaXNzaW9uc1Jlc3BvbnNlEqgBCh1UcmFuc2Zlckluc3RhbGxhdGlvbk93",
+            "bmVyc2hpcBJCLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVHJhbnNm",
+            "ZXJJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXF1ZXN0GkMuc2FsdG8ubmVidWxh",
+            "Lmluc3RhbGxhdGlvbi52MS5UcmFuc2Zlckluc3RhbGxhdGlvbk93bmVyc2hp",
+            "cFJlc3BvbnNlQq0BCiRjb20uc2FsdG9hcGlzLm5lYnVsYS5pbnN0YWxsYXRp",
+            "b24udjFCEUluc3RhbGxhdGlvblByb3RvUAFaTWdpdGh1Yi5jb20vcHJpdmF0",
+            "ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9pbnN0YWxsYXRpb24v",
+            "djE7aW5zdGFsbGF0aW9uqgIgU2FsdG9hcGlzLk5lYnVsYS5JbnN0YWxsYXRp",
+            "b24uVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation), global::Saltoapis.Nebula.Installation.V1.Installation.Parser, new[]{ "Name", "DisplayName", "Photo", "PhotoUri", "Address", "TimeZone", "DigitalKeyArt" }, new[]{ "Photo" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation.Types.DigitalKeyArt), global::Saltoapis.Nebula.Installation.V1.Installation.Types.DigitalKeyArt.Parser, new[]{ "BackgroundImage", "BackgroundImageUri" }, new[]{ "BackgroundImage" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation), global::Saltoapis.Nebula.Installation.V1.Installation.Parser, new[]{ "Name", "DisplayName", "Photo", "PhotoUri", "Address", "TimeZone", "DigitalKeyArt", "TransferOwnershipState" }, new[]{ "Photo" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation.Types.DigitalKeyArt), global::Saltoapis.Nebula.Installation.V1.Installation.Types.DigitalKeyArt.Parser, new[]{ "BackgroundImage", "BackgroundImageUri" }, new[]{ "BackgroundImage" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState), global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState.Parser, new[]{ "Email", "ExpireTime" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Policy), global::Saltoapis.Nebula.Installation.V1.Policy.Parser, new[]{ "Name", "Member", "Roles" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest), global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest.Parser, new[]{ "InstallationId", "Installation", "ValidateOnly" }, new[]{ "InstallationId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest), global::Saltoapis.Nebula.Installation.V1.GetInstallationRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -114,7 +127,9 @@ namespace Saltoapis.Nebula.Installation.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest), global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest.Parser, new[]{ "Policy", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest), global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest), global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest.Parser, new[]{ "Installation", "Permissions" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse), global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse.Parser, new[]{ "Permissions" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse), global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse.Parser, new[]{ "Permissions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest), global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest.Parser, new[]{ "Installation", "Email" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse), global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse.Parser, null, null, null, null, null)
           }));
     }
     #endregion
@@ -165,6 +180,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       address_ = other.address_;
       timeZone_ = other.timeZone_;
       digitalKeyArt_ = other.digitalKeyArt_ != null ? other.digitalKeyArt_.Clone() : null;
+      transferOwnershipState_ = other.transferOwnershipState_ != null ? other.transferOwnershipState_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -298,6 +314,23 @@ namespace Saltoapis.Nebula.Installation.V1 {
       }
     }
 
+    /// <summary>Field number for the "transfer_ownership_state" field.</summary>
+    public const int TransferOwnershipStateFieldNumber = 8;
+    private global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState transferOwnershipState_;
+    /// <summary>
+    /// Current state of the ownership transfer. Client must not set the
+    /// `Installation.transfer_ownership_state` field. This data is only
+    /// visible to the current installation owner.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState TransferOwnershipState {
+      get { return transferOwnershipState_; }
+      set {
+        transferOwnershipState_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -320,6 +353,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       if (Address != other.Address) return false;
       if (TimeZone != other.TimeZone) return false;
       if (!object.Equals(DigitalKeyArt, other.DigitalKeyArt)) return false;
+      if (!object.Equals(TransferOwnershipState, other.TransferOwnershipState)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -334,6 +368,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       if (Address.Length != 0) hash ^= Address.GetHashCode();
       if (TimeZone.Length != 0) hash ^= TimeZone.GetHashCode();
       if (digitalKeyArt_ != null) hash ^= DigitalKeyArt.GetHashCode();
+      if (transferOwnershipState_ != null) hash ^= TransferOwnershipState.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -380,6 +415,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(58);
         output.WriteMessage(DigitalKeyArt);
       }
+      if (transferOwnershipState_ != null) {
+        output.WriteRawTag(66);
+        output.WriteMessage(TransferOwnershipState);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -418,6 +457,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(58);
         output.WriteMessage(DigitalKeyArt);
       }
+      if (transferOwnershipState_ != null) {
+        output.WriteRawTag(66);
+        output.WriteMessage(TransferOwnershipState);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -448,6 +491,9 @@ namespace Saltoapis.Nebula.Installation.V1 {
       }
       if (digitalKeyArt_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(DigitalKeyArt);
+      }
+      if (transferOwnershipState_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TransferOwnershipState);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -484,6 +530,12 @@ namespace Saltoapis.Nebula.Installation.V1 {
           DigitalKeyArt = new global::Saltoapis.Nebula.Installation.V1.Installation.Types.DigitalKeyArt();
         }
         DigitalKeyArt.MergeFrom(other.DigitalKeyArt);
+      }
+      if (other.transferOwnershipState_ != null) {
+        if (transferOwnershipState_ == null) {
+          TransferOwnershipState = new global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState();
+        }
+        TransferOwnershipState.MergeFrom(other.TransferOwnershipState);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -531,6 +583,13 @@ namespace Saltoapis.Nebula.Installation.V1 {
             input.ReadMessage(DigitalKeyArt);
             break;
           }
+          case 66: {
+            if (transferOwnershipState_ == null) {
+              TransferOwnershipState = new global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState();
+            }
+            input.ReadMessage(TransferOwnershipState);
+            break;
+          }
         }
       }
     #endif
@@ -575,6 +634,13 @@ namespace Saltoapis.Nebula.Installation.V1 {
               DigitalKeyArt = new global::Saltoapis.Nebula.Installation.V1.Installation.Types.DigitalKeyArt();
             }
             input.ReadMessage(DigitalKeyArt);
+            break;
+          }
+          case 66: {
+            if (transferOwnershipState_ == null) {
+              TransferOwnershipState = new global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState();
+            }
+            input.ReadMessage(TransferOwnershipState);
             break;
           }
         }
@@ -827,6 +893,251 @@ namespace Saltoapis.Nebula.Installation.V1 {
               }
               case 18: {
                 BackgroundImageUri = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+      /// <summary>
+      /// Represents the current state of the ownership transfer.
+      /// </summary>
+      public sealed partial class TransferOwnershipState : pb::IMessage<TransferOwnershipState>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<TransferOwnershipState> _parser = new pb::MessageParser<TransferOwnershipState>(() => new TransferOwnershipState());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<TransferOwnershipState> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Saltoapis.Nebula.Installation.V1.Installation.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public TransferOwnershipState() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public TransferOwnershipState(TransferOwnershipState other) : this() {
+          email_ = other.email_;
+          expireTime_ = other.expireTime_ != null ? other.expireTime_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public TransferOwnershipState Clone() {
+          return new TransferOwnershipState(this);
+        }
+
+        /// <summary>Field number for the "email" field.</summary>
+        public const int EmailFieldNumber = 1;
+        private string email_ = "";
+        /// <summary>
+        /// Email address for the proposed installation owner.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Email {
+          get { return email_; }
+          set {
+            email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "expire_time" field.</summary>
+        public const int ExpireTimeFieldNumber = 2;
+        private global::Google.Protobuf.WellKnownTypes.Timestamp expireTime_;
+        /// <summary>
+        /// Expiration time of the transfer proposal.
+        /// (-- api-linter: core::0214::resource-expiry=disabled  --)
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::Google.Protobuf.WellKnownTypes.Timestamp ExpireTime {
+          get { return expireTime_; }
+          set {
+            expireTime_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as TransferOwnershipState);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(TransferOwnershipState other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Email != other.Email) return false;
+          if (!object.Equals(ExpireTime, other.ExpireTime)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Email.Length != 0) hash ^= Email.GetHashCode();
+          if (expireTime_ != null) hash ^= ExpireTime.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Email.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Email);
+          }
+          if (expireTime_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ExpireTime);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Email.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Email);
+          }
+          if (expireTime_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ExpireTime);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Email.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+          }
+          if (expireTime_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpireTime);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(TransferOwnershipState other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Email.Length != 0) {
+            Email = other.Email;
+          }
+          if (other.expireTime_ != null) {
+            if (expireTime_ == null) {
+              ExpireTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            ExpireTime.MergeFrom(other.ExpireTime);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Email = input.ReadString();
+                break;
+              }
+              case 18: {
+                if (expireTime_ == null) {
+                  ExpireTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(ExpireTime);
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                Email = input.ReadString();
+                break;
+              }
+              case 18: {
+                if (expireTime_ == null) {
+                  ExpireTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(ExpireTime);
                 break;
               }
             }
@@ -4512,6 +4823,397 @@ namespace Saltoapis.Nebula.Installation.V1 {
             permissions_.AddEntriesFrom(ref input, _repeated_permissions_codec);
             break;
           }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`TransferInstallationOwnership`][salto.nebula.installation.v1.InstallationService.TransferInstallationOwnership]
+  /// </summary>
+  public sealed partial class TransferInstallationOwnershipRequest : pb::IMessage<TransferInstallationOwnershipRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<TransferInstallationOwnershipRequest> _parser = new pb::MessageParser<TransferInstallationOwnershipRequest>(() => new TransferInstallationOwnershipRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<TransferInstallationOwnershipRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[16]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferInstallationOwnershipRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferInstallationOwnershipRequest(TransferInstallationOwnershipRequest other) : this() {
+      installation_ = other.installation_;
+      email_ = other.email_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferInstallationOwnershipRequest Clone() {
+      return new TransferInstallationOwnershipRequest(this);
+    }
+
+    /// <summary>Field number for the "installation" field.</summary>
+    public const int InstallationFieldNumber = 1;
+    private string installation_ = "";
+    /// <summary>
+    /// The resource name for which the transfer ownership is being requested.
+    /// For example: `installations/surelock-homes-hq`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Installation {
+      get { return installation_; }
+      set {
+        installation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "email" field.</summary>
+    public const int EmailFieldNumber = 2;
+    private string email_ = "";
+    /// <summary>
+    /// Email address for the proposed installation owner.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Email {
+      get { return email_; }
+      set {
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as TransferInstallationOwnershipRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(TransferInstallationOwnershipRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Installation != other.Installation) return false;
+      if (Email != other.Email) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Installation.Length != 0) hash ^= Installation.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Installation.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Installation);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Email);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Installation.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Installation);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Email);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Installation.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Installation);
+      }
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(TransferInstallationOwnershipRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Installation.Length != 0) {
+        Installation = other.Installation;
+      }
+      if (other.Email.Length != 0) {
+        Email = other.Email;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Installation = input.ReadString();
+            break;
+          }
+          case 18: {
+            Email = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Installation = input.ReadString();
+            break;
+          }
+          case 18: {
+            Email = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`TransferInstallationOwnership`][salto.nebula.installation.v1.InstallationService.TransferInstallationOwnership]
+  /// </summary>
+  public sealed partial class TransferInstallationOwnershipResponse : pb::IMessage<TransferInstallationOwnershipResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<TransferInstallationOwnershipResponse> _parser = new pb::MessageParser<TransferInstallationOwnershipResponse>(() => new TransferInstallationOwnershipResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<TransferInstallationOwnershipResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferInstallationOwnershipResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferInstallationOwnershipResponse(TransferInstallationOwnershipResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferInstallationOwnershipResponse Clone() {
+      return new TransferInstallationOwnershipResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as TransferInstallationOwnershipResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(TransferInstallationOwnershipResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(TransferInstallationOwnershipResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
         }
       }
     }

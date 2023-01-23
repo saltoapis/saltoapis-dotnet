@@ -84,6 +84,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest> __Marshaller_salto_nebula_installation_v1_TestPermissionsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse> __Marshaller_salto_nebula_installation_v1_TestPermissionsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest> __Marshaller_salto_nebula_installation_v1_TransferInstallationOwnershipRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse> __Marshaller_salto_nebula_installation_v1_TransferInstallationOwnershipResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_CreateInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
@@ -172,6 +176,14 @@ namespace Saltoapis.Nebula.Installation.V1 {
         "TestPermissions",
         __Marshaller_salto_nebula_installation_v1_TestPermissionsRequest,
         __Marshaller_salto_nebula_installation_v1_TestPermissionsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest, global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse> __Method_TransferInstallationOwnership = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest, global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "TransferInstallationOwnership",
+        __Marshaller_salto_nebula_installation_v1_TransferInstallationOwnershipRequest,
+        __Marshaller_salto_nebula_installation_v1_TransferInstallationOwnershipResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -837,6 +849,62 @@ namespace Saltoapis.Nebula.Installation.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.TestPermissionsResponse> TestPermissionsAsync(global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_TestPermissions, null, options, request);
+      }
+      /// <summary>
+      /// Transfer installation ownership
+      ///
+      /// Transfers the ownership of an installation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse TransferInstallationOwnership(global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return TransferInstallationOwnership(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Transfer installation ownership
+      ///
+      /// Transfers the ownership of an installation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse TransferInstallationOwnership(global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_TransferInstallationOwnership, null, options, request);
+      }
+      /// <summary>
+      /// Transfer installation ownership
+      ///
+      /// Transfers the ownership of an installation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse> TransferInstallationOwnershipAsync(global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return TransferInstallationOwnershipAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Transfer installation ownership
+      ///
+      /// Transfers the ownership of an installation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse> TransferInstallationOwnershipAsync(global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_TransferInstallationOwnership, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
