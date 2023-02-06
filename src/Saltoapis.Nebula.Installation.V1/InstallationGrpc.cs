@@ -88,6 +88,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest> __Marshaller_salto_nebula_installation_v1_TransferInstallationOwnershipRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse> __Marshaller_salto_nebula_installation_v1_TransferInstallationOwnershipResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest> __Marshaller_salto_nebula_installation_v1_AcceptInstallationOwnershipRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse> __Marshaller_salto_nebula_installation_v1_AcceptInstallationOwnershipResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_CreateInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
@@ -184,6 +188,14 @@ namespace Saltoapis.Nebula.Installation.V1 {
         "TransferInstallationOwnership",
         __Marshaller_salto_nebula_installation_v1_TransferInstallationOwnershipRequest,
         __Marshaller_salto_nebula_installation_v1_TransferInstallationOwnershipResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest, global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse> __Method_AcceptInstallationOwnership = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest, global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AcceptInstallationOwnership",
+        __Marshaller_salto_nebula_installation_v1_AcceptInstallationOwnershipRequest,
+        __Marshaller_salto_nebula_installation_v1_AcceptInstallationOwnershipResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -905,6 +917,62 @@ namespace Saltoapis.Nebula.Installation.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse> TransferInstallationOwnershipAsync(global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_TransferInstallationOwnership, null, options, request);
+      }
+      /// <summary>
+      /// Accept installation ownership
+      ///
+      /// Accepts the ownership of an installation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse AcceptInstallationOwnership(global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AcceptInstallationOwnership(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Accept installation ownership
+      ///
+      /// Accepts the ownership of an installation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse AcceptInstallationOwnership(global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AcceptInstallationOwnership, null, options, request);
+      }
+      /// <summary>
+      /// Accept installation ownership
+      ///
+      /// Accepts the ownership of an installation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse> AcceptInstallationOwnershipAsync(global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AcceptInstallationOwnershipAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Accept installation ownership
+      ///
+      /// Accepts the ownership of an installation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse> AcceptInstallationOwnershipAsync(global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AcceptInstallationOwnership, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
