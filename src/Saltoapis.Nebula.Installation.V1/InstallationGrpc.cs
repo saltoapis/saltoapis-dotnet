@@ -63,10 +63,6 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest> __Marshaller_salto_nebula_installation_v1_UpdateInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest> __Marshaller_salto_nebula_installation_v1_DeleteInstallationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest> __Marshaller_salto_nebula_installation_v1_CreatePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.Policy> __Marshaller_salto_nebula_installation_v1_Policy = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.Policy.Parser));
@@ -80,6 +76,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest> __Marshaller_salto_nebula_installation_v1_UpdatePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdatePolicyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest> __Marshaller_salto_nebula_installation_v1_DeletePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.DeletePolicyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest> __Marshaller_salto_nebula_installation_v1_TestPermissionsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.TestPermissionsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -124,14 +122,6 @@ namespace Saltoapis.Nebula.Installation.V1 {
         "UpdateInstallation",
         __Marshaller_salto_nebula_installation_v1_UpdateInstallationRequest,
         __Marshaller_salto_nebula_installation_v1_Installation);
-
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "DeleteInstallation",
-        __Marshaller_salto_nebula_installation_v1_DeleteInstallationRequest,
-        __Marshaller_google_protobuf_Empty);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest, global::Saltoapis.Nebula.Installation.V1.Policy> __Method_CreatePolicy = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest, global::Saltoapis.Nebula.Installation.V1.Policy>(
@@ -453,62 +443,6 @@ namespace Saltoapis.Nebula.Installation.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.Installation> UpdateInstallationAsync(global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateInstallation, null, options, request);
-      }
-      /// <summary>
-      /// Delete an installation
-      ///
-      /// Permanently deletes an installation. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteInstallation(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteInstallation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an installation
-      ///
-      /// Permanently deletes an installation. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteInstallation(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_DeleteInstallation, null, options, request);
-      }
-      /// <summary>
-      /// Delete an installation
-      ///
-      /// Permanently deletes an installation. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteInstallationAsync(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DeleteInstallationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Delete an installation
-      ///
-      /// Permanently deletes an installation. This cannot be undone.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteInstallationAsync(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_DeleteInstallation, null, options, request);
       }
       /// <summary>
       /// Create a policy
