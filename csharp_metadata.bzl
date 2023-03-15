@@ -49,6 +49,7 @@ csharp_projects = [
     '//src/Saltoapis.Nebula.Encoder.V1',
     '//src/Saltoapis.Nebula.Extender.V1',
     '//src/Saltoapis.Nebula.Gateway.V1',
+    '//src/Saltoapis.Nebula.IntercomAdaptor.V1',
     '//src/Saltoapis.Nebula.Type',
     '//src/Saltoapis.Nebula.AccessPoint.V1',
     '//src/Saltoapis.Nebula.AccessRight.V1',
