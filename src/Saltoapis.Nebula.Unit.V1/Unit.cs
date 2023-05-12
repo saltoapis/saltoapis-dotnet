@@ -348,7 +348,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   }
 
   /// <summary>
-  /// Representation of an IAM policy inside de API
+  /// Representation of an IAM policy inside the API
   /// </summary>
   public sealed partial class Policy : pb::IMessage<Policy>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
