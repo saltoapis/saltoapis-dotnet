@@ -6,6 +6,7 @@ package(default_visibility = ['//:__subpackages__'])
 load_rules(
     lib_name = 'Saltoapis.Nebula.DigitalKey.V1',
     internal_dependencies = [
+        '//src/Saltoapis.Type',
     ],
     extra_info = {
         'generator': 'csharp',
