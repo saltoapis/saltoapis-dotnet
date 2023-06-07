@@ -96,6 +96,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.PaymentMethod> __Marshaller_salto_nebula_installation_v1_PaymentMethod = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.PaymentMethod.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest> __Marshaller_salto_nebula_installation_v1_UpdatePaymentMethodRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest> __Marshaller_salto_nebula_installation_v1_UpdateCardRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse> __Marshaller_salto_nebula_installation_v1_UpdateCardResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_CreateInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
@@ -208,6 +212,14 @@ namespace Saltoapis.Nebula.Installation.V1 {
         "UpdatePaymentMethod",
         __Marshaller_salto_nebula_installation_v1_UpdatePaymentMethodRequest,
         __Marshaller_salto_nebula_installation_v1_PaymentMethod);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest, global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse> __Method_UpdateCard = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest, global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateCard",
+        __Marshaller_salto_nebula_installation_v1_UpdateCardRequest,
+        __Marshaller_salto_nebula_installation_v1_UpdateCardResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -1041,6 +1053,62 @@ namespace Saltoapis.Nebula.Installation.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.PaymentMethod> UpdatePaymentMethodAsync(global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdatePaymentMethod, null, options, request);
+      }
+      /// <summary>
+      /// Update installation card
+      ///
+      /// Updates installation card.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse UpdateCard(global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateCard(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update installation card
+      ///
+      /// Updates installation card.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse UpdateCard(global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateCard, null, options, request);
+      }
+      /// <summary>
+      /// Update installation card
+      ///
+      /// Updates installation card.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse> UpdateCardAsync(global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateCardAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update installation card
+      ///
+      /// Updates installation card.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse> UpdateCardAsync(global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateCard, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
