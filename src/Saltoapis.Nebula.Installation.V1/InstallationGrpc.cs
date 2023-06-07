@@ -91,9 +91,11 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse> __Marshaller_salto_nebula_installation_v1_AcceptInstallationOwnershipResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest> __Marshaller_salto_nebula_installation_v1_UpdatePaymentMethodRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest.Parser));
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest> __Marshaller_salto_nebula_installation_v1_GetPaymentMethodRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.PaymentMethod> __Marshaller_salto_nebula_installation_v1_PaymentMethod = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.PaymentMethod.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest> __Marshaller_salto_nebula_installation_v1_UpdatePaymentMethodRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_CreateInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
@@ -190,6 +192,14 @@ namespace Saltoapis.Nebula.Installation.V1 {
         "AcceptInstallationOwnership",
         __Marshaller_salto_nebula_installation_v1_AcceptInstallationOwnershipRequest,
         __Marshaller_salto_nebula_installation_v1_AcceptInstallationOwnershipResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest, global::Saltoapis.Nebula.Installation.V1.PaymentMethod> __Method_GetPaymentMethod = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest, global::Saltoapis.Nebula.Installation.V1.PaymentMethod>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetPaymentMethod",
+        __Marshaller_salto_nebula_installation_v1_GetPaymentMethodRequest,
+        __Marshaller_salto_nebula_installation_v1_PaymentMethod);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest, global::Saltoapis.Nebula.Installation.V1.PaymentMethod> __Method_UpdatePaymentMethod = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.UpdatePaymentMethodRequest, global::Saltoapis.Nebula.Installation.V1.PaymentMethod>(
@@ -919,6 +929,62 @@ namespace Saltoapis.Nebula.Installation.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse> AcceptInstallationOwnershipAsync(global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_AcceptInstallationOwnership, null, options, request);
+      }
+      /// <summary>
+      /// Get a payment method
+      ///
+      /// Gets an existing payment method.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.PaymentMethod GetPaymentMethod(global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetPaymentMethod(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a payment method
+      ///
+      /// Gets an existing payment method.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.PaymentMethod GetPaymentMethod(global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetPaymentMethod, null, options, request);
+      }
+      /// <summary>
+      /// Get a payment method
+      ///
+      /// Gets an existing payment method.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.PaymentMethod> GetPaymentMethodAsync(global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetPaymentMethodAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a payment method
+      ///
+      /// Gets an existing payment method.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.PaymentMethod> GetPaymentMethodAsync(global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetPaymentMethod, null, options, request);
       }
       /// <summary>
       /// Update installation payment method
