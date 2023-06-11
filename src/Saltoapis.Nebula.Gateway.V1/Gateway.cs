@@ -230,6 +230,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 3;
+    private readonly static string DeviceIdDefaultValue = "";
+
     private string deviceId_;
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -238,7 +240,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DeviceId {
-      get { return deviceId_ ?? ""; }
+      get { return deviceId_ ?? DeviceIdDefaultValue; }
       set {
         deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -973,6 +975,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     /// <summary>Field number for the "password" field.</summary>
     public const int PasswordFieldNumber = 4;
+    private readonly static string PasswordDefaultValue = "";
+
     private string password_;
     /// <summary>
     /// Password to be used to authenticate on a WiFi network.
@@ -980,7 +984,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Password {
-      get { return password_ ?? ""; }
+      get { return password_ ?? PasswordDefaultValue; }
       set {
         password_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -1272,6 +1276,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     /// <summary>Field number for the "ip_address" field.</summary>
     public const int IpAddressFieldNumber = 1;
+    private readonly static string IpAddressDefaultValue = "";
+
     private string ipAddress_;
     /// <summary>
     /// IP address
@@ -1281,7 +1287,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string IpAddress {
-      get { return ipAddress_ ?? ""; }
+      get { return ipAddress_ ?? IpAddressDefaultValue; }
       set {
         ipAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -1301,6 +1307,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     /// <summary>Field number for the "mask" field.</summary>
     public const int MaskFieldNumber = 2;
+    private readonly static string MaskDefaultValue = "";
+
     private string mask_;
     /// <summary>
     /// Subnet mask is expressed in dot-decimal notation like an address.
@@ -1312,7 +1320,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Mask {
-      get { return mask_ ?? ""; }
+      get { return mask_ ?? MaskDefaultValue; }
       set {
         mask_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -1332,6 +1340,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     /// <summary>Field number for the "router_address" field.</summary>
     public const int RouterAddressFieldNumber = 3;
+    private readonly static string RouterAddressDefaultValue = "";
+
     private string routerAddress_;
     /// <summary>
     /// Default network router's IP address
@@ -1341,7 +1351,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string RouterAddress {
-      get { return routerAddress_ ?? ""; }
+      get { return routerAddress_ ?? RouterAddressDefaultValue; }
       set {
         routerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -1795,6 +1805,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
 
     /// <summary>Field number for the "gateway_id" field.</summary>
     public const int GatewayIdFieldNumber = 2;
+    private readonly static string GatewayIdDefaultValue = "";
+
     private string gatewayId_;
     /// <summary>
     /// The gateway ID to use for this gateway. In case it's empty the
@@ -1803,7 +1815,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string GatewayId {
-      get { return gatewayId_ ?? ""; }
+      get { return gatewayId_ ?? GatewayIdDefaultValue; }
       set {
         gatewayId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }

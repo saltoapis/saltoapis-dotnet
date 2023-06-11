@@ -680,6 +680,8 @@ namespace Saltoapis.Nebula.Unit.V1 {
 
     /// <summary>Field number for the "unit_id" field.</summary>
     public const int UnitIdFieldNumber = 2;
+    private readonly static string UnitIdDefaultValue = "";
+
     private string unitId_;
     /// <summary>
     /// The unit id to use for this unit. If it's empty the server will
@@ -688,7 +690,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UnitId {
-      get { return unitId_ ?? ""; }
+      get { return unitId_ ?? UnitIdDefaultValue; }
       set {
         unitId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }

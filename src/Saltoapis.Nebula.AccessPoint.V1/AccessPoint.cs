@@ -186,10 +186,24 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Saltoapis.Nebula.Type.OpeningMode Fixed {
-      get { return openingModeCase_ == OpeningModeOneofCase.Fixed ? (global::Saltoapis.Nebula.Type.OpeningMode) openingMode_ : global::Saltoapis.Nebula.Type.OpeningMode.Unspecified; }
+      get { return HasFixed ? (global::Saltoapis.Nebula.Type.OpeningMode) openingMode_ : global::Saltoapis.Nebula.Type.OpeningMode.Unspecified; }
       set {
         openingMode_ = value;
         openingModeCase_ = OpeningModeOneofCase.Fixed;
+      }
+    }
+    /// <summary>Gets whether the "fixed" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasFixed {
+      get { return openingModeCase_ == OpeningModeOneofCase.Fixed; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "fixed" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearFixed() {
+      if (HasFixed) {
+        ClearOpeningMode();
       }
     }
 
@@ -201,15 +215,31 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Schedule {
-      get { return openingModeCase_ == OpeningModeOneofCase.Schedule ? (string) openingMode_ : ""; }
+      get { return HasSchedule ? (string) openingMode_ : ""; }
       set {
         openingMode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         openingModeCase_ = OpeningModeOneofCase.Schedule;
       }
     }
+    /// <summary>Gets whether the "schedule" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSchedule {
+      get { return openingModeCase_ == OpeningModeOneofCase.Schedule; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "schedule" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSchedule() {
+      if (HasSchedule) {
+        ClearOpeningMode();
+      }
+    }
 
     /// <summary>Field number for the "calendar" field.</summary>
     public const int CalendarFieldNumber = 5;
+    private readonly static string CalendarDefaultValue = "";
+
     private string calendar_;
     /// <summary>
     /// Calendar reference assigned to this access point.
@@ -220,7 +250,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Calendar {
-      get { return calendar_ ?? ""; }
+      get { return calendar_ ?? CalendarDefaultValue; }
       set {
         calendar_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -289,8 +319,8 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
-      if (openingModeCase_ == OpeningModeOneofCase.Fixed) hash ^= Fixed.GetHashCode();
-      if (openingModeCase_ == OpeningModeOneofCase.Schedule) hash ^= Schedule.GetHashCode();
+      if (HasFixed) hash ^= Fixed.GetHashCode();
+      if (HasSchedule) hash ^= Schedule.GetHashCode();
       if (HasCalendar) hash ^= Calendar.GetHashCode();
       hash ^= (int) openingModeCase_;
       if (_unknownFields != null) {
@@ -319,11 +349,11 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
-      if (openingModeCase_ == OpeningModeOneofCase.Fixed) {
+      if (HasFixed) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Fixed);
       }
-      if (openingModeCase_ == OpeningModeOneofCase.Schedule) {
+      if (HasSchedule) {
         output.WriteRawTag(34);
         output.WriteString(Schedule);
       }
@@ -349,11 +379,11 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
-      if (openingModeCase_ == OpeningModeOneofCase.Fixed) {
+      if (HasFixed) {
         output.WriteRawTag(24);
         output.WriteEnum((int) Fixed);
       }
-      if (openingModeCase_ == OpeningModeOneofCase.Schedule) {
+      if (HasSchedule) {
         output.WriteRawTag(34);
         output.WriteString(Schedule);
       }
@@ -377,10 +407,10 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
       }
-      if (openingModeCase_ == OpeningModeOneofCase.Fixed) {
+      if (HasFixed) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Fixed);
       }
-      if (openingModeCase_ == OpeningModeOneofCase.Schedule) {
+      if (HasSchedule) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Schedule);
       }
       if (HasCalendar) {
@@ -562,6 +592,8 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
 
     /// <summary>Field number for the "access_point_id" field.</summary>
     public const int AccessPointIdFieldNumber = 2;
+    private readonly static string AccessPointIdDefaultValue = "";
+
     private string accessPointId_;
     /// <summary>
     /// The access point id to use for this access point. If it's
@@ -570,7 +602,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string AccessPointId {
-      get { return accessPointId_ ?? ""; }
+      get { return accessPointId_ ?? AccessPointIdDefaultValue; }
       set {
         accessPointId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }

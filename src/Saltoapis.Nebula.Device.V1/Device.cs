@@ -162,6 +162,8 @@ namespace Saltoapis.Nebula.Device.V1 {
 
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 3;
+    private readonly static string DeviceIdDefaultValue = "";
+
     private string deviceId_;
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -170,7 +172,7 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DeviceId {
-      get { return deviceId_ ?? ""; }
+      get { return deviceId_ ?? DeviceIdDefaultValue; }
       set {
         deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -230,10 +232,24 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Gateway {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway ? (string) parentDevice_ : ""; }
+      get { return HasGateway ? (string) parentDevice_ : ""; }
       set {
         parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         parentDeviceCase_ = ParentDeviceOneofCase.Gateway;
+      }
+    }
+    /// <summary>Gets whether the "gateway" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGateway {
+      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "gateway" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGateway() {
+      if (HasGateway) {
+        ClearParentDevice();
       }
     }
 
@@ -245,10 +261,24 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Extender {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender ? (string) parentDevice_ : ""; }
+      get { return HasExtender ? (string) parentDevice_ : ""; }
       set {
         parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         parentDeviceCase_ = ParentDeviceOneofCase.Extender;
+      }
+    }
+    /// <summary>Gets whether the "extender" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasExtender {
+      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "extender" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearExtender() {
+      if (HasExtender) {
+        ClearParentDevice();
       }
     }
 
@@ -271,6 +301,8 @@ namespace Saltoapis.Nebula.Device.V1 {
 
     /// <summary>Field number for the "connected" field.</summary>
     public const int ConnectedFieldNumber = 9;
+    private readonly static bool ConnectedDefaultValue = false;
+
     private bool connected_;
     /// <summary>
     /// Indicates whether this device is connected or not. The connectivity
@@ -280,7 +312,7 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Connected {
-      get { if ((_hasBits0 & 1) != 0) { return connected_; } else { return false; } }
+      get { if ((_hasBits0 & 1) != 0) { return connected_; } else { return ConnectedDefaultValue; } }
       set {
         _hasBits0 |= 1;
         connected_ = value;
@@ -301,6 +333,8 @@ namespace Saltoapis.Nebula.Device.V1 {
 
     /// <summary>Field number for the "low_battery" field.</summary>
     public const int LowBatteryFieldNumber = 10;
+    private readonly static bool LowBatteryDefaultValue = false;
+
     private bool lowBattery_;
     /// <summary>
     /// Indicates whether the battery of this device is low, and needs
@@ -311,7 +345,7 @@ namespace Saltoapis.Nebula.Device.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool LowBattery {
-      get { if ((_hasBits0 & 2) != 0) { return lowBattery_; } else { return false; } }
+      get { if ((_hasBits0 & 2) != 0) { return lowBattery_; } else { return LowBatteryDefaultValue; } }
       set {
         _hasBits0 |= 2;
         lowBattery_ = value;
@@ -405,8 +439,8 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (HasDeviceId) hash ^= DeviceId.GetHashCode();
       if (DeviceType != global::Saltoapis.Nebula.Type.DeviceType.Unspecified) hash ^= DeviceType.GetHashCode();
       if (Source.Length != 0) hash ^= Source.GetHashCode();
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
+      if (HasGateway) hash ^= Gateway.GetHashCode();
+      if (HasExtender) hash ^= Extender.GetHashCode();
       if (Outdated != false) hash ^= Outdated.GetHashCode();
       if (HasConnected) hash ^= Connected.GetHashCode();
       if (HasLowBattery) hash ^= LowBattery.GetHashCode();
@@ -450,11 +484,11 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(42);
         output.WriteString(Source);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         output.WriteRawTag(50);
         output.WriteString(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         output.WriteRawTag(58);
         output.WriteString(Extender);
       }
@@ -504,11 +538,11 @@ namespace Saltoapis.Nebula.Device.V1 {
         output.WriteRawTag(42);
         output.WriteString(Source);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         output.WriteRawTag(50);
         output.WriteString(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         output.WriteRawTag(58);
         output.WriteString(Extender);
       }
@@ -553,10 +587,10 @@ namespace Saltoapis.Nebula.Device.V1 {
       if (Source.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Source);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
       }
       if (Outdated != false) {

@@ -238,6 +238,8 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
 
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 3;
+    private readonly static string DeviceIdDefaultValue = "";
+
     private string deviceId_;
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -246,7 +248,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DeviceId {
-      get { return deviceId_ ?? ""; }
+      get { return deviceId_ ?? DeviceIdDefaultValue; }
       set {
         deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -272,10 +274,24 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Gateway {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway ? (string) parentDevice_ : ""; }
+      get { return HasGateway ? (string) parentDevice_ : ""; }
       set {
         parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         parentDeviceCase_ = ParentDeviceOneofCase.Gateway;
+      }
+    }
+    /// <summary>Gets whether the "gateway" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGateway {
+      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "gateway" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGateway() {
+      if (HasGateway) {
+        ClearParentDevice();
       }
     }
 
@@ -287,10 +303,24 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Extender {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender ? (string) parentDevice_ : ""; }
+      get { return HasExtender ? (string) parentDevice_ : ""; }
       set {
         parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         parentDeviceCase_ = ParentDeviceOneofCase.Extender;
+      }
+    }
+    /// <summary>Gets whether the "extender" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasExtender {
+      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "extender" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearExtender() {
+      if (HasExtender) {
+        ClearParentDevice();
       }
     }
 
@@ -397,6 +427,8 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
 
     /// <summary>Field number for the "intercom" field.</summary>
     public const int IntercomFieldNumber = 12;
+    private readonly static string IntercomDefaultValue = "";
+
     private string intercom_;
     /// <summary>
     /// Reference to intercom system model it is connected to. It will be used to
@@ -405,7 +437,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Intercom {
-      get { return intercom_ ?? ""; }
+      get { return intercom_ ?? IntercomDefaultValue; }
       set {
         intercom_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -482,8 +514,8 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (HasDeviceId) hash ^= DeviceId.GetHashCode();
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
+      if (HasGateway) hash ^= Gateway.GetHashCode();
+      if (HasExtender) hash ^= Extender.GetHashCode();
       hash ^= accessPoints_.GetHashCode();
       if (Initialized != false) hash ^= Initialized.GetHashCode();
       if (Outdated != false) hash ^= Outdated.GetHashCode();
@@ -522,11 +554,11 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
         output.WriteRawTag(26);
         output.WriteString(DeviceId);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         output.WriteRawTag(34);
         output.WriteString(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         output.WriteRawTag(42);
         output.WriteString(Extender);
       }
@@ -577,11 +609,11 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
         output.WriteRawTag(26);
         output.WriteString(DeviceId);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         output.WriteRawTag(34);
         output.WriteString(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         output.WriteRawTag(42);
         output.WriteString(Extender);
       }
@@ -629,10 +661,10 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
       if (HasDeviceId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
       }
       size += accessPoints_.CalculateSize(_repeated_accessPoints_codec);
@@ -912,6 +944,8 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
 
     /// <summary>Field number for the "intercom_adaptor_id" field.</summary>
     public const int IntercomAdaptorIdFieldNumber = 2;
+    private readonly static string IntercomAdaptorIdDefaultValue = "";
+
     private string intercomAdaptorId_;
     /// <summary>
     /// The intercom adaptor ID to use for this intercom adaptor. In case it's empty the
@@ -920,7 +954,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string IntercomAdaptorId {
-      get { return intercomAdaptorId_ ?? ""; }
+      get { return intercomAdaptorId_ ?? IntercomAdaptorIdDefaultValue; }
       set {
         intercomAdaptorId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
