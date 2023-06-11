@@ -742,6 +742,8 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
     /// <summary>Field number for the "calendar_id" field.</summary>
     public const int CalendarIdFieldNumber = 2;
+    private readonly static string CalendarIdDefaultValue = "";
+
     private string calendarId_;
     /// <summary>
     /// The calendar ID to use for this calendar. In case it's empty
@@ -750,7 +752,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string CalendarId {
-      get { return calendarId_ ?? ""; }
+      get { return calendarId_ ?? CalendarIdDefaultValue; }
       set {
         calendarId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -2269,6 +2271,8 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
     /// <summary>Field number for the "event_id" field.</summary>
     public const int EventIdFieldNumber = 2;
+    private readonly static string EventIdDefaultValue = "";
+
     private string eventId_;
     /// <summary>
     /// The event ID to use for this calendar event. In case it's
@@ -2277,7 +2281,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string EventId {
-      get { return eventId_ ?? ""; }
+      get { return eventId_ ?? EventIdDefaultValue; }
       set {
         eventId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }

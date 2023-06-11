@@ -288,6 +288,8 @@ namespace Saltoapis.Nebula.User.V1 {
 
     /// <summary>Field number for the "parent" field.</summary>
     public const int ParentFieldNumber = 2;
+    private readonly static string ParentDefaultValue = "";
+
     private string parent_;
     /// <summary>
     /// The name of the parent user of this user.
@@ -296,7 +298,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Parent {
-      get { return parent_ ?? ""; }
+      get { return parent_ ?? ParentDefaultValue; }
       set {
         parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -333,6 +335,8 @@ namespace Saltoapis.Nebula.User.V1 {
 
     /// <summary>Field number for the "family_name" field.</summary>
     public const int FamilyNameFieldNumber = 4;
+    private readonly static string FamilyNameDefaultValue = "";
+
     private string familyName_;
     /// <summary>
     /// The surname or family name ("last name"). It could also contain more than
@@ -343,7 +347,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FamilyName {
-      get { return familyName_ ?? ""; }
+      get { return familyName_ ?? FamilyNameDefaultValue; }
       set {
         familyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -379,6 +383,8 @@ namespace Saltoapis.Nebula.User.V1 {
 
     /// <summary>Field number for the "email" field.</summary>
     public const int EmailFieldNumber = 6;
+    private readonly static string EmailDefaultValue = "";
+
     private string email_;
     /// <summary>
     /// Email address.
@@ -386,7 +392,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Email {
-      get { return email_ ?? ""; }
+      get { return email_ ?? EmailDefaultValue; }
       set {
         email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -436,6 +442,8 @@ namespace Saltoapis.Nebula.User.V1 {
 
     /// <summary>Field number for the "photo" field.</summary>
     public const int PhotoFieldNumber = 9;
+    private readonly static string PhotoDefaultValue = "";
+
     private string photo_;
     /// <summary>
     /// The file resource name for the user photo. It must have the
@@ -445,7 +453,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Photo {
-      get { return photo_ ?? ""; }
+      get { return photo_ ?? PhotoDefaultValue; }
       set {
         photo_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -2749,6 +2757,8 @@ namespace Saltoapis.Nebula.User.V1 {
 
     /// <summary>Field number for the "user_id" field.</summary>
     public const int UserIdFieldNumber = 2;
+    private readonly static string UserIdDefaultValue = "";
+
     private string userId_;
     /// <summary>
     /// The user id to use for this user. In case it's empty the server
@@ -2757,7 +2767,7 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserId {
-      get { return userId_ ?? ""; }
+      get { return userId_ ?? UserIdDefaultValue; }
       set {
         userId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -6949,10 +6959,24 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Encoder {
-      get { return deviceCase_ == DeviceOneofCase.Encoder ? (string) device_ : ""; }
+      get { return HasEncoder ? (string) device_ : ""; }
       set {
         device_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         deviceCase_ = DeviceOneofCase.Encoder;
+      }
+    }
+    /// <summary>Gets whether the "encoder" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasEncoder {
+      get { return deviceCase_ == DeviceOneofCase.Encoder; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "encoder" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearEncoder() {
+      if (HasEncoder) {
+        ClearDevice();
       }
     }
 
@@ -6964,10 +6988,24 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ElectronicLock {
-      get { return deviceCase_ == DeviceOneofCase.ElectronicLock ? (string) device_ : ""; }
+      get { return HasElectronicLock ? (string) device_ : ""; }
       set {
         device_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         deviceCase_ = DeviceOneofCase.ElectronicLock;
+      }
+    }
+    /// <summary>Gets whether the "electronic_lock" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasElectronicLock {
+      get { return deviceCase_ == DeviceOneofCase.ElectronicLock; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "electronic_lock" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearElectronicLock() {
+      if (HasElectronicLock) {
+        ClearDevice();
       }
     }
 
@@ -6979,10 +7017,24 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Controller {
-      get { return deviceCase_ == DeviceOneofCase.Controller ? (string) device_ : ""; }
+      get { return HasController ? (string) device_ : ""; }
       set {
         device_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         deviceCase_ = DeviceOneofCase.Controller;
+      }
+    }
+    /// <summary>Gets whether the "controller" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasController {
+      get { return deviceCase_ == DeviceOneofCase.Controller; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "controller" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearController() {
+      if (HasController) {
+        ClearDevice();
       }
     }
 
@@ -7036,9 +7088,9 @@ namespace Saltoapis.Nebula.User.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (deviceCase_ == DeviceOneofCase.Encoder) hash ^= Encoder.GetHashCode();
-      if (deviceCase_ == DeviceOneofCase.ElectronicLock) hash ^= ElectronicLock.GetHashCode();
-      if (deviceCase_ == DeviceOneofCase.Controller) hash ^= Controller.GetHashCode();
+      if (HasEncoder) hash ^= Encoder.GetHashCode();
+      if (HasElectronicLock) hash ^= ElectronicLock.GetHashCode();
+      if (HasController) hash ^= Controller.GetHashCode();
       hash ^= (int) deviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -7062,15 +7114,15 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (deviceCase_ == DeviceOneofCase.Encoder) {
+      if (HasEncoder) {
         output.WriteRawTag(18);
         output.WriteString(Encoder);
       }
-      if (deviceCase_ == DeviceOneofCase.ElectronicLock) {
+      if (HasElectronicLock) {
         output.WriteRawTag(26);
         output.WriteString(ElectronicLock);
       }
-      if (deviceCase_ == DeviceOneofCase.Controller) {
+      if (HasController) {
         output.WriteRawTag(34);
         output.WriteString(Controller);
       }
@@ -7088,15 +7140,15 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (deviceCase_ == DeviceOneofCase.Encoder) {
+      if (HasEncoder) {
         output.WriteRawTag(18);
         output.WriteString(Encoder);
       }
-      if (deviceCase_ == DeviceOneofCase.ElectronicLock) {
+      if (HasElectronicLock) {
         output.WriteRawTag(26);
         output.WriteString(ElectronicLock);
       }
-      if (deviceCase_ == DeviceOneofCase.Controller) {
+      if (HasController) {
         output.WriteRawTag(34);
         output.WriteString(Controller);
       }
@@ -7113,13 +7165,13 @@ namespace Saltoapis.Nebula.User.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (deviceCase_ == DeviceOneofCase.Encoder) {
+      if (HasEncoder) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Encoder);
       }
-      if (deviceCase_ == DeviceOneofCase.ElectronicLock) {
+      if (HasElectronicLock) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ElectronicLock);
       }
-      if (deviceCase_ == DeviceOneofCase.Controller) {
+      if (HasController) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Controller);
       }
       if (_unknownFields != null) {

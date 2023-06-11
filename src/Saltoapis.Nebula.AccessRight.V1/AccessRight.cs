@@ -832,6 +832,8 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
 
     /// <summary>Field number for the "access_right_id" field.</summary>
     public const int AccessRightIdFieldNumber = 2;
+    private readonly static string AccessRightIdDefaultValue = "";
+
     private string accessRightId_;
     /// <summary>
     /// The access right ID to use for this access right. In case it's
@@ -840,7 +842,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string AccessRightId {
-      get { return accessRightId_ ?? ""; }
+      get { return accessRightId_ ?? AccessRightIdDefaultValue; }
       set {
         accessRightId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }

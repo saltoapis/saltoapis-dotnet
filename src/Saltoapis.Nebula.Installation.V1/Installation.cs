@@ -244,6 +244,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
 
     /// <summary>Field number for the "photo" field.</summary>
     public const int PhotoFieldNumber = 3;
+    private readonly static string PhotoDefaultValue = "";
+
     private string photo_;
     /// <summary>
     /// The file resource name for the installation photo. It must have the
@@ -253,7 +255,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Photo {
-      get { return photo_ ?? ""; }
+      get { return photo_ ?? PhotoDefaultValue; }
       set {
         photo_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -725,6 +727,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
 
         /// <summary>Field number for the "background_image" field.</summary>
         public const int BackgroundImageFieldNumber = 1;
+        private readonly static string BackgroundImageDefaultValue = "";
+
         private string backgroundImage_;
         /// <summary>
         /// The file resource name for the digital key background image. It must
@@ -734,7 +738,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public string BackgroundImage {
-          get { return backgroundImage_ ?? ""; }
+          get { return backgroundImage_ ?? BackgroundImageDefaultValue; }
           set {
             backgroundImage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
           }
@@ -2024,6 +2028,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
 
     /// <summary>Field number for the "installation_id" field.</summary>
     public const int InstallationIdFieldNumber = 1;
+    private readonly static string InstallationIdDefaultValue = "";
+
     private string installationId_;
     /// <summary>
     /// The installation ID to use for this installation. In case it's
@@ -2032,7 +2038,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string InstallationId {
-      get { return installationId_ ?? ""; }
+      get { return installationId_ ?? InstallationIdDefaultValue; }
       set {
         installationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -2068,6 +2074,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
 
     /// <summary>Field number for the "validate_only" field.</summary>
     public const int ValidateOnlyFieldNumber = 5;
+    private readonly static bool ValidateOnlyDefaultValue = false;
+
     private bool validateOnly_;
     /// <summary>
     /// If set, validate the request but do not actually create the installation.
@@ -2075,7 +2083,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool ValidateOnly {
-      get { if ((_hasBits0 & 1) != 0) { return validateOnly_; } else { return false; } }
+      get { if ((_hasBits0 & 1) != 0) { return validateOnly_; } else { return ValidateOnlyDefaultValue; } }
       set {
         _hasBits0 |= 1;
         validateOnly_ = value;

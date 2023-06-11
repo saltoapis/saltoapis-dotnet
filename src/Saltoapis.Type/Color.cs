@@ -144,6 +144,8 @@ namespace Saltoapis.Type {
 
     /// <summary>Field number for the "alpha" field.</summary>
     public const int AlphaFieldNumber = 4;
+    private readonly static float AlphaDefaultValue = 0F;
+
     private float alpha_;
     /// <summary>
     /// The fraction of this color that should be applied to the pixel. That is,
@@ -159,7 +161,7 @@ namespace Saltoapis.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public float Alpha {
-      get { if ((_hasBits0 & 1) != 0) { return alpha_; } else { return 0F; } }
+      get { if ((_hasBits0 & 1) != 0) { return alpha_; } else { return AlphaDefaultValue; } }
       set {
         _hasBits0 |= 1;
         alpha_ = value;

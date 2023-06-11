@@ -211,6 +211,8 @@ namespace Saltoapis.Nebula.Encoder.V1 {
 
     /// <summary>Field number for the "device_id" field.</summary>
     public const int DeviceIdFieldNumber = 3;
+    private readonly static string DeviceIdDefaultValue = "";
+
     private string deviceId_;
     /// <summary>
     /// Globally unique identifier that is used across all devices manufactured
@@ -219,7 +221,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DeviceId {
-      get { return deviceId_ ?? ""; }
+      get { return deviceId_ ?? DeviceIdDefaultValue; }
       set {
         deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
@@ -245,10 +247,24 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Gateway {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway ? (string) parentDevice_ : ""; }
+      get { return HasGateway ? (string) parentDevice_ : ""; }
       set {
         parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         parentDeviceCase_ = ParentDeviceOneofCase.Gateway;
+      }
+    }
+    /// <summary>Gets whether the "gateway" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGateway {
+      get { return parentDeviceCase_ == ParentDeviceOneofCase.Gateway; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "gateway" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGateway() {
+      if (HasGateway) {
+        ClearParentDevice();
       }
     }
 
@@ -260,10 +276,24 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Extender {
-      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender ? (string) parentDevice_ : ""; }
+      get { return HasExtender ? (string) parentDevice_ : ""; }
       set {
         parentDevice_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         parentDeviceCase_ = ParentDeviceOneofCase.Extender;
+      }
+    }
+    /// <summary>Gets whether the "extender" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasExtender {
+      get { return parentDeviceCase_ == ParentDeviceOneofCase.Extender; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "extender" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearExtender() {
+      if (HasExtender) {
+        ClearParentDevice();
       }
     }
 
@@ -342,8 +372,8 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (HasDeviceId) hash ^= DeviceId.GetHashCode();
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) hash ^= Gateway.GetHashCode();
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) hash ^= Extender.GetHashCode();
+      if (HasGateway) hash ^= Gateway.GetHashCode();
+      if (HasExtender) hash ^= Extender.GetHashCode();
       if (Initialized != false) hash ^= Initialized.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
@@ -376,11 +406,11 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         output.WriteRawTag(26);
         output.WriteString(DeviceId);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         output.WriteRawTag(34);
         output.WriteString(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         output.WriteRawTag(42);
         output.WriteString(Extender);
       }
@@ -410,11 +440,11 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         output.WriteRawTag(26);
         output.WriteString(DeviceId);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         output.WriteRawTag(34);
         output.WriteString(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         output.WriteRawTag(42);
         output.WriteString(Extender);
       }
@@ -441,10 +471,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       if (HasDeviceId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Gateway) {
+      if (HasGateway) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Gateway);
       }
-      if (parentDeviceCase_ == ParentDeviceOneofCase.Extender) {
+      if (HasExtender) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Extender);
       }
       if (Initialized != false) {
@@ -635,6 +665,8 @@ namespace Saltoapis.Nebula.Encoder.V1 {
 
     /// <summary>Field number for the "encoder_id" field.</summary>
     public const int EncoderIdFieldNumber = 2;
+    private readonly static string EncoderIdDefaultValue = "";
+
     private string encoderId_;
     /// <summary>
     /// The encoder ID to use for this encoder. In case it's empty the
@@ -643,7 +675,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string EncoderId {
-      get { return encoderId_ ?? ""; }
+      get { return encoderId_ ?? EncoderIdDefaultValue; }
       set {
         encoderId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
