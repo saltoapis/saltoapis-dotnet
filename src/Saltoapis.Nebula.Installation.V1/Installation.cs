@@ -77,53 +77,49 @@ namespace Saltoapis.Nebula.Installation.V1 {
             "YWxsYXRpb24YASABKAkSDQoFZW1haWwYAiABKAkiJwolVHJhbnNmZXJJbnN0",
             "YWxsYXRpb25Pd25lcnNoaXBSZXNwb25zZSI6CiJBY2NlcHRJbnN0YWxsYXRp",
             "b25Pd25lcnNoaXBSZXF1ZXN0EhQKDGluc3RhbGxhdGlvbhgBIAEoCSIlCiNB",
-            "Y2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXNwb25zZSInChdHZXRQYXlt",
-            "ZW50TWV0aG9kUmVxdWVzdBIMCgRuYW1lGAEgASgJIjoKEVVwZGF0ZUNhcmRS",
-            "ZXF1ZXN0EhYKDnBheW1lbnRfbWV0aG9kGAEgASgJEg0KBXRva2VuGAIgASgJ",
-            "IhQKElVwZGF0ZUNhcmRSZXNwb25zZTLHDQoTSW5zdGFsbGF0aW9uU2Vydmlj",
-            "ZRJ5ChJDcmVhdGVJbnN0YWxsYXRpb24SNy5zYWx0by5uZWJ1bGEuaW5zdGFs",
-            "bGF0aW9uLnYxLkNyZWF0ZUluc3RhbGxhdGlvblJlcXVlc3QaKi5zYWx0by5u",
-            "ZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkluc3RhbGxhdGlvbhJzCg9HZXRJbnN0",
-            "YWxsYXRpb24SNC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkdldElu",
-            "c3RhbGxhdGlvblJlcXVlc3QaKi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9u",
-            "LnYxLkluc3RhbGxhdGlvbhKEAQoRTGlzdEluc3RhbGxhdGlvbnMSNi5zYWx0",
-            "by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RJbnN0YWxsYXRpb25zUmVx",
-            "dWVzdBo3LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuTGlzdEluc3Rh",
-            "bGxhdGlvbnNSZXNwb25zZRJ5ChJVcGRhdGVJbnN0YWxsYXRpb24SNy5zYWx0",
-            "by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlVwZGF0ZUluc3RhbGxhdGlvblJl",
-            "cXVlc3QaKi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkluc3RhbGxh",
-            "dGlvbhJnCgxDcmVhdGVQb2xpY3kSMS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0",
-            "aW9uLnYxLkNyZWF0ZVBvbGljeVJlcXVlc3QaJC5zYWx0by5uZWJ1bGEuaW5z",
-            "dGFsbGF0aW9uLnYxLlBvbGljeRJhCglHZXRQb2xpY3kSLi5zYWx0by5uZWJ1",
-            "bGEuaW5zdGFsbGF0aW9uLnYxLkdldFBvbGljeVJlcXVlc3QaJC5zYWx0by5u",
-            "ZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGljeRJ1CgxMaXN0UG9saWNpZXMS",
-            "MS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RQb2xpY2llc1Jl",
-            "cXVlc3QaMi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RQb2xp",
-            "Y2llc1Jlc3BvbnNlEmcKDFVwZGF0ZVBvbGljeRIxLnNhbHRvLm5lYnVsYS5p",
-            "bnN0YWxsYXRpb24udjEuVXBkYXRlUG9saWN5UmVxdWVzdBokLnNhbHRvLm5l",
-            "YnVsYS5pbnN0YWxsYXRpb24udjEuUG9saWN5ElkKDERlbGV0ZVBvbGljeRIx",
-            "LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuRGVsZXRlUG9saWN5UmVx",
-            "dWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJ+Cg9UZXN0UGVybWlzc2lv",
-            "bnMSNC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlRlc3RQZXJtaXNz",
-            "aW9uc1JlcXVlc3QaNS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlRl",
-            "c3RQZXJtaXNzaW9uc1Jlc3BvbnNlEqgBCh1UcmFuc2Zlckluc3RhbGxhdGlv",
-            "bk93bmVyc2hpcBJCLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVHJh",
-            "bnNmZXJJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXF1ZXN0GkMuc2FsdG8ubmVi",
-            "dWxhLmluc3RhbGxhdGlvbi52MS5UcmFuc2Zlckluc3RhbGxhdGlvbk93bmVy",
-            "c2hpcFJlc3BvbnNlEqIBChtBY2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXAS",
-            "QC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkFjY2VwdEluc3RhbGxh",
-            "dGlvbk93bmVyc2hpcFJlcXVlc3QaQS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0",
-            "aW9uLnYxLkFjY2VwdEluc3RhbGxhdGlvbk93bmVyc2hpcFJlc3BvbnNlEnYK",
-            "EEdldFBheW1lbnRNZXRob2QSNS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9u",
-            "LnYxLkdldFBheW1lbnRNZXRob2RSZXF1ZXN0Gisuc2FsdG8ubmVidWxhLmlu",
-            "c3RhbGxhdGlvbi52MS5QYXltZW50TWV0aG9kEm8KClVwZGF0ZUNhcmQSLy5z",
-            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlVwZGF0ZUNhcmRSZXF1ZXN0",
-            "GjAuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5VcGRhdGVDYXJkUmVz",
-            "cG9uc2VCrQEKJGNvbS5zYWx0b2FwaXMubmVidWxhLmluc3RhbGxhdGlvbi52",
-            "MUIRSW5zdGFsbGF0aW9uUHJvdG9QAVpNZ2l0aHViLmNvbS9wcml2YXRlLXNh",
-            "bHRvYXBpcy9zYWx0b2FwaXMtZ28vbmVidWxhL2luc3RhbGxhdGlvbi92MTtp",
-            "bnN0YWxsYXRpb26qAiBTYWx0b2FwaXMuTmVidWxhLkluc3RhbGxhdGlvbi5W",
-            "MWIGcHJvdG8z"));
+            "Y2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXNwb25zZSI6ChFVcGRhdGVD",
+            "YXJkUmVxdWVzdBIWCg5wYXltZW50X21ldGhvZBgBIAEoCRINCgV0b2tlbhgC",
+            "IAEoCSIUChJVcGRhdGVDYXJkUmVzcG9uc2UyzwwKE0luc3RhbGxhdGlvblNl",
+            "cnZpY2USeQoSQ3JlYXRlSW5zdGFsbGF0aW9uEjcuc2FsdG8ubmVidWxhLmlu",
+            "c3RhbGxhdGlvbi52MS5DcmVhdGVJbnN0YWxsYXRpb25SZXF1ZXN0Giouc2Fs",
+            "dG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnN0YWxsYXRpb24ScwoPR2V0",
+            "SW5zdGFsbGF0aW9uEjQuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5H",
+            "ZXRJbnN0YWxsYXRpb25SZXF1ZXN0Giouc2FsdG8ubmVidWxhLmluc3RhbGxh",
+            "dGlvbi52MS5JbnN0YWxsYXRpb24ShAEKEUxpc3RJbnN0YWxsYXRpb25zEjYu",
+            "c2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5MaXN0SW5zdGFsbGF0aW9u",
+            "c1JlcXVlc3QaNy5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RJ",
+            "bnN0YWxsYXRpb25zUmVzcG9uc2USeQoSVXBkYXRlSW5zdGFsbGF0aW9uEjcu",
+            "c2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5VcGRhdGVJbnN0YWxsYXRp",
+            "b25SZXF1ZXN0Giouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnN0",
+            "YWxsYXRpb24SZwoMQ3JlYXRlUG9saWN5EjEuc2FsdG8ubmVidWxhLmluc3Rh",
+            "bGxhdGlvbi52MS5DcmVhdGVQb2xpY3lSZXF1ZXN0GiQuc2FsdG8ubmVidWxh",
+            "Lmluc3RhbGxhdGlvbi52MS5Qb2xpY3kSYQoJR2V0UG9saWN5Ei4uc2FsdG8u",
+            "bmVidWxhLmluc3RhbGxhdGlvbi52MS5HZXRQb2xpY3lSZXF1ZXN0GiQuc2Fs",
+            "dG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5Qb2xpY3kSdQoMTGlzdFBvbGlj",
+            "aWVzEjEuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5MaXN0UG9saWNp",
+            "ZXNSZXF1ZXN0GjIuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5MaXN0",
+            "UG9saWNpZXNSZXNwb25zZRJnCgxVcGRhdGVQb2xpY3kSMS5zYWx0by5uZWJ1",
+            "bGEuaW5zdGFsbGF0aW9uLnYxLlVwZGF0ZVBvbGljeVJlcXVlc3QaJC5zYWx0",
+            "by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGljeRJZCgxEZWxldGVQb2xp",
+            "Y3kSMS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkRlbGV0ZVBvbGlj",
+            "eVJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSfgoPVGVzdFBlcm1p",
+            "c3Npb25zEjQuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5UZXN0UGVy",
+            "bWlzc2lvbnNSZXF1ZXN0GjUuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52",
+            "MS5UZXN0UGVybWlzc2lvbnNSZXNwb25zZRKoAQodVHJhbnNmZXJJbnN0YWxs",
+            "YXRpb25Pd25lcnNoaXASQi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYx",
+            "LlRyYW5zZmVySW5zdGFsbGF0aW9uT3duZXJzaGlwUmVxdWVzdBpDLnNhbHRv",
+            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVHJhbnNmZXJJbnN0YWxsYXRpb25P",
+            "d25lcnNoaXBSZXNwb25zZRKiAQobQWNjZXB0SW5zdGFsbGF0aW9uT3duZXJz",
+            "aGlwEkAuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5BY2NlcHRJbnN0",
+            "YWxsYXRpb25Pd25lcnNoaXBSZXF1ZXN0GkEuc2FsdG8ubmVidWxhLmluc3Rh",
+            "bGxhdGlvbi52MS5BY2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXNwb25z",
+            "ZRJvCgpVcGRhdGVDYXJkEi8uc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52",
+            "MS5VcGRhdGVDYXJkUmVxdWVzdBowLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRp",
+            "b24udjEuVXBkYXRlQ2FyZFJlc3BvbnNlQq0BCiRjb20uc2FsdG9hcGlzLm5l",
+            "YnVsYS5pbnN0YWxsYXRpb24udjFCEUluc3RhbGxhdGlvblByb3RvUAFaTWdp",
+            "dGh1Yi5jb20vcHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVs",
+            "YS9pbnN0YWxsYXRpb24vdjE7aW5zdGFsbGF0aW9uqgIgU2FsdG9hcGlzLk5l",
+            "YnVsYS5JbnN0YWxsYXRpb24uVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Type.ColorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -148,7 +144,6 @@ namespace Saltoapis.Nebula.Installation.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse), global::Saltoapis.Nebula.Installation.V1.TransferInstallationOwnershipResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest), global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipRequest.Parser, new[]{ "Installation" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse), global::Saltoapis.Nebula.Installation.V1.AcceptInstallationOwnershipResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest), global::Saltoapis.Nebula.Installation.V1.GetPaymentMethodRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest), global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest.Parser, new[]{ "PaymentMethod", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse), global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse.Parser, null, null, null, null, null)
           }));
@@ -5953,202 +5948,6 @@ namespace Saltoapis.Nebula.Installation.V1 {
   }
 
   /// <summary>
-  /// The request message for [`GetPaymentMethod`][salto.nebula.installation.v1.InstallationService.GetPaymentMethod]
-  /// </summary>
-  public sealed partial class GetPaymentMethodRequest : pb::IMessage<GetPaymentMethodRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<GetPaymentMethodRequest> _parser = new pb::MessageParser<GetPaymentMethodRequest>(() => new GetPaymentMethodRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetPaymentMethodRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[20]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetPaymentMethodRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetPaymentMethodRequest(GetPaymentMethodRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetPaymentMethodRequest Clone() {
-      return new GetPaymentMethodRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    /// <summary>
-    /// The name of the requested subscription's payment method resource. For example:
-    /// `installations/surelock-homes-hq/subscription/payment-method`.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as GetPaymentMethodRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetPaymentMethodRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetPaymentMethodRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
   /// The request message for [`UpdateCard`][salto.nebula.installation.v1.InstallationService.UpdateCard]
   /// </summary>
   public sealed partial class UpdateCardRequest : pb::IMessage<UpdateCardRequest>
@@ -6165,7 +5964,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6402,7 +6201,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
