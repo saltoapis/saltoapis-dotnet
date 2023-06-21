@@ -2510,7 +2510,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         public const int BrandFieldNumber = 3;
         private string brand_ = "";
         /// <summary>
-        /// The card brand. For example: Visa, Mastercard, American Express, etc.
+        /// The card brand. For example: visa, mastercard, american_express, other.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
