@@ -28,95 +28,100 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
             "YXB0b3IucHJvdG8SH3NhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEa",
             "G2dvb2dsZS9wcm90b2J1Zi9lbXB0eS5wcm90bxogZ29vZ2xlL3Byb3RvYnVm",
             "L2ZpZWxkX21hc2sucHJvdG8aH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAu",
-            "cHJvdG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlvbi5wcm90byLS",
-            "AgoPSW50ZXJjb21BZGFwdG9yEgwKBG5hbWUYASABKAkSFAoMZGlzcGxheV9u",
+            "cHJvdG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlvbi5wcm90byKP",
+            "AwoPSW50ZXJjb21BZGFwdG9yEgwKBG5hbWUYASABKAkSFAoMZGlzcGxheV9u",
             "YW1lGAIgASgJEhYKCWRldmljZV9pZBgDIAEoCUgBiAEBEhEKB2dhdGV3YXkY",
-            "BCABKAlIABISCghleHRlbmRlchgFIAEoCUgAEhUKDWFjY2Vzc19wb2ludHMY",
-            "BiADKAkSEwoLaW5pdGlhbGl6ZWQYByABKAgSEAoIb3V0ZGF0ZWQYCCABKAgS",
-            "EQoJY29ubmVjdGVkGAkgASgIEhMKC2xvd19iYXR0ZXJ5GAogASgIEjMKD2xh",
-            "c3RfZXZlbnRfdGltZRgLIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3Rh",
-            "bXASFQoIaW50ZXJjb20YDCABKAlIAogBAUIPCg1wYXJlbnRfZGV2aWNlQgwK",
-            "Cl9kZXZpY2VfaWRCCwoJX2ludGVyY29tIrQBChxDcmVhdGVJbnRlcmNvbUFk",
-            "YXB0b3JSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIgChNpbnRlcmNvbV9hZGFw",
-            "dG9yX2lkGAIgASgJSACIAQESSgoQaW50ZXJjb21fYWRhcHRvchgDIAEoCzIw",
-            "LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuSW50ZXJjb21BZGFw",
-            "dG9yQhYKFF9pbnRlcmNvbV9hZGFwdG9yX2lkIikKGUdldEludGVyY29tQWRh",
-            "cHRvclJlcXVlc3QSDAoEbmFtZRgBIAEoCSJ2ChtMaXN0SW50ZXJjb21BZGFw",
-            "dG9yc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEo",
-            "BRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRl",
-            "cl9ieRgFIAEoCSKEAQocTGlzdEludGVyY29tQWRhcHRvcnNSZXNwb25zZRJL",
-            "ChFpbnRlcmNvbV9hZGFwdG9ycxgBIAMoCzIwLnNhbHRvLm5lYnVsYS5pbnRl",
-            "cmNvbWFkYXB0b3IudjEuSW50ZXJjb21BZGFwdG9yEhcKD25leHRfcGFnZV90",
-            "b2tlbhgCIAEoCSKbAQocVXBkYXRlSW50ZXJjb21BZGFwdG9yUmVxdWVzdBJK",
-            "ChBpbnRlcmNvbV9hZGFwdG9yGAEgASgLMjAuc2FsdG8ubmVidWxhLmludGVy",
-            "Y29tYWRhcHRvci52MS5JbnRlcmNvbUFkYXB0b3ISLwoLdXBkYXRlX21hc2sY",
-            "AiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiwKHERlbGV0ZUlu",
-            "dGVyY29tQWRhcHRvclJlcXVlc3QSDAoEbmFtZRgBIAEoCSI9ChpCaW5kSW50",
-            "ZXJjb21BZGFwdG9yUmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9p",
-            "ZBgCIAEoCSIdChtCaW5kSW50ZXJjb21BZGFwdG9yUmVzcG9uc2UiOwocVW5i",
-            "aW5kSW50ZXJjb21BZGFwdG9yUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBWZv",
-            "cmNlGAIgASgIIh8KHVVuYmluZEludGVyY29tQWRhcHRvclJlc3BvbnNlIjAK",
-            "IEluaXRpYWxpemVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0EgwKBG5hbWUYASAB",
-            "KAkiIwohSW5pdGlhbGl6ZUludGVyY29tQWRhcHRvclJlc3BvbnNlIj0KIUlu",
-            "aXRpYWxpemVJbnRlcmNvbUFkYXB0b3JNZXRhZGF0YRIYChBwcm9ncmVzc19w",
-            "ZXJjZW50GAEgASgFIi8KH0NvbmZpZ3VyZUludGVyY29tQWRhcHRvclJlcXVl",
-            "c3QSDAoEbmFtZRgBIAEoCSIiCiBDb25maWd1cmVJbnRlcmNvbUFkYXB0b3JS",
-            "ZXNwb25zZSIiCiBDb25maWd1cmVJbnRlcmNvbUFkYXB0b3JNZXRhZGF0YSIr",
-            "ChtSZXNldEludGVyY29tQWRhcHRvclJlcXVlc3QSDAoEbmFtZRgBIAEoCSIe",
-            "ChxSZXNldEludGVyY29tQWRhcHRvclJlc3BvbnNlIh4KHFJlc2V0SW50ZXJj",
-            "b21BZGFwdG9yTWV0YWRhdGEiQAokVXBkYXRlSW50ZXJjb21BZGFwdG9yRmly",
-            "bXdhcmVSZXF1ZXN0EhgKEGludGVyY29tX2FkYXB0b3IYASABKAkiJwolVXBk",
-            "YXRlSW50ZXJjb21BZGFwdG9yRmlybXdhcmVSZXNwb25zZSJBCiVVcGRhdGVJ",
-            "bnRlcmNvbUFkYXB0b3JGaXJtd2FyZU1ldGFkYXRhEhgKEHByb2dyZXNzX3Bl",
-            "cmNlbnQYASABKAUiPQohR2VuZXJhdGVBdXRob3JpemF0aW9uVG9rZW5SZXF1",
-            "ZXN0EhgKEGludGVyY29tX2FkYXB0b3IYASABKAkiQQoiR2VuZXJhdGVBdXRo",
-            "b3JpemF0aW9uVG9rZW5SZXNwb25zZRIbChNhdXRob3JpemF0aW9uX3Rva2Vu",
-            "GAEgASgMMo4NChZJbnRlcmNvbUFkYXB0b3JTZXJ2aWNlEogBChVDcmVhdGVJ",
-            "bnRlcmNvbUFkYXB0b3ISPS5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9y",
-            "LnYxLkNyZWF0ZUludGVyY29tQWRhcHRvclJlcXVlc3QaMC5zYWx0by5uZWJ1",
-            "bGEuaW50ZXJjb21hZGFwdG9yLnYxLkludGVyY29tQWRhcHRvchKCAQoSR2V0",
-            "SW50ZXJjb21BZGFwdG9yEjouc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRv",
-            "ci52MS5HZXRJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0GjAuc2FsdG8ubmVidWxh",
-            "LmludGVyY29tYWRhcHRvci52MS5JbnRlcmNvbUFkYXB0b3ISkwEKFExpc3RJ",
-            "bnRlcmNvbUFkYXB0b3JzEjwuc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRv",
-            "ci52MS5MaXN0SW50ZXJjb21BZGFwdG9yc1JlcXVlc3QaPS5zYWx0by5uZWJ1",
-            "bGEuaW50ZXJjb21hZGFwdG9yLnYxLkxpc3RJbnRlcmNvbUFkYXB0b3JzUmVz",
-            "cG9uc2USiAEKFVVwZGF0ZUludGVyY29tQWRhcHRvchI9LnNhbHRvLm5lYnVs",
-            "YS5pbnRlcmNvbWFkYXB0b3IudjEuVXBkYXRlSW50ZXJjb21BZGFwdG9yUmVx",
-            "dWVzdBowLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuSW50ZXJj",
-            "b21BZGFwdG9yEm4KFURlbGV0ZUludGVyY29tQWRhcHRvchI9LnNhbHRvLm5l",
-            "YnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuRGVsZXRlSW50ZXJjb21BZGFwdG9y",
-            "UmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRKQAQoTQmluZEludGVy",
-            "Y29tQWRhcHRvchI7LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEu",
-            "QmluZEludGVyY29tQWRhcHRvclJlcXVlc3QaPC5zYWx0by5uZWJ1bGEuaW50",
-            "ZXJjb21hZGFwdG9yLnYxLkJpbmRJbnRlcmNvbUFkYXB0b3JSZXNwb25zZRKW",
-            "AQoVVW5iaW5kSW50ZXJjb21BZGFwdG9yEj0uc2FsdG8ubmVidWxhLmludGVy",
-            "Y29tYWRhcHRvci52MS5VbmJpbmRJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0Gj4u",
-            "c2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRvci52MS5VbmJpbmRJbnRlcmNv",
-            "bUFkYXB0b3JSZXNwb25zZRJ/ChlJbml0aWFsaXplSW50ZXJjb21BZGFwdG9y",
-            "EkEuc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRvci52MS5Jbml0aWFsaXpl",
-            "SW50ZXJjb21BZGFwdG9yUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYx",
-            "Lk9wZXJhdGlvbhJ9ChhDb25maWd1cmVJbnRlcmNvbUFkYXB0b3ISQC5zYWx0",
-            "by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkNvbmZpZ3VyZUludGVyY29t",
-            "QWRhcHRvclJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRp",
-            "b24SdQoUUmVzZXRJbnRlcmNvbUFkYXB0b3ISPC5zYWx0by5uZWJ1bGEuaW50",
-            "ZXJjb21hZGFwdG9yLnYxLlJlc2V0SW50ZXJjb21BZGFwdG9yUmVxdWVzdBof",
-            "LnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhKHAQodVXBkYXRlSW50",
-            "ZXJjb21BZGFwdG9yRmlybXdhcmUSRS5zYWx0by5uZWJ1bGEuaW50ZXJjb21h",
-            "ZGFwdG9yLnYxLlVwZGF0ZUludGVyY29tQWRhcHRvckZpcm13YXJlUmVxdWVz",
-            "dBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhKlAQoaR2VuZXJh",
-            "dGVBdXRob3JpemF0aW9uVG9rZW4SQi5zYWx0by5uZWJ1bGEuaW50ZXJjb21h",
-            "ZGFwdG9yLnYxLkdlbmVyYXRlQXV0aG9yaXphdGlvblRva2VuUmVxdWVzdBpD",
-            "LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuR2VuZXJhdGVBdXRo",
-            "b3JpemF0aW9uVG9rZW5SZXNwb25zZUK8AQonY29tLnNhbHRvYXBpcy5uZWJ1",
-            "bGEuaW50ZXJjb21hZGFwdG9yLnYxQhRJbnRlcmNvbUFkYXB0b3JQcm90b1AB",
-            "WlNnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9u",
-            "ZWJ1bGEvaW50ZXJjb21hZGFwdG9yL3YxO2ludGVyY29tYWRhcHRvcqoCI1Nh",
-            "bHRvYXBpcy5OZWJ1bGEuSW50ZXJjb21BZGFwdG9yLlYxYgZwcm90bzM="));
+            "BCABKAlIABISCghleHRlbmRlchgFIAEoCUgAElIKDWFjY2Vzc19wb2ludHMY",
+            "BiADKAsyOy5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkludGVy",
+            "Y29tQWRhcHRvckFjY2Vzc1BvaW50EhMKC2luaXRpYWxpemVkGAcgASgIEhAK",
+            "CG91dGRhdGVkGAggASgIEhEKCWNvbm5lY3RlZBgJIAEoCBITCgtsb3dfYmF0",
+            "dGVyeRgKIAEoCBIzCg9sYXN0X2V2ZW50X3RpbWUYCyABKAsyGi5nb29nbGUu",
+            "cHJvdG9idWYuVGltZXN0YW1wEhUKCGludGVyY29tGAwgASgJSAKIAQFCDwoN",
+            "cGFyZW50X2RldmljZUIMCgpfZGV2aWNlX2lkQgsKCV9pbnRlcmNvbSJiChpJ",
+            "bnRlcmNvbUFkYXB0b3JBY2Nlc3NQb2ludBIUCgxhY2Nlc3NfcG9pbnQYASAB",
+            "KAkSGwoOZnJhbWVfc2V0dGluZ3MYAiABKAxIAIgBAUIRCg9fZnJhbWVfc2V0",
+            "dGluZ3MitAEKHENyZWF0ZUludGVyY29tQWRhcHRvclJlcXVlc3QSDgoGcGFy",
+            "ZW50GAEgASgJEiAKE2ludGVyY29tX2FkYXB0b3JfaWQYAiABKAlIAIgBARJK",
+            "ChBpbnRlcmNvbV9hZGFwdG9yGAMgASgLMjAuc2FsdG8ubmVidWxhLmludGVy",
+            "Y29tYWRhcHRvci52MS5JbnRlcmNvbUFkYXB0b3JCFgoUX2ludGVyY29tX2Fk",
+            "YXB0b3JfaWQiKQoZR2V0SW50ZXJjb21BZGFwdG9yUmVxdWVzdBIMCgRuYW1l",
+            "GAEgASgJInYKG0xpc3RJbnRlcmNvbUFkYXB0b3JzUmVxdWVzdBIOCgZwYXJl",
+            "bnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyAB",
+            "KAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIoQBChxMaXN0",
+            "SW50ZXJjb21BZGFwdG9yc1Jlc3BvbnNlEksKEWludGVyY29tX2FkYXB0b3Jz",
+            "GAEgAygLMjAuc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRvci52MS5JbnRl",
+            "cmNvbUFkYXB0b3ISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIpsBChxVcGRh",
+            "dGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0EkoKEGludGVyY29tX2FkYXB0b3IY",
+            "ASABKAsyMC5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkludGVy",
+            "Y29tQWRhcHRvchIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5GaWVsZE1hc2siLAocRGVsZXRlSW50ZXJjb21BZGFwdG9yUmVxdWVz",
+            "dBIMCgRuYW1lGAEgASgJIj0KGkJpbmRJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAkSEQoJZGV2aWNlX2lkGAIgASgJIh0KG0JpbmRJbnRl",
+            "cmNvbUFkYXB0b3JSZXNwb25zZSI7ChxVbmJpbmRJbnRlcmNvbUFkYXB0b3JS",
+            "ZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFZm9yY2UYAiABKAgiHwodVW5iaW5k",
+            "SW50ZXJjb21BZGFwdG9yUmVzcG9uc2UiMAogSW5pdGlhbGl6ZUludGVyY29t",
+            "QWRhcHRvclJlcXVlc3QSDAoEbmFtZRgBIAEoCSIjCiFJbml0aWFsaXplSW50",
+            "ZXJjb21BZGFwdG9yUmVzcG9uc2UiPQohSW5pdGlhbGl6ZUludGVyY29tQWRh",
+            "cHRvck1ldGFkYXRhEhgKEHByb2dyZXNzX3BlcmNlbnQYASABKAUiLwofQ29u",
+            "ZmlndXJlSW50ZXJjb21BZGFwdG9yUmVxdWVzdBIMCgRuYW1lGAEgASgJIiIK",
+            "IENvbmZpZ3VyZUludGVyY29tQWRhcHRvclJlc3BvbnNlIiIKIENvbmZpZ3Vy",
+            "ZUludGVyY29tQWRhcHRvck1ldGFkYXRhIisKG1Jlc2V0SW50ZXJjb21BZGFw",
+            "dG9yUmVxdWVzdBIMCgRuYW1lGAEgASgJIh4KHFJlc2V0SW50ZXJjb21BZGFw",
+            "dG9yUmVzcG9uc2UiHgocUmVzZXRJbnRlcmNvbUFkYXB0b3JNZXRhZGF0YSJA",
+            "CiRVcGRhdGVJbnRlcmNvbUFkYXB0b3JGaXJtd2FyZVJlcXVlc3QSGAoQaW50",
+            "ZXJjb21fYWRhcHRvchgBIAEoCSInCiVVcGRhdGVJbnRlcmNvbUFkYXB0b3JG",
+            "aXJtd2FyZVJlc3BvbnNlIkEKJVVwZGF0ZUludGVyY29tQWRhcHRvckZpcm13",
+            "YXJlTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBSI9CiFHZW5l",
+            "cmF0ZUF1dGhvcml6YXRpb25Ub2tlblJlcXVlc3QSGAoQaW50ZXJjb21fYWRh",
+            "cHRvchgBIAEoCSJBCiJHZW5lcmF0ZUF1dGhvcml6YXRpb25Ub2tlblJlc3Bv",
+            "bnNlEhsKE2F1dGhvcml6YXRpb25fdG9rZW4YASABKAwyjg0KFkludGVyY29t",
+            "QWRhcHRvclNlcnZpY2USiAEKFUNyZWF0ZUludGVyY29tQWRhcHRvchI9LnNh",
+            "bHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuQ3JlYXRlSW50ZXJjb21B",
+            "ZGFwdG9yUmVxdWVzdBowLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3Iu",
+            "djEuSW50ZXJjb21BZGFwdG9yEoIBChJHZXRJbnRlcmNvbUFkYXB0b3ISOi5z",
+            "YWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkdldEludGVyY29tQWRh",
+            "cHRvclJlcXVlc3QaMC5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYx",
+            "LkludGVyY29tQWRhcHRvchKTAQoUTGlzdEludGVyY29tQWRhcHRvcnMSPC5z",
+            "YWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkxpc3RJbnRlcmNvbUFk",
+            "YXB0b3JzUmVxdWVzdBo9LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3Iu",
+            "djEuTGlzdEludGVyY29tQWRhcHRvcnNSZXNwb25zZRKIAQoVVXBkYXRlSW50",
+            "ZXJjb21BZGFwdG9yEj0uc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRvci52",
+            "MS5VcGRhdGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0GjAuc2FsdG8ubmVidWxh",
+            "LmludGVyY29tYWRhcHRvci52MS5JbnRlcmNvbUFkYXB0b3ISbgoVRGVsZXRl",
+            "SW50ZXJjb21BZGFwdG9yEj0uc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRv",
+            "ci52MS5EZWxldGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0GhYuZ29vZ2xlLnBy",
+            "b3RvYnVmLkVtcHR5EpABChNCaW5kSW50ZXJjb21BZGFwdG9yEjsuc2FsdG8u",
+            "bmVidWxhLmludGVyY29tYWRhcHRvci52MS5CaW5kSW50ZXJjb21BZGFwdG9y",
+            "UmVxdWVzdBo8LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuQmlu",
+            "ZEludGVyY29tQWRhcHRvclJlc3BvbnNlEpYBChVVbmJpbmRJbnRlcmNvbUFk",
+            "YXB0b3ISPS5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLlVuYmlu",
+            "ZEludGVyY29tQWRhcHRvclJlcXVlc3QaPi5zYWx0by5uZWJ1bGEuaW50ZXJj",
+            "b21hZGFwdG9yLnYxLlVuYmluZEludGVyY29tQWRhcHRvclJlc3BvbnNlEn8K",
+            "GUluaXRpYWxpemVJbnRlcmNvbUFkYXB0b3ISQS5zYWx0by5uZWJ1bGEuaW50",
+            "ZXJjb21hZGFwdG9yLnYxLkluaXRpYWxpemVJbnRlcmNvbUFkYXB0b3JSZXF1",
+            "ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEn0KGENvbmZp",
+            "Z3VyZUludGVyY29tQWRhcHRvchJALnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFk",
+            "YXB0b3IudjEuQ29uZmlndXJlSW50ZXJjb21BZGFwdG9yUmVxdWVzdBofLnNh",
+            "bHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJ1ChRSZXNldEludGVyY29t",
+            "QWRhcHRvchI8LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuUmVz",
+            "ZXRJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcu",
+            "djEuT3BlcmF0aW9uEocBCh1VcGRhdGVJbnRlcmNvbUFkYXB0b3JGaXJtd2Fy",
+            "ZRJFLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuVXBkYXRlSW50",
+            "ZXJjb21BZGFwdG9yRmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5p",
+            "bmcudjEuT3BlcmF0aW9uEqUBChpHZW5lcmF0ZUF1dGhvcml6YXRpb25Ub2tl",
+            "bhJCLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuR2VuZXJhdGVB",
+            "dXRob3JpemF0aW9uVG9rZW5SZXF1ZXN0GkMuc2FsdG8ubmVidWxhLmludGVy",
+            "Y29tYWRhcHRvci52MS5HZW5lcmF0ZUF1dGhvcml6YXRpb25Ub2tlblJlc3Bv",
+            "bnNlQrwBCidjb20uc2FsdG9hcGlzLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3Iu",
+            "djFCFEludGVyY29tQWRhcHRvclByb3RvUAFaU2dpdGh1Yi5jb20vcHJpdmF0",
+            "ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL25lYnVsYS9pbnRlcmNvbWFkYXB0",
+            "b3IvdjE7aW50ZXJjb21hZGFwdG9yqgIjU2FsdG9hcGlzLk5lYnVsYS5JbnRl",
+            "cmNvbUFkYXB0b3IuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptor), global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptor.Parser, new[]{ "Name", "DisplayName", "DeviceId", "Gateway", "Extender", "AccessPoints", "Initialized", "Outdated", "Connected", "LowBattery", "LastEventTime", "Intercom" }, new[]{ "ParentDevice", "DeviceId", "Intercom" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint), global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint.Parser, new[]{ "AccessPoint", "FrameSettings" }, new[]{ "FrameSettings" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.CreateIntercomAdaptorRequest), global::Saltoapis.Nebula.IntercomAdaptor.V1.CreateIntercomAdaptorRequest.Parser, new[]{ "Parent", "IntercomAdaptorId", "IntercomAdaptor" }, new[]{ "IntercomAdaptorId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.GetIntercomAdaptorRequest), global::Saltoapis.Nebula.IntercomAdaptor.V1.GetIntercomAdaptorRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.ListIntercomAdaptorsRequest), global::Saltoapis.Nebula.IntercomAdaptor.V1.ListIntercomAdaptorsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -334,15 +339,15 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
 
     /// <summary>Field number for the "access_points" field.</summary>
     public const int AccessPointsFieldNumber = 6;
-    private static readonly pb::FieldCodec<string> _repeated_accessPoints_codec
-        = pb::FieldCodec.ForString(50);
-    private readonly pbc::RepeatedField<string> accessPoints_ = new pbc::RepeatedField<string>();
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint> _repeated_accessPoints_codec
+        = pb::FieldCodec.ForMessage(50, global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint> accessPoints_ = new pbc::RepeatedField<global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint>();
     /// <summary>
     /// The access points that the intercom adaptor gives coverage to.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<string> AccessPoints {
+    public pbc::RepeatedField<global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint> AccessPoints {
       get { return accessPoints_; }
     }
 
@@ -886,6 +891,257 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   }
 
   /// <summary>
+  /// The intercom adaptor's access point association
+  /// </summary>
+  public sealed partial class IntercomAdaptorAccessPoint : pb::IMessage<IntercomAdaptorAccessPoint>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<IntercomAdaptorAccessPoint> _parser = new pb::MessageParser<IntercomAdaptorAccessPoint>(() => new IntercomAdaptorAccessPoint());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<IntercomAdaptorAccessPoint> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public IntercomAdaptorAccessPoint() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public IntercomAdaptorAccessPoint(IntercomAdaptorAccessPoint other) : this() {
+      accessPoint_ = other.accessPoint_;
+      frameSettings_ = other.frameSettings_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public IntercomAdaptorAccessPoint Clone() {
+      return new IntercomAdaptorAccessPoint(this);
+    }
+
+    /// <summary>Field number for the "access_point" field.</summary>
+    public const int AccessPointFieldNumber = 1;
+    private string accessPoint_ = "";
+    /// <summary>
+    /// The access point resource name to bind as an association to the parent
+    /// intercom adaptor. For example:
+    /// `installations/surelock-homes-hq/access-points/baker-street-entrance`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AccessPoint {
+      get { return accessPoint_; }
+      set {
+        accessPoint_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "frame_settings" field.</summary>
+    public const int FrameSettingsFieldNumber = 2;
+    private readonly static pb::ByteString FrameSettingsDefaultValue = pb::ByteString.Empty;
+
+    private pb::ByteString frameSettings_;
+    /// <summary>
+    /// The set of learnt frames. Left unset for analog intercoms.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString FrameSettings {
+      get { return frameSettings_ ?? FrameSettingsDefaultValue; }
+      set {
+        frameSettings_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "frame_settings" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasFrameSettings {
+      get { return frameSettings_ != null; }
+    }
+    /// <summary>Clears the value of the "frame_settings" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearFrameSettings() {
+      frameSettings_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as IntercomAdaptorAccessPoint);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(IntercomAdaptorAccessPoint other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AccessPoint != other.AccessPoint) return false;
+      if (FrameSettings != other.FrameSettings) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AccessPoint.Length != 0) hash ^= AccessPoint.GetHashCode();
+      if (HasFrameSettings) hash ^= FrameSettings.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AccessPoint.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AccessPoint);
+      }
+      if (HasFrameSettings) {
+        output.WriteRawTag(18);
+        output.WriteBytes(FrameSettings);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AccessPoint.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AccessPoint);
+      }
+      if (HasFrameSettings) {
+        output.WriteRawTag(18);
+        output.WriteBytes(FrameSettings);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AccessPoint.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccessPoint);
+      }
+      if (HasFrameSettings) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(FrameSettings);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(IntercomAdaptorAccessPoint other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AccessPoint.Length != 0) {
+        AccessPoint = other.AccessPoint;
+      }
+      if (other.HasFrameSettings) {
+        FrameSettings = other.FrameSettings;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AccessPoint = input.ReadString();
+            break;
+          }
+          case 18: {
+            FrameSettings = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AccessPoint = input.ReadString();
+            break;
+          }
+          case 18: {
+            FrameSettings = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The request message for [CreateIntercomAdaptor][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.CreateIntercomAdaptor]
   /// </summary>
   public sealed partial class CreateIntercomAdaptorRequest : pb::IMessage<CreateIntercomAdaptorRequest>
@@ -902,7 +1158,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1203,7 +1459,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1399,7 +1655,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1755,7 +2011,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1982,7 +2238,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2235,7 +2491,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2431,7 +2687,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2668,7 +2924,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2823,7 +3079,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3061,7 +3317,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3216,7 +3472,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3412,7 +3668,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3564,7 +3820,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3759,7 +4015,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3955,7 +4211,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4110,7 +4366,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4265,7 +4521,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4461,7 +4717,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4616,7 +4872,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4771,7 +5027,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4968,7 +5224,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5123,7 +5379,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5318,7 +5574,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5515,7 +5771,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
