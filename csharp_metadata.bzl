@@ -42,6 +42,7 @@ TMPL_RENDERER_SHA="e16c69c9ea4f631a1dcce6411ef4b3477d1386ea"
 VALE_VERSION="2.27.0"
 
 csharp_projects = [
+    '//src/Saltoapis.Nebula.AccessPointGroup.V1',
     '//src/Saltoapis.Nebula.Iam.V1',
     '//src/Saltoapis.Nebula.Unit.V1',
     '//src/Saltoapis.Longrunning.V1',
