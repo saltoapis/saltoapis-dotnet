@@ -88,19 +88,19 @@ namespace Saltoapis.Auth
     /// </summary>
     class SaltoOAuthClient : OAuthClientCredentialsProvider
     {
-        static readonly string discoveryUri = "https://account.saltosystems.com/.well-known/openid-configuration";
-
         OIDCConfiguration cachedOidcConfiguration; // refeshed every 24 hours
         DateTimeOffset oidcCacheExpiration;
 
         SaltoTokenResponse token;
 
+        readonly String   discoveryUri;
         readonly String   clientId;
         readonly String   clientSecret;
         readonly String[] scopes;
 
-        public SaltoOAuthClient(String id, String secret, String[] scopes)
+        public SaltoOAuthClient(String id, String secret, String[] scopes, String discoveryHost = "account.saltosystems.com")
         {
+            this.discoveryUri = string.Format("https://{0}/.well-known/openid-configuration", discoveryHost);
             this.clientId = id;
             this.clientSecret = secret;
             this.scopes = scopes;
