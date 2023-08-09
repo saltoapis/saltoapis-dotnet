@@ -152,11 +152,11 @@ namespace Saltoapis.Nebula.Installation.V1 {
             "MC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlVwZGF0ZUNhcmRSZXNw",
             "b25zZRJ1CgxMaXN0SW52b2ljZXMSMS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0",
             "aW9uLnYxLkxpc3RJbnZvaWNlc1JlcXVlc3QaMi5zYWx0by5uZWJ1bGEuaW5z",
-            "dGFsbGF0aW9uLnYxLkxpc3RJbnZvaWNlc1Jlc3BvbnNlQq0BCiRjb20uc2Fs",
+            "dGFsbGF0aW9uLnYxLkxpc3RJbnZvaWNlc1Jlc3BvbnNlQqgBCiRjb20uc2Fs",
             "dG9hcGlzLm5lYnVsYS5pbnN0YWxsYXRpb24udjFCEUluc3RhbGxhdGlvblBy",
-            "b3RvUAFaTWdpdGh1Yi5jb20vcHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlz",
-            "LWdvL25lYnVsYS9pbnN0YWxsYXRpb24vdjE7aW5zdGFsbGF0aW9uqgIgU2Fs",
-            "dG9hcGlzLk5lYnVsYS5JbnN0YWxsYXRpb24uVjFiBnByb3RvMw=="));
+            "b3RvUAFaSGdpdGh1Yi5jb20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBpcy1nby9u",
+            "ZWJ1bGEvaW5zdGFsbGF0aW9uL3YxO2luc3RhbGxhdGlvbqoCIFNhbHRvYXBp",
+            "cy5OZWJ1bGEuSW5zdGFsbGF0aW9uLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Type.ColorReflection.Descriptor, global::Saltoapis.Type.DateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

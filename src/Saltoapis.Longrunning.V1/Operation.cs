@@ -43,11 +43,10 @@ namespace Saltoapis.Longrunning.V1 {
             "bmluZy52MS5MaXN0T3BlcmF0aW9uc1JlcXVlc3QaLC5zYWx0by5sb25ncnVu",
             "bmluZy52MS5MaXN0T3BlcmF0aW9uc1Jlc3BvbnNlElcKD0RlbGV0ZU9wZXJh",
             "dGlvbhIsLnNhbHRvLmxvbmdydW5uaW5nLnYxLkRlbGV0ZU9wZXJhdGlvblJl",
-            "cXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHlCkQEKHGNvbS5zYWx0b2Fw",
-            "aXMubG9uZ3J1bm5pbmcudjFCDk9wZXJhdGlvblByb3RvUAFaRGdpdGh1Yi5j",
-            "b20vcHJpdmF0ZS1zYWx0b2FwaXMvc2FsdG9hcGlzLWdvL2xvbmdydW5uaW5n",
-            "L3YxO2xvbmdydW5uaW5nqgIYU2FsdG9hcGlzLkxvbmdydW5uaW5nLlYxYgZw",
-            "cm90bzM="));
+            "cXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHlCjAEKHGNvbS5zYWx0b2Fw",
+            "aXMubG9uZ3J1bm5pbmcudjFCDk9wZXJhdGlvblByb3RvUAFaP2dpdGh1Yi5j",
+            "b20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBpcy1nby9sb25ncnVubmluZy92MTts",
+            "b25ncnVubmluZ6oCGFNhbHRvYXBpcy5Mb25ncnVubmluZy5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
