@@ -27,10 +27,10 @@ namespace Saltoapis.Nebula.Type {
             "CiBzYWx0by9uZWJ1bGEvdHlwZS9kYXlfdHlwZS5wcm90bxIRc2FsdG8ubmVi",
             "dWxhLnR5cGUqWgoHRGF5VHlwZRIYChREQVlfVFlQRV9VTlNQRUNJRklFRBAA",
             "EgoKBk5PUk1BTBABEgsKB0hPTElEQVkQAhINCglTUEVDSUFMXzEQAxINCglT",
-            "UEVDSUFMXzIQBEKKAQoZY29tLnNhbHRvYXBpcy5uZWJ1bGEudHlwZUIMRGF5",
-            "VHlwZVByb3RvUAFaRWdpdGh1Yi5jb20vcHJpdmF0ZS1zYWx0b2FwaXMvc2Fs",
-            "dG9hcGlzLWdvL25lYnVsYS90eXBlL2RheXR5cGU7ZGF5dHlwZaoCFVNhbHRv",
-            "YXBpcy5OZWJ1bGEuVHlwZWIGcHJvdG8z"));
+            "UEVDSUFMXzIQBEKFAQoZY29tLnNhbHRvYXBpcy5uZWJ1bGEudHlwZUIMRGF5",
+            "VHlwZVByb3RvUAFaQGdpdGh1Yi5jb20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBp",
+            "cy1nby9uZWJ1bGEvdHlwZS9kYXl0eXBlO2RheXR5cGWqAhVTYWx0b2FwaXMu",
+            "TmVidWxhLlR5cGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Saltoapis.Nebula.Type.DayType), }, null, null));

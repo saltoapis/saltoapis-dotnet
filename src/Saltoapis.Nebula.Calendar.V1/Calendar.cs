@@ -78,11 +78,10 @@ namespace Saltoapis.Nebula.Calendar.V1 {
             "YnVsYS5jYWxlbmRhci52MS5VcGRhdGVFdmVudFJlcXVlc3QaHy5zYWx0by5u",
             "ZWJ1bGEuY2FsZW5kYXIudjEuRXZlbnQSUwoLRGVsZXRlRXZlbnQSLC5zYWx0",
             "by5uZWJ1bGEuY2FsZW5kYXIudjEuRGVsZXRlRXZlbnRSZXF1ZXN0GhYuZ29v",
-            "Z2xlLnByb3RvYnVmLkVtcHR5QpkBCiBjb20uc2FsdG9hcGlzLm5lYnVsYS5j",
-            "YWxlbmRhci52MUINQ2FsZW5kYXJQcm90b1ABWkVnaXRodWIuY29tL3ByaXZh",
-            "dGUtc2FsdG9hcGlzL3NhbHRvYXBpcy1nby9uZWJ1bGEvY2FsZW5kYXIvdjE7",
-            "Y2FsZW5kYXKqAhxTYWx0b2FwaXMuTmVidWxhLkNhbGVuZGFyLlYxYgZwcm90",
-            "bzM="));
+            "Z2xlLnByb3RvYnVmLkVtcHR5QpQBCiBjb20uc2FsdG9hcGlzLm5lYnVsYS5j",
+            "YWxlbmRhci52MUINQ2FsZW5kYXJQcm90b1ABWkBnaXRodWIuY29tL3NhbHRv",
+            "c3lzdGVtcy9zYWx0b2FwaXMtZ28vbmVidWxhL2NhbGVuZGFyL3YxO2NhbGVu",
+            "ZGFyqgIcU2FsdG9hcGlzLk5lYnVsYS5DYWxlbmRhci5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Nebula.Type.DayTypeReflection.Descriptor, global::Saltoapis.Type.DateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

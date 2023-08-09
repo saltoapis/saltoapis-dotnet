@@ -26,10 +26,10 @@ namespace Saltoapis.Type {
           string.Concat(
             "ChZzYWx0by90eXBlL2NvbG9yLnByb3RvEgpzYWx0by50eXBlIk8KBUNvbG9y",
             "EgsKA3JlZBgBIAEoAhINCgVncmVlbhgCIAEoAhIMCgRibHVlGAMgASgCEhIK",
-            "BWFscGhhGAQgASgCSACIAQFCCAoGX2FscGhhQm8KEmNvbS5zYWx0b2FwaXMu",
-            "dHlwZUIKQ29sb3JQcm90b1ABWjpnaXRodWIuY29tL3ByaXZhdGUtc2FsdG9h",
-            "cGlzL3NhbHRvYXBpcy1nby90eXBlL2NvbG9yO2NvbG9yqgIOU2FsdG9hcGlz",
-            "LlR5cGViBnByb3RvMw=="));
+            "BWFscGhhGAQgASgCSACIAQFCCAoGX2FscGhhQmoKEmNvbS5zYWx0b2FwaXMu",
+            "dHlwZUIKQ29sb3JQcm90b1ABWjVnaXRodWIuY29tL3NhbHRvc3lzdGVtcy9z",
+            "YWx0b2FwaXMtZ28vdHlwZS9jb2xvcjtjb2xvcqoCDlNhbHRvYXBpcy5UeXBl",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
