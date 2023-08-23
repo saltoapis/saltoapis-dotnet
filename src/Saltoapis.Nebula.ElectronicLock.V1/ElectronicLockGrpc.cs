@@ -91,6 +91,10 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest> __Marshaller_salto_nebula_electroniclock_v1_ResetElectronicLockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.ResetElectronicLockRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest> __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockFirmwareRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenRequest> __Marshaller_salto_nebula_electroniclock_v1_GenerateAuthorizationTokenRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenResponse> __Marshaller_salto_nebula_electroniclock_v1_GenerateAuthorizationTokenResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock> __Method_CreateElectronicLock = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.CreateElectronicLockRequest, global::Saltoapis.Nebula.ElectronicLock.V1.ElectronicLock>(
@@ -179,6 +183,14 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         "UpdateElectronicLockFirmware",
         __Marshaller_salto_nebula_electroniclock_v1_UpdateElectronicLockFirmwareRequest,
         __Marshaller_salto_longrunning_v1_Operation);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenRequest, global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenResponse> __Method_GenerateAuthorizationToken = new grpc::Method<global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenRequest, global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GenerateAuthorizationToken",
+        __Marshaller_salto_nebula_electroniclock_v1_GenerateAuthorizationTokenRequest,
+        __Marshaller_salto_nebula_electroniclock_v1_GenerateAuthorizationTokenResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -888,6 +900,66 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> UpdateElectronicLockFirmwareAsync(global::Saltoapis.Nebula.ElectronicLock.V1.UpdateElectronicLockFirmwareRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateElectronicLockFirmware, null, options, request);
+      }
+      /// <summary>
+      /// Generates an authorization token for an electronic lock
+      ///
+      /// Generates an authorization token that allows to connect, authenticate and
+      /// authorize against an electronic lock.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenResponse GenerateAuthorizationToken(global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GenerateAuthorizationToken(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Generates an authorization token for an electronic lock
+      ///
+      /// Generates an authorization token that allows to connect, authenticate and
+      /// authorize against an electronic lock.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenResponse GenerateAuthorizationToken(global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GenerateAuthorizationToken, null, options, request);
+      }
+      /// <summary>
+      /// Generates an authorization token for an electronic lock
+      ///
+      /// Generates an authorization token that allows to connect, authenticate and
+      /// authorize against an electronic lock.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenResponse> GenerateAuthorizationTokenAsync(global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GenerateAuthorizationTokenAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Generates an authorization token for an electronic lock
+      ///
+      /// Generates an authorization token that allows to connect, authenticate and
+      /// authorize against an electronic lock.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenResponse> GenerateAuthorizationTokenAsync(global::Saltoapis.Nebula.ElectronicLock.V1.GenerateAuthorizationTokenRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GenerateAuthorizationToken, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
