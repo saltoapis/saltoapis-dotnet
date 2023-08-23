@@ -902,10 +902,10 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateElectronicLockFirmware, null, options, request);
       }
       /// <summary>
-      /// Generates an authorization token for an electronic lock
+      /// Generate authorization token for an electronic lock
       ///
-      /// Generates an authorization token that allows to connect, authenticate and
-      /// authorize against an electronic lock.
+      /// Generates an authorization token that allows to connect to, authenticate and
+      /// authorize an electronic lock.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -918,10 +918,10 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         return GenerateAuthorizationToken(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Generates an authorization token for an electronic lock
+      /// Generate authorization token for an electronic lock
       ///
-      /// Generates an authorization token that allows to connect, authenticate and
-      /// authorize against an electronic lock.
+      /// Generates an authorization token that allows to connect to, authenticate and
+      /// authorize an electronic lock.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -932,10 +932,10 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_GenerateAuthorizationToken, null, options, request);
       }
       /// <summary>
-      /// Generates an authorization token for an electronic lock
+      /// Generate authorization token for an electronic lock
       ///
-      /// Generates an authorization token that allows to connect, authenticate and
-      /// authorize against an electronic lock.
+      /// Generates an authorization token that allows to connect to, authenticate and
+      /// authorize an electronic lock.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -948,10 +948,10 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
         return GenerateAuthorizationTokenAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Generates an authorization token for an electronic lock
+      /// Generate authorization token for an electronic lock
       ///
-      /// Generates an authorization token that allows to connect, authenticate and
-      /// authorize against an electronic lock.
+      /// Generates an authorization token that allows to connect to, authenticate and
+      /// authorize an electronic lock.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

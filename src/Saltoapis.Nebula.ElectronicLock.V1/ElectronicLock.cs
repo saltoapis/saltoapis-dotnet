@@ -5521,7 +5521,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
     public const int AuthorizationTokenFieldNumber = 1;
     private pb::ByteString authorizationToken_ = pb::ByteString.Empty;
     /// <summary>
-    /// Authorization token to be used for connecting against an electronic lock.
+    /// Authorization token to be used for connecting to an electronic lock.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
