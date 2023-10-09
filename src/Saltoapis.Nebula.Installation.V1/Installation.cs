@@ -8968,7 +8968,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     private string parent_ = "";
     /// <summary>
     /// The parent resource name. It must have the format of
-    /// `installations/*`. For example: `installations/surelock-homes-hq/subscription`.
+    /// `installations/*/subscription`. For example: `installations/surelock-homes-hq/subscription`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
