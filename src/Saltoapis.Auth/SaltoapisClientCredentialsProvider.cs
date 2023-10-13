@@ -86,7 +86,7 @@ namespace Saltoapis.Auth
     /// access token from the authorization server and stores it while it's still
     /// valid. When its close to expiration a new one will be automatically requested.
     /// </summary>
-    class SaltoOAuthClient : OAuthClientCredentialsProvider
+    public class SaltoOAuthClient : OAuthClientCredentialsProvider
     {
         OIDCConfiguration cachedOidcConfiguration; // refeshed every 24 hours
         DateTimeOffset oidcCacheExpiration;
