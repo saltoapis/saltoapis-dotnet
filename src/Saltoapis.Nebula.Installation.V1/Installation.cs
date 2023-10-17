@@ -81,85 +81,86 @@ namespace Saltoapis.Nebula.Installation.V1 {
             "bhIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkijgEKGVVwZGF0ZUluc3RhbGxh",
             "dGlvblJlcXVlc3QSQAoMaW5zdGFsbGF0aW9uGAEgASgLMiouc2FsdG8ubmVi",
             "dWxhLmluc3RhbGxhdGlvbi52MS5JbnN0YWxsYXRpb24SLwoLdXBkYXRlX21h",
-            "c2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIikKGURlbGV0",
-            "ZUluc3RhbGxhdGlvblJlcXVlc3QSDAoEbmFtZRgBIAEoCSJuChNDcmVhdGVQ",
-            "b2xpY3lSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwb2xpY3lfaWQYAiAB",
-            "KAkSNAoGcG9saWN5GAMgASgLMiQuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlv",
-            "bi52MS5Qb2xpY3kiIAoQR2V0UG9saWN5UmVxdWVzdBIMCgRuYW1lGAEgASgJ",
-            "Im4KE0xpc3RQb2xpY2llc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBh",
-            "Z2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgE",
-            "IAEoCRIQCghvcmRlcl9ieRgFIAEoCSJnChRMaXN0UG9saWNpZXNSZXNwb25z",
-            "ZRI2Cghwb2xpY2llcxgBIAMoCzIkLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRp",
-            "b24udjEuUG9saWN5EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJ8ChNVcGRh",
-            "dGVQb2xpY3lSZXF1ZXN0EjQKBnBvbGljeRgBIAEoCzIkLnNhbHRvLm5lYnVs",
-            "YS5pbnN0YWxsYXRpb24udjEuUG9saWN5Ei8KC3VwZGF0ZV9tYXNrGAIgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIjChNEZWxldGVQb2xpY3lS",
-            "ZXF1ZXN0EgwKBG5hbWUYASABKAkiQwoWVGVzdFBlcm1pc3Npb25zUmVxdWVz",
-            "dBIUCgxpbnN0YWxsYXRpb24YASABKAkSEwoLcGVybWlzc2lvbnMYAiADKAki",
-            "LgoXVGVzdFBlcm1pc3Npb25zUmVzcG9uc2USEwoLcGVybWlzc2lvbnMYASAD",
-            "KAkiSwokVHJhbnNmZXJJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXF1ZXN0EhQK",
-            "DGluc3RhbGxhdGlvbhgBIAEoCRINCgVlbWFpbBgCIAEoCSInCiVUcmFuc2Zl",
-            "ckluc3RhbGxhdGlvbk93bmVyc2hpcFJlc3BvbnNlIjoKIkFjY2VwdEluc3Rh",
-            "bGxhdGlvbk93bmVyc2hpcFJlcXVlc3QSFAoMaW5zdGFsbGF0aW9uGAEgASgJ",
-            "IiUKI0FjY2VwdEluc3RhbGxhdGlvbk93bmVyc2hpcFJlc3BvbnNlIiYKFkdl",
-            "dFN1YnNjcmlwdGlvblJlcXVlc3QSDAoEbmFtZRgBIAEoCSJbChhVcGRhdGVC",
-            "aWxsaW5nSW5mb1JlcXVlc3QSPwoMYmlsbGluZ19pbmZvGAEgASgLMikuc2Fs",
-            "dG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5CaWxsaW5nSW5mbyI6ChFVcGRh",
-            "dGVDYXJkUmVxdWVzdBIWCg5wYXltZW50X21ldGhvZBgBIAEoCRINCgV0b2tl",
-            "bhgCIAEoCSIUChJVcGRhdGVDYXJkUmVzcG9uc2UiJQoTTGlzdEludm9pY2Vz",
-            "UmVxdWVzdBIOCgZwYXJlbnQYASABKAkiTwoUTGlzdEludm9pY2VzUmVzcG9u",
-            "c2USNwoIaW52b2ljZXMYASADKAsyJS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0",
-            "aW9uLnYxLkludm9pY2UyrhAKE0luc3RhbGxhdGlvblNlcnZpY2USeQoSQ3Jl",
-            "YXRlSW5zdGFsbGF0aW9uEjcuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52",
-            "MS5DcmVhdGVJbnN0YWxsYXRpb25SZXF1ZXN0Giouc2FsdG8ubmVidWxhLmlu",
-            "c3RhbGxhdGlvbi52MS5JbnN0YWxsYXRpb24ScwoPR2V0SW5zdGFsbGF0aW9u",
-            "EjQuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5HZXRJbnN0YWxsYXRp",
-            "b25SZXF1ZXN0Giouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnN0",
-            "YWxsYXRpb24ShAEKEUxpc3RJbnN0YWxsYXRpb25zEjYuc2FsdG8ubmVidWxh",
-            "Lmluc3RhbGxhdGlvbi52MS5MaXN0SW5zdGFsbGF0aW9uc1JlcXVlc3QaNy5z",
-            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RJbnN0YWxsYXRpb25z",
-            "UmVzcG9uc2USeQoSVXBkYXRlSW5zdGFsbGF0aW9uEjcuc2FsdG8ubmVidWxh",
-            "Lmluc3RhbGxhdGlvbi52MS5VcGRhdGVJbnN0YWxsYXRpb25SZXF1ZXN0Giou",
-            "c2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnN0YWxsYXRpb24SeQoS",
-            "RGVsZXRlSW5zdGFsbGF0aW9uEjcuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlv",
-            "bi52MS5EZWxldGVJbnN0YWxsYXRpb25SZXF1ZXN0Giouc2FsdG8ubmVidWxh",
-            "Lmluc3RhbGxhdGlvbi52MS5JbnN0YWxsYXRpb24SZwoMQ3JlYXRlUG9saWN5",
-            "EjEuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5DcmVhdGVQb2xpY3lS",
-            "ZXF1ZXN0GiQuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5Qb2xpY3kS",
-            "YQoJR2V0UG9saWN5Ei4uc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5H",
-            "ZXRQb2xpY3lSZXF1ZXN0GiQuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52",
-            "MS5Qb2xpY3kSdQoMTGlzdFBvbGljaWVzEjEuc2FsdG8ubmVidWxhLmluc3Rh",
-            "bGxhdGlvbi52MS5MaXN0UG9saWNpZXNSZXF1ZXN0GjIuc2FsdG8ubmVidWxh",
-            "Lmluc3RhbGxhdGlvbi52MS5MaXN0UG9saWNpZXNSZXNwb25zZRJnCgxVcGRh",
-            "dGVQb2xpY3kSMS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlVwZGF0",
-            "ZVBvbGljeVJlcXVlc3QaJC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYx",
-            "LlBvbGljeRJZCgxEZWxldGVQb2xpY3kSMS5zYWx0by5uZWJ1bGEuaW5zdGFs",
-            "bGF0aW9uLnYxLkRlbGV0ZVBvbGljeVJlcXVlc3QaFi5nb29nbGUucHJvdG9i",
-            "dWYuRW1wdHkSfgoPVGVzdFBlcm1pc3Npb25zEjQuc2FsdG8ubmVidWxhLmlu",
-            "c3RhbGxhdGlvbi52MS5UZXN0UGVybWlzc2lvbnNSZXF1ZXN0GjUuc2FsdG8u",
-            "bmVidWxhLmluc3RhbGxhdGlvbi52MS5UZXN0UGVybWlzc2lvbnNSZXNwb25z",
-            "ZRKoAQodVHJhbnNmZXJJbnN0YWxsYXRpb25Pd25lcnNoaXASQi5zYWx0by5u",
-            "ZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlRyYW5zZmVySW5zdGFsbGF0aW9uT3du",
-            "ZXJzaGlwUmVxdWVzdBpDLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEu",
-            "VHJhbnNmZXJJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXNwb25zZRKiAQobQWNj",
-            "ZXB0SW5zdGFsbGF0aW9uT3duZXJzaGlwEkAuc2FsdG8ubmVidWxhLmluc3Rh",
-            "bGxhdGlvbi52MS5BY2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXF1ZXN0",
-            "GkEuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5BY2NlcHRJbnN0YWxs",
-            "YXRpb25Pd25lcnNoaXBSZXNwb25zZRJzCg9HZXRTdWJzY3JpcHRpb24SNC5z",
-            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkdldFN1YnNjcmlwdGlvblJl",
-            "cXVlc3QaKi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlN1YnNjcmlw",
-            "dGlvbhJ2ChFVcGRhdGVCaWxsaW5nSW5mbxI2LnNhbHRvLm5lYnVsYS5pbnN0",
-            "YWxsYXRpb24udjEuVXBkYXRlQmlsbGluZ0luZm9SZXF1ZXN0Gikuc2FsdG8u",
-            "bmVidWxhLmluc3RhbGxhdGlvbi52MS5CaWxsaW5nSW5mbxJvCgpVcGRhdGVD",
-            "YXJkEi8uc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5VcGRhdGVDYXJk",
-            "UmVxdWVzdBowLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVXBkYXRl",
-            "Q2FyZFJlc3BvbnNlEnUKDExpc3RJbnZvaWNlcxIxLnNhbHRvLm5lYnVsYS5p",
-            "bnN0YWxsYXRpb24udjEuTGlzdEludm9pY2VzUmVxdWVzdBoyLnNhbHRvLm5l",
-            "YnVsYS5pbnN0YWxsYXRpb24udjEuTGlzdEludm9pY2VzUmVzcG9uc2VCqAEK",
-            "JGNvbS5zYWx0b2FwaXMubmVidWxhLmluc3RhbGxhdGlvbi52MUIRSW5zdGFs",
-            "bGF0aW9uUHJvdG9QAVpIZ2l0aHViLmNvbS9zYWx0b3N5c3RlbXMvc2FsdG9h",
-            "cGlzLWdvL25lYnVsYS9pbnN0YWxsYXRpb24vdjE7aW5zdGFsbGF0aW9uqgIg",
-            "U2FsdG9hcGlzLk5lYnVsYS5JbnN0YWxsYXRpb24uVjFiBnByb3RvMw=="));
+            "c2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIlcKGURlbGV0",
+            "ZUluc3RhbGxhdGlvblJlcXVlc3QSDAoEbmFtZRgBIAEoCRIaCg12YWxpZGF0",
+            "ZV9vbmx5GAIgASgISACIAQFCEAoOX3ZhbGlkYXRlX29ubHkibgoTQ3JlYXRl",
+            "UG9saWN5UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcG9saWN5X2lkGAIg",
+            "ASgJEjQKBnBvbGljeRgDIAEoCzIkLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRp",
+            "b24udjEuUG9saWN5IiAKEEdldFBvbGljeVJlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CSJuChNMaXN0UG9saWNpZXNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglw",
+            "YWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIY",
+            "BCABKAkSEAoIb3JkZXJfYnkYBSABKAkiZwoUTGlzdFBvbGljaWVzUmVzcG9u",
+            "c2USNgoIcG9saWNpZXMYASADKAsyJC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0",
+            "aW9uLnYxLlBvbGljeRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkifAoTVXBk",
+            "YXRlUG9saWN5UmVxdWVzdBI0CgZwb2xpY3kYASABKAsyJC5zYWx0by5uZWJ1",
+            "bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGljeRIvCgt1cGRhdGVfbWFzaxgCIAEo",
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siIwoTRGVsZXRlUG9saWN5",
+            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIkMKFlRlc3RQZXJtaXNzaW9uc1JlcXVl",
+            "c3QSFAoMaW5zdGFsbGF0aW9uGAEgASgJEhMKC3Blcm1pc3Npb25zGAIgAygJ",
+            "Ii4KF1Rlc3RQZXJtaXNzaW9uc1Jlc3BvbnNlEhMKC3Blcm1pc3Npb25zGAEg",
+            "AygJIksKJFRyYW5zZmVySW5zdGFsbGF0aW9uT3duZXJzaGlwUmVxdWVzdBIU",
+            "CgxpbnN0YWxsYXRpb24YASABKAkSDQoFZW1haWwYAiABKAkiJwolVHJhbnNm",
+            "ZXJJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXNwb25zZSI6CiJBY2NlcHRJbnN0",
+            "YWxsYXRpb25Pd25lcnNoaXBSZXF1ZXN0EhQKDGluc3RhbGxhdGlvbhgBIAEo",
+            "CSIlCiNBY2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXNwb25zZSImChZH",
+            "ZXRTdWJzY3JpcHRpb25SZXF1ZXN0EgwKBG5hbWUYASABKAkiWwoYVXBkYXRl",
+            "QmlsbGluZ0luZm9SZXF1ZXN0Ej8KDGJpbGxpbmdfaW5mbxgBIAEoCzIpLnNh",
+            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuQmlsbGluZ0luZm8iOgoRVXBk",
+            "YXRlQ2FyZFJlcXVlc3QSFgoOcGF5bWVudF9tZXRob2QYASABKAkSDQoFdG9r",
+            "ZW4YAiABKAkiFAoSVXBkYXRlQ2FyZFJlc3BvbnNlIiUKE0xpc3RJbnZvaWNl",
+            "c1JlcXVlc3QSDgoGcGFyZW50GAEgASgJIk8KFExpc3RJbnZvaWNlc1Jlc3Bv",
+            "bnNlEjcKCGludm9pY2VzGAEgAygLMiUuc2FsdG8ubmVidWxhLmluc3RhbGxh",
+            "dGlvbi52MS5JbnZvaWNlMq4QChNJbnN0YWxsYXRpb25TZXJ2aWNlEnkKEkNy",
+            "ZWF0ZUluc3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24u",
+            "djEuQ3JlYXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoqLnNhbHRvLm5lYnVsYS5p",
+            "bnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uEnMKD0dldEluc3RhbGxhdGlv",
+            "bhI0LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuR2V0SW5zdGFsbGF0",
+            "aW9uUmVxdWVzdBoqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5z",
+            "dGFsbGF0aW9uEoQBChFMaXN0SW5zdGFsbGF0aW9ucxI2LnNhbHRvLm5lYnVs",
+            "YS5pbnN0YWxsYXRpb24udjEuTGlzdEluc3RhbGxhdGlvbnNSZXF1ZXN0Gjcu",
+            "c2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5MaXN0SW5zdGFsbGF0aW9u",
+            "c1Jlc3BvbnNlEnkKElVwZGF0ZUluc3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVs",
+            "YS5pbnN0YWxsYXRpb24udjEuVXBkYXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoq",
+            "LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uEnkK",
+            "EkRlbGV0ZUluc3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRp",
+            "b24udjEuRGVsZXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoqLnNhbHRvLm5lYnVs",
+            "YS5pbnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uEmcKDENyZWF0ZVBvbGlj",
+            "eRIxLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuQ3JlYXRlUG9saWN5",
+            "UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuUG9saWN5",
+            "EmEKCUdldFBvbGljeRIuLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEu",
+            "R2V0UG9saWN5UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24u",
+            "djEuUG9saWN5EnUKDExpc3RQb2xpY2llcxIxLnNhbHRvLm5lYnVsYS5pbnN0",
+            "YWxsYXRpb24udjEuTGlzdFBvbGljaWVzUmVxdWVzdBoyLnNhbHRvLm5lYnVs",
+            "YS5pbnN0YWxsYXRpb24udjEuTGlzdFBvbGljaWVzUmVzcG9uc2USZwoMVXBk",
+            "YXRlUG9saWN5EjEuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5VcGRh",
+            "dGVQb2xpY3lSZXF1ZXN0GiQuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52",
+            "MS5Qb2xpY3kSWQoMRGVsZXRlUG9saWN5EjEuc2FsdG8ubmVidWxhLmluc3Rh",
+            "bGxhdGlvbi52MS5EZWxldGVQb2xpY3lSZXF1ZXN0GhYuZ29vZ2xlLnByb3Rv",
+            "YnVmLkVtcHR5En4KD1Rlc3RQZXJtaXNzaW9ucxI0LnNhbHRvLm5lYnVsYS5p",
+            "bnN0YWxsYXRpb24udjEuVGVzdFBlcm1pc3Npb25zUmVxdWVzdBo1LnNhbHRv",
+            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVGVzdFBlcm1pc3Npb25zUmVzcG9u",
+            "c2USqAEKHVRyYW5zZmVySW5zdGFsbGF0aW9uT3duZXJzaGlwEkIuc2FsdG8u",
+            "bmVidWxhLmluc3RhbGxhdGlvbi52MS5UcmFuc2Zlckluc3RhbGxhdGlvbk93",
+            "bmVyc2hpcFJlcXVlc3QaQy5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYx",
+            "LlRyYW5zZmVySW5zdGFsbGF0aW9uT3duZXJzaGlwUmVzcG9uc2USogEKG0Fj",
+            "Y2VwdEluc3RhbGxhdGlvbk93bmVyc2hpcBJALnNhbHRvLm5lYnVsYS5pbnN0",
+            "YWxsYXRpb24udjEuQWNjZXB0SW5zdGFsbGF0aW9uT3duZXJzaGlwUmVxdWVz",
+            "dBpBLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuQWNjZXB0SW5zdGFs",
+            "bGF0aW9uT3duZXJzaGlwUmVzcG9uc2UScwoPR2V0U3Vic2NyaXB0aW9uEjQu",
+            "c2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5HZXRTdWJzY3JpcHRpb25S",
+            "ZXF1ZXN0Giouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5TdWJzY3Jp",
+            "cHRpb24SdgoRVXBkYXRlQmlsbGluZ0luZm8SNi5zYWx0by5uZWJ1bGEuaW5z",
+            "dGFsbGF0aW9uLnYxLlVwZGF0ZUJpbGxpbmdJbmZvUmVxdWVzdBopLnNhbHRv",
+            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuQmlsbGluZ0luZm8SbwoKVXBkYXRl",
+            "Q2FyZBIvLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVXBkYXRlQ2Fy",
+            "ZFJlcXVlc3QaMC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlVwZGF0",
+            "ZUNhcmRSZXNwb25zZRJ1CgxMaXN0SW52b2ljZXMSMS5zYWx0by5uZWJ1bGEu",
+            "aW5zdGFsbGF0aW9uLnYxLkxpc3RJbnZvaWNlc1JlcXVlc3QaMi5zYWx0by5u",
+            "ZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RJbnZvaWNlc1Jlc3BvbnNlQqgB",
+            "CiRjb20uc2FsdG9hcGlzLm5lYnVsYS5pbnN0YWxsYXRpb24udjFCEUluc3Rh",
+            "bGxhdGlvblByb3RvUAFaSGdpdGh1Yi5jb20vc2FsdG9zeXN0ZW1zL3NhbHRv",
+            "YXBpcy1nby9uZWJ1bGEvaW5zdGFsbGF0aW9uL3YxO2luc3RhbGxhdGlvbqoC",
+            "IFNhbHRvYXBpcy5OZWJ1bGEuSW5zdGFsbGF0aW9uLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Type.ColorReflection.Descriptor, global::Saltoapis.Type.DateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -176,7 +177,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest), global::Saltoapis.Nebula.Installation.V1.ListInstallationsRequest.Parser, new[]{ "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse), global::Saltoapis.Nebula.Installation.V1.ListInstallationsResponse.Parser, new[]{ "Installations", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest), global::Saltoapis.Nebula.Installation.V1.UpdateInstallationRequest.Parser, new[]{ "Installation", "UpdateMask" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest), global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest), global::Saltoapis.Nebula.Installation.V1.DeleteInstallationRequest.Parser, new[]{ "Name", "ValidateOnly" }, new[]{ "ValidateOnly" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest), global::Saltoapis.Nebula.Installation.V1.CreatePolicyRequest.Parser, new[]{ "Parent", "PolicyId", "Policy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest), global::Saltoapis.Nebula.Installation.V1.GetPolicyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest), global::Saltoapis.Nebula.Installation.V1.ListPoliciesRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -5264,6 +5265,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   {
     private static readonly pb::MessageParser<DeleteInstallationRequest> _parser = new pb::MessageParser<DeleteInstallationRequest>(() => new DeleteInstallationRequest());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<DeleteInstallationRequest> Parser { get { return _parser; } }
@@ -5291,7 +5293,9 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DeleteInstallationRequest(DeleteInstallationRequest other) : this() {
+      _hasBits0 = other._hasBits0;
       name_ = other.name_;
+      validateOnly_ = other.validateOnly_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5317,6 +5321,36 @@ namespace Saltoapis.Nebula.Installation.V1 {
       }
     }
 
+    /// <summary>Field number for the "validate_only" field.</summary>
+    public const int ValidateOnlyFieldNumber = 2;
+    private readonly static bool ValidateOnlyDefaultValue = false;
+
+    private bool validateOnly_;
+    /// <summary>
+    /// If set, validate the request but do not actually delete the installation.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool ValidateOnly {
+      get { if ((_hasBits0 & 1) != 0) { return validateOnly_; } else { return ValidateOnlyDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        validateOnly_ = value;
+      }
+    }
+    /// <summary>Gets whether the "validate_only" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasValidateOnly {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "validate_only" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearValidateOnly() {
+      _hasBits0 &= ~1;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -5333,6 +5367,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (ValidateOnly != other.ValidateOnly) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5341,6 +5376,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (HasValidateOnly) hash ^= ValidateOnly.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5363,6 +5399,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (HasValidateOnly) {
+        output.WriteRawTag(16);
+        output.WriteBool(ValidateOnly);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5377,6 +5417,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (HasValidateOnly) {
+        output.WriteRawTag(16);
+        output.WriteBool(ValidateOnly);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5389,6 +5433,9 @@ namespace Saltoapis.Nebula.Installation.V1 {
       int size = 0;
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (HasValidateOnly) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5404,6 +5451,9 @@ namespace Saltoapis.Nebula.Installation.V1 {
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
+      }
+      if (other.HasValidateOnly) {
+        ValidateOnly = other.ValidateOnly;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5424,6 +5474,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
             Name = input.ReadString();
             break;
           }
+          case 16: {
+            ValidateOnly = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -5441,6 +5495,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
             break;
           case 10: {
             Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            ValidateOnly = input.ReadBool();
             break;
           }
         }
