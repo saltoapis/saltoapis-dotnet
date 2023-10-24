@@ -45,137 +45,139 @@ namespace Saltoapis.Nebula.Installation.V1 {
             "bBgBIAEoCRIvCgtleHBpcmVfdGltZRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1",
             "Zi5UaW1lc3RhbXAaOAoLUGFydG5lckluZm8SEgoKcGFydG5lcl9pZBgBIAEo",
             "CRIVCg1jdXJyZW5jeV9jb2RlGAIgASgJQggKBl9waG90b0IPCg1fcGFydG5l",
-            "cl9pbmZvIu4BCgxTdWJzY3JpcHRpb24SDAoEbmFtZRgBIAEoCRI3Cg50cmlh",
+            "cl9pbmZvIqUCCgxTdWJzY3JpcHRpb24SDAoEbmFtZRgBIAEoCRI3Cg50cmlh",
             "bF9lbmRfdGltZRgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBI",
             "AIgBARI/CgxiaWxsaW5nX2luZm8YBCABKAsyKS5zYWx0by5uZWJ1bGEuaW5z",
             "dGFsbGF0aW9uLnYxLkJpbGxpbmdJbmZvEkMKDnBheW1lbnRfbWV0aG9kGAUg",
             "ASgLMisuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5QYXltZW50TWV0",
-            "aG9kQhEKD190cmlhbF9lbmRfdGltZSK9AQoLQmlsbGluZ0luZm8SDAoEbmFt",
-            "ZRgBIAEoCRIPCgdjb21wYW55GAIgASgJEg8KB2FkZHJlc3MYAyADKAkSEwoL",
-            "cmVnaW9uX2NvZGUYBCABKAkSDAoEY2l0eRgFIAEoCRIXCgpzdGF0ZV9jb2Rl",
-            "GAYgASgJSACIAQESCwoDemlwGAcgASgJEhcKCnZhdF9udW1iZXIYCCABKAlI",
-            "AYgBAUINCgtfc3RhdGVfY29kZUINCgtfdmF0X251bWJlciK6AQoNUGF5bWVu",
-            "dE1ldGhvZBIMCgRuYW1lGAEgASgJEkAKBGNhcmQYAiABKAsyMC5zYWx0by5u",
-            "ZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBheW1lbnRNZXRob2QuQ2FyZEgAGk8K",
-            "BENhcmQSJQoLZXhwaXJlX2RhdGUYASABKAsyEC5zYWx0by50eXBlLkRhdGUS",
-            "EQoJbGFzdF9mb3VyGAIgASgJEg0KBWJyYW5kGAMgASgJQggKBm1ldGhvZCLz",
-            "AgoHSW52b2ljZRIMCgRuYW1lGAEgASgJEi4KCnN0YXJ0X3RpbWUYAiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEiwKCGVuZF90aW1lGAMgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBJCCgpsaW5lX2l0ZW1zGAQg",
-            "AygLMi4uc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnZvaWNlLkxp",
-            "bmVJdGVtEg0KBXRvdGFsGAUgASgDEjoKBXN0YXRlGAYgASgOMisuc2FsdG8u",
-            "bmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnZvaWNlLlN0YXRlGjcKCExpbmVJ",
-            "dGVtEgoKAmlkGAEgASgJEhAKCHF1YW50aXR5GAIgASgFEg0KBXByaWNlGAMg",
-            "ASgDIjQKBVN0YXRlEhUKEVNUQVRFX1VOU1BFQ0lGSUVEEAASCgoGVU5QQUlE",
-            "EAESCAoEUEFJRBACIjUKBlBvbGljeRIMCgRuYW1lGAEgASgJEg4KBm1lbWJl",
-            "chgCIAEoCRINCgVyb2xlcxgDIAMoCSK9AQoZQ3JlYXRlSW5zdGFsbGF0aW9u",
-            "UmVxdWVzdBIcCg9pbnN0YWxsYXRpb25faWQYASABKAlIAIgBARJACgxpbnN0",
-            "YWxsYXRpb24YAiABKAsyKi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYx",
-            "Lkluc3RhbGxhdGlvbhIaCg12YWxpZGF0ZV9vbmx5GAUgASgISAGIAQFCEgoQ",
-            "X2luc3RhbGxhdGlvbl9pZEIQCg5fdmFsaWRhdGVfb25seSImChZHZXRJbnN0",
-            "YWxsYXRpb25SZXF1ZXN0EgwKBG5hbWUYASABKAkieQoYTGlzdEluc3RhbGxh",
-            "dGlvbnNSZXF1ZXN0EhEKCXBhZ2Vfc2l6ZRgBIAEoBRISCgpwYWdlX3Rva2Vu",
-            "GAIgASgJEg4KBmZpbHRlchgDIAEoCRIQCghvcmRlcl9ieRgEIAEoCRIUCgxz",
-            "aG93X2RlbGV0ZWQYBSABKAgidwoZTGlzdEluc3RhbGxhdGlvbnNSZXNwb25z",
-            "ZRJBCg1pbnN0YWxsYXRpb25zGAEgAygLMiouc2FsdG8ubmVidWxhLmluc3Rh",
-            "bGxhdGlvbi52MS5JbnN0YWxsYXRpb24SFwoPbmV4dF9wYWdlX3Rva2VuGAIg",
-            "ASgJIo4BChlVcGRhdGVJbnN0YWxsYXRpb25SZXF1ZXN0EkAKDGluc3RhbGxh",
-            "dGlvbhgBIAEoCzIqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5z",
-            "dGFsbGF0aW9uEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3Rv",
-            "YnVmLkZpZWxkTWFzayKBAQoZRGVsZXRlSW5zdGFsbGF0aW9uUmVxdWVzdBIM",
-            "CgRuYW1lGAEgASgJEhoKDXZhbGlkYXRlX29ubHkYAiABKAhIAIgBARIYCgtk",
-            "ZWxheV9ob3VycxgDIAEoBUgBiAEBQhAKDl92YWxpZGF0ZV9vbmx5Qg4KDF9k",
-            "ZWxheV9ob3VycyIrChtVbmRlbGV0ZUluc3RhbGxhdGlvblJlcXVlc3QSDAoE",
-            "bmFtZRgBIAEoCSJuChNDcmVhdGVQb2xpY3lSZXF1ZXN0Eg4KBnBhcmVudBgB",
-            "IAEoCRIRCglwb2xpY3lfaWQYAiABKAkSNAoGcG9saWN5GAMgASgLMiQuc2Fs",
-            "dG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5Qb2xpY3kiIAoQR2V0UG9saWN5",
-            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIm4KE0xpc3RQb2xpY2llc1JlcXVlc3QS",
-            "DgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rv",
-            "a2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJn",
-            "ChRMaXN0UG9saWNpZXNSZXNwb25zZRI2Cghwb2xpY2llcxgBIAMoCzIkLnNh",
-            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuUG9saWN5EhcKD25leHRfcGFn",
-            "ZV90b2tlbhgCIAEoCSJ8ChNVcGRhdGVQb2xpY3lSZXF1ZXN0EjQKBnBvbGlj",
-            "eRgBIAEoCzIkLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuUG9saWN5",
-            "Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxk",
-            "TWFzayIjChNEZWxldGVQb2xpY3lSZXF1ZXN0EgwKBG5hbWUYASABKAkiQwoW",
-            "VGVzdFBlcm1pc3Npb25zUmVxdWVzdBIUCgxpbnN0YWxsYXRpb24YASABKAkS",
-            "EwoLcGVybWlzc2lvbnMYAiADKAkiLgoXVGVzdFBlcm1pc3Npb25zUmVzcG9u",
-            "c2USEwoLcGVybWlzc2lvbnMYASADKAkiSwokVHJhbnNmZXJJbnN0YWxsYXRp",
-            "b25Pd25lcnNoaXBSZXF1ZXN0EhQKDGluc3RhbGxhdGlvbhgBIAEoCRINCgVl",
-            "bWFpbBgCIAEoCSInCiVUcmFuc2Zlckluc3RhbGxhdGlvbk93bmVyc2hpcFJl",
-            "c3BvbnNlIjoKIkFjY2VwdEluc3RhbGxhdGlvbk93bmVyc2hpcFJlcXVlc3QS",
-            "FAoMaW5zdGFsbGF0aW9uGAEgASgJIiUKI0FjY2VwdEluc3RhbGxhdGlvbk93",
-            "bmVyc2hpcFJlc3BvbnNlIiYKFkdldFN1YnNjcmlwdGlvblJlcXVlc3QSDAoE",
-            "bmFtZRgBIAEoCSJbChhVcGRhdGVCaWxsaW5nSW5mb1JlcXVlc3QSPwoMYmls",
-            "bGluZ19pbmZvGAEgASgLMikuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52",
-            "MS5CaWxsaW5nSW5mbyI6ChFVcGRhdGVDYXJkUmVxdWVzdBIWCg5wYXltZW50",
-            "X21ldGhvZBgBIAEoCRINCgV0b2tlbhgCIAEoCSIUChJVcGRhdGVDYXJkUmVz",
-            "cG9uc2UiJQoTTGlzdEludm9pY2VzUmVxdWVzdBIOCgZwYXJlbnQYASABKAki",
-            "TwoUTGlzdEludm9pY2VzUmVzcG9uc2USNwoIaW52b2ljZXMYASADKAsyJS5z",
-            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkludm9pY2UyrREKE0luc3Rh",
-            "bGxhdGlvblNlcnZpY2USeQoSQ3JlYXRlSW5zdGFsbGF0aW9uEjcuc2FsdG8u",
-            "bmVidWxhLmluc3RhbGxhdGlvbi52MS5DcmVhdGVJbnN0YWxsYXRpb25SZXF1",
-            "ZXN0Giouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnN0YWxsYXRp",
-            "b24ScwoPR2V0SW5zdGFsbGF0aW9uEjQuc2FsdG8ubmVidWxhLmluc3RhbGxh",
-            "dGlvbi52MS5HZXRJbnN0YWxsYXRpb25SZXF1ZXN0Giouc2FsdG8ubmVidWxh",
-            "Lmluc3RhbGxhdGlvbi52MS5JbnN0YWxsYXRpb24ShAEKEUxpc3RJbnN0YWxs",
-            "YXRpb25zEjYuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5MaXN0SW5z",
-            "dGFsbGF0aW9uc1JlcXVlc3QaNy5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9u",
-            "LnYxLkxpc3RJbnN0YWxsYXRpb25zUmVzcG9uc2USeQoSVXBkYXRlSW5zdGFs",
-            "bGF0aW9uEjcuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5VcGRhdGVJ",
-            "bnN0YWxsYXRpb25SZXF1ZXN0Giouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlv",
-            "bi52MS5JbnN0YWxsYXRpb24SeQoSRGVsZXRlSW5zdGFsbGF0aW9uEjcuc2Fs",
-            "dG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5EZWxldGVJbnN0YWxsYXRpb25S",
-            "ZXF1ZXN0Giouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnN0YWxs",
-            "YXRpb24SfQoUVW5kZWxldGVJbnN0YWxsYXRpb24SOS5zYWx0by5uZWJ1bGEu",
-            "aW5zdGFsbGF0aW9uLnYxLlVuZGVsZXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoq",
-            "LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uEmcK",
-            "DENyZWF0ZVBvbGljeRIxLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEu",
-            "Q3JlYXRlUG9saWN5UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRp",
-            "b24udjEuUG9saWN5EmEKCUdldFBvbGljeRIuLnNhbHRvLm5lYnVsYS5pbnN0",
-            "YWxsYXRpb24udjEuR2V0UG9saWN5UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5p",
-            "bnN0YWxsYXRpb24udjEuUG9saWN5EnUKDExpc3RQb2xpY2llcxIxLnNhbHRv",
-            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuTGlzdFBvbGljaWVzUmVxdWVzdBoy",
-            "LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuTGlzdFBvbGljaWVzUmVz",
-            "cG9uc2USZwoMVXBkYXRlUG9saWN5EjEuc2FsdG8ubmVidWxhLmluc3RhbGxh",
-            "dGlvbi52MS5VcGRhdGVQb2xpY3lSZXF1ZXN0GiQuc2FsdG8ubmVidWxhLmlu",
-            "c3RhbGxhdGlvbi52MS5Qb2xpY3kSWQoMRGVsZXRlUG9saWN5EjEuc2FsdG8u",
-            "bmVidWxhLmluc3RhbGxhdGlvbi52MS5EZWxldGVQb2xpY3lSZXF1ZXN0GhYu",
-            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5En4KD1Rlc3RQZXJtaXNzaW9ucxI0LnNh",
-            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVGVzdFBlcm1pc3Npb25zUmVx",
-            "dWVzdBo1LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVGVzdFBlcm1p",
-            "c3Npb25zUmVzcG9uc2USqAEKHVRyYW5zZmVySW5zdGFsbGF0aW9uT3duZXJz",
-            "aGlwEkIuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5UcmFuc2Zlcklu",
-            "c3RhbGxhdGlvbk93bmVyc2hpcFJlcXVlc3QaQy5zYWx0by5uZWJ1bGEuaW5z",
-            "dGFsbGF0aW9uLnYxLlRyYW5zZmVySW5zdGFsbGF0aW9uT3duZXJzaGlwUmVz",
-            "cG9uc2USogEKG0FjY2VwdEluc3RhbGxhdGlvbk93bmVyc2hpcBJALnNhbHRv",
-            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuQWNjZXB0SW5zdGFsbGF0aW9uT3du",
-            "ZXJzaGlwUmVxdWVzdBpBLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEu",
-            "QWNjZXB0SW5zdGFsbGF0aW9uT3duZXJzaGlwUmVzcG9uc2UScwoPR2V0U3Vi",
-            "c2NyaXB0aW9uEjQuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5HZXRT",
-            "dWJzY3JpcHRpb25SZXF1ZXN0Giouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlv",
-            "bi52MS5TdWJzY3JpcHRpb24SdgoRVXBkYXRlQmlsbGluZ0luZm8SNi5zYWx0",
-            "by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlVwZGF0ZUJpbGxpbmdJbmZvUmVx",
-            "dWVzdBopLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuQmlsbGluZ0lu",
-            "Zm8SbwoKVXBkYXRlQ2FyZBIvLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24u",
-            "djEuVXBkYXRlQ2FyZFJlcXVlc3QaMC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0",
-            "aW9uLnYxLlVwZGF0ZUNhcmRSZXNwb25zZRJ1CgxMaXN0SW52b2ljZXMSMS5z",
-            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RJbnZvaWNlc1JlcXVl",
-            "c3QaMi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RJbnZvaWNl",
-            "c1Jlc3BvbnNlQqgBCiRjb20uc2FsdG9hcGlzLm5lYnVsYS5pbnN0YWxsYXRp",
-            "b24udjFCEUluc3RhbGxhdGlvblByb3RvUAFaSGdpdGh1Yi5jb20vc2FsdG9z",
-            "eXN0ZW1zL3NhbHRvYXBpcy1nby9uZWJ1bGEvaW5zdGFsbGF0aW9uL3YxO2lu",
-            "c3RhbGxhdGlvbqoCIFNhbHRvYXBpcy5OZWJ1bGEuSW5zdGFsbGF0aW9uLlYx",
-            "YgZwcm90bzM="));
+            "aG9kEjUKB2NvdXBvbnMYBiADKAsyJC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0",
+            "aW9uLnYxLkNvdXBvbkIRCg9fdHJpYWxfZW5kX3RpbWUivQEKC0JpbGxpbmdJ",
+            "bmZvEgwKBG5hbWUYASABKAkSDwoHY29tcGFueRgCIAEoCRIPCgdhZGRyZXNz",
+            "GAMgAygJEhMKC3JlZ2lvbl9jb2RlGAQgASgJEgwKBGNpdHkYBSABKAkSFwoK",
+            "c3RhdGVfY29kZRgGIAEoCUgAiAEBEgsKA3ppcBgHIAEoCRIXCgp2YXRfbnVt",
+            "YmVyGAggASgJSAGIAQFCDQoLX3N0YXRlX2NvZGVCDQoLX3ZhdF9udW1iZXIi",
+            "ugEKDVBheW1lbnRNZXRob2QSDAoEbmFtZRgBIAEoCRJACgRjYXJkGAIgASgL",
+            "MjAuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5QYXltZW50TWV0aG9k",
+            "LkNhcmRIABpPCgRDYXJkEiUKC2V4cGlyZV9kYXRlGAEgASgLMhAuc2FsdG8u",
+            "dHlwZS5EYXRlEhEKCWxhc3RfZm91chgCIAEoCRINCgVicmFuZBgDIAEoCUII",
+            "CgZtZXRob2QiFgoGQ291cG9uEgwKBG5hbWUYASABKAki8wIKB0ludm9pY2US",
+            "DAoEbmFtZRgBIAEoCRIuCgpzdGFydF90aW1lGAIgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLlRpbWVzdGFtcBIsCghlbmRfdGltZRgDIAEoCzIaLmdvb2dsZS5w",
+            "cm90b2J1Zi5UaW1lc3RhbXASQgoKbGluZV9pdGVtcxgEIAMoCzIuLnNhbHRv",
+            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW52b2ljZS5MaW5lSXRlbRINCgV0",
+            "b3RhbBgFIAEoAxI6CgVzdGF0ZRgGIAEoDjIrLnNhbHRvLm5lYnVsYS5pbnN0",
+            "YWxsYXRpb24udjEuSW52b2ljZS5TdGF0ZRo3CghMaW5lSXRlbRIKCgJpZBgB",
+            "IAEoCRIQCghxdWFudGl0eRgCIAEoBRINCgVwcmljZRgDIAEoAyI0CgVTdGF0",
+            "ZRIVChFTVEFURV9VTlNQRUNJRklFRBAAEgoKBlVOUEFJRBABEggKBFBBSUQQ",
+            "AiI1CgZQb2xpY3kSDAoEbmFtZRgBIAEoCRIOCgZtZW1iZXIYAiABKAkSDQoF",
+            "cm9sZXMYAyADKAkivQEKGUNyZWF0ZUluc3RhbGxhdGlvblJlcXVlc3QSHAoP",
+            "aW5zdGFsbGF0aW9uX2lkGAEgASgJSACIAQESQAoMaW5zdGFsbGF0aW9uGAIg",
+            "ASgLMiouc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5JbnN0YWxsYXRp",
+            "b24SGgoNdmFsaWRhdGVfb25seRgFIAEoCEgBiAEBQhIKEF9pbnN0YWxsYXRp",
+            "b25faWRCEAoOX3ZhbGlkYXRlX29ubHkiJgoWR2V0SW5zdGFsbGF0aW9uUmVx",
+            "dWVzdBIMCgRuYW1lGAEgASgJInkKGExpc3RJbnN0YWxsYXRpb25zUmVxdWVz",
+            "dBIRCglwYWdlX3NpemUYASABKAUSEgoKcGFnZV90b2tlbhgCIAEoCRIOCgZm",
+            "aWx0ZXIYAyABKAkSEAoIb3JkZXJfYnkYBCABKAkSFAoMc2hvd19kZWxldGVk",
+            "GAUgASgIIncKGUxpc3RJbnN0YWxsYXRpb25zUmVzcG9uc2USQQoNaW5zdGFs",
+            "bGF0aW9ucxgBIAMoCzIqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEu",
+            "SW5zdGFsbGF0aW9uEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSKOAQoZVXBk",
+            "YXRlSW5zdGFsbGF0aW9uUmVxdWVzdBJACgxpbnN0YWxsYXRpb24YASABKAsy",
+            "Ki5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkluc3RhbGxhdGlvbhIv",
+            "Cgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1h",
+            "c2sigQEKGURlbGV0ZUluc3RhbGxhdGlvblJlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CRIaCg12YWxpZGF0ZV9vbmx5GAIgASgISACIAQESGAoLZGVsYXlfaG91cnMY",
+            "AyABKAVIAYgBAUIQCg5fdmFsaWRhdGVfb25seUIOCgxfZGVsYXlfaG91cnMi",
+            "KwobVW5kZWxldGVJbnN0YWxsYXRpb25SZXF1ZXN0EgwKBG5hbWUYASABKAki",
+            "bgoTQ3JlYXRlUG9saWN5UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcG9s",
+            "aWN5X2lkGAIgASgJEjQKBnBvbGljeRgDIAEoCzIkLnNhbHRvLm5lYnVsYS5p",
+            "bnN0YWxsYXRpb24udjEuUG9saWN5IiAKEEdldFBvbGljeVJlcXVlc3QSDAoE",
+            "bmFtZRgBIAEoCSJuChNMaXN0UG9saWNpZXNSZXF1ZXN0Eg4KBnBhcmVudBgB",
+            "IAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIO",
+            "CgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiZwoUTGlzdFBvbGlj",
+            "aWVzUmVzcG9uc2USNgoIcG9saWNpZXMYASADKAsyJC5zYWx0by5uZWJ1bGEu",
+            "aW5zdGFsbGF0aW9uLnYxLlBvbGljeRIXCg9uZXh0X3BhZ2VfdG9rZW4YAiAB",
+            "KAkifAoTVXBkYXRlUG9saWN5UmVxdWVzdBI0CgZwb2xpY3kYASABKAsyJC5z",
+            "YWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGljeRIvCgt1cGRhdGVf",
+            "bWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siIwoTRGVs",
+            "ZXRlUG9saWN5UmVxdWVzdBIMCgRuYW1lGAEgASgJIkMKFlRlc3RQZXJtaXNz",
+            "aW9uc1JlcXVlc3QSFAoMaW5zdGFsbGF0aW9uGAEgASgJEhMKC3Blcm1pc3Np",
+            "b25zGAIgAygJIi4KF1Rlc3RQZXJtaXNzaW9uc1Jlc3BvbnNlEhMKC3Blcm1p",
+            "c3Npb25zGAEgAygJIksKJFRyYW5zZmVySW5zdGFsbGF0aW9uT3duZXJzaGlw",
+            "UmVxdWVzdBIUCgxpbnN0YWxsYXRpb24YASABKAkSDQoFZW1haWwYAiABKAki",
+            "JwolVHJhbnNmZXJJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXNwb25zZSI6CiJB",
+            "Y2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXF1ZXN0EhQKDGluc3RhbGxh",
+            "dGlvbhgBIAEoCSIlCiNBY2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXBSZXNw",
+            "b25zZSImChZHZXRTdWJzY3JpcHRpb25SZXF1ZXN0EgwKBG5hbWUYASABKAki",
+            "WwoYVXBkYXRlQmlsbGluZ0luZm9SZXF1ZXN0Ej8KDGJpbGxpbmdfaW5mbxgB",
+            "IAEoCzIpLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuQmlsbGluZ0lu",
+            "Zm8iOgoRVXBkYXRlQ2FyZFJlcXVlc3QSFgoOcGF5bWVudF9tZXRob2QYASAB",
+            "KAkSDQoFdG9rZW4YAiABKAkiFAoSVXBkYXRlQ2FyZFJlc3BvbnNlIiUKE0xp",
+            "c3RJbnZvaWNlc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJIk8KFExpc3RJbnZv",
+            "aWNlc1Jlc3BvbnNlEjcKCGludm9pY2VzGAEgAygLMiUuc2FsdG8ubmVidWxh",
+            "Lmluc3RhbGxhdGlvbi52MS5JbnZvaWNlMq0RChNJbnN0YWxsYXRpb25TZXJ2",
+            "aWNlEnkKEkNyZWF0ZUluc3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5pbnN0",
+            "YWxsYXRpb24udjEuQ3JlYXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoqLnNhbHRv",
+            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uEnMKD0dldElu",
+            "c3RhbGxhdGlvbhI0LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuR2V0",
+            "SW5zdGFsbGF0aW9uUmVxdWVzdBoqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRp",
+            "b24udjEuSW5zdGFsbGF0aW9uEoQBChFMaXN0SW5zdGFsbGF0aW9ucxI2LnNh",
+            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuTGlzdEluc3RhbGxhdGlvbnNS",
+            "ZXF1ZXN0Gjcuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5MaXN0SW5z",
+            "dGFsbGF0aW9uc1Jlc3BvbnNlEnkKElVwZGF0ZUluc3RhbGxhdGlvbhI3LnNh",
+            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVXBkYXRlSW5zdGFsbGF0aW9u",
+            "UmVxdWVzdBoqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFs",
+            "bGF0aW9uEnkKEkRlbGV0ZUluc3RhbGxhdGlvbhI3LnNhbHRvLm5lYnVsYS5p",
+            "bnN0YWxsYXRpb24udjEuRGVsZXRlSW5zdGFsbGF0aW9uUmVxdWVzdBoqLnNh",
+            "bHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuSW5zdGFsbGF0aW9uEn0KFFVu",
+            "ZGVsZXRlSW5zdGFsbGF0aW9uEjkuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlv",
+            "bi52MS5VbmRlbGV0ZUluc3RhbGxhdGlvblJlcXVlc3QaKi5zYWx0by5uZWJ1",
+            "bGEuaW5zdGFsbGF0aW9uLnYxLkluc3RhbGxhdGlvbhJnCgxDcmVhdGVQb2xp",
+            "Y3kSMS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkNyZWF0ZVBvbGlj",
+            "eVJlcXVlc3QaJC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlBvbGlj",
+            "eRJhCglHZXRQb2xpY3kSLi5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYx",
+            "LkdldFBvbGljeVJlcXVlc3QaJC5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9u",
+            "LnYxLlBvbGljeRJ1CgxMaXN0UG9saWNpZXMSMS5zYWx0by5uZWJ1bGEuaW5z",
+            "dGFsbGF0aW9uLnYxLkxpc3RQb2xpY2llc1JlcXVlc3QaMi5zYWx0by5uZWJ1",
+            "bGEuaW5zdGFsbGF0aW9uLnYxLkxpc3RQb2xpY2llc1Jlc3BvbnNlEmcKDFVw",
+            "ZGF0ZVBvbGljeRIxLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVXBk",
+            "YXRlUG9saWN5UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24u",
+            "djEuUG9saWN5ElkKDERlbGV0ZVBvbGljeRIxLnNhbHRvLm5lYnVsYS5pbnN0",
+            "YWxsYXRpb24udjEuRGVsZXRlUG9saWN5UmVxdWVzdBoWLmdvb2dsZS5wcm90",
+            "b2J1Zi5FbXB0eRJ+Cg9UZXN0UGVybWlzc2lvbnMSNC5zYWx0by5uZWJ1bGEu",
+            "aW5zdGFsbGF0aW9uLnYxLlRlc3RQZXJtaXNzaW9uc1JlcXVlc3QaNS5zYWx0",
+            "by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlRlc3RQZXJtaXNzaW9uc1Jlc3Bv",
+            "bnNlEqgBCh1UcmFuc2Zlckluc3RhbGxhdGlvbk93bmVyc2hpcBJCLnNhbHRv",
+            "Lm5lYnVsYS5pbnN0YWxsYXRpb24udjEuVHJhbnNmZXJJbnN0YWxsYXRpb25P",
+            "d25lcnNoaXBSZXF1ZXN0GkMuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52",
+            "MS5UcmFuc2Zlckluc3RhbGxhdGlvbk93bmVyc2hpcFJlc3BvbnNlEqIBChtB",
+            "Y2NlcHRJbnN0YWxsYXRpb25Pd25lcnNoaXASQC5zYWx0by5uZWJ1bGEuaW5z",
+            "dGFsbGF0aW9uLnYxLkFjY2VwdEluc3RhbGxhdGlvbk93bmVyc2hpcFJlcXVl",
+            "c3QaQS5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkFjY2VwdEluc3Rh",
+            "bGxhdGlvbk93bmVyc2hpcFJlc3BvbnNlEnMKD0dldFN1YnNjcmlwdGlvbhI0",
+            "LnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuR2V0U3Vic2NyaXB0aW9u",
+            "UmVxdWVzdBoqLnNhbHRvLm5lYnVsYS5pbnN0YWxsYXRpb24udjEuU3Vic2Ny",
+            "aXB0aW9uEnYKEVVwZGF0ZUJpbGxpbmdJbmZvEjYuc2FsdG8ubmVidWxhLmlu",
+            "c3RhbGxhdGlvbi52MS5VcGRhdGVCaWxsaW5nSW5mb1JlcXVlc3QaKS5zYWx0",
+            "by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLkJpbGxpbmdJbmZvEm8KClVwZGF0",
+            "ZUNhcmQSLy5zYWx0by5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxLlVwZGF0ZUNh",
+            "cmRSZXF1ZXN0GjAuc2FsdG8ubmVidWxhLmluc3RhbGxhdGlvbi52MS5VcGRh",
+            "dGVDYXJkUmVzcG9uc2USdQoMTGlzdEludm9pY2VzEjEuc2FsdG8ubmVidWxh",
+            "Lmluc3RhbGxhdGlvbi52MS5MaXN0SW52b2ljZXNSZXF1ZXN0GjIuc2FsdG8u",
+            "bmVidWxhLmluc3RhbGxhdGlvbi52MS5MaXN0SW52b2ljZXNSZXNwb25zZUKo",
+            "AQokY29tLnNhbHRvYXBpcy5uZWJ1bGEuaW5zdGFsbGF0aW9uLnYxQhFJbnN0",
+            "YWxsYXRpb25Qcm90b1ABWkhnaXRodWIuY29tL3NhbHRvc3lzdGVtcy9zYWx0",
+            "b2FwaXMtZ28vbmVidWxhL2luc3RhbGxhdGlvbi92MTtpbnN0YWxsYXRpb26q",
+            "AiBTYWx0b2FwaXMuTmVidWxhLkluc3RhbGxhdGlvbi5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Type.ColorReflection.Descriptor, global::Saltoapis.Type.DateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation), global::Saltoapis.Nebula.Installation.V1.Installation.Parser, new[]{ "Name", "DisplayName", "Photo", "PhotoUri", "Address", "TimeZone", "DigitalKeyArt", "TransferOwnershipState", "PartnerInfo" }, new[]{ "Photo", "PartnerInfo" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation.Types.DigitalKeyArt), global::Saltoapis.Nebula.Installation.V1.Installation.Types.DigitalKeyArt.Parser, new[]{ "BackgroundImage", "BackgroundImageUri", "TextColor" }, new[]{ "BackgroundImage", "TextColor" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState), global::Saltoapis.Nebula.Installation.V1.Installation.Types.TransferOwnershipState.Parser, new[]{ "Email", "ExpireTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Installation.Types.PartnerInfo), global::Saltoapis.Nebula.Installation.V1.Installation.Types.PartnerInfo.Parser, new[]{ "PartnerId", "CurrencyCode" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Subscription), global::Saltoapis.Nebula.Installation.V1.Subscription.Parser, new[]{ "Name", "TrialEndTime", "BillingInfo", "PaymentMethod" }, new[]{ "TrialEndTime" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Subscription), global::Saltoapis.Nebula.Installation.V1.Subscription.Parser, new[]{ "Name", "TrialEndTime", "BillingInfo", "PaymentMethod", "Coupons" }, new[]{ "TrialEndTime" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.BillingInfo), global::Saltoapis.Nebula.Installation.V1.BillingInfo.Parser, new[]{ "Name", "Company", "Address", "RegionCode", "City", "StateCode", "Zip", "VatNumber" }, new[]{ "StateCode", "VatNumber" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.PaymentMethod), global::Saltoapis.Nebula.Installation.V1.PaymentMethod.Parser, new[]{ "Name", "Card" }, new[]{ "Method" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.PaymentMethod.Types.Card), global::Saltoapis.Nebula.Installation.V1.PaymentMethod.Types.Card.Parser, new[]{ "ExpireDate", "LastFour", "Brand" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Coupon), global::Saltoapis.Nebula.Installation.V1.Coupon.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Invoice), global::Saltoapis.Nebula.Installation.V1.Invoice.Parser, new[]{ "Name", "StartTime", "EndTime", "LineItems", "Total", "State" }, null, new[]{ typeof(global::Saltoapis.Nebula.Installation.V1.Invoice.Types.State) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Invoice.Types.LineItem), global::Saltoapis.Nebula.Installation.V1.Invoice.Types.LineItem.Parser, new[]{ "Id", "Quantity", "Price" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.Policy), global::Saltoapis.Nebula.Installation.V1.Policy.Parser, new[]{ "Name", "Member", "Roles" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest), global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest.Parser, new[]{ "InstallationId", "Installation", "ValidateOnly" }, new[]{ "InstallationId", "ValidateOnly" }, null, null, null),
@@ -1603,6 +1605,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       trialEndTime_ = other.trialEndTime_ != null ? other.trialEndTime_.Clone() : null;
       billingInfo_ = other.billingInfo_ != null ? other.billingInfo_.Clone() : null;
       paymentMethod_ = other.paymentMethod_ != null ? other.paymentMethod_.Clone() : null;
+      coupons_ = other.coupons_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1674,6 +1677,20 @@ namespace Saltoapis.Nebula.Installation.V1 {
       }
     }
 
+    /// <summary>Field number for the "coupons" field.</summary>
+    public const int CouponsFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.Installation.V1.Coupon> _repeated_coupons_codec
+        = pb::FieldCodec.ForMessage(50, global::Saltoapis.Nebula.Installation.V1.Coupon.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.Installation.V1.Coupon> coupons_ = new pbc::RepeatedField<global::Saltoapis.Nebula.Installation.V1.Coupon>();
+    /// <summary>
+    /// The coupons applied to the subscription.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Saltoapis.Nebula.Installation.V1.Coupon> Coupons {
+      get { return coupons_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1693,6 +1710,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       if (!object.Equals(TrialEndTime, other.TrialEndTime)) return false;
       if (!object.Equals(BillingInfo, other.BillingInfo)) return false;
       if (!object.Equals(PaymentMethod, other.PaymentMethod)) return false;
+      if(!coupons_.Equals(other.coupons_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1704,6 +1722,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       if (trialEndTime_ != null) hash ^= TrialEndTime.GetHashCode();
       if (billingInfo_ != null) hash ^= BillingInfo.GetHashCode();
       if (paymentMethod_ != null) hash ^= PaymentMethod.GetHashCode();
+      hash ^= coupons_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1738,6 +1757,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(PaymentMethod);
       }
+      coupons_.WriteTo(output, _repeated_coupons_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1764,6 +1784,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(PaymentMethod);
       }
+      coupons_.WriteTo(ref output, _repeated_coupons_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1786,6 +1807,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       if (paymentMethod_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PaymentMethod);
       }
+      size += coupons_.CalculateSize(_repeated_coupons_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1819,6 +1841,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
         }
         PaymentMethod.MergeFrom(other.PaymentMethod);
       }
+      coupons_.Add(other.coupons_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1859,6 +1882,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
             input.ReadMessage(PaymentMethod);
             break;
           }
+          case 50: {
+            coupons_.AddEntriesFrom(input, _repeated_coupons_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1897,6 +1924,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
               PaymentMethod = new global::Saltoapis.Nebula.Installation.V1.PaymentMethod();
             }
             input.ReadMessage(PaymentMethod);
+            break;
+          }
+          case 50: {
+            coupons_.AddEntriesFrom(ref input, _repeated_coupons_codec);
             break;
           }
         }
@@ -2977,6 +3008,203 @@ namespace Saltoapis.Nebula.Installation.V1 {
   }
 
   /// <summary>
+  /// The coupon object
+  /// </summary>
+  public sealed partial class Coupon : pb::IMessage<Coupon>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<Coupon> _parser = new pb::MessageParser<Coupon>(() => new Coupon());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<Coupon> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Coupon() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Coupon(Coupon other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Coupon Clone() {
+      return new Coupon(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// Resource name of the coupon. It must have the format of
+    /// `installations/*/subscription/coupons/*`. For example:
+    /// `installations/salto-hq/subscription/coupons/01HCD0YB`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as Coupon);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(Coupon other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(Coupon other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The invoice object used for billing.
   /// </summary>
   public sealed partial class Invoice : pb::IMessage<Invoice>
@@ -2993,7 +3221,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3704,7 +3932,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3971,7 +4199,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4287,7 +4515,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4483,7 +4711,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4839,7 +5067,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5066,7 +5294,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5320,7 +5548,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5627,7 +5855,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5823,7 +6051,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6110,7 +6338,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6306,7 +6534,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6662,7 +6890,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6889,7 +7117,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7142,7 +7370,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7338,7 +7566,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7564,7 +7792,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7749,7 +7977,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7985,7 +8213,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8140,7 +8368,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8336,7 +8564,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8491,7 +8719,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8689,7 +8917,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8893,7 +9121,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9130,7 +9358,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9289,7 +9517,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9487,7 +9715,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Saltoapis.Nebula.Installation.V1.InstallationReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
