@@ -114,6 +114,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ApplyCouponRequest> __Marshaller_salto_nebula_installation_v1_ApplyCouponRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ApplyCouponRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ApplyCouponResponse> __Marshaller_salto_nebula_installation_v1_ApplyCouponResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ApplyCouponResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UnapplyCouponRequest> __Marshaller_salto_nebula_installation_v1_UnapplyCouponRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UnapplyCouponRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UnapplyCouponResponse> __Marshaller_salto_nebula_installation_v1_UnapplyCouponResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UnapplyCouponResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation> __Method_CreateInstallation = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreateInstallationRequest, global::Saltoapis.Nebula.Installation.V1.Installation>(
@@ -266,6 +270,14 @@ namespace Saltoapis.Nebula.Installation.V1 {
         "ApplyCoupon",
         __Marshaller_salto_nebula_installation_v1_ApplyCouponRequest,
         __Marshaller_salto_nebula_installation_v1_ApplyCouponResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.UnapplyCouponRequest, global::Saltoapis.Nebula.Installation.V1.UnapplyCouponResponse> __Method_UnapplyCoupon = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.UnapplyCouponRequest, global::Saltoapis.Nebula.Installation.V1.UnapplyCouponResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UnapplyCoupon",
+        __Marshaller_salto_nebula_installation_v1_UnapplyCouponRequest,
+        __Marshaller_salto_nebula_installation_v1_UnapplyCouponResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -1387,6 +1399,62 @@ namespace Saltoapis.Nebula.Installation.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.ApplyCouponResponse> ApplyCouponAsync(global::Saltoapis.Nebula.Installation.V1.ApplyCouponRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ApplyCoupon, null, options, request);
+      }
+      /// <summary>
+      /// Unapply a coupon
+      ///
+      /// Unapplies a coupon to the subscription.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.UnapplyCouponResponse UnapplyCoupon(global::Saltoapis.Nebula.Installation.V1.UnapplyCouponRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnapplyCoupon(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unapply a coupon
+      ///
+      /// Unapplies a coupon to the subscription.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.UnapplyCouponResponse UnapplyCoupon(global::Saltoapis.Nebula.Installation.V1.UnapplyCouponRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UnapplyCoupon, null, options, request);
+      }
+      /// <summary>
+      /// Unapply a coupon
+      ///
+      /// Unapplies a coupon to the subscription.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.UnapplyCouponResponse> UnapplyCouponAsync(global::Saltoapis.Nebula.Installation.V1.UnapplyCouponRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UnapplyCouponAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Unapply a coupon
+      ///
+      /// Unapplies a coupon to the subscription.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.UnapplyCouponResponse> UnapplyCouponAsync(global::Saltoapis.Nebula.Installation.V1.UnapplyCouponRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UnapplyCoupon, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
