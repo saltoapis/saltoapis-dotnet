@@ -50,6 +50,7 @@ namespace Saltoapis.Nebula.Type {
   /// <summary>
   /// Metadata contains information about a device. Most metadata is immutable.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeviceMetadata : pb::IMessage<DeviceMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -237,6 +238,7 @@ namespace Saltoapis.Nebula.Type {
       /// <summary>
       /// Metadata of a circuit board present on a device.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class CircuitBoard : pb::IMessage<CircuitBoard>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -513,6 +515,7 @@ namespace Saltoapis.Nebula.Type {
           /// <summary>
           /// Firmware contains the firmware number and version.
           /// </summary>
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
           public sealed partial class Firmware : pb::IMessage<Firmware>
           #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
               , pb::IBufferMessage

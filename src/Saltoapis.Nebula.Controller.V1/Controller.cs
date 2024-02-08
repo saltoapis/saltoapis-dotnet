@@ -131,6 +131,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The controller object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Controller : pb::IMessage<Controller>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -791,6 +792,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [CreateController][salto.nebula.controller.v1.ControllerService.CreateController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateControllerRequest : pb::IMessage<CreateControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1092,6 +1094,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [GetController][salto.nebula.controller.v1.ControllerService.GetController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetControllerRequest : pb::IMessage<GetControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1288,6 +1291,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [ListControllers][salto.nebula.controller.v1.ControllerService.ListControllers]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListControllersRequest : pb::IMessage<ListControllersRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1644,6 +1648,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The response message for [ListControllers][salto.nebula.controllers.v1.ControllerService.ListControllers]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListControllersResponse : pb::IMessage<ListControllersResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1871,6 +1876,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [UpdateController][salto.nebula.controller.v1.ControllerService.UpdateController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateControllerRequest : pb::IMessage<UpdateControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2124,6 +2130,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [DeleteController][salto.nebula.controller.v1.ControllerService.DeleteController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteControllerRequest : pb::IMessage<DeleteControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2320,6 +2327,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [`BindController`][salto.nebula.controller.v1.ControllerService.BindController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindControllerRequest : pb::IMessage<BindControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2557,6 +2565,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The empty response message for [`BindController`][salto.nebula.controller.v1.ControllerService.BindController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindControllerResponse : pb::IMessage<BindControllerResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2712,6 +2721,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [`UnbindController`][salto.nebula.controller.v1.ControllerService.UnbindController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindControllerRequest : pb::IMessage<UnbindControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2950,6 +2960,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The empty response message for [`UnbindController`][salto.nebula.controller.v1.ControllerService.UnbindController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindControllerResponse : pb::IMessage<UnbindControllerResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3105,6 +3116,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [`InitializeController`][salto.nebula.controller.v1.ControllerService.InitializeController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeControllerRequest : pb::IMessage<InitializeControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3301,6 +3313,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The empty response message for [`InitializeController`][salto.nebula.controller.v1.ControllerService.InitializeController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeControllerResponse : pb::IMessage<InitializeControllerResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3453,6 +3466,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeControllerMetadata : pb::IMessage<InitializeControllerMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3648,6 +3662,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [`ConfigureController`][salto.nebula.controller.v1.ControllerService.ConfigureController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureControllerRequest : pb::IMessage<ConfigureControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3844,6 +3859,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The empty response message for [`ConfigureController`][salto.nebula.controller.v1.ControllerService.ConfigureController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureControllerResponse : pb::IMessage<ConfigureControllerResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3999,6 +4015,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The metadata message for [`ConfigureController`][salto.nebula.controller.v1.ControllerService.ConfigureController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureControllerMetadata : pb::IMessage<ConfigureControllerMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4194,6 +4211,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [`ResetController`][salto.nebula.controller.v1.ControllerService.ResetController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetControllerRequest : pb::IMessage<ResetControllerRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4390,6 +4408,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The empty response message for [`ResetController`][salto.nebula.controller.v1.ControllerService.ResetController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetControllerResponse : pb::IMessage<ResetControllerResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4545,6 +4564,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The metadata message for [`ResetController`][salto.nebula.controller.v1.ControllerService.ResetController]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetControllerMetadata : pb::IMessage<ResetControllerMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4700,6 +4720,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The request message for [`UpdateControllerFirmware`][salto.nebula.controller.v1.ControllerService.UpdateControllerFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateControllerFirmwareRequest : pb::IMessage<UpdateControllerFirmwareRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4897,6 +4918,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The response message for [`UpdateControllerFirmware`][salto.nebula.controller.v1.ControllerService.UpdateControllerFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateControllerFirmwareResponse : pb::IMessage<UpdateControllerFirmwareResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5052,6 +5074,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
   /// <summary>
   /// The metadata message for [`UpdateControllerFirmware`][salto.nebula.controller.v1.ControllerService.UpdateControllerFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateControllerFirmwareMetadata : pb::IMessage<UpdateControllerFirmwareMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

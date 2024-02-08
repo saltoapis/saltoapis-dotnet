@@ -91,6 +91,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The access point object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessPoint : pb::IMessage<AccessPoint>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -528,6 +529,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The request message for [`CreateAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.CreateAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateAccessPointRequest : pb::IMessage<CreateAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -829,6 +831,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The request message for [`GetAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.GetAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetAccessPointRequest : pb::IMessage<GetAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1025,6 +1028,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The request message for [`ListAccessPoints`][salto.nebula.accesspoint.v1.AccessPointService.ListAccessPoints]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessPointsRequest : pb::IMessage<ListAccessPointsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1381,6 +1385,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The request message for [`ListAccessPoints`][salto.nebula.accesspoint.v1.AccessPointService.ListAccessPoints]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessPointsResponse : pb::IMessage<ListAccessPointsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1650,6 +1655,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The request message for [`UpdateAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.UpdateAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateAccessPointRequest : pb::IMessage<UpdateAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1903,6 +1909,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The request message for [`DeleteAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.DeleteAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteAccessPointRequest : pb::IMessage<DeleteAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2099,6 +2106,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The request message for [`UnlockAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.UnlockAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnlockAccessPointRequest : pb::IMessage<UnlockAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2295,6 +2303,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The empty response message for [`UnlockAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.UnlockAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnlockAccessPointResponse : pb::IMessage<UnlockAccessPointResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2450,6 +2459,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
   /// <summary>
   /// The metadata message for [`UnlockAccessPoint`][salto.nebula.accesspoint.v1.AccessPointService.UnlockAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnlockAccessPointMetadata : pb::IMessage<UnlockAccessPointMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

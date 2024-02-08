@@ -48,6 +48,7 @@ namespace Saltoapis.Type {
   /// documented otherwise, treat two colors as equal if all their red,
   /// green, blue, and alpha values each differ by at most 1e-5.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Color : pb::IMessage<Color>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

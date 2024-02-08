@@ -151,6 +151,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The electronic lock object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ElectronicLock : pb::IMessage<ElectronicLock>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -980,6 +981,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [CreateElectronicLock][salto.nebula.electroniclock.v1.ElectronicLockService.CreateElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateElectronicLockRequest : pb::IMessage<CreateElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1281,6 +1283,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [GetElectronicLock][salto.nebula.electroniclock.v1.ElectronicLockService.GetElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetElectronicLockRequest : pb::IMessage<GetElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1477,6 +1480,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [ListElectronicLocks][salto.nebula.electroniclock.v1.ElectronicLockService.ListElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListElectronicLocksRequest : pb::IMessage<ListElectronicLocksRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1833,6 +1837,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The response message for [ListElectronicLocks][salto.nebula.electroniclock.v1.ElectronicLockService.ListElectronicLocks]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListElectronicLocksResponse : pb::IMessage<ListElectronicLocksResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2060,6 +2065,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [UpdateElectronicLock][salto.nebula.electroniclock.v1.ElectronicLockService.UpdateElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateElectronicLockRequest : pb::IMessage<UpdateElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2313,6 +2319,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [DeleteElectronicLock][salto.nebula.electroniclock.v1.ElectronicLockService.DeleteElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteElectronicLockRequest : pb::IMessage<DeleteElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2509,6 +2516,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [`BindElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.BindElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindElectronicLockRequest : pb::IMessage<BindElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2746,6 +2754,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The empty response message for [`BindElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.BindElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindElectronicLockResponse : pb::IMessage<BindElectronicLockResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2901,6 +2910,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [`UnbindElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.UnbindElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindElectronicLockRequest : pb::IMessage<UnbindElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3139,6 +3149,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The empty response message for [`UnbindElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.UnbindElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindElectronicLockResponse : pb::IMessage<UnbindElectronicLockResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3294,6 +3305,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [`InitializeElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.InitializeElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeElectronicLockRequest : pb::IMessage<InitializeElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3490,6 +3502,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The empty response message for [`InitializeElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.InitializeElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeElectronicLockResponse : pb::IMessage<InitializeElectronicLockResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3642,6 +3655,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeElectronicLockMetadata : pb::IMessage<InitializeElectronicLockMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3837,6 +3851,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [`ConfigureElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.ConfigureElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureElectronicLockRequest : pb::IMessage<ConfigureElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4033,6 +4048,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The empty response message for [`ConfigureElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.ConfigureElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureElectronicLockResponse : pb::IMessage<ConfigureElectronicLockResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4188,6 +4204,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The metadata message for [`ConfigureElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.ConfigureElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureElectronicLockMetadata : pb::IMessage<ConfigureElectronicLockMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4343,6 +4360,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [`ResetElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.ResetElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetElectronicLockRequest : pb::IMessage<ResetElectronicLockRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4539,6 +4557,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The empty response message for [`ResetElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.ResetElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetElectronicLockResponse : pb::IMessage<ResetElectronicLockResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4694,6 +4713,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The metadata message for [`ResetElectronicLock`][salto.nebula.electroniclock.v1.ElectronicLockService.ResetElectronicLock]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetElectronicLockMetadata : pb::IMessage<ResetElectronicLockMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4849,6 +4869,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [`UpdateElectronicLockFirmware`][salto.nebula.electroniclock.v1.ElectronicLockService.UpdateElectronicLockFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateElectronicLockFirmwareRequest : pb::IMessage<UpdateElectronicLockFirmwareRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5046,6 +5067,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The response message for [`UpdateElectronicLockFirmware`][salto.nebula.electroniclock.v1.ElectronicLockService.UpdateElectronicLockFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateElectronicLockFirmwareResponse : pb::IMessage<UpdateElectronicLockFirmwareResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5201,6 +5223,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The metadata message for [`UpdateElectronicLockFirmware`][salto.nebula.electroniclock.v1.ElectronicLockService.UpdateElectronicLockFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateElectronicLockFirmwareMetadata : pb::IMessage<UpdateElectronicLockFirmwareMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5396,6 +5419,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The request message for [`GenerateAuthorizationToken`][salto.nebula.electroniclock.v1.ElectronicLockService.GenerateAuthorizationToken]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GenerateAuthorizationTokenRequest : pb::IMessage<GenerateAuthorizationTokenRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5593,6 +5617,7 @@ namespace Saltoapis.Nebula.ElectronicLock.V1 {
   /// <summary>
   /// The response message for [`GenerateAuthorizationToken`][salto.nebula.electroniclock.v1.ElectronicLockService.GenerateAuthorizationToken]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GenerateAuthorizationTokenResponse : pb::IMessage<GenerateAuthorizationTokenResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

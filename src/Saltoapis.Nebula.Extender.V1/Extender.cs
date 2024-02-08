@@ -99,6 +99,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The extender object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Extender : pb::IMessage<Extender>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -532,6 +533,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The request message for [CreateExtender][salto.nebula.extender.v1.ExtenderService.CreateExtender]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateExtenderRequest : pb::IMessage<CreateExtenderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -833,6 +835,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The request message for [GetExtender][salto.nebula.extender.v1.ExtenderService.GetExtender]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetExtenderRequest : pb::IMessage<GetExtenderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1029,6 +1032,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The request message for [ListExtenders][salto.nebula.extender.v1.ExtenderService.ListExtenders]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListExtendersRequest : pb::IMessage<ListExtendersRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1385,6 +1389,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The response message for [ListExtenders][salto.nebula.extender.v1.ExtenderService.ListExtenders]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListExtendersResponse : pb::IMessage<ListExtendersResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1612,6 +1617,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The response message for [UpdateExtender][salto.nebula.extender.v1.ExtenderService.UpdateExtender]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateExtenderRequest : pb::IMessage<UpdateExtenderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1865,6 +1871,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The response message for [DeleteExtender][salto.nebula.extender.v1.ExtenderService.DeleteExtender]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteExtenderRequest : pb::IMessage<DeleteExtenderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2061,6 +2068,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The request message for [`BindExtender`][salto.nebula.extender.v1.ExtenderService.BindExtender]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindExtenderRequest : pb::IMessage<BindExtenderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2298,6 +2306,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The empty response message for [`BindExtender`][salto.nebula.extender.v1.ExtenderService.BindExtender]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindExtenderResponse : pb::IMessage<BindExtenderResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2453,6 +2462,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The request message for [`UnbindExtender`][salto.nebula.extender.v1.ExtenderService.UnbindExtender]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindExtenderRequest : pb::IMessage<UnbindExtenderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2649,6 +2659,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The empty response message for [`UnbindExtender`][salto.nebula.extender.v1.ExtenderService.UnbindExtender]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindExtenderResponse : pb::IMessage<UnbindExtenderResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2804,6 +2815,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The request message for [`UpdateExtenderFirmware`][salto.nebula.extender.v1.ExtenderService.UpdateExtenderFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateExtenderFirmwareRequest : pb::IMessage<UpdateExtenderFirmwareRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3001,6 +3013,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The response message for [`UpdateExtenderFirmware`][salto.nebula.extender.v1.ExtenderService.UpdateExtenderFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateExtenderFirmwareResponse : pb::IMessage<UpdateExtenderFirmwareResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3156,6 +3169,7 @@ namespace Saltoapis.Nebula.Extender.V1 {
   /// <summary>
   /// The metadata message for [`UpdateExtenderFirmware`][salto.nebula.extender.v1.ExtenderService.UpdateExtenderFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateExtenderFirmwareMetadata : pb::IMessage<UpdateExtenderFirmwareMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

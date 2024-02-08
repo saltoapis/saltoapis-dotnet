@@ -97,6 +97,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   /// <summary>
   /// The digital key object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DigitalKey : pb::IMessage<DigitalKey>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -435,6 +436,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
       /// <summary>
       /// Metadata associated to the digital key.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class Metadata : pb::IMessage<Metadata>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -802,6 +804,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
       /// <summary>
       /// App key.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class AppKey : pb::IMessage<AppKey>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -1189,6 +1192,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
       /// <summary>
       /// Wallet key.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class WalletKey : pb::IMessage<WalletKey>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -1445,6 +1449,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           /// <summary>
           /// Representation of an Hydra credential
           /// </summary>
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
           public sealed partial class HydraCredential : pb::IMessage<HydraCredential>
           #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
               , pb::IBufferMessage
@@ -1856,6 +1861,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   /// <summary>
   /// The request message for [`GetDigitalKey`][salto.nebula.digitalkey.v1.DigitalKeyService.GetDigitalKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetDigitalKeyRequest : pb::IMessage<GetDigitalKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2052,6 +2058,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   /// <summary>
   /// The request message for [`ListDigitalKeys`][salto.nebula.digitalkey.v1.DigitalKeyService.ListDigitalKeys]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListDigitalKeysRequest : pb::IMessage<ListDigitalKeysRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2368,6 +2375,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   /// <summary>
   /// The response message for [`ListDigitalKeys`][salto.nebula.digitalkey.v1.DigitalKeyService.ListDigitalKeys]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListDigitalKeysResponse : pb::IMessage<ListDigitalKeysResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2595,6 +2603,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   /// <summary>
   /// The digital key's access point association
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DigitalKeyAccessPoint : pb::IMessage<DigitalKeyAccessPoint>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2872,6 +2881,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   /// <summary>
   /// The request message for [`GetDigitalKeyAccessPoint`][salto.nebula.digitalkey.v1.DigitalKeyService.GetDigitalKeyAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetDigitalKeyAccessPointRequest : pb::IMessage<GetDigitalKeyAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3068,6 +3078,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   /// <summary>
   /// The request message for [`ListDigitalKeyAccessPoints`][salto.nebula.digitalkey.v1.DigitalKeyService.ListDigitalKeyAccessPoints]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListDigitalKeyAccessPointsRequest : pb::IMessage<ListDigitalKeyAccessPointsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3384,6 +3395,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
   /// <summary>
   /// The request message for [`ListDigitalKeyAccessPoints`][salto.nebula.digitalkey.v1.DigitalKeyService.ListDigitalKeyAccessPoints]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListDigitalKeyAccessPointsResponse : pb::IMessage<ListDigitalKeyAccessPointsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

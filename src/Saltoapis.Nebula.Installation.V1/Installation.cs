@@ -231,6 +231,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The installation object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Installation : pb::IMessage<Installation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -901,6 +902,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// The digital key art configuration object associated to the installation
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class DigitalKeyArt : pb::IMessage<DigitalKeyArt>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -1201,6 +1203,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// Represents the current state of the ownership transfer.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class TransferOwnershipState : pb::IMessage<TransferOwnershipState>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -1446,6 +1449,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// The partner info object.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class PartnerInfo : pb::IMessage<PartnerInfo>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -1686,6 +1690,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The subscription information.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Subscription : pb::IMessage<Subscription>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2059,6 +2064,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// Billing info object, belonging to a subscription
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BillingInfo : pb::IMessage<BillingInfo>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2557,6 +2563,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// Representation of a payment method, belonging to a subscription
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class PaymentMethod : pb::IMessage<PaymentMethod>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2840,6 +2847,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// Card object
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class Card : pb::IMessage<Card>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -3129,6 +3137,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The coupon object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Coupon : pb::IMessage<Coupon>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3326,6 +3335,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The invoice object used for billing.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Invoice : pb::IMessage<Invoice>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3754,6 +3764,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// The line item object.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class LineItem : pb::IMessage<LineItem>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -4037,6 +4048,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The IAM policy object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Policy : pb::IMessage<Policy>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4303,6 +4315,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`CreateInstallation`][salto.nebula.installation.v1.InstallationService.CreateInstallation]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateInstallationRequest : pb::IMessage<CreateInstallationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4620,6 +4633,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`GetInstallation`][salto.nebula.installation.v1.InstallationService.GetInstallation]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetInstallationRequest : pb::IMessage<GetInstallationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4816,6 +4830,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`ListInstallations`][salto.nebula.installation.v1.InstallationService.ListInstallations]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListInstallationsRequest : pb::IMessage<ListInstallationsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5172,6 +5187,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The response message for [`ListInstallations`][salto.nebula.installation.v1.InstallationService.ListInstallations]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListInstallationsResponse : pb::IMessage<ListInstallationsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5399,6 +5415,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`UpdateInstallation`][salto.nebula.installation.v1.InstallationService.UpdateInstallation]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateInstallationRequest : pb::IMessage<UpdateInstallationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5652,6 +5669,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`DeleteInstallation`][salto.nebula.installation.v1.InstallationService.DeleteInstallation]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteInstallationRequest : pb::IMessage<DeleteInstallationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5960,6 +5978,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`UndeleteInstallation`][salto.nebula.installation.v1.InstallationService.UndeleteInstallation]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UndeleteInstallationRequest : pb::IMessage<UndeleteInstallationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6156,6 +6175,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`CreatePolicy`][salto.nebula.installation.v1.InstallationService.CreatePolicy]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreatePolicyRequest : pb::IMessage<CreatePolicyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6443,6 +6463,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`GetPolicy`][salto.nebula.installation.v1.InstallationService.GetPolicy]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetPolicyRequest : pb::IMessage<GetPolicyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6639,6 +6660,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`ListPolicies`][salto.nebula.installation.v1.InstallationService.ListPolicies]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListPoliciesRequest : pb::IMessage<ListPoliciesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6995,6 +7017,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The response message for [`ListPolicies`][salto.nebula.installation.v1.InstallationService.ListPolicies]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListPoliciesResponse : pb::IMessage<ListPoliciesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7222,6 +7245,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`UpdatePolicy`][salto.nebula.installation.v1.InstallationService.UpdatePolicy]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdatePolicyRequest : pb::IMessage<UpdatePolicyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7475,6 +7499,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`DeletePolicy`][salto.nebula.installation.v1.InstallationService.DeletePolicy]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeletePolicyRequest : pb::IMessage<DeletePolicyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7671,6 +7696,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`TestPermissions`][salto.nebula.installation.v1.InstallationService.TestPermissions]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TestPermissionsRequest : pb::IMessage<TestPermissionsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7897,6 +7923,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The response message for [`TestPermissions`][salto.nebula.installation.v1.InstallationService.TestPermissions]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TestPermissionsResponse : pb::IMessage<TestPermissionsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8082,6 +8109,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`TransferInstallationOwnership`][salto.nebula.installation.v1.InstallationService.TransferInstallationOwnership]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TransferInstallationOwnershipRequest : pb::IMessage<TransferInstallationOwnershipRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8318,6 +8346,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The response message for [`TransferInstallationOwnership`][salto.nebula.installation.v1.InstallationService.TransferInstallationOwnership]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TransferInstallationOwnershipResponse : pb::IMessage<TransferInstallationOwnershipResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8473,6 +8502,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`AcceptInstallationOwnership`][salto.nebula.installation.v1.InstallationService.AcceptInstallationOwnership]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AcceptInstallationOwnershipRequest : pb::IMessage<AcceptInstallationOwnershipRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8669,6 +8699,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The response message for [`AcceptInstallationOwnership`][salto.nebula.installation.v1.InstallationService.AcceptInstallationOwnership]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AcceptInstallationOwnershipResponse : pb::IMessage<AcceptInstallationOwnershipResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8824,6 +8855,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`GetSubscription`][salto.nebula.installation.v1.InstallationService.GetSubscription]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetSubscriptionRequest : pb::IMessage<GetSubscriptionRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9022,6 +9054,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   ///     aip.dev/not-precedent: We need to do this to simplify the update operation. --)
   /// The request message for [`UpdateBillingInfo`][salto.nebula.installation.v1.InstallationService.UpdateBillingInfo]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateBillingInfoRequest : pb::IMessage<UpdateBillingInfoRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9226,6 +9259,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`UpdateCard`][salto.nebula.installation.v1.InstallationService.UpdateCard]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateCardRequest : pb::IMessage<UpdateCardRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9463,6 +9497,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The response message for [`UpdateCard`][salto.nebula.installation.v1.InstallationService.UpdateCard]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateCardResponse : pb::IMessage<UpdateCardResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9622,6 +9657,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   ///     aip.dev/not-precedent: We need to do this because there is no paging yet. --)
   /// The request message for [`ListInvoices`][salto.nebula.installation.v1.InstallationService.ListInvoices]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListInvoicesRequest : pb::IMessage<ListInvoicesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9820,6 +9856,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   ///     aip.dev/not-precedent: We need to do this because there is no paging yet. --)
   /// The response message for [`ListInvoices`][salto.nebula.installation.v1.InstallationService.ListInvoices]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListInvoicesResponse : pb::IMessage<ListInvoicesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -10004,6 +10041,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`ApplyCoupon`][salto.nebula.installation.v1.InstallationService.ApplyCoupon]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ApplyCouponRequest : pb::IMessage<ApplyCouponRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -10242,6 +10280,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The response message for [`ApplyCoupon`][salto.nebula.installation.v1.InstallationService.ApplyCoupon]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ApplyCouponResponse : pb::IMessage<ApplyCouponResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -10397,6 +10436,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The request message for [`UnapplyCoupon`][salto.nebula.installation.v1.InstallationService.UnapplyCoupon]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnapplyCouponRequest : pb::IMessage<UnapplyCouponRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -10635,6 +10675,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   /// <summary>
   /// The response message for [`UnapplyCoupon`][salto.nebula.installation.v1.InstallationService.UnapplyCoupon]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnapplyCouponResponse : pb::IMessage<UnapplyCouponResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

@@ -108,6 +108,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The calendar object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Calendar : pb::IMessage<Calendar>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -342,6 +343,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Event : pb::IMessage<Event>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -677,6 +679,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The request message for [`CreateCalendar`][salto.nebula.mobilekey.v1.MobileKeyService.CreateCalendar]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateCalendarRequest : pb::IMessage<CreateCalendarRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -978,6 +981,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The request message for [`GetCalendar`][salto.nebula.calendar.v1.CalendarService.GetCalendar]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetCalendarRequest : pb::IMessage<GetCalendarRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1174,6 +1178,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The request message for [`ListCalendars`][salto.nebula.calendar.v1.CalendarService.ListCalendars]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListCalendarsRequest : pb::IMessage<ListCalendarsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1530,6 +1535,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The response message for [`ListCalendars`][salto.nebula.calendar.v1.CalendarService.ListCalendars]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListCalendarsResponse : pb::IMessage<ListCalendarsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1757,6 +1763,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The response message for [`UpdateCalendar`][salto.nebula.calendar.v1.CalendarService.UpdateCalendar]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateCalendarRequest : pb::IMessage<UpdateCalendarRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2010,6 +2017,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The response message for [`DeleteCalendar`][salto.nebula.calendar.v1.CalendarService.DeleteCalendar]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteCalendarRequest : pb::IMessage<DeleteCalendarRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2206,6 +2214,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The request message for [`CreateEvent`][salto.nebula.calendar.v1.CalendarService.CreateEvent]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateEventRequest : pb::IMessage<CreateEventRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2507,6 +2516,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The request message for [`GetEvent`][salto.nebula.calendar.v1.CalendarService.GetEvent]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetEventRequest : pb::IMessage<GetEventRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2703,6 +2713,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The request message for [`ListEvent`][salto.nebula.calendar.v1.CalendarService.ListEvent]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListEventsRequest : pb::IMessage<ListEventsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3060,6 +3071,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The response message for [`ListEvent`][salto.nebula.calendar.v1.CalendarService.ListEvent]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListEventsResponse : pb::IMessage<ListEventsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3287,6 +3299,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The response message for [`UpdateEvent`][salto.nebula.calendar.v1.CalendarService.UpdateEvent]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateEventRequest : pb::IMessage<UpdateEventRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3540,6 +3553,7 @@ namespace Saltoapis.Nebula.Calendar.V1 {
   /// <summary>
   /// The response message for [`DeleteEvent`][salto.nebula.calendar.v1.CalendarService.DeleteEvent]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteEventRequest : pb::IMessage<DeleteEventRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

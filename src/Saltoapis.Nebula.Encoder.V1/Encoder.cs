@@ -130,6 +130,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The encoder object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Encoder : pb::IMessage<Encoder>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -743,6 +744,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [CreateEncoder][salto.nebula.encoder.v1.EncoderService.CreateEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateEncoderRequest : pb::IMessage<CreateEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1044,6 +1046,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [GetEncoder][salto.nebula.encoder.v1.EncoderService.GetEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetEncoderRequest : pb::IMessage<GetEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1240,6 +1243,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [ListEncoders][salto.nebula.encoder.v1.EncoderService.ListEncoders]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListEncodersRequest : pb::IMessage<ListEncodersRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1596,6 +1600,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The response message for [ListEncoders][salto.nebula.encoder.v1.EncoderService.ListEncoders]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListEncodersResponse : pb::IMessage<ListEncodersResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1823,6 +1828,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [UpdateEncoder][salto.nebula.encoder.v1.EncoderService.UpdateEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateEncoderRequest : pb::IMessage<UpdateEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2076,6 +2082,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [DeleteEncoder][salto.nebula.encoder.v1.EncoderService.DeleteEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteEncoderRequest : pb::IMessage<DeleteEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2272,6 +2279,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [`BindEncoder`][salto.nebula.encoder.v1.EncoderService.BindEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindEncoderRequest : pb::IMessage<BindEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2509,6 +2517,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The empty response message for [`BindEncoder`][salto.nebula.encoder.v1.EncoderService.BindEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindEncoderResponse : pb::IMessage<BindEncoderResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2664,6 +2673,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [`UnbindEncoder`][salto.nebula.enconder.v1.EncoderService.UnbindEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindEncoderRequest : pb::IMessage<UnbindEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2902,6 +2912,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The empty response message for [`UnbindEnconder`][salto.nebula.enconder.v1.EncoderService.UnbindEnconder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindEncoderResponse : pb::IMessage<UnbindEncoderResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3057,6 +3068,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [`InitializeEncoder`][salto.nebula.encoder.v1.EncoderService.InitializeEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeEncoderRequest : pb::IMessage<InitializeEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3253,6 +3265,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The empty response message for [`InitializeEncoder`][salto.nebula.encoder.v1.EncoderService.InitializeEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeEncoderResponse : pb::IMessage<InitializeEncoderResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3408,6 +3421,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The metadata message for [`InitializeEncoder`][salto.nebula.encoder.v1.EncoderService.InitializeEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeEncoderMetadata : pb::IMessage<InitializeEncoderMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3563,6 +3577,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [`ConfigureEncoder`][salto.nebula.encoder.v1.EncoderService.ConfigureEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureEncoderRequest : pb::IMessage<ConfigureEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3759,6 +3774,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The empty response message for [`ConfigureEncoder`][salto.nebula.encoder.v1.EncoderService.ConfigureEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureEncoderResponse : pb::IMessage<ConfigureEncoderResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3914,6 +3930,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The metadata message for [`ConfigureEncoder`][salto.nebula.encoder.v1.EncoderService.ConfigureEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureEncoderMetadata : pb::IMessage<ConfigureEncoderMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4069,6 +4086,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [`ResetEncoder`][salto.nebula.encoder.v1.EncoderService.ResetEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetEncoderRequest : pb::IMessage<ResetEncoderRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4265,6 +4283,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The empty response message for [`ResetEncoder`][salto.nebula.encoder.v1.EncoderService.ResetEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetEncoderResponse : pb::IMessage<ResetEncoderResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4420,6 +4439,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The metadata message for [`ResetEncoder`][salto.nebula.encoder.v1.EncoderService.ResetEncoder]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetEncoderMetadata : pb::IMessage<ResetEncoderMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4575,6 +4595,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [`UpdateEncoderFirmware`][salto.nebula.encoder.v1.EncoderService.UpdateEncoderFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateEncoderFirmwareRequest : pb::IMessage<UpdateEncoderFirmwareRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4772,6 +4793,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The empty response message for [`UpdateEncoderFirmware`][salto.nebula.encoder.v1.EncoderService.UpdateEncoderFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateEncoderFirmwareResponse : pb::IMessage<UpdateEncoderFirmwareResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4927,6 +4949,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The metadata message for [`UpdateEncoderFirmware`][salto.nebula.encoder.v1.EncoderService.UpdateEncoderFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateEncoderFirmwareMetadata : pb::IMessage<UpdateEncoderFirmwareMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5122,6 +5145,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The request message for [`ReadKey`][salto.nebula.device.v1.EncoderService.ReadKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ReadKeyRequest : pb::IMessage<ReadKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5318,6 +5342,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The response message for [`ReadKey`][salto.nebula.device.v1.EncoderService.ReadKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ReadKeyResponse : pb::IMessage<ReadKeyResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5557,6 +5582,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
   /// <summary>
   /// The metadata message for [`ReadKey`][salto.nebula.device.v1.EncoderService.ReadKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ReadKeyMetadata : pb::IMessage<ReadKeyMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

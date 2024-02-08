@@ -155,6 +155,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The intercom adaptor object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class IntercomAdaptor : pb::IMessage<IntercomAdaptor>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -893,6 +894,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The intercom adaptor's access point association
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class IntercomAdaptorAccessPoint : pb::IMessage<IntercomAdaptorAccessPoint>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1144,6 +1146,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [CreateIntercomAdaptor][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.CreateIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateIntercomAdaptorRequest : pb::IMessage<CreateIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1445,6 +1448,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [GetIntercomAdaptor][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.GetIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetIntercomAdaptorRequest : pb::IMessage<GetIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1641,6 +1645,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [ListIntercomAdaptors][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.ListIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListIntercomAdaptorsRequest : pb::IMessage<ListIntercomAdaptorsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1997,6 +2002,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The response message for [ListIntercomAdaptors][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.ListIntercomAdaptors]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListIntercomAdaptorsResponse : pb::IMessage<ListIntercomAdaptorsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2224,6 +2230,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [UpdateIntercomAdaptor][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.UpdateIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateIntercomAdaptorRequest : pb::IMessage<UpdateIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2477,6 +2484,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [DeleteIntercomAdaptor][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.DeleteIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteIntercomAdaptorRequest : pb::IMessage<DeleteIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2673,6 +2681,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [`BindIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.BindIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindIntercomAdaptorRequest : pb::IMessage<BindIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2910,6 +2919,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The empty response message for [`BindIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.BindIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindIntercomAdaptorResponse : pb::IMessage<BindIntercomAdaptorResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3065,6 +3075,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [`UnbindIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.UnbindIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindIntercomAdaptorRequest : pb::IMessage<UnbindIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3303,6 +3314,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The empty response message for [`UnbindIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.UnbindIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindIntercomAdaptorResponse : pb::IMessage<UnbindIntercomAdaptorResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3458,6 +3470,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [`InitializeIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.InitializeIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeIntercomAdaptorRequest : pb::IMessage<InitializeIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3654,6 +3667,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The empty response message for [`InitializeIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.InitializeIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeIntercomAdaptorResponse : pb::IMessage<InitializeIntercomAdaptorResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3806,6 +3820,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeIntercomAdaptorMetadata : pb::IMessage<InitializeIntercomAdaptorMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4001,6 +4016,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [`ConfigureIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.ConfigureIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureIntercomAdaptorRequest : pb::IMessage<ConfigureIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4197,6 +4213,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The empty response message for [`ConfigureIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.ConfigureIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureIntercomAdaptorResponse : pb::IMessage<ConfigureIntercomAdaptorResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4352,6 +4369,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The metadata message for [`ConfigureIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.ConfigureIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureIntercomAdaptorMetadata : pb::IMessage<ConfigureIntercomAdaptorMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4507,6 +4525,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [`ResetIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.ResetIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetIntercomAdaptorRequest : pb::IMessage<ResetIntercomAdaptorRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4703,6 +4722,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The empty response message for [`ResetIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.ResetIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetIntercomAdaptorResponse : pb::IMessage<ResetIntercomAdaptorResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4858,6 +4878,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The metadata message for [`ResetIntercomAdaptor`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.ResetIntercomAdaptor]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetIntercomAdaptorMetadata : pb::IMessage<ResetIntercomAdaptorMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5013,6 +5034,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [`UpdateIntercomAdaptorFirmware`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.UpdateIntercomAdaptorFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateIntercomAdaptorFirmwareRequest : pb::IMessage<UpdateIntercomAdaptorFirmwareRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5210,6 +5232,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The response message for [`UpdateIntercomAdaptorFirmware`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.UpdateIntercomAdaptorFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateIntercomAdaptorFirmwareResponse : pb::IMessage<UpdateIntercomAdaptorFirmwareResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5365,6 +5388,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The metadata message for [`UpdateIntercomAdaptorFirmware`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.UpdateIntercomAdaptorFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateIntercomAdaptorFirmwareMetadata : pb::IMessage<UpdateIntercomAdaptorFirmwareMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5560,6 +5584,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The request message for [`GenerateAuthorizationToken`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.GenerateAuthorizationToken]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GenerateAuthorizationTokenRequest : pb::IMessage<GenerateAuthorizationTokenRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5757,6 +5782,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
   /// <summary>
   /// The response message for [`GenerateAuthorizationToken`][salto.nebula.intercomadaptor.v1.IntercomAdaptorService.GenerateAuthorizationToken]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GenerateAuthorizationTokenResponse : pb::IMessage<GenerateAuthorizationTokenResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

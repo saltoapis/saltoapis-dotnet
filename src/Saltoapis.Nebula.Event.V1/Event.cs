@@ -60,6 +60,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// The event object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Event : pb::IMessage<Event>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -489,6 +490,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// The request message for [`GetEvent`][salto.nebula.event.v1.EventService.GetEvent]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetEventRequest : pb::IMessage<GetEventRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -685,6 +687,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// The request message for [`ListEvents`][salto.nebula.event.v1.EventService.ListEvents]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListEventsRequest : pb::IMessage<ListEventsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1041,6 +1044,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// The response message for [`ListEvents`][salto.nebula.event.v1.EventService.ListEvents]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListEventsResponse : pb::IMessage<ListEventsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

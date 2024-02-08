@@ -126,6 +126,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the creation of an access point.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessPointCreated : pb::IMessage<AccessPointCreated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -330,6 +331,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the update of an access point.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessPointUpdated : pb::IMessage<AccessPointUpdated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -534,6 +536,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the deletion of an access point.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessPointDeleted : pb::IMessage<AccessPointDeleted>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -738,6 +741,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the unlocking of an access point.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessPointUnlocked : pb::IMessage<AccessPointUnlocked>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -991,6 +995,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the locking of an access point.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessPointLocked : pb::IMessage<AccessPointLocked>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1244,6 +1249,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing a denied access to a user by an access point.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessDenied : pb::IMessage<AccessDenied>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1497,6 +1503,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the creation of an access right.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessRightCreated : pb::IMessage<AccessRightCreated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1701,6 +1708,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the update of an access right.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessRightUpdated : pb::IMessage<AccessRightUpdated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1905,6 +1913,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the deletion of an access right.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessRightDeleted : pb::IMessage<AccessRightDeleted>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2109,6 +2118,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the creation of an access right's access point association.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessRightAccessPointCreated : pb::IMessage<AccessRightAccessPointCreated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2362,6 +2372,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the deletion of an access right's access point association.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessRightAccessPointDeleted : pb::IMessage<AccessRightAccessPointDeleted>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2615,6 +2626,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the creation of a user.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserCreated : pb::IMessage<UserCreated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2819,6 +2831,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the update of a user.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserUpdated : pb::IMessage<UserUpdated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3023,6 +3036,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the block of a user.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserBlocked : pb::IMessage<UserBlocked>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3227,6 +3241,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the unblock of a user.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserUnblocked : pb::IMessage<UserUnblocked>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3431,6 +3446,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the deletion of a user.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserDeleted : pb::IMessage<UserDeleted>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3635,6 +3651,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the creation of a user's access right association.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserAccessRightCreated : pb::IMessage<UserAccessRightCreated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3888,6 +3905,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the update of a user's access right association.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserAccessRightUpdated : pb::IMessage<UserAccessRightUpdated>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4141,6 +4159,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the deletion of a user's access right association.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserAccessRightDeleted : pb::IMessage<UserAccessRightDeleted>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4394,6 +4413,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the assignment of a user's card key.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CardKeyAssigned : pb::IMessage<CardKeyAssigned>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4647,6 +4667,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the cancelation of a user's card key.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CardKeyCanceled : pb::IMessage<CardKeyCanceled>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4900,6 +4921,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the assignment of a user's app key.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AppKeyAssigned : pb::IMessage<AppKeyAssigned>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5153,6 +5175,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the cancelation of a user's app key.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AppKeyCanceled : pb::IMessage<AppKeyCanceled>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5406,6 +5429,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the assignment of a user's wallet key.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WalletKeyAssigned : pb::IMessage<WalletKeyAssigned>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5659,6 +5683,7 @@ namespace Saltoapis.Nebula.Event.V1 {
   /// <summary>
   /// Event representing the cancelation of a user's wallet key.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WalletKeyCanceled : pb::IMessage<WalletKeyCanceled>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

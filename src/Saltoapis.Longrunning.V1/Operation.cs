@@ -64,6 +64,7 @@ namespace Saltoapis.Longrunning.V1 {
   /// <summary>
   /// The long-running operation object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Operation : pb::IMessage<Operation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -502,6 +503,7 @@ namespace Saltoapis.Longrunning.V1 {
   /// The request message for
   /// [`OperationService.GetOperation`][salto.longrunning.v1.OperationService.GetOperation].
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetOperationRequest : pb::IMessage<GetOperationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -698,6 +700,7 @@ namespace Saltoapis.Longrunning.V1 {
   /// The request message for
   /// [`OperationService.ListOperations`][salto.longrunning.v1.OperationService.ListOperations].
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListOperationsRequest : pb::IMessage<ListOperationsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -976,6 +979,7 @@ namespace Saltoapis.Longrunning.V1 {
   /// The response message for
   /// [`Operations.ListOperations`][salto.longrunning.v1.OperationService.ListOperations].
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListOperationsResponse : pb::IMessage<ListOperationsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1201,6 +1205,7 @@ namespace Saltoapis.Longrunning.V1 {
   /// The request message for
   /// [`OperationService.DeleteOperation`][salto.longrunning.v1.OperationService.DeleteOperation].
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteOperationRequest : pb::IMessage<DeleteOperationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

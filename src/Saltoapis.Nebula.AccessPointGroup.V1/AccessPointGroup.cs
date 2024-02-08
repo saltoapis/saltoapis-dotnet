@@ -131,6 +131,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The access point group object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessPointGroup : pb::IMessage<AccessPointGroup>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -368,6 +369,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The access point group's access point association
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessPointGroupAccessPoint : pb::IMessage<AccessPointGroupAccessPoint>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -648,6 +650,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`CreateAccessPointGroup`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.CreateAccessPointGroup]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateAccessPointGroupRequest : pb::IMessage<CreateAccessPointGroupRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -949,6 +952,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`GetAccessPointGroup`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.GetAccessPointGroup]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetAccessPointGroupRequest : pb::IMessage<GetAccessPointGroupRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1145,6 +1149,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`ListAccessPointGroups`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.ListAccessPointGroups]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessPointGroupsRequest : pb::IMessage<ListAccessPointGroupsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1541,6 +1546,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The response message for [`ListAccessPointGroups`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.ListAccessPointGroups]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessPointGroupsResponse : pb::IMessage<ListAccessPointGroupsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1768,6 +1774,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`UpdateAccessPointGroup`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.UpdateAccessPointGroup]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateAccessPointGroupRequest : pb::IMessage<UpdateAccessPointGroupRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2021,6 +2028,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`DeleteAccessPointGroup`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.DeleteAccessPointGroup]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteAccessPointGroupRequest : pb::IMessage<DeleteAccessPointGroupRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2217,6 +2225,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`CreateAccessPointGroupAccessPoint`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.CreateAccessPointGroupAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateAccessPointGroupAccessPointRequest : pb::IMessage<CreateAccessPointGroupAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2464,6 +2473,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`GetAccessPointGroupAccessPoint`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.GetAccessPointGroupAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetAccessPointGroupAccessPointRequest : pb::IMessage<GetAccessPointGroupAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2661,6 +2671,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`ListAccessPointGroupAccessPoints`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.ListAccessPointGroupAccessPoints]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessPointGroupAccessPointsRequest : pb::IMessage<ListAccessPointGroupAccessPointsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3019,6 +3030,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`ListAccessPointGroupAccessPoints`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.ListAccessPointGroupAccessPoints]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessPointGroupAccessPointsResponse : pb::IMessage<ListAccessPointGroupAccessPointsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3246,6 +3258,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`UpdateAccessPointGroupAccessPoint`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.UpdateAccessPointGroupAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateAccessPointGroupAccessPointRequest : pb::IMessage<UpdateAccessPointGroupAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3500,6 +3513,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
   /// <summary>
   /// The request message for [`DeleteAccessPointGroupAccessPoint`][salto.nebula.accesspointgroup.v1.AccessPointGroupService.DeleteAccessPointGroupAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteAccessPointGroupAccessPointRequest : pb::IMessage<DeleteAccessPointGroupAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

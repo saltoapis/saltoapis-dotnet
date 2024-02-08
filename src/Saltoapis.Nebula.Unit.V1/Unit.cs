@@ -113,6 +113,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// Representation of a unit resource inside the API
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Unit : pb::IMessage<Unit>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -350,6 +351,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// Representation of an IAM policy inside the API
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Policy : pb::IMessage<Policy>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -616,6 +618,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`CreateUnit`][salto.nebula.unit.v1.UnitService.CreateUnit]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateUnitRequest : pb::IMessage<CreateUnitRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -917,6 +920,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`GetUnit`][salto.nebula.unit.v1.UnitService.GetUnit]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetUnitRequest : pb::IMessage<GetUnitRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1113,6 +1117,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`ListUnits`][salto.nebula.unit.v1.UnitService.ListUnits]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListUnitsRequest : pb::IMessage<ListUnitsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1469,6 +1474,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`ListUnits`][salto.nebula.unit.v1.UnitService.ListUnits]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListUnitsResponse : pb::IMessage<ListUnitsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1696,6 +1702,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`UpdateUnit`][salto.nebula.unit.v1.UnitService.UpdateUnit]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateUnitRequest : pb::IMessage<UpdateUnitRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1949,6 +1956,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`DeleteUnit`][salto.nebula.unit.v1.UnitService.DeleteUnit]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteUnitRequest : pb::IMessage<DeleteUnitRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2145,6 +2153,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`CleanOutUnit`][salto.nebula.unit.v1.UnitService.CleanOutUnit]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CleanOutUnitRequest : pb::IMessage<CleanOutUnitRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2341,6 +2350,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The empty response message for [`CleanOutUnit`][salto.nebula.unit.v1.UnitService.CleanOutUnit]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CleanOutUnitResponse : pb::IMessage<CleanOutUnitResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2496,6 +2506,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`CreatePolicy`][salto.nebula.unit.v1.UnitService.CreatePolicy]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreatePolicyRequest : pb::IMessage<CreatePolicyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2783,6 +2794,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`GetPolicy`][salto.nebula.unit.v1.UnitService.GetPolicy]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetPolicyRequest : pb::IMessage<GetPolicyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2979,6 +2991,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`ListPolicies`][salto.nebula.unit.v1.UnitService.ListPolicies]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListPoliciesRequest : pb::IMessage<ListPoliciesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3336,6 +3349,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The response message for [`ListPolicies`][salto.nebula.unit.v1.UnitService.ListPolicies]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListPoliciesResponse : pb::IMessage<ListPoliciesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3563,6 +3577,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`UpdatePolicy`][salto.nebula.unit.v1.UnitService.UpdatePolicy]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdatePolicyRequest : pb::IMessage<UpdatePolicyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3816,6 +3831,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`DeletePolicy`][salto.nebula.unit.v1.UnitService.DeletePolicy]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeletePolicyRequest : pb::IMessage<DeletePolicyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4012,6 +4028,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The request message for [`TestPermissions`][salto.nebula.unit.v1.UnitService.TestPermissions]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TestPermissionsRequest : pb::IMessage<TestPermissionsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4238,6 +4255,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
   /// <summary>
   /// The response message for [`TestPermissions`][salto.nebula.unit.v1.UnitService.TestPermissions]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TestPermissionsResponse : pb::IMessage<TestPermissionsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
