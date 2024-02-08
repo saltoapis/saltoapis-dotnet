@@ -49,6 +49,7 @@ namespace Saltoapis.Type {
   /// [`salto.type.TimeOfDay`][salto.type.TimeOfDay] and
   /// `google.protobuf.Timestamp`.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Date : pb::IMessage<Date>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

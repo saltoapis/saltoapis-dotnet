@@ -55,6 +55,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
   /// <summary>
   /// The IAM role object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Role : pb::IMessage<Role>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -319,6 +320,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
   /// <summary>
   /// The request message for [`GetRole`][salto.nebula.iam.v1.IAMService.GetRole]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetRoleRequest : pb::IMessage<GetRoleRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -514,6 +516,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
   /// <summary>
   /// The request message for [`ListRoles`][salto.nebula.iam.v1.IAMService.ListRoles]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListRolesRequest : pb::IMessage<ListRolesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -870,6 +873,7 @@ namespace Saltoapis.Nebula.Iam.V1 {
   /// <summary>
   /// The response message for [`ListRoles`][salto.nebula.iam.v1.IAMService.ListRoles]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListRolesResponse : pb::IMessage<ListRolesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

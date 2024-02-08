@@ -211,6 +211,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The user object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class User : pb::IMessage<User>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1090,6 +1091,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The user's access right association
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserAccessRight : pb::IMessage<UserAccessRight>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1430,6 +1432,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// Representation of a card key, belonging to a user
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CardKey : pb::IMessage<CardKey>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1790,6 +1793,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// Representation of an app key, belonging to a user
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AppKey : pb::IMessage<AppKey>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2106,6 +2110,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// Representation of a wallet key, belonging to a user
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WalletKey : pb::IMessage<WalletKey>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2422,6 +2427,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// Representation of a passcode, belonging to a user
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Passcode : pb::IMessage<Passcode>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2693,6 +2699,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`CreateUser`][salto.nebula.user.v1.UserService.CreateUser]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateUserRequest : pb::IMessage<CreateUserRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2994,6 +3001,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`GetUser`][salto.nebula.user.v1.UserService.GetUser]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetUserRequest : pb::IMessage<GetUserRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3190,6 +3198,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`ListUsers`][salto.nebula.user.v1.UserService.ListUsers]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListUsersRequest : pb::IMessage<ListUsersRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3546,6 +3555,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`ListUsers`][salto.nebula.user.v1.UserService.ListUsers]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListUsersResponse : pb::IMessage<ListUsersResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3815,6 +3825,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`UpdateUser`][salto.nebula.user.v1.UserService.UpdateUser]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateUserRequest : pb::IMessage<UpdateUserRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4068,6 +4079,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`DeleteUser`][salto.nebula.user.v1.UserService.DeleteUser]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteUserRequest : pb::IMessage<DeleteUserRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4264,6 +4276,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`BlockUser`][salto.nebula.user.v1.UserService.BlockUser]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BlockUserRequest : pb::IMessage<BlockUserRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4460,6 +4473,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`BlockUser`][salto.nebula.user.v1.UserService.BlockUser]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BlockUserResponse : pb::IMessage<BlockUserResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4615,6 +4629,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`UnblockUser`][salto.nebula.user.v1.UserService.UnblockUser]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnblockUserRequest : pb::IMessage<UnblockUserRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4811,6 +4826,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`UnblockUser`][salto.nebula.user.v1.UserService.UnblockUser]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnblockUserResponse : pb::IMessage<UnblockUserResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4966,6 +4982,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`CreateUserAccessRight`][salto.nebula.user.v1.UserService.CreateUserAccessRight]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateUserAccessRightRequest : pb::IMessage<CreateUserAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5213,6 +5230,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`GetUserAccessRight`][salto.nebula.user.v1.UserService.GetUserAcessRight]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetUserAccessRightRequest : pb::IMessage<GetUserAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5410,6 +5428,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`ListUserAccessRights`][salto.nebula.user.v1.UserService.ListUserAccessRights]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListUserAccessRightsRequest : pb::IMessage<ListUserAccessRightsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5768,6 +5787,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`ListUserAccessRights`][salto.nebula.user.v1.UserService.ListUserAccessRights]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListUserAccessRightsResponse : pb::IMessage<ListUserAccessRightsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5995,6 +6015,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`UpdateUserAccessRight`][salto.nebula.user.v1.UserService.UpdateUserAccessRight]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateUserAccessRightRequest : pb::IMessage<UpdateUserAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6249,6 +6270,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`DeleteUserAccessRight`][salto.nebula.user.v1.UserService.DeleteUserAccessRight]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteUserAccessRightRequest : pb::IMessage<DeleteUserAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6446,6 +6468,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`AssignCardkey`][salto.nebula.user.v1.UserService.AssignCardkey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AssignCardKeyRequest : pb::IMessage<AssignCardKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6683,6 +6706,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`CancelCardKey`][salto.nebula.user.v1.UserService.CancelCardKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CancelCardKeyRequest : pb::IMessage<CancelCardKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6879,6 +6903,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`EncodeCardKey`][salto.nebula.user.v1.UserService.EncodeCardKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class EncodeCardKeyRequest : pb::IMessage<EncodeCardKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7273,6 +7298,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`EncodeCardKey`][salto.nebula.user.v1.UserService.EncodeCardKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class EncodeCardKeyResponse : pb::IMessage<EncodeCardKeyResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7428,6 +7454,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The metadata message for [`EncodeCardKey`][salto.nebula.user.v1.UserService.EncodeCardKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class EncodeCardKeyMetadata : pb::IMessage<EncodeCardKeyMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7583,6 +7610,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`AssignDigitalkey`][salto.nebula.user.v1.UserService.AssignDigitalkey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AssignAppKeyRequest : pb::IMessage<AssignAppKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7779,6 +7807,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`CancelAppKey`][salto.nebula.user.v1.UserService.CancelAppKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CancelAppKeyRequest : pb::IMessage<CancelAppKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7975,6 +8004,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`ComputeAppKeyData`][salto.nebula.user.v1.UserService.ComputeAppKeyData]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ComputeAppKeyDataRequest : pb::IMessage<ComputeAppKeyDataRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8171,6 +8201,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`ComputeAppKeyData`][salto.nebula.user.v1.UserService.ComputeAppKeyData]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ComputeAppKeyDataResponse : pb::IMessage<ComputeAppKeyDataResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8366,6 +8397,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`AssignWalletKey`][salto.nebula.user.v1.UserService.AssignWalletKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AssignWalletKeyRequest : pb::IMessage<AssignWalletKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8562,6 +8594,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`AssignWalletKey`][salto.nebula.user.v1.UserService.AssignWalletKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AssignWalletKeyResponse : pb::IMessage<AssignWalletKeyResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8808,6 +8841,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`CancelWalletKey`][salto.nebula.user.v1.UserService.CancelWalletKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CancelWalletKeyRequest : pb::IMessage<CancelWalletKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9004,6 +9038,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`CancelWalletKey`][salto.nebula.user.v1.UserService.CancelWalletKey]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CancelWalletKeyResponse : pb::IMessage<CancelWalletKeyResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9208,6 +9243,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`AssignPasscode`][salto.nebula.user.v1.UserService.AssignPasscode]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AssignPasscodeRequest : pb::IMessage<AssignPasscodeRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9404,6 +9440,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`AssignPasscode`][salto.nebula.user.v1.UserService.AssignPasscode]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AssignPasscodeResponse : pb::IMessage<AssignPasscodeResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9648,6 +9685,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The request message for [`CancelPasscode`][salto.nebula.user.v1.UserService.CancelPasscode]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CancelPasscodeRequest : pb::IMessage<CancelPasscodeRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9844,6 +9882,7 @@ namespace Saltoapis.Nebula.User.V1 {
   /// <summary>
   /// The response message for [`CancelPasscode`][salto.nebula.user.v1.UserService.CancelPasscode]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CancelPasscodeResponse : pb::IMessage<CancelPasscodeResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

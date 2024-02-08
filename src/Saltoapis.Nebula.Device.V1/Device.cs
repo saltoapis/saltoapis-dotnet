@@ -65,6 +65,7 @@ namespace Saltoapis.Nebula.Device.V1 {
   /// <summary>
   /// The device object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Device : pb::IMessage<Device>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -790,6 +791,7 @@ namespace Saltoapis.Nebula.Device.V1 {
   /// <summary>
   /// The request message for [GetDevice][salto.nebula.device.v1.DeviceService.GetDevice]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetDeviceRequest : pb::IMessage<GetDeviceRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -986,6 +988,7 @@ namespace Saltoapis.Nebula.Device.V1 {
   /// <summary>
   /// The request message for [ListDevices][salto.nebula.device.v1.DeviceService.ListDevice]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListDevicesRequest : pb::IMessage<ListDevicesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1342,6 +1345,7 @@ namespace Saltoapis.Nebula.Device.V1 {
   /// <summary>
   /// The response message for [ListDevices][salto.nebula.device.v1.DeviceService.ListDevices]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListDevicesResponse : pb::IMessage<ListDevicesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

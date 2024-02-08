@@ -99,6 +99,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   /// <summary>
   /// The opening mode schedule object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class OpeningModeSchedule : pb::IMessage<OpeningModeSchedule>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -368,6 +369,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
       /// <summary>
       /// Day of the week
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class Day : pb::IMessage<Day>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -635,6 +637,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
           /// <summary>
           /// The time period in which the opening mode will be valid
           /// </summary>
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
           public sealed partial class Slot : pb::IMessage<Slot>
           #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
               , pb::IBufferMessage
@@ -938,6 +941,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   /// <summary>
   /// The request message for [`CreateOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.CreateOpeningModeSchedule]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateOpeningModeScheduleRequest : pb::IMessage<CreateOpeningModeScheduleRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1225,6 +1229,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   /// <summary>
   /// The request message for [`GetOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.GetOpeningModeSchedule]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetOpeningModeScheduleRequest : pb::IMessage<GetOpeningModeScheduleRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1421,6 +1426,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   /// <summary>
   /// The request message for [`ListOpeningModeSchedules`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.ListOpeningModeSchedules]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListOpeningModeSchedulesRequest : pb::IMessage<ListOpeningModeSchedulesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1777,6 +1783,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   /// <summary>
   /// The response message for [`ListOpeningModeSchedules`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.ListOpeningModeSchedules]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListOpeningModeSchedulesResponse : pb::IMessage<ListOpeningModeSchedulesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2004,6 +2011,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   /// <summary>
   /// The response message for [`UpdateOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.UpdateOpeningModeSchedule]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateOpeningModeScheduleRequest : pb::IMessage<UpdateOpeningModeScheduleRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2257,6 +2265,7 @@ namespace Saltoapis.Nebula.OpeningModeSchedule.V1 {
   /// <summary>
   /// The response message for [`DeleteOpeningModeSchedule`][salto.nebula.openingmodeschedule.v1.OpeningModeScheduleService.DeleteOpeningModeSchedule]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteOpeningModeScheduleRequest : pb::IMessage<DeleteOpeningModeScheduleRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

@@ -168,6 +168,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The access right object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessRight : pb::IMessage<AccessRight>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -532,6 +533,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The access right's access point association
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessRightAccessPoint : pb::IMessage<AccessRightAccessPoint>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -812,6 +814,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The access right's access point group association
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccessRightAccessPointGroup : pb::IMessage<AccessRightAccessPointGroup>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1092,6 +1095,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`CreateAccessRight`][salto.nebula.accessright.v1.AccessRightService.CreateAccessRight]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateAccessRightRequest : pb::IMessage<CreateAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1393,6 +1397,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`GetAccessRight`][salto.nebula.accessright.v1.AccessRightService.GetAccessRight]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetAccessRightRequest : pb::IMessage<GetAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1589,6 +1594,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`ListAccessRights`][salto.nebula.accessright.v1.AccessRightService.ListAccessRights]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessRightsRequest : pb::IMessage<ListAccessRightsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1945,6 +1951,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The response message for [`ListAccessRights`][salto.nebula.accessright.v1.AccessRightService.ListAccessRights]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessRightsResponse : pb::IMessage<ListAccessRightsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2172,6 +2179,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`UpdateAccessRight`][salto.nebula.accessright.v1.AccessRightService.UpdateAccessRight]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateAccessRightRequest : pb::IMessage<UpdateAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2425,6 +2433,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`DeleteAccessRight`][salto.nebula.accessright.v1.AccessRightService.DeleteAccessRight]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteAccessRightRequest : pb::IMessage<DeleteAccessRightRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2621,6 +2630,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`CreateAccessRightAccessPoint`][salto.nebula.accessright.v1.AccessRightService.CreateAccessRightAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateAccessRightAccessPointRequest : pb::IMessage<CreateAccessRightAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2868,6 +2878,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`GetAccessRightAccessPoint`][salto.nebula.accessright.v1.AccessRightService.GetAccessRightAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetAccessRightAccessPointRequest : pb::IMessage<GetAccessRightAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3065,6 +3076,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`ListAccessRightAccessPoints`][salto.nebula.accessright.v1.AccessRightService.ListAccessRightAccessPoints]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessRightAccessPointsRequest : pb::IMessage<ListAccessRightAccessPointsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3423,6 +3435,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`ListAccessRightAccessPoints`][salto.nebula.accessright.v1.AccessRightService.ListAccessRightAccessPoints]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessRightAccessPointsResponse : pb::IMessage<ListAccessRightAccessPointsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3650,6 +3663,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`UpdateAccessRightAccessPoint`][salto.nebula.accessright.v1.AccessRightService.UpdateAccessRightAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateAccessRightAccessPointRequest : pb::IMessage<UpdateAccessRightAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3904,6 +3918,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`DeleteAccessRightAccessPoint`][salto.nebula.accessright.v1.AccessRightService.DeleteAccessRightAccessPoint]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteAccessRightAccessPointRequest : pb::IMessage<DeleteAccessRightAccessPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4101,6 +4116,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`CreateAccessRightAccessPointGroup`][salto.nebula.accessright.v1.AccessRightService.CreateAccessRightAccessPointGroup]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateAccessRightAccessPointGroupRequest : pb::IMessage<CreateAccessRightAccessPointGroupRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4348,6 +4364,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`GetAccessRightAccessPointGroup`][salto.nebula.accessright.v1.AccessRightService.GetAccessRightAccessPointGroup]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetAccessRightAccessPointGroupRequest : pb::IMessage<GetAccessRightAccessPointGroupRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4545,6 +4562,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`ListAccessRightAccessPointGroups`][salto.nebula.accessright.v1.AccessRightService.ListAccessRightAccessPointGroups]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessRightAccessPointGroupsRequest : pb::IMessage<ListAccessRightAccessPointGroupsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4903,6 +4921,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`ListAccessRightAccessPointGroups`][salto.nebula.accessright.v1.AccessRightService.ListAccessRightAccessPointGroups]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListAccessRightAccessPointGroupsResponse : pb::IMessage<ListAccessRightAccessPointGroupsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5130,6 +5149,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`UpdateAccessRightAccessPointGroup`][salto.nebula.accessright.v1.AccessRightService.UpdateAccessRightAccessPointGroup]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateAccessRightAccessPointGroupRequest : pb::IMessage<UpdateAccessRightAccessPointGroupRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5384,6 +5404,7 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
   /// <summary>
   /// The request message for [`DeleteAccessRightAccessPointGroup`][salto.nebula.accessright.v1.AccessRightService.DeleteAccessRightAccessPointGroup]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteAccessRightAccessPointGroupRequest : pb::IMessage<DeleteAccessRightAccessPointGroupRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

@@ -49,6 +49,7 @@ namespace Saltoapis.Nebula.Type {
   /// <summary>
   /// Represents an schedule.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Schedule : pb::IMessage<Schedule>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -334,6 +335,7 @@ namespace Saltoapis.Nebula.Type {
       /// <summary>
       /// Day of the week
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class Day : pb::IMessage<Day>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage

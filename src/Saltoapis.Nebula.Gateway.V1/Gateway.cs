@@ -146,6 +146,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The gateway object
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Gateway : pb::IMessage<Gateway>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -625,6 +626,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// Ethernet network settings
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class EthernetSettings : pb::IMessage<EthernetSettings>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -878,6 +880,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// WiFi network settings
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WifiSettings : pb::IMessage<WifiSettings>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1228,6 +1231,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// IPv4 (Internet Protocol version 4) settings
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class IPv4Settings : pb::IMessage<IPv4Settings>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1553,6 +1557,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// DNS settings
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DNSSettings : pb::IMessage<DNSSettings>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1741,6 +1746,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [CreateGateway][salto.nebula.gateway.v1.GatewayService.CreateGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateGatewayRequest : pb::IMessage<CreateGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2042,6 +2048,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [GetGateway][salto.nebula.gateway.v1.GatewayService.GetGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetGatewayRequest : pb::IMessage<GetGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2238,6 +2245,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [ListGateways][salto.nebula.gateway.v1.GatewayService.ListGateways]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListGatewaysRequest : pb::IMessage<ListGatewaysRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2594,6 +2602,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The response message for [ListGateways][salto.nebula.gateway.v1.GatewayService.ListGateways]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ListGatewaysResponse : pb::IMessage<ListGatewaysResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2821,6 +2830,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [UpdateGateway][salto.nebula.gateway.v1.GatewayService.UpdateGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateGatewayRequest : pb::IMessage<UpdateGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3074,6 +3084,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [DeleteGateway][salto.nebula.gateway.v1.GatewayService.DeleteGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteGatewayRequest : pb::IMessage<DeleteGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3270,6 +3281,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [`BindGateway`][salto.nebula.gateway.v1.GatewayService.BindGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindGatewayRequest : pb::IMessage<BindGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3507,6 +3519,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The empty response message for [`BindGateway`][salto.nebula.gateway.v1.GatewayService.BindGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BindGatewayResponse : pb::IMessage<BindGatewayResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3662,6 +3675,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [`UnbindGateway`][salto.nebula.gateway.v1.GatewayService.UnbindGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindGatewayRequest : pb::IMessage<UnbindGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3900,6 +3914,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The empty response message for [`UnbindGateway`][salto.nebula.gateway.v1.GatewayService.UnbindGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UnbindGatewayResponse : pb::IMessage<UnbindGatewayResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4055,6 +4070,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeGatewayRequest : pb::IMessage<InitializeGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4251,6 +4267,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The empty response message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeGatewayResponse : pb::IMessage<InitializeGatewayResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4406,6 +4423,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The metadata message for [`InitializeGateway`][salto.nebula.gateway.v1.GatewayService.InitializeGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InitializeGatewayMetadata : pb::IMessage<InitializeGatewayMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4561,6 +4579,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureGatewayRequest : pb::IMessage<ConfigureGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4757,6 +4776,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The empty response message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureGatewayResponse : pb::IMessage<ConfigureGatewayResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4912,6 +4932,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The metadata message for [`ConfigureGateway`][salto.nebula.gateway.v1.GatewayService.ConfigureGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ConfigureGatewayMetadata : pb::IMessage<ConfigureGatewayMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5067,6 +5088,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetGatewayRequest : pb::IMessage<ResetGatewayRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5263,6 +5285,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The empty response message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetGatewayResponse : pb::IMessage<ResetGatewayResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5418,6 +5441,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The metadata message for [`ResetGateway`][salto.nebula.gateway.v1.GatewayService.ResetGateway]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ResetGatewayMetadata : pb::IMessage<ResetGatewayMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5573,6 +5597,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateGatewayFirmwareRequest : pb::IMessage<UpdateGatewayFirmwareRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5770,6 +5795,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The response message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateGatewayFirmwareResponse : pb::IMessage<UpdateGatewayFirmwareResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5925,6 +5951,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The metadata message for [`UpdateGatewayFirmware`][salto.nebula.gateway.v1.GatewayService.UpdateGatewayFirmware]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateGatewayFirmwareMetadata : pb::IMessage<UpdateGatewayFirmwareMetadata>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6120,6 +6147,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The request message for [`GenerateAuthorizationToken`][salto.nebula.gateway.v1.GatewayService.GenerateAuthorizationToken]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GenerateAuthorizationTokenRequest : pb::IMessage<GenerateAuthorizationTokenRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6317,6 +6345,7 @@ namespace Saltoapis.Nebula.Gateway.V1 {
   /// <summary>
   /// The response message for [`GenerateAuthorizationToken`][salto.nebula.gateway.v1.GatewayService.GenerateAuthorizationToken]
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GenerateAuthorizationTokenResponse : pb::IMessage<GenerateAuthorizationTokenResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
