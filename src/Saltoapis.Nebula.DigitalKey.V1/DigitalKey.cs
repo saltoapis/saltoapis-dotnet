@@ -26,59 +26,60 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           string.Concat(
             "CixzYWx0by9uZWJ1bGEvZGlnaXRhbGtleS92MS9kaWdpdGFsX2tleS5wcm90",
             "bxIac2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEaFnNhbHRvL3R5cGUvY29s",
-            "b3IucHJvdG8iiwYKCkRpZ2l0YWxLZXkSDAoEbmFtZRgBIAEoCRJACgdhcHBf",
+            "b3IucHJvdG8ioQYKCkRpZ2l0YWxLZXkSDAoEbmFtZRgBIAEoCRJACgdhcHBf",
             "a2V5GAIgASgLMi0uc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRh",
             "bEtleS5BcHBLZXlIABJGCgp3YWxsZXRfa2V5GAMgASgLMjAuc2FsdG8ubmVi",
             "dWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRhbEtleS5XYWxsZXRLZXlIABp2CghN",
             "ZXRhZGF0YRINCgV0aXRsZRgBIAEoCRIQCghzdWJ0aXRsZRgCIAEoCRIRCglw",
             "aG90b191cmkYAyABKAkSDwoHYWRkcmVzcxgEIAEoCRIlCgp0ZXh0X2NvbG9y",
-            "GAUgASgLMhEuc2FsdG8udHlwZS5Db2xvchqUAQoGQXBwS2V5EkEKCG1ldGFk",
+            "GAUgASgLMhEuc2FsdG8udHlwZS5Db2xvchqqAQoGQXBwS2V5EkEKCG1ldGFk",
             "YXRhGAEgASgLMi8uc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRh",
-            "bEtleS5NZXRhZGF0YRIMCgRkYXRhGAIgASgMEhcKD2luc3RhbGxhdGlvbl9p",
-            "ZBgDIAEoCRIUCgd1bml0X2lkGAQgASgJSACIAQFCCgoIX3VuaXRfaWQazQIK",
-            "CVdhbGxldEtleRJBCghtZXRhZGF0YRgBIAEoCzIvLnNhbHRvLm5lYnVsYS5k",
-            "aWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkuTWV0YWRhdGESWgoQaHlkcmFfY3Jl",
-            "ZGVudGlhbBgCIAEoCzJALnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRp",
-            "Z2l0YWxLZXkuV2FsbGV0S2V5Lkh5ZHJhQ3JlZGVudGlhbBqgAQoPSHlkcmFD",
-            "cmVkZW50aWFsEhUKDWNyZWRlbnRpYWxfaWQYASABKAkSGwoTc2hhcmluZ19p",
-            "bnN0YW5jZV9pZBgCIAEoCRIUCgxhY2NvdW50X2hhc2gYAyABKAkSEwoLdGVt",
-            "cGxhdGVfaWQYBCABKAkSGAoQcmVseWluZ19wYXJ0eV9pZBgFIAEoCRIUCgxy",
-            "ZWZlcmVuY2VfaWQYBiABKAlCBgoEdHlwZSIkChRHZXREaWdpdGFsS2V5UmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJImEKFkxpc3REaWdpdGFsS2V5c1JlcXVlc3QS",
-            "EQoJcGFnZV9zaXplGAEgASgFEhIKCnBhZ2VfdG9rZW4YAiABKAkSDgoGZmls",
-            "dGVyGAMgASgJEhAKCG9yZGVyX2J5GAQgASgJInAKF0xpc3REaWdpdGFsS2V5",
-            "c1Jlc3BvbnNlEjwKDGRpZ2l0YWxfa2V5cxgBIAMoCzImLnNhbHRvLm5lYnVs",
-            "YS5kaWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkSFwoPbmV4dF9wYWdlX3Rva2Vu",
-            "GAIgASgJIk4KFURpZ2l0YWxLZXlBY2Nlc3NQb2ludBIMCgRuYW1lGAEgASgJ",
-            "EhQKDGRpc3BsYXlfbmFtZRgCIAEoCRIRCglkZXZpY2VfaWQYAyABKAkiLwof",
-            "R2V0RGlnaXRhbEtleUFjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEgASgJ",
-            "ImoKIUxpc3REaWdpdGFsS2V5QWNjZXNzUG9pbnRzUmVxdWVzdBIOCgZwYXJl",
-            "bnQYASABKAkSDgoGZmlsdGVyGAIgASgJEhEKCXBhZ2Vfc2l6ZRgDIAEoBRIS",
-            "CgpwYWdlX3Rva2VuGAQgASgJIpMBCiJMaXN0RGlnaXRhbEtleUFjY2Vzc1Bv",
-            "aW50c1Jlc3BvbnNlElQKGWRpZ2l0YWxfa2V5X2FjY2Vzc19wb2ludHMYASAD",
-            "KAsyMS5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5QWNj",
-            "ZXNzUG9pbnQSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJMqUEChFEaWdpdGFs",
-            "S2V5U2VydmljZRJpCg1HZXREaWdpdGFsS2V5EjAuc2FsdG8ubmVidWxhLmRp",
-            "Z2l0YWxrZXkudjEuR2V0RGlnaXRhbEtleVJlcXVlc3QaJi5zYWx0by5uZWJ1",
-            "bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5EnoKD0xpc3REaWdpdGFsS2V5",
-            "cxIyLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkxpc3REaWdpdGFsS2V5",
-            "c1JlcXVlc3QaMy5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5MaXN0RGln",
-            "aXRhbEtleXNSZXNwb25zZRKKAQoYR2V0RGlnaXRhbEtleUFjY2Vzc1BvaW50",
-            "Ejsuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuR2V0RGlnaXRhbEtleUFj",
-            "Y2Vzc1BvaW50UmVxdWVzdBoxLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYx",
-            "LkRpZ2l0YWxLZXlBY2Nlc3NQb2ludBKbAQoaTGlzdERpZ2l0YWxLZXlBY2Nl",
-            "c3NQb2ludHMSPS5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5MaXN0RGln",
-            "aXRhbEtleUFjY2Vzc1BvaW50c1JlcXVlc3QaPi5zYWx0by5uZWJ1bGEuZGln",
-            "aXRhbGtleS52MS5MaXN0RGlnaXRhbEtleUFjY2Vzc1BvaW50c1Jlc3BvbnNl",
-            "Qp4BCiJjb20uc2FsdG9hcGlzLm5lYnVsYS5kaWdpdGFsa2V5LnYxQg9EaWdp",
-            "dGFsS2V5UHJvdG9QAVpEZ2l0aHViLmNvbS9zYWx0b3N5c3RlbXMvc2FsdG9h",
-            "cGlzLWdvL25lYnVsYS9kaWdpdGFsa2V5L3YxO2RpZ2l0YWxrZXmqAh5TYWx0",
-            "b2FwaXMuTmVidWxhLkRpZ2l0YWxLZXkuVjFiBnByb3RvMw=="));
+            "bEtleS5NZXRhZGF0YRIMCgRkYXRhGAIgASgMEhQKDGluc3RhbGxhdGlvbhgF",
+            "IAEoCRIXCg9pbnN0YWxsYXRpb25faWQYAyABKAkSFAoHdW5pdF9pZBgEIAEo",
+            "CUgAiAEBQgoKCF91bml0X2lkGs0CCglXYWxsZXRLZXkSQQoIbWV0YWRhdGEY",
+            "ASABKAsyLy5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5",
+            "Lk1ldGFkYXRhEloKEGh5ZHJhX2NyZWRlbnRpYWwYAiABKAsyQC5zYWx0by5u",
+            "ZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5LldhbGxldEtleS5IeWRy",
+            "YUNyZWRlbnRpYWwaoAEKD0h5ZHJhQ3JlZGVudGlhbBIVCg1jcmVkZW50aWFs",
+            "X2lkGAEgASgJEhsKE3NoYXJpbmdfaW5zdGFuY2VfaWQYAiABKAkSFAoMYWNj",
+            "b3VudF9oYXNoGAMgASgJEhMKC3RlbXBsYXRlX2lkGAQgASgJEhgKEHJlbHlp",
+            "bmdfcGFydHlfaWQYBSABKAkSFAoMcmVmZXJlbmNlX2lkGAYgASgJQgYKBHR5",
+            "cGUiJAoUR2V0RGlnaXRhbEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJhChZM",
+            "aXN0RGlnaXRhbEtleXNSZXF1ZXN0EhEKCXBhZ2Vfc2l6ZRgBIAEoBRISCgpw",
+            "YWdlX3Rva2VuGAIgASgJEg4KBmZpbHRlchgDIAEoCRIQCghvcmRlcl9ieRgE",
+            "IAEoCSJwChdMaXN0RGlnaXRhbEtleXNSZXNwb25zZRI8CgxkaWdpdGFsX2tl",
+            "eXMYASADKAsyJi5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFs",
+            "S2V5EhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSJOChVEaWdpdGFsS2V5QWNj",
+            "ZXNzUG9pbnQSDAoEbmFtZRgBIAEoCRIUCgxkaXNwbGF5X25hbWUYAiABKAkS",
+            "EQoJZGV2aWNlX2lkGAMgASgJIi8KH0dldERpZ2l0YWxLZXlBY2Nlc3NQb2lu",
+            "dFJlcXVlc3QSDAoEbmFtZRgBIAEoCSJqCiFMaXN0RGlnaXRhbEtleUFjY2Vz",
+            "c1BvaW50c1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEg4KBmZpbHRlchgCIAEo",
+            "CRIRCglwYWdlX3NpemUYAyABKAUSEgoKcGFnZV90b2tlbhgEIAEoCSKTAQoi",
+            "TGlzdERpZ2l0YWxLZXlBY2Nlc3NQb2ludHNSZXNwb25zZRJUChlkaWdpdGFs",
+            "X2tleV9hY2Nlc3NfcG9pbnRzGAEgAygLMjEuc2FsdG8ubmVidWxhLmRpZ2l0",
+            "YWxrZXkudjEuRGlnaXRhbEtleUFjY2Vzc1BvaW50EhcKD25leHRfcGFnZV90",
+            "b2tlbhgCIAEoCTKlBAoRRGlnaXRhbEtleVNlcnZpY2USaQoNR2V0RGlnaXRh",
+            "bEtleRIwLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkdldERpZ2l0YWxL",
+            "ZXlSZXF1ZXN0GiYuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRh",
+            "bEtleRJ6Cg9MaXN0RGlnaXRhbEtleXMSMi5zYWx0by5uZWJ1bGEuZGlnaXRh",
+            "bGtleS52MS5MaXN0RGlnaXRhbEtleXNSZXF1ZXN0GjMuc2FsdG8ubmVidWxh",
+            "LmRpZ2l0YWxrZXkudjEuTGlzdERpZ2l0YWxLZXlzUmVzcG9uc2USigEKGEdl",
+            "dERpZ2l0YWxLZXlBY2Nlc3NQb2ludBI7LnNhbHRvLm5lYnVsYS5kaWdpdGFs",
+            "a2V5LnYxLkdldERpZ2l0YWxLZXlBY2Nlc3NQb2ludFJlcXVlc3QaMS5zYWx0",
+            "by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5QWNjZXNzUG9pbnQS",
+            "mwEKGkxpc3REaWdpdGFsS2V5QWNjZXNzUG9pbnRzEj0uc2FsdG8ubmVidWxh",
+            "LmRpZ2l0YWxrZXkudjEuTGlzdERpZ2l0YWxLZXlBY2Nlc3NQb2ludHNSZXF1",
+            "ZXN0Gj4uc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuTGlzdERpZ2l0YWxL",
+            "ZXlBY2Nlc3NQb2ludHNSZXNwb25zZUKeAQoiY29tLnNhbHRvYXBpcy5uZWJ1",
+            "bGEuZGlnaXRhbGtleS52MUIPRGlnaXRhbEtleVByb3RvUAFaRGdpdGh1Yi5j",
+            "b20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBpcy1nby9uZWJ1bGEvZGlnaXRhbGtl",
+            "eS92MTtkaWdpdGFsa2V5qgIeU2FsdG9hcGlzLk5lYnVsYS5EaWdpdGFsS2V5",
+            "LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Type.ColorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Parser, new[]{ "Name", "AppKey", "WalletKey" }, new[]{ "Type" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata.Parser, new[]{ "Title", "Subtitle", "PhotoUri", "Address", "TextColor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Parser, new[]{ "Metadata", "Data", "InstallationId", "UnitId" }, new[]{ "UnitId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Parser, new[]{ "Metadata", "Data", "Installation", "InstallationId", "UnitId" }, new[]{ "UnitId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Parser, new[]{ "Metadata", "HydraCredential" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential.Parser, new[]{ "CredentialId", "SharingInstanceId", "AccountHash", "TemplateId", "RelyingPartyId", "ReferenceId" }, null, null, null, null)})}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest), global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest), global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest.Parser, new[]{ "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -837,6 +838,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
         public AppKey(AppKey other) : this() {
           metadata_ = other.metadata_ != null ? other.metadata_.Clone() : null;
           data_ = other.data_;
+          installation_ = other.installation_;
           installationId_ = other.installationId_;
           unitId_ = other.unitId_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -875,6 +877,22 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           get { return data_; }
           set {
             data_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "installation" field.</summary>
+        public const int InstallationFieldNumber = 5;
+        private string installation_ = "";
+        /// <summary>
+        /// The resource name of the installation this app key belong to.
+        /// For example: `installations/surelock-homes-hq`.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Installation {
+          get { return installation_; }
+          set {
+            installation_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
           }
         }
 
@@ -947,6 +965,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           }
           if (!object.Equals(Metadata, other.Metadata)) return false;
           if (Data != other.Data) return false;
+          if (Installation != other.Installation) return false;
           if (InstallationId != other.InstallationId) return false;
           if (UnitId != other.UnitId) return false;
           return Equals(_unknownFields, other._unknownFields);
@@ -958,6 +977,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           int hash = 1;
           if (metadata_ != null) hash ^= Metadata.GetHashCode();
           if (Data.Length != 0) hash ^= Data.GetHashCode();
+          if (Installation.Length != 0) hash ^= Installation.GetHashCode();
           if (InstallationId.Length != 0) hash ^= InstallationId.GetHashCode();
           if (HasUnitId) hash ^= UnitId.GetHashCode();
           if (_unknownFields != null) {
@@ -994,6 +1014,10 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             output.WriteRawTag(34);
             output.WriteString(UnitId);
           }
+          if (Installation.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteString(Installation);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -1020,6 +1044,10 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             output.WriteRawTag(34);
             output.WriteString(UnitId);
           }
+          if (Installation.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteString(Installation);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -1035,6 +1063,9 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           }
           if (Data.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeBytesSize(Data);
+          }
+          if (Installation.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Installation);
           }
           if (InstallationId.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(InstallationId);
@@ -1062,6 +1093,9 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           }
           if (other.Data.Length != 0) {
             Data = other.Data;
+          }
+          if (other.Installation.Length != 0) {
+            Installation = other.Installation;
           }
           if (other.InstallationId.Length != 0) {
             InstallationId = other.InstallationId;
@@ -1103,6 +1137,10 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
                 UnitId = input.ReadString();
                 break;
               }
+              case 42: {
+                Installation = input.ReadString();
+                break;
+              }
             }
           }
         #endif
@@ -1135,6 +1173,10 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
               }
               case 34: {
                 UnitId = input.ReadString();
+                break;
+              }
+              case 42: {
+                Installation = input.ReadString();
                 break;
               }
             }
