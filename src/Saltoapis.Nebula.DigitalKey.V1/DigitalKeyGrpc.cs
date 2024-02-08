@@ -58,6 +58,14 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest> __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse> __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyAccessPointRequest> __Marshaller_salto_nebula_digitalkey_v1_GetDigitalKeyAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyAccessPointRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.DigitalKeyAccessPoint> __Marshaller_salto_nebula_digitalkey_v1_DigitalKeyAccessPoint = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.DigitalKeyAccessPoint.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsRequest> __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeyAccessPointsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsResponse> __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeyAccessPointsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest, global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey> __Method_GetDigitalKey = new grpc::Method<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest, global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey>(
@@ -74,6 +82,22 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
         "ListDigitalKeys",
         __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeysRequest,
         __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeysResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyAccessPointRequest, global::Saltoapis.Nebula.DigitalKey.V1.DigitalKeyAccessPoint> __Method_GetDigitalKeyAccessPoint = new grpc::Method<global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyAccessPointRequest, global::Saltoapis.Nebula.DigitalKey.V1.DigitalKeyAccessPoint>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetDigitalKeyAccessPoint",
+        __Marshaller_salto_nebula_digitalkey_v1_GetDigitalKeyAccessPointRequest,
+        __Marshaller_salto_nebula_digitalkey_v1_DigitalKeyAccessPoint);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsRequest, global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsResponse> __Method_ListDigitalKeyAccessPoints = new grpc::Method<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsRequest, global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListDigitalKeyAccessPoints",
+        __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeyAccessPointsRequest,
+        __Marshaller_salto_nebula_digitalkey_v1_ListDigitalKeyAccessPointsResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -219,6 +243,118 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysResponse> ListDigitalKeysAsync(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListDigitalKeys, null, options, request);
+      }
+      /// <summary>
+      /// Get an access point
+      ///
+      /// Gets an existing digital key's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.DigitalKey.V1.DigitalKeyAccessPoint GetDigitalKeyAccessPoint(global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDigitalKeyAccessPoint(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get an access point
+      ///
+      /// Gets an existing digital key's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.DigitalKey.V1.DigitalKeyAccessPoint GetDigitalKeyAccessPoint(global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyAccessPointRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetDigitalKeyAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// Get an access point
+      ///
+      /// Gets an existing digital key's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.DigitalKey.V1.DigitalKeyAccessPoint> GetDigitalKeyAccessPointAsync(global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyAccessPointRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDigitalKeyAccessPointAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get an access point
+      ///
+      /// Gets an existing digital key's access point association.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.DigitalKey.V1.DigitalKeyAccessPoint> GetDigitalKeyAccessPointAsync(global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyAccessPointRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetDigitalKeyAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// List access points
+      ///
+      /// Lists an existing digital key's access point associations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsResponse ListDigitalKeyAccessPoints(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListDigitalKeyAccessPoints(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List access points
+      ///
+      /// Lists an existing digital key's access point associations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsResponse ListDigitalKeyAccessPoints(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListDigitalKeyAccessPoints, null, options, request);
+      }
+      /// <summary>
+      /// List access points
+      ///
+      /// Lists an existing digital key's access point associations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsResponse> ListDigitalKeyAccessPointsAsync(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListDigitalKeyAccessPointsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List access points
+      ///
+      /// Lists an existing digital key's access point associations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsResponse> ListDigitalKeyAccessPointsAsync(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeyAccessPointsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListDigitalKeyAccessPoints, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
