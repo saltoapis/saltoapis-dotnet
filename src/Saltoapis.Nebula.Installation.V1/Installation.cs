@@ -1688,7 +1688,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   }
 
   /// <summary>
-  /// The subscription information.
+  /// The subscription information
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Subscription : pb::IMessage<Subscription>
@@ -3333,7 +3333,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
   }
 
   /// <summary>
-  /// The invoice object used for billing.
+  /// The invoice object used for billing
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Invoice : pb::IMessage<Invoice>

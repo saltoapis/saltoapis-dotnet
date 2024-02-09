@@ -210,7 +210,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
       }
 
       /// <summary>
-      /// Creates a controller
+      /// Create a controller
       ///
       /// Creates a new controller
       /// </summary>
@@ -225,7 +225,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
         return CreateController(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Creates a controller
+      /// Create a controller
       ///
       /// Creates a new controller
       /// </summary>
@@ -238,7 +238,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_CreateController, null, options, request);
       }
       /// <summary>
-      /// Creates a controller
+      /// Create a controller
       ///
       /// Creates a new controller
       /// </summary>
@@ -253,7 +253,7 @@ namespace Saltoapis.Nebula.Controller.V1 {
         return CreateControllerAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Creates a controller
+      /// Create a controller
       ///
       /// Creates a new controller
       /// </summary>
