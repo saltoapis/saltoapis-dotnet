@@ -25,17 +25,18 @@ namespace Saltoapis.Nebula.File.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch9zYWx0by9uZWJ1bGEvZmlsZS92MS9maWxlLnByb3RvEhRzYWx0by5uZWJ1",
-            "bGEuZmlsZS52MSIUCgRGaWxlEgwKBG5hbWUYASABKAkiIwoRQ3JlYXRlRmls",
-            "ZVJlcXVlc3QSDgoGcGFyZW50GAEgASgJMmAKC0ZpbGVTZXJ2aWNlElEKCkNy",
-            "ZWF0ZUZpbGUSJy5zYWx0by5uZWJ1bGEuZmlsZS52MS5DcmVhdGVGaWxlUmVx",
-            "dWVzdBoaLnNhbHRvLm5lYnVsYS5maWxlLnYxLkZpbGVCgAEKHGNvbS5zYWx0",
-            "b2FwaXMubmVidWxhLmZpbGUudjFCCUZpbGVQcm90b1ABWjhnaXRodWIuY29t",
-            "L3NhbHRvc3lzdGVtcy9zYWx0b2FwaXMtZ28vbmVidWxhL2ZpbGUvdjE7Zmls",
-            "ZaoCGFNhbHRvYXBpcy5OZWJ1bGEuRmlsZS5WMWIGcHJvdG8z"));
+            "bGEuZmlsZS52MSIoCgRGaWxlEgwKBG5hbWUYASABKAkSEgoKdXBsb2FkX3Vy",
+            "aRgCIAEoCSIjChFDcmVhdGVGaWxlUmVxdWVzdBIOCgZwYXJlbnQYASABKAky",
+            "YAoLRmlsZVNlcnZpY2USUQoKQ3JlYXRlRmlsZRInLnNhbHRvLm5lYnVsYS5m",
+            "aWxlLnYxLkNyZWF0ZUZpbGVSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLmZpbGUu",
+            "djEuRmlsZUKAAQocY29tLnNhbHRvYXBpcy5uZWJ1bGEuZmlsZS52MUIJRmls",
+            "ZVByb3RvUAFaOGdpdGh1Yi5jb20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBpcy1n",
+            "by9uZWJ1bGEvZmlsZS92MTtmaWxlqgIYU2FsdG9hcGlzLk5lYnVsYS5GaWxl",
+            "LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.File.V1.File), global::Saltoapis.Nebula.File.V1.File.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.File.V1.File), global::Saltoapis.Nebula.File.V1.File.Parser, new[]{ "Name", "UploadUri" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.File.V1.CreateFileRequest), global::Saltoapis.Nebula.File.V1.CreateFileRequest.Parser, new[]{ "Parent" }, null, null, null, null)
           }));
     }
@@ -84,6 +85,7 @@ namespace Saltoapis.Nebula.File.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public File(File other) : this() {
       name_ = other.name_;
+      uploadUri_ = other.uploadUri_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -110,6 +112,21 @@ namespace Saltoapis.Nebula.File.V1 {
       }
     }
 
+    /// <summary>Field number for the "upload_uri" field.</summary>
+    public const int UploadUriFieldNumber = 2;
+    private string uploadUri_ = "";
+    /// <summary>
+    /// The private URL to upload the file to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UploadUri {
+      get { return uploadUri_; }
+      set {
+        uploadUri_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -126,6 +143,7 @@ namespace Saltoapis.Nebula.File.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (UploadUri != other.UploadUri) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -134,6 +152,7 @@ namespace Saltoapis.Nebula.File.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (UploadUri.Length != 0) hash ^= UploadUri.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -156,6 +175,10 @@ namespace Saltoapis.Nebula.File.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (UploadUri.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UploadUri);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -170,6 +193,10 @@ namespace Saltoapis.Nebula.File.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (UploadUri.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UploadUri);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -182,6 +209,9 @@ namespace Saltoapis.Nebula.File.V1 {
       int size = 0;
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (UploadUri.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UploadUri);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -197,6 +227,9 @@ namespace Saltoapis.Nebula.File.V1 {
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
+      }
+      if (other.UploadUri.Length != 0) {
+        UploadUri = other.UploadUri;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -217,6 +250,10 @@ namespace Saltoapis.Nebula.File.V1 {
             Name = input.ReadString();
             break;
           }
+          case 18: {
+            UploadUri = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -234,6 +271,10 @@ namespace Saltoapis.Nebula.File.V1 {
             break;
           case 10: {
             Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            UploadUri = input.ReadString();
             break;
           }
         }
