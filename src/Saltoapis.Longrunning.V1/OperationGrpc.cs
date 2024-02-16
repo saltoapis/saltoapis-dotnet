@@ -68,6 +68,8 @@ namespace Saltoapis.Longrunning.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.DeleteOperationRequest> __Marshaller_salto_longrunning_v1_DeleteOperationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.DeleteOperationRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Longrunning.V1.CancelOperationRequest> __Marshaller_salto_longrunning_v1_CancelOperationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Longrunning.V1.CancelOperationRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Longrunning.V1.GetOperationRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_GetOperation = new grpc::Method<global::Saltoapis.Longrunning.V1.GetOperationRequest, global::Saltoapis.Longrunning.V1.Operation>(
@@ -91,6 +93,14 @@ namespace Saltoapis.Longrunning.V1 {
         __ServiceName,
         "DeleteOperation",
         __Marshaller_salto_longrunning_v1_DeleteOperationRequest,
+        __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Longrunning.V1.CancelOperationRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_CancelOperation = new grpc::Method<global::Saltoapis.Longrunning.V1.CancelOperationRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CancelOperation",
+        __Marshaller_salto_longrunning_v1_CancelOperationRequest,
         __Marshaller_google_protobuf_Empty);
 
     /// <summary>Service descriptor</summary>
@@ -293,6 +303,98 @@ namespace Saltoapis.Longrunning.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteOperationAsync(global::Saltoapis.Longrunning.V1.DeleteOperationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteOperation, null, options, request);
+      }
+      /// <summary>
+      /// Cancel an operation
+      ///
+      /// Starts asynchronous cancellation on a long-running operation. The server
+      /// makes a best effort to cancel the operation, but success is not
+      /// guaranteed. Clients can use
+      /// [OperationService.GetOperation][salto.longrunning.v1.OperationService.GetOperation]
+      /// or other methods to check whether the cancellation succeeded or whether
+      /// the operation completed despite cancellation. On successful cancellation,
+      /// the operation is not deleted; instead, it becomes an operation with an
+      /// [Operation.error][salto.longrunning.v1.Operation.error] value with a
+      /// [google.rpc.Status.code][google.rpc.Status.code] of 1, corresponding to
+      /// `Code.CANCELLED`.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty CancelOperation(global::Saltoapis.Longrunning.V1.CancelOperationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelOperation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Cancel an operation
+      ///
+      /// Starts asynchronous cancellation on a long-running operation. The server
+      /// makes a best effort to cancel the operation, but success is not
+      /// guaranteed. Clients can use
+      /// [OperationService.GetOperation][salto.longrunning.v1.OperationService.GetOperation]
+      /// or other methods to check whether the cancellation succeeded or whether
+      /// the operation completed despite cancellation. On successful cancellation,
+      /// the operation is not deleted; instead, it becomes an operation with an
+      /// [Operation.error][salto.longrunning.v1.Operation.error] value with a
+      /// [google.rpc.Status.code][google.rpc.Status.code] of 1, corresponding to
+      /// `Code.CANCELLED`.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty CancelOperation(global::Saltoapis.Longrunning.V1.CancelOperationRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CancelOperation, null, options, request);
+      }
+      /// <summary>
+      /// Cancel an operation
+      ///
+      /// Starts asynchronous cancellation on a long-running operation. The server
+      /// makes a best effort to cancel the operation, but success is not
+      /// guaranteed. Clients can use
+      /// [OperationService.GetOperation][salto.longrunning.v1.OperationService.GetOperation]
+      /// or other methods to check whether the cancellation succeeded or whether
+      /// the operation completed despite cancellation. On successful cancellation,
+      /// the operation is not deleted; instead, it becomes an operation with an
+      /// [Operation.error][salto.longrunning.v1.Operation.error] value with a
+      /// [google.rpc.Status.code][google.rpc.Status.code] of 1, corresponding to
+      /// `Code.CANCELLED`.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> CancelOperationAsync(global::Saltoapis.Longrunning.V1.CancelOperationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelOperationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Cancel an operation
+      ///
+      /// Starts asynchronous cancellation on a long-running operation. The server
+      /// makes a best effort to cancel the operation, but success is not
+      /// guaranteed. Clients can use
+      /// [OperationService.GetOperation][salto.longrunning.v1.OperationService.GetOperation]
+      /// or other methods to check whether the cancellation succeeded or whether
+      /// the operation completed despite cancellation. On successful cancellation,
+      /// the operation is not deleted; instead, it becomes an operation with an
+      /// [Operation.error][salto.longrunning.v1.Operation.error] value with a
+      /// [google.rpc.Status.code][google.rpc.Status.code] of 1, corresponding to
+      /// `Code.CANCELLED`.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> CancelOperationAsync(global::Saltoapis.Longrunning.V1.CancelOperationRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CancelOperation, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
