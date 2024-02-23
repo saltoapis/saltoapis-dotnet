@@ -51,7 +51,7 @@ def _nuget_deploy(ctx):
             cd "{project_folder}"
             dotnet restore
             dotnet pack --configuration Release {package_args}
-            dotnet nuget push "bin/Release/{id}.{version}.nupkg" --source "github"
+            dotnet nuget push "bin/Release/{id}.{version}.nupkg" --skip-duplicate --source "github"
         '''.format(
             project_folder = csproj_file.short_path.split(csproj_file.basename)[0],
             package_args = ' '.join(package_args),
@@ -78,6 +78,9 @@ nuget_deploy = rule(
         ),
         'sources': attr.label_list(
             allow_files = True,
+        ),
+        'target_framework': attr.string(
+            default = 'netstandard2.1',
         ),
         'internal_deps': attr.label_list(
             doc = """
@@ -138,6 +141,7 @@ def _create_csproj_file(csproj_file, internal_version, ctx):
         substitutions = {
             '{id}': id,
             '{description}': ctx.attr.description,
+            '{target_framework}': ctx.attr.target_framework,
             '{version}': internal_version,
             '{dependencies}': "\n        ".join(dependencies),
         }

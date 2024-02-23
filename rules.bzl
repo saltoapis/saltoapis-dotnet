@@ -23,7 +23,7 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     
 
     third_party_deps = [
-        "@grpc.core//:lib",
+        "@grpc.net.client//:lib",
         "@google.protobuf//:lib",
         "@google.api.commonprotos//:lib",
     ]
@@ -31,10 +31,13 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     if  'extra_deps' in extra_info:
         third_party_deps += extra_info['extra_deps'].split(',')
     
+    target_framework = "netstandard2.1"
+
     csharp_library(
         name = '%s.dll' % lib_name,
         srcs = native.glob(['*.cs']),
         deps = lib_deps + third_party_deps + ["@core_sdk_stdlib//:libraryset"],
+        target_framework = target_framework,
     )
 
     project_description = "Contains the SDK related to '%s'. Check out https://developer.saltosystems.com/ for more information" % lib_name
@@ -46,6 +49,7 @@ def load_rules(lib_name, internal_dependencies, extra_info):
         name = 'deploy',
         id = lib_name,
         description = project_description,
+        target_framework = target_framework,
         sources = native.glob(['*.cs']),
         deps = third_party_deps,
         internal_deps = lib_deps,

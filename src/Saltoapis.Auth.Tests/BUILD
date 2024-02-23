@@ -9,7 +9,8 @@ csharp_nunit3_test(
     ],
     deps = [
         '//src/Saltoapis.Auth:Saltoapis.Auth.dll',
-
         "@nunit//:lib",
+        # required to create the testing server
+        '@grpc.core//:lib',
     ],
 )
