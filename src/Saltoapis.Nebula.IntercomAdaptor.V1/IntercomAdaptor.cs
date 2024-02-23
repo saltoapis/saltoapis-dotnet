@@ -28,7 +28,7 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
             "YXB0b3IucHJvdG8SH3NhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEa",
             "G2dvb2dsZS9wcm90b2J1Zi9lbXB0eS5wcm90bxogZ29vZ2xlL3Byb3RvYnVm",
             "L2ZpZWxkX21hc2sucHJvdG8aH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAu",
-            "cHJvdG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlvbi5wcm90byKP",
+            "cHJvdG8aJHNhbHRvL2xvbmdydW5uaW5nL3YxL29wZXJhdGlvbi5wcm90byLF",
             "AwoPSW50ZXJjb21BZGFwdG9yEgwKBG5hbWUYASABKAkSFAoMZGlzcGxheV9u",
             "YW1lGAIgASgJEhYKCWRldmljZV9pZBgDIAEoCUgBiAEBEhEKB2dhdGV3YXkY",
             "BCABKAlIABISCghleHRlbmRlchgFIAEoCUgAElIKDWFjY2Vzc19wb2ludHMY",
@@ -36,91 +36,92 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
             "Y29tQWRhcHRvckFjY2Vzc1BvaW50EhMKC2luaXRpYWxpemVkGAcgASgIEhAK",
             "CG91dGRhdGVkGAggASgIEhEKCWNvbm5lY3RlZBgJIAEoCBITCgtsb3dfYmF0",
             "dGVyeRgKIAEoCBIzCg9sYXN0X2V2ZW50X3RpbWUYCyABKAsyGi5nb29nbGUu",
-            "cHJvdG9idWYuVGltZXN0YW1wEhUKCGludGVyY29tGAwgASgJSAKIAQFCDwoN",
-            "cGFyZW50X2RldmljZUIMCgpfZGV2aWNlX2lkQgsKCV9pbnRlcmNvbSJiChpJ",
-            "bnRlcmNvbUFkYXB0b3JBY2Nlc3NQb2ludBIUCgxhY2Nlc3NfcG9pbnQYASAB",
-            "KAkSGwoOZnJhbWVfc2V0dGluZ3MYAiABKAxIAIgBAUIRCg9fZnJhbWVfc2V0",
-            "dGluZ3MitAEKHENyZWF0ZUludGVyY29tQWRhcHRvclJlcXVlc3QSDgoGcGFy",
-            "ZW50GAEgASgJEiAKE2ludGVyY29tX2FkYXB0b3JfaWQYAiABKAlIAIgBARJK",
-            "ChBpbnRlcmNvbV9hZGFwdG9yGAMgASgLMjAuc2FsdG8ubmVidWxhLmludGVy",
-            "Y29tYWRhcHRvci52MS5JbnRlcmNvbUFkYXB0b3JCFgoUX2ludGVyY29tX2Fk",
-            "YXB0b3JfaWQiKQoZR2V0SW50ZXJjb21BZGFwdG9yUmVxdWVzdBIMCgRuYW1l",
-            "GAEgASgJInYKG0xpc3RJbnRlcmNvbUFkYXB0b3JzUmVxdWVzdBIOCgZwYXJl",
-            "bnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyAB",
-            "KAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJIoQBChxMaXN0",
-            "SW50ZXJjb21BZGFwdG9yc1Jlc3BvbnNlEksKEWludGVyY29tX2FkYXB0b3Jz",
-            "GAEgAygLMjAuc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRvci52MS5JbnRl",
-            "cmNvbUFkYXB0b3ISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIpsBChxVcGRh",
-            "dGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0EkoKEGludGVyY29tX2FkYXB0b3IY",
-            "ASABKAsyMC5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkludGVy",
-            "Y29tQWRhcHRvchIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90",
-            "b2J1Zi5GaWVsZE1hc2siLAocRGVsZXRlSW50ZXJjb21BZGFwdG9yUmVxdWVz",
-            "dBIMCgRuYW1lGAEgASgJIj0KGkJpbmRJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0",
-            "EgwKBG5hbWUYASABKAkSEQoJZGV2aWNlX2lkGAIgASgJIh0KG0JpbmRJbnRl",
-            "cmNvbUFkYXB0b3JSZXNwb25zZSI7ChxVbmJpbmRJbnRlcmNvbUFkYXB0b3JS",
-            "ZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFZm9yY2UYAiABKAgiHwodVW5iaW5k",
-            "SW50ZXJjb21BZGFwdG9yUmVzcG9uc2UiMAogSW5pdGlhbGl6ZUludGVyY29t",
-            "QWRhcHRvclJlcXVlc3QSDAoEbmFtZRgBIAEoCSIjCiFJbml0aWFsaXplSW50",
-            "ZXJjb21BZGFwdG9yUmVzcG9uc2UiPQohSW5pdGlhbGl6ZUludGVyY29tQWRh",
-            "cHRvck1ldGFkYXRhEhgKEHByb2dyZXNzX3BlcmNlbnQYASABKAUiLwofQ29u",
-            "ZmlndXJlSW50ZXJjb21BZGFwdG9yUmVxdWVzdBIMCgRuYW1lGAEgASgJIiIK",
-            "IENvbmZpZ3VyZUludGVyY29tQWRhcHRvclJlc3BvbnNlIiIKIENvbmZpZ3Vy",
-            "ZUludGVyY29tQWRhcHRvck1ldGFkYXRhIisKG1Jlc2V0SW50ZXJjb21BZGFw",
-            "dG9yUmVxdWVzdBIMCgRuYW1lGAEgASgJIh4KHFJlc2V0SW50ZXJjb21BZGFw",
-            "dG9yUmVzcG9uc2UiHgocUmVzZXRJbnRlcmNvbUFkYXB0b3JNZXRhZGF0YSJA",
-            "CiRVcGRhdGVJbnRlcmNvbUFkYXB0b3JGaXJtd2FyZVJlcXVlc3QSGAoQaW50",
-            "ZXJjb21fYWRhcHRvchgBIAEoCSInCiVVcGRhdGVJbnRlcmNvbUFkYXB0b3JG",
-            "aXJtd2FyZVJlc3BvbnNlIkEKJVVwZGF0ZUludGVyY29tQWRhcHRvckZpcm13",
-            "YXJlTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBSI9CiFHZW5l",
-            "cmF0ZUF1dGhvcml6YXRpb25Ub2tlblJlcXVlc3QSGAoQaW50ZXJjb21fYWRh",
-            "cHRvchgBIAEoCSJBCiJHZW5lcmF0ZUF1dGhvcml6YXRpb25Ub2tlblJlc3Bv",
-            "bnNlEhsKE2F1dGhvcml6YXRpb25fdG9rZW4YASABKAwyjg0KFkludGVyY29t",
-            "QWRhcHRvclNlcnZpY2USiAEKFUNyZWF0ZUludGVyY29tQWRhcHRvchI9LnNh",
-            "bHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuQ3JlYXRlSW50ZXJjb21B",
-            "ZGFwdG9yUmVxdWVzdBowLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3Iu",
-            "djEuSW50ZXJjb21BZGFwdG9yEoIBChJHZXRJbnRlcmNvbUFkYXB0b3ISOi5z",
-            "YWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkdldEludGVyY29tQWRh",
-            "cHRvclJlcXVlc3QaMC5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYx",
-            "LkludGVyY29tQWRhcHRvchKTAQoUTGlzdEludGVyY29tQWRhcHRvcnMSPC5z",
-            "YWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkxpc3RJbnRlcmNvbUFk",
-            "YXB0b3JzUmVxdWVzdBo9LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3Iu",
-            "djEuTGlzdEludGVyY29tQWRhcHRvcnNSZXNwb25zZRKIAQoVVXBkYXRlSW50",
-            "ZXJjb21BZGFwdG9yEj0uc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRvci52",
-            "MS5VcGRhdGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0GjAuc2FsdG8ubmVidWxh",
-            "LmludGVyY29tYWRhcHRvci52MS5JbnRlcmNvbUFkYXB0b3ISbgoVRGVsZXRl",
-            "SW50ZXJjb21BZGFwdG9yEj0uc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRv",
-            "ci52MS5EZWxldGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0GhYuZ29vZ2xlLnBy",
-            "b3RvYnVmLkVtcHR5EpABChNCaW5kSW50ZXJjb21BZGFwdG9yEjsuc2FsdG8u",
-            "bmVidWxhLmludGVyY29tYWRhcHRvci52MS5CaW5kSW50ZXJjb21BZGFwdG9y",
-            "UmVxdWVzdBo8LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuQmlu",
-            "ZEludGVyY29tQWRhcHRvclJlc3BvbnNlEpYBChVVbmJpbmRJbnRlcmNvbUFk",
-            "YXB0b3ISPS5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLlVuYmlu",
-            "ZEludGVyY29tQWRhcHRvclJlcXVlc3QaPi5zYWx0by5uZWJ1bGEuaW50ZXJj",
-            "b21hZGFwdG9yLnYxLlVuYmluZEludGVyY29tQWRhcHRvclJlc3BvbnNlEn8K",
-            "GUluaXRpYWxpemVJbnRlcmNvbUFkYXB0b3ISQS5zYWx0by5uZWJ1bGEuaW50",
-            "ZXJjb21hZGFwdG9yLnYxLkluaXRpYWxpemVJbnRlcmNvbUFkYXB0b3JSZXF1",
-            "ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEn0KGENvbmZp",
-            "Z3VyZUludGVyY29tQWRhcHRvchJALnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFk",
-            "YXB0b3IudjEuQ29uZmlndXJlSW50ZXJjb21BZGFwdG9yUmVxdWVzdBofLnNh",
-            "bHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJ1ChRSZXNldEludGVyY29t",
-            "QWRhcHRvchI8LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuUmVz",
-            "ZXRJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcu",
-            "djEuT3BlcmF0aW9uEocBCh1VcGRhdGVJbnRlcmNvbUFkYXB0b3JGaXJtd2Fy",
-            "ZRJFLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuVXBkYXRlSW50",
-            "ZXJjb21BZGFwdG9yRmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5p",
-            "bmcudjEuT3BlcmF0aW9uEqUBChpHZW5lcmF0ZUF1dGhvcml6YXRpb25Ub2tl",
-            "bhJCLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuR2VuZXJhdGVB",
-            "dXRob3JpemF0aW9uVG9rZW5SZXF1ZXN0GkMuc2FsdG8ubmVidWxhLmludGVy",
-            "Y29tYWRhcHRvci52MS5HZW5lcmF0ZUF1dGhvcml6YXRpb25Ub2tlblJlc3Bv",
-            "bnNlQrcBCidjb20uc2FsdG9hcGlzLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3Iu",
-            "djFCFEludGVyY29tQWRhcHRvclByb3RvUAFaTmdpdGh1Yi5jb20vc2FsdG9z",
-            "eXN0ZW1zL3NhbHRvYXBpcy1nby9uZWJ1bGEvaW50ZXJjb21hZGFwdG9yL3Yx",
-            "O2ludGVyY29tYWRhcHRvcqoCI1NhbHRvYXBpcy5OZWJ1bGEuSW50ZXJjb21B",
-            "ZGFwdG9yLlYxYgZwcm90bzM="));
+            "cHJvdG9idWYuVGltZXN0YW1wEhUKCGludGVyY29tGAwgASgJSAKIAQESDgoG",
+            "cGhvdG9zGA0gAygJEhIKCnBob3RvX3VyaXMYDiADKAkSEAoIcmVhZGluZ3MY",
+            "DyADKAlCDwoNcGFyZW50X2RldmljZUIMCgpfZGV2aWNlX2lkQgsKCV9pbnRl",
+            "cmNvbSJiChpJbnRlcmNvbUFkYXB0b3JBY2Nlc3NQb2ludBIUCgxhY2Nlc3Nf",
+            "cG9pbnQYASABKAkSGwoOZnJhbWVfc2V0dGluZ3MYAiABKAxIAIgBAUIRCg9f",
+            "ZnJhbWVfc2V0dGluZ3MitAEKHENyZWF0ZUludGVyY29tQWRhcHRvclJlcXVl",
+            "c3QSDgoGcGFyZW50GAEgASgJEiAKE2ludGVyY29tX2FkYXB0b3JfaWQYAiAB",
+            "KAlIAIgBARJKChBpbnRlcmNvbV9hZGFwdG9yGAMgASgLMjAuc2FsdG8ubmVi",
+            "dWxhLmludGVyY29tYWRhcHRvci52MS5JbnRlcmNvbUFkYXB0b3JCFgoUX2lu",
+            "dGVyY29tX2FkYXB0b3JfaWQiKQoZR2V0SW50ZXJjb21BZGFwdG9yUmVxdWVz",
+            "dBIMCgRuYW1lGAEgASgJInYKG0xpc3RJbnRlcmNvbUFkYXB0b3JzUmVxdWVz",
+            "dBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2Vf",
+            "dG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJ",
+            "IoQBChxMaXN0SW50ZXJjb21BZGFwdG9yc1Jlc3BvbnNlEksKEWludGVyY29t",
+            "X2FkYXB0b3JzGAEgAygLMjAuc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRv",
+            "ci52MS5JbnRlcmNvbUFkYXB0b3ISFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJ",
+            "IpsBChxVcGRhdGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0EkoKEGludGVyY29t",
+            "X2FkYXB0b3IYASABKAsyMC5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9y",
+            "LnYxLkludGVyY29tQWRhcHRvchIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siLAocRGVsZXRlSW50ZXJjb21BZGFw",
+            "dG9yUmVxdWVzdBIMCgRuYW1lGAEgASgJIj0KGkJpbmRJbnRlcmNvbUFkYXB0",
+            "b3JSZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoJZGV2aWNlX2lkGAIgASgJIh0K",
+            "G0JpbmRJbnRlcmNvbUFkYXB0b3JSZXNwb25zZSI7ChxVbmJpbmRJbnRlcmNv",
+            "bUFkYXB0b3JSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFZm9yY2UYAiABKAgi",
+            "HwodVW5iaW5kSW50ZXJjb21BZGFwdG9yUmVzcG9uc2UiMAogSW5pdGlhbGl6",
+            "ZUludGVyY29tQWRhcHRvclJlcXVlc3QSDAoEbmFtZRgBIAEoCSIjCiFJbml0",
+            "aWFsaXplSW50ZXJjb21BZGFwdG9yUmVzcG9uc2UiPQohSW5pdGlhbGl6ZUlu",
+            "dGVyY29tQWRhcHRvck1ldGFkYXRhEhgKEHByb2dyZXNzX3BlcmNlbnQYASAB",
+            "KAUiLwofQ29uZmlndXJlSW50ZXJjb21BZGFwdG9yUmVxdWVzdBIMCgRuYW1l",
+            "GAEgASgJIiIKIENvbmZpZ3VyZUludGVyY29tQWRhcHRvclJlc3BvbnNlIiIK",
+            "IENvbmZpZ3VyZUludGVyY29tQWRhcHRvck1ldGFkYXRhIisKG1Jlc2V0SW50",
+            "ZXJjb21BZGFwdG9yUmVxdWVzdBIMCgRuYW1lGAEgASgJIh4KHFJlc2V0SW50",
+            "ZXJjb21BZGFwdG9yUmVzcG9uc2UiHgocUmVzZXRJbnRlcmNvbUFkYXB0b3JN",
+            "ZXRhZGF0YSJACiRVcGRhdGVJbnRlcmNvbUFkYXB0b3JGaXJtd2FyZVJlcXVl",
+            "c3QSGAoQaW50ZXJjb21fYWRhcHRvchgBIAEoCSInCiVVcGRhdGVJbnRlcmNv",
+            "bUFkYXB0b3JGaXJtd2FyZVJlc3BvbnNlIkEKJVVwZGF0ZUludGVyY29tQWRh",
+            "cHRvckZpcm13YXJlTWV0YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEo",
+            "BSI9CiFHZW5lcmF0ZUF1dGhvcml6YXRpb25Ub2tlblJlcXVlc3QSGAoQaW50",
+            "ZXJjb21fYWRhcHRvchgBIAEoCSJBCiJHZW5lcmF0ZUF1dGhvcml6YXRpb25U",
+            "b2tlblJlc3BvbnNlEhsKE2F1dGhvcml6YXRpb25fdG9rZW4YASABKAwyjg0K",
+            "FkludGVyY29tQWRhcHRvclNlcnZpY2USiAEKFUNyZWF0ZUludGVyY29tQWRh",
+            "cHRvchI9LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEuQ3JlYXRl",
+            "SW50ZXJjb21BZGFwdG9yUmVxdWVzdBowLnNhbHRvLm5lYnVsYS5pbnRlcmNv",
+            "bWFkYXB0b3IudjEuSW50ZXJjb21BZGFwdG9yEoIBChJHZXRJbnRlcmNvbUFk",
+            "YXB0b3ISOi5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkdldElu",
+            "dGVyY29tQWRhcHRvclJlcXVlc3QaMC5zYWx0by5uZWJ1bGEuaW50ZXJjb21h",
+            "ZGFwdG9yLnYxLkludGVyY29tQWRhcHRvchKTAQoUTGlzdEludGVyY29tQWRh",
+            "cHRvcnMSPC5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkxpc3RJ",
+            "bnRlcmNvbUFkYXB0b3JzUmVxdWVzdBo9LnNhbHRvLm5lYnVsYS5pbnRlcmNv",
+            "bWFkYXB0b3IudjEuTGlzdEludGVyY29tQWRhcHRvcnNSZXNwb25zZRKIAQoV",
+            "VXBkYXRlSW50ZXJjb21BZGFwdG9yEj0uc2FsdG8ubmVidWxhLmludGVyY29t",
+            "YWRhcHRvci52MS5VcGRhdGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0GjAuc2Fs",
+            "dG8ubmVidWxhLmludGVyY29tYWRhcHRvci52MS5JbnRlcmNvbUFkYXB0b3IS",
+            "bgoVRGVsZXRlSW50ZXJjb21BZGFwdG9yEj0uc2FsdG8ubmVidWxhLmludGVy",
+            "Y29tYWRhcHRvci52MS5EZWxldGVJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0GhYu",
+            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5EpABChNCaW5kSW50ZXJjb21BZGFwdG9y",
+            "Ejsuc2FsdG8ubmVidWxhLmludGVyY29tYWRhcHRvci52MS5CaW5kSW50ZXJj",
+            "b21BZGFwdG9yUmVxdWVzdBo8LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0",
+            "b3IudjEuQmluZEludGVyY29tQWRhcHRvclJlc3BvbnNlEpYBChVVbmJpbmRJ",
+            "bnRlcmNvbUFkYXB0b3ISPS5zYWx0by5uZWJ1bGEuaW50ZXJjb21hZGFwdG9y",
+            "LnYxLlVuYmluZEludGVyY29tQWRhcHRvclJlcXVlc3QaPi5zYWx0by5uZWJ1",
+            "bGEuaW50ZXJjb21hZGFwdG9yLnYxLlVuYmluZEludGVyY29tQWRhcHRvclJl",
+            "c3BvbnNlEn8KGUluaXRpYWxpemVJbnRlcmNvbUFkYXB0b3ISQS5zYWx0by5u",
+            "ZWJ1bGEuaW50ZXJjb21hZGFwdG9yLnYxLkluaXRpYWxpemVJbnRlcmNvbUFk",
+            "YXB0b3JSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9u",
+            "En0KGENvbmZpZ3VyZUludGVyY29tQWRhcHRvchJALnNhbHRvLm5lYnVsYS5p",
+            "bnRlcmNvbWFkYXB0b3IudjEuQ29uZmlndXJlSW50ZXJjb21BZGFwdG9yUmVx",
+            "dWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJ1ChRSZXNl",
+            "dEludGVyY29tQWRhcHRvchI8LnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0",
+            "b3IudjEuUmVzZXRJbnRlcmNvbUFkYXB0b3JSZXF1ZXN0Gh8uc2FsdG8ubG9u",
+            "Z3J1bm5pbmcudjEuT3BlcmF0aW9uEocBCh1VcGRhdGVJbnRlcmNvbUFkYXB0",
+            "b3JGaXJtd2FyZRJFLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEu",
+            "VXBkYXRlSW50ZXJjb21BZGFwdG9yRmlybXdhcmVSZXF1ZXN0Gh8uc2FsdG8u",
+            "bG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEqUBChpHZW5lcmF0ZUF1dGhvcml6",
+            "YXRpb25Ub2tlbhJCLnNhbHRvLm5lYnVsYS5pbnRlcmNvbWFkYXB0b3IudjEu",
+            "R2VuZXJhdGVBdXRob3JpemF0aW9uVG9rZW5SZXF1ZXN0GkMuc2FsdG8ubmVi",
+            "dWxhLmludGVyY29tYWRhcHRvci52MS5HZW5lcmF0ZUF1dGhvcml6YXRpb25U",
+            "b2tlblJlc3BvbnNlQrcBCidjb20uc2FsdG9hcGlzLm5lYnVsYS5pbnRlcmNv",
+            "bWFkYXB0b3IudjFCFEludGVyY29tQWRhcHRvclByb3RvUAFaTmdpdGh1Yi5j",
+            "b20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBpcy1nby9uZWJ1bGEvaW50ZXJjb21h",
+            "ZGFwdG9yL3YxO2ludGVyY29tYWRhcHRvcqoCI1NhbHRvYXBpcy5OZWJ1bGEu",
+            "SW50ZXJjb21BZGFwdG9yLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptor), global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptor.Parser, new[]{ "Name", "DisplayName", "DeviceId", "Gateway", "Extender", "AccessPoints", "Initialized", "Outdated", "Connected", "LowBattery", "LastEventTime", "Intercom" }, new[]{ "ParentDevice", "DeviceId", "Intercom" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptor), global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptor.Parser, new[]{ "Name", "DisplayName", "DeviceId", "Gateway", "Extender", "AccessPoints", "Initialized", "Outdated", "Connected", "LowBattery", "LastEventTime", "Intercom", "Photos", "PhotoUris", "Readings" }, new[]{ "ParentDevice", "DeviceId", "Intercom" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint), global::Saltoapis.Nebula.IntercomAdaptor.V1.IntercomAdaptorAccessPoint.Parser, new[]{ "AccessPoint", "FrameSettings" }, new[]{ "FrameSettings" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.CreateIntercomAdaptorRequest), global::Saltoapis.Nebula.IntercomAdaptor.V1.CreateIntercomAdaptorRequest.Parser, new[]{ "Parent", "IntercomAdaptorId", "IntercomAdaptor" }, new[]{ "IntercomAdaptorId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.IntercomAdaptor.V1.GetIntercomAdaptorRequest), global::Saltoapis.Nebula.IntercomAdaptor.V1.GetIntercomAdaptorRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -200,6 +201,9 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
       lowBattery_ = other.lowBattery_;
       lastEventTime_ = other.lastEventTime_ != null ? other.lastEventTime_.Clone() : null;
       intercom_ = other.intercom_;
+      photos_ = other.photos_.Clone();
+      photoUris_ = other.photoUris_.Clone();
+      readings_ = other.readings_.Clone();
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -469,6 +473,54 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
       intercom_ = null;
     }
 
+    /// <summary>Field number for the "photos" field.</summary>
+    public const int PhotosFieldNumber = 13;
+    private static readonly pb::FieldCodec<string> _repeated_photos_codec
+        = pb::FieldCodec.ForString(106);
+    private readonly pbc::RepeatedField<string> photos_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// The file resource names for the intercom adaptor photos. It must have the
+    /// format of
+    /// `installations/surelock-homes-hq/files/01DSYSJ1PR36VVC3MRFRV4DC7G`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Photos {
+      get { return photos_; }
+    }
+
+    /// <summary>Field number for the "photo_uris" field.</summary>
+    public const int PhotoUrisFieldNumber = 14;
+    private static readonly pb::FieldCodec<string> _repeated_photoUris_codec
+        = pb::FieldCodec.ForString(114);
+    private readonly pbc::RepeatedField<string> photoUris_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// The URIs to view the intercom adaptor photos.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> PhotoUris {
+      get { return photoUris_; }
+    }
+
+    /// <summary>Field number for the "readings" field.</summary>
+    public const int ReadingsFieldNumber = 15;
+    private static readonly pb::FieldCodec<string> _repeated_readings_codec
+        = pb::FieldCodec.ForString(122);
+    private readonly pbc::RepeatedField<string> readings_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// The file resource names for intercom adaptor readings retrieved from the device's bus.
+    /// It comes into play when the learning process encounters unexpected issues, prompting expert
+    /// analysis of the readings. It must have the
+    /// format of
+    /// `installations/surelock-homes-hq/files/01DSYSJ1PR36VVC3MRFRV4DC7G`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Readings {
+      get { return readings_; }
+    }
+
     private object parentDevice_;
     /// <summary>Enum of possible cases for the "parent_device" oneof.</summary>
     public enum ParentDeviceOneofCase {
@@ -517,6 +569,9 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
       if (LowBattery != other.LowBattery) return false;
       if (!object.Equals(LastEventTime, other.LastEventTime)) return false;
       if (Intercom != other.Intercom) return false;
+      if(!photos_.Equals(other.photos_)) return false;
+      if(!photoUris_.Equals(other.photoUris_)) return false;
+      if(!readings_.Equals(other.readings_)) return false;
       if (ParentDeviceCase != other.ParentDeviceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -537,6 +592,9 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
       if (LowBattery != false) hash ^= LowBattery.GetHashCode();
       if (lastEventTime_ != null) hash ^= LastEventTime.GetHashCode();
       if (HasIntercom) hash ^= Intercom.GetHashCode();
+      hash ^= photos_.GetHashCode();
+      hash ^= photoUris_.GetHashCode();
+      hash ^= readings_.GetHashCode();
       hash ^= (int) parentDeviceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -601,6 +659,9 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
         output.WriteRawTag(98);
         output.WriteString(Intercom);
       }
+      photos_.WriteTo(output, _repeated_photos_codec);
+      photoUris_.WriteTo(output, _repeated_photoUris_codec);
+      readings_.WriteTo(output, _repeated_readings_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -656,6 +717,9 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
         output.WriteRawTag(98);
         output.WriteString(Intercom);
       }
+      photos_.WriteTo(ref output, _repeated_photos_codec);
+      photoUris_.WriteTo(ref output, _repeated_photoUris_codec);
+      readings_.WriteTo(ref output, _repeated_readings_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -700,6 +764,9 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
       if (HasIntercom) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Intercom);
       }
+      size += photos_.CalculateSize(_repeated_photos_codec);
+      size += photoUris_.CalculateSize(_repeated_photoUris_codec);
+      size += readings_.CalculateSize(_repeated_readings_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -743,6 +810,9 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
       if (other.HasIntercom) {
         Intercom = other.Intercom;
       }
+      photos_.Add(other.photos_);
+      photoUris_.Add(other.photoUris_);
+      readings_.Add(other.readings_);
       switch (other.ParentDeviceCase) {
         case ParentDeviceOneofCase.Gateway:
           Gateway = other.Gateway;
@@ -818,6 +888,18 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
             Intercom = input.ReadString();
             break;
           }
+          case 106: {
+            photos_.AddEntriesFrom(input, _repeated_photos_codec);
+            break;
+          }
+          case 114: {
+            photoUris_.AddEntriesFrom(input, _repeated_photoUris_codec);
+            break;
+          }
+          case 122: {
+            readings_.AddEntriesFrom(input, _repeated_readings_codec);
+            break;
+          }
         }
       }
     #endif
@@ -882,6 +964,18 @@ namespace Saltoapis.Nebula.IntercomAdaptor.V1 {
           }
           case 98: {
             Intercom = input.ReadString();
+            break;
+          }
+          case 106: {
+            photos_.AddEntriesFrom(ref input, _repeated_photos_codec);
+            break;
+          }
+          case 114: {
+            photoUris_.AddEntriesFrom(ref input, _repeated_photoUris_codec);
+            break;
+          }
+          case 122: {
+            readings_.AddEntriesFrom(ref input, _repeated_readings_codec);
             break;
           }
         }
