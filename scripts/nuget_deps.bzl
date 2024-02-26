@@ -24,6 +24,7 @@ def saltoapis_nuget_dependencies():
             $ bazel run @io_bazel_rules_dotnet//tools/nuget2bazel:nuget2bazel.exe -- add -p $(pwd)/.tmp Grpc.Net.Client 2.61.0
             $ bazel run @io_bazel_rules_dotnet//tools/nuget2bazel:nuget2bazel.exe -- add -p $(pwd)/.tmp Google.Protobuf 3.14.0 # change to PROTOBUF_VERSION
             $ bazel run @io_bazel_rules_dotnet//tools/nuget2bazel:nuget2bazel.exe -- add -p $(pwd)/.tmp Google.Api.CommonProtos 2.2.0
+            $ bazel run @io_bazel_rules_dotnet//tools/nuget2bazel:nuget2bazel.exe -- add -p $(pwd)/.tmp System.Text.Json 8.0.2
 
         We will copy those rules to this file, and then update the following:
             - The 'Google.Protobuf' version to match 'PROTOBUF_VERSION'.
@@ -714,6 +715,287 @@ def saltoapis_nuget_dependencies():
             "net6.0": [
             "lib/netstandard2.0/Google.Api.CommonProtos.dll",
             "lib/netstandard2.0/Google.Api.CommonProtos.pdb",
+            ],
+        },
+    )
+    nuget_package(
+        name = "system.text.encodings.web",
+        package = "system.text.encodings.web",
+        version = "8.0.0",
+        sha256 = "21442442457da68d4b0b442caab8a5ab03733ef9dcfb8795beafa10afabc7ef1",
+        core_lib = {
+            "netcoreapp2.0": "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "netcoreapp2.1": "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "netcoreapp2.2": "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "netcoreapp3.0": "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "netcoreapp3.1": "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "net5.0": "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "net6.0": "lib/net6.0/System.Text.Encodings.Web.dll",
+        },
+        core_deps = {
+            "netcoreapp2.0": [
+            "@system.buffers//:netcoreapp2.0_core",
+            "@system.memory//:netcoreapp2.0_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp2.0_core",
+            ],
+            "netcoreapp2.1": [
+            "@system.buffers//:netcoreapp2.1_core",
+            "@system.memory//:netcoreapp2.1_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp2.1_core",
+            ],
+            "netcoreapp2.2": [
+            "@system.buffers//:netcoreapp2.2_core",
+            "@system.memory//:netcoreapp2.2_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp2.2_core",
+            ],
+            "netcoreapp3.0": [
+            "@system.buffers//:netcoreapp3.0_core",
+            "@system.memory//:netcoreapp3.0_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp3.0_core",
+            ],
+            "netcoreapp3.1": [
+            "@system.buffers//:netcoreapp3.1_core",
+            "@system.memory//:netcoreapp3.1_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp3.1_core",
+            ],
+            "net5.0": [
+            "@system.buffers//:net5.0_core",
+            "@system.memory//:net5.0_core",
+            "@system.runtime.compilerservices.unsafe//:net5.0_core",
+            ],
+            "net6.0": [
+            "@system.runtime.compilerservices.unsafe//:net6.0_core",
+            ],
+        },
+        core_files = {
+            "netcoreapp2.0": [
+            "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+            ],
+            "netcoreapp2.1": [
+            "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+            ],
+            "netcoreapp2.2": [
+            "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+            ],
+            "netcoreapp3.0": [
+            "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+            ],
+            "netcoreapp3.1": [
+            "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+            ],
+            "net5.0": [
+            "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+            ],
+            "net6.0": [
+            "lib/net6.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+            "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+            ],
+        },
+    )
+    nuget_package(
+        name = "system.threading.tasks.extensions",
+        package = "system.threading.tasks.extensions",
+        version = "4.5.4",
+        sha256 = "a304a963cc0796c5179f9c6b7d8022bbce3b2fa7c029eb6196f631f7b462d678",
+        core_lib = {
+            "netcoreapp2.0": "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        },
+        core_deps = {
+            "netcoreapp2.0": [
+            "@system.runtime.compilerservices.unsafe//:netcoreapp2.0_core",
+            ],
+        },
+        core_files = {
+            "netcoreapp2.0": [
+            "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+            ],
+        },
+    )
+    nuget_package(
+        name = "microsoft.bcl.asyncinterfaces",
+        package = "microsoft.bcl.asyncinterfaces",
+        version = "8.0.0",
+        sha256 = "f5a5a68b03092ab2abf68843d4a4aea25dfbcbe8dd0f13c625cb779b6fc1927c",
+        core_lib = {
+            "netcoreapp2.0": "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            "netcoreapp2.1": "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            "netcoreapp2.2": "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            "netcoreapp3.0": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            "netcoreapp3.1": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            "net5.0": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            "net6.0": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        },
+        core_deps = {
+            "netcoreapp2.0": [
+            "@system.threading.tasks.extensions//:netcoreapp2.0_core",
+            ],
+            "netcoreapp2.1": [
+            "@system.threading.tasks.extensions//:netcoreapp2.1_core",
+            ],
+            "netcoreapp2.2": [
+            "@system.threading.tasks.extensions//:netcoreapp2.2_core",
+            ],
+        },
+        core_files = {
+            "netcoreapp2.0": [
+            "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            ],
+            "netcoreapp2.1": [
+            "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            ],
+            "netcoreapp2.2": [
+            "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            ],
+            "netcoreapp3.0": [
+            "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            ],
+            "netcoreapp3.1": [
+            "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            ],
+            "net5.0": [
+            "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            ],
+            "net6.0": [
+            "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            ],
+        },
+    )
+    nuget_package(
+        name = "system.valuetuple",
+        package = "system.valuetuple",
+        version = "4.5.0",
+        sha256 = "9e21fa9767d4e76bc0cee065c1d40cc34384a114bfec4d70e6c981168a926802",
+    )
+    nuget_package(
+        name = "system.text.json",
+        package = "system.text.json",
+        version = "8.0.2",
+        sha256 = "b9040f08645828c53291bedd860eb460a3d35db8ccf17d35c664d87afd6c21de",
+        core_lib = {
+            "netcoreapp2.0": "lib/netstandard2.0/System.Text.Json.dll",
+            "netcoreapp2.1": "lib/netstandard2.0/System.Text.Json.dll",
+            "netcoreapp2.2": "lib/netstandard2.0/System.Text.Json.dll",
+            "netcoreapp3.0": "lib/netstandard2.0/System.Text.Json.dll",
+            "netcoreapp3.1": "lib/netstandard2.0/System.Text.Json.dll",
+            "net5.0": "lib/netstandard2.0/System.Text.Json.dll",
+            "net6.0": "lib/net6.0/System.Text.Json.dll",
+        },
+        core_deps = {
+            "netcoreapp2.0": [
+            "@microsoft.bcl.asyncinterfaces//:netcoreapp2.0_core",
+            "@system.text.encodings.web//:netcoreapp2.0_core",
+            "@system.buffers//:netcoreapp2.0_core",
+            "@system.memory//:netcoreapp2.0_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp2.0_core",
+            "@system.threading.tasks.extensions//:netcoreapp2.0_core",
+            ],
+            "netcoreapp2.1": [
+            "@microsoft.bcl.asyncinterfaces//:netcoreapp2.1_core",
+            "@system.text.encodings.web//:netcoreapp2.1_core",
+            "@system.buffers//:netcoreapp2.1_core",
+            "@system.memory//:netcoreapp2.1_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp2.1_core",
+            "@system.threading.tasks.extensions//:netcoreapp2.1_core",
+            ],
+            "netcoreapp2.2": [
+            "@microsoft.bcl.asyncinterfaces//:netcoreapp2.2_core",
+            "@system.text.encodings.web//:netcoreapp2.2_core",
+            "@system.buffers//:netcoreapp2.2_core",
+            "@system.memory//:netcoreapp2.2_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp2.2_core",
+            "@system.threading.tasks.extensions//:netcoreapp2.2_core",
+            ],
+            "netcoreapp3.0": [
+            "@microsoft.bcl.asyncinterfaces//:netcoreapp3.0_core",
+            "@system.text.encodings.web//:netcoreapp3.0_core",
+            "@system.buffers//:netcoreapp3.0_core",
+            "@system.memory//:netcoreapp3.0_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp3.0_core",
+            "@system.threading.tasks.extensions//:netcoreapp3.0_core",
+            ],
+            "netcoreapp3.1": [
+            "@microsoft.bcl.asyncinterfaces//:netcoreapp3.1_core",
+            "@system.text.encodings.web//:netcoreapp3.1_core",
+            "@system.buffers//:netcoreapp3.1_core",
+            "@system.memory//:netcoreapp3.1_core",
+            "@system.runtime.compilerservices.unsafe//:netcoreapp3.1_core",
+            "@system.threading.tasks.extensions//:netcoreapp3.1_core",
+            ],
+            "net5.0": [
+            "@microsoft.bcl.asyncinterfaces//:net5.0_core",
+            "@system.text.encodings.web//:net5.0_core",
+            "@system.buffers//:net5.0_core",
+            "@system.memory//:net5.0_core",
+            "@system.runtime.compilerservices.unsafe//:net5.0_core",
+            "@system.threading.tasks.extensions//:net5.0_core",
+            ],
+            "net6.0": [
+            "@system.text.encodings.web//:net6.0_core",
+            "@system.runtime.compilerservices.unsafe//:net6.0_core",
+            ],
+        },
+        core_files = {
+            "netcoreapp2.0": [
+            "lib/netstandard2.0/System.Text.Json.dll",
+            ],
+            "netcoreapp2.1": [
+            "lib/netstandard2.0/System.Text.Json.dll",
+            ],
+            "netcoreapp2.2": [
+            "lib/netstandard2.0/System.Text.Json.dll",
+            ],
+            "netcoreapp3.0": [
+            "lib/netstandard2.0/System.Text.Json.dll",
+            ],
+            "netcoreapp3.1": [
+            "lib/netstandard2.0/System.Text.Json.dll",
+            ],
+            "net5.0": [
+            "lib/netstandard2.0/System.Text.Json.dll",
+            ],
+            "net6.0": [
+            "lib/net6.0/System.Text.Json.dll",
             ],
         },
     )

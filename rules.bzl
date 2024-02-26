@@ -29,14 +29,14 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     ]
     
     if  'extra_deps' in extra_info:
-        third_party_deps += extra_info['extra_deps'].split(',')
+        third_party_deps += extra_info['extra_deps']
     
     target_framework = "netstandard2.1"
 
     csharp_library(
         name = '%s.dll' % lib_name,
         srcs = native.glob(['*.cs']),
-        deps = lib_deps + third_party_deps + ["@core_sdk_stdlib//:libraryset"],
+        deps = lib_deps + third_party_deps + ["@core_sdk_stdlib//:NETStandard.Library"],
         target_framework = target_framework,
     )
 
