@@ -7,6 +7,9 @@ load_rules(
     internal_dependencies = [
     ],
     extra_info = {
-        'nuget_description': 'Saltoapis Authentication Library handles authentication with Nebula.'
+        'nuget_description': 'Saltoapis Authentication Library handles authentication with Nebula.',
+        'extra_deps': [
+            "@system.text.json//:lib",
+        ],
     },
 )
