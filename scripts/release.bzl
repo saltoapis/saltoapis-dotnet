@@ -80,7 +80,7 @@ nuget_deploy = rule(
             allow_files = True,
         ),
         'target_framework': attr.string(
-            default = 'netstandard2.1',
+            default = 'netstandard2.0',
         ),
         'internal_deps': attr.label_list(
             doc = """
