@@ -29,10 +29,11 @@ namespace Saltoapis.Nebula.File.V1 {
             "aRgCIAEoCSIjChFDcmVhdGVGaWxlUmVxdWVzdBIOCgZwYXJlbnQYASABKAky",
             "YAoLRmlsZVNlcnZpY2USUQoKQ3JlYXRlRmlsZRInLnNhbHRvLm5lYnVsYS5m",
             "aWxlLnYxLkNyZWF0ZUZpbGVSZXF1ZXN0Ghouc2FsdG8ubmVidWxhLmZpbGUu",
-            "djEuRmlsZUKAAQocY29tLnNhbHRvYXBpcy5uZWJ1bGEuZmlsZS52MUIJRmls",
+            "djEuRmlsZULCAQocY29tLnNhbHRvYXBpcy5uZWJ1bGEuZmlsZS52MUIJRmls",
             "ZVByb3RvUAFaOGdpdGh1Yi5jb20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBpcy1n",
             "by9uZWJ1bGEvZmlsZS92MTtmaWxlqgIYU2FsdG9hcGlzLk5lYnVsYS5GaWxl",
-            "LlYxYgZwcm90bzM="));
+            "LlYxygIYU2FsdG9hcGlzXE5lYnVsYVxGaWxlXFYx4gIkR1BCTWV0YWRhdGFc",
+            "U2FsdG9hcGlzXE5lYnVsYVxGaWxlXFYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
