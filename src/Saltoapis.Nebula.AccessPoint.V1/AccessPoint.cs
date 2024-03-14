@@ -64,11 +64,13 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             "Y2Vzc3BvaW50LnYxLkRlbGV0ZUFjY2Vzc1BvaW50UmVxdWVzdBoWLmdvb2ds",
             "ZS5wcm90b2J1Zi5FbXB0eRJrChFVbmxvY2tBY2Nlc3NQb2ludBI1LnNhbHRv",
             "Lm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5VbmxvY2tBY2Nlc3NQb2ludFJlcXVl",
-            "c3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb25CowEKI2NvbS5z",
+            "c3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb25C8wEKI2NvbS5z",
             "YWx0b2FwaXMubmVidWxhLmFjY2Vzc3BvaW50LnYxQhBBY2Nlc3NQb2ludFBy",
             "b3RvUAFaRmdpdGh1Yi5jb20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBpcy1nby9u",
             "ZWJ1bGEvYWNjZXNzcG9pbnQvdjE7YWNjZXNzcG9pbnSqAh9TYWx0b2FwaXMu",
-            "TmVidWxhLkFjY2Vzc1BvaW50LlYxYgZwcm90bzM="));
+            "TmVidWxhLkFjY2Vzc1BvaW50LlYxygIfU2FsdG9hcGlzXE5lYnVsYVxBY2Nl",
+            "c3NQb2ludFxWMeICK0dQQk1ldGFkYXRhXFNhbHRvYXBpc1xOZWJ1bGFcQWNj",
+            "ZXNzUG9pbnRcVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, global::Saltoapis.Nebula.Type.OpeningModeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

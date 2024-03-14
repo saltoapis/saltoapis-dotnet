@@ -27,10 +27,11 @@ namespace Saltoapis.Type {
             "ChxzYWx0by90eXBlL2RheV9vZl93ZWVrLnByb3RvEgpzYWx0by50eXBlKoQB",
             "CglEYXlPZldlZWsSGwoXREFZX09GX1dFRUtfVU5TUEVDSUZJRUQQABIKCgZN",
             "T05EQVkQARILCgdUVUVTREFZEAISDQoJV0VETkVTREFZEAMSDAoIVEhVUlNE",
-            "QVkQBBIKCgZGUklEQVkQBRIMCghTQVRVUkRBWRAGEgoKBlNVTkRBWRAHQnYK",
-            "EmNvbS5zYWx0b2FwaXMudHlwZUIORGF5T2ZXZWVrUHJvdG9QAVo9Z2l0aHVi",
-            "LmNvbS9zYWx0b3N5c3RlbXMvc2FsdG9hcGlzLWdvL3R5cGUvZGF5b2Z3ZWVr",
-            "O2RheW9md2Vla6oCDlNhbHRvYXBpcy5UeXBlYgZwcm90bzM="));
+            "QVkQBBIKCgZGUklEQVkQBRIMCghTQVRVUkRBWRAGEgoKBlNVTkRBWRAHQqQB",
+            "ChJjb20uc2FsdG9hcGlzLnR5cGVCDkRheU9mV2Vla1Byb3RvUAFaPWdpdGh1",
+            "Yi5jb20vc2FsdG9zeXN0ZW1zL3NhbHRvYXBpcy1nby90eXBlL2RheW9md2Vl",
+            "aztkYXlvZndlZWuqAg5TYWx0b2FwaXMuVHlwZcoCDlNhbHRvYXBpc1xUeXBl",
+            "4gIaR1BCTWV0YWRhdGFcU2FsdG9hcGlzXFR5cGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Saltoapis.Type.DayOfWeek), }, null, null));
