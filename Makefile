@@ -14,6 +14,14 @@ prepare:
 	dotnet nuget add source https://nuget.pkg.github.com/saltoapis/index.json -n github  -u $$GITHUB_ACTOR -p $$GITHUB_TOKEN  --store-password-in-clear-text
 	# Encryption is not supported on non-Windows platforms.
 
+	# create paket.dependencies file from Bazel metadata
+	bazel build //:paket_dependencies
+	cp -f "$(CURDIR)/bazel-bin/paket.dependencies" "$(CURDIR)/paket.dependencies"
+
+	# and the required bazel files based on this paket.dependencies
+	dotnet tool restore
+	dotnet paket install
+	bazel run @rules_dotnet//tools/paket2bazel:paket2bazel.exe --verbose_failures -- --dependencies-file $(CURDIR)/paket.dependencies --output-folder "$(CURDIR)"
 
 .PHONY: sanity-check
 sanity-check:

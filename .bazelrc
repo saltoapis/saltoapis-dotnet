@@ -1,1 +1,7 @@
-build --platforms=@io_bazel_rules_dotnet//dotnet/toolchain:linux_amd64_3.1.100
+# By default Bazel requires all dependencies to be explicitly declared
+# so transitive dependencies cannot be directly used by our code.
+# But our code is generated, so to be safe we will just disable that.
+#
+# We could alternatively set `strict_deps = False` in our csharp_library
+# rule, but that attribute is not propagated up in the dependency tree.
+build --@rules_dotnet//dotnet/settings:strict_deps=false
