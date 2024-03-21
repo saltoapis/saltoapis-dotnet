@@ -1,1 +1,10 @@
+#bazel folders
 bazel-*
+
+#paket files
+packages/
+paket-files/
+paket.dependencies
+paket.lock
+paket.*.bzl
+paket.*_extension.bzl

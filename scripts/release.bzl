@@ -3,9 +3,11 @@ This file contains rules to create and deploy a csharp library
 as a nuget package.
 """
 load(
-    "@io_bazel_rules_dotnet//dotnet/private:providers.bzl",
-    "DotnetLibraryInfo",
+    "@rules_dotnet//dotnet/private:providers.bzl",
+    "DotnetAssemblyCompileInfo",
 )
+
+load("@rules_dotnet//dotnet/private/transitions:tfm_transition.bzl", "tfm_transition")
 
 ###################################
 ####    Deploy NuGet Package   ####
@@ -67,7 +69,6 @@ def _nuget_deploy(ctx):
         runfiles = ctx.runfiles(files = run_files)
     )
 
-
 nuget_deploy = rule(
     attrs = {
         'id': attr.string(
@@ -89,6 +90,7 @@ nuget_deploy = rule(
                 version. We could infer them by checking the workspace name
                 or adding some aspect but this is much simpler and has 0 cost.
             """,
+
         ),
         'deps': attr.label_list(
             doc = """
@@ -97,10 +99,6 @@ nuget_deploy = rule(
                 differently.
             """,
         ),
-        '_nuget_config_tmpl': attr.label(
-            allow_single_file = True,
-            default = ':NuGet.Config.tmpl',
-        ),
         '_csproj_template': attr.label(
             allow_single_file = True,
             default = ":package.csproj.tmpl"
@@ -108,9 +106,10 @@ nuget_deploy = rule(
     },
     executable = True,
     implementation = _nuget_deploy,
+    # transition used by dotnet to determine the netstandard version
+    # we use this to automatically load the versions set in the paket.deps
+    cfg = tfm_transition,
 )
-
-
 
 def _create_csproj_file(csproj_file, internal_version, ctx):
     id = ctx.attr.id
@@ -119,16 +118,17 @@ def _create_csproj_file(csproj_file, internal_version, ctx):
     # internal
     for dep in ctx.attr.internal_deps:
         dep_version = internal_version
-        dep_id = dep[DotnetLibraryInfo].name.split('.dll')[0]
+        dep_id = dep[DotnetAssemblyCompileInfo].name.split('.dll')[0]
         dependency = '<PackageReference Include="{depId}" Version="{depVersion}" />'.format(
             depId = dep_id,
             depVersion = dep_version,
         )
         dependencies.append(dependency)
+        
     # third party
     for dep in ctx.attr.deps:
-        dep_version = _version_tuple_to_string(dep[DotnetLibraryInfo].version)
-        dep_id = dep.label.workspace_name
+        dep_version = dep[DotnetAssemblyCompileInfo].version
+        dep_id = dep[DotnetAssemblyCompileInfo].name
         dependency = '<PackageReference Include="{depId}" Version="{depVersion}" />'.format(
             depId = dep_id,
             depVersion = dep_version,
@@ -146,30 +146,3 @@ def _create_csproj_file(csproj_file, internal_version, ctx):
             '{dependencies}': "\n        ".join(dependencies),
         }
     )
-
-def _version_tuple_to_string(version):
-    """Takes a tuple containing version numbers and converts it to string.
-
-    Args:
-        version: is a tuple with this form (num1, num2, num3, num4, suffix). 
-    Returns:
-        a string that represents the input version. It will always add at least
-        3 numbers (major.minor.patch), even when their value is zero.
-        For example:
-            - (1, 1, 0, 0, "") => 1.1.0
-            - (2, 3, 4, 5, "") => 2.3.4.5
-            - (1, 0, 1, 0, "open") => 1.0.1-open
-            - (1, 0, 1, 12, "beta") => 1.0.1-beta.12
-    """
-
-    str_ver = "%s" % version[0]
-    for v in version[1:3]:
-        str_ver += ".%s" % v
-    
-    if version[4] != "":
-        str_ver += "-%s" % version[4]
-
-    if version[3] != 0:
-        str_ver += ".%s" % version[3]
-
-    return str_ver

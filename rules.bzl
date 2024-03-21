@@ -4,7 +4,7 @@ and manually generated) in this project. That macro adds rules to build and rele
 of the libraries.
 """
 
-load("@io_bazel_rules_dotnet//dotnet:defs.bzl", "csharp_library")
+load("@rules_dotnet//dotnet:defs.bzl", "csharp_library")
 load("//scripts:release.bzl", "nuget_deploy")
 
 def load_rules(lib_name, internal_dependencies, extra_info):
@@ -19,13 +19,13 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     lib_deps = []
     for dep in internal_dependencies:
         package_name = dep.split('/')[-1] # get everything from last /
-        lib_deps.append('{}:{}.dll'.format(dep, package_name))
+        lib_deps.append('{}:{}'.format(dep, package_name))
     
 
     third_party_deps = [
-        "@grpc.net.client//:lib",
-        "@google.protobuf//:lib",
-        "@google.api.commonprotos//:lib",
+        "@paket.main//grpc.core.api",
+        "@paket.main//google.protobuf",
+        "@paket.main//google.api.commonprotos",
     ]
     
     if  'extra_deps' in extra_info:
@@ -34,13 +34,16 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     target_framework = "netstandard2.0"
 
     csharp_library(
-        name = '%s.dll' % lib_name,
+        name = lib_name,
         srcs = native.glob(['*.cs']),
-        deps = lib_deps + third_party_deps + ["@core_sdk_stdlib//:NETStandard.Library"],
-        target_framework = target_framework,
+        deps = third_party_deps + lib_deps,
+        target_frameworks = [target_framework],
+        targeting_packs = [
+            "@paket.main//netstandard.library",
+        ],
     )
 
-    project_description = "Contains the SDK related to '%s'. Check out https://developer.saltosystems.com/ for more information" % lib_name
+    project_description = "Contains the SDK related to '%s'. Check out https://developer.saltosystems.com/nebula/ for more information" % lib_name
     if 'nuget_description' in extra_info:
         project_description = extra_info['nuget_description']
     # package will use version from 'csharp_library' by default 

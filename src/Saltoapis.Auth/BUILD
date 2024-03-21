@@ -9,7 +9,7 @@ load_rules(
     extra_info = {
         'nuget_description': 'Saltoapis Authentication Library handles authentication with Nebula.',
         'extra_deps': [
-            "@system.text.json//:lib",
+            "@paket.main//system.text.json",
         ],
     },
 )
