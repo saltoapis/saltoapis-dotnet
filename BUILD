@@ -23,6 +23,7 @@ source https://api.nuget.org/v3/index.json
 storage: none
 
 // Main NuGet packages
+nuget Grpc.Net.Client ~> {GRPC_CSHARP_VERSION}
 nuget Grpc.Core.Api ~> {GRPC_CSHARP_VERSION}
 nuget Google.Protobuf ~> 3.{PROTOBUF_VERSION}
 nuget Google.Api.CommonProtos ~> 2.2.0

@@ -23,6 +23,7 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     
 
     third_party_deps = [
+        "@paket.main//grpc.net.client",
         "@paket.main//grpc.core.api",
         "@paket.main//google.protobuf",
         "@paket.main//google.api.commonprotos",
