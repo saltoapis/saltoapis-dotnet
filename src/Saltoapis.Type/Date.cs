@@ -25,11 +25,11 @@ namespace Saltoapis.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChVzYWx0by90eXBlL2RhdGUucHJvdG8SCnNhbHRvLnR5cGUiMAoERGF0ZRIM",
-            "CgR5ZWFyGAEgASgFEg0KBW1vbnRoGAIgASgFEgsKA2RheRgDIAEoBUKVAQoS",
-            "Y29tLnNhbHRvYXBpcy50eXBlQglEYXRlUHJvdG9QAVozZ2l0aHViLmNvbS9z",
-            "YWx0b3N5c3RlbXMvc2FsdG9hcGlzLWdvL3R5cGUvZGF0ZTtkYXRlqgIOU2Fs",
-            "dG9hcGlzLlR5cGXKAg5TYWx0b2FwaXNcVHlwZeICGkdQQk1ldGFkYXRhXFNh",
-            "bHRvYXBpc1xUeXBlYgZwcm90bzM="));
+            "CgR5ZWFyGAEgASgFEg0KBW1vbnRoGAIgASgFEgsKA2RheRgDIAEoBUKbAQoS",
+            "Y29tLnNhbHRvYXBpcy50eXBlQglEYXRlUHJvdG9QAVo5Z2l0aHViLmNvbS9z",
+            "YWx0b2FwaXMtaW50ZXJuYWwvc2FsdG9hcGlzLWdvL3R5cGUvZGF0ZTtkYXRl",
+            "qgIOU2FsdG9hcGlzLlR5cGXKAg5TYWx0b2FwaXNcVHlwZeICGkdQQk1ldGFk",
+            "YXRhXFNhbHRvYXBpc1xUeXBlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
