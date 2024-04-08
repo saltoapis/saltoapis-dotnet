@@ -71,12 +71,12 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             "eUFjY2Vzc1BvaW50cxI9LnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkxp",
             "c3REaWdpdGFsS2V5QWNjZXNzUG9pbnRzUmVxdWVzdBo+LnNhbHRvLm5lYnVs",
             "YS5kaWdpdGFsa2V5LnYxLkxpc3REaWdpdGFsS2V5QWNjZXNzUG9pbnRzUmVz",
-            "cG9uc2VC7AEKImNvbS5zYWx0b2FwaXMubmVidWxhLmRpZ2l0YWxrZXkudjFC",
-            "D0RpZ2l0YWxLZXlQcm90b1ABWkRnaXRodWIuY29tL3NhbHRvc3lzdGVtcy9z",
-            "YWx0b2FwaXMtZ28vbmVidWxhL2RpZ2l0YWxrZXkvdjE7ZGlnaXRhbGtleaoC",
-            "HlNhbHRvYXBpcy5OZWJ1bGEuRGlnaXRhbEtleS5WMcoCHlNhbHRvYXBpc1xO",
-            "ZWJ1bGFcRGlnaXRhbEtleVxWMeICKkdQQk1ldGFkYXRhXFNhbHRvYXBpc1xO",
-            "ZWJ1bGFcRGlnaXRhbEtleVxWMWIGcHJvdG8z"));
+            "cG9uc2VC8gEKImNvbS5zYWx0b2FwaXMubmVidWxhLmRpZ2l0YWxrZXkudjFC",
+            "D0RpZ2l0YWxLZXlQcm90b1ABWkpnaXRodWIuY29tL3NhbHRvYXBpcy1pbnRl",
+            "cm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2RpZ2l0YWxrZXkvdjE7ZGlnaXRh",
+            "bGtleaoCHlNhbHRvYXBpcy5OZWJ1bGEuRGlnaXRhbEtleS5WMcoCHlNhbHRv",
+            "YXBpc1xOZWJ1bGFcRGlnaXRhbEtleVxWMeICKkdQQk1ldGFkYXRhXFNhbHRv",
+            "YXBpc1xOZWJ1bGFcRGlnaXRhbEtleVxWMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Type.ColorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
