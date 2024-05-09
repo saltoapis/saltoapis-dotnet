@@ -8,6 +8,7 @@ load_rules(
     internal_dependencies = [
         '//src/Saltoapis.Nebula.AccessPoint.V1',
         '//src/Saltoapis.Nebula.AccessRight.V1',
+        '//src/Saltoapis.Nebula.Unit.V1',
         '//src/Saltoapis.Nebula.User.V1',
     ],
     extra_info = {
