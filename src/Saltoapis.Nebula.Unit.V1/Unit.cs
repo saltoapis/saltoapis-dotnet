@@ -26,8 +26,11 @@ namespace Saltoapis.Nebula.Unit.V1 {
           string.Concat(
             "Ch9zYWx0by9uZWJ1bGEvdW5pdC92MS91bml0LnByb3RvEhRzYWx0by5uZWJ1",
             "bGEudW5pdC52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnByb3RvGiBnb29n",
-            "bGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90byIqCgRVbml0EgwKBG5hbWUY",
-            "ASABKAkSFAoMZGlzcGxheV9uYW1lGAIgASgJIjUKBlBvbGljeRIMCgRuYW1l",
+            "bGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxofZ29vZ2xlL3Byb3RvYnVm",
+            "L3RpbWVzdGFtcC5wcm90byKPAQoEVW5pdBIMCgRuYW1lGAEgASgJEhQKDGRp",
+            "c3BsYXlfbmFtZRgCIAEoCRIwCgxtb3ZlX2luX3RpbWUYAyABKAsyGi5nb29n",
+            "bGUucHJvdG9idWYuVGltZXN0YW1wEjEKDW1vdmVfb3V0X3RpbWUYBCABKAsy",
+            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIjUKBlBvbGljeRIMCgRuYW1l",
             "GAEgASgJEg4KBm1lbWJlchgCIAEoCRINCgVyb2xlcxgDIAMoCSJvChFDcmVh",
             "dGVVbml0UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSFAoHdW5pdF9pZBgCIAEo",
             "CUgAiAEBEigKBHVuaXQYAyABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52MS5V",
@@ -85,9 +88,9 @@ namespace Saltoapis.Nebula.Unit.V1 {
             "ygIYU2FsdG9hcGlzXE5lYnVsYVxVbml0XFYx4gIkR1BCTWV0YWRhdGFcU2Fs",
             "dG9hcGlzXE5lYnVsYVxVbml0XFYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.Unit), global::Saltoapis.Nebula.Unit.V1.Unit.Parser, new[]{ "Name", "DisplayName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.Unit), global::Saltoapis.Nebula.Unit.V1.Unit.Parser, new[]{ "Name", "DisplayName", "MoveInTime", "MoveOutTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.Policy), global::Saltoapis.Nebula.Unit.V1.Policy.Parser, new[]{ "Name", "Member", "Roles" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.CreateUnitRequest), global::Saltoapis.Nebula.Unit.V1.CreateUnitRequest.Parser, new[]{ "Parent", "UnitId", "Unit" }, new[]{ "UnitId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Unit.V1.GetUnitRequest), global::Saltoapis.Nebula.Unit.V1.GetUnitRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -151,6 +154,8 @@ namespace Saltoapis.Nebula.Unit.V1 {
     public Unit(Unit other) : this() {
       name_ = other.name_;
       displayName_ = other.displayName_;
+      moveInTime_ = other.moveInTime_ != null ? other.moveInTime_.Clone() : null;
+      moveOutTime_ = other.moveOutTime_ != null ? other.moveOutTime_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -192,6 +197,36 @@ namespace Saltoapis.Nebula.Unit.V1 {
       }
     }
 
+    /// <summary>Field number for the "move_in_time" field.</summary>
+    public const int MoveInTimeFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp moveInTime_;
+    /// <summary>
+    /// Time the unit was moved in.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp MoveInTime {
+      get { return moveInTime_; }
+      set {
+        moveInTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "move_out_time" field.</summary>
+    public const int MoveOutTimeFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp moveOutTime_;
+    /// <summary>
+    /// Time the unit was moved out.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp MoveOutTime {
+      get { return moveOutTime_; }
+      set {
+        moveOutTime_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -209,6 +244,8 @@ namespace Saltoapis.Nebula.Unit.V1 {
       }
       if (Name != other.Name) return false;
       if (DisplayName != other.DisplayName) return false;
+      if (!object.Equals(MoveInTime, other.MoveInTime)) return false;
+      if (!object.Equals(MoveOutTime, other.MoveOutTime)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -218,6 +255,8 @@ namespace Saltoapis.Nebula.Unit.V1 {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
+      if (moveInTime_ != null) hash ^= MoveInTime.GetHashCode();
+      if (moveOutTime_ != null) hash ^= MoveOutTime.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -244,6 +283,14 @@ namespace Saltoapis.Nebula.Unit.V1 {
         output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
+      if (moveInTime_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(MoveInTime);
+      }
+      if (moveOutTime_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(MoveOutTime);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -262,6 +309,14 @@ namespace Saltoapis.Nebula.Unit.V1 {
         output.WriteRawTag(18);
         output.WriteString(DisplayName);
       }
+      if (moveInTime_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(MoveInTime);
+      }
+      if (moveOutTime_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(MoveOutTime);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -277,6 +332,12 @@ namespace Saltoapis.Nebula.Unit.V1 {
       }
       if (DisplayName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
+      }
+      if (moveInTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MoveInTime);
+      }
+      if (moveOutTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MoveOutTime);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -295,6 +356,18 @@ namespace Saltoapis.Nebula.Unit.V1 {
       }
       if (other.DisplayName.Length != 0) {
         DisplayName = other.DisplayName;
+      }
+      if (other.moveInTime_ != null) {
+        if (moveInTime_ == null) {
+          MoveInTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        MoveInTime.MergeFrom(other.MoveInTime);
+      }
+      if (other.moveOutTime_ != null) {
+        if (moveOutTime_ == null) {
+          MoveOutTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        MoveOutTime.MergeFrom(other.MoveOutTime);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -319,6 +392,20 @@ namespace Saltoapis.Nebula.Unit.V1 {
             DisplayName = input.ReadString();
             break;
           }
+          case 26: {
+            if (moveInTime_ == null) {
+              MoveInTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(MoveInTime);
+            break;
+          }
+          case 34: {
+            if (moveOutTime_ == null) {
+              MoveOutTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(MoveOutTime);
+            break;
+          }
         }
       }
     #endif
@@ -340,6 +427,20 @@ namespace Saltoapis.Nebula.Unit.V1 {
           }
           case 18: {
             DisplayName = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (moveInTime_ == null) {
+              MoveInTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(MoveInTime);
+            break;
+          }
+          case 34: {
+            if (moveOutTime_ == null) {
+              MoveOutTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(MoveOutTime);
             break;
           }
         }
