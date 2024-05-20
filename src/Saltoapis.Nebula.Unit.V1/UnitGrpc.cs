@@ -69,6 +69,14 @@ namespace Saltoapis.Nebula.Unit.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse> __Marshaller_salto_nebula_unit_v1_CleanOutUnitResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.MoveInUnitRequest> __Marshaller_salto_nebula_unit_v1_MoveInUnitRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.MoveInUnitRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.MoveInUnitResponse> __Marshaller_salto_nebula_unit_v1_MoveInUnitResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.MoveInUnitResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.MoveOutUnitRequest> __Marshaller_salto_nebula_unit_v1_MoveOutUnitRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.MoveOutUnitRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.MoveOutUnitResponse> __Marshaller_salto_nebula_unit_v1_MoveOutUnitResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.MoveOutUnitResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.CreatePolicyRequest> __Marshaller_salto_nebula_unit_v1_CreatePolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.CreatePolicyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Unit.V1.Policy> __Marshaller_salto_nebula_unit_v1_Policy = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Unit.V1.Policy.Parser));
@@ -134,6 +142,22 @@ namespace Saltoapis.Nebula.Unit.V1 {
         "CleanOutUnit",
         __Marshaller_salto_nebula_unit_v1_CleanOutUnitRequest,
         __Marshaller_salto_nebula_unit_v1_CleanOutUnitResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Unit.V1.MoveInUnitRequest, global::Saltoapis.Nebula.Unit.V1.MoveInUnitResponse> __Method_MoveInUnit = new grpc::Method<global::Saltoapis.Nebula.Unit.V1.MoveInUnitRequest, global::Saltoapis.Nebula.Unit.V1.MoveInUnitResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "MoveInUnit",
+        __Marshaller_salto_nebula_unit_v1_MoveInUnitRequest,
+        __Marshaller_salto_nebula_unit_v1_MoveInUnitResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Unit.V1.MoveOutUnitRequest, global::Saltoapis.Nebula.Unit.V1.MoveOutUnitResponse> __Method_MoveOutUnit = new grpc::Method<global::Saltoapis.Nebula.Unit.V1.MoveOutUnitRequest, global::Saltoapis.Nebula.Unit.V1.MoveOutUnitResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "MoveOutUnit",
+        __Marshaller_salto_nebula_unit_v1_MoveOutUnitRequest,
+        __Marshaller_salto_nebula_unit_v1_MoveOutUnitResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Unit.V1.CreatePolicyRequest, global::Saltoapis.Nebula.Unit.V1.Policy> __Method_CreatePolicy = new grpc::Method<global::Saltoapis.Nebula.Unit.V1.CreatePolicyRequest, global::Saltoapis.Nebula.Unit.V1.Policy>(
@@ -575,6 +599,154 @@ namespace Saltoapis.Nebula.Unit.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Unit.V1.CleanOutUnitResponse> CleanOutUnitAsync(global::Saltoapis.Nebula.Unit.V1.CleanOutUnitRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CleanOutUnit, null, options, request);
+      }
+      /// <summary>
+      /// Move in a unit
+      ///
+      /// Moves in a unit by creating new occupants and associating them with the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because "move in" is a phrasal
+      ///     verb and the api-linter doesn't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Unit.V1.MoveInUnitResponse MoveInUnit(global::Saltoapis.Nebula.Unit.V1.MoveInUnitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return MoveInUnit(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Move in a unit
+      ///
+      /// Moves in a unit by creating new occupants and associating them with the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because "move in" is a phrasal
+      ///     verb and the api-linter doesn't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Unit.V1.MoveInUnitResponse MoveInUnit(global::Saltoapis.Nebula.Unit.V1.MoveInUnitRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_MoveInUnit, null, options, request);
+      }
+      /// <summary>
+      /// Move in a unit
+      ///
+      /// Moves in a unit by creating new occupants and associating them with the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because "move in" is a phrasal
+      ///     verb and the api-linter doesn't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Unit.V1.MoveInUnitResponse> MoveInUnitAsync(global::Saltoapis.Nebula.Unit.V1.MoveInUnitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return MoveInUnitAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Move in a unit
+      ///
+      /// Moves in a unit by creating new occupants and associating them with the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because "move in" is a phrasal
+      ///     verb and the api-linter doesn't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Unit.V1.MoveInUnitResponse> MoveInUnitAsync(global::Saltoapis.Nebula.Unit.V1.MoveInUnitRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_MoveInUnit, null, options, request);
+      }
+      /// <summary>
+      /// Move out a unit
+      ///
+      /// Moves out a unit by deleting all the occupants belonging to it. This process
+      /// implicitly entails the blocking of the keys that were active within the
+      /// unit. Moving out a unit will not delete the access rights and the
+      /// associated access points that belong to the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because "move out" is a phrasal
+      ///     verb and the api-linter doesn't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Unit.V1.MoveOutUnitResponse MoveOutUnit(global::Saltoapis.Nebula.Unit.V1.MoveOutUnitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return MoveOutUnit(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Move out a unit
+      ///
+      /// Moves out a unit by deleting all the occupants belonging to it. This process
+      /// implicitly entails the blocking of the keys that were active within the
+      /// unit. Moving out a unit will not delete the access rights and the
+      /// associated access points that belong to the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because "move out" is a phrasal
+      ///     verb and the api-linter doesn't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Unit.V1.MoveOutUnitResponse MoveOutUnit(global::Saltoapis.Nebula.Unit.V1.MoveOutUnitRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_MoveOutUnit, null, options, request);
+      }
+      /// <summary>
+      /// Move out a unit
+      ///
+      /// Moves out a unit by deleting all the occupants belonging to it. This process
+      /// implicitly entails the blocking of the keys that were active within the
+      /// unit. Moving out a unit will not delete the access rights and the
+      /// associated access points that belong to the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because "move out" is a phrasal
+      ///     verb and the api-linter doesn't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Unit.V1.MoveOutUnitResponse> MoveOutUnitAsync(global::Saltoapis.Nebula.Unit.V1.MoveOutUnitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return MoveOutUnitAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Move out a unit
+      ///
+      /// Moves out a unit by deleting all the occupants belonging to it. This process
+      /// implicitly entails the blocking of the keys that were active within the
+      /// unit. Moving out a unit will not delete the access rights and the
+      /// associated access points that belong to the unit.
+      /// (-- api-linter: core::0136::http-uri-suffix=disabled
+      ///     aip.dev/not-precedent: We need to do this because "move out" is a phrasal
+      ///     verb and the api-linter doesn't support using them. --)
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Unit.V1.MoveOutUnitResponse> MoveOutUnitAsync(global::Saltoapis.Nebula.Unit.V1.MoveOutUnitRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_MoveOutUnit, null, options, request);
       }
       /// <summary>
       /// Create a policy
