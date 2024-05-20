@@ -583,7 +583,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     private string parent_ = "";
     /// <summary>
     /// Resource name of the parent resource under which the access point is created.
-    /// For example, `installations/surelock-homes-hq`.
+    /// For example: `installations/surelock-homes-hq`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1083,7 +1083,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     public const int ParentFieldNumber = 1;
     private string parent_ = "";
     /// <summary>
-    /// The parent resource name. For example, `installations/surelock-homes-hq`.
+    /// The parent resource name. For example: `installations/surelock-homes-hq`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
