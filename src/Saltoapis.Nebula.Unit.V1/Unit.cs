@@ -1288,7 +1288,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
     public const int ParentFieldNumber = 1;
     private string parent_ = "";
     /// <summary>
-    /// The parent resource name, for example, `installations/surelock-homes-hq`.
+    /// The parent resource name, for example: `installations/surelock-homes-hq`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
