@@ -1505,6 +1505,7 @@ namespace Saltoapis.Nebula.User.V1 {
     /// <summary>
     /// Unique identifier of the physical card. Length dependent of technology.
     /// Max length for ISO14443-3 is 10 bytes.
+    /// (-- api-linter: salto::9001::internal-annotation=disabled --)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -6538,6 +6539,7 @@ namespace Saltoapis.Nebula.User.V1 {
     /// <summary>
     /// Unique identifier of the physical card. Length dependent of technology.
     /// Max length for ISO14443-3 is 10 bytes.
+    /// (-- api-linter: salto::9001::internal-annotation=disabled --)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
