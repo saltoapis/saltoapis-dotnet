@@ -40,66 +40,68 @@ namespace Saltoapis.Nebula.Event.V1 {
             "dG8ubmVidWxhLnVzZXIudjEuVXNlciJ9ChFBY2Nlc3NQb2ludExvY2tlZBI+",
             "CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9p",
             "bnQudjEuQWNjZXNzUG9pbnQSKAoEdXNlchgCIAEoCzIaLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLlVzZXIieAoMQWNjZXNzRGVuaWVkEj4KDGFjY2Vzc19wb2lu",
-            "dBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQ",
-            "b2ludBIoCgR1c2VyGAIgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNl",
-            "ciJVChNBY2Nlc3NQb2ludExlZnRPcGVuEj4KDGFjY2Vzc19wb2ludBgBIAEo",
-            "CzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCJU",
-            "ChJBY2Nlc3NSaWdodENyZWF0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMigu",
-            "c2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0IlQKEkFj",
-            "Y2Vzc1JpZ2h0VXBkYXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0",
-            "by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQiVAoSQWNjZXNz",
-            "UmlnaHREZWxldGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNhbHRvLm5l",
-            "YnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCKfAQodQWNjZXNzUmln",
-            "aHRBY2Nlc3NQb2ludENyZWF0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMigu",
-            "c2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej4KDGFj",
-            "Y2Vzc19wb2ludBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
-            "MS5BY2Nlc3NQb2ludCKfAQodQWNjZXNzUmlnaHRBY2Nlc3NQb2ludERlbGV0",
-            "ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vz",
-            "c3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej4KDGFjY2Vzc19wb2ludBgCIAEoCzIo",
-            "LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCI3CgtV",
-            "c2VyQ3JlYXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuVXNlciI3CgtVc2VyVXBkYXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuVXNlciI3CgtVc2VyQmxvY2tlZBIoCgR1c2VyGAEg",
-            "ASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlciI5Cg1Vc2VyVW5ibG9j",
-            "a2VkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2Vy",
-            "IjcKC1VzZXJEZWxldGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEu",
-            "dXNlci52MS5Vc2VyIoIBChZVc2VyQWNjZXNzUmlnaHRDcmVhdGVkEigKBHVz",
-            "ZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEj4KDGFjY2Vz",
-            "c19yaWdodBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5B",
-            "Y2Nlc3NSaWdodCKCAQoWVXNlckFjY2Vzc1JpZ2h0VXBkYXRlZBIoCgR1c2Vy",
-            "GAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchI+CgxhY2Nlc3Nf",
-            "cmlnaHQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNj",
-            "ZXNzUmlnaHQiggEKFlVzZXJBY2Nlc3NSaWdodERlbGV0ZWQSKAoEdXNlchgB",
-            "IAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISPgoMYWNjZXNzX3Jp",
-            "Z2h0GAIgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vz",
-            "c1JpZ2h0ImwKD0NhcmRLZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhouc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuVXNlchIvCghjYXJkX2tleRgCIAEoCzIdLnNh",
-            "bHRvLm5lYnVsYS51c2VyLnYxLkNhcmRLZXkibAoPQ2FyZEtleUNhbmNlbGVk",
-            "EigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi8K",
-            "CGNhcmRfa2V5GAIgASgLMh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtl",
-            "eSJpCg5BcHBLZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuVXNlchItCgdhcHBfa2V5GAIgASgLMhwuc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuQXBwS2V5ImkKDkFwcEtleUNhbmNlbGVkEigKBHVzZXIY",
-            "ASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi0KB2FwcF9rZXkY",
-            "AiABKAsyHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkicgoRV2FsbGV0",
-            "S2V5QXNzaWduZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLlVzZXISMwoKd2FsbGV0X2tleRgCIAEoCzIfLnNhbHRvLm5lYnVsYS51",
-            "c2VyLnYxLldhbGxldEtleSJyChFXYWxsZXRLZXlDYW5jZWxlZBIoCgR1c2Vy",
-            "GAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchIzCgp3YWxsZXRf",
-            "a2V5GAIgASgLMh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5IjcK",
-            "C1VuaXRNb3ZlZEluEigKBHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5p",
-            "dC52MS5Vbml0IjgKDFVuaXRNb3ZlZE91dBIoCgR1bml0GAEgASgLMhouc2Fs",
-            "dG8ubmVidWxhLnVuaXQudjEuVW5pdCI3CgtVbml0Q3JlYXRlZBIoCgR1bml0",
-            "GAEgASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdCI3CgtVbml0VXBk",
-            "YXRlZBIoCgR1bml0GAEgASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5p",
-            "dCI3CgtVbml0RGVsZXRlZBIoCgR1bml0GAEgASgLMhouc2FsdG8ubmVidWxh",
-            "LnVuaXQudjEuVW5pdELPAQodY29tLnNhbHRvYXBpcy5uZWJ1bGEuZXZlbnQu",
-            "djFCClR5cGVzUHJvdG9QAVpAZ2l0aHViLmNvbS9zYWx0b2FwaXMtaW50ZXJu",
-            "YWwvc2FsdG9hcGlzLWdvL25lYnVsYS9ldmVudC92MTtldmVudKoCGVNhbHRv",
-            "YXBpcy5OZWJ1bGEuRXZlbnQuVjHKAhlTYWx0b2FwaXNcTmVidWxhXEV2ZW50",
-            "XFYx4gIlR1BCTWV0YWRhdGFcU2FsdG9hcGlzXE5lYnVsYVxFdmVudFxWMWIG",
-            "cHJvdG8z"));
+            "YS51c2VyLnYxLlVzZXIiVwoVQWNjZXNzUG9pbnRGb3JjZWRPcGVuEj4KDGFj",
+            "Y2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
+            "MS5BY2Nlc3NQb2ludCJ4CgxBY2Nlc3NEZW5pZWQSPgoMYWNjZXNzX3BvaW50",
+            "GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1Bv",
+            "aW50EigKBHVzZXIYAiABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2Vy",
+            "IlUKE0FjY2Vzc1BvaW50TGVmdE9wZW4SPgoMYWNjZXNzX3BvaW50GAEgASgL",
+            "Miguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50IlQK",
+            "EkFjY2Vzc1JpZ2h0Q3JlYXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5z",
+            "YWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQiVAoSQWNj",
+            "ZXNzUmlnaHRVcGRhdGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNhbHRv",
+            "Lm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCJUChJBY2Nlc3NS",
+            "aWdodERlbGV0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ip8BCh1BY2Nlc3NSaWdo",
+            "dEFjY2Vzc1BvaW50Q3JlYXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5z",
+            "YWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSPgoMYWNj",
+            "ZXNzX3BvaW50GAIgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYx",
+            "LkFjY2Vzc1BvaW50Ip8BCh1BY2Nlc3NSaWdodEFjY2Vzc1BvaW50RGVsZXRl",
+            "ZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNz",
+            "cmlnaHQudjEuQWNjZXNzUmlnaHQSPgoMYWNjZXNzX3BvaW50GAIgASgLMigu",
+            "c2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50IjcKC1Vz",
+            "ZXJDcmVhdGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52",
+            "MS5Vc2VyIjcKC1VzZXJVcGRhdGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5u",
+            "ZWJ1bGEudXNlci52MS5Vc2VyIjcKC1VzZXJCbG9ja2VkEigKBHVzZXIYASAB",
+            "KAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIjkKDVVzZXJVbmJsb2Nr",
+            "ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIi",
+            "NwoLVXNlckRlbGV0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51",
+            "c2VyLnYxLlVzZXIiggEKFlVzZXJBY2Nlc3NSaWdodENyZWF0ZWQSKAoEdXNl",
+            "chgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISPgoMYWNjZXNz",
+            "X3JpZ2h0GAIgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFj",
+            "Y2Vzc1JpZ2h0IoIBChZVc2VyQWNjZXNzUmlnaHRVcGRhdGVkEigKBHVzZXIY",
+            "ASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEj4KDGFjY2Vzc19y",
+            "aWdodBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nl",
+            "c3NSaWdodCKCAQoWVXNlckFjY2Vzc1JpZ2h0RGVsZXRlZBIoCgR1c2VyGAEg",
+            "ASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchI+CgxhY2Nlc3Nfcmln",
+            "aHQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNz",
+            "UmlnaHQibAoPQ2FyZEtleUFzc2lnbmVkEigKBHVzZXIYASABKAsyGi5zYWx0",
+            "by5uZWJ1bGEudXNlci52MS5Vc2VyEi8KCGNhcmRfa2V5GAIgASgLMh0uc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleSJsCg9DYXJkS2V5Q2FuY2VsZWQS",
+            "KAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISLwoI",
+            "Y2FyZF9rZXkYAiABKAsyHS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5",
+            "ImkKDkFwcEtleUFzc2lnbmVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5Vc2VyEi0KB2FwcF9rZXkYAiABKAsyHC5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5BcHBLZXkiaQoOQXBwS2V5Q2FuY2VsZWQSKAoEdXNlchgB",
+            "IAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISLQoHYXBwX2tleRgC",
+            "IAEoCzIcLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleSJyChFXYWxsZXRL",
+            "ZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIu",
+            "djEuVXNlchIzCgp3YWxsZXRfa2V5GAIgASgLMh8uc2FsdG8ubmVidWxhLnVz",
+            "ZXIudjEuV2FsbGV0S2V5InIKEVdhbGxldEtleUNhbmNlbGVkEigKBHVzZXIY",
+            "ASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEjMKCndhbGxldF9r",
+            "ZXkYAiABKAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkiNwoL",
+            "VW5pdE1vdmVkSW4SKAoEdW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51bml0",
+            "LnYxLlVuaXQiOAoMVW5pdE1vdmVkT3V0EigKBHVuaXQYASABKAsyGi5zYWx0",
+            "by5uZWJ1bGEudW5pdC52MS5Vbml0IjcKC1VuaXRDcmVhdGVkEigKBHVuaXQY",
+            "ASABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52MS5Vbml0IjcKC1VuaXRVcGRh",
+            "dGVkEigKBHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52MS5Vbml0",
+            "IjcKC1VuaXREZWxldGVkEigKBHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEu",
+            "dW5pdC52MS5Vbml0Qs8BCh1jb20uc2FsdG9hcGlzLm5lYnVsYS5ldmVudC52",
+            "MUIKVHlwZXNQcm90b1ABWkBnaXRodWIuY29tL3NhbHRvYXBpcy1pbnRlcm5h",
+            "bC9zYWx0b2FwaXMtZ28vbmVidWxhL2V2ZW50L3YxO2V2ZW50qgIZU2FsdG9h",
+            "cGlzLk5lYnVsYS5FdmVudC5WMcoCGVNhbHRvYXBpc1xOZWJ1bGFcRXZlbnRc",
+            "VjHiAiVHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVidWxhXEV2ZW50XFYxYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Saltoapis.Nebula.Unit.V1.UnitReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -108,6 +110,7 @@ namespace Saltoapis.Nebula.Event.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointDeleted), global::Saltoapis.Nebula.Event.V1.AccessPointDeleted.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointUnlocked), global::Saltoapis.Nebula.Event.V1.AccessPointUnlocked.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointLocked), global::Saltoapis.Nebula.Event.V1.AccessPointLocked.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointForcedOpen), global::Saltoapis.Nebula.Event.V1.AccessPointForcedOpen.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessDenied), global::Saltoapis.Nebula.Event.V1.AccessDenied.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointLeftOpen), global::Saltoapis.Nebula.Event.V1.AccessPointLeftOpen.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightCreated), global::Saltoapis.Nebula.Event.V1.AccessRightCreated.Parser, new[]{ "AccessRight" }, null, null, null, null),
@@ -1264,6 +1267,211 @@ namespace Saltoapis.Nebula.Event.V1 {
   }
 
   /// <summary>
+  /// Event representing a forced open of an access point.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class AccessPointForcedOpen : pb::IMessage<AccessPointForcedOpen>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AccessPointForcedOpen> _parser = new pb::MessageParser<AccessPointForcedOpen>(() => new AccessPointForcedOpen());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AccessPointForcedOpen> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AccessPointForcedOpen() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AccessPointForcedOpen(AccessPointForcedOpen other) : this() {
+      accessPoint_ = other.accessPoint_ != null ? other.accessPoint_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AccessPointForcedOpen Clone() {
+      return new AccessPointForcedOpen(this);
+    }
+
+    /// <summary>Field number for the "access_point" field.</summary>
+    public const int AccessPointFieldNumber = 1;
+    private global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint accessPoint_;
+    /// <summary>
+    /// The access point that's been forced open.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint AccessPoint {
+      get { return accessPoint_; }
+      set {
+        accessPoint_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AccessPointForcedOpen);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AccessPointForcedOpen other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(AccessPoint, other.AccessPoint)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (accessPoint_ != null) hash ^= AccessPoint.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (accessPoint_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AccessPoint);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (accessPoint_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AccessPoint);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (accessPoint_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessPoint);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AccessPointForcedOpen other) {
+      if (other == null) {
+        return;
+      }
+      if (other.accessPoint_ != null) {
+        if (accessPoint_ == null) {
+          AccessPoint = new global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint();
+        }
+        AccessPoint.MergeFrom(other.AccessPoint);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (accessPoint_ == null) {
+              AccessPoint = new global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint();
+            }
+            input.ReadMessage(AccessPoint);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (accessPoint_ == null) {
+              AccessPoint = new global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint();
+            }
+            input.ReadMessage(AccessPoint);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// Event representing a denied access to a user by an access point.
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
@@ -1281,7 +1489,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1535,7 +1743,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1740,7 +1948,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1945,7 +2153,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2150,7 +2358,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2355,7 +2563,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2609,7 +2817,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2863,7 +3071,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3068,7 +3276,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3273,7 +3481,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3478,7 +3686,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3683,7 +3891,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3888,7 +4096,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4142,7 +4350,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4396,7 +4604,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4650,7 +4858,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4904,7 +5112,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5158,7 +5366,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5412,7 +5620,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5666,7 +5874,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5920,7 +6128,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6174,7 +6382,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6379,7 +6587,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6584,7 +6792,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6789,7 +6997,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6994,7 +7202,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
