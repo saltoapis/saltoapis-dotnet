@@ -3288,6 +3288,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
     /// <summary>
     /// The `next_page_token` value returned from a previous `List` request, if
     /// any.
+    /// Note: this field is not being used in the current implementation. It is being ignored.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3574,6 +3575,7 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
     /// <summary>
     /// Token to retrieve the next page of results, or empty if there are no more
     /// results in the list.
+    /// Note: this field is not being used in the current implementation. It always returns an empty string.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
