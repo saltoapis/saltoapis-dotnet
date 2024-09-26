@@ -88,6 +88,8 @@ namespace Saltoapis.Nebula.Gateway.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenRequest> __Marshaller_salto_nebula_gateway_v1_GenerateAuthorizationTokenRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenResponse> __Marshaller_salto_nebula_gateway_v1_GenerateAuthorizationTokenResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Gateway.V1.GenerateFirmwareDownloadUriRequest> __Marshaller_salto_nebula_gateway_v1_GenerateFirmwareDownloadUriRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Gateway.V1.GenerateFirmwareDownloadUriRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway> __Method_CreateGateway = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.CreateGatewayRequest, global::Saltoapis.Nebula.Gateway.V1.Gateway>(
@@ -184,6 +186,14 @@ namespace Saltoapis.Nebula.Gateway.V1 {
         "GenerateAuthorizationToken",
         __Marshaller_salto_nebula_gateway_v1_GenerateAuthorizationTokenRequest,
         __Marshaller_salto_nebula_gateway_v1_GenerateAuthorizationTokenResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Gateway.V1.GenerateFirmwareDownloadUriRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_GenerateFirmwareDownloadUri = new grpc::Method<global::Saltoapis.Nebula.Gateway.V1.GenerateFirmwareDownloadUriRequest, global::Saltoapis.Longrunning.V1.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GenerateFirmwareDownloadUri",
+        __Marshaller_salto_nebula_gateway_v1_GenerateFirmwareDownloadUriRequest,
+        __Marshaller_salto_longrunning_v1_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -949,6 +959,70 @@ namespace Saltoapis.Nebula.Gateway.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenResponse> GenerateAuthorizationTokenAsync(global::Saltoapis.Nebula.Gateway.V1.GenerateAuthorizationTokenRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GenerateAuthorizationToken, null, options, request);
+      }
+      /// <summary>
+      /// Generate gateway firmware download URI
+      ///
+      /// Provides the download URI for the latest firmware bundle for the
+      /// gateway. The returned URI can be used to bring the gateway
+      /// firmwares up to latest.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation GenerateFirmwareDownloadUri(global::Saltoapis.Nebula.Gateway.V1.GenerateFirmwareDownloadUriRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GenerateFirmwareDownloadUri(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Generate gateway firmware download URI
+      ///
+      /// Provides the download URI for the latest firmware bundle for the
+      /// gateway. The returned URI can be used to bring the gateway
+      /// firmwares up to latest.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation GenerateFirmwareDownloadUri(global::Saltoapis.Nebula.Gateway.V1.GenerateFirmwareDownloadUriRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GenerateFirmwareDownloadUri, null, options, request);
+      }
+      /// <summary>
+      /// Generate gateway firmware download URI
+      ///
+      /// Provides the download URI for the latest firmware bundle for the
+      /// gateway. The returned URI can be used to bring the gateway
+      /// firmwares up to latest.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> GenerateFirmwareDownloadUriAsync(global::Saltoapis.Nebula.Gateway.V1.GenerateFirmwareDownloadUriRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GenerateFirmwareDownloadUriAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Generate gateway firmware download URI
+      ///
+      /// Provides the download URI for the latest firmware bundle for the
+      /// gateway. The returned URI can be used to bring the gateway
+      /// firmwares up to latest.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> GenerateFirmwareDownloadUriAsync(global::Saltoapis.Nebula.Gateway.V1.GenerateFirmwareDownloadUriRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GenerateFirmwareDownloadUri, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

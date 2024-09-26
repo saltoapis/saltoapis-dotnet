@@ -61,39 +61,46 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             "c3BvbnNlIjkKHVVwZGF0ZUVuY29kZXJGaXJtd2FyZU1ldGFkYXRhEhgKEHBy",
             "b2dyZXNzX3BlcmNlbnQYASABKAUiIQoOUmVhZEtleVJlcXVlc3QSDwoHZW5j",
             "b2RlchgBIAEoCSIsCg9SZWFkS2V5UmVzcG9uc2USEgoIY2FyZF9rZXkYASAB",
-            "KAlIAEIFCgNrZXkiEQoPUmVhZEtleU1ldGFkYXRhMsQJCg5FbmNvZGVyU2Vy",
-            "dmljZRJgCg1DcmVhdGVFbmNvZGVyEi0uc2FsdG8ubmVidWxhLmVuY29kZXIu",
-            "djEuQ3JlYXRlRW5jb2RlclJlcXVlc3QaIC5zYWx0by5uZWJ1bGEuZW5jb2Rl",
-            "ci52MS5FbmNvZGVyEloKCkdldEVuY29kZXISKi5zYWx0by5uZWJ1bGEuZW5j",
-            "b2Rlci52MS5HZXRFbmNvZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5lbmNv",
-            "ZGVyLnYxLkVuY29kZXISawoMTGlzdEVuY29kZXJzEiwuc2FsdG8ubmVidWxh",
-            "LmVuY29kZXIudjEuTGlzdEVuY29kZXJzUmVxdWVzdBotLnNhbHRvLm5lYnVs",
-            "YS5lbmNvZGVyLnYxLkxpc3RFbmNvZGVyc1Jlc3BvbnNlEmAKDVVwZGF0ZUVu",
-            "Y29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5VcGRhdGVFbmNvZGVy",
-            "UmVxdWVzdBogLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISVgoN",
-            "RGVsZXRlRW5jb2RlchItLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkRlbGV0",
-            "ZUVuY29kZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmcKEUlu",
-            "aXRpYWxpemVFbmNvZGVyEjEuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuSW5p",
-            "dGlhbGl6ZUVuY29kZXJSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEu",
-            "T3BlcmF0aW9uEmUKEENvbmZpZ3VyZUVuY29kZXISMC5zYWx0by5uZWJ1bGEu",
-            "ZW5jb2Rlci52MS5Db25maWd1cmVFbmNvZGVyUmVxdWVzdBofLnNhbHRvLmxv",
-            "bmdydW5uaW5nLnYxLk9wZXJhdGlvbhJdCgxSZXNldEVuY29kZXISLC5zYWx0",
-            "by5uZWJ1bGEuZW5jb2Rlci52MS5SZXNldEVuY29kZXJSZXF1ZXN0Gh8uc2Fs",
-            "dG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEm8KFVVwZGF0ZUVuY29kZXJG",
-            "aXJtd2FyZRI1LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLlVwZGF0ZUVuY29k",
-            "ZXJGaXJtd2FyZVJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVy",
-            "YXRpb24SaAoLQmluZEVuY29kZXISKy5zYWx0by5uZWJ1bGEuZW5jb2Rlci52",
-            "MS5CaW5kRW5jb2RlclJlcXVlc3QaLC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52",
-            "MS5CaW5kRW5jb2RlclJlc3BvbnNlEm4KDVVuYmluZEVuY29kZXISLS5zYWx0",
-            "by5uZWJ1bGEuZW5jb2Rlci52MS5VbmJpbmRFbmNvZGVyUmVxdWVzdBouLnNh",
-            "bHRvLm5lYnVsYS5lbmNvZGVyLnYxLlVuYmluZEVuY29kZXJSZXNwb25zZRJT",
-            "CgdSZWFkS2V5Eicuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuUmVhZEtleVJl",
-            "cXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb25C3QEKH2Nv",
-            "bS5zYWx0b2FwaXMubmVidWxhLmVuY29kZXIudjFCDEVuY29kZXJQcm90b1AB",
-            "WkRnaXRodWIuY29tL3NhbHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28v",
-            "bmVidWxhL2VuY29kZXIvdjE7ZW5jb2RlcqoCG1NhbHRvYXBpcy5OZWJ1bGEu",
-            "RW5jb2Rlci5WMcoCG1NhbHRvYXBpc1xOZWJ1bGFcRW5jb2RlclxWMeICJ0dQ",
-            "Qk1ldGFkYXRhXFNhbHRvYXBpc1xOZWJ1bGFcRW5jb2RlclxWMWIGcHJvdG8z"));
+            "KAlIAEIFCgNrZXkiEQoPUmVhZEtleU1ldGFkYXRhIjUKIkdlbmVyYXRlRmly",
+            "bXdhcmVEb3dubG9hZFVyaVJlcXVlc3QSDwoHZW5jb2RlchgBIAEoCSJLCiNH",
+            "ZW5lcmF0ZUZpcm13YXJlRG93bmxvYWRVcmlSZXNwb25zZRIUCgxkb3dubG9h",
+            "ZF91cmkYASABKAkSDgoGZGlnZXN0GAIgASgJIiUKI0dlbmVyYXRlRmlybXdh",
+            "cmVEb3dubG9hZFVyaU1ldGFkYXRhMsEKCg5FbmNvZGVyU2VydmljZRJgCg1D",
+            "cmVhdGVFbmNvZGVyEi0uc2FsdG8ubmVidWxhLmVuY29kZXIudjEuQ3JlYXRl",
+            "RW5jb2RlclJlcXVlc3QaIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNv",
+            "ZGVyEloKCkdldEVuY29kZXISKi5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5H",
+            "ZXRFbmNvZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVu",
+            "Y29kZXISawoMTGlzdEVuY29kZXJzEiwuc2FsdG8ubmVidWxhLmVuY29kZXIu",
+            "djEuTGlzdEVuY29kZXJzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5lbmNvZGVy",
+            "LnYxLkxpc3RFbmNvZGVyc1Jlc3BvbnNlEmAKDVVwZGF0ZUVuY29kZXISLS5z",
+            "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5VcGRhdGVFbmNvZGVyUmVxdWVzdBog",
+            "LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISVgoNRGVsZXRlRW5j",
+            "b2RlchItLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkRlbGV0ZUVuY29kZXJS",
+            "ZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmcKEUluaXRpYWxpemVF",
+            "bmNvZGVyEjEuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuSW5pdGlhbGl6ZUVu",
+            "Y29kZXJSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9u",
+            "EmUKEENvbmZpZ3VyZUVuY29kZXISMC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52",
+            "MS5Db25maWd1cmVFbmNvZGVyUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5n",
+            "LnYxLk9wZXJhdGlvbhJdCgxSZXNldEVuY29kZXISLC5zYWx0by5uZWJ1bGEu",
+            "ZW5jb2Rlci52MS5SZXNldEVuY29kZXJSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1",
+            "bm5pbmcudjEuT3BlcmF0aW9uEm8KFVVwZGF0ZUVuY29kZXJGaXJtd2FyZRI1",
+            "LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLlVwZGF0ZUVuY29kZXJGaXJtd2Fy",
+            "ZVJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SaAoL",
+            "QmluZEVuY29kZXISKy5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5j",
+            "b2RlclJlcXVlc3QaLC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5j",
+            "b2RlclJlc3BvbnNlEm4KDVVuYmluZEVuY29kZXISLS5zYWx0by5uZWJ1bGEu",
+            "ZW5jb2Rlci52MS5VbmJpbmRFbmNvZGVyUmVxdWVzdBouLnNhbHRvLm5lYnVs",
+            "YS5lbmNvZGVyLnYxLlVuYmluZEVuY29kZXJSZXNwb25zZRJTCgdSZWFkS2V5",
+            "Eicuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuUmVhZEtleVJlcXVlc3QaHy5z",
+            "YWx0by5sb25ncnVubmluZy52MS5PcGVyYXRpb24SewobR2VuZXJhdGVGaXJt",
+            "d2FyZURvd25sb2FkVXJpEjsuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuR2Vu",
+            "ZXJhdGVGaXJtd2FyZURvd25sb2FkVXJpUmVxdWVzdBofLnNhbHRvLmxvbmdy",
+            "dW5uaW5nLnYxLk9wZXJhdGlvbkLdAQofY29tLnNhbHRvYXBpcy5uZWJ1bGEu",
+            "ZW5jb2Rlci52MUIMRW5jb2RlclByb3RvUAFaRGdpdGh1Yi5jb20vc2FsdG9h",
+            "cGlzLWludGVybmFsL3NhbHRvYXBpcy1nby9uZWJ1bGEvZW5jb2Rlci92MTtl",
+            "bmNvZGVyqgIbU2FsdG9hcGlzLk5lYnVsYS5FbmNvZGVyLlYxygIbU2FsdG9h",
+            "cGlzXE5lYnVsYVxFbmNvZGVyXFYx4gInR1BCTWV0YWRhdGFcU2FsdG9hcGlz",
+            "XE5lYnVsYVxFbmNvZGVyXFYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -122,7 +129,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ReadKeyRequest), global::Saltoapis.Nebula.Encoder.V1.ReadKeyRequest.Parser, new[]{ "Encoder" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ReadKeyResponse), global::Saltoapis.Nebula.Encoder.V1.ReadKeyResponse.Parser, new[]{ "CardKey" }, new[]{ "Key" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ReadKeyMetadata), global::Saltoapis.Nebula.Encoder.V1.ReadKeyMetadata.Parser, null, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ReadKeyMetadata), global::Saltoapis.Nebula.Encoder.V1.ReadKeyMetadata.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriRequest), global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriRequest.Parser, new[]{ "Encoder" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriResponse), global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriResponse.Parser, new[]{ "DownloadUri", "Digest" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriMetadata), global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriMetadata.Parser, null, null, null, null, null)
           }));
     }
     #endregion
@@ -5737,6 +5747,599 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(ReadKeyMetadata other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The request message for [`GenerateFirmwareDownloadUri`][salto.nebula.encoder.v1.EncoderService.GenerateFirmwareDownloadUri]
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GenerateFirmwareDownloadUriRequest : pb::IMessage<GenerateFirmwareDownloadUriRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GenerateFirmwareDownloadUriRequest> _parser = new pb::MessageParser<GenerateFirmwareDownloadUriRequest>(() => new GenerateFirmwareDownloadUriRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GenerateFirmwareDownloadUriRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[26]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriRequest(GenerateFirmwareDownloadUriRequest other) : this() {
+      encoder_ = other.encoder_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriRequest Clone() {
+      return new GenerateFirmwareDownloadUriRequest(this);
+    }
+
+    /// <summary>Field number for the "encoder" field.</summary>
+    public const int EncoderFieldNumber = 1;
+    private string encoder_ = "";
+    /// <summary>
+    /// The resource name of the encoder to get the firmware download URI.
+    /// For example: `installations/surelock-homes-hq/encoders/conan-doyle`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Encoder {
+      get { return encoder_; }
+      set {
+        encoder_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GenerateFirmwareDownloadUriRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GenerateFirmwareDownloadUriRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Encoder != other.Encoder) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Encoder.Length != 0) hash ^= Encoder.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Encoder.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Encoder);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Encoder.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Encoder);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Encoder.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Encoder);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GenerateFirmwareDownloadUriRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Encoder.Length != 0) {
+        Encoder = other.Encoder;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Encoder = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Encoder = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`GenerateFirmwareDownloadUri`][salto.nebula.encoder.v1.EncoderService.GenerateFirmwareDownloadUri]
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GenerateFirmwareDownloadUriResponse : pb::IMessage<GenerateFirmwareDownloadUriResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GenerateFirmwareDownloadUriResponse> _parser = new pb::MessageParser<GenerateFirmwareDownloadUriResponse>(() => new GenerateFirmwareDownloadUriResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GenerateFirmwareDownloadUriResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[27]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriResponse(GenerateFirmwareDownloadUriResponse other) : this() {
+      downloadUri_ = other.downloadUri_;
+      digest_ = other.digest_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriResponse Clone() {
+      return new GenerateFirmwareDownloadUriResponse(this);
+    }
+
+    /// <summary>Field number for the "download_uri" field.</summary>
+    public const int DownloadUriFieldNumber = 1;
+    private string downloadUri_ = "";
+    /// <summary>
+    /// The URI to download the firmware bundle. The URI will be valid for 15
+    /// minutes.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DownloadUri {
+      get { return downloadUri_; }
+      set {
+        downloadUri_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "digest" field.</summary>
+    public const int DigestFieldNumber = 2;
+    private string digest_ = "";
+    /// <summary>
+    /// Digest of the file to be download. This can be used to cache the file and
+    /// avoid downloading it multiple times.
+    /// The digest has the following format: `&lt;algorithm>:&lt;digest>`.
+    /// For example: `sha256:8ff2483f2fbaa6c8dfd4e3556dbde298eb5e342b5e46f84eabdccc8e1cbe2d5a`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Digest {
+      get { return digest_; }
+      set {
+        digest_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GenerateFirmwareDownloadUriResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GenerateFirmwareDownloadUriResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DownloadUri != other.DownloadUri) return false;
+      if (Digest != other.Digest) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (DownloadUri.Length != 0) hash ^= DownloadUri.GetHashCode();
+      if (Digest.Length != 0) hash ^= Digest.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (DownloadUri.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(DownloadUri);
+      }
+      if (Digest.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Digest);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (DownloadUri.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(DownloadUri);
+      }
+      if (Digest.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Digest);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (DownloadUri.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DownloadUri);
+      }
+      if (Digest.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Digest);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GenerateFirmwareDownloadUriResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.DownloadUri.Length != 0) {
+        DownloadUri = other.DownloadUri;
+      }
+      if (other.Digest.Length != 0) {
+        Digest = other.Digest;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            DownloadUri = input.ReadString();
+            break;
+          }
+          case 18: {
+            Digest = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            DownloadUri = input.ReadString();
+            break;
+          }
+          case 18: {
+            Digest = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The metadata message for [`GenerateFirmwareDownloadUri`][salto.nebula.encoder.v1.EncoderService.GenerateFirmwareDownloadUri]
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GenerateFirmwareDownloadUriMetadata : pb::IMessage<GenerateFirmwareDownloadUriMetadata>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GenerateFirmwareDownloadUriMetadata> _parser = new pb::MessageParser<GenerateFirmwareDownloadUriMetadata>(() => new GenerateFirmwareDownloadUriMetadata());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GenerateFirmwareDownloadUriMetadata> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Encoder.V1.EncoderReflection.Descriptor.MessageTypes[28]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriMetadata() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriMetadata(GenerateFirmwareDownloadUriMetadata other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GenerateFirmwareDownloadUriMetadata Clone() {
+      return new GenerateFirmwareDownloadUriMetadata(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GenerateFirmwareDownloadUriMetadata);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GenerateFirmwareDownloadUriMetadata other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GenerateFirmwareDownloadUriMetadata other) {
       if (other == null) {
         return;
       }
