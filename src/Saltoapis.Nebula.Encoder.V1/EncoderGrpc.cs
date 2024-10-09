@@ -87,6 +87,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.ReadKeyRequest> __Marshaller_salto_nebula_encoder_v1_ReadKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.ReadKeyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest> __Marshaller_salto_nebula_encoder_v1_GenerateAuthorizationTokenRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse> __Marshaller_salto_nebula_encoder_v1_GenerateAuthorizationTokenResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriRequest> __Marshaller_salto_nebula_encoder_v1_GenerateFirmwareDownloadUriRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -184,6 +188,14 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         "ReadKey",
         __Marshaller_salto_nebula_encoder_v1_ReadKeyRequest,
         __Marshaller_salto_longrunning_v1_Operation);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest, global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse> __Method_GenerateAuthorizationToken = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest, global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GenerateAuthorizationToken",
+        __Marshaller_salto_nebula_encoder_v1_GenerateAuthorizationTokenRequest,
+        __Marshaller_salto_nebula_encoder_v1_GenerateAuthorizationTokenResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_GenerateFirmwareDownloadUri = new grpc::Method<global::Saltoapis.Nebula.Encoder.V1.GenerateFirmwareDownloadUriRequest, global::Saltoapis.Longrunning.V1.Operation>(
@@ -957,6 +969,66 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> ReadKeyAsync(global::Saltoapis.Nebula.Encoder.V1.ReadKeyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ReadKey, null, options, request);
+      }
+      /// <summary>
+      /// Generates an authorization token for an encoder
+      ///
+      /// Generates an authorization token that allows to connect, authenticate and
+      /// authorize against an encoder.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse GenerateAuthorizationToken(global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GenerateAuthorizationToken(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Generates an authorization token for an encoder
+      ///
+      /// Generates an authorization token that allows to connect, authenticate and
+      /// authorize against an encoder.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse GenerateAuthorizationToken(global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GenerateAuthorizationToken, null, options, request);
+      }
+      /// <summary>
+      /// Generates an authorization token for an encoder
+      ///
+      /// Generates an authorization token that allows to connect, authenticate and
+      /// authorize against an encoder.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse> GenerateAuthorizationTokenAsync(global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GenerateAuthorizationTokenAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Generates an authorization token for an encoder
+      ///
+      /// Generates an authorization token that allows to connect, authenticate and
+      /// authorize against an encoder.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse> GenerateAuthorizationTokenAsync(global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GenerateAuthorizationToken, null, options, request);
       }
       /// <summary>
       /// Generate encoder firmware download URI
