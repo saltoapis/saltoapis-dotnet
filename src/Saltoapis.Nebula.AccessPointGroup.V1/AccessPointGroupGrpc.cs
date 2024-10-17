@@ -71,6 +71,10 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPointGroup.V1.AccessPointGroupAccessPoint> __Marshaller_salto_nebula_accesspointgroup_v1_AccessPointGroupAccessPoint = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPointGroup.V1.AccessPointGroupAccessPoint.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsRequest> __Marshaller_salto_nebula_accesspointgroup_v1_BatchCreateAccessPointGroupAccessPointsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsResponse> __Marshaller_salto_nebula_accesspointgroup_v1_BatchCreateAccessPointGroupAccessPointsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPointGroup.V1.GetAccessPointGroupAccessPointRequest> __Marshaller_salto_nebula_accesspointgroup_v1_GetAccessPointGroupAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPointGroup.V1.GetAccessPointGroupAccessPointRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPointGroup.V1.ListAccessPointGroupAccessPointsRequest> __Marshaller_salto_nebula_accesspointgroup_v1_ListAccessPointGroupAccessPointsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPointGroup.V1.ListAccessPointGroupAccessPointsRequest.Parser));
@@ -82,6 +86,10 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPointGroup.V1.DeleteAccessPointGroupAccessPointRequest> __Marshaller_salto_nebula_accesspointgroup_v1_DeleteAccessPointGroupAccessPointRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPointGroup.V1.DeleteAccessPointGroupAccessPointRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsRequest> __Marshaller_salto_nebula_accesspointgroup_v1_BatchDeleteAccessPointGroupAccessPointsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsResponse> __Marshaller_salto_nebula_accesspointgroup_v1_BatchDeleteAccessPointGroupAccessPointsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessPointGroup.V1.CreateAccessPointGroupRequest, global::Saltoapis.Nebula.AccessPointGroup.V1.AccessPointGroup> __Method_CreateAccessPointGroup = new grpc::Method<global::Saltoapis.Nebula.AccessPointGroup.V1.CreateAccessPointGroupRequest, global::Saltoapis.Nebula.AccessPointGroup.V1.AccessPointGroup>(
@@ -132,6 +140,14 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
         __Marshaller_salto_nebula_accesspointgroup_v1_AccessPointGroupAccessPoint);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsRequest, global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsResponse> __Method_BatchCreateAccessPointGroupAccessPoints = new grpc::Method<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsRequest, global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BatchCreateAccessPointGroupAccessPoints",
+        __Marshaller_salto_nebula_accesspointgroup_v1_BatchCreateAccessPointGroupAccessPointsRequest,
+        __Marshaller_salto_nebula_accesspointgroup_v1_BatchCreateAccessPointGroupAccessPointsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.AccessPointGroup.V1.GetAccessPointGroupAccessPointRequest, global::Saltoapis.Nebula.AccessPointGroup.V1.AccessPointGroupAccessPoint> __Method_GetAccessPointGroupAccessPoint = new grpc::Method<global::Saltoapis.Nebula.AccessPointGroup.V1.GetAccessPointGroupAccessPointRequest, global::Saltoapis.Nebula.AccessPointGroup.V1.AccessPointGroupAccessPoint>(
         grpc::MethodType.Unary,
         __ServiceName,
@@ -162,6 +178,14 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
         "DeleteAccessPointGroupAccessPoint",
         __Marshaller_salto_nebula_accesspointgroup_v1_DeleteAccessPointGroupAccessPointRequest,
         __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsRequest, global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsResponse> __Method_BatchDeleteAccessPointGroupAccessPoints = new grpc::Method<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsRequest, global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BatchDeleteAccessPointGroupAccessPoints",
+        __Marshaller_salto_nebula_accesspointgroup_v1_BatchDeleteAccessPointGroupAccessPointsRequest,
+        __Marshaller_salto_nebula_accesspointgroup_v1_BatchDeleteAccessPointGroupAccessPointsResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -537,6 +561,66 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_CreateAccessPointGroupAccessPoint, null, options, request);
       }
       /// <summary>
+      /// Create an batch of access point group access points
+      ///
+      /// Creates a batch of access point group's access points association.
+      /// This method allows the creation of multiple access point group's access points in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsResponse BatchCreateAccessPointGroupAccessPoints(global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchCreateAccessPointGroupAccessPoints(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create an batch of access point group access points
+      ///
+      /// Creates a batch of access point group's access points association.
+      /// This method allows the creation of multiple access point group's access points in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsResponse BatchCreateAccessPointGroupAccessPoints(global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BatchCreateAccessPointGroupAccessPoints, null, options, request);
+      }
+      /// <summary>
+      /// Create an batch of access point group access points
+      ///
+      /// Creates a batch of access point group's access points association.
+      /// This method allows the creation of multiple access point group's access points in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsResponse> BatchCreateAccessPointGroupAccessPointsAsync(global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchCreateAccessPointGroupAccessPointsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create an batch of access point group access points
+      ///
+      /// Creates a batch of access point group's access points association.
+      /// This method allows the creation of multiple access point group's access points in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsResponse> BatchCreateAccessPointGroupAccessPointsAsync(global::Saltoapis.Nebula.AccessPointGroup.V1.BatchCreateAccessPointGroupAccessPointsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BatchCreateAccessPointGroupAccessPoints, null, options, request);
+      }
+      /// <summary>
       /// Get an access point
       ///
       /// Retrieves an existing access point group's access point association.
@@ -759,6 +843,66 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
       public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAccessPointGroupAccessPointAsync(global::Saltoapis.Nebula.AccessPointGroup.V1.DeleteAccessPointGroupAccessPointRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteAccessPointGroupAccessPoint, null, options, request);
+      }
+      /// <summary>
+      /// Delete a batch of access point group access point associations
+      ///
+      /// Deletes a batch of access point group access point associations. This method allows the
+      /// deletion of multiple access point group access points in a single operation. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsResponse BatchDeleteAccessPointGroupAccessPoints(global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchDeleteAccessPointGroupAccessPoints(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a batch of access point group access point associations
+      ///
+      /// Deletes a batch of access point group access point associations. This method allows the
+      /// deletion of multiple access point group access points in a single operation. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsResponse BatchDeleteAccessPointGroupAccessPoints(global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BatchDeleteAccessPointGroupAccessPoints, null, options, request);
+      }
+      /// <summary>
+      /// Delete a batch of access point group access point associations
+      ///
+      /// Deletes a batch of access point group access point associations. This method allows the
+      /// deletion of multiple access point group access points in a single operation. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsResponse> BatchDeleteAccessPointGroupAccessPointsAsync(global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchDeleteAccessPointGroupAccessPointsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a batch of access point group access point associations
+      ///
+      /// Deletes a batch of access point group access point associations. This method allows the
+      /// deletion of multiple access point group access points in a single operation. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsResponse> BatchDeleteAccessPointGroupAccessPointsAsync(global::Saltoapis.Nebula.AccessPointGroup.V1.BatchDeleteAccessPointGroupAccessPointsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BatchDeleteAccessPointGroupAccessPoints, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
