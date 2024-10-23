@@ -639,7 +639,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       ///
       /// Creates a batch of access rights access points associations.
       /// This method allows the creation of multiple access rights access points in a single operation.
-      /// Experimental feature. DO NOT USE
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -656,7 +655,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       ///
       /// Creates a batch of access rights access points associations.
       /// This method allows the creation of multiple access rights access points in a single operation.
-      /// Experimental feature. DO NOT USE
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -671,7 +669,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       ///
       /// Creates a batch of access rights access points associations.
       /// This method allows the creation of multiple access rights access points in a single operation.
-      /// Experimental feature. DO NOT USE
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -688,7 +685,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       ///
       /// Creates a batch of access rights access points associations.
       /// This method allows the creation of multiple access rights access points in a single operation.
-      /// Experimental feature. DO NOT USE
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -927,7 +923,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       ///
       /// Permanently deletes a batch of access right's access point associations.
       /// This cannot be undone.
-      /// Experimental feature. DO NOT USE
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -944,7 +939,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       ///
       /// Permanently deletes a batch of access right's access point associations.
       /// This cannot be undone.
-      /// Experimental feature. DO NOT USE
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -959,7 +953,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       ///
       /// Permanently deletes a batch of access right's access point associations.
       /// This cannot be undone.
-      /// Experimental feature. DO NOT USE
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -976,7 +969,6 @@ namespace Saltoapis.Nebula.AccessRight.V1 {
       ///
       /// Permanently deletes a batch of access right's access point associations.
       /// This cannot be undone.
-      /// Experimental feature. DO NOT USE
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
