@@ -523,10 +523,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
       /// <summary>
       /// Clean out a unit
       ///
-      /// Cleans out a unit by deleting all the users belonging to it. This process
-      /// implicitly entails the blocking of the keys that were active within the
-      /// unit. Cleaning out a unit will not delete the access rights and the
-      /// associated access points that belong to the unit.
+      /// Deprecated: Use [MoveOutUnit][salto.nebula.unit.v1.UnitService.MoveOutUnit]
       /// (-- api-linter: core::0136::http-uri-suffix=disabled
       ///     aip.dev/not-precedent: We need to do this because clean out is a
       ///     phrasal verb and api-linter don't support using them. --)
@@ -544,10 +541,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
       /// <summary>
       /// Clean out a unit
       ///
-      /// Cleans out a unit by deleting all the users belonging to it. This process
-      /// implicitly entails the blocking of the keys that were active within the
-      /// unit. Cleaning out a unit will not delete the access rights and the
-      /// associated access points that belong to the unit.
+      /// Deprecated: Use [MoveOutUnit][salto.nebula.unit.v1.UnitService.MoveOutUnit]
       /// (-- api-linter: core::0136::http-uri-suffix=disabled
       ///     aip.dev/not-precedent: We need to do this because clean out is a
       ///     phrasal verb and api-linter don't support using them. --)
@@ -563,10 +557,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
       /// <summary>
       /// Clean out a unit
       ///
-      /// Cleans out a unit by deleting all the users belonging to it. This process
-      /// implicitly entails the blocking of the keys that were active within the
-      /// unit. Cleaning out a unit will not delete the access rights and the
-      /// associated access points that belong to the unit.
+      /// Deprecated: Use [MoveOutUnit][salto.nebula.unit.v1.UnitService.MoveOutUnit]
       /// (-- api-linter: core::0136::http-uri-suffix=disabled
       ///     aip.dev/not-precedent: We need to do this because clean out is a
       ///     phrasal verb and api-linter don't support using them. --)
@@ -584,10 +575,7 @@ namespace Saltoapis.Nebula.Unit.V1 {
       /// <summary>
       /// Clean out a unit
       ///
-      /// Cleans out a unit by deleting all the users belonging to it. This process
-      /// implicitly entails the blocking of the keys that were active within the
-      /// unit. Cleaning out a unit will not delete the access rights and the
-      /// associated access points that belong to the unit.
+      /// Deprecated: Use [MoveOutUnit][salto.nebula.unit.v1.UnitService.MoveOutUnit]
       /// (-- api-linter: core::0136::http-uri-suffix=disabled
       ///     aip.dev/not-precedent: We need to do this because clean out is a
       ///     phrasal verb and api-linter don't support using them. --)
