@@ -561,7 +561,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_CreateAccessPointGroupAccessPoint, null, options, request);
       }
       /// <summary>
-      /// Create an batch of access point group access points
+      /// Create a batch of access point group access points
       ///
       /// Creates a batch of access point group's access points association.
       /// This method allows the creation of multiple access point group's access points in a single operation.
@@ -577,7 +577,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
         return BatchCreateAccessPointGroupAccessPoints(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Create an batch of access point group access points
+      /// Create a batch of access point group access points
       ///
       /// Creates a batch of access point group's access points association.
       /// This method allows the creation of multiple access point group's access points in a single operation.
@@ -591,7 +591,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_BatchCreateAccessPointGroupAccessPoints, null, options, request);
       }
       /// <summary>
-      /// Create an batch of access point group access points
+      /// Create a batch of access point group access points
       ///
       /// Creates a batch of access point group's access points association.
       /// This method allows the creation of multiple access point group's access points in a single operation.
@@ -607,7 +607,7 @@ namespace Saltoapis.Nebula.AccessPointGroup.V1 {
         return BatchCreateAccessPointGroupAccessPointsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Create an batch of access point group access points
+      /// Create a batch of access point group access points
       ///
       /// Creates a batch of access point group's access points association.
       /// This method allows the creation of multiple access point group's access points in a single operation.
