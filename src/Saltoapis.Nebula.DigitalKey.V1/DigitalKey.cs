@@ -26,64 +26,69 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           string.Concat(
             "CixzYWx0by9uZWJ1bGEvZGlnaXRhbGtleS92MS9kaWdpdGFsX2tleS5wcm90",
             "bxIac2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEaH2dvb2dsZS9wcm90b2J1",
-            "Zi90aW1lc3RhbXAucHJvdG8aFnNhbHRvL3R5cGUvY29sb3IucHJvdG8i/AYK",
+            "Zi90aW1lc3RhbXAucHJvdG8aFnNhbHRvL3R5cGUvY29sb3IucHJvdG8i4QgK",
             "CkRpZ2l0YWxLZXkSDAoEbmFtZRgBIAEoCRJACgdhcHBfa2V5GAIgASgLMi0u",
             "c2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRhbEtleS5BcHBLZXlI",
             "ABJGCgp3YWxsZXRfa2V5GAMgASgLMjAuc2FsdG8ubmVidWxhLmRpZ2l0YWxr",
             "ZXkudjEuRGlnaXRhbEtleS5XYWxsZXRLZXlIABp2CghNZXRhZGF0YRINCgV0",
             "aXRsZRgBIAEoCRIQCghzdWJ0aXRsZRgCIAEoCRIRCglwaG90b191cmkYAyAB",
             "KAkSDwoHYWRkcmVzcxgEIAEoCRIlCgp0ZXh0X2NvbG9yGAUgASgLMhEuc2Fs",
-            "dG8udHlwZS5Db2xvchqFAgoGQXBwS2V5EkEKCG1ldGFkYXRhGAEgASgLMi8u",
+            "dG8udHlwZS5Db2xvchrqAwoGQXBwS2V5EkEKCG1ldGFkYXRhGAEgASgLMi8u",
             "c2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRhbEtleS5NZXRhZGF0",
             "YRIMCgRkYXRhGAIgASgMEhQKDGluc3RhbGxhdGlvbhgFIAEoCRIRCgR1bml0",
             "GAYgASgJSACIAQESFwoPaW5zdGFsbGF0aW9uX2lkGAMgASgJEhQKB3VuaXRf",
-            "aWQYBCABKAlIAYgBARI9ChlhY2Nlc3NfcG9pbnRzX2NoYW5nZV90aW1lGAcg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEIHCgVfdW5pdEIKCghf",
-            "dW5pdF9pZBrNAgoJV2FsbGV0S2V5EkEKCG1ldGFkYXRhGAEgASgLMi8uc2Fs",
-            "dG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRhbEtleS5NZXRhZGF0YRJa",
-            "ChBoeWRyYV9jcmVkZW50aWFsGAIgASgLMkAuc2FsdG8ubmVidWxhLmRpZ2l0",
-            "YWxrZXkudjEuRGlnaXRhbEtleS5XYWxsZXRLZXkuSHlkcmFDcmVkZW50aWFs",
-            "GqABCg9IeWRyYUNyZWRlbnRpYWwSFQoNY3JlZGVudGlhbF9pZBgBIAEoCRIb",
-            "ChNzaGFyaW5nX2luc3RhbmNlX2lkGAIgASgJEhQKDGFjY291bnRfaGFzaBgD",
-            "IAEoCRITCgt0ZW1wbGF0ZV9pZBgEIAEoCRIYChByZWx5aW5nX3BhcnR5X2lk",
-            "GAUgASgJEhQKDHJlZmVyZW5jZV9pZBgGIAEoCUIGCgR0eXBlIiQKFEdldERp",
-            "Z2l0YWxLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiYQoWTGlzdERpZ2l0YWxL",
-            "ZXlzUmVxdWVzdBIRCglwYWdlX3NpemUYASABKAUSEgoKcGFnZV90b2tlbhgC",
-            "IAEoCRIOCgZmaWx0ZXIYAyABKAkSEAoIb3JkZXJfYnkYBCABKAkicAoXTGlz",
-            "dERpZ2l0YWxLZXlzUmVzcG9uc2USPAoMZGlnaXRhbF9rZXlzGAEgAygLMiYu",
-            "c2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuRGlnaXRhbEtleRIXCg9uZXh0",
-            "X3BhZ2VfdG9rZW4YAiABKAkiTgoVRGlnaXRhbEtleUFjY2Vzc1BvaW50EgwK",
-            "BG5hbWUYASABKAkSFAoMZGlzcGxheV9uYW1lGAIgASgJEhEKCWRldmljZV9p",
-            "ZBgDIAEoCSIvCh9HZXREaWdpdGFsS2V5QWNjZXNzUG9pbnRSZXF1ZXN0EgwK",
-            "BG5hbWUYASABKAkiagohTGlzdERpZ2l0YWxLZXlBY2Nlc3NQb2ludHNSZXF1",
-            "ZXN0Eg4KBnBhcmVudBgBIAEoCRIOCgZmaWx0ZXIYAiABKAkSEQoJcGFnZV9z",
-            "aXplGAMgASgFEhIKCnBhZ2VfdG9rZW4YBCABKAkikwEKIkxpc3REaWdpdGFs",
-            "S2V5QWNjZXNzUG9pbnRzUmVzcG9uc2USVAoZZGlnaXRhbF9rZXlfYWNjZXNz",
-            "X3BvaW50cxgBIAMoCzIxLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRp",
-            "Z2l0YWxLZXlBY2Nlc3NQb2ludBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAky",
-            "pQQKEURpZ2l0YWxLZXlTZXJ2aWNlEmkKDUdldERpZ2l0YWxLZXkSMC5zYWx0",
-            "by5uZWJ1bGEuZGlnaXRhbGtleS52MS5HZXREaWdpdGFsS2V5UmVxdWVzdBom",
-            "LnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkSegoPTGlz",
-            "dERpZ2l0YWxLZXlzEjIuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuTGlz",
-            "dERpZ2l0YWxLZXlzUmVxdWVzdBozLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5",
-            "LnYxLkxpc3REaWdpdGFsS2V5c1Jlc3BvbnNlEooBChhHZXREaWdpdGFsS2V5",
-            "QWNjZXNzUG9pbnQSOy5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5HZXRE",
-            "aWdpdGFsS2V5QWNjZXNzUG9pbnRSZXF1ZXN0GjEuc2FsdG8ubmVidWxhLmRp",
-            "Z2l0YWxrZXkudjEuRGlnaXRhbEtleUFjY2Vzc1BvaW50EpsBChpMaXN0RGln",
-            "aXRhbEtleUFjY2Vzc1BvaW50cxI9LnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5",
-            "LnYxLkxpc3REaWdpdGFsS2V5QWNjZXNzUG9pbnRzUmVxdWVzdBo+LnNhbHRv",
-            "Lm5lYnVsYS5kaWdpdGFsa2V5LnYxLkxpc3REaWdpdGFsS2V5QWNjZXNzUG9p",
-            "bnRzUmVzcG9uc2VC8gEKImNvbS5zYWx0b2FwaXMubmVidWxhLmRpZ2l0YWxr",
-            "ZXkudjFCD0RpZ2l0YWxLZXlQcm90b1ABWkpnaXRodWIuY29tL3NhbHRvYXBp",
-            "cy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2RpZ2l0YWxrZXkvdjE7",
-            "ZGlnaXRhbGtleaoCHlNhbHRvYXBpcy5OZWJ1bGEuRGlnaXRhbEtleS5WMcoC",
-            "HlNhbHRvYXBpc1xOZWJ1bGFcRGlnaXRhbEtleVxWMeICKkdQQk1ldGFkYXRh",
-            "XFNhbHRvYXBpc1xOZWJ1bGFcRGlnaXRhbEtleVxWMWIGcHJvdG8z"));
+            "aWQYBCABKAlIAYgBARI7ChdhY2Nlc3NfcG9pbnRzX3N5bmNfdGltZRgHIAEo",
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASZQoYYWNjZXNzX3BvaW50",
+            "c19zeW5jX3N0YXRlGAggASgOMkMuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXku",
+            "djEuRGlnaXRhbEtleS5BcHBLZXkuQWNjZXNzUG9pbnRzU3luY1N0YXRlIn4K",
+            "FUFjY2Vzc1BvaW50c1N5bmNTdGF0ZRIoCiRBQ0NFU1NfUE9JTlRTX1NZTkNf",
+            "U1RBVEVfVU5TUEVDSUZJRUQQABIPCgtJTlZBTElEQVRFRBADEgsKB1NZTkNJ",
+            "TkcQARIKCgZTWU5DRUQQAhIRCg1OT1RfU1VQUE9SVEVEEARCBwoFX3VuaXRC",
+            "CgoIX3VuaXRfaWQazQIKCVdhbGxldEtleRJBCghtZXRhZGF0YRgBIAEoCzIv",
+            "LnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkuTWV0YWRh",
+            "dGESWgoQaHlkcmFfY3JlZGVudGlhbBgCIAEoCzJALnNhbHRvLm5lYnVsYS5k",
+            "aWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkuV2FsbGV0S2V5Lkh5ZHJhQ3JlZGVu",
+            "dGlhbBqgAQoPSHlkcmFDcmVkZW50aWFsEhUKDWNyZWRlbnRpYWxfaWQYASAB",
+            "KAkSGwoTc2hhcmluZ19pbnN0YW5jZV9pZBgCIAEoCRIUCgxhY2NvdW50X2hh",
+            "c2gYAyABKAkSEwoLdGVtcGxhdGVfaWQYBCABKAkSGAoQcmVseWluZ19wYXJ0",
+            "eV9pZBgFIAEoCRIUCgxyZWZlcmVuY2VfaWQYBiABKAlCBgoEdHlwZSIkChRH",
+            "ZXREaWdpdGFsS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJImEKFkxpc3REaWdp",
+            "dGFsS2V5c1JlcXVlc3QSEQoJcGFnZV9zaXplGAEgASgFEhIKCnBhZ2VfdG9r",
+            "ZW4YAiABKAkSDgoGZmlsdGVyGAMgASgJEhAKCG9yZGVyX2J5GAQgASgJInAK",
+            "F0xpc3REaWdpdGFsS2V5c1Jlc3BvbnNlEjwKDGRpZ2l0YWxfa2V5cxgBIAMo",
+            "CzImLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXkSFwoP",
+            "bmV4dF9wYWdlX3Rva2VuGAIgASgJIk4KFURpZ2l0YWxLZXlBY2Nlc3NQb2lu",
+            "dBIMCgRuYW1lGAEgASgJEhQKDGRpc3BsYXlfbmFtZRgCIAEoCRIRCglkZXZp",
+            "Y2VfaWQYAyABKAkiLwofR2V0RGlnaXRhbEtleUFjY2Vzc1BvaW50UmVxdWVz",
+            "dBIMCgRuYW1lGAEgASgJImoKIUxpc3REaWdpdGFsS2V5QWNjZXNzUG9pbnRz",
+            "UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSDgoGZmlsdGVyGAIgASgJEhEKCXBh",
+            "Z2Vfc2l6ZRgDIAEoBRISCgpwYWdlX3Rva2VuGAQgASgJIpMBCiJMaXN0RGln",
+            "aXRhbEtleUFjY2Vzc1BvaW50c1Jlc3BvbnNlElQKGWRpZ2l0YWxfa2V5X2Fj",
+            "Y2Vzc19wb2ludHMYASADKAsyMS5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52",
+            "MS5EaWdpdGFsS2V5QWNjZXNzUG9pbnQSFwoPbmV4dF9wYWdlX3Rva2VuGAIg",
+            "ASgJMqUEChFEaWdpdGFsS2V5U2VydmljZRJpCg1HZXREaWdpdGFsS2V5EjAu",
+            "c2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEuR2V0RGlnaXRhbEtleVJlcXVl",
+            "c3QaJi5zYWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5EaWdpdGFsS2V5EnoK",
+            "D0xpc3REaWdpdGFsS2V5cxIyLnNhbHRvLm5lYnVsYS5kaWdpdGFsa2V5LnYx",
+            "Lkxpc3REaWdpdGFsS2V5c1JlcXVlc3QaMy5zYWx0by5uZWJ1bGEuZGlnaXRh",
+            "bGtleS52MS5MaXN0RGlnaXRhbEtleXNSZXNwb25zZRKKAQoYR2V0RGlnaXRh",
+            "bEtleUFjY2Vzc1BvaW50Ejsuc2FsdG8ubmVidWxhLmRpZ2l0YWxrZXkudjEu",
+            "R2V0RGlnaXRhbEtleUFjY2Vzc1BvaW50UmVxdWVzdBoxLnNhbHRvLm5lYnVs",
+            "YS5kaWdpdGFsa2V5LnYxLkRpZ2l0YWxLZXlBY2Nlc3NQb2ludBKbAQoaTGlz",
+            "dERpZ2l0YWxLZXlBY2Nlc3NQb2ludHMSPS5zYWx0by5uZWJ1bGEuZGlnaXRh",
+            "bGtleS52MS5MaXN0RGlnaXRhbEtleUFjY2Vzc1BvaW50c1JlcXVlc3QaPi5z",
+            "YWx0by5uZWJ1bGEuZGlnaXRhbGtleS52MS5MaXN0RGlnaXRhbEtleUFjY2Vz",
+            "c1BvaW50c1Jlc3BvbnNlQvIBCiJjb20uc2FsdG9hcGlzLm5lYnVsYS5kaWdp",
+            "dGFsa2V5LnYxQg9EaWdpdGFsS2V5UHJvdG9QAVpKZ2l0aHViLmNvbS9zYWx0",
+            "b2FwaXMtaW50ZXJuYWwvc2FsdG9hcGlzLWdvL25lYnVsYS9kaWdpdGFsa2V5",
+            "L3YxO2RpZ2l0YWxrZXmqAh5TYWx0b2FwaXMuTmVidWxhLkRpZ2l0YWxLZXku",
+            "VjHKAh5TYWx0b2FwaXNcTmVidWxhXERpZ2l0YWxLZXlcVjHiAipHUEJNZXRh",
+            "ZGF0YVxTYWx0b2FwaXNcTmVidWxhXERpZ2l0YWxLZXlcVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Type.ColorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Parser, new[]{ "Name", "AppKey", "WalletKey" }, new[]{ "Type" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.Metadata.Parser, new[]{ "Title", "Subtitle", "PhotoUri", "Address", "TextColor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Parser, new[]{ "Metadata", "Data", "Installation", "Unit", "InstallationId", "UnitId", "AccessPointsChangeTime" }, new[]{ "Unit", "UnitId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Parser, new[]{ "Metadata", "Data", "Installation", "Unit", "InstallationId", "UnitId", "AccessPointsSyncTime", "AccessPointsSyncState" }, new[]{ "Unit", "UnitId" }, new[]{ typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Parser, new[]{ "Metadata", "HydraCredential" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential), global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.WalletKey.Types.HydraCredential.Parser, new[]{ "CredentialId", "SharingInstanceId", "AccountHash", "TemplateId", "RelyingPartyId", "ReferenceId" }, null, null, null, null)})}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest), global::Saltoapis.Nebula.DigitalKey.V1.GetDigitalKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest), global::Saltoapis.Nebula.DigitalKey.V1.ListDigitalKeysRequest.Parser, new[]{ "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -849,7 +854,8 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           unit_ = other.unit_;
           installationId_ = other.installationId_;
           unitId_ = other.unitId_;
-          accessPointsChangeTime_ = other.accessPointsChangeTime_ != null ? other.accessPointsChangeTime_.Clone() : null;
+          accessPointsSyncTime_ = other.accessPointsSyncTime_ != null ? other.accessPointsSyncTime_.Clone() : null;
+          accessPointsSyncState_ = other.accessPointsSyncState_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -987,21 +993,36 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           unitId_ = null;
         }
 
-        /// <summary>Field number for the "access_points_change_time" field.</summary>
-        public const int AccessPointsChangeTimeFieldNumber = 7;
-        private global::Google.Protobuf.WellKnownTypes.Timestamp accessPointsChangeTime_;
+        /// <summary>Field number for the "access_points_sync_time" field.</summary>
+        public const int AccessPointsSyncTimeFieldNumber = 7;
+        private global::Google.Protobuf.WellKnownTypes.Timestamp accessPointsSyncTime_;
         /// <summary>
-        /// Access points change time.
+        /// Access points synchronization time.
         ///
-        /// This data is populated with the user access points sync time.
-        /// Indicates the last time the digital key's access points changed.
+        /// This data is populated with the user's access points sync time.
+        /// Indicates the last time the digital key's access points were synced.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public global::Google.Protobuf.WellKnownTypes.Timestamp AccessPointsChangeTime {
-          get { return accessPointsChangeTime_; }
+        public global::Google.Protobuf.WellKnownTypes.Timestamp AccessPointsSyncTime {
+          get { return accessPointsSyncTime_; }
           set {
-            accessPointsChangeTime_ = value;
+            accessPointsSyncTime_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "access_points_sync_state" field.</summary>
+        public const int AccessPointsSyncStateFieldNumber = 8;
+        private global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState accessPointsSyncState_ = global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState.Unspecified;
+        /// <summary>
+        /// The sync state of the digital key's access points.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState AccessPointsSyncState {
+          get { return accessPointsSyncState_; }
+          set {
+            accessPointsSyncState_ = value;
           }
         }
 
@@ -1026,7 +1047,8 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           if (Unit != other.Unit) return false;
           if (InstallationId != other.InstallationId) return false;
           if (UnitId != other.UnitId) return false;
-          if (!object.Equals(AccessPointsChangeTime, other.AccessPointsChangeTime)) return false;
+          if (!object.Equals(AccessPointsSyncTime, other.AccessPointsSyncTime)) return false;
+          if (AccessPointsSyncState != other.AccessPointsSyncState) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -1040,7 +1062,8 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           if (HasUnit) hash ^= Unit.GetHashCode();
           if (InstallationId.Length != 0) hash ^= InstallationId.GetHashCode();
           if (HasUnitId) hash ^= UnitId.GetHashCode();
-          if (accessPointsChangeTime_ != null) hash ^= AccessPointsChangeTime.GetHashCode();
+          if (accessPointsSyncTime_ != null) hash ^= AccessPointsSyncTime.GetHashCode();
+          if (AccessPointsSyncState != global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState.Unspecified) hash ^= AccessPointsSyncState.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -1083,9 +1106,13 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             output.WriteRawTag(50);
             output.WriteString(Unit);
           }
-          if (accessPointsChangeTime_ != null) {
+          if (accessPointsSyncTime_ != null) {
             output.WriteRawTag(58);
-            output.WriteMessage(AccessPointsChangeTime);
+            output.WriteMessage(AccessPointsSyncTime);
+          }
+          if (AccessPointsSyncState != global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState.Unspecified) {
+            output.WriteRawTag(64);
+            output.WriteEnum((int) AccessPointsSyncState);
           }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
@@ -1121,9 +1148,13 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
             output.WriteRawTag(50);
             output.WriteString(Unit);
           }
-          if (accessPointsChangeTime_ != null) {
+          if (accessPointsSyncTime_ != null) {
             output.WriteRawTag(58);
-            output.WriteMessage(AccessPointsChangeTime);
+            output.WriteMessage(AccessPointsSyncTime);
+          }
+          if (AccessPointsSyncState != global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState.Unspecified) {
+            output.WriteRawTag(64);
+            output.WriteEnum((int) AccessPointsSyncState);
           }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
@@ -1153,8 +1184,11 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           if (HasUnitId) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(UnitId);
           }
-          if (accessPointsChangeTime_ != null) {
-            size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessPointsChangeTime);
+          if (accessPointsSyncTime_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccessPointsSyncTime);
+          }
+          if (AccessPointsSyncState != global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState.Unspecified) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AccessPointsSyncState);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -1189,11 +1223,14 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
           if (other.HasUnitId) {
             UnitId = other.UnitId;
           }
-          if (other.accessPointsChangeTime_ != null) {
-            if (accessPointsChangeTime_ == null) {
-              AccessPointsChangeTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          if (other.accessPointsSyncTime_ != null) {
+            if (accessPointsSyncTime_ == null) {
+              AccessPointsSyncTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            AccessPointsChangeTime.MergeFrom(other.AccessPointsChangeTime);
+            AccessPointsSyncTime.MergeFrom(other.AccessPointsSyncTime);
+          }
+          if (other.AccessPointsSyncState != global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState.Unspecified) {
+            AccessPointsSyncState = other.AccessPointsSyncState;
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -1238,10 +1275,14 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
                 break;
               }
               case 58: {
-                if (accessPointsChangeTime_ == null) {
-                  AccessPointsChangeTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                if (accessPointsSyncTime_ == null) {
+                  AccessPointsSyncTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
                 }
-                input.ReadMessage(AccessPointsChangeTime);
+                input.ReadMessage(AccessPointsSyncTime);
+                break;
+              }
+              case 64: {
+                AccessPointsSyncState = (global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState) input.ReadEnum();
                 break;
               }
             }
@@ -1287,16 +1328,55 @@ namespace Saltoapis.Nebula.DigitalKey.V1 {
                 break;
               }
               case 58: {
-                if (accessPointsChangeTime_ == null) {
-                  AccessPointsChangeTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                if (accessPointsSyncTime_ == null) {
+                  AccessPointsSyncTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
                 }
-                input.ReadMessage(AccessPointsChangeTime);
+                input.ReadMessage(AccessPointsSyncTime);
+                break;
+              }
+              case 64: {
+                AccessPointsSyncState = (global::Saltoapis.Nebula.DigitalKey.V1.DigitalKey.Types.AppKey.Types.AccessPointsSyncState) input.ReadEnum();
                 break;
               }
             }
           }
         }
         #endif
+
+        #region Nested types
+        /// <summary>Container for nested types declared in the AppKey message type.</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static partial class Types {
+          /// <summary>
+          /// Sync state of the digital key's access points.
+          /// </summary>
+          public enum AccessPointsSyncState {
+            /// <summary>
+            /// Sentinel value used to indicate that the state is unknown, omitted,
+            /// or is not applicable.
+            /// </summary>
+            [pbr::OriginalName("ACCESS_POINTS_SYNC_STATE_UNSPECIFIED")] Unspecified = 0,
+            /// <summary>
+            /// The digital key's access points are invalidated.
+            /// </summary>
+            [pbr::OriginalName("INVALIDATED")] Invalidated = 3,
+            /// <summary>
+            /// The digital key's access points are being synced.
+            /// </summary>
+            [pbr::OriginalName("SYNCING")] Syncing = 1,
+            /// <summary>
+            /// The digital key's access points are synced.
+            /// </summary>
+            [pbr::OriginalName("SYNCED")] Synced = 2,
+            /// <summary>
+            /// The digital key's access points are not supported on the digital key's installation.
+            /// </summary>
+            [pbr::OriginalName("NOT_SUPPORTED")] NotSupported = 4,
+          }
+
+        }
+        #endregion
 
       }
 
