@@ -51,6 +51,7 @@ csharp_projects = [
     '//src/Saltoapis.Type',
     '//src/Saltoapis.Nebula.Controller.V1',
     '//src/Saltoapis.Nebula.DigitalKey.V1',
+    '//src/Saltoapis.Nebula.ElectronicKey.V1',
     '//src/Saltoapis.Nebula.ElectronicLock.V1',
     '//src/Saltoapis.Nebula.Encoder.V1',
     '//src/Saltoapis.Nebula.Extender.V1',

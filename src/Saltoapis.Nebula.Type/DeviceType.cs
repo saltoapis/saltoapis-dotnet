@@ -25,15 +25,15 @@ namespace Saltoapis.Nebula.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiNzYWx0by9uZWJ1bGEvdHlwZS9kZXZpY2VfdHlwZS5wcm90bxIRc2FsdG8u",
-            "bmVidWxhLnR5cGUqmwEKCkRldmljZVR5cGUSGwoXREVWSUNFX1RZUEVfVU5T",
+            "bmVidWxhLnR5cGUqoAEKCkRldmljZVR5cGUSGwoXREVWSUNFX1RZUEVfVU5T",
             "UEVDSUZJRUQQABITCg9FTEVDVFJPTklDX0xPQ0sQARILCgdHQVRFV0FZEAIS",
             "DAoIRVhURU5ERVIQAxILCgdFTkNPREVSEAQSDgoKQ09OVFJPTExFUhAFEhQK",
-            "EElOVEVSQ09NX0FEQVBUT1IQBhINCglVTk5BTUVEXzEQB0LQAQoZY29tLnNh",
-            "bHRvYXBpcy5uZWJ1bGEudHlwZUIPRGV2aWNlVHlwZVByb3RvUAFaTGdpdGh1",
-            "Yi5jb20vc2FsdG9hcGlzLWludGVybmFsL3NhbHRvYXBpcy1nby9uZWJ1bGEv",
-            "dHlwZS9kZXZpY2V0eXBlO2RldmljZXR5cGWqAhVTYWx0b2FwaXMuTmVidWxh",
-            "LlR5cGXKAhVTYWx0b2FwaXNcTmVidWxhXFR5cGXiAiFHUEJNZXRhZGF0YVxT",
-            "YWx0b2FwaXNcTmVidWxhXFR5cGViBnByb3RvMw=="));
+            "EElOVEVSQ09NX0FEQVBUT1IQBhISCg5FTEVDVFJPTklDX0tFWRAHQtABChlj",
+            "b20uc2FsdG9hcGlzLm5lYnVsYS50eXBlQg9EZXZpY2VUeXBlUHJvdG9QAVpM",
+            "Z2l0aHViLmNvbS9zYWx0b2FwaXMtaW50ZXJuYWwvc2FsdG9hcGlzLWdvL25l",
+            "YnVsYS90eXBlL2RldmljZXR5cGU7ZGV2aWNldHlwZaoCFVNhbHRvYXBpcy5O",
+            "ZWJ1bGEuVHlwZcoCFVNhbHRvYXBpc1xOZWJ1bGFcVHlwZeICIUdQQk1ldGFk",
+            "YXRhXFNhbHRvYXBpc1xOZWJ1bGFcVHlwZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Saltoapis.Nebula.Type.DeviceType), }, null, null));
@@ -74,7 +74,10 @@ namespace Saltoapis.Nebula.Type {
     /// Intercom Adaptor
     /// </summary>
     [pbr::OriginalName("INTERCOM_ADAPTOR")] IntercomAdaptor = 6,
-    [pbr::OriginalName("UNNAMED_1")] Unnamed1 = 7,
+    /// <summary>
+    /// Electronic key
+    /// </summary>
+    [pbr::OriginalName("ELECTRONIC_KEY")] ElectronicKey = 7,
   }
 
   #endregion
