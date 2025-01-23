@@ -1235,7 +1235,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// Update subscription payment method's card
       ///
-      /// Updates subscription payment method's card.
+      /// Updates subscription payment method's card. If there is a payment method
+      /// associated with the subscription, it will be deleted.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -1250,7 +1251,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// Update subscription payment method's card
       ///
-      /// Updates subscription payment method's card.
+      /// Updates subscription payment method's card. If there is a payment method
+      /// associated with the subscription, it will be deleted.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -1263,7 +1265,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// Update subscription payment method's card
       ///
-      /// Updates subscription payment method's card.
+      /// Updates subscription payment method's card. If there is a payment method
+      /// associated with the subscription, it will be deleted.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -1278,7 +1281,8 @@ namespace Saltoapis.Nebula.Installation.V1 {
       /// <summary>
       /// Update subscription payment method's card
       ///
-      /// Updates subscription payment method's card.
+      /// Updates subscription payment method's card. If there is a payment method
+      /// associated with the subscription, it will be deleted.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
