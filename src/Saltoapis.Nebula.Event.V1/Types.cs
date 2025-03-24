@@ -27,92 +27,99 @@ namespace Saltoapis.Nebula.Event.V1 {
             "CiFzYWx0by9uZWJ1bGEvZXZlbnQvdjEvdHlwZXMucHJvdG8SFXNhbHRvLm5l",
             "YnVsYS5ldmVudC52MRouc2FsdG8vbmVidWxhL2FjY2Vzc3BvaW50L3YxL2Fj",
             "Y2Vzc19wb2ludC5wcm90bxouc2FsdG8vbmVidWxhL2FjY2Vzc3JpZ2h0L3Yx",
-            "L2FjY2Vzc19yaWdodC5wcm90bxofc2FsdG8vbmVidWxhL3VuaXQvdjEvdW5p",
-            "dC5wcm90bxofc2FsdG8vbmVidWxhL3VzZXIvdjEvdXNlci5wcm90byJUChJB",
-            "Y2Nlc3NQb2ludENyZWF0ZWQSPgoMYWNjZXNzX3BvaW50GAEgASgLMiguc2Fs",
-            "dG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50IlQKEkFjY2Vz",
-            "c1BvaW50VXBkYXRlZBI+CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0by5u",
-            "ZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQiVAoSQWNjZXNzUG9p",
-            "bnREZWxldGVkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVs",
-            "YS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCJ/ChNBY2Nlc3NQb2ludFVu",
-            "bG9ja2VkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
-            "Y2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIoCgR1c2VyGAIgASgLMhouc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuVXNlciJ9ChFBY2Nlc3NQb2ludExvY2tlZBI+",
-            "CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9p",
-            "bnQudjEuQWNjZXNzUG9pbnQSKAoEdXNlchgCIAEoCzIaLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLlVzZXIiVwoVQWNjZXNzUG9pbnRGb3JjZWRPcGVuEj4KDGFj",
-            "Y2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
-            "MS5BY2Nlc3NQb2ludCJTChFBY2Nlc3NQb2ludENsb3NlZBI+CgxhY2Nlc3Nf",
-            "cG9pbnQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNj",
-            "ZXNzUG9pbnQieAoMQWNjZXNzRGVuaWVkEj4KDGFjY2Vzc19wb2ludBgBIAEo",
-            "CzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIo",
-            "CgR1c2VyGAIgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlciJVChNB",
-            "Y2Nlc3NQb2ludExlZnRPcGVuEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNh",
+            "L2FjY2Vzc19yaWdodC5wcm90bxowc2FsdG8vbmVidWxhL2VtZXJnZW5jeWtl",
+            "eS92MS9lbWVyZ2VuY3lfa2V5LnByb3RvGh9zYWx0by9uZWJ1bGEvdW5pdC92",
+            "MS91bml0LnByb3RvGh9zYWx0by9uZWJ1bGEvdXNlci92MS91c2VyLnByb3Rv",
+            "IlQKEkFjY2Vzc1BvaW50Q3JlYXRlZBI+CgxhY2Nlc3NfcG9pbnQYASABKAsy",
+            "KC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQiVAoS",
+            "QWNjZXNzUG9pbnRVcGRhdGVkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNh",
             "bHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCJUChJBY2Nl",
-            "c3NSaWdodENyZWF0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8u",
-            "bmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0IlQKEkFjY2Vzc1Jp",
-            "Z2h0VXBkYXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1",
-            "bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQiVAoSQWNjZXNzUmlnaHRE",
-            "ZWxldGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
-            "Y2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCKfAQodQWNjZXNzUmlnaHRBY2Nl",
-            "c3NQb2ludENyZWF0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8u",
-            "bmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej4KDGFjY2Vzc19w",
-            "b2ludBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nl",
-            "c3NQb2ludCKmAQojQWNjZXNzUmlnaHRBY2Nlc3NQb2ludHNCYXRjaENyZWF0",
-            "ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vz",
-            "c3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej8KDWFjY2Vzc19wb2ludHMYAiADKAsy",
-            "KC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQinwEK",
-            "HUFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnREZWxldGVkEj4KDGFjY2Vzc19yaWdo",
-            "dBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NS",
-            "aWdodBI+CgxhY2Nlc3NfcG9pbnQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNj",
-            "ZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQipgEKI0FjY2Vzc1JpZ2h0QWNjZXNz",
-            "UG9pbnRzQmF0Y2hEZWxldGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNh",
-            "bHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBI/Cg1hY2Nl",
-            "c3NfcG9pbnRzGAIgAygLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYx",
-            "LkFjY2Vzc1BvaW50IjcKC1VzZXJDcmVhdGVkEigKBHVzZXIYASABKAsyGi5z",
-            "YWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIjcKC1VzZXJVcGRhdGVkEigKBHVz",
-            "ZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIjcKC1VzZXJC",
-            "bG9ja2VkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5V",
-            "c2VyIjkKDVVzZXJVbmJsb2NrZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLlVzZXIiNwoLVXNlckRlbGV0ZWQSKAoEdXNlchgBIAEo",
-            "CzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIiggEKFlVzZXJBY2Nlc3NS",
-            "aWdodENyZWF0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLlVzZXISPgoMYWNjZXNzX3JpZ2h0GAIgASgLMiguc2FsdG8ubmVidWxh",
-            "LmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0IoIBChZVc2VyQWNjZXNzUmln",
-            "aHRVcGRhdGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5Vc2VyEj4KDGFjY2Vzc19yaWdodBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
-            "Y2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCKCAQoWVXNlckFjY2Vzc1JpZ2h0",
-            "RGVsZXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "VXNlchI+CgxhY2Nlc3NfcmlnaHQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNj",
-            "ZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQibAoPQ2FyZEtleUFzc2lnbmVkEigK",
-            "BHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi8KCGNh",
-            "cmRfa2V5GAIgASgLMh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleSJs",
-            "Cg9DYXJkS2V5Q2FuY2VsZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVs",
-            "YS51c2VyLnYxLlVzZXISLwoIY2FyZF9rZXkYAiABKAsyHS5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5DYXJkS2V5ImkKDkFwcEtleUFzc2lnbmVkEigKBHVzZXIY",
-            "ASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi0KB2FwcF9rZXkY",
-            "AiABKAsyHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkiaQoOQXBwS2V5",
-            "Q2FuY2VsZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LlVzZXISLQoHYXBwX2tleRgCIAEoCzIcLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LkFwcEtleSJyChFXYWxsZXRLZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhou",
-            "c2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchIzCgp3YWxsZXRfa2V5GAIgASgL",
-            "Mh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5InIKEVdhbGxldEtl",
-            "eUNhbmNlbGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5Vc2VyEjMKCndhbGxldF9rZXkYAiABKAsyHy5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5XYWxsZXRLZXkiNwoLVW5pdE1vdmVkSW4SKAoEdW5pdBgBIAEoCzIa",
-            "LnNhbHRvLm5lYnVsYS51bml0LnYxLlVuaXQiOAoMVW5pdE1vdmVkT3V0EigK",
-            "BHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52MS5Vbml0IjcKC1Vu",
-            "aXRDcmVhdGVkEigKBHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52",
-            "MS5Vbml0IjcKC1VuaXRVcGRhdGVkEigKBHVuaXQYASABKAsyGi5zYWx0by5u",
-            "ZWJ1bGEudW5pdC52MS5Vbml0IjcKC1VuaXREZWxldGVkEigKBHVuaXQYASAB",
-            "KAsyGi5zYWx0by5uZWJ1bGEudW5pdC52MS5Vbml0Qs8BCh1jb20uc2FsdG9h",
-            "cGlzLm5lYnVsYS5ldmVudC52MUIKVHlwZXNQcm90b1ABWkBnaXRodWIuY29t",
-            "L3NhbHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2V2ZW50",
-            "L3YxO2V2ZW50qgIZU2FsdG9hcGlzLk5lYnVsYS5FdmVudC5WMcoCGVNhbHRv",
-            "YXBpc1xOZWJ1bGFcRXZlbnRcVjHiAiVHUEJNZXRhZGF0YVxTYWx0b2FwaXNc",
-            "TmVidWxhXEV2ZW50XFYxYgZwcm90bzM="));
+            "c3NQb2ludERlbGV0ZWQSPgoMYWNjZXNzX3BvaW50GAEgASgLMiguc2FsdG8u",
+            "bmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50In8KE0FjY2Vzc1Bv",
+            "aW50VW5sb2NrZWQSPgoMYWNjZXNzX3BvaW50GAEgASgLMiguc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50EigKBHVzZXIYAiABKAsy",
+            "Gi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIn0KEUFjY2Vzc1BvaW50TG9j",
+            "a2VkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nl",
+            "c3Nwb2ludC52MS5BY2Nlc3NQb2ludBIoCgR1c2VyGAIgASgLMhouc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuVXNlciJXChVBY2Nlc3NQb2ludEZvcmNlZE9wZW4S",
+            "PgoMYWNjZXNzX3BvaW50GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3Bv",
+            "aW50LnYxLkFjY2Vzc1BvaW50IlMKEUFjY2Vzc1BvaW50Q2xvc2VkEj4KDGFj",
+            "Y2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
+            "MS5BY2Nlc3NQb2ludCJ4CgxBY2Nlc3NEZW5pZWQSPgoMYWNjZXNzX3BvaW50",
+            "GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1Bv",
+            "aW50EigKBHVzZXIYAiABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2Vy",
+            "IlUKE0FjY2Vzc1BvaW50TGVmdE9wZW4SPgoMYWNjZXNzX3BvaW50GAEgASgL",
+            "Miguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50IlQK",
+            "EkFjY2Vzc1JpZ2h0Q3JlYXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5z",
+            "YWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQiVAoSQWNj",
+            "ZXNzUmlnaHRVcGRhdGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNhbHRv",
+            "Lm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCJUChJBY2Nlc3NS",
+            "aWdodERlbGV0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ip8BCh1BY2Nlc3NSaWdo",
+            "dEFjY2Vzc1BvaW50Q3JlYXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5z",
+            "YWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSPgoMYWNj",
+            "ZXNzX3BvaW50GAIgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYx",
+            "LkFjY2Vzc1BvaW50IqYBCiNBY2Nlc3NSaWdodEFjY2Vzc1BvaW50c0JhdGNo",
+            "Q3JlYXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1bGEu",
+            "YWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSPwoNYWNjZXNzX3BvaW50cxgC",
+            "IAMoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2lu",
+            "dCKfAQodQWNjZXNzUmlnaHRBY2Nlc3NQb2ludERlbGV0ZWQSPgoMYWNjZXNz",
+            "X3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFj",
+            "Y2Vzc1JpZ2h0Ej4KDGFjY2Vzc19wb2ludBgCIAEoCzIoLnNhbHRvLm5lYnVs",
+            "YS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCKmAQojQWNjZXNzUmlnaHRB",
+            "Y2Nlc3NQb2ludHNCYXRjaERlbGV0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgL",
+            "Miguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej8K",
+            "DWFjY2Vzc19wb2ludHMYAiADKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9p",
+            "bnQudjEuQWNjZXNzUG9pbnQiNwoLVXNlckNyZWF0ZWQSKAoEdXNlchgBIAEo",
+            "CzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIiNwoLVXNlclVwZGF0ZWQS",
+            "KAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIiNwoL",
+            "VXNlckJsb2NrZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2Vy",
+            "LnYxLlVzZXIiOQoNVXNlclVuYmxvY2tlZBIoCgR1c2VyGAEgASgLMhouc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuVXNlciI3CgtVc2VyRGVsZXRlZBIoCgR1c2Vy",
+            "GAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlciKCAQoWVXNlckFj",
+            "Y2Vzc1JpZ2h0Q3JlYXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuVXNlchI+CgxhY2Nlc3NfcmlnaHQYAiABKAsyKC5zYWx0by5u",
+            "ZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQiggEKFlVzZXJBY2Nl",
+            "c3NSaWdodFVwZGF0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51",
+            "c2VyLnYxLlVzZXISPgoMYWNjZXNzX3JpZ2h0GAIgASgLMiguc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0IoIBChZVc2VyQWNjZXNz",
+            "UmlnaHREZWxldGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNl",
+            "ci52MS5Vc2VyEj4KDGFjY2Vzc19yaWdodBgCIAEoCzIoLnNhbHRvLm5lYnVs",
+            "YS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCJsCg9DYXJkS2V5QXNzaWdu",
+            "ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIS",
+            "LwoIY2FyZF9rZXkYAiABKAsyHS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJk",
+            "S2V5ImwKD0NhcmRLZXlDYW5jZWxlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuVXNlchIvCghjYXJkX2tleRgCIAEoCzIdLnNhbHRv",
+            "Lm5lYnVsYS51c2VyLnYxLkNhcmRLZXkiaQoOQXBwS2V5QXNzaWduZWQSKAoE",
+            "dXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISLQoHYXBw",
+            "X2tleRgCIAEoCzIcLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleSJpCg5B",
+            "cHBLZXlDYW5jZWxlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVz",
+            "ZXIudjEuVXNlchItCgdhcHBfa2V5GAIgASgLMhwuc2FsdG8ubmVidWxhLnVz",
+            "ZXIudjEuQXBwS2V5InIKEVdhbGxldEtleUFzc2lnbmVkEigKBHVzZXIYASAB",
+            "KAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEjMKCndhbGxldF9rZXkY",
+            "AiABKAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRLZXkicgoRV2Fs",
+            "bGV0S2V5Q2FuY2VsZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51",
+            "c2VyLnYxLlVzZXISMwoKd2FsbGV0X2tleRgCIAEoCzIfLnNhbHRvLm5lYnVs",
+            "YS51c2VyLnYxLldhbGxldEtleSI3CgtVbml0TW92ZWRJbhIoCgR1bml0GAEg",
+            "ASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdCI4CgxVbml0TW92ZWRP",
+            "dXQSKAoEdW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51bml0LnYxLlVuaXQi",
+            "NwoLVW5pdENyZWF0ZWQSKAoEdW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51",
+            "bml0LnYxLlVuaXQiNwoLVW5pdFVwZGF0ZWQSKAoEdW5pdBgBIAEoCzIaLnNh",
+            "bHRvLm5lYnVsYS51bml0LnYxLlVuaXQiNwoLVW5pdERlbGV0ZWQSKAoEdW5p",
+            "dBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51bml0LnYxLlVuaXQiWAoTRW1lcmdl",
+            "bmN5S2V5Q3JlYXRlZBJBCg1lbWVyZ2VuY3lfa2V5GAEgASgLMiouc2FsdG8u",
+            "bmVidWxhLmVtZXJnZW5jeWtleS52MS5FbWVyZ2VuY3lLZXkiWAoTRW1lcmdl",
+            "bmN5S2V5VXBkYXRlZBJBCg1lbWVyZ2VuY3lfa2V5GAEgASgLMiouc2FsdG8u",
+            "bmVidWxhLmVtZXJnZW5jeWtleS52MS5FbWVyZ2VuY3lLZXkiWAoTRW1lcmdl",
+            "bmN5S2V5RGVsZXRlZBJBCg1lbWVyZ2VuY3lfa2V5GAEgASgLMiouc2FsdG8u",
+            "bmVidWxhLmVtZXJnZW5jeWtleS52MS5FbWVyZ2VuY3lLZXlCzwEKHWNvbS5z",
+            "YWx0b2FwaXMubmVidWxhLmV2ZW50LnYxQgpUeXBlc1Byb3RvUAFaQGdpdGh1",
+            "Yi5jb20vc2FsdG9hcGlzLWludGVybmFsL3NhbHRvYXBpcy1nby9uZWJ1bGEv",
+            "ZXZlbnQvdjE7ZXZlbnSqAhlTYWx0b2FwaXMuTmVidWxhLkV2ZW50LlYxygIZ",
+            "U2FsdG9hcGlzXE5lYnVsYVxFdmVudFxWMeICJUdQQk1ldGFkYXRhXFNhbHRv",
+            "YXBpc1xOZWJ1bGFcRXZlbnRcVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Saltoapis.Nebula.Unit.V1.UnitReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Salto.Nebula.EmergencyKey.V1.EmergencyKeyReflection.Descriptor, global::Saltoapis.Nebula.Unit.V1.UnitReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointCreated), global::Saltoapis.Nebula.Event.V1.AccessPointCreated.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointUpdated), global::Saltoapis.Nebula.Event.V1.AccessPointUpdated.Parser, new[]{ "AccessPoint" }, null, null, null, null),
@@ -148,7 +155,10 @@ namespace Saltoapis.Nebula.Event.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitMovedOut), global::Saltoapis.Nebula.Event.V1.UnitMovedOut.Parser, new[]{ "Unit" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitCreated), global::Saltoapis.Nebula.Event.V1.UnitCreated.Parser, new[]{ "Unit" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitUpdated), global::Saltoapis.Nebula.Event.V1.UnitUpdated.Parser, new[]{ "Unit" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitDeleted), global::Saltoapis.Nebula.Event.V1.UnitDeleted.Parser, new[]{ "Unit" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitDeleted), global::Saltoapis.Nebula.Event.V1.UnitDeleted.Parser, new[]{ "Unit" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyCreated), global::Saltoapis.Nebula.Event.V1.EmergencyKeyCreated.Parser, new[]{ "EmergencyKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated), global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated.Parser, new[]{ "EmergencyKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyDeleted), global::Saltoapis.Nebula.Event.V1.EmergencyKeyDeleted.Parser, new[]{ "EmergencyKey" }, null, null, null, null)
           }));
     }
     #endregion
@@ -8348,6 +8358,645 @@ namespace Saltoapis.Nebula.Event.V1 {
               Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
             }
             input.ReadMessage(Unit);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Event representing the creation of an emergency key.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class EmergencyKeyCreated : pb::IMessage<EmergencyKeyCreated>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<EmergencyKeyCreated> _parser = new pb::MessageParser<EmergencyKeyCreated>(() => new EmergencyKeyCreated());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<EmergencyKeyCreated> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[35]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyCreated() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyCreated(EmergencyKeyCreated other) : this() {
+      emergencyKey_ = other.emergencyKey_ != null ? other.emergencyKey_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyCreated Clone() {
+      return new EmergencyKeyCreated(this);
+    }
+
+    /// <summary>Field number for the "emergency_key" field.</summary>
+    public const int EmergencyKeyFieldNumber = 1;
+    private global::Salto.Nebula.EmergencyKey.V1.EmergencyKey emergencyKey_;
+    /// <summary>
+    /// Emergency key created.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Salto.Nebula.EmergencyKey.V1.EmergencyKey EmergencyKey {
+      get { return emergencyKey_; }
+      set {
+        emergencyKey_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as EmergencyKeyCreated);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(EmergencyKeyCreated other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(EmergencyKey, other.EmergencyKey)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (emergencyKey_ != null) hash ^= EmergencyKey.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (emergencyKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (emergencyKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (emergencyKey_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(EmergencyKeyCreated other) {
+      if (other == null) {
+        return;
+      }
+      if (other.emergencyKey_ != null) {
+        if (emergencyKey_ == null) {
+          EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+        }
+        EmergencyKey.MergeFrom(other.EmergencyKey);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (emergencyKey_ == null) {
+              EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+            }
+            input.ReadMessage(EmergencyKey);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (emergencyKey_ == null) {
+              EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+            }
+            input.ReadMessage(EmergencyKey);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Event representing the update of an emergency key.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class EmergencyKeyUpdated : pb::IMessage<EmergencyKeyUpdated>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<EmergencyKeyUpdated> _parser = new pb::MessageParser<EmergencyKeyUpdated>(() => new EmergencyKeyUpdated());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<EmergencyKeyUpdated> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[36]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyUpdated() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyUpdated(EmergencyKeyUpdated other) : this() {
+      emergencyKey_ = other.emergencyKey_ != null ? other.emergencyKey_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyUpdated Clone() {
+      return new EmergencyKeyUpdated(this);
+    }
+
+    /// <summary>Field number for the "emergency_key" field.</summary>
+    public const int EmergencyKeyFieldNumber = 1;
+    private global::Salto.Nebula.EmergencyKey.V1.EmergencyKey emergencyKey_;
+    /// <summary>
+    /// Emergency key updated.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Salto.Nebula.EmergencyKey.V1.EmergencyKey EmergencyKey {
+      get { return emergencyKey_; }
+      set {
+        emergencyKey_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as EmergencyKeyUpdated);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(EmergencyKeyUpdated other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(EmergencyKey, other.EmergencyKey)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (emergencyKey_ != null) hash ^= EmergencyKey.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (emergencyKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (emergencyKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (emergencyKey_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(EmergencyKeyUpdated other) {
+      if (other == null) {
+        return;
+      }
+      if (other.emergencyKey_ != null) {
+        if (emergencyKey_ == null) {
+          EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+        }
+        EmergencyKey.MergeFrom(other.EmergencyKey);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (emergencyKey_ == null) {
+              EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+            }
+            input.ReadMessage(EmergencyKey);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (emergencyKey_ == null) {
+              EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+            }
+            input.ReadMessage(EmergencyKey);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Event representing the deletion of an emergency key.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class EmergencyKeyDeleted : pb::IMessage<EmergencyKeyDeleted>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<EmergencyKeyDeleted> _parser = new pb::MessageParser<EmergencyKeyDeleted>(() => new EmergencyKeyDeleted());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<EmergencyKeyDeleted> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[37]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyDeleted() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyDeleted(EmergencyKeyDeleted other) : this() {
+      emergencyKey_ = other.emergencyKey_ != null ? other.emergencyKey_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EmergencyKeyDeleted Clone() {
+      return new EmergencyKeyDeleted(this);
+    }
+
+    /// <summary>Field number for the "emergency_key" field.</summary>
+    public const int EmergencyKeyFieldNumber = 1;
+    private global::Salto.Nebula.EmergencyKey.V1.EmergencyKey emergencyKey_;
+    /// <summary>
+    /// Emergency key deleted.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Salto.Nebula.EmergencyKey.V1.EmergencyKey EmergencyKey {
+      get { return emergencyKey_; }
+      set {
+        emergencyKey_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as EmergencyKeyDeleted);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(EmergencyKeyDeleted other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(EmergencyKey, other.EmergencyKey)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (emergencyKey_ != null) hash ^= EmergencyKey.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (emergencyKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (emergencyKey_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (emergencyKey_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EmergencyKey);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(EmergencyKeyDeleted other) {
+      if (other == null) {
+        return;
+      }
+      if (other.emergencyKey_ != null) {
+        if (emergencyKey_ == null) {
+          EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+        }
+        EmergencyKey.MergeFrom(other.EmergencyKey);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (emergencyKey_ == null) {
+              EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+            }
+            input.ReadMessage(EmergencyKey);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (emergencyKey_ == null) {
+              EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+            }
+            input.ReadMessage(EmergencyKey);
             break;
           }
         }
