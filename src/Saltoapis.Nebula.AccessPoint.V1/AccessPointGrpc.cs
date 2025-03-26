@@ -506,7 +506,9 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       /// Lock an access point
       ///
       /// Remotely locks an access point. This can be run against those access
-      /// points where their associated devices are online and connected.
+      /// points where their associated devices are online and connected. The lock
+      /// device type can only be a motorized lock. Attempting to call this method
+      /// on non-motorized locks will result in an INVALID_ARGUMENT error.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -522,7 +524,9 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       /// Lock an access point
       ///
       /// Remotely locks an access point. This can be run against those access
-      /// points where their associated devices are online and connected.
+      /// points where their associated devices are online and connected. The lock
+      /// device type can only be a motorized lock. Attempting to call this method
+      /// on non-motorized locks will result in an INVALID_ARGUMENT error.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -536,7 +540,9 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       /// Lock an access point
       ///
       /// Remotely locks an access point. This can be run against those access
-      /// points where their associated devices are online and connected.
+      /// points where their associated devices are online and connected. The lock
+      /// device type can only be a motorized lock. Attempting to call this method
+      /// on non-motorized locks will result in an INVALID_ARGUMENT error.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -552,7 +558,9 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       /// Lock an access point
       ///
       /// Remotely locks an access point. This can be run against those access
-      /// points where their associated devices are online and connected.
+      /// points where their associated devices are online and connected. The lock
+      /// device type can only be a motorized lock. Attempting to call this method
+      /// on non-motorized locks will result in an INVALID_ARGUMENT error.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
