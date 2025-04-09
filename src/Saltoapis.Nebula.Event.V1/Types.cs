@@ -35,105 +35,108 @@ namespace Saltoapis.Nebula.Event.V1 {
             "QWNjZXNzUG9pbnRVcGRhdGVkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNh",
             "bHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCJUChJBY2Nl",
             "c3NQb2ludERlbGV0ZWQSPgoMYWNjZXNzX3BvaW50GAEgASgLMiguc2FsdG8u",
-            "bmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50IrYCChNBY2Nlc3NQ",
+            "bmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50Iu0CChNBY2Nlc3NQ",
             "b2ludFVubG9ja2VkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5l",
             "YnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIoCgR1c2VyGAIgASgL",
             "Mhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchJDCg1lbWVyZ2VuY3lfa2V5",
             "GAMgASgLMiouc2FsdG8ubmVidWxhLmVtZXJnZW5jeWtleS52MS5FbWVyZ2Vu",
             "Y3lLZXlIABIxCghjYXJkX2tleRgEIAEoCzIdLnNhbHRvLm5lYnVsYS51c2Vy",
             "LnYxLkNhcmRLZXlIABIvCgdhcHBfa2V5GAUgASgLMhwuc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuQXBwS2V5SABCDAoKY3JlZGVudGlhbCK0AgoRQWNjZXNzUG9p",
-            "bnRMb2NrZWQSPgoMYWNjZXNzX3BvaW50GAEgASgLMiguc2FsdG8ubmVidWxh",
-            "LmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50EigKBHVzZXIYAiABKAsyGi5z",
-            "YWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEkMKDWVtZXJnZW5jeV9rZXkYAyAB",
-            "KAsyKi5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5a2V5LnYxLkVtZXJnZW5jeUtl",
-            "eUgAEjEKCGNhcmRfa2V5GAQgASgLMh0uc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "Q2FyZEtleUgAEi8KB2FwcF9rZXkYBSABKAsyHC5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5BcHBLZXlIAEIMCgpjcmVkZW50aWFsIlcKFUFjY2Vzc1BvaW50Rm9y",
-            "Y2VkT3BlbhI+CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0by5uZWJ1bGEu",
-            "YWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQiUwoRQWNjZXNzUG9pbnRDbG9z",
-            "ZWQSPgoMYWNjZXNzX3BvaW50GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vz",
-            "c3BvaW50LnYxLkFjY2Vzc1BvaW50IngKDEFjY2Vzc0RlbmllZBI+CgxhY2Nl",
-            "c3NfcG9pbnQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEu",
-            "QWNjZXNzUG9pbnQSKAoEdXNlchgCIAEoCzIaLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLlVzZXIiVQoTQWNjZXNzUG9pbnRMZWZ0T3BlbhI+CgxhY2Nlc3NfcG9p",
-            "bnQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNz",
-            "UG9pbnQiVAoSQWNjZXNzUmlnaHRDcmVhdGVkEj4KDGFjY2Vzc19yaWdodBgB",
-            "IAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdo",
-            "dCJUChJBY2Nlc3NSaWdodFVwZGF0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgL",
-            "Miguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0IlQK",
-            "EkFjY2Vzc1JpZ2h0RGVsZXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5z",
-            "YWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQinwEKHUFj",
-            "Y2Vzc1JpZ2h0QWNjZXNzUG9pbnRDcmVhdGVkEj4KDGFjY2Vzc19yaWdodBgB",
-            "IAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdo",
-            "dBI+CgxhY2Nlc3NfcG9pbnQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNz",
-            "cG9pbnQudjEuQWNjZXNzUG9pbnQipgEKI0FjY2Vzc1JpZ2h0QWNjZXNzUG9p",
-            "bnRzQmF0Y2hDcmVhdGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNhbHRv",
-            "Lm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBI/Cg1hY2Nlc3Nf",
-            "cG9pbnRzGAIgAygLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFj",
-            "Y2Vzc1BvaW50Ip8BCh1BY2Nlc3NSaWdodEFjY2Vzc1BvaW50RGVsZXRlZBI+",
+            "LnVzZXIudjEuQXBwS2V5SAASNQoKd2FsbGV0X2tleRgGIAEoCzIfLnNhbHRv",
+            "Lm5lYnVsYS51c2VyLnYxLldhbGxldEtleUgAQgwKCmNyZWRlbnRpYWwi6wIK",
+            "EUFjY2Vzc1BvaW50TG9ja2VkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNh",
+            "bHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIoCgR1c2Vy",
+            "GAIgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchJDCg1lbWVyZ2Vu",
+            "Y3lfa2V5GAMgASgLMiouc2FsdG8ubmVidWxhLmVtZXJnZW5jeWtleS52MS5F",
+            "bWVyZ2VuY3lLZXlIABIxCghjYXJkX2tleRgEIAEoCzIdLnNhbHRvLm5lYnVs",
+            "YS51c2VyLnYxLkNhcmRLZXlIABIvCgdhcHBfa2V5GAUgASgLMhwuc2FsdG8u",
+            "bmVidWxhLnVzZXIudjEuQXBwS2V5SAASNQoKd2FsbGV0X2tleRgGIAEoCzIf",
+            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtleUgAQgwKCmNyZWRlbnRp",
+            "YWwiVwoVQWNjZXNzUG9pbnRGb3JjZWRPcGVuEj4KDGFjY2Vzc19wb2ludBgB",
+            "IAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2lu",
+            "dCJTChFBY2Nlc3NQb2ludENsb3NlZBI+CgxhY2Nlc3NfcG9pbnQYASABKAsy",
+            "KC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQieAoM",
+            "QWNjZXNzRGVuaWVkEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5l",
+            "YnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIoCgR1c2VyGAIgASgL",
+            "Mhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlciJVChNBY2Nlc3NQb2ludExl",
+            "ZnRPcGVuEj4KDGFjY2Vzc19wb2ludBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
+            "Y2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCJUChJBY2Nlc3NSaWdodENyZWF0",
+            "ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vz",
+            "c3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0IlQKEkFjY2Vzc1JpZ2h0VXBkYXRlZBI+",
             "CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmln",
-            "aHQudjEuQWNjZXNzUmlnaHQSPgoMYWNjZXNzX3BvaW50GAIgASgLMiguc2Fs",
-            "dG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50IqYBCiNBY2Nl",
-            "c3NSaWdodEFjY2Vzc1BvaW50c0JhdGNoRGVsZXRlZBI+CgxhY2Nlc3Nfcmln",
-            "aHQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNz",
-            "UmlnaHQSPwoNYWNjZXNzX3BvaW50cxgCIAMoCzIoLnNhbHRvLm5lYnVsYS5h",
-            "Y2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCI3CgtVc2VyQ3JlYXRlZBIoCgR1",
-            "c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlciI3CgtVc2Vy",
-            "VXBkYXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "VXNlciI3CgtVc2VyQmxvY2tlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVi",
-            "dWxhLnVzZXIudjEuVXNlciI5Cg1Vc2VyVW5ibG9ja2VkEigKBHVzZXIYASAB",
-            "KAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIjcKC1VzZXJEZWxldGVk",
-            "EigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIoIB",
-            "ChZVc2VyQWNjZXNzUmlnaHRDcmVhdGVkEigKBHVzZXIYASABKAsyGi5zYWx0",
-            "by5uZWJ1bGEudXNlci52MS5Vc2VyEj4KDGFjY2Vzc19yaWdodBgCIAEoCzIo",
-            "LnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodCKCAQoW",
-            "VXNlckFjY2Vzc1JpZ2h0VXBkYXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuVXNlchI+CgxhY2Nlc3NfcmlnaHQYAiABKAsyKC5z",
-            "YWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQiggEKFlVz",
-            "ZXJBY2Nlc3NSaWdodERlbGV0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLlVzZXISPgoMYWNjZXNzX3JpZ2h0GAIgASgLMiguc2Fs",
-            "dG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0ImwKD0NhcmRL",
-            "ZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuVXNlchIvCghjYXJkX2tleRgCIAEoCzIdLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLkNhcmRLZXkibAoPQ2FyZEtleUNhbmNlbGVkEigKBHVzZXIYASABKAsy",
+            "aHQudjEuQWNjZXNzUmlnaHQiVAoSQWNjZXNzUmlnaHREZWxldGVkEj4KDGFj",
+            "Y2Vzc19yaWdodBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52",
+            "MS5BY2Nlc3NSaWdodCKfAQodQWNjZXNzUmlnaHRBY2Nlc3NQb2ludENyZWF0",
+            "ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vz",
+            "c3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej4KDGFjY2Vzc19wb2ludBgCIAEoCzIo",
+            "LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCKmAQoj",
+            "QWNjZXNzUmlnaHRBY2Nlc3NQb2ludHNCYXRjaENyZWF0ZWQSPgoMYWNjZXNz",
+            "X3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFj",
+            "Y2Vzc1JpZ2h0Ej8KDWFjY2Vzc19wb2ludHMYAiADKAsyKC5zYWx0by5uZWJ1",
+            "bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQinwEKHUFjY2Vzc1JpZ2h0",
+            "QWNjZXNzUG9pbnREZWxldGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNh",
+            "bHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBI+CgxhY2Nl",
+            "c3NfcG9pbnQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEu",
+            "QWNjZXNzUG9pbnQipgEKI0FjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRzQmF0Y2hE",
+            "ZWxldGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
+            "Y2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBI/Cg1hY2Nlc3NfcG9pbnRzGAIg",
+            "AygLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50",
+            "IjcKC1VzZXJDcmVhdGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5Vc2VyIjcKC1VzZXJVcGRhdGVkEigKBHVzZXIYASABKAsyGi5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIjcKC1VzZXJCbG9ja2VkEigKBHVz",
+            "ZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyIjkKDVVzZXJV",
+            "bmJsb2NrZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYx",
+            "LlVzZXIiNwoLVXNlckRlbGV0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5l",
+            "YnVsYS51c2VyLnYxLlVzZXIiggEKFlVzZXJBY2Nlc3NSaWdodENyZWF0ZWQS",
+            "KAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISPgoM",
+            "YWNjZXNzX3JpZ2h0GAIgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0",
+            "LnYxLkFjY2Vzc1JpZ2h0IoIBChZVc2VyQWNjZXNzUmlnaHRVcGRhdGVkEigK",
+            "BHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEj4KDGFj",
+            "Y2Vzc19yaWdodBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52",
+            "MS5BY2Nlc3NSaWdodCKCAQoWVXNlckFjY2Vzc1JpZ2h0RGVsZXRlZBIoCgR1",
+            "c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchI+CgxhY2Nl",
+            "c3NfcmlnaHQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEu",
+            "QWNjZXNzUmlnaHQibAoPQ2FyZEtleUFzc2lnbmVkEigKBHVzZXIYASABKAsy",
             "Gi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi8KCGNhcmRfa2V5GAIgASgL",
-            "Mh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleSJpCg5BcHBLZXlBc3Np",
-            "Z25lZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNl",
-            "chItCgdhcHBfa2V5GAIgASgLMhwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBw",
-            "S2V5ImkKDkFwcEtleUNhbmNlbGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5u",
-            "ZWJ1bGEudXNlci52MS5Vc2VyEi0KB2FwcF9rZXkYAiABKAsyHC5zYWx0by5u",
-            "ZWJ1bGEudXNlci52MS5BcHBLZXkicgoRV2FsbGV0S2V5QXNzaWduZWQSKAoE",
-            "dXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISMwoKd2Fs",
-            "bGV0X2tleRgCIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtl",
-            "eSJyChFXYWxsZXRLZXlDYW5jZWxlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8u",
-            "bmVidWxhLnVzZXIudjEuVXNlchIzCgp3YWxsZXRfa2V5GAIgASgLMh8uc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5IjcKC1VuaXRNb3ZlZEluEigK",
-            "BHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52MS5Vbml0IjgKDFVu",
-            "aXRNb3ZlZE91dBIoCgR1bml0GAEgASgLMhouc2FsdG8ubmVidWxhLnVuaXQu",
-            "djEuVW5pdCI3CgtVbml0Q3JlYXRlZBIoCgR1bml0GAEgASgLMhouc2FsdG8u",
-            "bmVidWxhLnVuaXQudjEuVW5pdCI3CgtVbml0VXBkYXRlZBIoCgR1bml0GAEg",
-            "ASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdCI3CgtVbml0RGVsZXRl",
-            "ZBIoCgR1bml0GAEgASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdCJY",
-            "ChNFbWVyZ2VuY3lLZXlDcmVhdGVkEkEKDWVtZXJnZW5jeV9rZXkYASABKAsy",
-            "Ki5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5a2V5LnYxLkVtZXJnZW5jeUtleSJY",
-            "ChNFbWVyZ2VuY3lLZXlVcGRhdGVkEkEKDWVtZXJnZW5jeV9rZXkYASABKAsy",
-            "Ki5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5a2V5LnYxLkVtZXJnZW5jeUtleSJY",
-            "ChNFbWVyZ2VuY3lLZXlEZWxldGVkEkEKDWVtZXJnZW5jeV9rZXkYASABKAsy",
-            "Ki5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5a2V5LnYxLkVtZXJnZW5jeUtleULP",
-            "AQodY29tLnNhbHRvYXBpcy5uZWJ1bGEuZXZlbnQudjFCClR5cGVzUHJvdG9Q",
-            "AVpAZ2l0aHViLmNvbS9zYWx0b2FwaXMtaW50ZXJuYWwvc2FsdG9hcGlzLWdv",
-            "L25lYnVsYS9ldmVudC92MTtldmVudKoCGVNhbHRvYXBpcy5OZWJ1bGEuRXZl",
-            "bnQuVjHKAhlTYWx0b2FwaXNcTmVidWxhXEV2ZW50XFYx4gIlR1BCTWV0YWRh",
-            "dGFcU2FsdG9hcGlzXE5lYnVsYVxFdmVudFxWMWIGcHJvdG8z"));
+            "Mh0uc2FsdG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleSJsCg9DYXJkS2V5Q2Fu",
+            "Y2VsZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVz",
+            "ZXISLwoIY2FyZF9rZXkYAiABKAsyHS5zYWx0by5uZWJ1bGEudXNlci52MS5D",
+            "YXJkS2V5ImkKDkFwcEtleUFzc2lnbmVkEigKBHVzZXIYASABKAsyGi5zYWx0",
+            "by5uZWJ1bGEudXNlci52MS5Vc2VyEi0KB2FwcF9rZXkYAiABKAsyHC5zYWx0",
+            "by5uZWJ1bGEudXNlci52MS5BcHBLZXkiaQoOQXBwS2V5Q2FuY2VsZWQSKAoE",
+            "dXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISLQoHYXBw",
+            "X2tleRgCIAEoCzIcLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleSJyChFX",
+            "YWxsZXRLZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxh",
+            "LnVzZXIudjEuVXNlchIzCgp3YWxsZXRfa2V5GAIgASgLMh8uc2FsdG8ubmVi",
+            "dWxhLnVzZXIudjEuV2FsbGV0S2V5InIKEVdhbGxldEtleUNhbmNlbGVkEigK",
+            "BHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEjMKCndh",
+            "bGxldF9rZXkYAiABKAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRL",
+            "ZXkiNwoLVW5pdE1vdmVkSW4SKAoEdW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVs",
+            "YS51bml0LnYxLlVuaXQiOAoMVW5pdE1vdmVkT3V0EigKBHVuaXQYASABKAsy",
+            "Gi5zYWx0by5uZWJ1bGEudW5pdC52MS5Vbml0IjcKC1VuaXRDcmVhdGVkEigK",
+            "BHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52MS5Vbml0IjcKC1Vu",
+            "aXRVcGRhdGVkEigKBHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52",
+            "MS5Vbml0IjcKC1VuaXREZWxldGVkEigKBHVuaXQYASABKAsyGi5zYWx0by5u",
+            "ZWJ1bGEudW5pdC52MS5Vbml0IlgKE0VtZXJnZW5jeUtleUNyZWF0ZWQSQQoN",
+            "ZW1lcmdlbmN5X2tleRgBIAEoCzIqLnNhbHRvLm5lYnVsYS5lbWVyZ2VuY3lr",
+            "ZXkudjEuRW1lcmdlbmN5S2V5IlgKE0VtZXJnZW5jeUtleVVwZGF0ZWQSQQoN",
+            "ZW1lcmdlbmN5X2tleRgBIAEoCzIqLnNhbHRvLm5lYnVsYS5lbWVyZ2VuY3lr",
+            "ZXkudjEuRW1lcmdlbmN5S2V5IlgKE0VtZXJnZW5jeUtleURlbGV0ZWQSQQoN",
+            "ZW1lcmdlbmN5X2tleRgBIAEoCzIqLnNhbHRvLm5lYnVsYS5lbWVyZ2VuY3lr",
+            "ZXkudjEuRW1lcmdlbmN5S2V5Qs8BCh1jb20uc2FsdG9hcGlzLm5lYnVsYS5l",
+            "dmVudC52MUIKVHlwZXNQcm90b1ABWkBnaXRodWIuY29tL3NhbHRvYXBpcy1p",
+            "bnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2V2ZW50L3YxO2V2ZW50qgIZ",
+            "U2FsdG9hcGlzLk5lYnVsYS5FdmVudC5WMcoCGVNhbHRvYXBpc1xOZWJ1bGFc",
+            "RXZlbnRcVjHiAiVHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVidWxhXEV2ZW50",
+            "XFYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Salto.Nebula.EmergencyKey.V1.EmergencyKeyReflection.Descriptor, global::Saltoapis.Nebula.Unit.V1.UnitReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointCreated), global::Saltoapis.Nebula.Event.V1.AccessPointCreated.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointUpdated), global::Saltoapis.Nebula.Event.V1.AccessPointUpdated.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointDeleted), global::Saltoapis.Nebula.Event.V1.AccessPointDeleted.Parser, new[]{ "AccessPoint" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointUnlocked), global::Saltoapis.Nebula.Event.V1.AccessPointUnlocked.Parser, new[]{ "AccessPoint", "User", "EmergencyKey", "CardKey", "AppKey" }, new[]{ "Credential" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointLocked), global::Saltoapis.Nebula.Event.V1.AccessPointLocked.Parser, new[]{ "AccessPoint", "User", "EmergencyKey", "CardKey", "AppKey" }, new[]{ "Credential" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointUnlocked), global::Saltoapis.Nebula.Event.V1.AccessPointUnlocked.Parser, new[]{ "AccessPoint", "User", "EmergencyKey", "CardKey", "AppKey", "WalletKey" }, new[]{ "Credential" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointLocked), global::Saltoapis.Nebula.Event.V1.AccessPointLocked.Parser, new[]{ "AccessPoint", "User", "EmergencyKey", "CardKey", "AppKey", "WalletKey" }, new[]{ "Credential" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointForcedOpen), global::Saltoapis.Nebula.Event.V1.AccessPointForcedOpen.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointClosed), global::Saltoapis.Nebula.Event.V1.AccessPointClosed.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessDenied), global::Saltoapis.Nebula.Event.V1.AccessDenied.Parser, new[]{ "AccessPoint", "User" }, null, null, null, null),
@@ -862,6 +865,9 @@ namespace Saltoapis.Nebula.Event.V1 {
         case CredentialOneofCase.AppKey:
           AppKey = other.AppKey.Clone();
           break;
+        case CredentialOneofCase.WalletKey:
+          WalletKey = other.WalletKey.Clone();
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -948,6 +954,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "wallet_key" field.</summary>
+    public const int WalletKeyFieldNumber = 6;
+    /// <summary>
+    /// The wallet key used to unlock the access point.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.WalletKey WalletKey {
+      get { return credentialCase_ == CredentialOneofCase.WalletKey ? (global::Saltoapis.Nebula.User.V1.WalletKey) credential_ : null; }
+      set {
+        credential_ = value;
+        credentialCase_ = value == null ? CredentialOneofCase.None : CredentialOneofCase.WalletKey;
+      }
+    }
+
     private object credential_;
     /// <summary>Enum of possible cases for the "credential" oneof.</summary>
     public enum CredentialOneofCase {
@@ -955,6 +976,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       EmergencyKey = 3,
       CardKey = 4,
       AppKey = 5,
+      WalletKey = 6,
     }
     private CredentialOneofCase credentialCase_ = CredentialOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -990,6 +1012,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (!object.Equals(EmergencyKey, other.EmergencyKey)) return false;
       if (!object.Equals(CardKey, other.CardKey)) return false;
       if (!object.Equals(AppKey, other.AppKey)) return false;
+      if (!object.Equals(WalletKey, other.WalletKey)) return false;
       if (CredentialCase != other.CredentialCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1003,6 +1026,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (credentialCase_ == CredentialOneofCase.EmergencyKey) hash ^= EmergencyKey.GetHashCode();
       if (credentialCase_ == CredentialOneofCase.CardKey) hash ^= CardKey.GetHashCode();
       if (credentialCase_ == CredentialOneofCase.AppKey) hash ^= AppKey.GetHashCode();
+      if (credentialCase_ == CredentialOneofCase.WalletKey) hash ^= WalletKey.GetHashCode();
       hash ^= (int) credentialCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1042,6 +1066,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(AppKey);
       }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        output.WriteRawTag(50);
+        output.WriteMessage(WalletKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1072,6 +1100,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(AppKey);
       }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        output.WriteRawTag(50);
+        output.WriteMessage(WalletKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1096,6 +1128,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (credentialCase_ == CredentialOneofCase.AppKey) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(AppKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(WalletKey);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1139,6 +1174,12 @@ namespace Saltoapis.Nebula.Event.V1 {
             AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
           }
           AppKey.MergeFrom(other.AppKey);
+          break;
+        case CredentialOneofCase.WalletKey:
+          if (WalletKey == null) {
+            WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
+          }
+          WalletKey.MergeFrom(other.WalletKey);
           break;
       }
 
@@ -1202,6 +1243,15 @@ namespace Saltoapis.Nebula.Event.V1 {
             AppKey = subBuilder;
             break;
           }
+          case 50: {
+            global::Saltoapis.Nebula.User.V1.WalletKey subBuilder = new global::Saltoapis.Nebula.User.V1.WalletKey();
+            if (credentialCase_ == CredentialOneofCase.WalletKey) {
+              subBuilder.MergeFrom(WalletKey);
+            }
+            input.ReadMessage(subBuilder);
+            WalletKey = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -1262,6 +1312,15 @@ namespace Saltoapis.Nebula.Event.V1 {
             AppKey = subBuilder;
             break;
           }
+          case 50: {
+            global::Saltoapis.Nebula.User.V1.WalletKey subBuilder = new global::Saltoapis.Nebula.User.V1.WalletKey();
+            if (credentialCase_ == CredentialOneofCase.WalletKey) {
+              subBuilder.MergeFrom(WalletKey);
+            }
+            input.ReadMessage(subBuilder);
+            WalletKey = subBuilder;
+            break;
+          }
         }
       }
     }
@@ -1318,6 +1377,9 @@ namespace Saltoapis.Nebula.Event.V1 {
           break;
         case CredentialOneofCase.AppKey:
           AppKey = other.AppKey.Clone();
+          break;
+        case CredentialOneofCase.WalletKey:
+          WalletKey = other.WalletKey.Clone();
           break;
       }
 
@@ -1405,6 +1467,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "wallet_key" field.</summary>
+    public const int WalletKeyFieldNumber = 6;
+    /// <summary>
+    /// The wallet key used to lock the access point.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.WalletKey WalletKey {
+      get { return credentialCase_ == CredentialOneofCase.WalletKey ? (global::Saltoapis.Nebula.User.V1.WalletKey) credential_ : null; }
+      set {
+        credential_ = value;
+        credentialCase_ = value == null ? CredentialOneofCase.None : CredentialOneofCase.WalletKey;
+      }
+    }
+
     private object credential_;
     /// <summary>Enum of possible cases for the "credential" oneof.</summary>
     public enum CredentialOneofCase {
@@ -1412,6 +1489,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       EmergencyKey = 3,
       CardKey = 4,
       AppKey = 5,
+      WalletKey = 6,
     }
     private CredentialOneofCase credentialCase_ = CredentialOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1447,6 +1525,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (!object.Equals(EmergencyKey, other.EmergencyKey)) return false;
       if (!object.Equals(CardKey, other.CardKey)) return false;
       if (!object.Equals(AppKey, other.AppKey)) return false;
+      if (!object.Equals(WalletKey, other.WalletKey)) return false;
       if (CredentialCase != other.CredentialCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1460,6 +1539,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       if (credentialCase_ == CredentialOneofCase.EmergencyKey) hash ^= EmergencyKey.GetHashCode();
       if (credentialCase_ == CredentialOneofCase.CardKey) hash ^= CardKey.GetHashCode();
       if (credentialCase_ == CredentialOneofCase.AppKey) hash ^= AppKey.GetHashCode();
+      if (credentialCase_ == CredentialOneofCase.WalletKey) hash ^= WalletKey.GetHashCode();
       hash ^= (int) credentialCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1499,6 +1579,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(AppKey);
       }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        output.WriteRawTag(50);
+        output.WriteMessage(WalletKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1529,6 +1613,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(42);
         output.WriteMessage(AppKey);
       }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        output.WriteRawTag(50);
+        output.WriteMessage(WalletKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1553,6 +1641,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (credentialCase_ == CredentialOneofCase.AppKey) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(AppKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(WalletKey);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1596,6 +1687,12 @@ namespace Saltoapis.Nebula.Event.V1 {
             AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
           }
           AppKey.MergeFrom(other.AppKey);
+          break;
+        case CredentialOneofCase.WalletKey:
+          if (WalletKey == null) {
+            WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
+          }
+          WalletKey.MergeFrom(other.WalletKey);
           break;
       }
 
@@ -1659,6 +1756,15 @@ namespace Saltoapis.Nebula.Event.V1 {
             AppKey = subBuilder;
             break;
           }
+          case 50: {
+            global::Saltoapis.Nebula.User.V1.WalletKey subBuilder = new global::Saltoapis.Nebula.User.V1.WalletKey();
+            if (credentialCase_ == CredentialOneofCase.WalletKey) {
+              subBuilder.MergeFrom(WalletKey);
+            }
+            input.ReadMessage(subBuilder);
+            WalletKey = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -1717,6 +1823,15 @@ namespace Saltoapis.Nebula.Event.V1 {
             }
             input.ReadMessage(subBuilder);
             AppKey = subBuilder;
+            break;
+          }
+          case 50: {
+            global::Saltoapis.Nebula.User.V1.WalletKey subBuilder = new global::Saltoapis.Nebula.User.V1.WalletKey();
+            if (credentialCase_ == CredentialOneofCase.WalletKey) {
+              subBuilder.MergeFrom(WalletKey);
+            }
+            input.ReadMessage(subBuilder);
+            WalletKey = subBuilder;
             break;
           }
         }
