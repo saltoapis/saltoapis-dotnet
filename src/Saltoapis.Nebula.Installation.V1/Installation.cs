@@ -6570,6 +6570,7 @@ namespace Saltoapis.Nebula.Installation.V1 {
     private int delayHours_;
     /// <summary>
     /// The number of hours to wait before permanently deleting the installation.
+    /// If unset, the default is 720 (30 days).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
