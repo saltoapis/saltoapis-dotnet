@@ -10,6 +10,7 @@ It also contains a list of Bazel packages defined in the project.
 
 # used versions
 API_LINTER_SHA="3615a346efc678a6110bdbd0b770f2d33adaaea6"
+BAZEL_VERSION="4.0.0"
 BUF_VERSION="1.48.0"
 GITHUB_CLI_VERSION="2.57.0"
 GOLANG_VERSION="1.23.4"
