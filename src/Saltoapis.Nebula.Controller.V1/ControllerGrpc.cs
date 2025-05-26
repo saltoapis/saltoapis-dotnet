@@ -93,6 +93,32 @@ namespace Saltoapis.Nebula.Controller.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.GenerateAuthorizationTokenResponse> __Marshaller_salto_nebula_controller_v1_GenerateAuthorizationTokenResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.GenerateAuthorizationTokenResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.GenerateFirmwareDownloadUriRequest> __Marshaller_salto_nebula_controller_v1_GenerateFirmwareDownloadUriRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.GenerateFirmwareDownloadUriRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.CreateControllerRelayRequest> __Marshaller_salto_nebula_controller_v1_CreateControllerRelayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.CreateControllerRelayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.ControllerRelay> __Marshaller_salto_nebula_controller_v1_ControllerRelay = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.ControllerRelay.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysRequest> __Marshaller_salto_nebula_controller_v1_BatchCreateControllerRelaysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysResponse> __Marshaller_salto_nebula_controller_v1_BatchCreateControllerRelaysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.GetControllerRelayRequest> __Marshaller_salto_nebula_controller_v1_GetControllerRelayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.GetControllerRelayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysRequest> __Marshaller_salto_nebula_controller_v1_ListControllerRelaysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysResponse> __Marshaller_salto_nebula_controller_v1_ListControllerRelaysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.UpdateControllerRelayRequest> __Marshaller_salto_nebula_controller_v1_UpdateControllerRelayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.UpdateControllerRelayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysRequest> __Marshaller_salto_nebula_controller_v1_BatchUpdateControllerRelaysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysResponse> __Marshaller_salto_nebula_controller_v1_BatchUpdateControllerRelaysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.DeleteControllerRelayRequest> __Marshaller_salto_nebula_controller_v1_DeleteControllerRelayRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.DeleteControllerRelayRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysRequest> __Marshaller_salto_nebula_controller_v1_BatchDeleteControllerRelaysRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysResponse> __Marshaller_salto_nebula_controller_v1_BatchDeleteControllerRelaysResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.CreateControllerRequest, global::Saltoapis.Nebula.Controller.V1.Controller> __Method_CreateController = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.CreateControllerRequest, global::Saltoapis.Nebula.Controller.V1.Controller>(
@@ -197,6 +223,70 @@ namespace Saltoapis.Nebula.Controller.V1 {
         "GenerateFirmwareDownloadUri",
         __Marshaller_salto_nebula_controller_v1_GenerateFirmwareDownloadUriRequest,
         __Marshaller_salto_longrunning_v1_Operation);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.CreateControllerRelayRequest, global::Saltoapis.Nebula.Controller.V1.ControllerRelay> __Method_CreateControllerRelay = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.CreateControllerRelayRequest, global::Saltoapis.Nebula.Controller.V1.ControllerRelay>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreateControllerRelay",
+        __Marshaller_salto_nebula_controller_v1_CreateControllerRelayRequest,
+        __Marshaller_salto_nebula_controller_v1_ControllerRelay);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysRequest, global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysResponse> __Method_BatchCreateControllerRelays = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysRequest, global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BatchCreateControllerRelays",
+        __Marshaller_salto_nebula_controller_v1_BatchCreateControllerRelaysRequest,
+        __Marshaller_salto_nebula_controller_v1_BatchCreateControllerRelaysResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.GetControllerRelayRequest, global::Saltoapis.Nebula.Controller.V1.ControllerRelay> __Method_GetControllerRelay = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.GetControllerRelayRequest, global::Saltoapis.Nebula.Controller.V1.ControllerRelay>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetControllerRelay",
+        __Marshaller_salto_nebula_controller_v1_GetControllerRelayRequest,
+        __Marshaller_salto_nebula_controller_v1_ControllerRelay);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysRequest, global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysResponse> __Method_ListControllerRelays = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysRequest, global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListControllerRelays",
+        __Marshaller_salto_nebula_controller_v1_ListControllerRelaysRequest,
+        __Marshaller_salto_nebula_controller_v1_ListControllerRelaysResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.UpdateControllerRelayRequest, global::Saltoapis.Nebula.Controller.V1.ControllerRelay> __Method_UpdateControllerRelay = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.UpdateControllerRelayRequest, global::Saltoapis.Nebula.Controller.V1.ControllerRelay>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateControllerRelay",
+        __Marshaller_salto_nebula_controller_v1_UpdateControllerRelayRequest,
+        __Marshaller_salto_nebula_controller_v1_ControllerRelay);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysRequest, global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysResponse> __Method_BatchUpdateControllerRelays = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysRequest, global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BatchUpdateControllerRelays",
+        __Marshaller_salto_nebula_controller_v1_BatchUpdateControllerRelaysRequest,
+        __Marshaller_salto_nebula_controller_v1_BatchUpdateControllerRelaysResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.DeleteControllerRelayRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteControllerRelay = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.DeleteControllerRelayRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteControllerRelay",
+        __Marshaller_salto_nebula_controller_v1_DeleteControllerRelayRequest,
+        __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysRequest, global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysResponse> __Method_BatchDeleteControllerRelays = new grpc::Method<global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysRequest, global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BatchDeleteControllerRelays",
+        __Marshaller_salto_nebula_controller_v1_BatchDeleteControllerRelaysRequest,
+        __Marshaller_salto_nebula_controller_v1_BatchDeleteControllerRelaysResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -1030,6 +1120,458 @@ namespace Saltoapis.Nebula.Controller.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> GenerateFirmwareDownloadUriAsync(global::Saltoapis.Nebula.Controller.V1.GenerateFirmwareDownloadUriRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GenerateFirmwareDownloadUri, null, options, request);
+      }
+      /// <summary>
+      /// Create a controller relay
+      ///
+      /// Creates a new controller relay
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.ControllerRelay CreateControllerRelay(global::Saltoapis.Nebula.Controller.V1.CreateControllerRelayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateControllerRelay(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a controller relay
+      ///
+      /// Creates a new controller relay
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.ControllerRelay CreateControllerRelay(global::Saltoapis.Nebula.Controller.V1.CreateControllerRelayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreateControllerRelay, null, options, request);
+      }
+      /// <summary>
+      /// Create a controller relay
+      ///
+      /// Creates a new controller relay
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.ControllerRelay> CreateControllerRelayAsync(global::Saltoapis.Nebula.Controller.V1.CreateControllerRelayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateControllerRelayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a controller relay
+      ///
+      /// Creates a new controller relay
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.ControllerRelay> CreateControllerRelayAsync(global::Saltoapis.Nebula.Controller.V1.CreateControllerRelayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreateControllerRelay, null, options, request);
+      }
+      /// <summary>
+      /// Create a batch of controller relays
+      ///
+      /// Creates a batch of controller relays. This method allows the creation of multiple
+      /// controller relays in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysResponse BatchCreateControllerRelays(global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchCreateControllerRelays(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a batch of controller relays
+      ///
+      /// Creates a batch of controller relays. This method allows the creation of multiple
+      /// controller relays in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysResponse BatchCreateControllerRelays(global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BatchCreateControllerRelays, null, options, request);
+      }
+      /// <summary>
+      /// Create a batch of controller relays
+      ///
+      /// Creates a batch of controller relays. This method allows the creation of multiple
+      /// controller relays in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysResponse> BatchCreateControllerRelaysAsync(global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchCreateControllerRelaysAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a batch of controller relays
+      ///
+      /// Creates a batch of controller relays. This method allows the creation of multiple
+      /// controller relays in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysResponse> BatchCreateControllerRelaysAsync(global::Saltoapis.Nebula.Controller.V1.BatchCreateControllerRelaysRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BatchCreateControllerRelays, null, options, request);
+      }
+      /// <summary>
+      /// Get a controller relay
+      ///
+      /// Gets an existing controller relay.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.ControllerRelay GetControllerRelay(global::Saltoapis.Nebula.Controller.V1.GetControllerRelayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetControllerRelay(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a controller relay
+      ///
+      /// Gets an existing controller relay.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.ControllerRelay GetControllerRelay(global::Saltoapis.Nebula.Controller.V1.GetControllerRelayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetControllerRelay, null, options, request);
+      }
+      /// <summary>
+      /// Get a controller relay
+      ///
+      /// Gets an existing controller relay.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.ControllerRelay> GetControllerRelayAsync(global::Saltoapis.Nebula.Controller.V1.GetControllerRelayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetControllerRelayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a controller relay
+      ///
+      /// Gets an existing controller relay.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.ControllerRelay> GetControllerRelayAsync(global::Saltoapis.Nebula.Controller.V1.GetControllerRelayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetControllerRelay, null, options, request);
+      }
+      /// <summary>
+      /// List controller relays
+      ///
+      /// Returns a list of controller relays that have been previously created.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysResponse ListControllerRelays(global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListControllerRelays(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List controller relays
+      ///
+      /// Returns a list of controller relays that have been previously created.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysResponse ListControllerRelays(global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListControllerRelays, null, options, request);
+      }
+      /// <summary>
+      /// List controller relays
+      ///
+      /// Returns a list of controller relays that have been previously created.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysResponse> ListControllerRelaysAsync(global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListControllerRelaysAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// List controller relays
+      ///
+      /// Returns a list of controller relays that have been previously created.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysResponse> ListControllerRelaysAsync(global::Saltoapis.Nebula.Controller.V1.ListControllerRelaysRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListControllerRelays, null, options, request);
+      }
+      /// <summary>
+      /// Update a controller relay
+      ///
+      /// Updates an existing controller relay.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.ControllerRelay UpdateControllerRelay(global::Saltoapis.Nebula.Controller.V1.UpdateControllerRelayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateControllerRelay(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update a controller relay
+      ///
+      /// Updates an existing controller relay.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.ControllerRelay UpdateControllerRelay(global::Saltoapis.Nebula.Controller.V1.UpdateControllerRelayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateControllerRelay, null, options, request);
+      }
+      /// <summary>
+      /// Update a controller relay
+      ///
+      /// Updates an existing controller relay.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.ControllerRelay> UpdateControllerRelayAsync(global::Saltoapis.Nebula.Controller.V1.UpdateControllerRelayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateControllerRelayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update a controller relay
+      ///
+      /// Updates an existing controller relay.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.ControllerRelay> UpdateControllerRelayAsync(global::Saltoapis.Nebula.Controller.V1.UpdateControllerRelayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateControllerRelay, null, options, request);
+      }
+      /// <summary>
+      /// Update a batch of controller relays
+      ///
+      /// Updates a batch of controller relays. This method allows updating multiple controller relays in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysResponse BatchUpdateControllerRelays(global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchUpdateControllerRelays(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update a batch of controller relays
+      ///
+      /// Updates a batch of controller relays. This method allows updating multiple controller relays in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysResponse BatchUpdateControllerRelays(global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BatchUpdateControllerRelays, null, options, request);
+      }
+      /// <summary>
+      /// Update a batch of controller relays
+      ///
+      /// Updates a batch of controller relays. This method allows updating multiple controller relays in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysResponse> BatchUpdateControllerRelaysAsync(global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchUpdateControllerRelaysAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Update a batch of controller relays
+      ///
+      /// Updates a batch of controller relays. This method allows updating multiple controller relays in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysResponse> BatchUpdateControllerRelaysAsync(global::Saltoapis.Nebula.Controller.V1.BatchUpdateControllerRelaysRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BatchUpdateControllerRelays, null, options, request);
+      }
+      /// <summary>
+      /// Delete a controller relay
+      ///
+      /// Permanently deletes a controller relay. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteControllerRelay(global::Saltoapis.Nebula.Controller.V1.DeleteControllerRelayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteControllerRelay(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a controller relay
+      ///
+      /// Permanently deletes a controller relay. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty DeleteControllerRelay(global::Saltoapis.Nebula.Controller.V1.DeleteControllerRelayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteControllerRelay, null, options, request);
+      }
+      /// <summary>
+      /// Delete a controller relay
+      ///
+      /// Permanently deletes a controller relay. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteControllerRelayAsync(global::Saltoapis.Nebula.Controller.V1.DeleteControllerRelayRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteControllerRelayAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a controller relay
+      ///
+      /// Permanently deletes a controller relay. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> DeleteControllerRelayAsync(global::Saltoapis.Nebula.Controller.V1.DeleteControllerRelayRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteControllerRelay, null, options, request);
+      }
+      /// <summary>
+      /// Delete a batch of controller relays
+      ///
+      /// Permanently deletes a batch of controller relays. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysResponse BatchDeleteControllerRelays(global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchDeleteControllerRelays(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a batch of controller relays
+      ///
+      /// Permanently deletes a batch of controller relays. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysResponse BatchDeleteControllerRelays(global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BatchDeleteControllerRelays, null, options, request);
+      }
+      /// <summary>
+      /// Delete a batch of controller relays
+      ///
+      /// Permanently deletes a batch of controller relays. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysResponse> BatchDeleteControllerRelaysAsync(global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchDeleteControllerRelaysAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Delete a batch of controller relays
+      ///
+      /// Permanently deletes a batch of controller relays. This cannot be undone.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysResponse> BatchDeleteControllerRelaysAsync(global::Saltoapis.Nebula.Controller.V1.BatchDeleteControllerRelaysRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BatchDeleteControllerRelays, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
