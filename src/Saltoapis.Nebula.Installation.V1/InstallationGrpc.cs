@@ -111,6 +111,10 @@ namespace Saltoapis.Nebula.Installation.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse> __Marshaller_salto_nebula_installation_v1_UpdateCardResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.CreatePaymentAuthorizationRequest> __Marshaller_salto_nebula_installation_v1_CreatePaymentAuthorizationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.CreatePaymentAuthorizationRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.PaymentAuthorization> __Marshaller_salto_nebula_installation_v1_PaymentAuthorization = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.PaymentAuthorization.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListInvoicesRequest> __Marshaller_salto_nebula_installation_v1_ListInvoicesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListInvoicesRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Installation.V1.ListInvoicesResponse> __Marshaller_salto_nebula_installation_v1_ListInvoicesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Installation.V1.ListInvoicesResponse.Parser));
@@ -266,6 +270,14 @@ namespace Saltoapis.Nebula.Installation.V1 {
         "UpdateCard",
         __Marshaller_salto_nebula_installation_v1_UpdateCardRequest,
         __Marshaller_salto_nebula_installation_v1_UpdateCardResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreatePaymentAuthorizationRequest, global::Saltoapis.Nebula.Installation.V1.PaymentAuthorization> __Method_CreatePaymentAuthorization = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.CreatePaymentAuthorizationRequest, global::Saltoapis.Nebula.Installation.V1.PaymentAuthorization>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreatePaymentAuthorization",
+        __Marshaller_salto_nebula_installation_v1_CreatePaymentAuthorizationRequest,
+        __Marshaller_salto_nebula_installation_v1_PaymentAuthorization);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Installation.V1.ListInvoicesRequest, global::Saltoapis.Nebula.Installation.V1.ListInvoicesResponse> __Method_ListInvoices = new grpc::Method<global::Saltoapis.Nebula.Installation.V1.ListInvoicesRequest, global::Saltoapis.Nebula.Installation.V1.ListInvoicesResponse>(
@@ -1371,6 +1383,78 @@ namespace Saltoapis.Nebula.Installation.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.UpdateCardResponse> UpdateCardAsync(global::Saltoapis.Nebula.Installation.V1.UpdateCardRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateCard, null, options, request);
+      }
+      /// <summary>
+      /// Create a payment authorization
+      ///
+      /// Creates a payment authorization for the subscription.
+      /// The payment authorization is a process that allows the customer to
+      /// authorize a payment card for future use. This is done by creating a payment
+      /// authorization request. The result of the request is a payment authorization
+      /// that must be authorized by the client in the client's UI.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.PaymentAuthorization CreatePaymentAuthorization(global::Saltoapis.Nebula.Installation.V1.CreatePaymentAuthorizationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreatePaymentAuthorization(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a payment authorization
+      ///
+      /// Creates a payment authorization for the subscription.
+      /// The payment authorization is a process that allows the customer to
+      /// authorize a payment card for future use. This is done by creating a payment
+      /// authorization request. The result of the request is a payment authorization
+      /// that must be authorized by the client in the client's UI.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Installation.V1.PaymentAuthorization CreatePaymentAuthorization(global::Saltoapis.Nebula.Installation.V1.CreatePaymentAuthorizationRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreatePaymentAuthorization, null, options, request);
+      }
+      /// <summary>
+      /// Create a payment authorization
+      ///
+      /// Creates a payment authorization for the subscription.
+      /// The payment authorization is a process that allows the customer to
+      /// authorize a payment card for future use. This is done by creating a payment
+      /// authorization request. The result of the request is a payment authorization
+      /// that must be authorized by the client in the client's UI.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.PaymentAuthorization> CreatePaymentAuthorizationAsync(global::Saltoapis.Nebula.Installation.V1.CreatePaymentAuthorizationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreatePaymentAuthorizationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a payment authorization
+      ///
+      /// Creates a payment authorization for the subscription.
+      /// The payment authorization is a process that allows the customer to
+      /// authorize a payment card for future use. This is done by creating a payment
+      /// authorization request. The result of the request is a payment authorization
+      /// that must be authorized by the client in the client's UI.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Installation.V1.PaymentAuthorization> CreatePaymentAuthorizationAsync(global::Saltoapis.Nebula.Installation.V1.CreatePaymentAuthorizationRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreatePaymentAuthorization, null, options, request);
       }
       /// <summary>
       /// List invoices
