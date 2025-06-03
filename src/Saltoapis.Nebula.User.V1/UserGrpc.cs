@@ -752,7 +752,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_UnblockUser, null, options, request);
       }
       /// <summary>
-      /// Create an access right
+      /// Create a user access right
       ///
       /// Creates a user's access right association.
       /// </summary>
@@ -767,7 +767,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CreateUserAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Create an access right
+      /// Create a user access right
       ///
       /// Creates a user's access right association.
       /// </summary>
@@ -780,7 +780,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_CreateUserAccessRight, null, options, request);
       }
       /// <summary>
-      /// Create an access right
+      /// Create a user access right
       ///
       /// Creates a user's access right association.
       /// </summary>
@@ -795,7 +795,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CreateUserAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Create an access right
+      /// Create a user access right
       ///
       /// Creates a user's access right association.
       /// </summary>
@@ -808,7 +808,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_CreateUserAccessRight, null, options, request);
       }
       /// <summary>
-      /// Get an access right
+      /// Get a user access right
       ///
       /// Gets an existing user's access right association.
       /// </summary>
@@ -823,7 +823,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return GetUserAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Get an access right
+      /// Get a user access right
       ///
       /// Gets an existing user's access right association.
       /// </summary>
@@ -836,7 +836,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_GetUserAccessRight, null, options, request);
       }
       /// <summary>
-      /// Get an access right
+      /// Get a user access right
       ///
       /// Gets an existing user's access right association.
       /// </summary>
@@ -851,7 +851,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return GetUserAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Get an access right
+      /// Get a user access right
       ///
       /// Gets an existing user's access right association.
       /// </summary>
@@ -864,7 +864,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_GetUserAccessRight, null, options, request);
       }
       /// <summary>
-      /// List access rights
+      /// List user access rights
       ///
       /// Lists an existing user's access right associations.
       /// </summary>
@@ -879,7 +879,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return ListUserAccessRights(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// List access rights
+      /// List user access rights
       ///
       /// Lists an existing user's access right associations.
       /// </summary>
@@ -892,7 +892,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_ListUserAccessRights, null, options, request);
       }
       /// <summary>
-      /// List access rights
+      /// List user access rights
       ///
       /// Lists an existing user's access right associations.
       /// </summary>
@@ -907,7 +907,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return ListUserAccessRightsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// List access rights
+      /// List user access rights
       ///
       /// Lists an existing user's access right associations.
       /// </summary>
@@ -920,7 +920,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_ListUserAccessRights, null, options, request);
       }
       /// <summary>
-      /// Update an access right
+      /// Update a user access right
       ///
       /// Updates an existing user's access right associations.
       /// </summary>
@@ -935,7 +935,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return UpdateUserAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Update an access right
+      /// Update a user access right
       ///
       /// Updates an existing user's access right associations.
       /// </summary>
@@ -948,7 +948,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateUserAccessRight, null, options, request);
       }
       /// <summary>
-      /// Update an access right
+      /// Update a user access right
       ///
       /// Updates an existing user's access right associations.
       /// </summary>
@@ -963,7 +963,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return UpdateUserAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Update an access right
+      /// Update a user access right
       ///
       /// Updates an existing user's access right associations.
       /// </summary>
@@ -976,7 +976,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_UpdateUserAccessRight, null, options, request);
       }
       /// <summary>
-      /// Delete an access right
+      /// Delete a user access right
       ///
       /// Deletes a user's access right association. This cannot be undone.
       /// </summary>
@@ -991,7 +991,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return DeleteUserAccessRight(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Delete an access right
+      /// Delete a user access right
       ///
       /// Deletes a user's access right association. This cannot be undone.
       /// </summary>
@@ -1004,7 +1004,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteUserAccessRight, null, options, request);
       }
       /// <summary>
-      /// Delete an access right
+      /// Delete a user access right
       ///
       /// Deletes a user's access right association. This cannot be undone.
       /// </summary>
@@ -1019,7 +1019,7 @@ namespace Saltoapis.Nebula.User.V1 {
         return DeleteUserAccessRightAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Delete an access right
+      /// Delete a user access right
       ///
       /// Deletes a user's access right association. This cannot be undone.
       /// </summary>
