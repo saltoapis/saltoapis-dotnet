@@ -50,6 +50,7 @@ VALE_VERSION="3.7.1"
 csharp_projects = [
     '//src/Saltoapis.Longrunning.V1',
     '//src/Saltoapis.Nebula.AccessPointGroup.V1',
+    '//src/Saltoapis.Nebula.Destination.V1',
     '//src/Salto.Nebula.EmergencyKey.V1',
     '//src/Saltoapis.Nebula.File.V1',
     '//src/Saltoapis.Nebula.Iam.V1',
