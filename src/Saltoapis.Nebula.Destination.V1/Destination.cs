@@ -32,41 +32,50 @@ namespace Saltoapis.Nebula.Destination.V1 {
             "cmVudBgBIAEoCRIbCg5kZXN0aW5hdGlvbl9pZBgCIAEoCUgAiAEBEj0KC2Rl",
             "c3RpbmF0aW9uGAMgASgLMiguc2FsdG8ubmVidWxhLmRlc3RpbmF0aW9uLnYx",
             "LkRlc3RpbmF0aW9uQhEKD19kZXN0aW5hdGlvbl9pZCIlChVHZXREZXN0aW5h",
-            "dGlvblJlcXVlc3QSDAoEbmFtZRgBIAEoCSKKAQoYVXBkYXRlRGVzdGluYXRp",
-            "b25SZXF1ZXN0Ej0KC2Rlc3RpbmF0aW9uGAEgASgLMiguc2FsdG8ubmVidWxh",
-            "LmRlc3RpbmF0aW9uLnYxLkRlc3RpbmF0aW9uEi8KC3VwZGF0ZV9tYXNrGAIg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayJyChdMaXN0RGVzdGlu",
-            "YXRpb25zUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIg",
-            "ASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9y",
-            "ZGVyX2J5GAUgASgJInMKGExpc3REZXN0aW5hdGlvbnNSZXNwb25zZRI+Cgxk",
-            "ZXN0aW5hdGlvbnMYASADKAsyKC5zYWx0by5uZWJ1bGEuZGVzdGluYXRpb24u",
-            "djEuRGVzdGluYXRpb24SFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIigKGERl",
-            "bGV0ZURlc3RpbmF0aW9uUmVxdWVzdBIMCgRuYW1lGAEgASgJMtUEChJEZXN0",
-            "aW5hdGlvblNlcnZpY2USdAoRQ3JlYXRlRGVzdGluYXRpb24SNS5zYWx0by5u",
-            "ZWJ1bGEuZGVzdGluYXRpb24udjEuQ3JlYXRlRGVzdGluYXRpb25SZXF1ZXN0",
-            "Giguc2FsdG8ubmVidWxhLmRlc3RpbmF0aW9uLnYxLkRlc3RpbmF0aW9uEm4K",
-            "DkdldERlc3RpbmF0aW9uEjIuc2FsdG8ubmVidWxhLmRlc3RpbmF0aW9uLnYx",
-            "LkdldERlc3RpbmF0aW9uUmVxdWVzdBooLnNhbHRvLm5lYnVsYS5kZXN0aW5h",
-            "dGlvbi52MS5EZXN0aW5hdGlvbhJ0ChFVcGRhdGVEZXN0aW5hdGlvbhI1LnNh",
-            "bHRvLm5lYnVsYS5kZXN0aW5hdGlvbi52MS5VcGRhdGVEZXN0aW5hdGlvblJl",
-            "cXVlc3QaKC5zYWx0by5uZWJ1bGEuZGVzdGluYXRpb24udjEuRGVzdGluYXRp",
-            "b24SfwoQTGlzdERlc3RpbmF0aW9ucxI0LnNhbHRvLm5lYnVsYS5kZXN0aW5h",
-            "dGlvbi52MS5MaXN0RGVzdGluYXRpb25zUmVxdWVzdBo1LnNhbHRvLm5lYnVs",
-            "YS5kZXN0aW5hdGlvbi52MS5MaXN0RGVzdGluYXRpb25zUmVzcG9uc2USYgoR",
-            "RGVsZXRlRGVzdGluYXRpb24SNS5zYWx0by5uZWJ1bGEuZGVzdGluYXRpb24u",
-            "djEuRGVsZXRlRGVzdGluYXRpb25SZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVm",
-            "LkVtcHR5QvkBCiNjb20uc2FsdG9hcGlzLm5lYnVsYS5kZXN0aW5hdGlvbi52",
-            "MUIQRGVzdGluYXRpb25Qcm90b1ABWkxnaXRodWIuY29tL3NhbHRvYXBpcy1p",
-            "bnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2Rlc3RpbmF0aW9uL3YxO2Rl",
-            "c3RpbmF0aW9uqgIfU2FsdG9hcGlzLk5lYnVsYS5EZXN0aW5hdGlvbi5WMcoC",
-            "H1NhbHRvYXBpc1xOZWJ1bGFcRGVzdGluYXRpb25cVjHiAitHUEJNZXRhZGF0",
-            "YVxTYWx0b2FwaXNcTmVidWxhXERlc3RpbmF0aW9uXFYxYgZwcm90bzM="));
+            "dGlvblJlcXVlc3QSDAoEbmFtZRgBIAEoCSI8ChtCYXRjaEdldERlc3RpbmF0",
+            "aW9uc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEg0KBW5hbWVzGAIgAygJIl4K",
+            "HEJhdGNoR2V0RGVzdGluYXRpb25zUmVzcG9uc2USPgoMZGVzdGluYXRpb25z",
+            "GAEgAygLMiguc2FsdG8ubmVidWxhLmRlc3RpbmF0aW9uLnYxLkRlc3RpbmF0",
+            "aW9uIooBChhVcGRhdGVEZXN0aW5hdGlvblJlcXVlc3QSPQoLZGVzdGluYXRp",
+            "b24YASABKAsyKC5zYWx0by5uZWJ1bGEuZGVzdGluYXRpb24udjEuRGVzdGlu",
+            "YXRpb24SLwoLdXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "RmllbGRNYXNrInIKF0xpc3REZXN0aW5hdGlvbnNSZXF1ZXN0Eg4KBnBhcmVu",
+            "dBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEo",
+            "CRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkicwoYTGlzdERl",
+            "c3RpbmF0aW9uc1Jlc3BvbnNlEj4KDGRlc3RpbmF0aW9ucxgBIAMoCzIoLnNh",
+            "bHRvLm5lYnVsYS5kZXN0aW5hdGlvbi52MS5EZXN0aW5hdGlvbhIXCg9uZXh0",
+            "X3BhZ2VfdG9rZW4YAiABKAkiKAoYRGVsZXRlRGVzdGluYXRpb25SZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAky4wUKEkRlc3RpbmF0aW9uU2VydmljZRJ0ChFDcmVh",
+            "dGVEZXN0aW5hdGlvbhI1LnNhbHRvLm5lYnVsYS5kZXN0aW5hdGlvbi52MS5D",
+            "cmVhdGVEZXN0aW5hdGlvblJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuZGVzdGlu",
+            "YXRpb24udjEuRGVzdGluYXRpb24SbgoOR2V0RGVzdGluYXRpb24SMi5zYWx0",
+            "by5uZWJ1bGEuZGVzdGluYXRpb24udjEuR2V0RGVzdGluYXRpb25SZXF1ZXN0",
+            "Giguc2FsdG8ubmVidWxhLmRlc3RpbmF0aW9uLnYxLkRlc3RpbmF0aW9uEosB",
+            "ChRCYXRjaEdldERlc3RpbmF0aW9ucxI4LnNhbHRvLm5lYnVsYS5kZXN0aW5h",
+            "dGlvbi52MS5CYXRjaEdldERlc3RpbmF0aW9uc1JlcXVlc3QaOS5zYWx0by5u",
+            "ZWJ1bGEuZGVzdGluYXRpb24udjEuQmF0Y2hHZXREZXN0aW5hdGlvbnNSZXNw",
+            "b25zZRJ0ChFVcGRhdGVEZXN0aW5hdGlvbhI1LnNhbHRvLm5lYnVsYS5kZXN0",
+            "aW5hdGlvbi52MS5VcGRhdGVEZXN0aW5hdGlvblJlcXVlc3QaKC5zYWx0by5u",
+            "ZWJ1bGEuZGVzdGluYXRpb24udjEuRGVzdGluYXRpb24SfwoQTGlzdERlc3Rp",
+            "bmF0aW9ucxI0LnNhbHRvLm5lYnVsYS5kZXN0aW5hdGlvbi52MS5MaXN0RGVz",
+            "dGluYXRpb25zUmVxdWVzdBo1LnNhbHRvLm5lYnVsYS5kZXN0aW5hdGlvbi52",
+            "MS5MaXN0RGVzdGluYXRpb25zUmVzcG9uc2USYgoRRGVsZXRlRGVzdGluYXRp",
+            "b24SNS5zYWx0by5uZWJ1bGEuZGVzdGluYXRpb24udjEuRGVsZXRlRGVzdGlu",
+            "YXRpb25SZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5QvkBCiNjb20u",
+            "c2FsdG9hcGlzLm5lYnVsYS5kZXN0aW5hdGlvbi52MUIQRGVzdGluYXRpb25Q",
+            "cm90b1ABWkxnaXRodWIuY29tL3NhbHRvYXBpcy1pbnRlcm5hbC9zYWx0b2Fw",
+            "aXMtZ28vbmVidWxhL2Rlc3RpbmF0aW9uL3YxO2Rlc3RpbmF0aW9uqgIfU2Fs",
+            "dG9hcGlzLk5lYnVsYS5EZXN0aW5hdGlvbi5WMcoCH1NhbHRvYXBpc1xOZWJ1",
+            "bGFcRGVzdGluYXRpb25cVjHiAitHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVi",
+            "dWxhXERlc3RpbmF0aW9uXFYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Destination.V1.Destination), global::Saltoapis.Nebula.Destination.V1.Destination.Parser, new[]{ "Name", "DisplayName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Destination.V1.CreateDestinationRequest), global::Saltoapis.Nebula.Destination.V1.CreateDestinationRequest.Parser, new[]{ "Parent", "DestinationId", "Destination" }, new[]{ "DestinationId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Destination.V1.GetDestinationRequest), global::Saltoapis.Nebula.Destination.V1.GetDestinationRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest), global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest.Parser, new[]{ "Parent", "Names" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse), global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse.Parser, new[]{ "Destinations" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Destination.V1.UpdateDestinationRequest), global::Saltoapis.Nebula.Destination.V1.UpdateDestinationRequest.Parser, new[]{ "Destination", "UpdateMask" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Destination.V1.ListDestinationsRequest), global::Saltoapis.Nebula.Destination.V1.ListDestinationsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Destination.V1.ListDestinationsResponse), global::Saltoapis.Nebula.Destination.V1.ListDestinationsResponse.Parser, new[]{ "Destinations", "NextPageToken" }, null, null, null, null),
@@ -839,6 +848,433 @@ namespace Saltoapis.Nebula.Destination.V1 {
   }
 
   /// <summary>
+  /// The request message for [`BatchGetDestinationsRequest`][salto.nebula.destination.v1.DestinationService.BatchGetDestinations]
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BatchGetDestinationsRequest : pb::IMessage<BatchGetDestinationsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BatchGetDestinationsRequest> _parser = new pb::MessageParser<BatchGetDestinationsRequest>(() => new BatchGetDestinationsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BatchGetDestinationsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchGetDestinationsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchGetDestinationsRequest(BatchGetDestinationsRequest other) : this() {
+      parent_ = other.parent_;
+      names_ = other.names_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchGetDestinationsRequest Clone() {
+      return new BatchGetDestinationsRequest(this);
+    }
+
+    /// <summary>Field number for the "parent" field.</summary>
+    public const int ParentFieldNumber = 1;
+    private string parent_ = "";
+    /// <summary>
+    /// Resource name of the parent of the destinations to be retreived.
+    /// For example: `installations/surelock-homes-hq`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Parent {
+      get { return parent_; }
+      set {
+        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "names" field.</summary>
+    public const int NamesFieldNumber = 2;
+    private static readonly pb::FieldCodec<string> _repeated_names_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> names_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// The names of the destinations requested.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Names {
+      get { return names_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BatchGetDestinationsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BatchGetDestinationsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Parent != other.Parent) return false;
+      if(!names_.Equals(other.names_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
+      hash ^= names_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      names_.WriteTo(output, _repeated_names_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      names_.WriteTo(ref output, _repeated_names_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Parent.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
+      }
+      size += names_.CalculateSize(_repeated_names_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BatchGetDestinationsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Parent.Length != 0) {
+        Parent = other.Parent;
+      }
+      names_.Add(other.names_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            names_.AddEntriesFrom(input, _repeated_names_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            names_.AddEntriesFrom(ref input, _repeated_names_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`BatchGetDestinations`][salto.nebula.destination.v1.DestinationService.BatchGetDestinations]
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BatchGetDestinationsResponse : pb::IMessage<BatchGetDestinationsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BatchGetDestinationsResponse> _parser = new pb::MessageParser<BatchGetDestinationsResponse>(() => new BatchGetDestinationsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BatchGetDestinationsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchGetDestinationsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchGetDestinationsResponse(BatchGetDestinationsResponse other) : this() {
+      destinations_ = other.destinations_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchGetDestinationsResponse Clone() {
+      return new BatchGetDestinationsResponse(this);
+    }
+
+    /// <summary>Field number for the "destinations" field.</summary>
+    public const int DestinationsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.Destination.V1.Destination> _repeated_destinations_codec
+        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.Destination.V1.Destination.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.Destination.V1.Destination> destinations_ = new pbc::RepeatedField<global::Saltoapis.Nebula.Destination.V1.Destination>();
+    /// <summary>
+    /// Destinations requested.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Saltoapis.Nebula.Destination.V1.Destination> Destinations {
+      get { return destinations_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BatchGetDestinationsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BatchGetDestinationsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!destinations_.Equals(other.destinations_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= destinations_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      destinations_.WriteTo(output, _repeated_destinations_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      destinations_.WriteTo(ref output, _repeated_destinations_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += destinations_.CalculateSize(_repeated_destinations_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BatchGetDestinationsResponse other) {
+      if (other == null) {
+        return;
+      }
+      destinations_.Add(other.destinations_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            destinations_.AddEntriesFrom(input, _repeated_destinations_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            destinations_.AddEntriesFrom(ref input, _repeated_destinations_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The request message for [`UpdateDestination`][salto.nebula.destination.v1.DestinationService.UpdateDestination]
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
@@ -856,7 +1292,7 @@ namespace Saltoapis.Nebula.Destination.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1118,7 +1554,7 @@ namespace Saltoapis.Nebula.Destination.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1483,7 +1919,7 @@ namespace Saltoapis.Nebula.Destination.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1719,7 +2155,7 @@ namespace Saltoapis.Nebula.Destination.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Saltoapis.Nebula.Destination.V1.DestinationReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
