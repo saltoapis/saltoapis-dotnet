@@ -59,6 +59,10 @@ namespace Saltoapis.Nebula.Destination.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Destination.V1.GetDestinationRequest> __Marshaller_salto_nebula_destination_v1_GetDestinationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Destination.V1.GetDestinationRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest> __Marshaller_salto_nebula_destination_v1_BatchGetDestinationsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse> __Marshaller_salto_nebula_destination_v1_BatchGetDestinationsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Destination.V1.UpdateDestinationRequest> __Marshaller_salto_nebula_destination_v1_UpdateDestinationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Destination.V1.UpdateDestinationRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Destination.V1.ListDestinationsRequest> __Marshaller_salto_nebula_destination_v1_ListDestinationsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Destination.V1.ListDestinationsRequest.Parser));
@@ -84,6 +88,14 @@ namespace Saltoapis.Nebula.Destination.V1 {
         "GetDestination",
         __Marshaller_salto_nebula_destination_v1_GetDestinationRequest,
         __Marshaller_salto_nebula_destination_v1_Destination);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest, global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse> __Method_BatchGetDestinations = new grpc::Method<global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest, global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BatchGetDestinations",
+        __Marshaller_salto_nebula_destination_v1_BatchGetDestinationsRequest,
+        __Marshaller_salto_nebula_destination_v1_BatchGetDestinationsResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Destination.V1.UpdateDestinationRequest, global::Saltoapis.Nebula.Destination.V1.Destination> __Method_UpdateDestination = new grpc::Method<global::Saltoapis.Nebula.Destination.V1.UpdateDestinationRequest, global::Saltoapis.Nebula.Destination.V1.Destination>(
@@ -253,6 +265,62 @@ namespace Saltoapis.Nebula.Destination.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Destination.V1.Destination> GetDestinationAsync(global::Saltoapis.Nebula.Destination.V1.GetDestinationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetDestination, null, options, request);
+      }
+      /// <summary>
+      /// Get a batch of destinations
+      ///
+      /// Retrieves a batch of existing destinations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse BatchGetDestinations(global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchGetDestinations(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a batch of destinations
+      ///
+      /// Retrieves a batch of existing destinations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse BatchGetDestinations(global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BatchGetDestinations, null, options, request);
+      }
+      /// <summary>
+      /// Get a batch of destinations
+      ///
+      /// Retrieves a batch of existing destinations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse> BatchGetDestinationsAsync(global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchGetDestinationsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a batch of destinations
+      ///
+      /// Retrieves a batch of existing destinations.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsResponse> BatchGetDestinationsAsync(global::Saltoapis.Nebula.Destination.V1.BatchGetDestinationsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BatchGetDestinations, null, options, request);
       }
       /// <summary>
       /// Update an existing destination
