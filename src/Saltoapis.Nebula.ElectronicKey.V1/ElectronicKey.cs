@@ -32,7 +32,7 @@ namespace Saltoapis.Nebula.ElectronicKey.V1 {
             "ItEBCg1FbGVjdHJvbmljS2V5EgwKBG5hbWUYASABKAkSFAoMZGlzcGxheV9u",
             "YW1lGAIgASgJEhMKC2luaXRpYWxpemVkGAMgASgIEhYKCWRldmljZV9pZBgE",
             "IAEoCUgAiAEBEhAKCG91dGRhdGVkGAUgASgIEjoKD2RldmljZV9tZXRhZGF0",
-            "YRgIIAEoCzIhLnNhbHRvLm5lYnVsYS50eXBlLkRldmljZU1ldGFkYXRhEhMK",
+            "YRgGIAEoCzIhLnNhbHRvLm5lYnVsYS50eXBlLkRldmljZU1ldGFkYXRhEhMK",
             "C2xvd19iYXR0ZXJ5GAcgASgIQgwKCl9kZXZpY2VfaWQiqAEKGkNyZWF0ZUVs",
             "ZWN0cm9uaWNLZXlSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIeChFlbGVjdHJv",
             "bmljX2tleV9pZBgCIAEoCUgAiAEBEkQKDmVsZWN0cm9uaWNfa2V5GAMgASgL",
@@ -298,7 +298,7 @@ namespace Saltoapis.Nebula.ElectronicKey.V1 {
     }
 
     /// <summary>Field number for the "device_metadata" field.</summary>
-    public const int DeviceMetadataFieldNumber = 8;
+    public const int DeviceMetadataFieldNumber = 6;
     private global::Saltoapis.Nebula.Type.DeviceMetadata deviceMetadata_;
     /// <summary>
     /// Device metadata contains information about a device hardware and firmware.
@@ -402,13 +402,13 @@ namespace Saltoapis.Nebula.ElectronicKey.V1 {
         output.WriteRawTag(40);
         output.WriteBool(Outdated);
       }
+      if (deviceMetadata_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(DeviceMetadata);
+      }
       if (LowBattery != false) {
         output.WriteRawTag(56);
         output.WriteBool(LowBattery);
-      }
-      if (deviceMetadata_ != null) {
-        output.WriteRawTag(66);
-        output.WriteMessage(DeviceMetadata);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -440,13 +440,13 @@ namespace Saltoapis.Nebula.ElectronicKey.V1 {
         output.WriteRawTag(40);
         output.WriteBool(Outdated);
       }
+      if (deviceMetadata_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(DeviceMetadata);
+      }
       if (LowBattery != false) {
         output.WriteRawTag(56);
         output.WriteBool(LowBattery);
-      }
-      if (deviceMetadata_ != null) {
-        output.WriteRawTag(66);
-        output.WriteMessage(DeviceMetadata);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -554,15 +554,15 @@ namespace Saltoapis.Nebula.ElectronicKey.V1 {
             Outdated = input.ReadBool();
             break;
           }
-          case 56: {
-            LowBattery = input.ReadBool();
-            break;
-          }
-          case 66: {
+          case 50: {
             if (deviceMetadata_ == null) {
               DeviceMetadata = new global::Saltoapis.Nebula.Type.DeviceMetadata();
             }
             input.ReadMessage(DeviceMetadata);
+            break;
+          }
+          case 56: {
+            LowBattery = input.ReadBool();
             break;
           }
         }
@@ -604,15 +604,15 @@ namespace Saltoapis.Nebula.ElectronicKey.V1 {
             Outdated = input.ReadBool();
             break;
           }
-          case 56: {
-            LowBattery = input.ReadBool();
-            break;
-          }
-          case 66: {
+          case 50: {
             if (deviceMetadata_ == null) {
               DeviceMetadata = new global::Saltoapis.Nebula.Type.DeviceMetadata();
             }
             input.ReadMessage(DeviceMetadata);
+            break;
+          }
+          case 56: {
+            LowBattery = input.ReadBool();
             break;
           }
         }
