@@ -125,6 +125,16 @@ namespace Saltoapis.Nebula.User.V1 {
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest> __Marshaller_salto_nebula_user_v1_CancelPasscodeRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse> __Marshaller_salto_nebula_user_v1_CancelPasscodeResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignElectronicKeyRequest> __Marshaller_salto_nebula_user_v1_AssignElectronicKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignElectronicKeyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.AssignElectronicKeyResponse> __Marshaller_salto_nebula_user_v1_AssignElectronicKeyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.AssignElectronicKeyResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelElectronicKeyRequest> __Marshaller_salto_nebula_user_v1_CancelElectronicKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelElectronicKeyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.CancelElectronicKeyResponse> __Marshaller_salto_nebula_user_v1_CancelElectronicKeyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.CancelElectronicKeyResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.EncodeElectronicKeyRequest> __Marshaller_salto_nebula_user_v1_EncodeElectronicKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.EncodeElectronicKeyRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserRequest, global::Saltoapis.Nebula.User.V1.User> __Method_CreateUser = new grpc::Method<global::Saltoapis.Nebula.User.V1.CreateUserRequest, global::Saltoapis.Nebula.User.V1.User>(
@@ -301,6 +311,30 @@ namespace Saltoapis.Nebula.User.V1 {
         "CancelPasscode",
         __Marshaller_salto_nebula_user_v1_CancelPasscodeRequest,
         __Marshaller_salto_nebula_user_v1_CancelPasscodeResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.AssignElectronicKeyRequest, global::Saltoapis.Nebula.User.V1.AssignElectronicKeyResponse> __Method_AssignElectronicKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.AssignElectronicKeyRequest, global::Saltoapis.Nebula.User.V1.AssignElectronicKeyResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AssignElectronicKey",
+        __Marshaller_salto_nebula_user_v1_AssignElectronicKeyRequest,
+        __Marshaller_salto_nebula_user_v1_AssignElectronicKeyResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.CancelElectronicKeyRequest, global::Saltoapis.Nebula.User.V1.CancelElectronicKeyResponse> __Method_CancelElectronicKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.CancelElectronicKeyRequest, global::Saltoapis.Nebula.User.V1.CancelElectronicKeyResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CancelElectronicKey",
+        __Marshaller_salto_nebula_user_v1_CancelElectronicKeyRequest,
+        __Marshaller_salto_nebula_user_v1_CancelElectronicKeyResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeElectronicKeyRequest, global::Saltoapis.Longrunning.V1.Operation> __Method_EncodeElectronicKey = new grpc::Method<global::Saltoapis.Nebula.User.V1.EncodeElectronicKeyRequest, global::Saltoapis.Longrunning.V1.Operation>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "EncodeElectronicKey",
+        __Marshaller_salto_nebula_user_v1_EncodeElectronicKeyRequest,
+        __Marshaller_salto_longrunning_v1_Operation);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -1598,6 +1632,174 @@ namespace Saltoapis.Nebula.User.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CancelPasscodeResponse> CancelPasscodeAsync(global::Saltoapis.Nebula.User.V1.CancelPasscodeRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CancelPasscode, null, options, request);
+      }
+      /// <summary>
+      /// Assign an electronic key
+      ///
+      /// Assigns an electronic key to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.AssignElectronicKeyResponse AssignElectronicKey(global::Saltoapis.Nebula.User.V1.AssignElectronicKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AssignElectronicKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Assign an electronic key
+      ///
+      /// Assigns an electronic key to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.AssignElectronicKeyResponse AssignElectronicKey(global::Saltoapis.Nebula.User.V1.AssignElectronicKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AssignElectronicKey, null, options, request);
+      }
+      /// <summary>
+      /// Assign an electronic key
+      ///
+      /// Assigns an electronic key to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AssignElectronicKeyResponse> AssignElectronicKeyAsync(global::Saltoapis.Nebula.User.V1.AssignElectronicKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AssignElectronicKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Assign an electronic key
+      ///
+      /// Assigns an electronic key to an existing user.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.AssignElectronicKeyResponse> AssignElectronicKeyAsync(global::Saltoapis.Nebula.User.V1.AssignElectronicKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AssignElectronicKey, null, options, request);
+      }
+      /// <summary>
+      /// Cancel an electronic key
+      ///
+      /// Cancels an existing user's electronic key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.CancelElectronicKeyResponse CancelElectronicKey(global::Saltoapis.Nebula.User.V1.CancelElectronicKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelElectronicKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Cancel an electronic key
+      ///
+      /// Cancels an existing user's electronic key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.CancelElectronicKeyResponse CancelElectronicKey(global::Saltoapis.Nebula.User.V1.CancelElectronicKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CancelElectronicKey, null, options, request);
+      }
+      /// <summary>
+      /// Cancel an electronic key
+      ///
+      /// Cancels an existing user's electronic key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CancelElectronicKeyResponse> CancelElectronicKeyAsync(global::Saltoapis.Nebula.User.V1.CancelElectronicKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CancelElectronicKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Cancel an electronic key
+      ///
+      /// Cancels an existing user's electronic key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.CancelElectronicKeyResponse> CancelElectronicKeyAsync(global::Saltoapis.Nebula.User.V1.CancelElectronicKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CancelElectronicKey, null, options, request);
+      }
+      /// <summary>
+      /// Encode an electronic key
+      ///
+      /// Encodes an existing user's electronic key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation EncodeElectronicKey(global::Saltoapis.Nebula.User.V1.EncodeElectronicKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return EncodeElectronicKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Encode an electronic key
+      ///
+      /// Encodes an existing user's electronic key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Longrunning.V1.Operation EncodeElectronicKey(global::Saltoapis.Nebula.User.V1.EncodeElectronicKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_EncodeElectronicKey, null, options, request);
+      }
+      /// <summary>
+      /// Encode an electronic key
+      ///
+      /// Encodes an existing user's electronic key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> EncodeElectronicKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeElectronicKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return EncodeElectronicKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Encode an electronic key
+      ///
+      /// Encodes an existing user's electronic key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Longrunning.V1.Operation> EncodeElectronicKeyAsync(global::Saltoapis.Nebula.User.V1.EncodeElectronicKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_EncodeElectronicKey, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
