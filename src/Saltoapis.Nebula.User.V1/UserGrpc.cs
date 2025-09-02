@@ -1350,6 +1350,11 @@ namespace Saltoapis.Nebula.User.V1 {
       ///
       /// Compute an existing user's app key data. Data contains encoded access
       /// rights of the user.
+      ///
+      /// Note: There might be a delay for the key data to be updated after a user
+      /// is created or their access rights are modified. It is recommended to wait
+      /// for a moment (at least 60 seconds, for example) before calling this method to
+      /// ensure the returned data is up-to-date.
       /// (-- api-linter: core::0136::http-name-variable=disabled --)
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -1367,6 +1372,11 @@ namespace Saltoapis.Nebula.User.V1 {
       ///
       /// Compute an existing user's app key data. Data contains encoded access
       /// rights of the user.
+      ///
+      /// Note: There might be a delay for the key data to be updated after a user
+      /// is created or their access rights are modified. It is recommended to wait
+      /// for a moment (at least 60 seconds, for example) before calling this method to
+      /// ensure the returned data is up-to-date.
       /// (-- api-linter: core::0136::http-name-variable=disabled --)
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -1382,6 +1392,11 @@ namespace Saltoapis.Nebula.User.V1 {
       ///
       /// Compute an existing user's app key data. Data contains encoded access
       /// rights of the user.
+      ///
+      /// Note: There might be a delay for the key data to be updated after a user
+      /// is created or their access rights are modified. It is recommended to wait
+      /// for a moment (at least 60 seconds, for example) before calling this method to
+      /// ensure the returned data is up-to-date.
       /// (-- api-linter: core::0136::http-name-variable=disabled --)
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -1399,6 +1414,11 @@ namespace Saltoapis.Nebula.User.V1 {
       ///
       /// Compute an existing user's app key data. Data contains encoded access
       /// rights of the user.
+      ///
+      /// Note: There might be a delay for the key data to be updated after a user
+      /// is created or their access rights are modified. It is recommended to wait
+      /// for a moment (at least 60 seconds, for example) before calling this method to
+      /// ensure the returned data is up-to-date.
       /// (-- api-linter: core::0136::http-name-variable=disabled --)
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
