@@ -29,60 +29,62 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             "b2J1Zi9kdXJhdGlvbi5wcm90bxobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnBy",
             "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxokc2FsdG8v",
             "bG9uZ3J1bm5pbmcvdjEvb3BlcmF0aW9uLnByb3RvGiRzYWx0by9uZWJ1bGEv",
-            "dHlwZS9vcGVuaW5nX21vZGUucHJvdG8ivgIKC0FjY2Vzc1BvaW50EgwKBG5h",
+            "dHlwZS9vcGVuaW5nX21vZGUucHJvdG8ilQMKC0FjY2Vzc1BvaW50EgwKBG5h",
             "bWUYASABKAkSFAoMZGlzcGxheV9uYW1lGAIgASgJEi8KBWZpeGVkGAMgASgO",
             "Mh4uc2FsdG8ubmVidWxhLnR5cGUuT3BlbmluZ01vZGVIABISCghzY2hlZHVs",
-            "ZRgEIAEoCUgAEhUKCGNhbGVuZGFyGAUgASgJSAGIAQESHQoQY2FyZF9rZXlf",
-            "dXBkYXRlchgGIAEoCEgCiAEBEjcKD3VubG9ja19kdXJhdGlvbhgHIAEoCzIZ",
-            "Lmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkgDiAEBEhEKCWxlZnRfb3BlbhgI",
-            "IAEoCEIOCgxvcGVuaW5nX21vZGVCCwoJX2NhbGVuZGFyQhMKEV9jYXJkX2tl",
-            "eV91cGRhdGVyQhIKEF91bmxvY2tfZHVyYXRpb24inAEKGENyZWF0ZUFjY2Vz",
-            "c1BvaW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSHAoPYWNjZXNzX3BvaW50",
-            "X2lkGAIgASgJSACIAQESPgoMYWNjZXNzX3BvaW50GAMgASgLMiguc2FsdG8u",
-            "bmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50QhIKEF9hY2Nlc3Nf",
-            "cG9pbnRfaWQiJQoVR2V0QWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASAB",
-            "KAkicgoXTGlzdEFjY2Vzc1BvaW50c1JlcXVlc3QSDgoGcGFyZW50GAEgASgJ",
-            "EhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZp",
-            "bHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSKIAQoYTGlzdEFjY2Vzc1Bv",
-            "aW50c1Jlc3BvbnNlEj8KDWFjY2Vzc19wb2ludHMYASADKAsyKC5zYWx0by5u",
-            "ZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSFwoPbmV4dF9wYWdl",
-            "X3Rva2VuGAIgASgJEhIKCnRvdGFsX3NpemUYAyABKAUiiwEKGFVwZGF0ZUFj",
-            "Y2Vzc1BvaW50UmVxdWVzdBI+CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0",
-            "by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSLwoLdXBkYXRl",
-            "X21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIigKGERl",
-            "bGV0ZUFjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEgASgJIigKGFVubG9j",
-            "a0FjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEgASgJIhsKGVVubG9ja0Fj",
-            "Y2Vzc1BvaW50UmVzcG9uc2UiGwoZVW5sb2NrQWNjZXNzUG9pbnRNZXRhZGF0",
-            "YSImChZMb2NrQWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkiGQoX",
-            "TG9ja0FjY2Vzc1BvaW50UmVzcG9uc2UiGQoXTG9ja0FjY2Vzc1BvaW50TWV0",
-            "YWRhdGEyqwYKEkFjY2Vzc1BvaW50U2VydmljZRJ0ChFDcmVhdGVBY2Nlc3NQ",
-            "b2ludBI1LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5DcmVhdGVBY2Nl",
-            "c3NQb2ludFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEu",
-            "QWNjZXNzUG9pbnQSbgoOR2V0QWNjZXNzUG9pbnQSMi5zYWx0by5uZWJ1bGEu",
-            "YWNjZXNzcG9pbnQudjEuR2V0QWNjZXNzUG9pbnRSZXF1ZXN0Giguc2FsdG8u",
-            "bmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50En8KEExpc3RBY2Nl",
-            "c3NQb2ludHMSNC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuTGlzdEFj",
-            "Y2Vzc1BvaW50c1JlcXVlc3QaNS5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQu",
-            "djEuTGlzdEFjY2Vzc1BvaW50c1Jlc3BvbnNlEnQKEVVwZGF0ZUFjY2Vzc1Bv",
-            "aW50EjUuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLlVwZGF0ZUFjY2Vz",
-            "c1BvaW50UmVxdWVzdBooLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5B",
-            "Y2Nlc3NQb2ludBJiChFEZWxldGVBY2Nlc3NQb2ludBI1LnNhbHRvLm5lYnVs",
-            "YS5hY2Nlc3Nwb2ludC52MS5EZWxldGVBY2Nlc3NQb2ludFJlcXVlc3QaFi5n",
-            "b29nbGUucHJvdG9idWYuRW1wdHkSawoRVW5sb2NrQWNjZXNzUG9pbnQSNS5z",
-            "YWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuVW5sb2NrQWNjZXNzUG9pbnRS",
-            "ZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEmcKD0xv",
-            "Y2tBY2Nlc3NQb2ludBIzLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5M",
-            "b2NrQWNjZXNzUG9pbnRSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEu",
-            "T3BlcmF0aW9uQvkBCiNjb20uc2FsdG9hcGlzLm5lYnVsYS5hY2Nlc3Nwb2lu",
-            "dC52MUIQQWNjZXNzUG9pbnRQcm90b1ABWkxnaXRodWIuY29tL3NhbHRvYXBp",
-            "cy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2FjY2Vzc3BvaW50L3Yx",
-            "O2FjY2Vzc3BvaW50qgIfU2FsdG9hcGlzLk5lYnVsYS5BY2Nlc3NQb2ludC5W",
-            "McoCH1NhbHRvYXBpc1xOZWJ1bGFcQWNjZXNzUG9pbnRcVjHiAitHUEJNZXRh",
-            "ZGF0YVxTYWx0b2FwaXNcTmVidWxhXEFjY2Vzc1BvaW50XFYxYgZwcm90bzM="));
+            "ZRgEIAEoCUgAEhUKCGNhbGVuZGFyGAUgASgJSAKIAQESHQoQY2FyZF9rZXlf",
+            "dXBkYXRlchgGIAEoCEgDiAEBEjcKD3VubG9ja19kdXJhdGlvbhgHIAEoCzIZ",
+            "Lmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkgEiAEBEhEKCWxlZnRfb3BlbhgI",
+            "IAEoCBIZCg9lbGVjdHJvbmljX2xvY2sYCSABKAlIARIUCgpjb250cm9sbGVy",
+            "GAogASgJSAESGgoQaW50ZXJjb21fYWRhcHRvchgLIAEoCUgBQg4KDG9wZW5p",
+            "bmdfbW9kZUIICgZzb3VyY2VCCwoJX2NhbGVuZGFyQhMKEV9jYXJkX2tleV91",
+            "cGRhdGVyQhIKEF91bmxvY2tfZHVyYXRpb24inAEKGENyZWF0ZUFjY2Vzc1Bv",
+            "aW50UmVxdWVzdBIOCgZwYXJlbnQYASABKAkSHAoPYWNjZXNzX3BvaW50X2lk",
+            "GAIgASgJSACIAQESPgoMYWNjZXNzX3BvaW50GAMgASgLMiguc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50QhIKEF9hY2Nlc3NfcG9p",
+            "bnRfaWQiJQoVR2V0QWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAki",
+            "cgoXTGlzdEFjY2Vzc1BvaW50c1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEK",
+            "CXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRl",
+            "chgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSKIAQoYTGlzdEFjY2Vzc1BvaW50",
+            "c1Jlc3BvbnNlEj8KDWFjY2Vzc19wb2ludHMYASADKAsyKC5zYWx0by5uZWJ1",
+            "bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSFwoPbmV4dF9wYWdlX3Rv",
+            "a2VuGAIgASgJEhIKCnRvdGFsX3NpemUYAyABKAUiiwEKGFVwZGF0ZUFjY2Vz",
+            "c1BvaW50UmVxdWVzdBI+CgxhY2Nlc3NfcG9pbnQYASABKAsyKC5zYWx0by5u",
+            "ZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSLwoLdXBkYXRlX21h",
+            "c2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIigKGERlbGV0",
+            "ZUFjY2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEgASgJIigKGFVubG9ja0Fj",
+            "Y2Vzc1BvaW50UmVxdWVzdBIMCgRuYW1lGAEgASgJIhsKGVVubG9ja0FjY2Vz",
+            "c1BvaW50UmVzcG9uc2UiGwoZVW5sb2NrQWNjZXNzUG9pbnRNZXRhZGF0YSIm",
+            "ChZMb2NrQWNjZXNzUG9pbnRSZXF1ZXN0EgwKBG5hbWUYASABKAkiGQoXTG9j",
+            "a0FjY2Vzc1BvaW50UmVzcG9uc2UiGQoXTG9ja0FjY2Vzc1BvaW50TWV0YWRh",
+            "dGEyqwYKEkFjY2Vzc1BvaW50U2VydmljZRJ0ChFDcmVhdGVBY2Nlc3NQb2lu",
+            "dBI1LnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5DcmVhdGVBY2Nlc3NQ",
+            "b2ludFJlcXVlc3QaKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNj",
+            "ZXNzUG9pbnQSbgoOR2V0QWNjZXNzUG9pbnQSMi5zYWx0by5uZWJ1bGEuYWNj",
+            "ZXNzcG9pbnQudjEuR2V0QWNjZXNzUG9pbnRSZXF1ZXN0Giguc2FsdG8ubmVi",
+            "dWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50En8KEExpc3RBY2Nlc3NQ",
+            "b2ludHMSNC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuTGlzdEFjY2Vz",
+            "c1BvaW50c1JlcXVlc3QaNS5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEu",
+            "TGlzdEFjY2Vzc1BvaW50c1Jlc3BvbnNlEnQKEVVwZGF0ZUFjY2Vzc1BvaW50",
+            "EjUuc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLlVwZGF0ZUFjY2Vzc1Bv",
+            "aW50UmVxdWVzdBooLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nl",
+            "c3NQb2ludBJiChFEZWxldGVBY2Nlc3NQb2ludBI1LnNhbHRvLm5lYnVsYS5h",
+            "Y2Nlc3Nwb2ludC52MS5EZWxldGVBY2Nlc3NQb2ludFJlcXVlc3QaFi5nb29n",
+            "bGUucHJvdG9idWYuRW1wdHkSawoRVW5sb2NrQWNjZXNzUG9pbnQSNS5zYWx0",
+            "by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEuVW5sb2NrQWNjZXNzUG9pbnRSZXF1",
+            "ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEmcKD0xvY2tB",
+            "Y2Nlc3NQb2ludBIzLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5Mb2Nr",
+            "QWNjZXNzUG9pbnRSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3Bl",
+            "cmF0aW9uQvkBCiNjb20uc2FsdG9hcGlzLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
+            "MUIQQWNjZXNzUG9pbnRQcm90b1ABWkxnaXRodWIuY29tL3NhbHRvYXBpcy1p",
+            "bnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2FjY2Vzc3BvaW50L3YxO2Fj",
+            "Y2Vzc3BvaW50qgIfU2FsdG9hcGlzLk5lYnVsYS5BY2Nlc3NQb2ludC5WMcoC",
+            "H1NhbHRvYXBpc1xOZWJ1bGFcQWNjZXNzUG9pbnRcVjHiAitHUEJNZXRhZGF0",
+            "YVxTYWx0b2FwaXNcTmVidWxhXEFjY2Vzc1BvaW50XFYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, global::Saltoapis.Nebula.Type.OpeningModeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint), global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser, new[]{ "Name", "DisplayName", "Fixed", "Schedule", "Calendar", "CardKeyUpdater", "UnlockDuration", "LeftOpen" }, new[]{ "OpeningMode", "Calendar", "CardKeyUpdater", "UnlockDuration" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint), global::Saltoapis.Nebula.AccessPoint.V1.AccessPoint.Parser, new[]{ "Name", "DisplayName", "Fixed", "Schedule", "Calendar", "CardKeyUpdater", "UnlockDuration", "LeftOpen", "ElectronicLock", "Controller", "IntercomAdaptor" }, new[]{ "OpeningMode", "Source", "Calendar", "CardKeyUpdater", "UnlockDuration" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.CreateAccessPointRequest.Parser, new[]{ "Parent", "AccessPointId", "AccessPoint" }, new[]{ "AccessPointId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest), global::Saltoapis.Nebula.AccessPoint.V1.GetAccessPointRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest), global::Saltoapis.Nebula.AccessPoint.V1.ListAccessPointsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -153,6 +155,18 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
           break;
         case OpeningModeOneofCase.Schedule:
           Schedule = other.Schedule;
+          break;
+      }
+
+      switch (other.SourceCase) {
+        case SourceOneofCase.ElectronicLock:
+          ElectronicLock = other.ElectronicLock;
+          break;
+        case SourceOneofCase.Controller:
+          Controller = other.Controller;
+          break;
+        case SourceOneofCase.IntercomAdaptor:
+          IntercomAdaptor = other.IntercomAdaptor;
           break;
       }
 
@@ -352,6 +366,93 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
     }
 
+    /// <summary>Field number for the "electronic_lock" field.</summary>
+    public const int ElectronicLockFieldNumber = 9;
+    /// <summary>
+    /// Source name, when source is an electronic lock.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ElectronicLock {
+      get { return HasElectronicLock ? (string) source_ : ""; }
+      set {
+        source_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        sourceCase_ = SourceOneofCase.ElectronicLock;
+      }
+    }
+    /// <summary>Gets whether the "electronic_lock" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasElectronicLock {
+      get { return sourceCase_ == SourceOneofCase.ElectronicLock; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "electronic_lock" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearElectronicLock() {
+      if (HasElectronicLock) {
+        ClearSource();
+      }
+    }
+
+    /// <summary>Field number for the "controller" field.</summary>
+    public const int ControllerFieldNumber = 10;
+    /// <summary>
+    /// Source name, when source is a controller.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Controller {
+      get { return HasController ? (string) source_ : ""; }
+      set {
+        source_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        sourceCase_ = SourceOneofCase.Controller;
+      }
+    }
+    /// <summary>Gets whether the "controller" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasController {
+      get { return sourceCase_ == SourceOneofCase.Controller; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "controller" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearController() {
+      if (HasController) {
+        ClearSource();
+      }
+    }
+
+    /// <summary>Field number for the "intercom_adaptor" field.</summary>
+    public const int IntercomAdaptorFieldNumber = 11;
+    /// <summary>
+    /// Source name, when source is an intercom adaptor.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string IntercomAdaptor {
+      get { return HasIntercomAdaptor ? (string) source_ : ""; }
+      set {
+        source_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        sourceCase_ = SourceOneofCase.IntercomAdaptor;
+      }
+    }
+    /// <summary>Gets whether the "intercom_adaptor" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasIntercomAdaptor {
+      get { return sourceCase_ == SourceOneofCase.IntercomAdaptor; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "intercom_adaptor" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearIntercomAdaptor() {
+      if (HasIntercomAdaptor) {
+        ClearSource();
+      }
+    }
+
     private object openingMode_;
     /// <summary>Enum of possible cases for the "opening_mode" oneof.</summary>
     public enum OpeningModeOneofCase {
@@ -371,6 +472,28 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     public void ClearOpeningMode() {
       openingModeCase_ = OpeningModeOneofCase.None;
       openingMode_ = null;
+    }
+
+    private object source_;
+    /// <summary>Enum of possible cases for the "source" oneof.</summary>
+    public enum SourceOneofCase {
+      None = 0,
+      ElectronicLock = 9,
+      Controller = 10,
+      IntercomAdaptor = 11,
+    }
+    private SourceOneofCase sourceCase_ = SourceOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SourceOneofCase SourceCase {
+      get { return sourceCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSource() {
+      sourceCase_ = SourceOneofCase.None;
+      source_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -396,7 +519,11 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (CardKeyUpdater != other.CardKeyUpdater) return false;
       if (!object.Equals(UnlockDuration, other.UnlockDuration)) return false;
       if (LeftOpen != other.LeftOpen) return false;
+      if (ElectronicLock != other.ElectronicLock) return false;
+      if (Controller != other.Controller) return false;
+      if (IntercomAdaptor != other.IntercomAdaptor) return false;
       if (OpeningModeCase != other.OpeningModeCase) return false;
+      if (SourceCase != other.SourceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -412,7 +539,11 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       if (HasCardKeyUpdater) hash ^= CardKeyUpdater.GetHashCode();
       if (unlockDuration_ != null) hash ^= UnlockDuration.GetHashCode();
       if (LeftOpen != false) hash ^= LeftOpen.GetHashCode();
+      if (HasElectronicLock) hash ^= ElectronicLock.GetHashCode();
+      if (HasController) hash ^= Controller.GetHashCode();
+      if (HasIntercomAdaptor) hash ^= IntercomAdaptor.GetHashCode();
       hash ^= (int) openingModeCase_;
+      hash ^= (int) sourceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -463,6 +594,18 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(64);
         output.WriteBool(LeftOpen);
       }
+      if (HasElectronicLock) {
+        output.WriteRawTag(74);
+        output.WriteString(ElectronicLock);
+      }
+      if (HasController) {
+        output.WriteRawTag(82);
+        output.WriteString(Controller);
+      }
+      if (HasIntercomAdaptor) {
+        output.WriteRawTag(90);
+        output.WriteString(IntercomAdaptor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -505,6 +648,18 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
         output.WriteRawTag(64);
         output.WriteBool(LeftOpen);
       }
+      if (HasElectronicLock) {
+        output.WriteRawTag(74);
+        output.WriteString(ElectronicLock);
+      }
+      if (HasController) {
+        output.WriteRawTag(82);
+        output.WriteString(Controller);
+      }
+      if (HasIntercomAdaptor) {
+        output.WriteRawTag(90);
+        output.WriteString(IntercomAdaptor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -538,6 +693,15 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
       }
       if (LeftOpen != false) {
         size += 1 + 1;
+      }
+      if (HasElectronicLock) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ElectronicLock);
+      }
+      if (HasController) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Controller);
+      }
+      if (HasIntercomAdaptor) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(IntercomAdaptor);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -578,6 +742,18 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
           break;
         case OpeningModeOneofCase.Schedule:
           Schedule = other.Schedule;
+          break;
+      }
+
+      switch (other.SourceCase) {
+        case SourceOneofCase.ElectronicLock:
+          ElectronicLock = other.ElectronicLock;
+          break;
+        case SourceOneofCase.Controller:
+          Controller = other.Controller;
+          break;
+        case SourceOneofCase.IntercomAdaptor:
+          IntercomAdaptor = other.IntercomAdaptor;
           break;
       }
 
@@ -636,6 +812,18 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
             LeftOpen = input.ReadBool();
             break;
           }
+          case 74: {
+            ElectronicLock = input.ReadString();
+            break;
+          }
+          case 82: {
+            Controller = input.ReadString();
+            break;
+          }
+          case 90: {
+            IntercomAdaptor = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -689,6 +877,18 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
           }
           case 64: {
             LeftOpen = input.ReadBool();
+            break;
+          }
+          case 74: {
+            ElectronicLock = input.ReadString();
+            break;
+          }
+          case 82: {
+            Controller = input.ReadString();
+            break;
+          }
+          case 90: {
+            IntercomAdaptor = input.ReadString();
             break;
           }
         }
