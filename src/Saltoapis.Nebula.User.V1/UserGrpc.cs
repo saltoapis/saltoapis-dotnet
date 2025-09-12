@@ -58,6 +58,10 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.GetUserRequest> __Marshaller_salto_nebula_user_v1_GetUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.GetUserRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.BatchGetUsersRequest> __Marshaller_salto_nebula_user_v1_BatchGetUsersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.BatchGetUsersRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.BatchGetUsersResponse> __Marshaller_salto_nebula_user_v1_BatchGetUsersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.BatchGetUsersResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ListUsersRequest> __Marshaller_salto_nebula_user_v1_ListUsersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ListUsersRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.User.V1.ListUsersResponse> __Marshaller_salto_nebula_user_v1_ListUsersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.User.V1.ListUsersResponse.Parser));
@@ -151,6 +155,14 @@ namespace Saltoapis.Nebula.User.V1 {
         "GetUser",
         __Marshaller_salto_nebula_user_v1_GetUserRequest,
         __Marshaller_salto_nebula_user_v1_User);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.BatchGetUsersRequest, global::Saltoapis.Nebula.User.V1.BatchGetUsersResponse> __Method_BatchGetUsers = new grpc::Method<global::Saltoapis.Nebula.User.V1.BatchGetUsersRequest, global::Saltoapis.Nebula.User.V1.BatchGetUsersResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BatchGetUsers",
+        __Marshaller_salto_nebula_user_v1_BatchGetUsersRequest,
+        __Marshaller_salto_nebula_user_v1_BatchGetUsersResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.User.V1.ListUsersRequest, global::Saltoapis.Nebula.User.V1.ListUsersResponse> __Method_ListUsers = new grpc::Method<global::Saltoapis.Nebula.User.V1.ListUsersRequest, global::Saltoapis.Nebula.User.V1.ListUsersResponse>(
@@ -480,6 +492,62 @@ namespace Saltoapis.Nebula.User.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.User> GetUserAsync(global::Saltoapis.Nebula.User.V1.GetUserRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetUser, null, options, request);
+      }
+      /// <summary>
+      /// Get a batch of users
+      ///
+      /// Retrieves a batch of existing users.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.BatchGetUsersResponse BatchGetUsers(global::Saltoapis.Nebula.User.V1.BatchGetUsersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchGetUsers(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a batch of users
+      ///
+      /// Retrieves a batch of existing users.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.User.V1.BatchGetUsersResponse BatchGetUsers(global::Saltoapis.Nebula.User.V1.BatchGetUsersRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BatchGetUsers, null, options, request);
+      }
+      /// <summary>
+      /// Get a batch of users
+      ///
+      /// Retrieves a batch of existing users.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.BatchGetUsersResponse> BatchGetUsersAsync(global::Saltoapis.Nebula.User.V1.BatchGetUsersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchGetUsersAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Get a batch of users
+      ///
+      /// Retrieves a batch of existing users.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.User.V1.BatchGetUsersResponse> BatchGetUsersAsync(global::Saltoapis.Nebula.User.V1.BatchGetUsersRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BatchGetUsers, null, options, request);
       }
       /// <summary>
       /// List users
