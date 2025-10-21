@@ -154,35 +154,41 @@ namespace Saltoapis.Nebula.Event.V1 {
             "BHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEjMKCndh",
             "bGxldF9rZXkYAiABKAsyHy5zYWx0by5uZWJ1bGEudXNlci52MS5XYWxsZXRL",
             "ZXkSLwoFYWN0b3IYAyABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJp",
-            "bmNpcGFsIjcKC1VuaXRNb3ZlZEluEigKBHVuaXQYASABKAsyGi5zYWx0by5u",
-            "ZWJ1bGEudW5pdC52MS5Vbml0IjgKDFVuaXRNb3ZlZE91dBIoCgR1bml0GAEg",
-            "ASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdCI3CgtVbml0Q3JlYXRl",
-            "ZBIoCgR1bml0GAEgASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdCI3",
-            "CgtVbml0VXBkYXRlZBIoCgR1bml0GAEgASgLMhouc2FsdG8ubmVidWxhLnVu",
-            "aXQudjEuVW5pdCI3CgtVbml0RGVsZXRlZBIoCgR1bml0GAEgASgLMhouc2Fs",
-            "dG8ubmVidWxhLnVuaXQudjEuVW5pdCKJAQoTRW1lcmdlbmN5S2V5Q3JlYXRl",
-            "ZBJBCg1lbWVyZ2VuY3lfa2V5GAEgASgLMiouc2FsdG8ubmVidWxhLmVtZXJn",
-            "ZW5jeWtleS52MS5FbWVyZ2VuY3lLZXkSLwoFYWN0b3IYAiABKAsyIC5zYWx0",
-            "by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsIokBChNFbWVyZ2VuY3lLZXlV",
-            "cGRhdGVkEkEKDWVtZXJnZW5jeV9rZXkYASABKAsyKi5zYWx0by5uZWJ1bGEu",
-            "ZW1lcmdlbmN5a2V5LnYxLkVtZXJnZW5jeUtleRIvCgVhY3RvchgCIAEoCzIg",
-            "LnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwiiQEKE0VtZXJnZW5j",
-            "eUtleURlbGV0ZWQSQQoNZW1lcmdlbmN5X2tleRgBIAEoCzIqLnNhbHRvLm5l",
-            "YnVsYS5lbWVyZ2VuY3lrZXkudjEuRW1lcmdlbmN5S2V5Ei8KBWFjdG9yGAIg",
-            "ASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCKvAQoVRWxl",
-            "Y3Ryb25pY0tleUFzc2lnbmVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5Vc2VyEjsKDmVsZWN0cm9uaWNfa2V5GAIgASgLMiMuc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuRWxlY3Ryb25pY0tleRIvCgVhY3RvchgDIAEo",
-            "CzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwirwEKFUVsZWN0",
-            "cm9uaWNLZXlDYW5jZWxlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuVXNlchI7Cg5lbGVjdHJvbmljX2tleRgCIAEoCzIjLnNhbHRv",
-            "Lm5lYnVsYS51c2VyLnYxLkVsZWN0cm9uaWNLZXkSLwoFYWN0b3IYAyABKAsy",
-            "IC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsQs8BCh1jb20uc2Fs",
-            "dG9hcGlzLm5lYnVsYS5ldmVudC52MUIKVHlwZXNQcm90b1ABWkBnaXRodWIu",
-            "Y29tL3NhbHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2V2",
-            "ZW50L3YxO2V2ZW50qgIZU2FsdG9hcGlzLk5lYnVsYS5FdmVudC5WMcoCGVNh",
-            "bHRvYXBpc1xOZWJ1bGFcRXZlbnRcVjHiAiVHUEJNZXRhZGF0YVxTYWx0b2Fw",
-            "aXNcTmVidWxhXEV2ZW50XFYxYgZwcm90bzM="));
+            "bmNpcGFsImgKC1VuaXRNb3ZlZEluEigKBHVuaXQYASABKAsyGi5zYWx0by5u",
+            "ZWJ1bGEudW5pdC52MS5Vbml0Ei8KBWFjdG9yGAIgASgLMiAuc2FsdG8ubmVi",
+            "dWxhLmV2ZW50LnYxLlByaW5jaXBhbCJpCgxVbml0TW92ZWRPdXQSKAoEdW5p",
+            "dBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51bml0LnYxLlVuaXQSLwoFYWN0b3IY",
+            "AiABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsImgKC1Vu",
+            "aXRDcmVhdGVkEigKBHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5pdC52",
+            "MS5Vbml0Ei8KBWFjdG9yGAIgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYx",
+            "LlByaW5jaXBhbCJoCgtVbml0VXBkYXRlZBIoCgR1bml0GAEgASgLMhouc2Fs",
+            "dG8ubmVidWxhLnVuaXQudjEuVW5pdBIvCgVhY3RvchgCIAEoCzIgLnNhbHRv",
+            "Lm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwiaAoLVW5pdERlbGV0ZWQSKAoE",
+            "dW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51bml0LnYxLlVuaXQSLwoFYWN0",
+            "b3IYAiABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsIokB",
+            "ChNFbWVyZ2VuY3lLZXlDcmVhdGVkEkEKDWVtZXJnZW5jeV9rZXkYASABKAsy",
+            "Ki5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5a2V5LnYxLkVtZXJnZW5jeUtleRIv",
+            "CgVhY3RvchgCIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lw",
+            "YWwiiQEKE0VtZXJnZW5jeUtleVVwZGF0ZWQSQQoNZW1lcmdlbmN5X2tleRgB",
+            "IAEoCzIqLnNhbHRvLm5lYnVsYS5lbWVyZ2VuY3lrZXkudjEuRW1lcmdlbmN5",
+            "S2V5Ei8KBWFjdG9yGAIgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlBy",
+            "aW5jaXBhbCKJAQoTRW1lcmdlbmN5S2V5RGVsZXRlZBJBCg1lbWVyZ2VuY3lf",
+            "a2V5GAEgASgLMiouc2FsdG8ubmVidWxhLmVtZXJnZW5jeWtleS52MS5FbWVy",
+            "Z2VuY3lLZXkSLwoFYWN0b3IYAiABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQu",
+            "djEuUHJpbmNpcGFsIq8BChVFbGVjdHJvbmljS2V5QXNzaWduZWQSKAoEdXNl",
+            "chgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISOwoOZWxlY3Ry",
+            "b25pY19rZXkYAiABKAsyIy5zYWx0by5uZWJ1bGEudXNlci52MS5FbGVjdHJv",
+            "bmljS2V5Ei8KBWFjdG9yGAMgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYx",
+            "LlByaW5jaXBhbCKvAQoVRWxlY3Ryb25pY0tleUNhbmNlbGVkEigKBHVzZXIY",
+            "ASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEjsKDmVsZWN0cm9u",
+            "aWNfa2V5GAIgASgLMiMuc2FsdG8ubmVidWxhLnVzZXIudjEuRWxlY3Ryb25p",
+            "Y0tleRIvCgVhY3RvchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5Q",
+            "cmluY2lwYWxCzwEKHWNvbS5zYWx0b2FwaXMubmVidWxhLmV2ZW50LnYxQgpU",
+            "eXBlc1Byb3RvUAFaQGdpdGh1Yi5jb20vc2FsdG9hcGlzLWludGVybmFsL3Nh",
+            "bHRvYXBpcy1nby9uZWJ1bGEvZXZlbnQvdjE7ZXZlbnSqAhlTYWx0b2FwaXMu",
+            "TmVidWxhLkV2ZW50LlYxygIZU2FsdG9hcGlzXE5lYnVsYVxFdmVudFxWMeIC",
+            "JUdQQk1ldGFkYXRhXFNhbHRvYXBpc1xOZWJ1bGFcRXZlbnRcVjFiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Salto.Nebula.EmergencyKey.V1.EmergencyKeyReflection.Descriptor, global::Saltoapis.Nebula.Unit.V1.UnitReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -218,11 +224,11 @@ namespace Saltoapis.Nebula.Event.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AppKeyCanceled), global::Saltoapis.Nebula.Event.V1.AppKeyCanceled.Parser, new[]{ "User", "AppKey", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.WalletKeyAssigned), global::Saltoapis.Nebula.Event.V1.WalletKeyAssigned.Parser, new[]{ "User", "WalletKey", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.WalletKeyCanceled), global::Saltoapis.Nebula.Event.V1.WalletKeyCanceled.Parser, new[]{ "User", "WalletKey", "Actor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitMovedIn), global::Saltoapis.Nebula.Event.V1.UnitMovedIn.Parser, new[]{ "Unit" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitMovedOut), global::Saltoapis.Nebula.Event.V1.UnitMovedOut.Parser, new[]{ "Unit" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitCreated), global::Saltoapis.Nebula.Event.V1.UnitCreated.Parser, new[]{ "Unit" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitUpdated), global::Saltoapis.Nebula.Event.V1.UnitUpdated.Parser, new[]{ "Unit" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitDeleted), global::Saltoapis.Nebula.Event.V1.UnitDeleted.Parser, new[]{ "Unit" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitMovedIn), global::Saltoapis.Nebula.Event.V1.UnitMovedIn.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitMovedOut), global::Saltoapis.Nebula.Event.V1.UnitMovedOut.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitCreated), global::Saltoapis.Nebula.Event.V1.UnitCreated.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitUpdated), global::Saltoapis.Nebula.Event.V1.UnitUpdated.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitDeleted), global::Saltoapis.Nebula.Event.V1.UnitDeleted.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyCreated), global::Saltoapis.Nebula.Event.V1.EmergencyKeyCreated.Parser, new[]{ "EmergencyKey", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated), global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated.Parser, new[]{ "EmergencyKey", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyDeleted), global::Saltoapis.Nebula.Event.V1.EmergencyKeyDeleted.Parser, new[]{ "EmergencyKey", "Actor" }, null, null, null, null),
@@ -10236,6 +10242,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UnitMovedIn(UnitMovedIn other) : this() {
       unit_ = other.unit_ != null ? other.unit_.Clone() : null;
+      actor_ = other.actor_ != null ? other.actor_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -10260,6 +10267,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "actor" field.</summary>
+    public const int ActorFieldNumber = 2;
+    private global::Saltoapis.Nebula.Event.V1.Principal actor_;
+    /// <summary>
+    /// The actor who performed the move in of a unit.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.Principal Actor {
+      get { return actor_; }
+      set {
+        actor_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -10276,6 +10298,7 @@ namespace Saltoapis.Nebula.Event.V1 {
         return true;
       }
       if (!object.Equals(Unit, other.Unit)) return false;
+      if (!object.Equals(Actor, other.Actor)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -10284,6 +10307,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (unit_ != null) hash ^= Unit.GetHashCode();
+      if (actor_ != null) hash ^= Actor.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10306,6 +10330,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10320,6 +10348,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10332,6 +10364,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       int size = 0;
       if (unit_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Unit);
+      }
+      if (actor_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -10350,6 +10385,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
         }
         Unit.MergeFrom(other.Unit);
+      }
+      if (other.actor_ != null) {
+        if (actor_ == null) {
+          Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+        }
+        Actor.MergeFrom(other.Actor);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -10377,6 +10418,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Unit);
             break;
           }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
+            break;
+          }
         }
       }
     #endif
@@ -10401,6 +10449,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
             }
             input.ReadMessage(Unit);
+            break;
+          }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
             break;
           }
         }
@@ -10449,6 +10504,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UnitMovedOut(UnitMovedOut other) : this() {
       unit_ = other.unit_ != null ? other.unit_.Clone() : null;
+      actor_ = other.actor_ != null ? other.actor_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -10473,6 +10529,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "actor" field.</summary>
+    public const int ActorFieldNumber = 2;
+    private global::Saltoapis.Nebula.Event.V1.Principal actor_;
+    /// <summary>
+    /// The actor who performed the move out of a unit.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.Principal Actor {
+      get { return actor_; }
+      set {
+        actor_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -10489,6 +10560,7 @@ namespace Saltoapis.Nebula.Event.V1 {
         return true;
       }
       if (!object.Equals(Unit, other.Unit)) return false;
+      if (!object.Equals(Actor, other.Actor)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -10497,6 +10569,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (unit_ != null) hash ^= Unit.GetHashCode();
+      if (actor_ != null) hash ^= Actor.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10519,6 +10592,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10533,6 +10610,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10545,6 +10626,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       int size = 0;
       if (unit_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Unit);
+      }
+      if (actor_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -10563,6 +10647,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
         }
         Unit.MergeFrom(other.Unit);
+      }
+      if (other.actor_ != null) {
+        if (actor_ == null) {
+          Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+        }
+        Actor.MergeFrom(other.Actor);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -10590,6 +10680,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Unit);
             break;
           }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
+            break;
+          }
         }
       }
     #endif
@@ -10614,6 +10711,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
             }
             input.ReadMessage(Unit);
+            break;
+          }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
             break;
           }
         }
@@ -10662,6 +10766,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UnitCreated(UnitCreated other) : this() {
       unit_ = other.unit_ != null ? other.unit_.Clone() : null;
+      actor_ = other.actor_ != null ? other.actor_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -10686,6 +10791,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "actor" field.</summary>
+    public const int ActorFieldNumber = 2;
+    private global::Saltoapis.Nebula.Event.V1.Principal actor_;
+    /// <summary>
+    /// The actor who created the unit.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.Principal Actor {
+      get { return actor_; }
+      set {
+        actor_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -10702,6 +10822,7 @@ namespace Saltoapis.Nebula.Event.V1 {
         return true;
       }
       if (!object.Equals(Unit, other.Unit)) return false;
+      if (!object.Equals(Actor, other.Actor)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -10710,6 +10831,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (unit_ != null) hash ^= Unit.GetHashCode();
+      if (actor_ != null) hash ^= Actor.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10732,6 +10854,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10746,6 +10872,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10758,6 +10888,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       int size = 0;
       if (unit_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Unit);
+      }
+      if (actor_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -10776,6 +10909,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
         }
         Unit.MergeFrom(other.Unit);
+      }
+      if (other.actor_ != null) {
+        if (actor_ == null) {
+          Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+        }
+        Actor.MergeFrom(other.Actor);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -10803,6 +10942,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Unit);
             break;
           }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
+            break;
+          }
         }
       }
     #endif
@@ -10827,6 +10973,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
             }
             input.ReadMessage(Unit);
+            break;
+          }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
             break;
           }
         }
@@ -10875,6 +11028,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UnitUpdated(UnitUpdated other) : this() {
       unit_ = other.unit_ != null ? other.unit_.Clone() : null;
+      actor_ = other.actor_ != null ? other.actor_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -10899,6 +11053,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "actor" field.</summary>
+    public const int ActorFieldNumber = 2;
+    private global::Saltoapis.Nebula.Event.V1.Principal actor_;
+    /// <summary>
+    /// The actor who updated the unit.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.Principal Actor {
+      get { return actor_; }
+      set {
+        actor_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -10915,6 +11084,7 @@ namespace Saltoapis.Nebula.Event.V1 {
         return true;
       }
       if (!object.Equals(Unit, other.Unit)) return false;
+      if (!object.Equals(Actor, other.Actor)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -10923,6 +11093,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (unit_ != null) hash ^= Unit.GetHashCode();
+      if (actor_ != null) hash ^= Actor.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10945,6 +11116,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10959,6 +11134,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10971,6 +11150,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       int size = 0;
       if (unit_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Unit);
+      }
+      if (actor_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -10989,6 +11171,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
         }
         Unit.MergeFrom(other.Unit);
+      }
+      if (other.actor_ != null) {
+        if (actor_ == null) {
+          Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+        }
+        Actor.MergeFrom(other.Actor);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -11016,6 +11204,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Unit);
             break;
           }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
+            break;
+          }
         }
       }
     #endif
@@ -11040,6 +11235,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
             }
             input.ReadMessage(Unit);
+            break;
+          }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
             break;
           }
         }
@@ -11088,6 +11290,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UnitDeleted(UnitDeleted other) : this() {
       unit_ = other.unit_ != null ? other.unit_.Clone() : null;
+      actor_ = other.actor_ != null ? other.actor_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -11112,6 +11315,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "actor" field.</summary>
+    public const int ActorFieldNumber = 2;
+    private global::Saltoapis.Nebula.Event.V1.Principal actor_;
+    /// <summary>
+    /// The actor who updated the unit.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.Principal Actor {
+      get { return actor_; }
+      set {
+        actor_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -11128,6 +11346,7 @@ namespace Saltoapis.Nebula.Event.V1 {
         return true;
       }
       if (!object.Equals(Unit, other.Unit)) return false;
+      if (!object.Equals(Actor, other.Actor)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -11136,6 +11355,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (unit_ != null) hash ^= Unit.GetHashCode();
+      if (actor_ != null) hash ^= Actor.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -11158,6 +11378,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -11172,6 +11396,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(10);
         output.WriteMessage(Unit);
       }
+      if (actor_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Actor);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -11184,6 +11412,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       int size = 0;
       if (unit_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Unit);
+      }
+      if (actor_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -11202,6 +11433,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
         }
         Unit.MergeFrom(other.Unit);
+      }
+      if (other.actor_ != null) {
+        if (actor_ == null) {
+          Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+        }
+        Actor.MergeFrom(other.Actor);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -11229,6 +11466,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Unit);
             break;
           }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
+            break;
+          }
         }
       }
     #endif
@@ -11253,6 +11497,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Unit = new global::Saltoapis.Nebula.Unit.V1.Unit();
             }
             input.ReadMessage(Unit);
+            break;
+          }
+          case 18: {
+            if (actor_ == null) {
+              Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
+            }
+            input.ReadMessage(Actor);
             break;
           }
         }
