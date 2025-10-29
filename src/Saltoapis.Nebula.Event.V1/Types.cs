@@ -28,6 +28,7 @@ namespace Saltoapis.Nebula.Event.V1 {
             "YnVsYS5ldmVudC52MRocZ29vZ2xlL3Byb3RvYnVmL3N0cnVjdC5wcm90bxou",
             "c2FsdG8vbmVidWxhL2FjY2Vzc3BvaW50L3YxL2FjY2Vzc19wb2ludC5wcm90",
             "bxouc2FsdG8vbmVidWxhL2FjY2Vzc3JpZ2h0L3YxL2FjY2Vzc19yaWdodC5w",
+            "cm90bxorc2FsdG8vbmVidWxhL2NvbnRyb2xsZXIvdjEvY29udHJvbGxlci5w",
             "cm90bxowc2FsdG8vbmVidWxhL2VtZXJnZW5jeWtleS92MS9lbWVyZ2VuY3lf",
             "a2V5LnByb3RvGh9zYWx0by9uZWJ1bGEvdW5pdC92MS91bml0LnByb3RvGh9z",
             "YWx0by9uZWJ1bGEvdXNlci92MS91c2VyLnByb3RvIjUKCVByaW5jaXBhbBIo",
@@ -185,14 +186,23 @@ namespace Saltoapis.Nebula.Event.V1 {
             "chgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISOwoOZWxlY3Ry",
             "b25pY19rZXkYAiABKAsyIy5zYWx0by5uZWJ1bGEudXNlci52MS5FbGVjdHJv",
             "bmljS2V5Ei8KBWFjdG9yGAMgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYx",
-            "LlByaW5jaXBhbELPAQodY29tLnNhbHRvYXBpcy5uZWJ1bGEuZXZlbnQudjFC",
-            "ClR5cGVzUHJvdG9QAVpAZ2l0aHViLmNvbS9zYWx0b2FwaXMtaW50ZXJuYWwv",
-            "c2FsdG9hcGlzLWdvL25lYnVsYS9ldmVudC92MTtldmVudKoCGVNhbHRvYXBp",
-            "cy5OZWJ1bGEuRXZlbnQuVjHKAhlTYWx0b2FwaXNcTmVidWxhXEV2ZW50XFYx",
-            "4gIlR1BCTWV0YWRhdGFcU2FsdG9hcGlzXE5lYnVsYVxFdmVudFxWMWIGcHJv",
-            "dG8z"));
+            "LlByaW5jaXBhbCKjAwoNQWNjZXNzR3JhbnRlZBI8Cgpjb250cm9sbGVyGAEg",
+            "ASgLMiYuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuQ29udHJvbGxlckgA",
+            "EigKBHVzZXIYAiABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEkMK",
+            "DWVtZXJnZW5jeV9rZXkYAyABKAsyKi5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5",
+            "a2V5LnYxLkVtZXJnZW5jeUtleUgBEjEKCGNhcmRfa2V5GAQgASgLMh0uc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleUgBEi8KB2FwcF9rZXkYBSABKAsy",
+            "HC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXlIARI1Cgp3YWxsZXRfa2V5",
+            "GAYgASgLMh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5SAESMgoI",
+            "cGFzc2NvZGUYByABKAsyHi5zYWx0by5uZWJ1bGEudXNlci52MS5QYXNzY29k",
+            "ZUgBQggKBmRldmljZUIMCgpjcmVkZW50aWFsQs8BCh1jb20uc2FsdG9hcGlz",
+            "Lm5lYnVsYS5ldmVudC52MUIKVHlwZXNQcm90b1ABWkBnaXRodWIuY29tL3Nh",
+            "bHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2V2ZW50L3Yx",
+            "O2V2ZW50qgIZU2FsdG9hcGlzLk5lYnVsYS5FdmVudC5WMcoCGVNhbHRvYXBp",
+            "c1xOZWJ1bGFcRXZlbnRcVjHiAiVHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVi",
+            "dWxhXEV2ZW50XFYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Salto.Nebula.EmergencyKey.V1.EmergencyKeyReflection.Descriptor, global::Saltoapis.Nebula.Unit.V1.UnitReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Saltoapis.Nebula.Controller.V1.ControllerReflection.Descriptor, global::Salto.Nebula.EmergencyKey.V1.EmergencyKeyReflection.Descriptor, global::Saltoapis.Nebula.Unit.V1.UnitReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.Principal), global::Saltoapis.Nebula.Event.V1.Principal.Parser, new[]{ "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.PreviousValues), global::Saltoapis.Nebula.Event.V1.PreviousValues.Parser, new[]{ "Values" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.PreviousValues.Types.ValuesEntry), global::Saltoapis.Nebula.Event.V1.PreviousValues.Types.ValuesEntry.Parser, new[]{ "Key", "Value" }, null, null, null, null)}),
@@ -235,7 +245,8 @@ namespace Saltoapis.Nebula.Event.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated), global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated.Parser, new[]{ "EmergencyKey", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyDeleted), global::Saltoapis.Nebula.Event.V1.EmergencyKeyDeleted.Parser, new[]{ "EmergencyKey", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.ElectronicKeyAssigned), global::Saltoapis.Nebula.Event.V1.ElectronicKeyAssigned.Parser, new[]{ "User", "ElectronicKey", "Actor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.ElectronicKeyCanceled), global::Saltoapis.Nebula.Event.V1.ElectronicKeyCanceled.Parser, new[]{ "User", "ElectronicKey", "Actor" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.ElectronicKeyCanceled), global::Saltoapis.Nebula.Event.V1.ElectronicKeyCanceled.Parser, new[]{ "User", "ElectronicKey", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessGranted), global::Saltoapis.Nebula.Event.V1.AccessGranted.Parser, new[]{ "Controller", "User", "EmergencyKey", "CardKey", "AppKey", "WalletKey", "Passcode" }, new[]{ "Device", "Credential" }, null, null, null)
           }));
     }
     #endregion
@@ -12968,6 +12979,628 @@ namespace Saltoapis.Nebula.Event.V1 {
               Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
             }
             input.ReadMessage(Actor);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Event representing access being granted to a user.
+  /// This event indicates that a user's key was successfully validated and
+  /// access permissions were activated.
+  ///
+  /// This event is typically used in scenarios where the device manages
+  /// multiple destinations and cannot determine the user's final action,
+  /// or where it represents a general access grant rather than a
+  /// specific door unlock.
+  ///
+  /// This differs from `AccessPointUnlocked` in that:
+  /// - It can enable multiple relays/destinations simultaneously (for example:
+  ///   elevator buttons for authorized floors).
+  /// - It represents the **granting** of access rights rather than the
+  ///   **physical unlocking** of a specific access point.
+  ///
+  /// Common use cases:
+  /// - Controllers (elevators, multi-door, garages): enabling floor buttons,
+  ///   granting access to multiple doors, or triggering a garage door.
+  /// - Access points (future): could be used for specific access point
+  ///   scenarios that fit this "grant" model.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class AccessGranted : pb::IMessage<AccessGranted>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AccessGranted> _parser = new pb::MessageParser<AccessGranted>(() => new AccessGranted());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AccessGranted> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Event.V1.TypesReflection.Descriptor.MessageTypes[42]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AccessGranted() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AccessGranted(AccessGranted other) : this() {
+      user_ = other.user_ != null ? other.user_.Clone() : null;
+      switch (other.DeviceCase) {
+        case DeviceOneofCase.Controller:
+          Controller = other.Controller.Clone();
+          break;
+      }
+
+      switch (other.CredentialCase) {
+        case CredentialOneofCase.EmergencyKey:
+          EmergencyKey = other.EmergencyKey.Clone();
+          break;
+        case CredentialOneofCase.CardKey:
+          CardKey = other.CardKey.Clone();
+          break;
+        case CredentialOneofCase.AppKey:
+          AppKey = other.AppKey.Clone();
+          break;
+        case CredentialOneofCase.WalletKey:
+          WalletKey = other.WalletKey.Clone();
+          break;
+        case CredentialOneofCase.Passcode:
+          Passcode = other.Passcode.Clone();
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AccessGranted Clone() {
+      return new AccessGranted(this);
+    }
+
+    /// <summary>Field number for the "controller" field.</summary>
+    public const int ControllerFieldNumber = 1;
+    /// <summary>
+    /// The controller that granted access.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Controller.V1.Controller Controller {
+      get { return deviceCase_ == DeviceOneofCase.Controller ? (global::Saltoapis.Nebula.Controller.V1.Controller) device_ : null; }
+      set {
+        device_ = value;
+        deviceCase_ = value == null ? DeviceOneofCase.None : DeviceOneofCase.Controller;
+      }
+    }
+
+    /// <summary>Field number for the "user" field.</summary>
+    public const int UserFieldNumber = 2;
+    private global::Saltoapis.Nebula.User.V1.User user_;
+    /// <summary>
+    /// The user who was granted access, if any.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.User User {
+      get { return user_; }
+      set {
+        user_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "emergency_key" field.</summary>
+    public const int EmergencyKeyFieldNumber = 3;
+    /// <summary>
+    /// The emergency key used.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Salto.Nebula.EmergencyKey.V1.EmergencyKey EmergencyKey {
+      get { return credentialCase_ == CredentialOneofCase.EmergencyKey ? (global::Salto.Nebula.EmergencyKey.V1.EmergencyKey) credential_ : null; }
+      set {
+        credential_ = value;
+        credentialCase_ = value == null ? CredentialOneofCase.None : CredentialOneofCase.EmergencyKey;
+      }
+    }
+
+    /// <summary>Field number for the "card_key" field.</summary>
+    public const int CardKeyFieldNumber = 4;
+    /// <summary>
+    /// The card key used.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.CardKey CardKey {
+      get { return credentialCase_ == CredentialOneofCase.CardKey ? (global::Saltoapis.Nebula.User.V1.CardKey) credential_ : null; }
+      set {
+        credential_ = value;
+        credentialCase_ = value == null ? CredentialOneofCase.None : CredentialOneofCase.CardKey;
+      }
+    }
+
+    /// <summary>Field number for the "app_key" field.</summary>
+    public const int AppKeyFieldNumber = 5;
+    /// <summary>
+    /// The app key used.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.AppKey AppKey {
+      get { return credentialCase_ == CredentialOneofCase.AppKey ? (global::Saltoapis.Nebula.User.V1.AppKey) credential_ : null; }
+      set {
+        credential_ = value;
+        credentialCase_ = value == null ? CredentialOneofCase.None : CredentialOneofCase.AppKey;
+      }
+    }
+
+    /// <summary>Field number for the "wallet_key" field.</summary>
+    public const int WalletKeyFieldNumber = 6;
+    /// <summary>
+    /// The wallet key used.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.WalletKey WalletKey {
+      get { return credentialCase_ == CredentialOneofCase.WalletKey ? (global::Saltoapis.Nebula.User.V1.WalletKey) credential_ : null; }
+      set {
+        credential_ = value;
+        credentialCase_ = value == null ? CredentialOneofCase.None : CredentialOneofCase.WalletKey;
+      }
+    }
+
+    /// <summary>Field number for the "passcode" field.</summary>
+    public const int PasscodeFieldNumber = 7;
+    /// <summary>
+    /// The passcode used.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.Passcode Passcode {
+      get { return credentialCase_ == CredentialOneofCase.Passcode ? (global::Saltoapis.Nebula.User.V1.Passcode) credential_ : null; }
+      set {
+        credential_ = value;
+        credentialCase_ = value == null ? CredentialOneofCase.None : CredentialOneofCase.Passcode;
+      }
+    }
+
+    private object device_;
+    /// <summary>Enum of possible cases for the "device" oneof.</summary>
+    public enum DeviceOneofCase {
+      None = 0,
+      Controller = 1,
+    }
+    private DeviceOneofCase deviceCase_ = DeviceOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DeviceOneofCase DeviceCase {
+      get { return deviceCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearDevice() {
+      deviceCase_ = DeviceOneofCase.None;
+      device_ = null;
+    }
+
+    private object credential_;
+    /// <summary>Enum of possible cases for the "credential" oneof.</summary>
+    public enum CredentialOneofCase {
+      None = 0,
+      EmergencyKey = 3,
+      CardKey = 4,
+      AppKey = 5,
+      WalletKey = 6,
+      Passcode = 7,
+    }
+    private CredentialOneofCase credentialCase_ = CredentialOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CredentialOneofCase CredentialCase {
+      get { return credentialCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearCredential() {
+      credentialCase_ = CredentialOneofCase.None;
+      credential_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AccessGranted);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AccessGranted other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Controller, other.Controller)) return false;
+      if (!object.Equals(User, other.User)) return false;
+      if (!object.Equals(EmergencyKey, other.EmergencyKey)) return false;
+      if (!object.Equals(CardKey, other.CardKey)) return false;
+      if (!object.Equals(AppKey, other.AppKey)) return false;
+      if (!object.Equals(WalletKey, other.WalletKey)) return false;
+      if (!object.Equals(Passcode, other.Passcode)) return false;
+      if (DeviceCase != other.DeviceCase) return false;
+      if (CredentialCase != other.CredentialCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (deviceCase_ == DeviceOneofCase.Controller) hash ^= Controller.GetHashCode();
+      if (user_ != null) hash ^= User.GetHashCode();
+      if (credentialCase_ == CredentialOneofCase.EmergencyKey) hash ^= EmergencyKey.GetHashCode();
+      if (credentialCase_ == CredentialOneofCase.CardKey) hash ^= CardKey.GetHashCode();
+      if (credentialCase_ == CredentialOneofCase.AppKey) hash ^= AppKey.GetHashCode();
+      if (credentialCase_ == CredentialOneofCase.WalletKey) hash ^= WalletKey.GetHashCode();
+      if (credentialCase_ == CredentialOneofCase.Passcode) hash ^= Passcode.GetHashCode();
+      hash ^= (int) deviceCase_;
+      hash ^= (int) credentialCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (deviceCase_ == DeviceOneofCase.Controller) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Controller);
+      }
+      if (user_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(User);
+      }
+      if (credentialCase_ == CredentialOneofCase.EmergencyKey) {
+        output.WriteRawTag(26);
+        output.WriteMessage(EmergencyKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.CardKey) {
+        output.WriteRawTag(34);
+        output.WriteMessage(CardKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.AppKey) {
+        output.WriteRawTag(42);
+        output.WriteMessage(AppKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        output.WriteRawTag(50);
+        output.WriteMessage(WalletKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.Passcode) {
+        output.WriteRawTag(58);
+        output.WriteMessage(Passcode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (deviceCase_ == DeviceOneofCase.Controller) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Controller);
+      }
+      if (user_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(User);
+      }
+      if (credentialCase_ == CredentialOneofCase.EmergencyKey) {
+        output.WriteRawTag(26);
+        output.WriteMessage(EmergencyKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.CardKey) {
+        output.WriteRawTag(34);
+        output.WriteMessage(CardKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.AppKey) {
+        output.WriteRawTag(42);
+        output.WriteMessage(AppKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        output.WriteRawTag(50);
+        output.WriteMessage(WalletKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.Passcode) {
+        output.WriteRawTag(58);
+        output.WriteMessage(Passcode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (deviceCase_ == DeviceOneofCase.Controller) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Controller);
+      }
+      if (user_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
+      }
+      if (credentialCase_ == CredentialOneofCase.EmergencyKey) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EmergencyKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.CardKey) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CardKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.AppKey) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AppKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.WalletKey) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(WalletKey);
+      }
+      if (credentialCase_ == CredentialOneofCase.Passcode) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Passcode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AccessGranted other) {
+      if (other == null) {
+        return;
+      }
+      if (other.user_ != null) {
+        if (user_ == null) {
+          User = new global::Saltoapis.Nebula.User.V1.User();
+        }
+        User.MergeFrom(other.User);
+      }
+      switch (other.DeviceCase) {
+        case DeviceOneofCase.Controller:
+          if (Controller == null) {
+            Controller = new global::Saltoapis.Nebula.Controller.V1.Controller();
+          }
+          Controller.MergeFrom(other.Controller);
+          break;
+      }
+
+      switch (other.CredentialCase) {
+        case CredentialOneofCase.EmergencyKey:
+          if (EmergencyKey == null) {
+            EmergencyKey = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+          }
+          EmergencyKey.MergeFrom(other.EmergencyKey);
+          break;
+        case CredentialOneofCase.CardKey:
+          if (CardKey == null) {
+            CardKey = new global::Saltoapis.Nebula.User.V1.CardKey();
+          }
+          CardKey.MergeFrom(other.CardKey);
+          break;
+        case CredentialOneofCase.AppKey:
+          if (AppKey == null) {
+            AppKey = new global::Saltoapis.Nebula.User.V1.AppKey();
+          }
+          AppKey.MergeFrom(other.AppKey);
+          break;
+        case CredentialOneofCase.WalletKey:
+          if (WalletKey == null) {
+            WalletKey = new global::Saltoapis.Nebula.User.V1.WalletKey();
+          }
+          WalletKey.MergeFrom(other.WalletKey);
+          break;
+        case CredentialOneofCase.Passcode:
+          if (Passcode == null) {
+            Passcode = new global::Saltoapis.Nebula.User.V1.Passcode();
+          }
+          Passcode.MergeFrom(other.Passcode);
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            global::Saltoapis.Nebula.Controller.V1.Controller subBuilder = new global::Saltoapis.Nebula.Controller.V1.Controller();
+            if (deviceCase_ == DeviceOneofCase.Controller) {
+              subBuilder.MergeFrom(Controller);
+            }
+            input.ReadMessage(subBuilder);
+            Controller = subBuilder;
+            break;
+          }
+          case 18: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 26: {
+            global::Salto.Nebula.EmergencyKey.V1.EmergencyKey subBuilder = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+            if (credentialCase_ == CredentialOneofCase.EmergencyKey) {
+              subBuilder.MergeFrom(EmergencyKey);
+            }
+            input.ReadMessage(subBuilder);
+            EmergencyKey = subBuilder;
+            break;
+          }
+          case 34: {
+            global::Saltoapis.Nebula.User.V1.CardKey subBuilder = new global::Saltoapis.Nebula.User.V1.CardKey();
+            if (credentialCase_ == CredentialOneofCase.CardKey) {
+              subBuilder.MergeFrom(CardKey);
+            }
+            input.ReadMessage(subBuilder);
+            CardKey = subBuilder;
+            break;
+          }
+          case 42: {
+            global::Saltoapis.Nebula.User.V1.AppKey subBuilder = new global::Saltoapis.Nebula.User.V1.AppKey();
+            if (credentialCase_ == CredentialOneofCase.AppKey) {
+              subBuilder.MergeFrom(AppKey);
+            }
+            input.ReadMessage(subBuilder);
+            AppKey = subBuilder;
+            break;
+          }
+          case 50: {
+            global::Saltoapis.Nebula.User.V1.WalletKey subBuilder = new global::Saltoapis.Nebula.User.V1.WalletKey();
+            if (credentialCase_ == CredentialOneofCase.WalletKey) {
+              subBuilder.MergeFrom(WalletKey);
+            }
+            input.ReadMessage(subBuilder);
+            WalletKey = subBuilder;
+            break;
+          }
+          case 58: {
+            global::Saltoapis.Nebula.User.V1.Passcode subBuilder = new global::Saltoapis.Nebula.User.V1.Passcode();
+            if (credentialCase_ == CredentialOneofCase.Passcode) {
+              subBuilder.MergeFrom(Passcode);
+            }
+            input.ReadMessage(subBuilder);
+            Passcode = subBuilder;
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            global::Saltoapis.Nebula.Controller.V1.Controller subBuilder = new global::Saltoapis.Nebula.Controller.V1.Controller();
+            if (deviceCase_ == DeviceOneofCase.Controller) {
+              subBuilder.MergeFrom(Controller);
+            }
+            input.ReadMessage(subBuilder);
+            Controller = subBuilder;
+            break;
+          }
+          case 18: {
+            if (user_ == null) {
+              User = new global::Saltoapis.Nebula.User.V1.User();
+            }
+            input.ReadMessage(User);
+            break;
+          }
+          case 26: {
+            global::Salto.Nebula.EmergencyKey.V1.EmergencyKey subBuilder = new global::Salto.Nebula.EmergencyKey.V1.EmergencyKey();
+            if (credentialCase_ == CredentialOneofCase.EmergencyKey) {
+              subBuilder.MergeFrom(EmergencyKey);
+            }
+            input.ReadMessage(subBuilder);
+            EmergencyKey = subBuilder;
+            break;
+          }
+          case 34: {
+            global::Saltoapis.Nebula.User.V1.CardKey subBuilder = new global::Saltoapis.Nebula.User.V1.CardKey();
+            if (credentialCase_ == CredentialOneofCase.CardKey) {
+              subBuilder.MergeFrom(CardKey);
+            }
+            input.ReadMessage(subBuilder);
+            CardKey = subBuilder;
+            break;
+          }
+          case 42: {
+            global::Saltoapis.Nebula.User.V1.AppKey subBuilder = new global::Saltoapis.Nebula.User.V1.AppKey();
+            if (credentialCase_ == CredentialOneofCase.AppKey) {
+              subBuilder.MergeFrom(AppKey);
+            }
+            input.ReadMessage(subBuilder);
+            AppKey = subBuilder;
+            break;
+          }
+          case 50: {
+            global::Saltoapis.Nebula.User.V1.WalletKey subBuilder = new global::Saltoapis.Nebula.User.V1.WalletKey();
+            if (credentialCase_ == CredentialOneofCase.WalletKey) {
+              subBuilder.MergeFrom(WalletKey);
+            }
+            input.ReadMessage(subBuilder);
+            WalletKey = subBuilder;
+            break;
+          }
+          case 58: {
+            global::Saltoapis.Nebula.User.V1.Passcode subBuilder = new global::Saltoapis.Nebula.User.V1.Passcode();
+            if (credentialCase_ == CredentialOneofCase.Passcode) {
+              subBuilder.MergeFrom(Passcode);
+            }
+            input.ReadMessage(subBuilder);
+            Passcode = subBuilder;
             break;
           }
         }
