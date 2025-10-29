@@ -86,121 +86,127 @@ namespace Saltoapis.Nebula.Event.V1 {
             "YS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludCKFAQoSQWNjZXNzUmlnaHRD",
             "cmVhdGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5h",
             "Y2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBIvCgVhY3RvchgCIAEoCzIgLnNh",
-            "bHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwihQEKEkFjY2Vzc1JpZ2h0",
+            "bHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwixQEKEkFjY2Vzc1JpZ2h0",
             "VXBkYXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1bGEu",
             "YWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSLwoFYWN0b3IYAiABKAsyIC5z",
-            "YWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsIoUBChJBY2Nlc3NSaWdo",
-            "dERlbGV0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxh",
-            "LmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ei8KBWFjdG9yGAIgASgLMiAu",
-            "c2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCLQAQodQWNjZXNzUmln",
-            "aHRBY2Nlc3NQb2ludENyZWF0ZWQSPgoMYWNjZXNzX3JpZ2h0GAEgASgLMigu",
-            "c2FsdG8ubmVidWxhLmFjY2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ej4KDGFj",
-            "Y2Vzc19wb2ludBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52",
-            "MS5BY2Nlc3NQb2ludBIvCgVhY3RvchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5l",
-            "dmVudC52MS5QcmluY2lwYWwi1wEKI0FjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRz",
-            "QmF0Y2hDcmVhdGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNhbHRvLm5l",
-            "YnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBI/Cg1hY2Nlc3NfcG9p",
-            "bnRzGAIgAygLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vz",
-            "c1BvaW50Ei8KBWFjdG9yGAMgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYx",
-            "LlByaW5jaXBhbCLQAQodQWNjZXNzUmlnaHRBY2Nlc3NQb2ludERlbGV0ZWQS",
-            "PgoMYWNjZXNzX3JpZ2h0GAEgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3Jp",
-            "Z2h0LnYxLkFjY2Vzc1JpZ2h0Ej4KDGFjY2Vzc19wb2ludBgCIAEoCzIoLnNh",
-            "bHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIvCgVhY3Rv",
-            "chgDIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwi1wEK",
-            "I0FjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRzQmF0Y2hEZWxldGVkEj4KDGFjY2Vz",
-            "c19yaWdodBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5B",
-            "Y2Nlc3NSaWdodBI/Cg1hY2Nlc3NfcG9pbnRzGAIgAygLMiguc2FsdG8ubmVi",
-            "dWxhLmFjY2Vzc3BvaW50LnYxLkFjY2Vzc1BvaW50Ei8KBWFjdG9yGAMgASgL",
-            "MiAuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCJoCgtVc2VyQ3Jl",
-            "YXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNl",
-            "chIvCgVhY3RvchgCIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5Qcmlu",
-            "Y2lwYWwiaAoLVXNlclVwZGF0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLlVzZXISLwoFYWN0b3IYAiABKAsyIC5zYWx0by5uZWJ1",
-            "bGEuZXZlbnQudjEuUHJpbmNpcGFsImgKC1VzZXJCbG9ja2VkEigKBHVzZXIY",
-            "ASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi8KBWFjdG9yGAIg",
-            "ASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCJqCg1Vc2Vy",
-            "VW5ibG9ja2VkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52",
-            "MS5Vc2VyEi8KBWFjdG9yGAIgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYx",
-            "LlByaW5jaXBhbCJoCgtVc2VyRGVsZXRlZBIoCgR1c2VyGAEgASgLMhouc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuVXNlchIvCgVhY3RvchgCIAEoCzIgLnNhbHRv",
-            "Lm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwiswEKFlVzZXJBY2Nlc3NSaWdo",
-            "dENyZWF0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LlVzZXISPgoMYWNjZXNzX3JpZ2h0GAIgASgLMiguc2FsdG8ubmVidWxhLmFj",
-            "Y2Vzc3JpZ2h0LnYxLkFjY2Vzc1JpZ2h0Ei8KBWFjdG9yGAMgASgLMiAuc2Fs",
-            "dG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCKzAQoWVXNlckFjY2Vzc1Jp",
-            "Z2h0VXBkYXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIu",
-            "djEuVXNlchI+CgxhY2Nlc3NfcmlnaHQYAiABKAsyKC5zYWx0by5uZWJ1bGEu",
-            "YWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSLwoFYWN0b3IYAyABKAsyIC5z",
-            "YWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsIrMBChZVc2VyQWNjZXNz",
-            "UmlnaHREZWxldGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNl",
-            "ci52MS5Vc2VyEj4KDGFjY2Vzc19yaWdodBgCIAEoCzIoLnNhbHRvLm5lYnVs",
-            "YS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBIvCgVhY3RvchgDIAEoCzIg",
-            "LnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwinQEKD0NhcmRLZXlB",
-            "c3NpZ25lZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEu",
-            "VXNlchIvCghjYXJkX2tleRgCIAEoCzIdLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LkNhcmRLZXkSLwoFYWN0b3IYAyABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQu",
-            "djEuUHJpbmNpcGFsIp0BCg9DYXJkS2V5Q2FuY2VsZWQSKAoEdXNlchgBIAEo",
-            "CzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISLwoIY2FyZF9rZXkYAiAB",
-            "KAsyHS5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5Ei8KBWFjdG9yGAMg",
-            "ASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCKaAQoOQXBw",
-            "S2V5QXNzaWduZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLlVzZXISLQoHYXBwX2tleRgCIAEoCzIcLnNhbHRvLm5lYnVsYS51c2Vy",
-            "LnYxLkFwcEtleRIvCgVhY3RvchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVu",
-            "dC52MS5QcmluY2lwYWwimgEKDkFwcEtleUNhbmNlbGVkEigKBHVzZXIYASAB",
-            "KAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi0KB2FwcF9rZXkYAiAB",
-            "KAsyHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSLwoFYWN0b3IYAyAB",
-            "KAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsIqMBChFXYWxs",
-            "ZXRLZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVz",
-            "ZXIudjEuVXNlchIzCgp3YWxsZXRfa2V5GAIgASgLMh8uc2FsdG8ubmVidWxh",
-            "LnVzZXIudjEuV2FsbGV0S2V5Ei8KBWFjdG9yGAMgASgLMiAuc2FsdG8ubmVi",
-            "dWxhLmV2ZW50LnYxLlByaW5jaXBhbCKjAQoRV2FsbGV0S2V5Q2FuY2VsZWQS",
-            "KAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISMwoK",
-            "d2FsbGV0X2tleRgCIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxl",
-            "dEtleRIvCgVhY3RvchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5Q",
-            "cmluY2lwYWwiaAoLVW5pdE1vdmVkSW4SKAoEdW5pdBgBIAEoCzIaLnNhbHRv",
-            "Lm5lYnVsYS51bml0LnYxLlVuaXQSLwoFYWN0b3IYAiABKAsyIC5zYWx0by5u",
-            "ZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsImkKDFVuaXRNb3ZlZE91dBIoCgR1",
-            "bml0GAEgASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdBIvCgVhY3Rv",
-            "chgCIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwiaAoL",
-            "VW5pdENyZWF0ZWQSKAoEdW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51bml0",
-            "LnYxLlVuaXQSLwoFYWN0b3IYAiABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQu",
-            "djEuUHJpbmNpcGFsImgKC1VuaXRVcGRhdGVkEigKBHVuaXQYASABKAsyGi5z",
-            "YWx0by5uZWJ1bGEudW5pdC52MS5Vbml0Ei8KBWFjdG9yGAIgASgLMiAuc2Fs",
-            "dG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCJoCgtVbml0RGVsZXRlZBIo",
-            "CgR1bml0GAEgASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdBIvCgVh",
-            "Y3RvchgCIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwi",
-            "iQEKE0VtZXJnZW5jeUtleUNyZWF0ZWQSQQoNZW1lcmdlbmN5X2tleRgBIAEo",
-            "CzIqLnNhbHRvLm5lYnVsYS5lbWVyZ2VuY3lrZXkudjEuRW1lcmdlbmN5S2V5",
+            "YWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsEj4KD3ByZXZpb3VzX3Zh",
+            "bHVlcxgDIAEoCzIlLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmV2aW91c1Zh",
+            "bHVlcyKFAQoSQWNjZXNzUmlnaHREZWxldGVkEj4KDGFjY2Vzc19yaWdodBgB",
+            "IAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdo",
+            "dBIvCgVhY3RvchgCIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5Qcmlu",
+            "Y2lwYWwi0AEKHUFjY2Vzc1JpZ2h0QWNjZXNzUG9pbnRDcmVhdGVkEj4KDGFj",
+            "Y2Vzc19yaWdodBgBIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52",
+            "MS5BY2Nlc3NSaWdodBI+CgxhY2Nlc3NfcG9pbnQYAiABKAsyKC5zYWx0by5u",
+            "ZWJ1bGEuYWNjZXNzcG9pbnQudjEuQWNjZXNzUG9pbnQSLwoFYWN0b3IYAyAB",
+            "KAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsItcBCiNBY2Nl",
+            "c3NSaWdodEFjY2Vzc1BvaW50c0JhdGNoQ3JlYXRlZBI+CgxhY2Nlc3Nfcmln",
+            "aHQYASABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNz",
+            "UmlnaHQSPwoNYWNjZXNzX3BvaW50cxgCIAMoCzIoLnNhbHRvLm5lYnVsYS5h",
+            "Y2Nlc3Nwb2ludC52MS5BY2Nlc3NQb2ludBIvCgVhY3RvchgDIAEoCzIgLnNh",
+            "bHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwi0AEKHUFjY2Vzc1JpZ2h0",
+            "QWNjZXNzUG9pbnREZWxldGVkEj4KDGFjY2Vzc19yaWdodBgBIAEoCzIoLnNh",
+            "bHRvLm5lYnVsYS5hY2Nlc3NyaWdodC52MS5BY2Nlc3NSaWdodBI+CgxhY2Nl",
+            "c3NfcG9pbnQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNzcG9pbnQudjEu",
+            "QWNjZXNzUG9pbnQSLwoFYWN0b3IYAyABKAsyIC5zYWx0by5uZWJ1bGEuZXZl",
+            "bnQudjEuUHJpbmNpcGFsItcBCiNBY2Nlc3NSaWdodEFjY2Vzc1BvaW50c0Jh",
+            "dGNoRGVsZXRlZBI+CgxhY2Nlc3NfcmlnaHQYASABKAsyKC5zYWx0by5uZWJ1",
+            "bGEuYWNjZXNzcmlnaHQudjEuQWNjZXNzUmlnaHQSPwoNYWNjZXNzX3BvaW50",
+            "cxgCIAMoCzIoLnNhbHRvLm5lYnVsYS5hY2Nlc3Nwb2ludC52MS5BY2Nlc3NQ",
+            "b2ludBIvCgVhY3RvchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5Q",
+            "cmluY2lwYWwiaAoLVXNlckNyZWF0ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRv",
+            "Lm5lYnVsYS51c2VyLnYxLlVzZXISLwoFYWN0b3IYAiABKAsyIC5zYWx0by5u",
+            "ZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsIqgBCgtVc2VyVXBkYXRlZBIoCgR1",
+            "c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchIvCgVhY3Rv",
+            "chgCIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwSPgoP",
+            "cHJldmlvdXNfdmFsdWVzGAMgASgLMiUuc2FsdG8ubmVidWxhLmV2ZW50LnYx",
+            "LlByZXZpb3VzVmFsdWVzImgKC1VzZXJCbG9ja2VkEigKBHVzZXIYASABKAsy",
+            "Gi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi8KBWFjdG9yGAIgASgLMiAu",
+            "c2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCJqCg1Vc2VyVW5ibG9j",
+            "a2VkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2Vy",
             "Ei8KBWFjdG9yGAIgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5j",
-            "aXBhbCKJAQoTRW1lcmdlbmN5S2V5VXBkYXRlZBJBCg1lbWVyZ2VuY3lfa2V5",
-            "GAEgASgLMiouc2FsdG8ubmVidWxhLmVtZXJnZW5jeWtleS52MS5FbWVyZ2Vu",
-            "Y3lLZXkSLwoFYWN0b3IYAiABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEu",
-            "UHJpbmNpcGFsIokBChNFbWVyZ2VuY3lLZXlEZWxldGVkEkEKDWVtZXJnZW5j",
-            "eV9rZXkYASABKAsyKi5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5a2V5LnYxLkVt",
-            "ZXJnZW5jeUtleRIvCgVhY3RvchgCIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVu",
-            "dC52MS5QcmluY2lwYWwirwEKFUVsZWN0cm9uaWNLZXlBc3NpZ25lZBIoCgR1",
-            "c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchI7Cg5lbGVj",
-            "dHJvbmljX2tleRgCIAEoCzIjLnNhbHRvLm5lYnVsYS51c2VyLnYxLkVsZWN0",
-            "cm9uaWNLZXkSLwoFYWN0b3IYAyABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQu",
-            "djEuUHJpbmNpcGFsIq8BChVFbGVjdHJvbmljS2V5Q2FuY2VsZWQSKAoEdXNl",
-            "chgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISOwoOZWxlY3Ry",
-            "b25pY19rZXkYAiABKAsyIy5zYWx0by5uZWJ1bGEudXNlci52MS5FbGVjdHJv",
-            "bmljS2V5Ei8KBWFjdG9yGAMgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYx",
-            "LlByaW5jaXBhbCKjAwoNQWNjZXNzR3JhbnRlZBI8Cgpjb250cm9sbGVyGAEg",
-            "ASgLMiYuc2FsdG8ubmVidWxhLmNvbnRyb2xsZXIudjEuQ29udHJvbGxlckgA",
-            "EigKBHVzZXIYAiABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEkMK",
-            "DWVtZXJnZW5jeV9rZXkYAyABKAsyKi5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5",
-            "a2V5LnYxLkVtZXJnZW5jeUtleUgBEjEKCGNhcmRfa2V5GAQgASgLMh0uc2Fs",
-            "dG8ubmVidWxhLnVzZXIudjEuQ2FyZEtleUgBEi8KB2FwcF9rZXkYBSABKAsy",
-            "HC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXlIARI1Cgp3YWxsZXRfa2V5",
-            "GAYgASgLMh8uc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5SAESMgoI",
-            "cGFzc2NvZGUYByABKAsyHi5zYWx0by5uZWJ1bGEudXNlci52MS5QYXNzY29k",
-            "ZUgBQggKBmRldmljZUIMCgpjcmVkZW50aWFsQs8BCh1jb20uc2FsdG9hcGlz",
-            "Lm5lYnVsYS5ldmVudC52MUIKVHlwZXNQcm90b1ABWkBnaXRodWIuY29tL3Nh",
-            "bHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2V2ZW50L3Yx",
-            "O2V2ZW50qgIZU2FsdG9hcGlzLk5lYnVsYS5FdmVudC5WMcoCGVNhbHRvYXBp",
-            "c1xOZWJ1bGFcRXZlbnRcVjHiAiVHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVi",
-            "dWxhXEV2ZW50XFYxYgZwcm90bzM="));
+            "aXBhbCJoCgtVc2VyRGVsZXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVi",
+            "dWxhLnVzZXIudjEuVXNlchIvCgVhY3RvchgCIAEoCzIgLnNhbHRvLm5lYnVs",
+            "YS5ldmVudC52MS5QcmluY2lwYWwiswEKFlVzZXJBY2Nlc3NSaWdodENyZWF0",
+            "ZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIS",
+            "PgoMYWNjZXNzX3JpZ2h0GAIgASgLMiguc2FsdG8ubmVidWxhLmFjY2Vzc3Jp",
+            "Z2h0LnYxLkFjY2Vzc1JpZ2h0Ei8KBWFjdG9yGAMgASgLMiAuc2FsdG8ubmVi",
+            "dWxhLmV2ZW50LnYxLlByaW5jaXBhbCKzAQoWVXNlckFjY2Vzc1JpZ2h0VXBk",
+            "YXRlZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNl",
+            "chI+CgxhY2Nlc3NfcmlnaHQYAiABKAsyKC5zYWx0by5uZWJ1bGEuYWNjZXNz",
+            "cmlnaHQudjEuQWNjZXNzUmlnaHQSLwoFYWN0b3IYAyABKAsyIC5zYWx0by5u",
+            "ZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsIrMBChZVc2VyQWNjZXNzUmlnaHRE",
+            "ZWxldGVkEigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5V",
+            "c2VyEj4KDGFjY2Vzc19yaWdodBgCIAEoCzIoLnNhbHRvLm5lYnVsYS5hY2Nl",
+            "c3NyaWdodC52MS5BY2Nlc3NSaWdodBIvCgVhY3RvchgDIAEoCzIgLnNhbHRv",
+            "Lm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwinQEKD0NhcmRLZXlBc3NpZ25l",
+            "ZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchIv",
+            "CghjYXJkX2tleRgCIAEoCzIdLnNhbHRvLm5lYnVsYS51c2VyLnYxLkNhcmRL",
+            "ZXkSLwoFYWN0b3IYAyABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJp",
+            "bmNpcGFsIp0BCg9DYXJkS2V5Q2FuY2VsZWQSKAoEdXNlchgBIAEoCzIaLnNh",
+            "bHRvLm5lYnVsYS51c2VyLnYxLlVzZXISLwoIY2FyZF9rZXkYAiABKAsyHS5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5Ei8KBWFjdG9yGAMgASgLMiAu",
+            "c2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCKaAQoOQXBwS2V5QXNz",
+            "aWduZWQSKAoEdXNlchgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVz",
+            "ZXISLQoHYXBwX2tleRgCIAEoCzIcLnNhbHRvLm5lYnVsYS51c2VyLnYxLkFw",
+            "cEtleRIvCgVhY3RvchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5Q",
+            "cmluY2lwYWwimgEKDkFwcEtleUNhbmNlbGVkEigKBHVzZXIYASABKAsyGi5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEi0KB2FwcF9rZXkYAiABKAsyHC5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSLwoFYWN0b3IYAyABKAsyIC5z",
+            "YWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFsIqMBChFXYWxsZXRLZXlB",
+            "c3NpZ25lZBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVzZXIudjEu",
+            "VXNlchIzCgp3YWxsZXRfa2V5GAIgASgLMh8uc2FsdG8ubmVidWxhLnVzZXIu",
+            "djEuV2FsbGV0S2V5Ei8KBWFjdG9yGAMgASgLMiAuc2FsdG8ubmVidWxhLmV2",
+            "ZW50LnYxLlByaW5jaXBhbCKjAQoRV2FsbGV0S2V5Q2FuY2VsZWQSKAoEdXNl",
+            "chgBIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXISMwoKd2FsbGV0",
+            "X2tleRgCIAEoCzIfLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxldEtleRIv",
+            "CgVhY3RvchgDIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lw",
+            "YWwiaAoLVW5pdE1vdmVkSW4SKAoEdW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVs",
+            "YS51bml0LnYxLlVuaXQSLwoFYWN0b3IYAiABKAsyIC5zYWx0by5uZWJ1bGEu",
+            "ZXZlbnQudjEuUHJpbmNpcGFsImkKDFVuaXRNb3ZlZE91dBIoCgR1bml0GAEg",
+            "ASgLMhouc2FsdG8ubmVidWxhLnVuaXQudjEuVW5pdBIvCgVhY3RvchgCIAEo",
+            "CzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lwYWwiaAoLVW5pdENy",
+            "ZWF0ZWQSKAoEdW5pdBgBIAEoCzIaLnNhbHRvLm5lYnVsYS51bml0LnYxLlVu",
+            "aXQSLwoFYWN0b3IYAiABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJp",
+            "bmNpcGFsIqgBCgtVbml0VXBkYXRlZBIoCgR1bml0GAEgASgLMhouc2FsdG8u",
+            "bmVidWxhLnVuaXQudjEuVW5pdBIvCgVhY3RvchgCIAEoCzIgLnNhbHRvLm5l",
+            "YnVsYS5ldmVudC52MS5QcmluY2lwYWwSPgoPcHJldmlvdXNfdmFsdWVzGAMg",
+            "ASgLMiUuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlByZXZpb3VzVmFsdWVzImgK",
+            "C1VuaXREZWxldGVkEigKBHVuaXQYASABKAsyGi5zYWx0by5uZWJ1bGEudW5p",
+            "dC52MS5Vbml0Ei8KBWFjdG9yGAIgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50",
+            "LnYxLlByaW5jaXBhbCKJAQoTRW1lcmdlbmN5S2V5Q3JlYXRlZBJBCg1lbWVy",
+            "Z2VuY3lfa2V5GAEgASgLMiouc2FsdG8ubmVidWxhLmVtZXJnZW5jeWtleS52",
+            "MS5FbWVyZ2VuY3lLZXkSLwoFYWN0b3IYAiABKAsyIC5zYWx0by5uZWJ1bGEu",
+            "ZXZlbnQudjEuUHJpbmNpcGFsIskBChNFbWVyZ2VuY3lLZXlVcGRhdGVkEkEK",
+            "DWVtZXJnZW5jeV9rZXkYASABKAsyKi5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5",
+            "a2V5LnYxLkVtZXJnZW5jeUtleRIvCgVhY3RvchgCIAEoCzIgLnNhbHRvLm5l",
+            "YnVsYS5ldmVudC52MS5QcmluY2lwYWwSPgoPcHJldmlvdXNfdmFsdWVzGAMg",
+            "ASgLMiUuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlByZXZpb3VzVmFsdWVzIokB",
+            "ChNFbWVyZ2VuY3lLZXlEZWxldGVkEkEKDWVtZXJnZW5jeV9rZXkYASABKAsy",
+            "Ki5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5a2V5LnYxLkVtZXJnZW5jeUtleRIv",
+            "CgVhY3RvchgCIAEoCzIgLnNhbHRvLm5lYnVsYS5ldmVudC52MS5QcmluY2lw",
+            "YWwirwEKFUVsZWN0cm9uaWNLZXlBc3NpZ25lZBIoCgR1c2VyGAEgASgLMhou",
+            "c2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchI7Cg5lbGVjdHJvbmljX2tleRgC",
+            "IAEoCzIjLnNhbHRvLm5lYnVsYS51c2VyLnYxLkVsZWN0cm9uaWNLZXkSLwoF",
+            "YWN0b3IYAyABKAsyIC5zYWx0by5uZWJ1bGEuZXZlbnQudjEuUHJpbmNpcGFs",
+            "Iq8BChVFbGVjdHJvbmljS2V5Q2FuY2VsZWQSKAoEdXNlchgBIAEoCzIaLnNh",
+            "bHRvLm5lYnVsYS51c2VyLnYxLlVzZXISOwoOZWxlY3Ryb25pY19rZXkYAiAB",
+            "KAsyIy5zYWx0by5uZWJ1bGEudXNlci52MS5FbGVjdHJvbmljS2V5Ei8KBWFj",
+            "dG9yGAMgASgLMiAuc2FsdG8ubmVidWxhLmV2ZW50LnYxLlByaW5jaXBhbCKj",
+            "AwoNQWNjZXNzR3JhbnRlZBI8Cgpjb250cm9sbGVyGAEgASgLMiYuc2FsdG8u",
+            "bmVidWxhLmNvbnRyb2xsZXIudjEuQ29udHJvbGxlckgAEigKBHVzZXIYAiAB",
+            "KAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEkMKDWVtZXJnZW5jeV9r",
+            "ZXkYAyABKAsyKi5zYWx0by5uZWJ1bGEuZW1lcmdlbmN5a2V5LnYxLkVtZXJn",
+            "ZW5jeUtleUgBEjEKCGNhcmRfa2V5GAQgASgLMh0uc2FsdG8ubmVidWxhLnVz",
+            "ZXIudjEuQ2FyZEtleUgBEi8KB2FwcF9rZXkYBSABKAsyHC5zYWx0by5uZWJ1",
+            "bGEudXNlci52MS5BcHBLZXlIARI1Cgp3YWxsZXRfa2V5GAYgASgLMh8uc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5SAESMgoIcGFzc2NvZGUYByAB",
+            "KAsyHi5zYWx0by5uZWJ1bGEudXNlci52MS5QYXNzY29kZUgBQggKBmRldmlj",
+            "ZUIMCgpjcmVkZW50aWFsQs8BCh1jb20uc2FsdG9hcGlzLm5lYnVsYS5ldmVu",
+            "dC52MUIKVHlwZXNQcm90b1ABWkBnaXRodWIuY29tL3NhbHRvYXBpcy1pbnRl",
+            "cm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL2V2ZW50L3YxO2V2ZW50qgIZU2Fs",
+            "dG9hcGlzLk5lYnVsYS5FdmVudC5WMcoCGVNhbHRvYXBpc1xOZWJ1bGFcRXZl",
+            "bnRcVjHiAiVHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVidWxhXEV2ZW50XFYx",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Saltoapis.Nebula.AccessPoint.V1.AccessPointReflection.Descriptor, global::Saltoapis.Nebula.AccessRight.V1.AccessRightReflection.Descriptor, global::Saltoapis.Nebula.Controller.V1.ControllerReflection.Descriptor, global::Salto.Nebula.EmergencyKey.V1.EmergencyKeyReflection.Descriptor, global::Saltoapis.Nebula.Unit.V1.UnitReflection.Descriptor, global::Saltoapis.Nebula.User.V1.UserReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -216,14 +222,14 @@ namespace Saltoapis.Nebula.Event.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessDenied), global::Saltoapis.Nebula.Event.V1.AccessDenied.Parser, new[]{ "AccessPoint", "User", "Reason", "EmergencyKey", "CardKey", "AppKey", "WalletKey", "Passcode" }, new[]{ "Credential" }, new[]{ typeof(global::Saltoapis.Nebula.Event.V1.AccessDenied.Types.Reason) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessPointLeftOpen), global::Saltoapis.Nebula.Event.V1.AccessPointLeftOpen.Parser, new[]{ "AccessPoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightCreated), global::Saltoapis.Nebula.Event.V1.AccessRightCreated.Parser, new[]{ "AccessRight", "Actor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightUpdated), global::Saltoapis.Nebula.Event.V1.AccessRightUpdated.Parser, new[]{ "AccessRight", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightUpdated), global::Saltoapis.Nebula.Event.V1.AccessRightUpdated.Parser, new[]{ "AccessRight", "Actor", "PreviousValues" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightDeleted), global::Saltoapis.Nebula.Event.V1.AccessRightDeleted.Parser, new[]{ "AccessRight", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointCreated), global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointCreated.Parser, new[]{ "AccessRight", "AccessPoint", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointsBatchCreated), global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointsBatchCreated.Parser, new[]{ "AccessRight", "AccessPoints", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointDeleted), global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointDeleted.Parser, new[]{ "AccessRight", "AccessPoint", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointsBatchDeleted), global::Saltoapis.Nebula.Event.V1.AccessRightAccessPointsBatchDeleted.Parser, new[]{ "AccessRight", "AccessPoints", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserCreated), global::Saltoapis.Nebula.Event.V1.UserCreated.Parser, new[]{ "User", "Actor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserUpdated), global::Saltoapis.Nebula.Event.V1.UserUpdated.Parser, new[]{ "User", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserUpdated), global::Saltoapis.Nebula.Event.V1.UserUpdated.Parser, new[]{ "User", "Actor", "PreviousValues" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserBlocked), global::Saltoapis.Nebula.Event.V1.UserBlocked.Parser, new[]{ "User", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserUnblocked), global::Saltoapis.Nebula.Event.V1.UserUnblocked.Parser, new[]{ "User", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UserDeleted), global::Saltoapis.Nebula.Event.V1.UserDeleted.Parser, new[]{ "User", "Actor" }, null, null, null, null),
@@ -239,10 +245,10 @@ namespace Saltoapis.Nebula.Event.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitMovedIn), global::Saltoapis.Nebula.Event.V1.UnitMovedIn.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitMovedOut), global::Saltoapis.Nebula.Event.V1.UnitMovedOut.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitCreated), global::Saltoapis.Nebula.Event.V1.UnitCreated.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitUpdated), global::Saltoapis.Nebula.Event.V1.UnitUpdated.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitUpdated), global::Saltoapis.Nebula.Event.V1.UnitUpdated.Parser, new[]{ "Unit", "Actor", "PreviousValues" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.UnitDeleted), global::Saltoapis.Nebula.Event.V1.UnitDeleted.Parser, new[]{ "Unit", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyCreated), global::Saltoapis.Nebula.Event.V1.EmergencyKeyCreated.Parser, new[]{ "EmergencyKey", "Actor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated), global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated.Parser, new[]{ "EmergencyKey", "Actor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated), global::Saltoapis.Nebula.Event.V1.EmergencyKeyUpdated.Parser, new[]{ "EmergencyKey", "Actor", "PreviousValues" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.EmergencyKeyDeleted), global::Saltoapis.Nebula.Event.V1.EmergencyKeyDeleted.Parser, new[]{ "EmergencyKey", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.ElectronicKeyAssigned), global::Saltoapis.Nebula.Event.V1.ElectronicKeyAssigned.Parser, new[]{ "User", "ElectronicKey", "Actor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Event.V1.ElectronicKeyCanceled), global::Saltoapis.Nebula.Event.V1.ElectronicKeyCanceled.Parser, new[]{ "User", "ElectronicKey", "Actor" }, null, null, null, null),
@@ -4473,6 +4479,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public AccessRightUpdated(AccessRightUpdated other) : this() {
       accessRight_ = other.accessRight_ != null ? other.accessRight_.Clone() : null;
       actor_ = other.actor_ != null ? other.actor_.Clone() : null;
+      previousValues_ = other.previousValues_ != null ? other.previousValues_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4512,6 +4519,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "previous_values" field.</summary>
+    public const int PreviousValuesFieldNumber = 3;
+    private global::Saltoapis.Nebula.Event.V1.PreviousValues previousValues_;
+    /// <summary>
+    /// The previous values of the access right's fields that were changed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.PreviousValues PreviousValues {
+      get { return previousValues_; }
+      set {
+        previousValues_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4529,6 +4551,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (!object.Equals(AccessRight, other.AccessRight)) return false;
       if (!object.Equals(Actor, other.Actor)) return false;
+      if (!object.Equals(PreviousValues, other.PreviousValues)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4538,6 +4561,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       int hash = 1;
       if (accessRight_ != null) hash ^= AccessRight.GetHashCode();
       if (actor_ != null) hash ^= Actor.GetHashCode();
+      if (previousValues_ != null) hash ^= PreviousValues.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4564,6 +4588,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(Actor);
       }
+      if (previousValues_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PreviousValues);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4582,6 +4610,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(Actor);
       }
+      if (previousValues_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PreviousValues);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4597,6 +4629,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (actor_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
+      }
+      if (previousValues_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PreviousValues);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4621,6 +4656,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
         }
         Actor.MergeFrom(other.Actor);
+      }
+      if (other.previousValues_ != null) {
+        if (previousValues_ == null) {
+          PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+        }
+        PreviousValues.MergeFrom(other.PreviousValues);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4655,6 +4696,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Actor);
             break;
           }
+          case 26: {
+            if (previousValues_ == null) {
+              PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+            }
+            input.ReadMessage(PreviousValues);
+            break;
+          }
         }
       }
     #endif
@@ -4686,6 +4734,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
             }
             input.ReadMessage(Actor);
+            break;
+          }
+          case 26: {
+            if (previousValues_ == null) {
+              PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+            }
+            input.ReadMessage(PreviousValues);
             break;
           }
         }
@@ -6463,6 +6518,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public UserUpdated(UserUpdated other) : this() {
       user_ = other.user_ != null ? other.user_.Clone() : null;
       actor_ = other.actor_ != null ? other.actor_.Clone() : null;
+      previousValues_ = other.previousValues_ != null ? other.previousValues_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6502,6 +6558,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "previous_values" field.</summary>
+    public const int PreviousValuesFieldNumber = 3;
+    private global::Saltoapis.Nebula.Event.V1.PreviousValues previousValues_;
+    /// <summary>
+    /// The previous values of the user's fields that were changed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.PreviousValues PreviousValues {
+      get { return previousValues_; }
+      set {
+        previousValues_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -6519,6 +6590,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (!object.Equals(User, other.User)) return false;
       if (!object.Equals(Actor, other.Actor)) return false;
+      if (!object.Equals(PreviousValues, other.PreviousValues)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6528,6 +6600,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       int hash = 1;
       if (user_ != null) hash ^= User.GetHashCode();
       if (actor_ != null) hash ^= Actor.GetHashCode();
+      if (previousValues_ != null) hash ^= PreviousValues.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6554,6 +6627,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(Actor);
       }
+      if (previousValues_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PreviousValues);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6572,6 +6649,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(Actor);
       }
+      if (previousValues_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PreviousValues);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -6587,6 +6668,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (actor_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
+      }
+      if (previousValues_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PreviousValues);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -6611,6 +6695,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
         }
         Actor.MergeFrom(other.Actor);
+      }
+      if (other.previousValues_ != null) {
+        if (previousValues_ == null) {
+          PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+        }
+        PreviousValues.MergeFrom(other.PreviousValues);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -6645,6 +6735,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Actor);
             break;
           }
+          case 26: {
+            if (previousValues_ == null) {
+              PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+            }
+            input.ReadMessage(PreviousValues);
+            break;
+          }
         }
       }
     #endif
@@ -6676,6 +6773,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
             }
             input.ReadMessage(Actor);
+            break;
+          }
+          case 26: {
+            if (previousValues_ == null) {
+              PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+            }
+            input.ReadMessage(PreviousValues);
             break;
           }
         }
@@ -11096,6 +11200,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public UnitUpdated(UnitUpdated other) : this() {
       unit_ = other.unit_ != null ? other.unit_.Clone() : null;
       actor_ = other.actor_ != null ? other.actor_.Clone() : null;
+      previousValues_ = other.previousValues_ != null ? other.previousValues_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -11135,6 +11240,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "previous_values" field.</summary>
+    public const int PreviousValuesFieldNumber = 3;
+    private global::Saltoapis.Nebula.Event.V1.PreviousValues previousValues_;
+    /// <summary>
+    /// The previous values of the unit's fields that were changed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.PreviousValues PreviousValues {
+      get { return previousValues_; }
+      set {
+        previousValues_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -11152,6 +11272,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (!object.Equals(Unit, other.Unit)) return false;
       if (!object.Equals(Actor, other.Actor)) return false;
+      if (!object.Equals(PreviousValues, other.PreviousValues)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -11161,6 +11282,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       int hash = 1;
       if (unit_ != null) hash ^= Unit.GetHashCode();
       if (actor_ != null) hash ^= Actor.GetHashCode();
+      if (previousValues_ != null) hash ^= PreviousValues.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -11187,6 +11309,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(Actor);
       }
+      if (previousValues_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PreviousValues);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -11205,6 +11331,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(Actor);
       }
+      if (previousValues_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PreviousValues);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -11220,6 +11350,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (actor_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
+      }
+      if (previousValues_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PreviousValues);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -11244,6 +11377,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
         }
         Actor.MergeFrom(other.Actor);
+      }
+      if (other.previousValues_ != null) {
+        if (previousValues_ == null) {
+          PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+        }
+        PreviousValues.MergeFrom(other.PreviousValues);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -11278,6 +11417,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Actor);
             break;
           }
+          case 26: {
+            if (previousValues_ == null) {
+              PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+            }
+            input.ReadMessage(PreviousValues);
+            break;
+          }
         }
       }
     #endif
@@ -11309,6 +11455,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
             }
             input.ReadMessage(Actor);
+            break;
+          }
+          case 26: {
+            if (previousValues_ == null) {
+              PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+            }
+            input.ReadMessage(PreviousValues);
             break;
           }
         }
@@ -11882,6 +12035,7 @@ namespace Saltoapis.Nebula.Event.V1 {
     public EmergencyKeyUpdated(EmergencyKeyUpdated other) : this() {
       emergencyKey_ = other.emergencyKey_ != null ? other.emergencyKey_.Clone() : null;
       actor_ = other.actor_ != null ? other.actor_.Clone() : null;
+      previousValues_ = other.previousValues_ != null ? other.previousValues_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -11921,6 +12075,21 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
     }
 
+    /// <summary>Field number for the "previous_values" field.</summary>
+    public const int PreviousValuesFieldNumber = 3;
+    private global::Saltoapis.Nebula.Event.V1.PreviousValues previousValues_;
+    /// <summary>
+    /// The previous values of the emergency key's fields that were changed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.Event.V1.PreviousValues PreviousValues {
+      get { return previousValues_; }
+      set {
+        previousValues_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -11938,6 +12107,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (!object.Equals(EmergencyKey, other.EmergencyKey)) return false;
       if (!object.Equals(Actor, other.Actor)) return false;
+      if (!object.Equals(PreviousValues, other.PreviousValues)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -11947,6 +12117,7 @@ namespace Saltoapis.Nebula.Event.V1 {
       int hash = 1;
       if (emergencyKey_ != null) hash ^= EmergencyKey.GetHashCode();
       if (actor_ != null) hash ^= Actor.GetHashCode();
+      if (previousValues_ != null) hash ^= PreviousValues.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -11973,6 +12144,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(Actor);
       }
+      if (previousValues_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PreviousValues);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -11991,6 +12166,10 @@ namespace Saltoapis.Nebula.Event.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(Actor);
       }
+      if (previousValues_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PreviousValues);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -12006,6 +12185,9 @@ namespace Saltoapis.Nebula.Event.V1 {
       }
       if (actor_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Actor);
+      }
+      if (previousValues_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PreviousValues);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -12030,6 +12212,12 @@ namespace Saltoapis.Nebula.Event.V1 {
           Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
         }
         Actor.MergeFrom(other.Actor);
+      }
+      if (other.previousValues_ != null) {
+        if (previousValues_ == null) {
+          PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+        }
+        PreviousValues.MergeFrom(other.PreviousValues);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -12064,6 +12252,13 @@ namespace Saltoapis.Nebula.Event.V1 {
             input.ReadMessage(Actor);
             break;
           }
+          case 26: {
+            if (previousValues_ == null) {
+              PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+            }
+            input.ReadMessage(PreviousValues);
+            break;
+          }
         }
       }
     #endif
@@ -12095,6 +12290,13 @@ namespace Saltoapis.Nebula.Event.V1 {
               Actor = new global::Saltoapis.Nebula.Event.V1.Principal();
             }
             input.ReadMessage(Actor);
+            break;
+          }
+          case 26: {
+            if (previousValues_ == null) {
+              PreviousValues = new global::Saltoapis.Nebula.Event.V1.PreviousValues();
+            }
+            input.ReadMessage(PreviousValues);
             break;
           }
         }
