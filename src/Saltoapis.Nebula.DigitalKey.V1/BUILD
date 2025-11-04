@@ -7,6 +7,7 @@ load_rules(
     lib_name = 'Saltoapis.Nebula.DigitalKey.V1',
     internal_dependencies = [
         '//src/Saltoapis.Longrunning.V1',
+        '//src/Saltoapis.Nebula.Type',
         '//src/Saltoapis.Type',
     ],
     extra_info = {
