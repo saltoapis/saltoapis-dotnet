@@ -62,54 +62,55 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             "bXdhcmVSZXF1ZXN0Eg8KB2VuY29kZXIYASABKAkiHwodVXBkYXRlRW5jb2Rl",
             "ckZpcm13YXJlUmVzcG9uc2UiOQodVXBkYXRlRW5jb2RlckZpcm13YXJlTWV0",
             "YWRhdGESGAoQcHJvZ3Jlc3NfcGVyY2VudBgBIAEoBSIhCg5SZWFkS2V5UmVx",
-            "dWVzdBIPCgdlbmNvZGVyGAEgASgJIloKD1JlYWRLZXlSZXNwb25zZRISCghj",
-            "YXJkX2tleRgBIAEoCUgAEg0KA3VpZBgDIAEoCUgBEhMKCWRldmljZV9pZBgE",
-            "IAEoCUgBQgUKA2tleUIICgZrZXlfaWQiEQoPUmVhZEtleU1ldGFkYXRhIjQK",
-            "IUdlbmVyYXRlQXV0aG9yaXphdGlvblRva2VuUmVxdWVzdBIPCgdlbmNvZGVy",
-            "GAEgASgJIkEKIkdlbmVyYXRlQXV0aG9yaXphdGlvblRva2VuUmVzcG9uc2US",
-            "GwoTYXV0aG9yaXphdGlvbl90b2tlbhgBIAEoDCI1CiJHZW5lcmF0ZUZpcm13",
-            "YXJlRG93bmxvYWRVcmlSZXF1ZXN0Eg8KB2VuY29kZXIYASABKAkiSwojR2Vu",
-            "ZXJhdGVGaXJtd2FyZURvd25sb2FkVXJpUmVzcG9uc2USFAoMZG93bmxvYWRf",
-            "dXJpGAEgASgJEg4KBmRpZ2VzdBgCIAEoCSIlCiNHZW5lcmF0ZUZpcm13YXJl",
-            "RG93bmxvYWRVcmlNZXRhZGF0YTLZCwoORW5jb2RlclNlcnZpY2USYAoNQ3Jl",
-            "YXRlRW5jb2RlchItLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkNyZWF0ZUVu",
-            "Y29kZXJSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuRW5jb2Rl",
-            "chJaCgpHZXRFbmNvZGVyEiouc2FsdG8ubmVidWxhLmVuY29kZXIudjEuR2V0",
-            "RW5jb2RlclJlcXVlc3QaIC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNv",
-            "ZGVyEmsKDExpc3RFbmNvZGVycxIsLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYx",
-            "Lkxpc3RFbmNvZGVyc1JlcXVlc3QaLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52",
-            "MS5MaXN0RW5jb2RlcnNSZXNwb25zZRJgCg1VcGRhdGVFbmNvZGVyEi0uc2Fs",
-            "dG8ubmVidWxhLmVuY29kZXIudjEuVXBkYXRlRW5jb2RlclJlcXVlc3QaIC5z",
-            "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVyElYKDURlbGV0ZUVuY29k",
-            "ZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5EZWxldGVFbmNvZGVyUmVx",
-            "dWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJnChFJbml0aWFsaXplRW5j",
-            "b2RlchIxLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkluaXRpYWxpemVFbmNv",
-            "ZGVyUmVxdWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJl",
-            "ChBDb25maWd1cmVFbmNvZGVyEjAuc2FsdG8ubmVidWxhLmVuY29kZXIudjEu",
-            "Q29uZmlndXJlRW5jb2RlclJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52",
-            "MS5PcGVyYXRpb24SXQoMUmVzZXRFbmNvZGVyEiwuc2FsdG8ubmVidWxhLmVu",
-            "Y29kZXIudjEuUmVzZXRFbmNvZGVyUmVxdWVzdBofLnNhbHRvLmxvbmdydW5u",
-            "aW5nLnYxLk9wZXJhdGlvbhJvChVVcGRhdGVFbmNvZGVyRmlybXdhcmUSNS5z",
-            "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5VcGRhdGVFbmNvZGVyRmlybXdhcmVS",
-            "ZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEmgKC0Jp",
-            "bmRFbmNvZGVyEisuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuQmluZEVuY29k",
-            "ZXJSZXF1ZXN0Giwuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuQmluZEVuY29k",
-            "ZXJSZXNwb25zZRJuCg1VbmJpbmRFbmNvZGVyEi0uc2FsdG8ubmVidWxhLmVu",
-            "Y29kZXIudjEuVW5iaW5kRW5jb2RlclJlcXVlc3QaLi5zYWx0by5uZWJ1bGEu",
-            "ZW5jb2Rlci52MS5VbmJpbmRFbmNvZGVyUmVzcG9uc2USUwoHUmVhZEtleRIn",
-            "LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLlJlYWRLZXlSZXF1ZXN0Gh8uc2Fs",
-            "dG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEpUBChpHZW5lcmF0ZUF1dGhv",
-            "cml6YXRpb25Ub2tlbhI6LnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkdlbmVy",
-            "YXRlQXV0aG9yaXphdGlvblRva2VuUmVxdWVzdBo7LnNhbHRvLm5lYnVsYS5l",
-            "bmNvZGVyLnYxLkdlbmVyYXRlQXV0aG9yaXphdGlvblRva2VuUmVzcG9uc2US",
-            "ewobR2VuZXJhdGVGaXJtd2FyZURvd25sb2FkVXJpEjsuc2FsdG8ubmVidWxh",
-            "LmVuY29kZXIudjEuR2VuZXJhdGVGaXJtd2FyZURvd25sb2FkVXJpUmVxdWVz",
-            "dBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbkLdAQofY29tLnNh",
-            "bHRvYXBpcy5uZWJ1bGEuZW5jb2Rlci52MUIMRW5jb2RlclByb3RvUAFaRGdp",
-            "dGh1Yi5jb20vc2FsdG9hcGlzLWludGVybmFsL3NhbHRvYXBpcy1nby9uZWJ1",
-            "bGEvZW5jb2Rlci92MTtlbmNvZGVyqgIbU2FsdG9hcGlzLk5lYnVsYS5FbmNv",
-            "ZGVyLlYxygIbU2FsdG9hcGlzXE5lYnVsYVxFbmNvZGVyXFYx4gInR1BCTWV0",
-            "YWRhdGFcU2FsdG9hcGlzXE5lYnVsYVxFbmNvZGVyXFYxYgZwcm90bzM="));
+            "dWVzdBIPCgdlbmNvZGVyGAEgASgJInQKD1JlYWRLZXlSZXNwb25zZRISCghj",
+            "YXJkX2tleRgBIAEoCUgAEhgKDmVsZWN0cm9uaWNfa2V5GAIgASgJSAASDQoD",
+            "dWlkGAMgASgJSAESEwoJZGV2aWNlX2lkGAQgASgJSAFCBQoDa2V5QggKBmtl",
+            "eV9pZCIRCg9SZWFkS2V5TWV0YWRhdGEiNAohR2VuZXJhdGVBdXRob3JpemF0",
+            "aW9uVG9rZW5SZXF1ZXN0Eg8KB2VuY29kZXIYASABKAkiQQoiR2VuZXJhdGVB",
+            "dXRob3JpemF0aW9uVG9rZW5SZXNwb25zZRIbChNhdXRob3JpemF0aW9uX3Rv",
+            "a2VuGAEgASgMIjUKIkdlbmVyYXRlRmlybXdhcmVEb3dubG9hZFVyaVJlcXVl",
+            "c3QSDwoHZW5jb2RlchgBIAEoCSJLCiNHZW5lcmF0ZUZpcm13YXJlRG93bmxv",
+            "YWRVcmlSZXNwb25zZRIUCgxkb3dubG9hZF91cmkYASABKAkSDgoGZGlnZXN0",
+            "GAIgASgJIiUKI0dlbmVyYXRlRmlybXdhcmVEb3dubG9hZFVyaU1ldGFkYXRh",
+            "MtkLCg5FbmNvZGVyU2VydmljZRJgCg1DcmVhdGVFbmNvZGVyEi0uc2FsdG8u",
+            "bmVidWxhLmVuY29kZXIudjEuQ3JlYXRlRW5jb2RlclJlcXVlc3QaIC5zYWx0",
+            "by5uZWJ1bGEuZW5jb2Rlci52MS5FbmNvZGVyEloKCkdldEVuY29kZXISKi5z",
+            "YWx0by5uZWJ1bGEuZW5jb2Rlci52MS5HZXRFbmNvZGVyUmVxdWVzdBogLnNh",
+            "bHRvLm5lYnVsYS5lbmNvZGVyLnYxLkVuY29kZXISawoMTGlzdEVuY29kZXJz",
+            "Eiwuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuTGlzdEVuY29kZXJzUmVxdWVz",
+            "dBotLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLkxpc3RFbmNvZGVyc1Jlc3Bv",
+            "bnNlEmAKDVVwZGF0ZUVuY29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52",
+            "MS5VcGRhdGVFbmNvZGVyUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5lbmNvZGVy",
+            "LnYxLkVuY29kZXISVgoNRGVsZXRlRW5jb2RlchItLnNhbHRvLm5lYnVsYS5l",
+            "bmNvZGVyLnYxLkRlbGV0ZUVuY29kZXJSZXF1ZXN0GhYuZ29vZ2xlLnByb3Rv",
+            "YnVmLkVtcHR5EmcKEUluaXRpYWxpemVFbmNvZGVyEjEuc2FsdG8ubmVidWxh",
+            "LmVuY29kZXIudjEuSW5pdGlhbGl6ZUVuY29kZXJSZXF1ZXN0Gh8uc2FsdG8u",
+            "bG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEmUKEENvbmZpZ3VyZUVuY29kZXIS",
+            "MC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5Db25maWd1cmVFbmNvZGVyUmVx",
+            "dWVzdBofLnNhbHRvLmxvbmdydW5uaW5nLnYxLk9wZXJhdGlvbhJdCgxSZXNl",
+            "dEVuY29kZXISLC5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5SZXNldEVuY29k",
+            "ZXJSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5pbmcudjEuT3BlcmF0aW9uEm8K",
+            "FVVwZGF0ZUVuY29kZXJGaXJtd2FyZRI1LnNhbHRvLm5lYnVsYS5lbmNvZGVy",
+            "LnYxLlVwZGF0ZUVuY29kZXJGaXJtd2FyZVJlcXVlc3QaHy5zYWx0by5sb25n",
+            "cnVubmluZy52MS5PcGVyYXRpb24SaAoLQmluZEVuY29kZXISKy5zYWx0by5u",
+            "ZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5jb2RlclJlcXVlc3QaLC5zYWx0by5u",
+            "ZWJ1bGEuZW5jb2Rlci52MS5CaW5kRW5jb2RlclJlc3BvbnNlEm4KDVVuYmlu",
+            "ZEVuY29kZXISLS5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5VbmJpbmRFbmNv",
+            "ZGVyUmVxdWVzdBouLnNhbHRvLm5lYnVsYS5lbmNvZGVyLnYxLlVuYmluZEVu",
+            "Y29kZXJSZXNwb25zZRJTCgdSZWFkS2V5Eicuc2FsdG8ubmVidWxhLmVuY29k",
+            "ZXIudjEuUmVhZEtleVJlcXVlc3QaHy5zYWx0by5sb25ncnVubmluZy52MS5P",
+            "cGVyYXRpb24SlQEKGkdlbmVyYXRlQXV0aG9yaXphdGlvblRva2VuEjouc2Fs",
+            "dG8ubmVidWxhLmVuY29kZXIudjEuR2VuZXJhdGVBdXRob3JpemF0aW9uVG9r",
+            "ZW5SZXF1ZXN0Gjsuc2FsdG8ubmVidWxhLmVuY29kZXIudjEuR2VuZXJhdGVB",
+            "dXRob3JpemF0aW9uVG9rZW5SZXNwb25zZRJ7ChtHZW5lcmF0ZUZpcm13YXJl",
+            "RG93bmxvYWRVcmkSOy5zYWx0by5uZWJ1bGEuZW5jb2Rlci52MS5HZW5lcmF0",
+            "ZUZpcm13YXJlRG93bmxvYWRVcmlSZXF1ZXN0Gh8uc2FsdG8ubG9uZ3J1bm5p",
+            "bmcudjEuT3BlcmF0aW9uQt0BCh9jb20uc2FsdG9hcGlzLm5lYnVsYS5lbmNv",
+            "ZGVyLnYxQgxFbmNvZGVyUHJvdG9QAVpEZ2l0aHViLmNvbS9zYWx0b2FwaXMt",
+            "aW50ZXJuYWwvc2FsdG9hcGlzLWdvL25lYnVsYS9lbmNvZGVyL3YxO2VuY29k",
+            "ZXKqAhtTYWx0b2FwaXMuTmVidWxhLkVuY29kZXIuVjHKAhtTYWx0b2FwaXNc",
+            "TmVidWxhXEVuY29kZXJcVjHiAidHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVi",
+            "dWxhXEVuY29kZXJcVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Saltoapis.Longrunning.V1.OperationReflection.Descriptor, global::Saltoapis.Nebula.Type.DeviceMetadataReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -137,7 +138,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareResponse), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata), global::Saltoapis.Nebula.Encoder.V1.UpdateEncoderFirmwareMetadata.Parser, new[]{ "ProgressPercent" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ReadKeyRequest), global::Saltoapis.Nebula.Encoder.V1.ReadKeyRequest.Parser, new[]{ "Encoder" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ReadKeyResponse), global::Saltoapis.Nebula.Encoder.V1.ReadKeyResponse.Parser, new[]{ "CardKey", "Uid", "DeviceId" }, new[]{ "Key", "KeyId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ReadKeyResponse), global::Saltoapis.Nebula.Encoder.V1.ReadKeyResponse.Parser, new[]{ "CardKey", "ElectronicKey", "Uid", "DeviceId" }, new[]{ "Key", "KeyId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.ReadKeyMetadata), global::Saltoapis.Nebula.Encoder.V1.ReadKeyMetadata.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest), global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenRequest.Parser, new[]{ "Encoder" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse), global::Saltoapis.Nebula.Encoder.V1.GenerateAuthorizationTokenResponse.Parser, new[]{ "AuthorizationToken" }, null, null, null, null),
@@ -5685,6 +5686,9 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         case KeyOneofCase.CardKey:
           CardKey = other.CardKey;
           break;
+        case KeyOneofCase.ElectronicKey:
+          ElectronicKey = other.ElectronicKey;
+          break;
       }
 
       switch (other.KeyIdCase) {
@@ -5730,6 +5734,35 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearCardKey() {
       if (HasCardKey) {
+        ClearKey();
+      }
+    }
+
+    /// <summary>Field number for the "electronic_key" field.</summary>
+    public const int ElectronicKeyFieldNumber = 2;
+    /// <summary>
+    /// Electronic key reference, belonging to a user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ElectronicKey {
+      get { return HasElectronicKey ? (string) key_ : ""; }
+      set {
+        key_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        keyCase_ = KeyOneofCase.ElectronicKey;
+      }
+    }
+    /// <summary>Gets whether the "electronic_key" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasElectronicKey {
+      get { return keyCase_ == KeyOneofCase.ElectronicKey; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "electronic_key" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearElectronicKey() {
+      if (HasElectronicKey) {
         ClearKey();
       }
     }
@@ -5797,6 +5830,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     public enum KeyOneofCase {
       None = 0,
       CardKey = 1,
+      ElectronicKey = 2,
     }
     private KeyOneofCase keyCase_ = KeyOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5849,6 +5883,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         return true;
       }
       if (CardKey != other.CardKey) return false;
+      if (ElectronicKey != other.ElectronicKey) return false;
       if (Uid != other.Uid) return false;
       if (DeviceId != other.DeviceId) return false;
       if (KeyCase != other.KeyCase) return false;
@@ -5861,6 +5896,7 @@ namespace Saltoapis.Nebula.Encoder.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (HasCardKey) hash ^= CardKey.GetHashCode();
+      if (HasElectronicKey) hash ^= ElectronicKey.GetHashCode();
       if (HasUid) hash ^= Uid.GetHashCode();
       if (HasDeviceId) hash ^= DeviceId.GetHashCode();
       hash ^= (int) keyCase_;
@@ -5887,6 +5923,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         output.WriteRawTag(10);
         output.WriteString(CardKey);
       }
+      if (HasElectronicKey) {
+        output.WriteRawTag(18);
+        output.WriteString(ElectronicKey);
+      }
       if (HasUid) {
         output.WriteRawTag(26);
         output.WriteString(Uid);
@@ -5909,6 +5949,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
         output.WriteRawTag(10);
         output.WriteString(CardKey);
       }
+      if (HasElectronicKey) {
+        output.WriteRawTag(18);
+        output.WriteString(ElectronicKey);
+      }
       if (HasUid) {
         output.WriteRawTag(26);
         output.WriteString(Uid);
@@ -5929,6 +5973,9 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       int size = 0;
       if (HasCardKey) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(CardKey);
+      }
+      if (HasElectronicKey) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ElectronicKey);
       }
       if (HasUid) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
@@ -5951,6 +5998,9 @@ namespace Saltoapis.Nebula.Encoder.V1 {
       switch (other.KeyCase) {
         case KeyOneofCase.CardKey:
           CardKey = other.CardKey;
+          break;
+        case KeyOneofCase.ElectronicKey:
+          ElectronicKey = other.ElectronicKey;
           break;
       }
 
@@ -5986,6 +6036,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             CardKey = input.ReadString();
             break;
           }
+          case 18: {
+            ElectronicKey = input.ReadString();
+            break;
+          }
           case 26: {
             Uid = input.ReadString();
             break;
@@ -6015,6 +6069,10 @@ namespace Saltoapis.Nebula.Encoder.V1 {
             break;
           case 10: {
             CardKey = input.ReadString();
+            break;
+          }
+          case 18: {
+            ElectronicKey = input.ReadString();
             break;
           }
           case 26: {
