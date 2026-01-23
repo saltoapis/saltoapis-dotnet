@@ -25,23 +25,23 @@ namespace Saltoapis.Nebula.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CidzYWx0by9uZWJ1bGEvdHlwZS9kZXZpY2VfbWV0YWRhdGEucHJvdG8SEXNh",
-            "bHRvLm5lYnVsYS50eXBlGhVzYWx0by90eXBlL2RhdGUucHJvdG8ipQIKDkRl",
+            "bHRvLm5lYnVsYS50eXBlGhVzYWx0by90eXBlL2RhdGUucHJvdG8itwIKDkRl",
             "dmljZU1ldGFkYXRhEkYKDmNpcmN1aXRfYm9hcmRzGAEgAygLMi4uc2FsdG8u",
-            "bmVidWxhLnR5cGUuRGV2aWNlTWV0YWRhdGEuQ2lyY3VpdEJvYXJkGsoBCgxD",
+            "bmVidWxhLnR5cGUuRGV2aWNlTWV0YWRhdGEuQ2lyY3VpdEJvYXJkGtwBCgxD",
             "aXJjdWl0Qm9hcmQSKgoQbWFudWZhY3R1cmVfZGF0ZRgCIAEoCzIQLnNhbHRv",
             "LnR5cGUuRGF0ZRIVCg1zZXJpYWxfbnVtYmVyGAMgASgJEkoKCWZpcm13YXJl",
             "cxgEIAMoCzI3LnNhbHRvLm5lYnVsYS50eXBlLkRldmljZU1ldGFkYXRhLkNp",
-            "cmN1aXRCb2FyZC5GaXJtd2FyZRorCghGaXJtd2FyZRIOCgZudW1iZXIYASAB",
-            "KAkSDwoHdmVyc2lvbhgCIAEoCULcAQoZY29tLnNhbHRvYXBpcy5uZWJ1bGEu",
-            "dHlwZUITRGV2aWNlTWV0YWRhdGFQcm90b1ABWlRnaXRodWIuY29tL3NhbHRv",
-            "YXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL3R5cGUvZGV2aWNl",
-            "bWV0YWRhdGE7ZGV2aWNlbWV0YWRhdGGqAhVTYWx0b2FwaXMuTmVidWxhLlR5",
-            "cGXKAhVTYWx0b2FwaXNcTmVidWxhXFR5cGXiAiFHUEJNZXRhZGF0YVxTYWx0",
-            "b2FwaXNcTmVidWxhXFR5cGViBnByb3RvMw=="));
+            "cmN1aXRCb2FyZC5GaXJtd2FyZRo9CghGaXJtd2FyZRIOCgZudW1iZXIYASAB",
+            "KAkSDwoHdmVyc2lvbhgCIAEoCRIQCghyZXZpc2lvbhgDIAEoCULcAQoZY29t",
+            "LnNhbHRvYXBpcy5uZWJ1bGEudHlwZUITRGV2aWNlTWV0YWRhdGFQcm90b1AB",
+            "WlRnaXRodWIuY29tL3NhbHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28v",
+            "bmVidWxhL3R5cGUvZGV2aWNlbWV0YWRhdGE7ZGV2aWNlbWV0YWRhdGGqAhVT",
+            "YWx0b2FwaXMuTmVidWxhLlR5cGXKAhVTYWx0b2FwaXNcTmVidWxhXFR5cGXi",
+            "AiFHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVidWxhXFR5cGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Saltoapis.Type.DateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Type.DeviceMetadata), global::Saltoapis.Nebula.Type.DeviceMetadata.Parser, new[]{ "CircuitBoards" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Type.DeviceMetadata.Types.CircuitBoard), global::Saltoapis.Nebula.Type.DeviceMetadata.Types.CircuitBoard.Parser, new[]{ "ManufactureDate", "SerialNumber", "Firmwares" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Type.DeviceMetadata.Types.CircuitBoard.Types.Firmware), global::Saltoapis.Nebula.Type.DeviceMetadata.Types.CircuitBoard.Types.Firmware.Parser, new[]{ "Number", "Version" }, null, null, null, null)})})
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Type.DeviceMetadata), global::Saltoapis.Nebula.Type.DeviceMetadata.Parser, new[]{ "CircuitBoards" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Type.DeviceMetadata.Types.CircuitBoard), global::Saltoapis.Nebula.Type.DeviceMetadata.Types.CircuitBoard.Parser, new[]{ "ManufactureDate", "SerialNumber", "Firmwares" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Type.DeviceMetadata.Types.CircuitBoard.Types.Firmware), global::Saltoapis.Nebula.Type.DeviceMetadata.Types.CircuitBoard.Types.Firmware.Parser, new[]{ "Number", "Version", "Revision" }, null, null, null, null)})})
           }));
     }
     #endregion
@@ -569,6 +569,7 @@ namespace Saltoapis.Nebula.Type {
             public Firmware(Firmware other) : this() {
               number_ = other.number_;
               version_ = other.version_;
+              revision_ = other.revision_;
               _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
             }
 
@@ -608,6 +609,21 @@ namespace Saltoapis.Nebula.Type {
               }
             }
 
+            /// <summary>Field number for the "revision" field.</summary>
+            public const int RevisionFieldNumber = 3;
+            private string revision_ = "";
+            /// <summary>
+            /// Firmware revision of a specific firmware number and version.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public string Revision {
+              get { return revision_; }
+              set {
+                revision_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+              }
+            }
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public override bool Equals(object other) {
@@ -625,6 +641,7 @@ namespace Saltoapis.Nebula.Type {
               }
               if (Number != other.Number) return false;
               if (Version != other.Version) return false;
+              if (Revision != other.Revision) return false;
               return Equals(_unknownFields, other._unknownFields);
             }
 
@@ -634,6 +651,7 @@ namespace Saltoapis.Nebula.Type {
               int hash = 1;
               if (Number.Length != 0) hash ^= Number.GetHashCode();
               if (Version.Length != 0) hash ^= Version.GetHashCode();
+              if (Revision.Length != 0) hash ^= Revision.GetHashCode();
               if (_unknownFields != null) {
                 hash ^= _unknownFields.GetHashCode();
               }
@@ -660,6 +678,10 @@ namespace Saltoapis.Nebula.Type {
                 output.WriteRawTag(18);
                 output.WriteString(Version);
               }
+              if (Revision.Length != 0) {
+                output.WriteRawTag(26);
+                output.WriteString(Revision);
+              }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(output);
               }
@@ -678,6 +700,10 @@ namespace Saltoapis.Nebula.Type {
                 output.WriteRawTag(18);
                 output.WriteString(Version);
               }
+              if (Revision.Length != 0) {
+                output.WriteRawTag(26);
+                output.WriteString(Revision);
+              }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(ref output);
               }
@@ -693,6 +719,9 @@ namespace Saltoapis.Nebula.Type {
               }
               if (Version.Length != 0) {
                 size += 1 + pb::CodedOutputStream.ComputeStringSize(Version);
+              }
+              if (Revision.Length != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeStringSize(Revision);
               }
               if (_unknownFields != null) {
                 size += _unknownFields.CalculateSize();
@@ -711,6 +740,9 @@ namespace Saltoapis.Nebula.Type {
               }
               if (other.Version.Length != 0) {
                 Version = other.Version;
+              }
+              if (other.Revision.Length != 0) {
+                Revision = other.Revision;
               }
               _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
             }
@@ -739,6 +771,10 @@ namespace Saltoapis.Nebula.Type {
                     Version = input.ReadString();
                     break;
                   }
+                  case 26: {
+                    Revision = input.ReadString();
+                    break;
+                  }
                 }
               }
             #endif
@@ -764,6 +800,10 @@ namespace Saltoapis.Nebula.Type {
                   }
                   case 18: {
                     Version = input.ReadString();
+                    break;
+                  }
+                  case 26: {
+                    Revision = input.ReadString();
                     break;
                   }
                 }
