@@ -88,8 +88,6 @@ namespace Saltoapis.Nebula.Booking.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Booking.V1.ListBookingUsersResponse> __Marshaller_salto_nebula_booking_v1_ListBookingUsersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Booking.V1.ListBookingUsersResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Booking.V1.UpdateBookingUserRequest> __Marshaller_salto_nebula_booking_v1_UpdateBookingUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Booking.V1.UpdateBookingUserRequest.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Booking.V1.DeleteBookingUserRequest> __Marshaller_salto_nebula_booking_v1_DeleteBookingUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Booking.V1.DeleteBookingUserRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -171,14 +169,6 @@ namespace Saltoapis.Nebula.Booking.V1 {
         "ListBookingUsers",
         __Marshaller_salto_nebula_booking_v1_ListBookingUsersRequest,
         __Marshaller_salto_nebula_booking_v1_ListBookingUsersResponse);
-
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Saltoapis.Nebula.Booking.V1.UpdateBookingUserRequest, global::Saltoapis.Nebula.Booking.V1.BookingUser> __Method_UpdateBookingUser = new grpc::Method<global::Saltoapis.Nebula.Booking.V1.UpdateBookingUserRequest, global::Saltoapis.Nebula.Booking.V1.BookingUser>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "UpdateBookingUser",
-        __Marshaller_salto_nebula_booking_v1_UpdateBookingUserRequest,
-        __Marshaller_salto_nebula_booking_v1_BookingUser);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Booking.V1.DeleteBookingUserRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_DeleteBookingUser = new grpc::Method<global::Saltoapis.Nebula.Booking.V1.DeleteBookingUserRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
@@ -780,62 +770,6 @@ namespace Saltoapis.Nebula.Booking.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Booking.V1.ListBookingUsersResponse> ListBookingUsersAsync(global::Saltoapis.Nebula.Booking.V1.ListBookingUsersRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListBookingUsers, null, options, request);
-      }
-      /// <summary>
-      /// Update a booking user
-      ///
-      /// Updates an existing booking's user association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.Booking.V1.BookingUser UpdateBookingUser(global::Saltoapis.Nebula.Booking.V1.UpdateBookingUserRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UpdateBookingUser(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Update a booking user
-      ///
-      /// Updates an existing booking's user association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Saltoapis.Nebula.Booking.V1.BookingUser UpdateBookingUser(global::Saltoapis.Nebula.Booking.V1.UpdateBookingUserRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_UpdateBookingUser, null, options, request);
-      }
-      /// <summary>
-      /// Update a booking user
-      ///
-      /// Updates an existing booking's user association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Booking.V1.BookingUser> UpdateBookingUserAsync(global::Saltoapis.Nebula.Booking.V1.UpdateBookingUserRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UpdateBookingUserAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// Update a booking user
-      ///
-      /// Updates an existing booking's user association.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Booking.V1.BookingUser> UpdateBookingUserAsync(global::Saltoapis.Nebula.Booking.V1.UpdateBookingUserRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_UpdateBookingUser, null, options, request);
       }
       /// <summary>
       /// Delete a booking user
