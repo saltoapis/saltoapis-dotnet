@@ -53,44 +53,52 @@ namespace Saltoapis.Nebula.Booking.V1 {
             "ZXN0EgwKBG5hbWUYASABKAkiKQoLQm9va2luZ1VzZXISDAoEbmFtZRgBIAEo",
             "CRIMCgR1c2VyGAIgASgJImYKGENyZWF0ZUJvb2tpbmdVc2VyUmVxdWVzdBIO",
             "CgZwYXJlbnQYASABKAkSOgoMYm9va2luZ191c2VyGAIgASgLMiQuc2FsdG8u",
-            "bmVidWxhLmJvb2tpbmcudjEuQm9va2luZ1VzZXIiJQoVR2V0Qm9va2luZ1Vz",
-            "ZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkicgoXTGlzdEJvb2tpbmdVc2Vyc1Jl",
-            "cXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpw",
-            "YWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgEIAEoCRIQCghvcmRlcl9ieRgF",
-            "IAEoCSJwChhMaXN0Qm9va2luZ1VzZXJzUmVzcG9uc2USOwoNYm9va2luZ191",
-            "c2VycxgBIAMoCzIkLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJvb2tpbmdV",
-            "c2VyEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSIoChhEZWxldGVCb29raW5n",
-            "VXNlclJlcXVlc3QSDAoEbmFtZRgBIAEoCTLuCAoOQm9va2luZ1NlcnZpY2US",
-            "YAoNQ3JlYXRlQm9va2luZxItLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkNy",
-            "ZWF0ZUJvb2tpbmdSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEu",
-            "Qm9va2luZxJaCgpHZXRCb29raW5nEiouc2FsdG8ubmVidWxhLmJvb2tpbmcu",
-            "djEuR2V0Qm9va2luZ1JlcXVlc3QaIC5zYWx0by5uZWJ1bGEuYm9va2luZy52",
-            "MS5Cb29raW5nEmsKDExpc3RCb29raW5ncxIsLnNhbHRvLm5lYnVsYS5ib29r",
-            "aW5nLnYxLkxpc3RCb29raW5nc1JlcXVlc3QaLS5zYWx0by5uZWJ1bGEuYm9v",
-            "a2luZy52MS5MaXN0Qm9va2luZ3NSZXNwb25zZRJgCg1VcGRhdGVCb29raW5n",
-            "Ei0uc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuVXBkYXRlQm9va2luZ1JlcXVl",
-            "c3QaIC5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5Cb29raW5nElYKDURlbGV0",
-            "ZUJvb2tpbmcSLS5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5EZWxldGVCb29r",
-            "aW5nUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJiCg5DaGVja0lu",
-            "Qm9va2luZxIuLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkNoZWNrSW5Cb29r",
+            "bmVidWxhLmJvb2tpbmcudjEuQm9va2luZ1VzZXIidQoeQmF0Y2hDcmVhdGVC",
+            "b29raW5nVXNlcnNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRJDCghyZXF1ZXN0",
+            "cxgCIAMoCzIxLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkNyZWF0ZUJvb2tp",
+            "bmdVc2VyUmVxdWVzdCJeCh9CYXRjaENyZWF0ZUJvb2tpbmdVc2Vyc1Jlc3Bv",
+            "bnNlEjsKDWJvb2tpbmdfdXNlcnMYASADKAsyJC5zYWx0by5uZWJ1bGEuYm9v",
+            "a2luZy52MS5Cb29raW5nVXNlciIlChVHZXRCb29raW5nVXNlclJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCSJyChdMaXN0Qm9va2luZ1VzZXJzUmVxdWVzdBIOCgZw",
+            "YXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4Y",
+            "AyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJInAKGExp",
+            "c3RCb29raW5nVXNlcnNSZXNwb25zZRI7Cg1ib29raW5nX3VzZXJzGAEgAygL",
+            "MiQuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2luZ1VzZXISFwoPbmV4",
+            "dF9wYWdlX3Rva2VuGAIgASgJIigKGERlbGV0ZUJvb2tpbmdVc2VyUmVxdWVz",
+            "dBIMCgRuYW1lGAEgASgJMv0JCg5Cb29raW5nU2VydmljZRJgCg1DcmVhdGVC",
+            "b29raW5nEi0uc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQ3JlYXRlQm9va2lu",
+            "Z1JlcXVlc3QaIC5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5Cb29raW5nEloK",
+            "CkdldEJvb2tpbmcSKi5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5HZXRCb29r",
             "aW5nUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJvb2tpbmcS",
-            "ZAoPQ2hlY2tPdXRCb29raW5nEi8uc2FsdG8ubmVidWxhLmJvb2tpbmcudjEu",
-            "Q2hlY2tPdXRCb29raW5nUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5ib29raW5n",
-            "LnYxLkJvb2tpbmcSbAoRQ3JlYXRlQm9va2luZ1VzZXISMS5zYWx0by5uZWJ1",
-            "bGEuYm9va2luZy52MS5DcmVhdGVCb29raW5nVXNlclJlcXVlc3QaJC5zYWx0",
-            "by5uZWJ1bGEuYm9va2luZy52MS5Cb29raW5nVXNlchJmCg5HZXRCb29raW5n",
-            "VXNlchIuLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkdldEJvb2tpbmdVc2Vy",
-            "UmVxdWVzdBokLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJvb2tpbmdVc2Vy",
-            "EncKEExpc3RCb29raW5nVXNlcnMSMC5zYWx0by5uZWJ1bGEuYm9va2luZy52",
-            "MS5MaXN0Qm9va2luZ1VzZXJzUmVxdWVzdBoxLnNhbHRvLm5lYnVsYS5ib29r",
-            "aW5nLnYxLkxpc3RCb29raW5nVXNlcnNSZXNwb25zZRJeChFEZWxldGVCb29r",
-            "aW5nVXNlchIxLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkRlbGV0ZUJvb2tp",
-            "bmdVc2VyUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eULdAQofY29t",
-            "LnNhbHRvYXBpcy5uZWJ1bGEuYm9va2luZy52MUIMQm9va2luZ1Byb3RvUAFa",
-            "RGdpdGh1Yi5jb20vc2FsdG9hcGlzLWludGVybmFsL3NhbHRvYXBpcy1nby9u",
-            "ZWJ1bGEvYm9va2luZy92MTtib29raW5nqgIbU2FsdG9hcGlzLk5lYnVsYS5C",
-            "b29raW5nLlYxygIbU2FsdG9hcGlzXE5lYnVsYVxCb29raW5nXFYx4gInR1BC",
-            "TWV0YWRhdGFcU2FsdG9hcGlzXE5lYnVsYVxCb29raW5nXFYxYgZwcm90bzM="));
+            "awoMTGlzdEJvb2tpbmdzEiwuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuTGlz",
+            "dEJvb2tpbmdzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkxp",
+            "c3RCb29raW5nc1Jlc3BvbnNlEmAKDVVwZGF0ZUJvb2tpbmcSLS5zYWx0by5u",
+            "ZWJ1bGEuYm9va2luZy52MS5VcGRhdGVCb29raW5nUmVxdWVzdBogLnNhbHRv",
+            "Lm5lYnVsYS5ib29raW5nLnYxLkJvb2tpbmcSVgoNRGVsZXRlQm9va2luZxIt",
+            "LnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkRlbGV0ZUJvb2tpbmdSZXF1ZXN0",
+            "GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmIKDkNoZWNrSW5Cb29raW5nEi4u",
+            "c2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQ2hlY2tJbkJvb2tpbmdSZXF1ZXN0",
+            "GiAuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2luZxJkCg9DaGVja091",
+            "dEJvb2tpbmcSLy5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5DaGVja091dEJv",
+            "b2tpbmdSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2lu",
+            "ZxJsChFDcmVhdGVCb29raW5nVXNlchIxLnNhbHRvLm5lYnVsYS5ib29raW5n",
+            "LnYxLkNyZWF0ZUJvb2tpbmdVc2VyUmVxdWVzdBokLnNhbHRvLm5lYnVsYS5i",
+            "b29raW5nLnYxLkJvb2tpbmdVc2VyEowBChdCYXRjaENyZWF0ZUJvb2tpbmdV",
+            "c2VycxI3LnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJhdGNoQ3JlYXRlQm9v",
+            "a2luZ1VzZXJzUmVxdWVzdBo4LnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJh",
+            "dGNoQ3JlYXRlQm9va2luZ1VzZXJzUmVzcG9uc2USZgoOR2V0Qm9va2luZ1Vz",
+            "ZXISLi5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5HZXRCb29raW5nVXNlclJl",
+            "cXVlc3QaJC5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5Cb29raW5nVXNlchJ3",
+            "ChBMaXN0Qm9va2luZ1VzZXJzEjAuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEu",
+            "TGlzdEJvb2tpbmdVc2Vyc1JlcXVlc3QaMS5zYWx0by5uZWJ1bGEuYm9va2lu",
+            "Zy52MS5MaXN0Qm9va2luZ1VzZXJzUmVzcG9uc2USXgoRRGVsZXRlQm9va2lu",
+            "Z1VzZXISMS5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5EZWxldGVCb29raW5n",
+            "VXNlclJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHlC3QEKH2NvbS5z",
+            "YWx0b2FwaXMubmVidWxhLmJvb2tpbmcudjFCDEJvb2tpbmdQcm90b1ABWkRn",
+            "aXRodWIuY29tL3NhbHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVi",
+            "dWxhL2Jvb2tpbmcvdjE7Ym9va2luZ6oCG1NhbHRvYXBpcy5OZWJ1bGEuQm9v",
+            "a2luZy5WMcoCG1NhbHRvYXBpc1xOZWJ1bGFcQm9va2luZ1xWMeICJ0dQQk1l",
+            "dGFkYXRhXFNhbHRvYXBpc1xOZWJ1bGFcQm9va2luZ1xWMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -105,6 +113,8 @@ namespace Saltoapis.Nebula.Booking.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.CheckOutBookingRequest), global::Saltoapis.Nebula.Booking.V1.CheckOutBookingRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.BookingUser), global::Saltoapis.Nebula.Booking.V1.BookingUser.Parser, new[]{ "Name", "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.CreateBookingUserRequest), global::Saltoapis.Nebula.Booking.V1.CreateBookingUserRequest.Parser, new[]{ "Parent", "BookingUser" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest), global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest.Parser, new[]{ "Parent", "Requests" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse), global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse.Parser, new[]{ "BookingUsers" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.GetBookingUserRequest), global::Saltoapis.Nebula.Booking.V1.GetBookingUserRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.ListBookingUsersRequest), global::Saltoapis.Nebula.Booking.V1.ListBookingUsersRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.ListBookingUsersResponse), global::Saltoapis.Nebula.Booking.V1.ListBookingUsersResponse.Parser, new[]{ "BookingUsers", "NextPageToken" }, null, null, null, null),
@@ -3212,6 +3222,434 @@ namespace Saltoapis.Nebula.Booking.V1 {
   }
 
   /// <summary>
+  /// The request message for [`BatchCreateBookingUsers`][salto.nebula.booking.v1.BookingService.BatchCreateBookingUsers]
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BatchCreateBookingUsersRequest : pb::IMessage<BatchCreateBookingUsersRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BatchCreateBookingUsersRequest> _parser = new pb::MessageParser<BatchCreateBookingUsersRequest>(() => new BatchCreateBookingUsersRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BatchCreateBookingUsersRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchCreateBookingUsersRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchCreateBookingUsersRequest(BatchCreateBookingUsersRequest other) : this() {
+      parent_ = other.parent_;
+      requests_ = other.requests_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchCreateBookingUsersRequest Clone() {
+      return new BatchCreateBookingUsersRequest(this);
+    }
+
+    /// <summary>Field number for the "parent" field.</summary>
+    public const int ParentFieldNumber = 1;
+    private string parent_ = "";
+    /// <summary>
+    /// Resource name of the parent resource where the booking users associations are to be created. For example:
+    /// `installations/surelock-homes-hq/bookings/my-booking`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Parent {
+      get { return parent_; }
+      set {
+        parent_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "requests" field.</summary>
+    public const int RequestsFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.Booking.V1.CreateBookingUserRequest> _repeated_requests_codec
+        = pb::FieldCodec.ForMessage(18, global::Saltoapis.Nebula.Booking.V1.CreateBookingUserRequest.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.Booking.V1.CreateBookingUserRequest> requests_ = new pbc::RepeatedField<global::Saltoapis.Nebula.Booking.V1.CreateBookingUserRequest>();
+    /// <summary>
+    /// The request message specifying the resources to create.
+    /// A maximum of 10 booking users can be created in a batch.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Saltoapis.Nebula.Booking.V1.CreateBookingUserRequest> Requests {
+      get { return requests_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BatchCreateBookingUsersRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BatchCreateBookingUsersRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Parent != other.Parent) return false;
+      if(!requests_.Equals(other.requests_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Parent.Length != 0) hash ^= Parent.GetHashCode();
+      hash ^= requests_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      requests_.WriteTo(output, _repeated_requests_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Parent.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Parent);
+      }
+      requests_.WriteTo(ref output, _repeated_requests_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Parent.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Parent);
+      }
+      size += requests_.CalculateSize(_repeated_requests_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BatchCreateBookingUsersRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Parent.Length != 0) {
+        Parent = other.Parent;
+      }
+      requests_.Add(other.requests_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            requests_.AddEntriesFrom(input, _repeated_requests_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Parent = input.ReadString();
+            break;
+          }
+          case 18: {
+            requests_.AddEntriesFrom(ref input, _repeated_requests_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The response message for [`BatchCreateBookingUsers`][salto.nebula.booking.v1.BookingService.BatchCreateBookingUsers]
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BatchCreateBookingUsersResponse : pb::IMessage<BatchCreateBookingUsersResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BatchCreateBookingUsersResponse> _parser = new pb::MessageParser<BatchCreateBookingUsersResponse>(() => new BatchCreateBookingUsersResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BatchCreateBookingUsersResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchCreateBookingUsersResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchCreateBookingUsersResponse(BatchCreateBookingUsersResponse other) : this() {
+      bookingUsers_ = other.bookingUsers_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BatchCreateBookingUsersResponse Clone() {
+      return new BatchCreateBookingUsersResponse(this);
+    }
+
+    /// <summary>Field number for the "booking_users" field.</summary>
+    public const int BookingUsersFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Saltoapis.Nebula.Booking.V1.BookingUser> _repeated_bookingUsers_codec
+        = pb::FieldCodec.ForMessage(10, global::Saltoapis.Nebula.Booking.V1.BookingUser.Parser);
+    private readonly pbc::RepeatedField<global::Saltoapis.Nebula.Booking.V1.BookingUser> bookingUsers_ = new pbc::RepeatedField<global::Saltoapis.Nebula.Booking.V1.BookingUser>();
+    /// <summary>
+    /// The booking users associations that were created
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Saltoapis.Nebula.Booking.V1.BookingUser> BookingUsers {
+      get { return bookingUsers_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BatchCreateBookingUsersResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BatchCreateBookingUsersResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!bookingUsers_.Equals(other.bookingUsers_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= bookingUsers_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      bookingUsers_.WriteTo(output, _repeated_bookingUsers_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      bookingUsers_.WriteTo(ref output, _repeated_bookingUsers_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += bookingUsers_.CalculateSize(_repeated_bookingUsers_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BatchCreateBookingUsersResponse other) {
+      if (other == null) {
+        return;
+      }
+      bookingUsers_.Add(other.bookingUsers_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            bookingUsers_.AddEntriesFrom(input, _repeated_bookingUsers_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            bookingUsers_.AddEntriesFrom(ref input, _repeated_bookingUsers_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// The request message for [`GetBookingUser`][salto.nebula.booking.v1.BookingService.GetBookingUser]
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
@@ -3229,7 +3667,7 @@ namespace Saltoapis.Nebula.Booking.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3435,7 +3873,7 @@ namespace Saltoapis.Nebula.Booking.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3800,7 +4238,7 @@ namespace Saltoapis.Nebula.Booking.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4036,7 +4474,7 @@ namespace Saltoapis.Nebula.Booking.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Saltoapis.Nebula.Booking.V1.BookingReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

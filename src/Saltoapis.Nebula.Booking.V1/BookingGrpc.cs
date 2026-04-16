@@ -82,6 +82,10 @@ namespace Saltoapis.Nebula.Booking.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Booking.V1.BookingUser> __Marshaller_salto_nebula_booking_v1_BookingUser = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Booking.V1.BookingUser.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest> __Marshaller_salto_nebula_booking_v1_BatchCreateBookingUsersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse> __Marshaller_salto_nebula_booking_v1_BatchCreateBookingUsersResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Booking.V1.GetBookingUserRequest> __Marshaller_salto_nebula_booking_v1_GetBookingUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Booking.V1.GetBookingUserRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Saltoapis.Nebula.Booking.V1.ListBookingUsersRequest> __Marshaller_salto_nebula_booking_v1_ListBookingUsersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Saltoapis.Nebula.Booking.V1.ListBookingUsersRequest.Parser));
@@ -153,6 +157,14 @@ namespace Saltoapis.Nebula.Booking.V1 {
         "CreateBookingUser",
         __Marshaller_salto_nebula_booking_v1_CreateBookingUserRequest,
         __Marshaller_salto_nebula_booking_v1_BookingUser);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest, global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse> __Method_BatchCreateBookingUsers = new grpc::Method<global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest, global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BatchCreateBookingUsers",
+        __Marshaller_salto_nebula_booking_v1_BatchCreateBookingUsersRequest,
+        __Marshaller_salto_nebula_booking_v1_BatchCreateBookingUsersResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Saltoapis.Nebula.Booking.V1.GetBookingUserRequest, global::Saltoapis.Nebula.Booking.V1.BookingUser> __Method_GetBookingUser = new grpc::Method<global::Saltoapis.Nebula.Booking.V1.GetBookingUserRequest, global::Saltoapis.Nebula.Booking.V1.BookingUser>(
@@ -658,6 +670,66 @@ namespace Saltoapis.Nebula.Booking.V1 {
       public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Booking.V1.BookingUser> CreateBookingUserAsync(global::Saltoapis.Nebula.Booking.V1.CreateBookingUserRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateBookingUser, null, options, request);
+      }
+      /// <summary>
+      /// Create a batch of booking users
+      ///
+      /// Creates a batch of booking users. This method allows the creation of
+      /// multiple booking users in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse BatchCreateBookingUsers(global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchCreateBookingUsers(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a batch of booking users
+      ///
+      /// Creates a batch of booking users. This method allows the creation of
+      /// multiple booking users in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse BatchCreateBookingUsers(global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BatchCreateBookingUsers, null, options, request);
+      }
+      /// <summary>
+      /// Create a batch of booking users
+      ///
+      /// Creates a batch of booking users. This method allows the creation of
+      /// multiple booking users in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse> BatchCreateBookingUsersAsync(global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BatchCreateBookingUsersAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Create a batch of booking users
+      ///
+      /// Creates a batch of booking users. This method allows the creation of
+      /// multiple booking users in a single operation.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersResponse> BatchCreateBookingUsersAsync(global::Saltoapis.Nebula.Booking.V1.BatchCreateBookingUsersRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BatchCreateBookingUsers, null, options, request);
       }
       /// <summary>
       /// Get a booking user
