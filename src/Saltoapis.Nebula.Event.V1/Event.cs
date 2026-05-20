@@ -197,13 +197,16 @@ namespace Saltoapis.Nebula.Event.V1 {
     public const int DataFieldNumber = 6;
     private global::Google.Protobuf.WellKnownTypes.Struct data_;
     /// <summary>
-    /// The event entry payload, represented as a structure that is
-    /// expressed as a JSON object.
+    /// While the entire field is not filterable, filtering is supported on
+    /// the following sub-fields:
     ///
-    /// While the entire field is not filterable, filtering is only supported on data.access_point.
-    /// This can be used in the filter field of ListEventsRequest:
-    /// "data.access_point == 'installations/surelock-homes-hq/access-points/baker-street-entrance'"
-    /// This returns all events where the access point matches the specified name.
+    ///   - data.access_point: Filters events by access point. For example:
+    ///     "data.access_point == 'installations/surelock-homes-hq/access-points/baker-street-entrance'"
+    ///
+    ///   - data.user: Filters events by user. For example:
+    ///     "data.user == 'installations/surelock-homes-hq/users/john-doe'"
+    ///
+    /// These can be used in the filter field of ListEventsRequest.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
