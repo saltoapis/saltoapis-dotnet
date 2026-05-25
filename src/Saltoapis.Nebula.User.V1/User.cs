@@ -8992,7 +8992,7 @@ namespace Saltoapis.Nebula.User.V1 {
   }
 
   /// <summary>
-  /// The request message for [`AssignDigitalkey`][salto.nebula.user.v1.UserService.AssignDigitalkey]
+  /// The request message for [`AssignAppKey`][salto.nebula.user.v1.UserService.AssignAppKey]
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AssignAppKeyRequest : pb::IMessage<AssignAppKeyRequest>
