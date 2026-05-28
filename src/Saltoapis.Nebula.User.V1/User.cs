@@ -2277,10 +2277,8 @@ namespace Saltoapis.Nebula.User.V1 {
     private bool outdated_;
     /// <summary>
     /// Indicates whether this app key has pending updates or not.
-    /// This field cannot be modified using a standard
-    /// [`UpdateAppKey`][salto.nebula.user.v1.UserService.UpdateAppKey]
-    /// operation. To change the value of this field, you must call
-    /// [`OutdateAppKey`][salto.nebula.user.v1.UserService.OutdateAppKey].
+    ///
+    /// Deprecated: This field is deprecated and should not be used.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
