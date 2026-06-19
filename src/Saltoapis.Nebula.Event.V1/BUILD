@@ -11,7 +11,6 @@ load_rules(
         '//src/Saltoapis.Nebula.Booking.V1',
         '//src/Saltoapis.Nebula.Controller.V1',
         '//src/Salto.Nebula.EmergencyKey.V1',
-        '//src/Saltoapis.Nebula.Installation.V1',
         '//src/Saltoapis.Nebula.Unit.V1',
         '//src/Saltoapis.Nebula.User.V1',
     ],
