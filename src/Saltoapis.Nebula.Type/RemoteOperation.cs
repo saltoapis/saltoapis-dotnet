@@ -42,19 +42,20 @@ namespace Saltoapis.Nebula.Type {
   }
   #region Enums
   /// <summary>
-  /// Specifies the remote operation supported by the app key.
+  /// Specifies a remote operation that an app key can perform on an access
+  /// point via a mobile phone.
   /// </summary>
   public enum AppKeyRemoteOperation {
     /// <summary>
-    /// Unspecified or unknown remote operation.
+    /// Unspecified. This value is not allowed and will be rejected by the API.
     /// </summary>
     [pbr::OriginalName("APP_KEY_REMOTE_OPERATION_UNSPECIFIED")] Unspecified = 0,
     /// <summary>
-    /// Locks the access point remotely.
+    /// Remotely locks the access point.
     /// </summary>
     [pbr::OriginalName("LOCK")] Lock = 1,
     /// <summary>
-    /// Unlocks the access point remotely.
+    /// Remotely unlocks the access point.
     /// </summary>
     [pbr::OriginalName("UNLOCK")] Unlock = 2,
   }
