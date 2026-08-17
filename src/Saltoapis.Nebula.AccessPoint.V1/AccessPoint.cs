@@ -347,6 +347,7 @@ namespace Saltoapis.Nebula.AccessPoint.V1 {
     /// <summary>
     /// The duration the access point remains unlocked. This field is optional
     /// for the server to check for its presence and assign a default value if it's missing.
+    /// Allowed values are between 1 s and 30 m when set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
