@@ -58,6 +58,7 @@ csharp_projects = [
     '//src/Salto.Nebula.EmergencyKey.V1',
     '//src/Saltoapis.Nebula.File.V1',
     '//src/Saltoapis.Nebula.Iam.V1',
+    '//src/Saltoapis.Nebula.ServiceAccount.V1',
     '//src/Saltoapis.Nebula.Unit.V1',
     '//src/Saltoapis.Type',
     '//src/Saltoapis.Nebula.Extender.V1',
