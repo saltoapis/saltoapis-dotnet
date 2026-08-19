@@ -25,14 +25,15 @@ namespace Saltoapis.Nebula.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CihzYWx0by9uZWJ1bGEvdHlwZS9yZW1vdGVfb3BlcmF0aW9uLnByb3RvEhFz",
-            "YWx0by5uZWJ1bGEudHlwZSpXChVBcHBLZXlSZW1vdGVPcGVyYXRpb24SKAok",
-            "QVBQX0tFWV9SRU1PVEVfT1BFUkFUSU9OX1VOU1BFQ0lGSUVEEAASCAoETE9D",
-            "SxABEgoKBlVOTE9DSxACQt8BChljb20uc2FsdG9hcGlzLm5lYnVsYS50eXBl",
-            "QhRSZW1vdGVPcGVyYXRpb25Qcm90b1ABWlZnaXRodWIuY29tL3NhbHRvYXBp",
-            "cy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL3R5cGUvcmVtb3Rlb3Bl",
-            "cmF0aW9uO3JlbW90ZW9wZXJhdGlvbqoCFVNhbHRvYXBpcy5OZWJ1bGEuVHlw",
-            "ZcoCFVNhbHRvYXBpc1xOZWJ1bGFcVHlwZeICIUdQQk1ldGFkYXRhXFNhbHRv",
-            "YXBpc1xOZWJ1bGFcVHlwZWIGcHJvdG8z"));
+            "YWx0by5uZWJ1bGEudHlwZSqJAQoVQXBwS2V5UmVtb3RlT3BlcmF0aW9uEigK",
+            "JEFQUF9LRVlfUkVNT1RFX09QRVJBVElPTl9VTlNQRUNJRklFRBAAEiEKHUFQ",
+            "UF9LRVlfUkVNT1RFX09QRVJBVElPTl9MT0NLEAESIwofQVBQX0tFWV9SRU1P",
+            "VEVfT1BFUkFUSU9OX1VOTE9DSxACQt8BChljb20uc2FsdG9hcGlzLm5lYnVs",
+            "YS50eXBlQhRSZW1vdGVPcGVyYXRpb25Qcm90b1ABWlZnaXRodWIuY29tL3Nh",
+            "bHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL3R5cGUvcmVt",
+            "b3Rlb3BlcmF0aW9uO3JlbW90ZW9wZXJhdGlvbqoCFVNhbHRvYXBpcy5OZWJ1",
+            "bGEuVHlwZcoCFVNhbHRvYXBpc1xOZWJ1bGFcVHlwZeICIUdQQk1ldGFkYXRh",
+            "XFNhbHRvYXBpc1xOZWJ1bGFcVHlwZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Saltoapis.Nebula.Type.AppKeyRemoteOperation), }, null, null));
@@ -53,11 +54,11 @@ namespace Saltoapis.Nebula.Type {
     /// <summary>
     /// Remotely locks the access point.
     /// </summary>
-    [pbr::OriginalName("LOCK")] Lock = 1,
+    [pbr::OriginalName("APP_KEY_REMOTE_OPERATION_LOCK")] Lock = 1,
     /// <summary>
     /// Remotely unlocks the access point.
     /// </summary>
-    [pbr::OriginalName("UNLOCK")] Unlock = 2,
+    [pbr::OriginalName("APP_KEY_REMOTE_OPERATION_UNLOCK")] Unlock = 2,
   }
 
   #endregion
