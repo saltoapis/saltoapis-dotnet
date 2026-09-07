@@ -25,15 +25,16 @@ namespace Saltoapis.Nebula.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CidzYWx0by9uZWJ1bGEvdHlwZS9sb2NhbF9vcGVyYXRpb24ucHJvdG8SEXNh",
-            "bHRvLm5lYnVsYS50eXBlKoUBChRBcHBLZXlMb2NhbE9wZXJhdGlvbhInCiNB",
+            "bHRvLm5lYnVsYS50eXBlKqkBChRBcHBLZXlMb2NhbE9wZXJhdGlvbhInCiNB",
             "UFBfS0VZX0xPQ0FMX09QRVJBVElPTl9VTlNQRUNJRklFRBAAEiIKHkFQUF9L",
             "RVlfTE9DQUxfT1BFUkFUSU9OX1VOTE9DSxABEiAKHEFQUF9LRVlfTE9DQUxf",
-            "T1BFUkFUSU9OX0xPQ0sQAkLcAQoZY29tLnNhbHRvYXBpcy5uZWJ1bGEudHlw",
-            "ZUITTG9jYWxPcGVyYXRpb25Qcm90b1ABWlRnaXRodWIuY29tL3NhbHRvYXBp",
-            "cy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVidWxhL3R5cGUvbG9jYWxvcGVy",
-            "YXRpb247bG9jYWxvcGVyYXRpb26qAhVTYWx0b2FwaXMuTmVidWxhLlR5cGXK",
-            "AhVTYWx0b2FwaXNcTmVidWxhXFR5cGXiAiFHUEJNZXRhZGF0YVxTYWx0b2Fw",
-            "aXNcTmVidWxhXFR5cGViBnByb3RvMw=="));
+            "T1BFUkFUSU9OX0xPQ0sQAhIiCh5BUFBfS0VZX0xPQ0FMX09QRVJBVElPTl9P",
+            "RkZJQ0UQA0LcAQoZY29tLnNhbHRvYXBpcy5uZWJ1bGEudHlwZUITTG9jYWxP",
+            "cGVyYXRpb25Qcm90b1ABWlRnaXRodWIuY29tL3NhbHRvYXBpcy1pbnRlcm5h",
+            "bC9zYWx0b2FwaXMtZ28vbmVidWxhL3R5cGUvbG9jYWxvcGVyYXRpb247bG9j",
+            "YWxvcGVyYXRpb26qAhVTYWx0b2FwaXMuTmVidWxhLlR5cGXKAhVTYWx0b2Fw",
+            "aXNcTmVidWxhXFR5cGXiAiFHUEJNZXRhZGF0YVxTYWx0b2FwaXNcTmVidWxh",
+            "XFR5cGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Saltoapis.Nebula.Type.AppKeyLocalOperation), }, null, null));
@@ -59,6 +60,10 @@ namespace Saltoapis.Nebula.Type {
     /// Locally locks the access point.
     /// </summary>
     [pbr::OriginalName("APP_KEY_LOCAL_OPERATION_LOCK")] Lock = 2,
+    /// <summary>
+    /// Locally enables office mode on the access point.
+    /// </summary>
+    [pbr::OriginalName("APP_KEY_LOCAL_OPERATION_OFFICE")] Office = 3,
   }
 
   #endregion
