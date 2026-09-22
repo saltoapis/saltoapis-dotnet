@@ -1,5 +1,5 @@
 # Dotnet rules
-bazel_dep(name = "rules_dotnet", version = "0.14.0")
+bazel_dep(name = "rules_dotnet", version = "0.22.2")
 
 dotnet = use_extension("@rules_dotnet//dotnet:extensions.bzl", "dotnet")
 dotnet.toolchain(dotnet_version = "8.0.100")

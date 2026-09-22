@@ -39,9 +39,6 @@ def load_rules(lib_name, internal_dependencies, extra_info):
         srcs = native.glob(['*.cs']),
         deps = third_party_deps + lib_deps,
         target_frameworks = [target_framework],
-        targeting_packs = [
-            "@paket.main//netstandard.library",
-        ],
     )
 
     project_description = "Contains the SDK related to '%s'. Check out https://developer.saltosystems.com/nebula/ for more information" % lib_name

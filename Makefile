@@ -21,7 +21,7 @@ prepare:
 	# and the required bazel files based on this paket.dependencies
 	dotnet tool restore
 	dotnet paket install
-	bazel run @rules_dotnet//tools/paket2bazel:paket2bazel.exe --verbose_failures -- --dependencies-file $(CURDIR)/paket.dependencies --output-folder "$(CURDIR)"
+	bazel run @rules_dotnet//tools/paket2bazel:paket2bazel --verbose_failures -- --dependencies-file $(CURDIR)/paket.dependencies --output-folder "$(CURDIR)"
 
 .PHONY: sanity-check
 sanity-check:
