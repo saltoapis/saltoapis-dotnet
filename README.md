@@ -7,16 +7,24 @@ This repository contains the source code for the C# SALTO APIs SDK.
 
 ## Authentication Example
 
-The SDK provides a simple gRPC interceptor that will automatically get and refresh valid access tokens and include them in all gRPC requests:
+The SDK provides a simple mechanism to automatically get and refresh valid access tokens and include them in all gRPC requests:
 ```c#
-// create a gRPC channel
-GrpcChannel channel = GrpcChannel.ForAddress("https://nebula.saltoapis.com");
+// Create SaltoCredentials
+var credential = SaltoCredential
+  // Optionally you can customize the auth server, and the httpClient
+  .FromClientSecret(clientId, clientSecret /*, [oidcConfigUri], [httpClient] */)
+  .CreateScoped("https://saltoapis.com/auth/nebula");
 
-// Create a new SaltoapisAuthInterceptor with your user credentials
-var authInterceptor = new SaltoapisAuthInterceptor(clientID, clientSecret);
+// Use the credentials when creating the gRPC Channel
+var callCredentials = SaltoapisCallCredentials.FromTokenProvider(credential);
+var channel = GrpcChannel.ForAddress(
+  "https://nebula.saltoapis.com",
+  new GrpcChannelOptions
+  {
+    Credentials = ChannelCredentials.Create(new SslCredentials(), callCredentials)
+  });
 
-// And add the interceptor to your channel
-var invoker = ChannelExtensions.Intercept(channel, authInterceptor);
+var invoker = channel.CreateCallInvoker();
 
 // Now you can use the resulting invoker to instantiate gRPC services
 var service = new UserService.UserServiceClient(invoker);
