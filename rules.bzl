@@ -32,13 +32,16 @@ def load_rules(lib_name, internal_dependencies, extra_info):
     if  'extra_deps' in extra_info:
         third_party_deps += extra_info['extra_deps']
     
-    target_framework = "netstandard2.0"
+    target_frameworks = ["netstandard2.0"]
+    if  'generator' not in extra_info:
+        target_frameworks.append("net5.0")
+
 
     csharp_library(
         name = lib_name,
         srcs = native.glob(['*.cs']),
         deps = third_party_deps + lib_deps,
-        target_frameworks = [target_framework],
+        target_frameworks = target_frameworks,
     )
 
     project_description = "Contains the SDK related to '%s'. Check out https://developer.saltosystems.com/nebula/ for more information" % lib_name
@@ -50,7 +53,7 @@ def load_rules(lib_name, internal_dependencies, extra_info):
         name = 'deploy',
         id = lib_name,
         description = project_description,
-        target_framework = target_framework,
+        target_frameworks = target_frameworks,
         sources = native.glob(['*.cs']),
         deps = third_party_deps,
         internal_deps = lib_deps,
