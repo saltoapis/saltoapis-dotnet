@@ -80,8 +80,8 @@ nuget_deploy = rule(
         'sources': attr.label_list(
             allow_files = True,
         ),
-        'target_framework': attr.string(
-            default = 'netstandard2.0',
+        'target_frameworks': attr.string_list(
+            default = ['netstandard2.0'],
         ),
         'internal_deps': attr.label_list(
             doc = """
@@ -141,7 +141,7 @@ def _create_csproj_file(csproj_file, internal_version, ctx):
         substitutions = {
             '{id}': id,
             '{description}': ctx.attr.description,
-            '{target_framework}': ctx.attr.target_framework,
+            '{target_frameworks}': ";".join(ctx.attr.target_frameworks),
             '{version}': internal_version,
             '{dependencies}': "\n        ".join(dependencies),
         }
