@@ -2,21 +2,45 @@
 
 This repository contains the source code for the C# SALTO APIs SDK.
 
-> Some of these APIs are using gRPC. Refer to the [official gRPC documentation](https://docs.microsoft.com/en-us/aspnet/core/grpc/client?view=aspnetcore-5.0) to learn more about gRPC.
+> Some of these APIs use gRPC. Refer to the [official gRPC documentation](https://docs.microsoft.com/en-us/aspnet/core/grpc/client?view=aspnetcore-5.0) to learn more about gRPC.
 
 
 ## Authentication Example
 
 The SDK provides a simple mechanism to automatically get and refresh valid access tokens and include them in all gRPC requests:
-```c#
-// Create SaltoCredentials
-var credential = SaltoCredential
-  // Optionally you can customize the auth server, and the httpClient
-  .FromClientSecret(clientId, clientSecret /*, [oidcConfigUri], [httpClient] */)
-  .CreateScoped("https://saltoapis.com/auth/nebula");
 
+### Create SaltoCredential
+
+#### Using a key file (available in .NET5.0+)
+
+```csharp
+// Create from a service account key file path
+var credential = SaltoCredential
+  .FromBytes(File.ReadAllBytes("<your-key-file-path>.json"))
+  .CreateScoped("https://saltoapis.com/auth/nebula");
+```
+
+`SaltoCredential.FromBytes` accepts an optional `HttpClient`.
+
+#### Using a client ID and client secret
+
+Alternatively, you can use a client ID and client secret.
+
+```csharp
+// Create from a client ID and client secret
+var credential = SaltoCredential
+  .FromClientSecret(clientId, clientSecret)
+  .CreateScoped("https://saltoapis.com/auth/nebula");
+```
+
+`SaltoCredential.FromClientSecret` accepts an optional custom OpenID Connect discovery URI and `HttpClient`.
+
+### Use the credentials to create the gRPC invoker
+
+```csharp
 // Use the credentials when creating the gRPC Channel
 var callCredentials = SaltoapisCallCredentials.FromTokenProvider(credential);
+
 var channel = GrpcChannel.ForAddress(
   "https://nebula.saltoapis.com",
   new GrpcChannelOptions
@@ -38,17 +62,17 @@ This SDK publishes NuGet packages in GitHub's Package Registry. You can see all 
 
 Even though the packages are public, GitHub does not yet support downloading packages anonymously so you will need a GitHub personal access token with the `read:packages` permission set to retrieve the packages. 
 
-To setup your NuGet environment with your access token do the following:
+To set up your NuGet environment with your access token, do the following:
 
 ### 1. Create a personal access token
 
 Access https://github.com/settings/tokens and press "Generate new token". Give the token the name and expiration you want and be sure to check the `read:packages` scope. Then press "Generate token".
 
-You will then have to copy your token (because its going to be shown to you only once).
+You will then have to copy your token because it is going to be shown to you only once.
 
 ### 2. Add the GitHub NuGet repository
 
-You have to add the saltoapis NuGet repository (https://nuget.pkg.github.com/saltoapis/index.json) to access the packages. You can do that manually editting your NuGet.Config file:
+You have to add the saltoapis NuGet repository (https://nuget.pkg.github.com/saltoapis/index.json) to access the packages. You can do that by manually editing your NuGet.Config file:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
@@ -75,4 +99,4 @@ Or by using an IDE. In Rider you can open the NuGet panel and in the "Sources" t
 
 ### 3. Use the packages
 
-If everything is setup correctly you will be able to include dependencies to the packages listed in https://github.com/saltoapis/saltoapis-dotnet/packages?ecosystem=nuget in your project.
+If everything is set up correctly, you will be able to add dependencies on the packages listed in https://github.com/saltoapis/saltoapis-dotnet/packages?ecosystem=nuget to your project.
