@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
@@ -17,23 +16,17 @@ namespace Saltoapis.Auth
         private static readonly HttpClient sharedHttpClient = new HttpClient();
 
         private readonly SemaphoreSlim getTokenLock = new SemaphoreSlim(1, 1);
-        private readonly string clientId;
-        private readonly string clientSecret;
-        private readonly OidcConfigurationReader oidcConfigurationReader;
+        private readonly IClientAuthenticationMethod clientAuthenticationMethod;
         private readonly string[] scopes;
         private readonly HttpClient httpClient;
         private SaltoTokenResponse token;
 
         private SaltoCredential(
-            string clientId,
-            string clientSecret,
-            OidcConfigurationReader oidcConfigurationReader,
+            IClientAuthenticationMethod clientAuthenticationMethod,
             IEnumerable<string> scopes,
             HttpClient httpClient)
         {
-            this.clientId = clientId ?? throw new ArgumentNullException(nameof(clientId));
-            this.clientSecret = clientSecret ?? throw new ArgumentNullException(nameof(clientSecret));
-            this.oidcConfigurationReader = oidcConfigurationReader ?? throw new ArgumentNullException(nameof(clientSecret));
+            this.clientAuthenticationMethod = clientAuthenticationMethod ?? throw new ArgumentNullException(nameof(clientAuthenticationMethod));
             this.scopes = NormalizeScopes(scopes);
             this.httpClient = httpClient ?? sharedHttpClient;
         }
@@ -47,21 +40,30 @@ namespace Saltoapis.Auth
             discoveryUri = discoveryUri
                 ?? new Uri("https://account.saltosystems.com/.well-known/openid-configuration");
 
-            var oidcConfigurationReader = new OidcConfigurationReader(discoveryUri);
             return new SaltoCredential(
-                clientId,
-                clientSecret,
-                oidcConfigurationReader,
+                new ClientSecretAuthentication(clientId, clientSecret, discoveryUri),
                 Array.Empty<string>(),
                 httpClient);
         }
+
+#if NET5_0_OR_GREATER
+        public static SaltoCredential FromBytes(
+            byte[] contents,
+            HttpClient httpClient = null)
+        {
+            return new SaltoCredential(
+                ServiceAccountAuthentication.FromBytes(contents),
+                Array.Empty<string>(),
+                httpClient);
+        }
+#endif
 
         /// <summary>
         /// Returns a credential copy configured with the requested OAuth scopes.
         /// </summary>
         public SaltoCredential CreateScoped(IEnumerable<string> scopes)
         {
-            return new SaltoCredential(clientId, clientSecret, oidcConfigurationReader, scopes, httpClient);
+            return new SaltoCredential(clientAuthenticationMethod, scopes, httpClient);
         }
 
         public SaltoCredential CreateScoped(params string[] scopes)
@@ -124,11 +126,12 @@ namespace Saltoapis.Auth
             {
                 new KeyValuePair<string, string>("grant_type", "client_credentials"),
                 new KeyValuePair<string, string>("scope", string.Join(" ", scopes)),
-                new KeyValuePair<string, string>("client_id", clientId),
-                new KeyValuePair<string, string>("client_secret", clientSecret),
             };
 
-            var tokenEndpoint = await oidcConfigurationReader
+            // add the headers required by the client authentication method
+            postData.AddRange(clientAuthenticationMethod.Headers());
+
+            var tokenEndpoint = await clientAuthenticationMethod
                 .GetTokenEndpointAsync(httpClient, cancellationToken)
                 .ConfigureAwait(false);
 
