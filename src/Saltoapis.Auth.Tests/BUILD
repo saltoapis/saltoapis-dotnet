@@ -12,8 +12,4 @@ csharp_nunit_test(
         '@paket.test//grpc.core',
     ],
     target_frameworks = ['net8.0'],
-    targeting_packs = [
-        # required to create the testing server
-        "@paket.test//microsoft.netcore.app.ref",
-    ],
 )
