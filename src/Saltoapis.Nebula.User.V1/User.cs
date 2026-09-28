@@ -57,64 +57,74 @@ namespace Saltoapis.Nebula.User.V1 {
             "Iy5zYWx0by5uZWJ1bGEudXNlci52MS5DYXJkS2V5LlN0YXRlEhAKCG91dGRh",
             "dGVkGAQgASgIEi8KC2V4cGlyZV90aW1lGAUgASgLMhouZ29vZ2xlLnByb3Rv",
             "YnVmLlRpbWVzdGFtcCJJCgVTdGF0ZRIVChFTVEFURV9VTlNQRUNJRklFRBAA",
-            "EhAKDE5PVF9BU1NJR05FRBABEgsKB1BFTkRJTkcQAhIKCgZBQ1RJVkUQAyLr",
-            "AQoGQXBwS2V5EgwKBG5hbWUYASABKAkSMQoFc3RhdGUYAiABKA4yIi5zYWx0",
+            "EhAKDE5PVF9BU1NJR05FRBABEgsKB1BFTkRJTkcQAhIKCgZBQ1RJVkUQAyL5",
+            "AgoGQXBwS2V5EgwKBG5hbWUYASABKAkSMQoFc3RhdGUYAiABKA4yIi5zYWx0",
             "by5uZWJ1bGEudXNlci52MS5BcHBLZXkuU3RhdGUSEAoIb3V0ZGF0ZWQYAyAB",
             "KAgSQwoRcmVtb3RlX29wZXJhdGlvbnMYBCADKA4yKC5zYWx0by5uZWJ1bGEu",
-            "dHlwZS5BcHBLZXlSZW1vdGVPcGVyYXRpb24iSQoFU3RhdGUSFQoRU1RBVEVf",
-            "VU5TUEVDSUZJRUQQABIQCgxOT1RfQVNTSUdORUQQARILCgdQRU5ESU5HEAIS",
-            "CgoGQUNUSVZFEAMirAEKCVdhbGxldEtleRIMCgRuYW1lGAEgASgJEjQKBXN0",
-            "YXRlGAIgASgOMiUuc2FsdG8ubmVidWxhLnVzZXIudjEuV2FsbGV0S2V5LlN0",
-            "YXRlEhAKCG91dGRhdGVkGAMgASgIIkkKBVN0YXRlEhUKEVNUQVRFX1VOU1BF",
-            "Q0lGSUVEEAASEAoMTk9UX0FTU0lHTkVEEAESCwoHUEVORElORxACEgoKBkFD",
-            "VElWRRADIosBCghQYXNzY29kZRIMCgRuYW1lGAEgASgJEjMKBXN0YXRlGAIg",
-            "ASgOMiQuc2FsdG8ubmVidWxhLnVzZXIudjEuUGFzc2NvZGUuU3RhdGUiPAoF",
-            "U3RhdGUSFQoRU1RBVEVfVU5TUEVDSUZJRUQQABIQCgxOT1RfQVNTSUdORUQQ",
-            "ARIKCgZBQ1RJVkUQAiL4AQoNRWxlY3Ryb25pY0tleRIMCgRuYW1lGAEgASgJ",
-            "EhEKCWRldmljZV9pZBgCIAEoCRI4CgVzdGF0ZRgDIAEoDjIpLnNhbHRvLm5l",
-            "YnVsYS51c2VyLnYxLkVsZWN0cm9uaWNLZXkuU3RhdGUSEAoIb3V0ZGF0ZWQY",
-            "BCABKAgSLwoLZXhwaXJlX3RpbWUYBSABKAsyGi5nb29nbGUucHJvdG9idWYu",
-            "VGltZXN0YW1wIkkKBVN0YXRlEhUKEVNUQVRFX1VOU1BFQ0lGSUVEEAASEAoM",
-            "Tk9UX0FTU0lHTkVEEAESCwoHUEVORElORxACEgoKBkFDVElWRRADIm8KEUNy",
-            "ZWF0ZVVzZXJSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIUCgd1c2VyX2lkGAIg",
-            "ASgJSACIAQESKAoEdXNlchgDIAEoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYx",
-            "LlVzZXJCCgoIX3VzZXJfaWQiHgoOR2V0VXNlclJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCSI1ChRCYXRjaEdldFVzZXJzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkS",
-            "DQoFbmFtZXMYAiADKAkiQgoVQmF0Y2hHZXRVc2Vyc1Jlc3BvbnNlEikKBXVz",
-            "ZXJzGAEgAygLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlciJrChBMaXN0",
-            "VXNlcnNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIRCglwYWdlX3NpemUYAiAB",
-            "KAUSEgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0ZXIYBCABKAkSEAoIb3Jk",
-            "ZXJfYnkYBSABKAkiawoRTGlzdFVzZXJzUmVzcG9uc2USKQoFdXNlcnMYASAD",
-            "KAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyEhcKD25leHRfcGFnZV90",
-            "b2tlbhgCIAEoCRISCgp0b3RhbF9zaXplGAMgASgFIm4KEVVwZGF0ZVVzZXJS",
-            "ZXF1ZXN0EigKBHVzZXIYASABKAsyGi5zYWx0by5uZWJ1bGEudXNlci52MS5V",
-            "c2VyEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZp",
-            "ZWxkTWFzayIhChFEZWxldGVVc2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJIiAK",
-            "EEJsb2NrVXNlclJlcXVlc3QSDAoEbmFtZRgBIAEoCSITChFCbG9ja1VzZXJS",
-            "ZXNwb25zZSIiChJVbmJsb2NrVXNlclJlcXVlc3QSDAoEbmFtZRgBIAEoCSIV",
-            "ChNVbmJsb2NrVXNlclJlc3BvbnNlInAKHENyZWF0ZVVzZXJBY2Nlc3NSaWdo",
-            "dFJlcXVlc3QSDgoGcGFyZW50GAEgASgJEkAKEXVzZXJfYWNjZXNzX3JpZ2h0",
-            "GAIgASgLMiUuc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlckFjY2Vzc1JpZ2h0",
-            "IikKGUdldFVzZXJBY2Nlc3NSaWdodFJlcXVlc3QSDAoEbmFtZRgBIAEoCSJ2",
-            "ChtMaXN0VXNlckFjY2Vzc1JpZ2h0c1JlcXVlc3QSDgoGcGFyZW50GAEgASgJ",
-            "EhEKCXBhZ2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZp",
-            "bHRlchgEIAEoCRIQCghvcmRlcl9ieRgFIAEoCSJ6ChxMaXN0VXNlckFjY2Vz",
-            "c1JpZ2h0c1Jlc3BvbnNlEkEKEnVzZXJfYWNjZXNzX3JpZ2h0cxgBIAMoCzIl",
-            "LnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nlc3NSaWdodBIXCg9uZXh0",
-            "X3BhZ2VfdG9rZW4YAiABKAkikQEKHFVwZGF0ZVVzZXJBY2Nlc3NSaWdodFJl",
-            "cXVlc3QSQAoRdXNlcl9hY2Nlc3NfcmlnaHQYASABKAsyJS5zYWx0by5uZWJ1",
-            "bGEudXNlci52MS5Vc2VyQWNjZXNzUmlnaHQSLwoLdXBkYXRlX21hc2sYAiAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIiwKHERlbGV0ZVVzZXJB",
-            "Y2Nlc3NSaWdodFJlcXVlc3QSDAoEbmFtZRgBIAEoCSIxChRBc3NpZ25DYXJk",
-            "S2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJEgsKA3VpZBgCIAEoCSIkChRDYW5j",
-            "ZWxDYXJkS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJInIKFEVuY29kZUNhcmRL",
-            "ZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoHZW5jb2RlchgCIAEoCUgAEhkK",
-            "D2VsZWN0cm9uaWNfbG9jaxgDIAEoCUgAEhQKCmNvbnRyb2xsZXIYBCABKAlI",
-            "AEIICgZkZXZpY2UiFwoVRW5jb2RlQ2FyZEtleVJlc3BvbnNlIhcKFUVuY29k",
-            "ZUNhcmRLZXlNZXRhZGF0YSJ1ChNVcGRhdGVBcHBLZXlSZXF1ZXN0Ei0KB2Fw",
-            "cF9rZXkYASABKAsyHC5zYWx0by5uZWJ1bGEudXNlci52MS5BcHBLZXkSLwoL",
-            "dXBkYXRlX21hc2sYAiABKAsyGi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNr",
-            "IiMKE0Fzc2lnbkFwcEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSIjChNDYW5j",
+            "dHlwZS5BcHBLZXlSZW1vdGVPcGVyYXRpb24SLwoEdHlwZRgFIAEoDjIhLnNh",
+            "bHRvLm5lYnVsYS51c2VyLnYxLkFwcEtleS5UeXBlEhIKBWVtYWlsGAYgASgJ",
+            "SACIAQEiSQoFU3RhdGUSFQoRU1RBVEVfVU5TUEVDSUZJRUQQABIQCgxOT1Rf",
+            "QVNTSUdORUQQARILCgdQRU5ESU5HEAISCgoGQUNUSVZFEAMiPQoEVHlwZRIU",
+            "ChBUWVBFX1VOU1BFQ0lGSUVEEAASCwoHTUFOQUdFRBABEhIKDkNBTExFUl9N",
+            "QU5BR0VEEAJCCAoGX2VtYWlsIqwBCglXYWxsZXRLZXkSDAoEbmFtZRgBIAEo",
+            "CRI0CgVzdGF0ZRgCIAEoDjIlLnNhbHRvLm5lYnVsYS51c2VyLnYxLldhbGxl",
+            "dEtleS5TdGF0ZRIQCghvdXRkYXRlZBgDIAEoCCJJCgVTdGF0ZRIVChFTVEFU",
+            "RV9VTlNQRUNJRklFRBAAEhAKDE5PVF9BU1NJR05FRBABEgsKB1BFTkRJTkcQ",
+            "AhIKCgZBQ1RJVkUQAyKLAQoIUGFzc2NvZGUSDAoEbmFtZRgBIAEoCRIzCgVz",
+            "dGF0ZRgCIAEoDjIkLnNhbHRvLm5lYnVsYS51c2VyLnYxLlBhc3Njb2RlLlN0",
+            "YXRlIjwKBVN0YXRlEhUKEVNUQVRFX1VOU1BFQ0lGSUVEEAASEAoMTk9UX0FT",
+            "U0lHTkVEEAESCgoGQUNUSVZFEAIi+AEKDUVsZWN0cm9uaWNLZXkSDAoEbmFt",
+            "ZRgBIAEoCRIRCglkZXZpY2VfaWQYAiABKAkSOAoFc3RhdGUYAyABKA4yKS5z",
+            "YWx0by5uZWJ1bGEudXNlci52MS5FbGVjdHJvbmljS2V5LlN0YXRlEhAKCG91",
+            "dGRhdGVkGAQgASgIEi8KC2V4cGlyZV90aW1lGAUgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLlRpbWVzdGFtcCJJCgVTdGF0ZRIVChFTVEFURV9VTlNQRUNJRklF",
+            "RBAAEhAKDE5PVF9BU1NJR05FRBABEgsKB1BFTkRJTkcQAhIKCgZBQ1RJVkUQ",
+            "AyJvChFDcmVhdGVVc2VyUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSFAoHdXNl",
+            "cl9pZBgCIAEoCUgAiAEBEigKBHVzZXIYAyABKAsyGi5zYWx0by5uZWJ1bGEu",
+            "dXNlci52MS5Vc2VyQgoKCF91c2VyX2lkIh4KDkdldFVzZXJSZXF1ZXN0EgwK",
+            "BG5hbWUYASABKAkiNQoUQmF0Y2hHZXRVc2Vyc1JlcXVlc3QSDgoGcGFyZW50",
+            "GAEgASgJEg0KBW5hbWVzGAIgAygJIkIKFUJhdGNoR2V0VXNlcnNSZXNwb25z",
+            "ZRIpCgV1c2VycxgBIAMoCzIaLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXIi",
+            "awoQTGlzdFVzZXJzUmVxdWVzdBIOCgZwYXJlbnQYASABKAkSEQoJcGFnZV9z",
+            "aXplGAIgASgFEhIKCnBhZ2VfdG9rZW4YAyABKAkSDgoGZmlsdGVyGAQgASgJ",
+            "EhAKCG9yZGVyX2J5GAUgASgJImsKEUxpc3RVc2Vyc1Jlc3BvbnNlEikKBXVz",
+            "ZXJzGAEgAygLMhouc2FsdG8ubmVidWxhLnVzZXIudjEuVXNlchIXCg9uZXh0",
+            "X3BhZ2VfdG9rZW4YAiABKAkSEgoKdG90YWxfc2l6ZRgDIAEoBSJuChFVcGRh",
+            "dGVVc2VyUmVxdWVzdBIoCgR1c2VyGAEgASgLMhouc2FsdG8ubmVidWxhLnVz",
+            "ZXIudjEuVXNlchIvCgt1cGRhdGVfbWFzaxgCIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5GaWVsZE1hc2siIQoRRGVsZXRlVXNlclJlcXVlc3QSDAoEbmFtZRgB",
+            "IAEoCSIgChBCbG9ja1VzZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiEwoRQmxv",
+            "Y2tVc2VyUmVzcG9uc2UiIgoSVW5ibG9ja1VzZXJSZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAkiFQoTVW5ibG9ja1VzZXJSZXNwb25zZSJwChxDcmVhdGVVc2VyQWNj",
+            "ZXNzUmlnaHRSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRJAChF1c2VyX2FjY2Vz",
+            "c19yaWdodBgCIAEoCzIlLnNhbHRvLm5lYnVsYS51c2VyLnYxLlVzZXJBY2Nl",
+            "c3NSaWdodCIpChlHZXRVc2VyQWNjZXNzUmlnaHRSZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAkidgobTGlzdFVzZXJBY2Nlc3NSaWdodHNSZXF1ZXN0Eg4KBnBhcmVu",
+            "dBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEo",
+            "CRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiegocTGlzdFVz",
+            "ZXJBY2Nlc3NSaWdodHNSZXNwb25zZRJBChJ1c2VyX2FjY2Vzc19yaWdodHMY",
+            "ASADKAsyJS5zYWx0by5uZWJ1bGEudXNlci52MS5Vc2VyQWNjZXNzUmlnaHQS",
+            "FwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJIpEBChxVcGRhdGVVc2VyQWNjZXNz",
+            "UmlnaHRSZXF1ZXN0EkAKEXVzZXJfYWNjZXNzX3JpZ2h0GAEgASgLMiUuc2Fs",
+            "dG8ubmVidWxhLnVzZXIudjEuVXNlckFjY2Vzc1JpZ2h0Ei8KC3VwZGF0ZV9t",
+            "YXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayIsChxEZWxl",
+            "dGVVc2VyQWNjZXNzUmlnaHRSZXF1ZXN0EgwKBG5hbWUYASABKAkiMQoUQXNz",
+            "aWduQ2FyZEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCRILCgN1aWQYAiABKAki",
+            "JAoUQ2FuY2VsQ2FyZEtleVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJyChRFbmNv",
+            "ZGVDYXJkS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKB2VuY29kZXIYAiAB",
+            "KAlIABIZCg9lbGVjdHJvbmljX2xvY2sYAyABKAlIABIUCgpjb250cm9sbGVy",
+            "GAQgASgJSABCCAoGZGV2aWNlIhcKFUVuY29kZUNhcmRLZXlSZXNwb25zZSIX",
+            "ChVFbmNvZGVDYXJkS2V5TWV0YWRhdGEidQoTVXBkYXRlQXBwS2V5UmVxdWVz",
+            "dBItCgdhcHBfa2V5GAEgASgLMhwuc2FsdG8ubmVidWxhLnVzZXIudjEuQXBw",
+            "S2V5Ei8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZp",
+            "ZWxkTWFzayLWAgoTQXNzaWduQXBwS2V5UmVxdWVzdBIMCgRuYW1lGAEgASgJ",
+            "EkQKB21hbmFnZWQYAiABKAsyMS5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3Np",
+            "Z25BcHBLZXlSZXF1ZXN0Lk1hbmFnZWRIABJRCg5jYWxsZXJfbWFuYWdlZBgD",
+            "IAEoCzI3LnNhbHRvLm5lYnVsYS51c2VyLnYxLkFzc2lnbkFwcEtleVJlcXVl",
+            "c3QuQ2FsbGVyTWFuYWdlZEgAGnkKB01hbmFnZWQSSAoFZW1haWwYASABKAsy",
+            "Ny5zYWx0by5uZWJ1bGEudXNlci52MS5Bc3NpZ25BcHBLZXlSZXF1ZXN0Lk1h",
+            "bmFnZWQuRW1haWxIABoYCgVFbWFpbBIPCgdhZGRyZXNzGAEgASgJQgoKCGlk",
+            "ZW50aXR5Gg8KDUNhbGxlck1hbmFnZWRCDAoKbWFuYWdlbWVudCIjChNDYW5j",
             "ZWxBcHBLZXlSZXF1ZXN0EgwKBG5hbWUYASABKAkiKAoYQ29tcHV0ZUFwcEtl",
             "eURhdGFSZXF1ZXN0EgwKBG5hbWUYASABKAkiKQoZQ29tcHV0ZUFwcEtleURh",
             "dGFSZXNwb25zZRIMCgRkYXRhGAEgASgMIiYKFkFzc2lnbldhbGxldEtleVJl",
@@ -212,7 +222,7 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.User), global::Saltoapis.Nebula.User.V1.User.Parser, new[]{ "Name", "Parent", "GivenName", "FamilyName", "DisplayName", "Email", "ActivateTime", "ExpireTime", "Photo", "PhotoUri", "CardKey", "ElectronicKey", "AppKey", "WalletKey", "Passcode", "Blocked", "Manager", "AllowDoNotDisturbOverride" }, new[]{ "Parent", "FamilyName", "Email", "Photo", "Manager" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UserAccessRight), global::Saltoapis.Nebula.User.V1.UserAccessRight.Parser, new[]{ "Name", "AccessRight", "DisplayName", "Schedules", "EffectiveSchedules", "ActivateTime", "ExpireTime", "Manager" }, new[]{ "ActivateTime", "ExpireTime", "Manager" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CardKey), global::Saltoapis.Nebula.User.V1.CardKey.Parser, new[]{ "Name", "Uid", "State", "Outdated", "ExpireTime" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.CardKey.Types.State) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AppKey), global::Saltoapis.Nebula.User.V1.AppKey.Parser, new[]{ "Name", "State", "Outdated", "RemoteOperations" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.AppKey.Types.State) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AppKey), global::Saltoapis.Nebula.User.V1.AppKey.Parser, new[]{ "Name", "State", "Outdated", "RemoteOperations", "Type", "Email" }, new[]{ "Email" }, new[]{ typeof(global::Saltoapis.Nebula.User.V1.AppKey.Types.State), typeof(global::Saltoapis.Nebula.User.V1.AppKey.Types.Type) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.WalletKey), global::Saltoapis.Nebula.User.V1.WalletKey.Parser, new[]{ "Name", "State", "Outdated" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.WalletKey.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.Passcode), global::Saltoapis.Nebula.User.V1.Passcode.Parser, new[]{ "Name", "State" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.Passcode.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ElectronicKey), global::Saltoapis.Nebula.User.V1.ElectronicKey.Parser, new[]{ "Name", "DeviceId", "State", "Outdated", "ExpireTime" }, null, new[]{ typeof(global::Saltoapis.Nebula.User.V1.ElectronicKey.Types.State) }, null, null),
@@ -240,7 +250,8 @@ namespace Saltoapis.Nebula.User.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.EncodeCardKeyResponse), global::Saltoapis.Nebula.User.V1.EncodeCardKeyResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.EncodeCardKeyMetadata), global::Saltoapis.Nebula.User.V1.EncodeCardKeyMetadata.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest), global::Saltoapis.Nebula.User.V1.UpdateAppKeyRequest.Parser, new[]{ "AppKey", "UpdateMask" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Parser, new[]{ "Name", "Managed", "CallerManaged" }, new[]{ "Management" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Parser, new[]{ "Email" }, new[]{ "Identity" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email.Parser, new[]{ "Address" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged), global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged.Parser, null, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest), global::Saltoapis.Nebula.User.V1.CancelAppKeyRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest), global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse), global::Saltoapis.Nebula.User.V1.ComputeAppKeyDataResponse.Parser, new[]{ "Data" }, null, null, null, null),
@@ -2290,6 +2301,8 @@ namespace Saltoapis.Nebula.User.V1 {
       state_ = other.state_;
       outdated_ = other.outdated_;
       remoteOperations_ = other.remoteOperations_.Clone();
+      type_ = other.type_;
+      email_ = other.email_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2366,6 +2379,58 @@ namespace Saltoapis.Nebula.User.V1 {
       get { return remoteOperations_; }
     }
 
+    /// <summary>Field number for the "type" field.</summary>
+    public const int TypeFieldNumber = 5;
+    private global::Saltoapis.Nebula.User.V1.AppKey.Types.Type type_ = global::Saltoapis.Nebula.User.V1.AppKey.Types.Type.Unspecified;
+    /// <summary>
+    /// How access to the app key is managed. Determines whether a digital key
+    /// is created for this app key or not.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.AppKey.Types.Type Type {
+      get { return type_; }
+      set {
+        type_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "email" field.</summary>
+    public const int EmailFieldNumber = 6;
+    private readonly static string EmailDefaultValue = "";
+
+    private string email_;
+    /// <summary>
+    /// The email identity to which the digital key was issued.
+    ///
+    /// Set iff `type` is `MANAGED`. At the moment, this is always
+    /// set for managed app keys, as it is the email used for the digital key
+    /// binding.
+    ///
+    /// This is an assignment-time snapshot and is not subsequently
+    /// synchronized with `User.email`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Email {
+      get { return email_ ?? EmailDefaultValue; }
+      set {
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "email" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasEmail {
+      get { return email_ != null; }
+    }
+    /// <summary>Clears the value of the "email" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearEmail() {
+      email_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2385,6 +2450,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (State != other.State) return false;
       if (Outdated != other.Outdated) return false;
       if(!remoteOperations_.Equals(other.remoteOperations_)) return false;
+      if (Type != other.Type) return false;
+      if (Email != other.Email) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2396,6 +2463,8 @@ namespace Saltoapis.Nebula.User.V1 {
       if (State != global::Saltoapis.Nebula.User.V1.AppKey.Types.State.Unspecified) hash ^= State.GetHashCode();
       if (Outdated != false) hash ^= Outdated.GetHashCode();
       hash ^= remoteOperations_.GetHashCode();
+      if (Type != global::Saltoapis.Nebula.User.V1.AppKey.Types.Type.Unspecified) hash ^= Type.GetHashCode();
+      if (HasEmail) hash ^= Email.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2427,6 +2496,14 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteBool(Outdated);
       }
       remoteOperations_.WriteTo(output, _repeated_remoteOperations_codec);
+      if (Type != global::Saltoapis.Nebula.User.V1.AppKey.Types.Type.Unspecified) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) Type);
+      }
+      if (HasEmail) {
+        output.WriteRawTag(50);
+        output.WriteString(Email);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2450,6 +2527,14 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteBool(Outdated);
       }
       remoteOperations_.WriteTo(ref output, _repeated_remoteOperations_codec);
+      if (Type != global::Saltoapis.Nebula.User.V1.AppKey.Types.Type.Unspecified) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) Type);
+      }
+      if (HasEmail) {
+        output.WriteRawTag(50);
+        output.WriteString(Email);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2470,6 +2555,12 @@ namespace Saltoapis.Nebula.User.V1 {
         size += 1 + 1;
       }
       size += remoteOperations_.CalculateSize(_repeated_remoteOperations_codec);
+      if (Type != global::Saltoapis.Nebula.User.V1.AppKey.Types.Type.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
+      }
+      if (HasEmail) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2492,6 +2583,12 @@ namespace Saltoapis.Nebula.User.V1 {
         Outdated = other.Outdated;
       }
       remoteOperations_.Add(other.remoteOperations_);
+      if (other.Type != global::Saltoapis.Nebula.User.V1.AppKey.Types.Type.Unspecified) {
+        Type = other.Type;
+      }
+      if (other.HasEmail) {
+        Email = other.Email;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2526,6 +2623,14 @@ namespace Saltoapis.Nebula.User.V1 {
           case 34:
           case 32: {
             remoteOperations_.AddEntriesFrom(input, _repeated_remoteOperations_codec);
+            break;
+          }
+          case 40: {
+            Type = (global::Saltoapis.Nebula.User.V1.AppKey.Types.Type) input.ReadEnum();
+            break;
+          }
+          case 50: {
+            Email = input.ReadString();
             break;
           }
         }
@@ -2564,6 +2669,14 @@ namespace Saltoapis.Nebula.User.V1 {
             remoteOperations_.AddEntriesFrom(ref input, _repeated_remoteOperations_codec);
             break;
           }
+          case 40: {
+            Type = (global::Saltoapis.Nebula.User.V1.AppKey.Types.Type) input.ReadEnum();
+            break;
+          }
+          case 50: {
+            Email = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -2595,6 +2708,28 @@ namespace Saltoapis.Nebula.User.V1 {
         /// The app key is active and ready to be used.
         /// </summary>
         [pbr::OriginalName("ACTIVE")] Active = 3,
+      }
+
+      /// <summary>
+      /// How access to the app key is managed.
+      /// </summary>
+      public enum Type {
+        /// <summary>
+        /// Sentinel value used to indicate that the type is unknown, omitted,
+        /// or is not applicable.
+        /// </summary>
+        [pbr::OriginalName("TYPE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Access to the credential managed through a digital key.
+        /// </summary>
+        [pbr::OriginalName("MANAGED")] Managed = 1,
+        /// <summary>
+        /// The caller is responsible for retrieving and distributing the
+        /// credential.
+        ///
+        /// No digital key is created for this app key.
+        /// </summary>
+        [pbr::OriginalName("CALLER_MANAGED")] CallerManaged = 2,
       }
 
     }
@@ -9435,6 +9570,15 @@ namespace Saltoapis.Nebula.User.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AssignAppKeyRequest(AssignAppKeyRequest other) : this() {
       name_ = other.name_;
+      switch (other.ManagementCase) {
+        case ManagementOneofCase.Managed:
+          Managed = other.Managed.Clone();
+          break;
+        case ManagementOneofCase.CallerManaged:
+          CallerManaged = other.CallerManaged.Clone();
+          break;
+      }
+
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -9460,6 +9604,58 @@ namespace Saltoapis.Nebula.User.V1 {
       }
     }
 
+    /// <summary>Field number for the "managed" field.</summary>
+    public const int ManagedFieldNumber = 2;
+    /// <summary>
+    /// A digital key is created and managed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed Managed {
+      get { return managementCase_ == ManagementOneofCase.Managed ? (global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed) management_ : null; }
+      set {
+        management_ = value;
+        managementCase_ = value == null ? ManagementOneofCase.None : ManagementOneofCase.Managed;
+      }
+    }
+
+    /// <summary>Field number for the "caller_managed" field.</summary>
+    public const int CallerManagedFieldNumber = 3;
+    /// <summary>
+    /// The caller retrieves and distributes the credential. No digital key
+    /// is created.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged CallerManaged {
+      get { return managementCase_ == ManagementOneofCase.CallerManaged ? (global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged) management_ : null; }
+      set {
+        management_ = value;
+        managementCase_ = value == null ? ManagementOneofCase.None : ManagementOneofCase.CallerManaged;
+      }
+    }
+
+    private object management_;
+    /// <summary>Enum of possible cases for the "management" oneof.</summary>
+    public enum ManagementOneofCase {
+      None = 0,
+      Managed = 2,
+      CallerManaged = 3,
+    }
+    private ManagementOneofCase managementCase_ = ManagementOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ManagementOneofCase ManagementCase {
+      get { return managementCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearManagement() {
+      managementCase_ = ManagementOneofCase.None;
+      management_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -9476,6 +9672,9 @@ namespace Saltoapis.Nebula.User.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (!object.Equals(Managed, other.Managed)) return false;
+      if (!object.Equals(CallerManaged, other.CallerManaged)) return false;
+      if (ManagementCase != other.ManagementCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -9484,6 +9683,9 @@ namespace Saltoapis.Nebula.User.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (managementCase_ == ManagementOneofCase.Managed) hash ^= Managed.GetHashCode();
+      if (managementCase_ == ManagementOneofCase.CallerManaged) hash ^= CallerManaged.GetHashCode();
+      hash ^= (int) managementCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -9506,6 +9708,14 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (managementCase_ == ManagementOneofCase.Managed) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Managed);
+      }
+      if (managementCase_ == ManagementOneofCase.CallerManaged) {
+        output.WriteRawTag(26);
+        output.WriteMessage(CallerManaged);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -9520,6 +9730,14 @@ namespace Saltoapis.Nebula.User.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (managementCase_ == ManagementOneofCase.Managed) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Managed);
+      }
+      if (managementCase_ == ManagementOneofCase.CallerManaged) {
+        output.WriteRawTag(26);
+        output.WriteMessage(CallerManaged);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -9532,6 +9750,12 @@ namespace Saltoapis.Nebula.User.V1 {
       int size = 0;
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (managementCase_ == ManagementOneofCase.Managed) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Managed);
+      }
+      if (managementCase_ == ManagementOneofCase.CallerManaged) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CallerManaged);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -9548,6 +9772,21 @@ namespace Saltoapis.Nebula.User.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
+      switch (other.ManagementCase) {
+        case ManagementOneofCase.Managed:
+          if (Managed == null) {
+            Managed = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed();
+          }
+          Managed.MergeFrom(other.Managed);
+          break;
+        case ManagementOneofCase.CallerManaged:
+          if (CallerManaged == null) {
+            CallerManaged = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged();
+          }
+          CallerManaged.MergeFrom(other.CallerManaged);
+          break;
+      }
+
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -9569,6 +9808,24 @@ namespace Saltoapis.Nebula.User.V1 {
             break;
           case 10: {
             Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed subBuilder = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed();
+            if (managementCase_ == ManagementOneofCase.Managed) {
+              subBuilder.MergeFrom(Managed);
+            }
+            input.ReadMessage(subBuilder);
+            Managed = subBuilder;
+            break;
+          }
+          case 26: {
+            global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged subBuilder = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged();
+            if (managementCase_ == ManagementOneofCase.CallerManaged) {
+              subBuilder.MergeFrom(CallerManaged);
+            }
+            input.ReadMessage(subBuilder);
+            CallerManaged = subBuilder;
             break;
           }
         }
@@ -9594,10 +9851,666 @@ namespace Saltoapis.Nebula.User.V1 {
             Name = input.ReadString();
             break;
           }
+          case 18: {
+            global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed subBuilder = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed();
+            if (managementCase_ == ManagementOneofCase.Managed) {
+              subBuilder.MergeFrom(Managed);
+            }
+            input.ReadMessage(subBuilder);
+            Managed = subBuilder;
+            break;
+          }
+          case 26: {
+            global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged subBuilder = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.CallerManaged();
+            if (managementCase_ == ManagementOneofCase.CallerManaged) {
+              subBuilder.MergeFrom(CallerManaged);
+            }
+            input.ReadMessage(subBuilder);
+            CallerManaged = subBuilder;
+            break;
+          }
         }
       }
     }
     #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the AssignAppKeyRequest message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static partial class Types {
+      /// <summary>
+      /// A digital key is created and managed for the app key.
+      /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class Managed : pb::IMessage<Managed>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<Managed> _parser = new pb::MessageParser<Managed>(() => new Managed());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<Managed> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public Managed() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public Managed(Managed other) : this() {
+          switch (other.IdentityCase) {
+            case IdentityOneofCase.Email:
+              Email = other.Email.Clone();
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public Managed Clone() {
+          return new Managed(this);
+        }
+
+        /// <summary>Field number for the "email" field.</summary>
+        public const int EmailFieldNumber = 1;
+        /// <summary>
+        /// Use the supplied email address and send an invitation.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email Email {
+          get { return identityCase_ == IdentityOneofCase.Email ? (global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email) identity_ : null; }
+          set {
+            identity_ = value;
+            identityCase_ = value == null ? IdentityOneofCase.None : IdentityOneofCase.Email;
+          }
+        }
+
+        private object identity_;
+        /// <summary>Enum of possible cases for the "identity" oneof.</summary>
+        public enum IdentityOneofCase {
+          None = 0,
+          Email = 1,
+        }
+        private IdentityOneofCase identityCase_ = IdentityOneofCase.None;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public IdentityOneofCase IdentityCase {
+          get { return identityCase_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearIdentity() {
+          identityCase_ = IdentityOneofCase.None;
+          identity_ = null;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as Managed);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(Managed other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!object.Equals(Email, other.Email)) return false;
+          if (IdentityCase != other.IdentityCase) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (identityCase_ == IdentityOneofCase.Email) hash ^= Email.GetHashCode();
+          hash ^= (int) identityCase_;
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (identityCase_ == IdentityOneofCase.Email) {
+            output.WriteRawTag(10);
+            output.WriteMessage(Email);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (identityCase_ == IdentityOneofCase.Email) {
+            output.WriteRawTag(10);
+            output.WriteMessage(Email);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (identityCase_ == IdentityOneofCase.Email) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Email);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(Managed other) {
+          if (other == null) {
+            return;
+          }
+          switch (other.IdentityCase) {
+            case IdentityOneofCase.Email:
+              if (Email == null) {
+                Email = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email();
+              }
+              Email.MergeFrom(other.Email);
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email subBuilder = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email();
+                if (identityCase_ == IdentityOneofCase.Email) {
+                  subBuilder.MergeFrom(Email);
+                }
+                input.ReadMessage(subBuilder);
+                Email = subBuilder;
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email subBuilder = new global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Types.Email();
+                if (identityCase_ == IdentityOneofCase.Email) {
+                  subBuilder.MergeFrom(Email);
+                }
+                input.ReadMessage(subBuilder);
+                Email = subBuilder;
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+        #region Nested types
+        /// <summary>Container for nested types declared in the Managed message type.</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static partial class Types {
+          /// <summary>
+          /// The email identity to which the digital key is issued. An
+          /// invitation is sent to this address.
+          /// </summary>
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+          public sealed partial class Email : pb::IMessage<Email>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<Email> _parser = new pb::MessageParser<Email>(() => new Email());
+            private pb::UnknownFieldSet _unknownFields;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pb::MessageParser<Email> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Types.Managed.Descriptor.NestedTypes[0]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Email() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Email(Email other) : this() {
+              address_ = other.address_;
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Email Clone() {
+              return new Email(this);
+            }
+
+            /// <summary>Field number for the "address" field.</summary>
+            public const int AddressFieldNumber = 1;
+            private string address_ = "";
+            /// <summary>
+            /// The email address to which the digital key is issued.
+            ///
+            /// This does not modify `User.email`. This is required at the moment,
+            /// as it is the email that is going to be used for the digital key
+            /// binding.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public string Address {
+              get { return address_; }
+              set {
+                address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+              }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override bool Equals(object other) {
+              return Equals(other as Email);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool Equals(Email other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              if (Address != other.Address) return false;
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (Address.Length != 0) hash ^= Address.GetHashCode();
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (Address.Length != 0) {
+                output.WriteRawTag(10);
+                output.WriteString(Address);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (Address.Length != 0) {
+                output.WriteRawTag(10);
+                output.WriteString(Address);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int CalculateSize() {
+              int size = 0;
+              if (Address.Length != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
+              }
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(Email other) {
+              if (other == null) {
+                return;
+              }
+              if (other.Address.Length != 0) {
+                Address = other.Address;
+              }
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                  case 10: {
+                    Address = input.ReadString();
+                    break;
+                  }
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                  case 10: {
+                    Address = input.ReadString();
+                    break;
+                  }
+                }
+              }
+            }
+            #endif
+
+          }
+
+        }
+        #endregion
+
+      }
+
+      /// <summary>
+      /// The caller retrieves and distributes the credential.
+      ///
+      /// No digital key is created and no invitation is sent.
+      /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class CallerManaged : pb::IMessage<CallerManaged>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<CallerManaged> _parser = new pb::MessageParser<CallerManaged>(() => new CallerManaged());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<CallerManaged> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Saltoapis.Nebula.User.V1.AssignAppKeyRequest.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public CallerManaged() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public CallerManaged(CallerManaged other) : this() {
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public CallerManaged Clone() {
+          return new CallerManaged(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as CallerManaged);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(CallerManaged other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(CallerManaged other) {
+          if (other == null) {
+            return;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+            }
+          }
+        }
+        #endif
+
+      }
+
+    }
+    #endregion
 
   }
 
