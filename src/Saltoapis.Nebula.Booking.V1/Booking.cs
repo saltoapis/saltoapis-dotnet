@@ -27,82 +27,84 @@ namespace Saltoapis.Nebula.Booking.V1 {
             "CiVzYWx0by9uZWJ1bGEvYm9va2luZy92MS9ib29raW5nLnByb3RvEhdzYWx0",
             "by5uZWJ1bGEuYm9va2luZy52MRobZ29vZ2xlL3Byb3RvYnVmL2VtcHR5LnBy",
             "b3RvGiBnb29nbGUvcHJvdG9idWYvZmllbGRfbWFzay5wcm90bxofZ29vZ2xl",
-            "L3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90byKTAwoHQm9va2luZxIMCgRuYW1l",
+            "L3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90byLgAwoHQm9va2luZxIMCgRuYW1l",
             "GAEgASgJEi4KCnN0YXJ0X3RpbWUYAiABKAsyGi5nb29nbGUucHJvdG9idWYu",
             "VGltZXN0YW1wEiwKCGVuZF90aW1lGAMgASgLMhouZ29vZ2xlLnByb3RvYnVm",
             "LlRpbWVzdGFtcBI1CgVzdGF0ZRgEIAEoDjImLnNhbHRvLm5lYnVsYS5ib29r",
             "aW5nLnYxLkJvb2tpbmcuU3RhdGUSMQoNY2hlY2tfaW5fdGltZRgFIAEoCzIa",
             "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASMgoOY2hlY2tfb3V0X3RpbWUY",
-            "BiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEg4KBHVuaXQYByAB",
-            "KAlIABIVCg1hY2Nlc3NfcmlnaHRzGAggAygJIk4KBVN0YXRlEhUKEVNUQVRF",
-            "X1VOU1BFQ0lGSUVEEAASDQoJU0NIRURVTEVEEAESDgoKQ0hFQ0tFRF9JThAC",
-            "Eg8KC0NIRUNLRURfT1VUEANCBwoFYXNzZXQigQEKFENyZWF0ZUJvb2tpbmdS",
-            "ZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIXCgpib29raW5nX2lkGAIgASgJSACI",
-            "AQESMQoHYm9va2luZxgDIAEoCzIgLnNhbHRvLm5lYnVsYS5ib29raW5nLnYx",
-            "LkJvb2tpbmdCDQoLX2Jvb2tpbmdfaWQiIQoRR2V0Qm9va2luZ1JlcXVlc3QS",
-            "DAoEbmFtZRgBIAEoCSJuChNMaXN0Qm9va2luZ3NSZXF1ZXN0Eg4KBnBhcmVu",
-            "dBgBIAEoCRIRCglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEo",
-            "CRIOCgZmaWx0ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkiYwoUTGlzdEJv",
-            "b2tpbmdzUmVzcG9uc2USMgoIYm9va2luZ3MYASADKAsyIC5zYWx0by5uZWJ1",
-            "bGEuYm9va2luZy52MS5Cb29raW5nEhcKD25leHRfcGFnZV90b2tlbhgCIAEo",
-            "CSJ6ChRVcGRhdGVCb29raW5nUmVxdWVzdBIxCgdib29raW5nGAEgASgLMiAu",
-            "c2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2luZxIvCgt1cGRhdGVfbWFz",
-            "axgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2siJAoURGVsZXRl",
-            "Qm9va2luZ1JlcXVlc3QSDAoEbmFtZRgBIAEoCSIlChVDaGVja0luQm9va2lu",
-            "Z1JlcXVlc3QSDAoEbmFtZRgBIAEoCSImChZDaGVja091dEJvb2tpbmdSZXF1",
-            "ZXN0EgwKBG5hbWUYASABKAkiKQoLQm9va2luZ1VzZXISDAoEbmFtZRgBIAEo",
-            "CRIMCgR1c2VyGAIgASgJImYKGENyZWF0ZUJvb2tpbmdVc2VyUmVxdWVzdBIO",
-            "CgZwYXJlbnQYASABKAkSOgoMYm9va2luZ191c2VyGAIgASgLMiQuc2FsdG8u",
-            "bmVidWxhLmJvb2tpbmcudjEuQm9va2luZ1VzZXIidQoeQmF0Y2hDcmVhdGVC",
-            "b29raW5nVXNlcnNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRJDCghyZXF1ZXN0",
-            "cxgCIAMoCzIxLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkNyZWF0ZUJvb2tp",
-            "bmdVc2VyUmVxdWVzdCJeCh9CYXRjaENyZWF0ZUJvb2tpbmdVc2Vyc1Jlc3Bv",
-            "bnNlEjsKDWJvb2tpbmdfdXNlcnMYASADKAsyJC5zYWx0by5uZWJ1bGEuYm9v",
-            "a2luZy52MS5Cb29raW5nVXNlciIlChVHZXRCb29raW5nVXNlclJlcXVlc3QS",
-            "DAoEbmFtZRgBIAEoCSJyChdMaXN0Qm9va2luZ1VzZXJzUmVxdWVzdBIOCgZw",
-            "YXJlbnQYASABKAkSEQoJcGFnZV9zaXplGAIgASgFEhIKCnBhZ2VfdG9rZW4Y",
-            "AyABKAkSDgoGZmlsdGVyGAQgASgJEhAKCG9yZGVyX2J5GAUgASgJInAKGExp",
-            "c3RCb29raW5nVXNlcnNSZXNwb25zZRI7Cg1ib29raW5nX3VzZXJzGAEgAygL",
-            "MiQuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2luZ1VzZXISFwoPbmV4",
-            "dF9wYWdlX3Rva2VuGAIgASgJIigKGERlbGV0ZUJvb2tpbmdVc2VyUmVxdWVz",
-            "dBIMCgRuYW1lGAEgASgJMv0JCg5Cb29raW5nU2VydmljZRJgCg1DcmVhdGVC",
-            "b29raW5nEi0uc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQ3JlYXRlQm9va2lu",
-            "Z1JlcXVlc3QaIC5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5Cb29raW5nEloK",
-            "CkdldEJvb2tpbmcSKi5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5HZXRCb29r",
-            "aW5nUmVxdWVzdBogLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJvb2tpbmcS",
-            "awoMTGlzdEJvb2tpbmdzEiwuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuTGlz",
-            "dEJvb2tpbmdzUmVxdWVzdBotLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkxp",
-            "c3RCb29raW5nc1Jlc3BvbnNlEmAKDVVwZGF0ZUJvb2tpbmcSLS5zYWx0by5u",
-            "ZWJ1bGEuYm9va2luZy52MS5VcGRhdGVCb29raW5nUmVxdWVzdBogLnNhbHRv",
-            "Lm5lYnVsYS5ib29raW5nLnYxLkJvb2tpbmcSVgoNRGVsZXRlQm9va2luZxIt",
-            "LnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkRlbGV0ZUJvb2tpbmdSZXF1ZXN0",
-            "GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5EmIKDkNoZWNrSW5Cb29raW5nEi4u",
-            "c2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQ2hlY2tJbkJvb2tpbmdSZXF1ZXN0",
-            "GiAuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2luZxJkCg9DaGVja091",
-            "dEJvb2tpbmcSLy5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5DaGVja091dEJv",
-            "b2tpbmdSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2lu",
-            "ZxJsChFDcmVhdGVCb29raW5nVXNlchIxLnNhbHRvLm5lYnVsYS5ib29raW5n",
-            "LnYxLkNyZWF0ZUJvb2tpbmdVc2VyUmVxdWVzdBokLnNhbHRvLm5lYnVsYS5i",
-            "b29raW5nLnYxLkJvb2tpbmdVc2VyEowBChdCYXRjaENyZWF0ZUJvb2tpbmdV",
-            "c2VycxI3LnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJhdGNoQ3JlYXRlQm9v",
-            "a2luZ1VzZXJzUmVxdWVzdBo4LnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJh",
-            "dGNoQ3JlYXRlQm9va2luZ1VzZXJzUmVzcG9uc2USZgoOR2V0Qm9va2luZ1Vz",
-            "ZXISLi5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5HZXRCb29raW5nVXNlclJl",
-            "cXVlc3QaJC5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5Cb29raW5nVXNlchJ3",
-            "ChBMaXN0Qm9va2luZ1VzZXJzEjAuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEu",
-            "TGlzdEJvb2tpbmdVc2Vyc1JlcXVlc3QaMS5zYWx0by5uZWJ1bGEuYm9va2lu",
-            "Zy52MS5MaXN0Qm9va2luZ1VzZXJzUmVzcG9uc2USXgoRRGVsZXRlQm9va2lu",
-            "Z1VzZXISMS5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5EZWxldGVCb29raW5n",
-            "VXNlclJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHlC3QEKH2NvbS5z",
-            "YWx0b2FwaXMubmVidWxhLmJvb2tpbmcudjFCDEJvb2tpbmdQcm90b1ABWkRn",
-            "aXRodWIuY29tL3NhbHRvYXBpcy1pbnRlcm5hbC9zYWx0b2FwaXMtZ28vbmVi",
-            "dWxhL2Jvb2tpbmcvdjE7Ym9va2luZ6oCG1NhbHRvYXBpcy5OZWJ1bGEuQm9v",
-            "a2luZy5WMcoCG1NhbHRvYXBpc1xOZWJ1bGFcQm9va2luZ1xWMeICJ0dQQk1l",
-            "dGFkYXRhXFNhbHRvYXBpc1xOZWJ1bGFcQm9va2luZ1xWMWIGcHJvdG8z"));
+            "BiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEkAKCnVuaXRfYXNz",
+            "ZXQYByABKAsyKi5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5Cb29raW5nLlVu",
+            "aXRBc3NldEgAEhUKDWFjY2Vzc19yaWdodHMYCCADKAkaGQoJVW5pdEFzc2V0",
+            "EgwKBHVuaXQYASABKAkiTgoFU3RhdGUSFQoRU1RBVEVfVU5TUEVDSUZJRUQQ",
+            "ABINCglTQ0hFRFVMRUQQARIOCgpDSEVDS0VEX0lOEAISDwoLQ0hFQ0tFRF9P",
+            "VVQQA0IHCgVhc3NldCKBAQoUQ3JlYXRlQm9va2luZ1JlcXVlc3QSDgoGcGFy",
+            "ZW50GAEgASgJEhcKCmJvb2tpbmdfaWQYAiABKAlIAIgBARIxCgdib29raW5n",
+            "GAMgASgLMiAuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2luZ0INCgtf",
+            "Ym9va2luZ19pZCIhChFHZXRCb29raW5nUmVxdWVzdBIMCgRuYW1lGAEgASgJ",
+            "Im4KE0xpc3RCb29raW5nc1JlcXVlc3QSDgoGcGFyZW50GAEgASgJEhEKCXBh",
+            "Z2Vfc2l6ZRgCIAEoBRISCgpwYWdlX3Rva2VuGAMgASgJEg4KBmZpbHRlchgE",
+            "IAEoCRIQCghvcmRlcl9ieRgFIAEoCSJjChRMaXN0Qm9va2luZ3NSZXNwb25z",
+            "ZRIyCghib29raW5ncxgBIAMoCzIgLnNhbHRvLm5lYnVsYS5ib29raW5nLnYx",
+            "LkJvb2tpbmcSFwoPbmV4dF9wYWdlX3Rva2VuGAIgASgJInoKFFVwZGF0ZUJv",
+            "b2tpbmdSZXF1ZXN0EjEKB2Jvb2tpbmcYASABKAsyIC5zYWx0by5uZWJ1bGEu",
+            "Ym9va2luZy52MS5Cb29raW5nEi8KC3VwZGF0ZV9tYXNrGAIgASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLkZpZWxkTWFzayIkChREZWxldGVCb29raW5nUmVxdWVz",
+            "dBIMCgRuYW1lGAEgASgJIiUKFUNoZWNrSW5Cb29raW5nUmVxdWVzdBIMCgRu",
+            "YW1lGAEgASgJIiYKFkNoZWNrT3V0Qm9va2luZ1JlcXVlc3QSDAoEbmFtZRgB",
+            "IAEoCSIpCgtCb29raW5nVXNlchIMCgRuYW1lGAEgASgJEgwKBHVzZXIYAiAB",
+            "KAkiZgoYQ3JlYXRlQm9va2luZ1VzZXJSZXF1ZXN0Eg4KBnBhcmVudBgBIAEo",
+            "CRI6Cgxib29raW5nX3VzZXIYAiABKAsyJC5zYWx0by5uZWJ1bGEuYm9va2lu",
+            "Zy52MS5Cb29raW5nVXNlciJ1Ch5CYXRjaENyZWF0ZUJvb2tpbmdVc2Vyc1Jl",
+            "cXVlc3QSDgoGcGFyZW50GAEgASgJEkMKCHJlcXVlc3RzGAIgAygLMjEuc2Fs",
+            "dG8ubmVidWxhLmJvb2tpbmcudjEuQ3JlYXRlQm9va2luZ1VzZXJSZXF1ZXN0",
+            "Il4KH0JhdGNoQ3JlYXRlQm9va2luZ1VzZXJzUmVzcG9uc2USOwoNYm9va2lu",
+            "Z191c2VycxgBIAMoCzIkLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkJvb2tp",
+            "bmdVc2VyIiUKFUdldEJvb2tpbmdVc2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJ",
+            "InIKF0xpc3RCb29raW5nVXNlcnNSZXF1ZXN0Eg4KBnBhcmVudBgBIAEoCRIR",
+            "CglwYWdlX3NpemUYAiABKAUSEgoKcGFnZV90b2tlbhgDIAEoCRIOCgZmaWx0",
+            "ZXIYBCABKAkSEAoIb3JkZXJfYnkYBSABKAkicAoYTGlzdEJvb2tpbmdVc2Vy",
+            "c1Jlc3BvbnNlEjsKDWJvb2tpbmdfdXNlcnMYASADKAsyJC5zYWx0by5uZWJ1",
+            "bGEuYm9va2luZy52MS5Cb29raW5nVXNlchIXCg9uZXh0X3BhZ2VfdG9rZW4Y",
+            "AiABKAkiKAoYRGVsZXRlQm9va2luZ1VzZXJSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAky/QkKDkJvb2tpbmdTZXJ2aWNlEmAKDUNyZWF0ZUJvb2tpbmcSLS5zYWx0",
+            "by5uZWJ1bGEuYm9va2luZy52MS5DcmVhdGVCb29raW5nUmVxdWVzdBogLnNh",
+            "bHRvLm5lYnVsYS5ib29raW5nLnYxLkJvb2tpbmcSWgoKR2V0Qm9va2luZxIq",
+            "LnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkdldEJvb2tpbmdSZXF1ZXN0GiAu",
+            "c2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9va2luZxJrCgxMaXN0Qm9va2lu",
+            "Z3MSLC5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5MaXN0Qm9va2luZ3NSZXF1",
+            "ZXN0Gi0uc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuTGlzdEJvb2tpbmdzUmVz",
+            "cG9uc2USYAoNVXBkYXRlQm9va2luZxItLnNhbHRvLm5lYnVsYS5ib29raW5n",
+            "LnYxLlVwZGF0ZUJvb2tpbmdSZXF1ZXN0GiAuc2FsdG8ubmVidWxhLmJvb2tp",
+            "bmcudjEuQm9va2luZxJWCg1EZWxldGVCb29raW5nEi0uc2FsdG8ubmVidWxh",
+            "LmJvb2tpbmcudjEuRGVsZXRlQm9va2luZ1JlcXVlc3QaFi5nb29nbGUucHJv",
+            "dG9idWYuRW1wdHkSYgoOQ2hlY2tJbkJvb2tpbmcSLi5zYWx0by5uZWJ1bGEu",
+            "Ym9va2luZy52MS5DaGVja0luQm9va2luZ1JlcXVlc3QaIC5zYWx0by5uZWJ1",
+            "bGEuYm9va2luZy52MS5Cb29raW5nEmQKD0NoZWNrT3V0Qm9va2luZxIvLnNh",
+            "bHRvLm5lYnVsYS5ib29raW5nLnYxLkNoZWNrT3V0Qm9va2luZ1JlcXVlc3Qa",
+            "IC5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5Cb29raW5nEmwKEUNyZWF0ZUJv",
+            "b2tpbmdVc2VyEjEuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQ3JlYXRlQm9v",
+            "a2luZ1VzZXJSZXF1ZXN0GiQuc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQm9v",
+            "a2luZ1VzZXISjAEKF0JhdGNoQ3JlYXRlQm9va2luZ1VzZXJzEjcuc2FsdG8u",
+            "bmVidWxhLmJvb2tpbmcudjEuQmF0Y2hDcmVhdGVCb29raW5nVXNlcnNSZXF1",
+            "ZXN0Gjguc2FsdG8ubmVidWxhLmJvb2tpbmcudjEuQmF0Y2hDcmVhdGVCb29r",
+            "aW5nVXNlcnNSZXNwb25zZRJmCg5HZXRCb29raW5nVXNlchIuLnNhbHRvLm5l",
+            "YnVsYS5ib29raW5nLnYxLkdldEJvb2tpbmdVc2VyUmVxdWVzdBokLnNhbHRv",
+            "Lm5lYnVsYS5ib29raW5nLnYxLkJvb2tpbmdVc2VyEncKEExpc3RCb29raW5n",
+            "VXNlcnMSMC5zYWx0by5uZWJ1bGEuYm9va2luZy52MS5MaXN0Qm9va2luZ1Vz",
+            "ZXJzUmVxdWVzdBoxLnNhbHRvLm5lYnVsYS5ib29raW5nLnYxLkxpc3RCb29r",
+            "aW5nVXNlcnNSZXNwb25zZRJeChFEZWxldGVCb29raW5nVXNlchIxLnNhbHRv",
+            "Lm5lYnVsYS5ib29raW5nLnYxLkRlbGV0ZUJvb2tpbmdVc2VyUmVxdWVzdBoW",
+            "Lmdvb2dsZS5wcm90b2J1Zi5FbXB0eULdAQofY29tLnNhbHRvYXBpcy5uZWJ1",
+            "bGEuYm9va2luZy52MUIMQm9va2luZ1Byb3RvUAFaRGdpdGh1Yi5jb20vc2Fs",
+            "dG9hcGlzLWludGVybmFsL3NhbHRvYXBpcy1nby9uZWJ1bGEvYm9va2luZy92",
+            "MTtib29raW5nqgIbU2FsdG9hcGlzLk5lYnVsYS5Cb29raW5nLlYxygIbU2Fs",
+            "dG9hcGlzXE5lYnVsYVxCb29raW5nXFYx4gInR1BCTWV0YWRhdGFcU2FsdG9h",
+            "cGlzXE5lYnVsYVxCb29raW5nXFYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.Booking), global::Saltoapis.Nebula.Booking.V1.Booking.Parser, new[]{ "Name", "StartTime", "EndTime", "State", "CheckInTime", "CheckOutTime", "Unit", "AccessRights" }, new[]{ "Asset" }, new[]{ typeof(global::Saltoapis.Nebula.Booking.V1.Booking.Types.State) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.Booking), global::Saltoapis.Nebula.Booking.V1.Booking.Parser, new[]{ "Name", "StartTime", "EndTime", "State", "CheckInTime", "CheckOutTime", "UnitAsset", "AccessRights" }, new[]{ "Asset" }, new[]{ typeof(global::Saltoapis.Nebula.Booking.V1.Booking.Types.State) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset), global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset.Parser, new[]{ "Unit" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.CreateBookingRequest), global::Saltoapis.Nebula.Booking.V1.CreateBookingRequest.Parser, new[]{ "Parent", "BookingId", "Booking" }, new[]{ "BookingId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.GetBookingRequest), global::Saltoapis.Nebula.Booking.V1.GetBookingRequest.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Saltoapis.Nebula.Booking.V1.ListBookingsRequest), global::Saltoapis.Nebula.Booking.V1.ListBookingsRequest.Parser, new[]{ "Parent", "PageSize", "PageToken", "Filter", "OrderBy" }, null, null, null, null),
@@ -173,8 +175,8 @@ namespace Saltoapis.Nebula.Booking.V1 {
       checkOutTime_ = other.checkOutTime_ != null ? other.checkOutTime_.Clone() : null;
       accessRights_ = other.accessRights_.Clone();
       switch (other.AssetCase) {
-        case AssetOneofCase.Unit:
-          Unit = other.Unit;
+        case AssetOneofCase.UnitAsset:
+          UnitAsset = other.UnitAsset.Clone();
           break;
       }
 
@@ -283,32 +285,18 @@ namespace Saltoapis.Nebula.Booking.V1 {
       }
     }
 
-    /// <summary>Field number for the "unit" field.</summary>
-    public const int UnitFieldNumber = 7;
+    /// <summary>Field number for the "unit_asset" field.</summary>
+    public const int UnitAssetFieldNumber = 7;
     /// <summary>
-    /// The unit resource reference assigned to the booking.
+    /// The unit asset assigned to the booking.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Unit {
-      get { return HasUnit ? (string) asset_ : ""; }
+    public global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset UnitAsset {
+      get { return assetCase_ == AssetOneofCase.UnitAsset ? (global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset) asset_ : null; }
       set {
-        asset_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-        assetCase_ = AssetOneofCase.Unit;
-      }
-    }
-    /// <summary>Gets whether the "unit" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasUnit {
-      get { return assetCase_ == AssetOneofCase.Unit; }
-    }
-    /// <summary> Clears the value of the oneof if it's currently set to "unit" </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearUnit() {
-      if (HasUnit) {
-        ClearAsset();
+        asset_ = value;
+        assetCase_ = value == null ? AssetOneofCase.None : AssetOneofCase.UnitAsset;
       }
     }
 
@@ -335,7 +323,7 @@ namespace Saltoapis.Nebula.Booking.V1 {
     /// <summary>Enum of possible cases for the "asset" oneof.</summary>
     public enum AssetOneofCase {
       None = 0,
-      Unit = 7,
+      UnitAsset = 7,
     }
     private AssetOneofCase assetCase_ = AssetOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -372,7 +360,7 @@ namespace Saltoapis.Nebula.Booking.V1 {
       if (State != other.State) return false;
       if (!object.Equals(CheckInTime, other.CheckInTime)) return false;
       if (!object.Equals(CheckOutTime, other.CheckOutTime)) return false;
-      if (Unit != other.Unit) return false;
+      if (!object.Equals(UnitAsset, other.UnitAsset)) return false;
       if(!accessRights_.Equals(other.accessRights_)) return false;
       if (AssetCase != other.AssetCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -388,7 +376,7 @@ namespace Saltoapis.Nebula.Booking.V1 {
       if (State != global::Saltoapis.Nebula.Booking.V1.Booking.Types.State.Unspecified) hash ^= State.GetHashCode();
       if (checkInTime_ != null) hash ^= CheckInTime.GetHashCode();
       if (checkOutTime_ != null) hash ^= CheckOutTime.GetHashCode();
-      if (HasUnit) hash ^= Unit.GetHashCode();
+      if (assetCase_ == AssetOneofCase.UnitAsset) hash ^= UnitAsset.GetHashCode();
       hash ^= accessRights_.GetHashCode();
       hash ^= (int) assetCase_;
       if (_unknownFields != null) {
@@ -433,9 +421,9 @@ namespace Saltoapis.Nebula.Booking.V1 {
         output.WriteRawTag(50);
         output.WriteMessage(CheckOutTime);
       }
-      if (HasUnit) {
+      if (assetCase_ == AssetOneofCase.UnitAsset) {
         output.WriteRawTag(58);
-        output.WriteString(Unit);
+        output.WriteMessage(UnitAsset);
       }
       accessRights_.WriteTo(output, _repeated_accessRights_codec);
       if (_unknownFields != null) {
@@ -472,9 +460,9 @@ namespace Saltoapis.Nebula.Booking.V1 {
         output.WriteRawTag(50);
         output.WriteMessage(CheckOutTime);
       }
-      if (HasUnit) {
+      if (assetCase_ == AssetOneofCase.UnitAsset) {
         output.WriteRawTag(58);
-        output.WriteString(Unit);
+        output.WriteMessage(UnitAsset);
       }
       accessRights_.WriteTo(ref output, _repeated_accessRights_codec);
       if (_unknownFields != null) {
@@ -505,8 +493,8 @@ namespace Saltoapis.Nebula.Booking.V1 {
       if (checkOutTime_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CheckOutTime);
       }
-      if (HasUnit) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Unit);
+      if (assetCase_ == AssetOneofCase.UnitAsset) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UnitAsset);
       }
       size += accessRights_.CalculateSize(_repeated_accessRights_codec);
       if (_unknownFields != null) {
@@ -553,8 +541,11 @@ namespace Saltoapis.Nebula.Booking.V1 {
       }
       accessRights_.Add(other.accessRights_);
       switch (other.AssetCase) {
-        case AssetOneofCase.Unit:
-          Unit = other.Unit;
+        case AssetOneofCase.UnitAsset:
+          if (UnitAsset == null) {
+            UnitAsset = new global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset();
+          }
+          UnitAsset.MergeFrom(other.UnitAsset);
           break;
       }
 
@@ -614,7 +605,12 @@ namespace Saltoapis.Nebula.Booking.V1 {
             break;
           }
           case 58: {
-            Unit = input.ReadString();
+            global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset subBuilder = new global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset();
+            if (assetCase_ == AssetOneofCase.UnitAsset) {
+              subBuilder.MergeFrom(UnitAsset);
+            }
+            input.ReadMessage(subBuilder);
+            UnitAsset = subBuilder;
             break;
           }
           case 66: {
@@ -677,7 +673,12 @@ namespace Saltoapis.Nebula.Booking.V1 {
             break;
           }
           case 58: {
-            Unit = input.ReadString();
+            global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset subBuilder = new global::Saltoapis.Nebula.Booking.V1.Booking.Types.UnitAsset();
+            if (assetCase_ == AssetOneofCase.UnitAsset) {
+              subBuilder.MergeFrom(UnitAsset);
+            }
+            input.ReadMessage(subBuilder);
+            UnitAsset = subBuilder;
             break;
           }
           case 66: {
@@ -715,6 +716,212 @@ namespace Saltoapis.Nebula.Booking.V1 {
         /// The booking is checked out.
         /// </summary>
         [pbr::OriginalName("CHECKED_OUT")] CheckedOut = 3,
+      }
+
+      /// <summary>
+      /// A unit used as the asset of a booking.
+      /// Contains the Unit resource reference together with properties specific to
+      /// the relationship between the booking and that unit.
+      /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class UnitAsset : pb::IMessage<UnitAsset>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<UnitAsset> _parser = new pb::MessageParser<UnitAsset>(() => new UnitAsset());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<UnitAsset> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Saltoapis.Nebula.Booking.V1.Booking.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public UnitAsset() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public UnitAsset(UnitAsset other) : this() {
+          unit_ = other.unit_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public UnitAsset Clone() {
+          return new UnitAsset(this);
+        }
+
+        /// <summary>Field number for the "unit" field.</summary>
+        public const int UnitFieldNumber = 1;
+        private string unit_ = "";
+        /// <summary>
+        /// The unit resource associated with the booking.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Unit {
+          get { return unit_; }
+          set {
+            unit_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as UnitAsset);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(UnitAsset other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Unit != other.Unit) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Unit.Length != 0) hash ^= Unit.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Unit.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Unit);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Unit.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Unit);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Unit.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Unit);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(UnitAsset other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Unit.Length != 0) {
+            Unit = other.Unit;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Unit = input.ReadString();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                Unit = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
       }
 
     }
