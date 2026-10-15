@@ -4,9 +4,7 @@ package(default_visibility = ['//:__subpackages__'])
 
 csharp_nunit_test(
     name = 'interceptor_test',
-    srcs = [
-        'InterceptorTest.cs',
-    ],
+    srcs = glob(['*.cs']),
     deps = [
         '//src/Saltoapis.Auth:Saltoapis.Auth',
         '@paket.test//grpc.core',
